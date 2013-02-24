@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>youngstown</name>
+<Schema name="youngstown" id="youngstown">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Youngstown</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#youngstown">
+		<SimpleData name="Name">Youngstown</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">87208</SimpleData>
+		<SimpleData name="PLACENS">01215729</SimpleData>
+		<SimpleData name="GEOID">4287208</SimpleData>
+		<SimpleData name="NAMELSAD">Youngstown borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">288369</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2797826</SimpleData>
+		<SimpleData name="INTPTLON">-079.3658842</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.369213,40.280936 -79.36844,40.280971 -79.367514,40.281014 -79.366746,40.281152 -79.366326,40.281228 -79.36619,40.281253 -79.365416,40.281739 -79.365107,40.281933 -79.365059,40.281981 -79.364806,40.282144 -79.364795,40.282173 -79.364758,40.282229 -79.364635,40.282338 -79.364219,40.282315 -79.363867,40.282296 -79.36144,40.282159 -79.361225,40.28187 -79.360955,40.281505 -79.360801,40.281297 -79.36079,40.281282 -79.362992,40.279398 -79.363103,40.279301 -79.363314,40.279095 -79.363683,40.278668 -79.363701,40.278646 -79.363748,40.278525 -79.363756,40.278508 -79.363779,40.278459 -79.363788,40.278443 -79.363967,40.278242 -79.364023,40.27818 -79.36449,40.277629 -79.364548,40.277561 -79.36466,40.277421 -79.364666,40.277412 -79.364687,40.277386 -79.364694,40.277378 -79.364904,40.27713 -79.365026,40.27699 -79.365626,40.277272 -79.366216,40.277551 -79.36633,40.277613 -79.366436,40.277645 -79.367489,40.277822 -79.367614,40.27784 -79.368062,40.277907 -79.368085,40.277861 -79.368289,40.277471 -79.368397,40.277261 -79.368595,40.276879 -79.368746,40.276649 -79.369063,40.27701 -79.369357,40.277338 -79.369794,40.278108 -79.370053,40.278565 -79.370064,40.278742 -79.370205,40.280891 -79.369213,40.280936</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

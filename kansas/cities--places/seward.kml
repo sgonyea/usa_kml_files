@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>seward</name>
+<Schema name="seward" id="seward">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Seward</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#seward">
+		<SimpleData name="Name">Seward</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">64100</SimpleData>
+		<SimpleData name="PLACENS">02396579</SimpleData>
+		<SimpleData name="GEOID">2064100</SimpleData>
+		<SimpleData name="NAMELSAD">Seward city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">664518</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.1778200</SimpleData>
+		<SimpleData name="INTPTLON">-098.7942821</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.799006,38.181439 -98.798711,38.181437 -98.798687,38.181437 -98.797574,38.181401 -98.797326,38.181404 -98.796702,38.181411 -98.796018,38.181399 -98.794634,38.181401 -98.794012,38.181401 -98.793473,38.181398 -98.792058,38.181389 -98.789673,38.181368 -98.789506,38.177256 -98.789379,38.174111 -98.790823,38.174125 -98.792295,38.17413 -98.793454,38.174139 -98.79393,38.174145 -98.79426,38.174172 -98.794587,38.174218 -98.794735,38.17427 -98.79477,38.174277 -98.795245,38.17437 -98.795704,38.174441 -98.795929,38.174476 -98.796095,38.174498 -98.796535,38.174557 -98.796908,38.174596 -98.797391,38.174625 -98.797697,38.174643 -98.798147,38.174646 -98.798996,38.174662 -98.79925,38.174667 -98.79937,38.174667 -98.799006,38.181439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

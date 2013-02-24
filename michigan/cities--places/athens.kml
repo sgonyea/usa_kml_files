@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>athens</name>
+<Schema name="athens" id="athens">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Athens</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#athens">
+		<SimpleData name="Name">Athens</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">03880</SimpleData>
+		<SimpleData name="PLACENS">02398004</SimpleData>
+		<SimpleData name="GEOID">2603880</SimpleData>
+		<SimpleData name="NAMELSAD">Athens village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2608355</SimpleData>
+		<SimpleData name="AWATER">15571</SimpleData>
+		<SimpleData name="INTPTLAT">+42.0873937</SimpleData>
+		<SimpleData name="INTPTLON">-085.2362175</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.235643,42.093779 -85.230813,42.093833 -85.226321,42.093906 -85.225794,42.093945 -85.22578,42.092962 -85.225765,42.091835 -85.225755,42.090317 -85.225649,42.079401 -85.235475,42.079309 -85.237941,42.079296 -85.240175,42.079273 -85.24541,42.079228 -85.245217,42.0822 -85.245258,42.085363 -85.245273,42.086509 -85.245524,42.089329 -85.245517,42.089507 -85.245569,42.093875 -85.235643,42.093779</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

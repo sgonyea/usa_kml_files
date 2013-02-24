@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sikes</name>
+<Schema name="sikes" id="sikes">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sikes</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sikes">
+		<SimpleData name="Name">Sikes</SimpleData>
+		<SimpleData name="STATEFP">22</SimpleData>
+		<SimpleData name="PLACEFP">70385</SimpleData>
+		<SimpleData name="PLACENS">02407546</SimpleData>
+		<SimpleData name="GEOID">2270385</SimpleData>
+		<SimpleData name="NAMELSAD">Sikes village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4047065</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.0789812</SimpleData>
+		<SimpleData name="INTPTLON">-092.4862699</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.500971,32.086193 -92.500946,32.087708 -92.49999,32.087705 -92.498438,32.087667 -92.497098,32.087636 -92.495054,32.087635 -92.488924,32.087634 -92.486881,32.087634 -92.486765,32.087632 -92.486417,32.087626 -92.486302,32.087625 -92.481968,32.087628 -92.47528,32.087635 -92.475345,32.081324 -92.47539,32.076992 -92.475437,32.073936 -92.475501,32.069807 -92.480537,32.069769 -92.483593,32.069747 -92.484972,32.069737 -92.48911,32.069709 -92.49049,32.0697 -92.492418,32.069704 -92.496224,32.069714 -92.496204,32.071692 -92.496186,32.07362 -92.496151,32.076811 -92.496068,32.08446 -92.497996,32.084542 -92.50013,32.084635 -92.500939,32.084612 -92.500995,32.084853 -92.500971,32.086193</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

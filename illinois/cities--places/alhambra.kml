@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>alhambra</name>
+<Schema name="alhambra" id="alhambra">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Alhambra</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alhambra">
+		<SimpleData name="Name">Alhambra</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">00737</SimpleData>
+		<SimpleData name="PLACENS">02397932</SimpleData>
+		<SimpleData name="GEOID">1700737</SimpleData>
+		<SimpleData name="NAMELSAD">Alhambra village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1960412</SimpleData>
+		<SimpleData name="AWATER">21078</SimpleData>
+		<SimpleData name="INTPTLAT">+38.8874457</SimpleData>
+		<SimpleData name="INTPTLON">-089.7368757</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.749742,38.888055 -89.749718,38.888417 -89.7497,38.889005 -89.749686,38.889999 -89.749679,38.891785 -89.743755,38.891755 -89.743282,38.891754 -89.74281,38.891752 -89.740052,38.891743 -89.739108,38.89174 -89.735844,38.89173 -89.735001,38.891727 -89.730708,38.89174 -89.730095,38.891765 -89.729227,38.891801 -89.726528,38.891912 -89.724138,38.891892 -89.723423,38.891856 -89.723519,38.888252 -89.724143,38.888262 -89.724062,38.884649 -89.724375,38.884679 -89.72622,38.88467 -89.726284,38.880048 -89.726513,38.880044 -89.73067,38.879967 -89.730772,38.884564 -89.730773,38.884615 -89.732208,38.884613 -89.733686,38.884612 -89.735163,38.88461 -89.73657,38.884608 -89.737172,38.884656 -89.738988,38.884661 -89.740166,38.884654 -89.741733,38.884646 -89.74184,38.884645 -89.744914,38.884646 -89.744935,38.884647 -89.745315,38.884626 -89.746859,38.884644 -89.748215,38.884675 -89.749751,38.884662 -89.749738,38.886314 -89.749747,38.887629 -89.749742,38.888055</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

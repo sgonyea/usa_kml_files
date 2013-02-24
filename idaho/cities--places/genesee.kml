@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>genesee</name>
+<Schema name="genesee" id="genesee">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Genesee</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#genesee">
+		<SimpleData name="Name">Genesee</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">30160</SimpleData>
+		<SimpleData name="PLACENS">02410580</SimpleData>
+		<SimpleData name="GEOID">1630160</SimpleData>
+		<SimpleData name="NAMELSAD">Genesee city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1699779</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.5514854</SimpleData>
+		<SimpleData name="INTPTLON">-116.9288701</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-116.939153,46.543717 -116.939072,46.544155 -116.938958,46.549568 -116.938963,46.549655 -116.93911,46.55232 -116.939183,46.553656 -116.939178,46.553799 -116.939152,46.55499 -116.939072,46.556722 -116.934607,46.556726 -116.934446,46.556736 -116.933129,46.556704 -116.933163,46.554425 -116.932064,46.554415 -116.932062,46.553741 -116.931312,46.553737 -116.930427,46.553728 -116.930418,46.554394 -116.929418,46.554404 -116.929429,46.553717 -116.928358,46.553707 -116.92833,46.556716 -116.92803,46.556797 -116.925247,46.556783 -116.923645,46.556769 -116.920871,46.556744 -116.920857,46.557125 -116.920196,46.557121 -116.92018,46.556738 -116.918374,46.556723 -116.917601,46.556741 -116.917609,46.555107 -116.917607,46.552589 -116.917661,46.550717 -116.917672,46.550235 -116.917652,46.549489 -116.917648,46.54931 -116.917652,46.549202 -116.917656,46.549027 -116.917658,46.548957 -116.917667,46.547598 -116.91776,46.547606 -116.922336,46.54764 -116.923644,46.546951 -116.923673,46.547652 -116.9246,46.547662 -116.928262,46.547682 -116.928262,46.547727 -116.928248,46.548525 -116.928227,46.548806 -116.9388,46.543552 -116.939188,46.543402 -116.939153,46.543717</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

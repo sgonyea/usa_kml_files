@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bartlett</name>
+<Schema name="bartlett" id="bartlett">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bartlett</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bartlett">
+		<SimpleData name="Name">Bartlett</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">04350</SimpleData>
+		<SimpleData name="PLACENS">02394072</SimpleData>
+		<SimpleData name="GEOID">2004350</SimpleData>
+		<SimpleData name="NAMELSAD">Bartlett city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">342153</SimpleData>
+		<SimpleData name="AWATER">187</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0549132</SimpleData>
+		<SimpleData name="INTPTLON">-095.2115937</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.21352,37.052104 -95.213509,37.052224 -95.213436,37.052285 -95.213401,37.052289 -95.213342,37.054881 -95.213343,37.055227 -95.213463,37.05605 -95.213487,37.057032 -95.213496,37.05816 -95.213528,37.058686 -95.213452,37.058688 -95.21183,37.058721 -95.21117,37.058735 -95.210953,37.058739 -95.208831,37.05878 -95.208855,37.056737 -95.208876,37.054927 -95.208877,37.054846 -95.208878,37.054787 -95.208902,37.053178 -95.208961,37.05108 -95.211041,37.051131 -95.211864,37.051135 -95.212194,37.051136 -95.212529,37.051138 -95.213545,37.051145 -95.21352,37.052104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

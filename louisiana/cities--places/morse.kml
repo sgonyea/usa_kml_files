@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>morse</name>
+<Schema name="morse" id="morse">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Morse</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#morse">
+		<SimpleData name="Name">Morse</SimpleData>
+		<SimpleData name="STATEFP">22</SimpleData>
+		<SimpleData name="PLACEFP">52320</SimpleData>
+		<SimpleData name="PLACENS">02407507</SimpleData>
+		<SimpleData name="GEOID">2252320</SimpleData>
+		<SimpleData name="NAMELSAD">Morse village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3628021</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+30.1220970</SimpleData>
+		<SimpleData name="INTPTLON">-092.4984352</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.506557,30.110864 -92.506605,30.124764 -92.506402,30.125219 -92.506704,30.132206 -92.500135,30.132175 -92.49901,30.132206 -92.498221,30.132226 -92.498031,30.132225 -92.489618,30.132199 -92.48968,30.125205 -92.489712,30.124826 -92.48973,30.113657 -92.489731,30.113364 -92.497906,30.113805 -92.498023,30.113812 -92.498021,30.112617 -92.49802,30.1106 -92.498088,30.110599 -92.499238,30.110608 -92.500067,30.11063 -92.500354,30.110625 -92.503569,30.110609 -92.50646,30.110594 -92.506555,30.110593 -92.506557,30.110864</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

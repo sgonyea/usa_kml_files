@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>west_sunbury</name>
+<Schema name="west_sunbury" id="west_sunbury">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>West Sunbury</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#west_sunbury">
+		<SimpleData name="Name">West Sunbury</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">84064</SimpleData>
+		<SimpleData name="PLACENS">01215006</SimpleData>
+		<SimpleData name="GEOID">4284064</SimpleData>
+		<SimpleData name="NAMELSAD">West Sunbury borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">285120</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0060596</SimpleData>
+		<SimpleData name="INTPTLON">-079.8964559</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.896038,41.00939 -79.893729,41.009285 -79.893973,41.007581 -79.894062,41.006959 -79.894098,41.006701 -79.894153,41.006318 -79.894207,41.005939 -79.894265,41.005535 -79.894445,41.004276 -79.894475,41.004066 -79.894698,41.002505 -79.896953,41.002674 -79.897426,41.00271 -79.897806,41.002738 -79.899065,41.002833 -79.899024,41.00328 -79.898768,41.005731 -79.898738,41.006112 -79.898668,41.006704 -79.89858,41.007554 -79.898512,41.008073 -79.898473,41.008437 -79.89836,41.009496 -79.896038,41.00939</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

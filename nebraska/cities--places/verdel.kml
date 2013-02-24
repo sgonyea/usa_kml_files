@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>verdel</name>
+<Schema name="verdel" id="verdel">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Verdel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#verdel">
+		<SimpleData name="Name">Verdel</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">50335</SimpleData>
+		<SimpleData name="PLACENS">02400054</SimpleData>
+		<SimpleData name="GEOID">3150335</SimpleData>
+		<SimpleData name="NAMELSAD">Verdel village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">447096</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8113989</SimpleData>
+		<SimpleData name="INTPTLON">-098.1932956</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.198938,42.810444 -98.198918,42.81085 -98.198894,42.811375 -98.198856,42.811761 -98.198719,42.813182 -98.198707,42.813525 -98.198706,42.813578 -98.197508,42.81357 -98.194047,42.81358 -98.193936,42.813549 -98.193903,42.813554 -98.193811,42.813568 -98.19365,42.813574 -98.193233,42.813562 -98.192536,42.813542 -98.18746,42.813588 -98.187412,42.810887 -98.187392,42.809653 -98.189504,42.809697 -98.189559,42.809352 -98.192561,42.809484 -98.192548,42.809013 -98.192546,42.808923 -98.192794,42.808934 -98.197672,42.809145 -98.197855,42.80915 -98.197968,42.809158 -98.198942,42.809201 -98.198997,42.809201 -98.198938,42.810444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

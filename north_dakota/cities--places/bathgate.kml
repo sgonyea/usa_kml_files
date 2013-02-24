@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bathgate</name>
+<Schema name="bathgate" id="bathgate">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bathgate</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bathgate">
+		<SimpleData name="Name">Bathgate</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">05260</SimpleData>
+		<SimpleData name="PLACENS">01035924</SimpleData>
+		<SimpleData name="GEOID">3805260</SimpleData>
+		<SimpleData name="NAMELSAD">Bathgate city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">699317</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.8803166</SimpleData>
+		<SimpleData name="INTPTLON">-097.4738216</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.485075,48.877302 -97.482845,48.877314 -97.4822,48.877317 -97.481399,48.877302 -97.480735,48.877207 -97.479644,48.876905 -97.479125,48.876871 -97.478736,48.876955 -97.478454,48.877092 -97.478381,48.877132 -97.478385,48.877663 -97.478427,48.878902 -97.478423,48.87927 -97.478503,48.880348 -97.478648,48.883877 -97.478683,48.884745 -97.477785,48.884744 -97.477513,48.884744 -97.476455,48.884752 -97.476348,48.884142 -97.475664,48.884145 -97.474967,48.884149 -97.46797,48.884195 -97.467978,48.883667 -97.467746,48.881116 -97.467596,48.880357 -97.467642,48.880277 -97.46759,48.879628 -97.46751,48.878632 -97.467467,48.878088 -97.467421,48.877355 -97.468817,48.877354 -97.470183,48.877352 -97.471456,48.877351 -97.471739,48.877351 -97.471374,48.87658 -97.472369,48.876576 -97.476268,48.876474 -97.478347,48.876412 -97.482267,48.876469 -97.485071,48.87646 -97.485075,48.877302</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

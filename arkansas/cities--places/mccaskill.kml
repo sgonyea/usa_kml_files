@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mccaskill</name>
+<Schema name="mccaskill" id="mccaskill">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>McCaskill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mccaskill">
+		<SimpleData name="Name">McCaskill</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">42410</SimpleData>
+		<SimpleData name="PLACENS">02406122</SimpleData>
+		<SimpleData name="GEOID">0542410</SimpleData>
+		<SimpleData name="NAMELSAD">McCaskill town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1912126</SimpleData>
+		<SimpleData name="AWATER">9181</SimpleData>
+		<SimpleData name="INTPTLAT">+33.9195068</SimpleData>
+		<SimpleData name="INTPTLON">-093.6368561</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.650489,33.920423 -93.650386,33.924107 -93.645825,33.924061 -93.64166,33.924041 -93.634565,33.923938 -93.633153,33.923939 -93.633104,33.916661 -93.632782,33.916653 -93.632781,33.91659 -93.632783,33.914868 -93.632829,33.913122 -93.641485,33.913221 -93.650243,33.913342 -93.650245,33.913369 -93.650257,33.913702 -93.650137,33.915067 -93.650068,33.917006 -93.650574,33.917017 -93.650489,33.920423</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

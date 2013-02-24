@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elmo</name>
+<Schema name="elmo" id="elmo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elmo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elmo">
+		<SimpleData name="Name">Elmo</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">22024</SimpleData>
+		<SimpleData name="PLACENS">02394674</SimpleData>
+		<SimpleData name="GEOID">2922024</SimpleData>
+		<SimpleData name="NAMELSAD">Elmo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">601922</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5188439</SimpleData>
+		<SimpleData name="INTPTLON">-095.1168133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.121315,40.516774 -95.121331,40.51846 -95.121324,40.51908 -95.121305,40.520941 -95.1213,40.521562 -95.121301,40.521735 -95.121305,40.522256 -95.121306,40.522344 -95.12122,40.522342 -95.120275,40.522299 -95.11744,40.52217 -95.116495,40.522128 -95.115984,40.522122 -95.114957,40.522112 -95.114451,40.522111 -95.113941,40.522111 -95.113734,40.522103 -95.113271,40.522086 -95.113116,40.522084 -95.11291,40.522083 -95.112532,40.522079 -95.112363,40.522078 -95.111399,40.522078 -95.111128,40.522078 -95.111022,40.522077 -95.111031,40.520989 -95.111048,40.519131 -95.111059,40.518523 -95.111854,40.518522 -95.111948,40.518522 -95.112942,40.518516 -95.113088,40.518512 -95.113141,40.518511 -95.113537,40.518511 -95.113742,40.518504 -95.113942,40.518499 -95.113938,40.518395 -95.113928,40.518084 -95.113925,40.517981 -95.113912,40.516868 -95.113906,40.516244 -95.113899,40.515601 -95.113892,40.514959 -95.115,40.514959 -95.115321,40.514959 -95.116435,40.514959 -95.117931,40.514939 -95.11812,40.514936 -95.119131,40.514923 -95.119972,40.514912 -95.121298,40.514894 -95.121315,40.516774</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

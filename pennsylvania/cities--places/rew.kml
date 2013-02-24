@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rew</name>
+<Schema name="rew" id="rew">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rew</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rew">
+		<SimpleData name="Name">Rew</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">64296</SimpleData>
+		<SimpleData name="PLACENS">02631299</SimpleData>
+		<SimpleData name="GEOID">4264296</SimpleData>
+		<SimpleData name="NAMELSAD">Rew CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2541516</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8992067</SimpleData>
+		<SimpleData name="INTPTLON">-078.5388016</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.546182,41.902256 -78.545665,41.903583 -78.541055,41.907016 -78.540659,41.907614 -78.540307,41.908019 -78.540401,41.908635 -78.540242,41.908712 -78.539349,41.909501 -78.538897,41.909831 -78.53856,41.910036 -78.538115,41.910249 -78.537604,41.910456 -78.537342,41.910552 -78.536884,41.910776 -78.536527,41.911011 -78.536191,41.911267 -78.535922,41.911544 -78.535731,41.911756 -78.534846,41.912429 -78.534456,41.912711 -78.534063,41.913105 -78.534051,41.913136 -78.53396,41.913364 -78.533898,41.913556 -78.533882,41.914033 -78.533879,41.914122 -78.533845,41.914254 -78.533818,41.914363 -78.533743,41.914555 -78.533655,41.914699 -78.533438,41.914816 -78.533118,41.914914 -78.532715,41.914991 -78.532712,41.914464 -78.532689,41.909715 -78.53267,41.906517 -78.532666,41.905432 -78.532657,41.903836 -78.532642,41.89994 -78.532624,41.895325 -78.532624,41.895008 -78.53261,41.891368 -78.532589,41.88816 -78.539427,41.888164 -78.540332,41.888125 -78.548831,41.89602 -78.546182,41.902256</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

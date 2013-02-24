@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>palm_beach_shores</name>
+<Schema name="palm_beach_shores" id="palm_beach_shores">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Palm Beach Shores</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#palm_beach_shores">
+		<SimpleData name="Name">Palm Beach Shores</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">54150</SimpleData>
+		<SimpleData name="PLACENS">02407068</SimpleData>
+		<SimpleData name="GEOID">1254150</SimpleData>
+		<SimpleData name="NAMELSAD">Palm Beach Shores town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">704239</SimpleData>
+		<SimpleData name="AWATER">607788</SimpleData>
+		<SimpleData name="INTPTLAT">+26.7773522</SimpleData>
+		<SimpleData name="INTPTLON">-080.0343766</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.041462,26.782083 -80.040323,26.782075 -80.038977,26.781708 -80.037063,26.781642 -80.035105,26.7817 -80.033801,26.78177 -80.032206,26.781674 -80.027909,26.78122 -80.027909,26.772939 -80.032143,26.773033 -80.037741,26.773035 -80.038739,26.772586 -80.039063,26.77244 -80.041467,26.772443 -80.041462,26.782083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

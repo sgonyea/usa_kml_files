@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>redmon</name>
+<Schema name="redmon" id="redmon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Redmon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#redmon">
+		<SimpleData name="Name">Redmon</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">63069</SimpleData>
+		<SimpleData name="PLACENS">02399054</SimpleData>
+		<SimpleData name="GEOID">1763069</SimpleData>
+		<SimpleData name="NAMELSAD">Redmon village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">383286</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6448306</SimpleData>
+		<SimpleData name="INTPTLON">-087.8614504</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.867273,39.645023 -87.867077,39.645062 -87.867101,39.6454 -87.86651,39.646416 -87.866439,39.64652 -87.865759,39.646454 -87.864952,39.646105 -87.86473,39.646011 -87.864723,39.646135 -87.864781,39.647037 -87.864796,39.647614 -87.863607,39.647622 -87.86325,39.647421 -87.862816,39.647165 -87.862881,39.645706 -87.862129,39.645784 -87.861647,39.646512 -87.861354,39.646481 -87.860771,39.647621 -87.859614,39.647635 -87.859607,39.64691 -87.858295,39.646338 -87.857942,39.646184 -87.85769,39.646075 -87.85585,39.646085 -87.855615,39.646087 -87.855609,39.645898 -87.855591,39.645398 -87.855548,39.644017 -87.856473,39.643984 -87.856675,39.643977 -87.85721,39.643967 -87.857958,39.643953 -87.85818,39.643947 -87.858404,39.643371 -87.858872,39.643312 -87.858842,39.641338 -87.859349,39.641323 -87.860521,39.641296 -87.860517,39.642006 -87.860921,39.642222 -87.861385,39.6424 -87.86232,39.642782 -87.862756,39.642916 -87.862762,39.643494 -87.862746,39.643646 -87.862716,39.643737 -87.862649,39.643808 -87.863666,39.643782 -87.864756,39.643756 -87.865305,39.643733 -87.865787,39.643713 -87.866144,39.643697 -87.866231,39.64372 -87.866269,39.643787 -87.866268,39.643807 -87.86739,39.643653 -87.867635,39.643654 -87.867659,39.644946 -87.867273,39.645023</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

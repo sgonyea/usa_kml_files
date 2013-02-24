@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>eagle</name>
+<Schema name="eagle" id="eagle">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Eagle</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#eagle">
+		<SimpleData name="Name">Eagle</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">23560</SimpleData>
+		<SimpleData name="PLACENS">02398767</SimpleData>
+		<SimpleData name="GEOID">2623560</SimpleData>
+		<SimpleData name="NAMELSAD">Eagle village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">310435</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8095195</SimpleData>
+		<SimpleData name="INTPTLON">-084.7906815</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.793503,42.813565 -84.790788,42.812906 -84.790046,42.812923 -84.789669,42.812524 -84.788585,42.812141 -84.788608,42.811215 -84.788609,42.81036 -84.78863,42.809442 -84.788656,42.808547 -84.788621,42.807665 -84.787308,42.807407 -84.785286,42.807014 -84.78394,42.806751 -84.783949,42.806515 -84.78616,42.806438 -84.788624,42.806569 -84.791677,42.806511 -84.793171,42.806535 -84.793388,42.808626 -84.793387,42.80892 -84.793581,42.812573 -84.793503,42.813565</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

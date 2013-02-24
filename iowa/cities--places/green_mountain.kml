@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>green_mountain</name>
+<Schema name="green_mountain" id="green_mountain">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Green Mountain</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#green_mountain">
+		<SimpleData name="Name">Green Mountain</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">32925</SimpleData>
+		<SimpleData name="PLACENS">02629966</SimpleData>
+		<SimpleData name="GEOID">1932925</SimpleData>
+		<SimpleData name="NAMELSAD">Green Mountain CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1776069</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1019172</SimpleData>
+		<SimpleData name="INTPTLON">-092.8196260</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.828354,42.100302 -92.828355,42.107461 -92.825916,42.10746 -92.825113,42.107461 -92.824418,42.107458 -92.822952,42.107454 -92.822335,42.107454 -92.821641,42.107456 -92.819906,42.107458 -92.819634,42.107454 -92.819227,42.107449 -92.815845,42.107441 -92.813614,42.107438 -92.813048,42.107438 -92.811768,42.107449 -92.811608,42.107449 -92.81154,42.107449 -92.811338,42.107449 -92.811271,42.10745 -92.810885,42.10745 -92.810894,42.09639 -92.825,42.096374 -92.825534,42.096377 -92.828355,42.096397 -92.828354,42.100302</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

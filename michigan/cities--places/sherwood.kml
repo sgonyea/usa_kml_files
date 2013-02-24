@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sherwood</name>
+<Schema name="sherwood" id="sherwood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sherwood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sherwood">
+		<SimpleData name="Name">Sherwood</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">73420</SimpleData>
+		<SimpleData name="PLACENS">02399806</SimpleData>
+		<SimpleData name="GEOID">2673420</SimpleData>
+		<SimpleData name="NAMELSAD">Sherwood village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2545204</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9995587</SimpleData>
+		<SimpleData name="INTPTLON">-085.2394240</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.244015,42.006771 -85.2437,42.006761 -85.242962,42.006759 -85.23938,42.006754 -85.237154,42.006738 -85.236517,42.006741 -85.236278,42.006742 -85.230125,42.006724 -85.229918,42.006707 -85.229819,41.999573 -85.2298,41.998051 -85.229734,41.993636 -85.229736,41.992286 -85.232213,41.992342 -85.239246,41.992346 -85.248933,41.992432 -85.248995,41.996328 -85.24905,41.999589 -85.249039,42.000912 -85.24909,42.002971 -85.249119,42.006808 -85.244015,42.006771</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

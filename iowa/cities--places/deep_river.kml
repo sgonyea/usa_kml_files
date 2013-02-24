@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>deep_river</name>
+<Schema name="deep_river" id="deep_river">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Deep River</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#deep_river">
+		<SimpleData name="Name">Deep River</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">19495</SimpleData>
+		<SimpleData name="PLACENS">02394485</SimpleData>
+		<SimpleData name="GEOID">1919495</SimpleData>
+		<SimpleData name="NAMELSAD">Deep River city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1101368</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.5811789</SimpleData>
+		<SimpleData name="INTPTLON">-092.3732274</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.382231,41.5801 -92.381183,41.580117 -92.380905,41.580122 -92.380263,41.580446 -92.379856,41.580652 -92.380477,41.58222 -92.380068,41.582329 -92.380155,41.584949 -92.380237,41.585479 -92.380001,41.585481 -92.376329,41.585513 -92.375578,41.585519 -92.375121,41.585522 -92.368674,41.585358 -92.365529,41.585304 -92.365545,41.583093 -92.365563,41.580726 -92.365576,41.57943 -92.367322,41.579333 -92.367261,41.578695 -92.367233,41.578407 -92.369404,41.578478 -92.369762,41.578481 -92.370112,41.578479 -92.370128,41.576712 -92.374929,41.576711 -92.374695,41.576275 -92.374648,41.575525 -92.374653,41.5754 -92.374639,41.575043 -92.374639,41.57487 -92.374632,41.574145 -92.373804,41.574145 -92.373272,41.574145 -92.373272,41.571997 -92.373887,41.571997 -92.375099,41.571997 -92.375057,41.574166 -92.375043,41.574869 -92.375033,41.57559 -92.375024,41.576308 -92.37503,41.576463 -92.37506,41.576714 -92.375197,41.576707 -92.375182,41.576476 -92.375465,41.576507 -92.376324,41.577317 -92.37682,41.577181 -92.378167,41.578511 -92.379309,41.578515 -92.379533,41.578516 -92.380181,41.579288 -92.381166,41.579158 -92.382249,41.579223 -92.382231,41.5801</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

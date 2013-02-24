@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gann_valley</name>
+<Schema name="gann_valley" id="gann_valley">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gann Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gann_valley">
+		<SimpleData name="Name">Gann Valley</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">23421</SimpleData>
+		<SimpleData name="PLACENS">02584554</SimpleData>
+		<SimpleData name="GEOID">4623421</SimpleData>
+		<SimpleData name="NAMELSAD">Gann Valley CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">205435</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.0335056</SimpleData>
+		<SimpleData name="INTPTLON">-098.9884213</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.991999,44.035807 -98.991115,44.035815 -98.986487,44.035855 -98.98614,44.035858 -98.986107,44.033805 -98.98611,44.031723 -98.98612,44.028602 -98.986249,44.028604 -98.986362,44.028617 -98.986395,44.028624 -98.986426,44.028644 -98.986446,44.028664 -98.986457,44.028691 -98.986463,44.028728 -98.986459,44.030744 -98.987959,44.030757 -98.987955,44.031111 -98.987946,44.031318 -98.987949,44.031712 -98.989422,44.031715 -98.990893,44.031717 -98.99092,44.032055 -98.990908,44.032746 -98.990844,44.03379 -98.99081,44.03379 -98.991154,44.034905 -98.99182,44.03529 -98.991999,44.035807</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cotter</name>
+<Schema name="cotter" id="cotter">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cotter</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cotter">
+		<SimpleData name="Name">Cotter</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">16725</SimpleData>
+		<SimpleData name="PLACENS">02393645</SimpleData>
+		<SimpleData name="GEOID">1916725</SimpleData>
+		<SimpleData name="NAMELSAD">Cotter city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">635742</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2939950</SimpleData>
+		<SimpleData name="INTPTLON">-091.4658079</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.477844,41.294471 -91.467466,41.295081 -91.46741,41.297306 -91.465179,41.297341 -91.465197,41.296658 -91.460825,41.29626 -91.460811,41.296462 -91.458068,41.296319 -91.458314,41.294189 -91.458639,41.29165 -91.458682,41.291295 -91.45872,41.291063 -91.465095,41.291769 -91.465294,41.291794 -91.467019,41.29201 -91.467885,41.292109 -91.468949,41.292245 -91.472339,41.292642 -91.472812,41.292698 -91.474839,41.29296 -91.47562,41.293046 -91.476078,41.293089 -91.477815,41.293116 -91.477825,41.293502 -91.477844,41.294471</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

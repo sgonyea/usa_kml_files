@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mondamin</name>
+<Schema name="mondamin" id="mondamin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mondamin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mondamin">
+		<SimpleData name="Name">Mondamin</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">53175</SimpleData>
+		<SimpleData name="PLACENS">02395369</SimpleData>
+		<SimpleData name="GEOID">1953175</SimpleData>
+		<SimpleData name="NAMELSAD">Mondamin city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1168558</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7100396</SimpleData>
+		<SimpleData name="INTPTLON">-096.0214961</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.026313,41.710568 -96.026269,41.7183 -96.025812,41.718292 -96.025428,41.718286 -96.025057,41.71828 -96.025036,41.718271 -96.024977,41.717809 -96.024884,41.717649 -96.024162,41.71764 -96.021484,41.717521 -96.021542,41.714551 -96.016339,41.714598 -96.016082,41.714588 -96.01592,41.711082 -96.015921,41.710827 -96.015936,41.710404 -96.016051,41.703805 -96.021465,41.703806 -96.024011,41.703824 -96.02634,41.70384 -96.026313,41.710568</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

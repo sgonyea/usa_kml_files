@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>garrison</name>
+<Schema name="garrison" id="garrison">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Garrison</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#garrison">
+		<SimpleData name="Name">Garrison</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">18300</SimpleData>
+		<SimpleData name="PLACENS">02398947</SimpleData>
+		<SimpleData name="GEOID">3118300</SimpleData>
+		<SimpleData name="NAMELSAD">Garrison village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">295885</SimpleData>
+		<SimpleData name="AWATER">6001</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1754424</SimpleData>
+		<SimpleData name="INTPTLON">-097.1633129</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.167407,41.175658 -97.167411,41.175867 -97.167365,41.176704 -97.167349,41.176998 -97.167322,41.177297 -97.166328,41.177287 -97.165925,41.177282 -97.16554,41.177277 -97.164146,41.177261 -97.162438,41.177241 -97.161148,41.177229 -97.159571,41.17722 -97.159087,41.177213 -97.158795,41.177219 -97.15868,41.177229 -97.157886,41.177226 -97.157835,41.175415 -97.157834,41.175364 -97.157845,41.175023 -97.157844,41.174843 -97.158171,41.174839 -97.158839,41.174835 -97.160697,41.174849 -97.16217,41.17487 -97.162445,41.174899 -97.162456,41.173687 -97.162471,41.172919 -97.167371,41.172958 -97.167377,41.173859 -97.167379,41.174159 -97.167397,41.174809 -97.1674,41.174898 -97.167561,41.175007 -97.167715,41.175109 -97.167407,41.175658</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

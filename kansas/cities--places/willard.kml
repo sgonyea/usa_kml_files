@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>willard</name>
+<Schema name="willard" id="willard">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Willard</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#willard">
+		<SimpleData name="Name">Willard</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">79250</SimpleData>
+		<SimpleData name="PLACENS">02397313</SimpleData>
+		<SimpleData name="GEOID">2079250</SimpleData>
+		<SimpleData name="NAMELSAD">Willard city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">275784</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.0939121</SimpleData>
+		<SimpleData name="INTPTLON">-095.9433357</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.947111,39.094721 -95.947183,39.095695 -95.946674,39.095659 -95.94668,39.09592 -95.946691,39.096428 -95.946696,39.096597 -95.938455,39.094463 -95.938391,39.094164 -95.938419,39.092937 -95.938766,39.092931 -95.939258,39.092951 -95.940127,39.092961 -95.940167,39.091995 -95.944068,39.091987 -95.94665,39.091982 -95.946651,39.092827 -95.946651,39.0929 -95.946697,39.092998 -95.947096,39.092992 -95.947111,39.094721</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

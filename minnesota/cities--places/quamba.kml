@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>quamba</name>
+<Schema name="quamba" id="quamba">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Quamba</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#quamba">
+		<SimpleData name="Name">Quamba</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">52756</SimpleData>
+		<SimpleData name="PLACENS">02396296</SimpleData>
+		<SimpleData name="GEOID">2752756</SimpleData>
+		<SimpleData name="NAMELSAD">Quamba city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1863165</SimpleData>
+		<SimpleData name="AWATER">1152</SimpleData>
+		<SimpleData name="INTPTLAT">+45.9151516</SimpleData>
+		<SimpleData name="INTPTLON">-093.1752106</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.184127,45.910577 -93.183959,45.911392 -93.183946,45.911983 -93.184055,45.915743 -93.184115,45.918139 -93.18414,45.919325 -93.180463,45.919298 -93.179223,45.919289 -93.179114,45.922969 -93.173656,45.922914 -93.168581,45.922851 -93.168686,45.917677 -93.168692,45.917047 -93.168716,45.915619 -93.166262,45.915582 -93.160922,45.915533 -93.160968,45.912602 -93.16097,45.912467 -93.160978,45.911943 -93.162021,45.911943 -93.167987,45.911955 -93.170324,45.911961 -93.171203,45.911963 -93.173817,45.91196 -93.173834,45.90911 -93.173863,45.908325 -93.178707,45.908334 -93.184203,45.908338 -93.184127,45.910577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

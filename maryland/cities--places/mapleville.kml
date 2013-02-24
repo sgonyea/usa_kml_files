@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mapleville</name>
+<Schema name="mapleville" id="mapleville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mapleville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mapleville">
+		<SimpleData name="Name">Mapleville</SimpleData>
+		<SimpleData name="STATEFP">24</SimpleData>
+		<SimpleData name="PLACEFP">50375</SimpleData>
+		<SimpleData name="PLACENS">02583652</SimpleData>
+		<SimpleData name="GEOID">2450375</SimpleData>
+		<SimpleData name="NAMELSAD">Mapleville CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1044938</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.5357021</SimpleData>
+		<SimpleData name="INTPTLON">-077.6462440</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.65107,39.53687 -77.65066,39.53685 -77.650213,39.536844 -77.6498,39.53684 -77.64934,39.53682 -77.649038,39.536785 -77.648281,39.541835 -77.64708,39.5418 -77.647051,39.542035 -77.64705,39.54205 -77.64702,39.54229 -77.646985,39.542767 -77.64697,39.54298 -77.646954,39.543178 -77.643084,39.543338 -77.639389,39.536528 -77.64332,39.53647 -77.644029,39.532877 -77.64257,39.53041 -77.642375,39.528903 -77.646069,39.528903 -77.647022,39.529145 -77.652492,39.530449 -77.65107,39.53687</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

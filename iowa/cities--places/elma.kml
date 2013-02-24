@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elma</name>
+<Schema name="elma" id="elma">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elma</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elma">
+		<SimpleData name="Name">Elma</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">25095</SimpleData>
+		<SimpleData name="PLACENS">02394669</SimpleData>
+		<SimpleData name="GEOID">1925095</SimpleData>
+		<SimpleData name="NAMELSAD">Elma city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3337308</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.2458725</SimpleData>
+		<SimpleData name="INTPTLON">-092.4393341</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.451945,43.241021 -92.451952,43.241695 -92.451942,43.242698 -92.451963,43.247089 -92.451964,43.247327 -92.451967,43.249319 -92.451844,43.249969 -92.45185,43.252416 -92.451853,43.253207 -92.451476,43.253206 -92.442847,43.253189 -92.441563,43.253173 -92.441409,43.253166 -92.44072,43.253178 -92.440623,43.253178 -92.435919,43.253184 -92.432458,43.253192 -92.431566,43.253195 -92.426558,43.253225 -92.426507,43.24999 -92.426757,43.249524 -92.426686,43.238664 -92.434198,43.238588 -92.435855,43.238572 -92.44141,43.238537 -92.442911,43.238509 -92.445186,43.238492 -92.451951,43.238432 -92.451945,43.241021</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

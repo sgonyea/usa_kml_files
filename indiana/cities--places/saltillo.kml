@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>saltillo</name>
+<Schema name="saltillo" id="saltillo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Saltillo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#saltillo">
+		<SimpleData name="Name">Saltillo</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">67626</SimpleData>
+		<SimpleData name="PLACENS">02396903</SimpleData>
+		<SimpleData name="GEOID">1867626</SimpleData>
+		<SimpleData name="NAMELSAD">Saltillo town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2981853</SimpleData>
+		<SimpleData name="AWATER">5397</SimpleData>
+		<SimpleData name="INTPTLAT">+38.6652245</SimpleData>
+		<SimpleData name="INTPTLON">-086.2974840</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.298575,38.673616 -86.289338,38.673546 -86.287199,38.673623 -86.286972,38.669833 -86.286948,38.662612 -86.286945,38.660079 -86.286946,38.658795 -86.289384,38.658802 -86.29005,38.658805 -86.293662,38.658865 -86.294418,38.658887 -86.2957,38.658923 -86.296065,38.658932 -86.296379,38.658939 -86.296794,38.658931 -86.298627,38.658944 -86.300536,38.658977 -86.303462,38.659009 -86.30398,38.659024 -86.304252,38.659032 -86.305224,38.659049 -86.30646,38.659078 -86.30769,38.659101 -86.308294,38.659118 -86.308303,38.659332 -86.308171,38.662995 -86.308117,38.664601 -86.307924,38.669569 -86.30786,38.670564 -86.307793,38.671602 -86.307886,38.671853 -86.307894,38.672977 -86.307918,38.673679 -86.298575,38.673616</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

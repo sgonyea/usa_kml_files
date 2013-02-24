@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>walnut_hill</name>
+<Schema name="walnut_hill" id="walnut_hill">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Walnut Hill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#walnut_hill">
+		<SimpleData name="Name">Walnut Hill</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">78604</SimpleData>
+		<SimpleData name="PLACENS">02400088</SimpleData>
+		<SimpleData name="GEOID">1778604</SimpleData>
+		<SimpleData name="NAMELSAD">Walnut Hill village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">959745</SimpleData>
+		<SimpleData name="AWATER">536</SimpleData>
+		<SimpleData name="INTPTLAT">+38.4779466</SimpleData>
+		<SimpleData name="INTPTLON">-089.0443929</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.051684,38.474364 -89.051612,38.478597 -89.051568,38.480609 -89.051556,38.481277 -89.047114,38.481309 -89.042412,38.481322 -89.037705,38.48126 -89.037723,38.474175 -89.037725,38.474072 -89.038673,38.474062 -89.041517,38.474033 -89.042388,38.474025 -89.042466,38.474029 -89.043391,38.474079 -89.046169,38.474231 -89.046984,38.474276 -89.047096,38.474278 -89.048013,38.474295 -89.050766,38.474346 -89.051684,38.474364</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

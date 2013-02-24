@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cordova</name>
+<Schema name="cordova" id="cordova">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cordova</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cordova">
+		<SimpleData name="Name">Cordova</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">10495</SimpleData>
+		<SimpleData name="PLACENS">02398627</SimpleData>
+		<SimpleData name="GEOID">3110495</SimpleData>
+		<SimpleData name="NAMELSAD">Cordova village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">644197</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7163728</SimpleData>
+		<SimpleData name="INTPTLON">-097.3516022</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.35864,40.71401 -97.357027,40.715769 -97.356864,40.715928 -97.355653,40.717231 -97.3545,40.718474 -97.354258,40.71869 -97.35256,40.720566 -97.351482,40.720563 -97.349158,40.720565 -97.346855,40.720555 -97.346691,40.714125 -97.346715,40.713125 -97.348846,40.713136 -97.349156,40.713137 -97.350533,40.71314 -97.351906,40.713142 -97.352577,40.713141 -97.353265,40.71314 -97.353906,40.713136 -97.354642,40.713131 -97.35605,40.713129 -97.356367,40.713126 -97.356963,40.71312 -97.358642,40.71313 -97.358838,40.713131 -97.359246,40.713134 -97.359453,40.713134 -97.35864,40.71401</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

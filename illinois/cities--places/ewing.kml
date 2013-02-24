@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ewing</name>
+<Schema name="ewing" id="ewing">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ewing</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ewing">
+		<SimpleData name="Name">Ewing</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">24673</SimpleData>
+		<SimpleData name="PLACENS">02398847</SimpleData>
+		<SimpleData name="GEOID">1724673</SimpleData>
+		<SimpleData name="NAMELSAD">Ewing village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2613313</SimpleData>
+		<SimpleData name="AWATER">2759</SimpleData>
+		<SimpleData name="INTPTLAT">+38.0893567</SimpleData>
+		<SimpleData name="INTPTLON">-088.8521903</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.852942,38.096141 -88.852186,38.096157 -88.851377,38.096147 -88.850824,38.096148 -88.848653,38.096188 -88.84705,38.096234 -88.846111,38.096244 -88.845974,38.09623 -88.843659,38.096284 -88.843638,38.091611 -88.843638,38.09141 -88.843639,38.09121 -88.843646,38.088926 -88.84361,38.084394 -88.843574,38.082418 -88.843586,38.081694 -88.845894,38.081668 -88.846997,38.081655 -88.848032,38.081663 -88.853002,38.081552 -88.857487,38.081472 -88.860237,38.081441 -88.861981,38.081393 -88.862047,38.088681 -88.862061,38.091618 -88.862072,38.09381 -88.862084,38.096058 -88.852942,38.096141</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

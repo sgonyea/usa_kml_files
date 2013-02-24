@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hendrum</name>
+<Schema name="hendrum" id="hendrum">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hendrum</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hendrum">
+		<SimpleData name="Name">Hendrum</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">28484</SimpleData>
+		<SimpleData name="PLACENS">02394351</SimpleData>
+		<SimpleData name="GEOID">2728484</SimpleData>
+		<SimpleData name="NAMELSAD">Hendrum city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">840829</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.2640494</SimpleData>
+		<SimpleData name="INTPTLON">-096.8104097</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.81682,47.262188 -96.816818,47.263326 -96.816816,47.264396 -96.816813,47.264948 -96.816812,47.265459 -96.81681,47.265974 -96.816809,47.266492 -96.816798,47.267953 -96.816795,47.268375 -96.813014,47.268348 -96.812938,47.268351 -96.811966,47.268372 -96.805367,47.268382 -96.805302,47.266388 -96.804699,47.266384 -96.804817,47.259083 -96.805866,47.259089 -96.80685,47.259094 -96.810206,47.259114 -96.811161,47.259064 -96.811651,47.259073 -96.812251,47.259085 -96.81263,47.259093 -96.81277,47.260627 -96.813146,47.260642 -96.81332,47.261883 -96.816821,47.261849 -96.81682,47.262188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

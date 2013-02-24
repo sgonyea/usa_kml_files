@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wiley</name>
+<Schema name="wiley" id="wiley">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wiley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wiley">
+		<SimpleData name="Name">Wiley</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">85045</SimpleData>
+		<SimpleData name="PLACENS">02413488</SimpleData>
+		<SimpleData name="GEOID">0885045</SimpleData>
+		<SimpleData name="NAMELSAD">Wiley town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">790167</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.1553555</SimpleData>
+		<SimpleData name="INTPTLON">-102.7192483</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.726156,38.158509 -102.72619,38.159879 -102.726169,38.160117 -102.72382,38.160053 -102.723797,38.159652 -102.723789,38.15952 -102.71949,38.159438 -102.719312,38.159446 -102.718335,38.15944 -102.717007,38.159457 -102.716735,38.15944 -102.71645,38.159438 -102.714592,38.159419 -102.714588,38.159319 -102.714568,38.15876 -102.714556,38.157935 -102.71457,38.157742 -102.715515,38.157742 -102.715711,38.157741 -102.715785,38.157741 -102.715013,38.156004 -102.714592,38.155063 -102.714259,38.154291 -102.714219,38.153659 -102.714349,38.152601 -102.714365,38.15152 -102.714643,38.151523 -102.714659,38.150489 -102.714664,38.150144 -102.716954,38.150153 -102.719758,38.150163 -102.721174,38.150169 -102.721185,38.150469 -102.721192,38.151934 -102.7212,38.152476 -102.721206,38.153172 -102.721114,38.153562 -102.723711,38.153562 -102.723685,38.157726 -102.725088,38.157714 -102.72615,38.157706 -102.726156,38.158509</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

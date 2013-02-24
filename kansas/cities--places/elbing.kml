@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elbing</name>
+<Schema name="elbing" id="elbing">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elbing</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elbing">
+		<SimpleData name="Name">Elbing</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">20050</SimpleData>
+		<SimpleData name="PLACENS">02394635</SimpleData>
+		<SimpleData name="GEOID">2020050</SimpleData>
+		<SimpleData name="NAMELSAD">Elbing city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">490867</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.0538632</SimpleData>
+		<SimpleData name="INTPTLON">-097.1276942</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.134358,38.051076 -97.133768,38.051067 -97.133538,38.051064 -97.131078,38.051029 -97.130368,38.05102 -97.130258,38.051019 -97.130192,38.051018 -97.129996,38.051015 -97.129931,38.051014 -97.129934,38.051564 -97.129939,38.052458 -97.129964,38.056525 -97.129965,38.05679 -97.129974,38.058235 -97.129867,38.058238 -97.129806,38.058225 -97.129297,38.058228 -97.129128,38.058229 -97.128881,38.058223 -97.12814,38.058208 -97.128004,38.058206 -97.127893,38.058204 -97.127625,38.058195 -97.126824,38.058171 -97.126557,38.058163 -97.126295,38.05816 -97.125729,38.058155 -97.125512,38.058153 -97.125251,38.058151 -97.125057,38.058149 -97.125039,38.058149 -97.124406,38.058151 -97.124195,38.058152 -97.124188,38.056715 -97.124169,38.052405 -97.124163,38.050969 -97.124219,38.050969 -97.12439,38.050972 -97.124447,38.050973 -97.124474,38.050973 -97.124616,38.050975 -97.125124,38.050985 -97.125294,38.050989 -97.125443,38.050992 -97.125647,38.050994 -97.12566,38.050777 -97.125564,38.050435 -97.125565,38.05023 -97.126493,38.05026 -97.128721,38.050295 -97.128695,38.051029 -97.129149,38.051032 -97.129164,38.049766 -97.133748,38.04977 -97.134394,38.049771 -97.134358,38.051076</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

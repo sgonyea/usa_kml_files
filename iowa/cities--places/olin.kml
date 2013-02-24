@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>olin</name>
+<Schema name="olin" id="olin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Olin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#olin">
+		<SimpleData name="Name">Olin</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">58980</SimpleData>
+		<SimpleData name="PLACENS">02396054</SimpleData>
+		<SimpleData name="GEOID">1958980</SimpleData>
+		<SimpleData name="NAMELSAD">Olin city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2669762</SimpleData>
+		<SimpleData name="AWATER">20312</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9974734</SimpleData>
+		<SimpleData name="INTPTLON">-091.1412424</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.15172,41.994731 -91.151693,41.994806 -91.151681,41.994897 -91.151666,41.996276 -91.151673,41.996344 -91.151654,41.996475 -91.151705,41.998246 -91.151698,42.00152 -91.15171,42.003944 -91.151709,42.004038 -91.151705,42.004322 -91.151661,42.005037 -91.148368,42.005025 -91.147537,42.005022 -91.141738,42.004976 -91.136125,42.004828 -91.135818,42.00482 -91.13559,42.004814 -91.135386,42.004808 -91.131842,42.004716 -91.1318,42.004321 -91.131702,42.004208 -91.131699,42.003862 -91.131664,42.000012 -91.131713,41.9991 -91.131726,41.998116 -91.131752,41.996199 -91.131773,41.993838 -91.131812,41.990185 -91.132261,41.990178 -91.132524,41.990183 -91.134161,41.990192 -91.141441,41.990236 -91.151506,41.990398 -91.151592,41.991706 -91.15172,41.994731</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>donnelly</name>
+<Schema name="donnelly" id="donnelly">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Donnelly</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#donnelly">
+		<SimpleData name="Name">Donnelly</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">22330</SimpleData>
+		<SimpleData name="PLACENS">02410346</SimpleData>
+		<SimpleData name="GEOID">1622330</SimpleData>
+		<SimpleData name="NAMELSAD">Donnelly city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1181461</SimpleData>
+		<SimpleData name="AWATER">8784</SimpleData>
+		<SimpleData name="INTPTLAT">+44.7261194</SimpleData>
+		<SimpleData name="INTPTLON">-116.0755239</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-116.083388,44.723613 -116.082677,44.723645 -116.080822,44.723729 -116.079592,44.723702 -116.078917,44.723731 -116.078752,44.723737 -116.078694,44.722822 -116.078693,44.722778 -116.078675,44.722529 -116.078661,44.722336 -116.083336,44.722266 -116.083388,44.723613</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-116.092452,44.73106 -116.092455,44.731138 -116.092672,44.737169 -116.088581,44.737159 -116.088542,44.734645 -116.085028,44.734617 -116.081003,44.734689 -116.08072,44.734684 -116.080697,44.734684 -116.080554,44.73469 -116.078297,44.734782 -116.074832,44.734823 -116.073217,44.734792 -116.073214,44.734089 -116.073244,44.732129 -116.073213,44.732074 -116.073282,44.73197 -116.073174,44.730922 -116.073159,44.729412 -116.073165,44.729061 -116.07317,44.728758 -116.073188,44.727731 -116.073188,44.727622 -116.073191,44.727007 -116.073884,44.726578 -116.073236,44.725998 -116.07202,44.724911 -116.071881,44.724787 -116.071174,44.724151 -116.072142,44.723525 -116.072781,44.723111 -116.072925,44.723224 -116.07492,44.724788 -116.075177,44.72499 -116.076163,44.724403 -116.076991,44.725171 -116.077168,44.725318 -116.078518,44.72472 -116.078693,44.724649 -116.079068,44.724486 -116.080822,44.723729 -116.080703,44.730982 -116.0807,44.731069 -116.081908,44.731069 -116.082661,44.731073 -116.082886,44.731075 -116.082885,44.730998 -116.082885,44.730934 -116.088282,44.73099 -116.088283,44.73106 -116.08834,44.732679 -116.091197,44.732661 -116.091192,44.73225 -116.089864,44.732274 -116.089856,44.732186 -116.091192,44.732169 -116.091221,44.731064 -116.091216,44.730999 -116.092451,44.730992 -116.092452,44.73106</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

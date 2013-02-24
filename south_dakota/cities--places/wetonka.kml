@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wetonka</name>
+<Schema name="wetonka" id="wetonka">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wetonka</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wetonka">
+		<SimpleData name="Name">Wetonka</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">70740</SimpleData>
+		<SimpleData name="PLACENS">01267650</SimpleData>
+		<SimpleData name="GEOID">4670740</SimpleData>
+		<SimpleData name="NAMELSAD">Wetonka town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">637996</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.6242162</SimpleData>
+		<SimpleData name="INTPTLON">-098.7717410</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.776836,45.62501 -98.776855,45.627748 -98.775485,45.627802 -98.773263,45.627815 -98.772232,45.627848 -98.771265,45.627826 -98.766644,45.627856 -98.766644,45.627816 -98.766649,45.627607 -98.766649,45.627558 -98.76666,45.627013 -98.766659,45.62684 -98.76666,45.626777 -98.766659,45.626704 -98.76666,45.626531 -98.766659,45.626435 -98.766659,45.626254 -98.76666,45.626176 -98.766659,45.626033 -98.766658,45.625638 -98.766656,45.625443 -98.766655,45.625067 -98.766654,45.624997 -98.766653,45.62463 -98.766651,45.624504 -98.766651,45.624277 -98.766649,45.624111 -98.766649,45.624015 -98.766648,45.623219 -98.766649,45.62301 -98.766648,45.622909 -98.766648,45.62271 -98.766647,45.622617 -98.766648,45.622519 -98.766648,45.621843 -98.766647,45.621765 -98.766647,45.621594 -98.766643,45.621452 -98.766642,45.621387 -98.766637,45.621231 -98.766628,45.620827 -98.766625,45.620756 -98.766625,45.620705 -98.766621,45.620582 -98.766747,45.620582 -98.766777,45.620583 -98.766863,45.620583 -98.769666,45.620604 -98.770697,45.620611 -98.774443,45.620645 -98.774637,45.620646 -98.776937,45.620667 -98.776836,45.62501</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

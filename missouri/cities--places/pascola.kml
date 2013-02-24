@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pascola</name>
+<Schema name="pascola" id="pascola">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pascola</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pascola">
+		<SimpleData name="Name">Pascola</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">56432</SimpleData>
+		<SimpleData name="PLACENS">02399629</SimpleData>
+		<SimpleData name="GEOID">2956432</SimpleData>
+		<SimpleData name="NAMELSAD">Pascola village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">413886</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.2672626</SimpleData>
+		<SimpleData name="INTPTLON">-089.8258046</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.829838,36.269858 -89.827931,36.269835 -89.826319,36.269882 -89.82259,36.269889 -89.821704,36.269877 -89.822016,36.266228 -89.822034,36.266078 -89.822104,36.264782 -89.822111,36.264463 -89.826258,36.26447 -89.826262,36.264746 -89.828792,36.264794 -89.82982,36.264803 -89.829806,36.267163 -89.8298,36.267271 -89.829802,36.267379 -89.8298,36.267472 -89.829838,36.269858</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

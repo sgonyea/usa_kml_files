@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>truro</name>
+<Schema name="truro" id="truro">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Truro</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#truro">
+		<SimpleData name="Name">Truro</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">79140</SimpleData>
+		<SimpleData name="PLACENS">02397067</SimpleData>
+		<SimpleData name="GEOID">1979140</SimpleData>
+		<SimpleData name="NAMELSAD">Truro city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2523886</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2097693</SimpleData>
+		<SimpleData name="INTPTLON">-093.8466722</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.856163,41.211322 -93.856195,41.216509 -93.850401,41.21673 -93.847836,41.216904 -93.846815,41.21695 -93.837393,41.217389 -93.837238,41.210244 -93.83709,41.206695 -93.837131,41.205298 -93.83709,41.20309 -93.838792,41.202984 -93.839961,41.202929 -93.841486,41.202843 -93.843515,41.202747 -93.844528,41.20269 -93.84669,41.20258 -93.849107,41.202488 -93.85037,41.202418 -93.851285,41.202398 -93.852217,41.20235 -93.85264,41.202343 -93.853593,41.20236 -93.854989,41.202373 -93.856105,41.202403 -93.856163,41.211322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

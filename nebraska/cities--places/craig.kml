@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>craig</name>
+<Schema name="craig" id="craig">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Craig</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#craig">
+		<SimpleData name="Name">Craig</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">11090</SimpleData>
+		<SimpleData name="PLACENS">02398642</SimpleData>
+		<SimpleData name="GEOID">3111090</SimpleData>
+		<SimpleData name="NAMELSAD">Craig village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">737365</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7852623</SimpleData>
+		<SimpleData name="INTPTLON">-096.3624334</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.367711,41.790852 -96.367409,41.790875 -96.367417,41.791173 -96.367686,41.791175 -96.367617,41.791594 -96.366995,41.791571 -96.366972,41.790501 -96.367661,41.79048 -96.367711,41.790852</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.366664,41.78536 -96.36665,41.787526 -96.366641,41.788774 -96.366141,41.788768 -96.364047,41.788783 -96.364031,41.789321 -96.364027,41.789658 -96.364023,41.789898 -96.363979,41.792418 -96.361491,41.792382 -96.361299,41.789055 -96.360482,41.78905 -96.360489,41.78847 -96.360489,41.788444 -96.360431,41.788444 -96.359403,41.788438 -96.359361,41.787931 -96.359319,41.785338 -96.35826,41.785333 -96.357986,41.785336 -96.357789,41.785338 -96.357635,41.785347 -96.356722,41.785332 -96.356619,41.785331 -96.356958,41.781641 -96.358024,41.781645 -96.359441,41.781656 -96.359449,41.780491 -96.36007,41.780495 -96.360641,41.780502 -96.361116,41.780494 -96.361386,41.780499 -96.361894,41.780502 -96.362744,41.7805 -96.363451,41.780502 -96.364135,41.780514 -96.364692,41.780514 -96.366687,41.780535 -96.366664,41.78536</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

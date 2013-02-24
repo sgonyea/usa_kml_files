@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>clark_s_point</name>
+<Schema name="clark_s_point" id="clark_s_point">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Clark's Point</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clark_s_point">
+		<SimpleData name="Name">Clark's Point</SimpleData>
+		<SimpleData name="STATEFP">02</SimpleData>
+		<SimpleData name="PLACEFP">15430</SimpleData>
+		<SimpleData name="PLACENS">02419370</SimpleData>
+		<SimpleData name="GEOID">0215430</SimpleData>
+		<SimpleData name="NAMELSAD">Clark's Point city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">7957239</SimpleData>
+		<SimpleData name="AWATER">2541164</SimpleData>
+		<SimpleData name="INTPTLAT">+58.8333687</SimpleData>
+		<SimpleData name="INTPTLON">-158.5288099</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-158.576143,58.823383 -158.575789,58.824311 -158.574838,58.82512 -158.57365,58.826116 -158.572102,58.827236 -158.570559,58.828791 -158.56961,58.829911 -158.568907,58.831467 -158.568207,58.833521 -158.568031,58.834161 -158.567628,58.835637 -158.566924,58.837131 -158.565859,58.838625 -158.564793,58.839993 -158.562179,58.842296 -158.554921,58.847773 -158.554328,58.84852 -158.532899,58.848546 -158.518996,58.848564 -158.516924,58.848567 -158.516304,58.848568 -158.515685,58.848568 -158.512246,58.848575 -158.510676,58.848576 -158.506269,58.848581 -158.50565,58.82804 -158.5054,58.819725 -158.515596,58.819677 -158.532466,58.819599 -158.532462,58.822877 -158.538837,58.822896 -158.542902,58.822944 -158.553098,58.823066 -158.557706,58.823129 -158.568553,58.823279 -158.571533,58.823319 -158.576143,58.823383</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

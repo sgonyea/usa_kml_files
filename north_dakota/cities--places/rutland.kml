@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rutland</name>
+<Schema name="rutland" id="rutland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rutland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rutland">
+		<SimpleData name="Name">Rutland</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">69340</SimpleData>
+		<SimpleData name="PLACENS">01036249</SimpleData>
+		<SimpleData name="GEOID">3869340</SimpleData>
+		<SimpleData name="NAMELSAD">Rutland city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">990063</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.0543261</SimpleData>
+		<SimpleData name="INTPTLON">-097.5068356</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.518611,46.051916 -97.517991,46.052642 -97.516995,46.05325 -97.515545,46.053858 -97.514325,46.054194 -97.513145,46.054531 -97.511887,46.054776 -97.511919,46.058256 -97.51192,46.058347 -97.50899,46.058377 -97.508661,46.05839 -97.500342,46.058407 -97.498825,46.058415 -97.498847,46.056256 -97.498852,46.051677 -97.498852,46.051197 -97.498852,46.051141 -97.500809,46.05116 -97.502928,46.051175 -97.50441,46.0512 -97.505101,46.051209 -97.505425,46.051213 -97.505471,46.050348 -97.508409,46.050366 -97.508493,46.051248 -97.508776,46.051251 -97.509056,46.051249 -97.50906,46.0502 -97.509061,46.049735 -97.509994,46.049731 -97.510166,46.051268 -97.510673,46.051276 -97.5112,46.051244 -97.514659,46.051239 -97.518679,46.051241 -97.518929,46.051242 -97.518611,46.051916</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

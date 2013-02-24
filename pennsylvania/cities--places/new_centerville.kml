@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_centerville</name>
+<Schema name="new_centerville" id="new_centerville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Centerville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_centerville">
+		<SimpleData name="Name">New Centerville</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">53416</SimpleData>
+		<SimpleData name="PLACENS">01215593</SimpleData>
+		<SimpleData name="GEOID">4253416</SimpleData>
+		<SimpleData name="NAMELSAD">New Centerville borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">368264</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9422585</SimpleData>
+		<SimpleData name="INTPTLON">-079.1917465</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.196299,39.942546 -79.193558,39.944416 -79.193369,39.944461 -79.193297,39.944471 -79.188292,39.94552 -79.18816,39.945182 -79.18814,39.945133 -79.18758,39.943714 -79.188072,39.943585 -79.187997,39.943458 -79.187987,39.943445 -79.186837,39.941545 -79.187217,39.94141 -79.190719,39.940172 -79.194135,39.938964 -79.194624,39.938791 -79.194935,39.939253 -79.195994,39.94082 -79.196004,39.940885 -79.196299,39.942546</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

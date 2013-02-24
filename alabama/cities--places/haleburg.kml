@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>haleburg</name>
+<Schema name="haleburg" id="haleburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Haleburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#haleburg">
+		<SimpleData name="Name">Haleburg</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">32656</SimpleData>
+		<SimpleData name="PLACENS">02406636</SimpleData>
+		<SimpleData name="GEOID">0132656</SimpleData>
+		<SimpleData name="NAMELSAD">Haleburg town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">9940861</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+31.4099758</SimpleData>
+		<SimpleData name="INTPTLON">-085.1380681</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.147837,31.423809 -85.146113,31.423829 -85.139985,31.423909 -85.12509,31.424051 -85.124331,31.424123 -85.123191,31.424112 -85.121111,31.423993 -85.121221,31.418825 -85.121258,31.418743 -85.121246,31.409687 -85.121271,31.409268 -85.121282,31.408541 -85.121307,31.407885 -85.12133,31.40701 -85.121388,31.405264 -85.121405,31.404608 -85.121428,31.40308 -85.121426,31.402568 -85.121418,31.40226 -85.12112,31.396216 -85.121091,31.39499 -85.12493,31.395014 -85.12493,31.396329 -85.126949,31.39629 -85.133249,31.396156 -85.133718,31.396166 -85.134459,31.39618 -85.151062,31.395958 -85.154829,31.395905 -85.154927,31.401578 -85.15505,31.412884 -85.155248,31.423601 -85.147837,31.423809</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

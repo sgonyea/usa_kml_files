@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vona</name>
+<Schema name="vona" id="vona">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vona</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vona">
+		<SimpleData name="Name">Vona</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">81690</SimpleData>
+		<SimpleData name="PLACENS">02413437</SimpleData>
+		<SimpleData name="GEOID">0881690</SimpleData>
+		<SimpleData name="NAMELSAD">Vona town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">573247</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.3021195</SimpleData>
+		<SimpleData name="INTPTLON">-102.7433516</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.74875,39.301119 -102.748252,39.301104 -102.74822,39.301632 -102.748194,39.305435 -102.743284,39.305456 -102.739248,39.305453 -102.739271,39.302039 -102.738722,39.302031 -102.738711,39.301536 -102.738711,39.301271 -102.738712,39.300868 -102.738696,39.298331 -102.741664,39.298359 -102.743386,39.298379 -102.743386,39.298414 -102.743365,39.298852 -102.745004,39.298827 -102.745022,39.30012 -102.7481,39.300099 -102.748095,39.299846 -102.748768,39.299852 -102.74875,39.301119</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

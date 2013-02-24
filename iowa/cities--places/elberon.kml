@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elberon</name>
+<Schema name="elberon" id="elberon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elberon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elberon">
+		<SimpleData name="Name">Elberon</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">24375</SimpleData>
+		<SimpleData name="PLACENS">02394634</SimpleData>
+		<SimpleData name="GEOID">1924375</SimpleData>
+		<SimpleData name="NAMELSAD">Elberon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1692486</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.0054947</SimpleData>
+		<SimpleData name="INTPTLON">-092.3161149</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.324822,42.010909 -92.323564,42.010901 -92.32233,42.010894 -92.319259,42.010899 -92.310046,42.010915 -92.307825,42.010919 -92.307784,42.01007 -92.307775,42.009542 -92.307751,42.007958 -92.307743,42.007431 -92.307717,42.007107 -92.307639,42.006135 -92.307614,42.005812 -92.307411,42.001742 -92.307332,42.000144 -92.317953,42.000079 -92.322028,42.000055 -92.3238,42.000087 -92.324419,42.000099 -92.324582,42.004796 -92.324644,42.006568 -92.324652,42.0067 -92.324677,42.007096 -92.324686,42.007229 -92.324731,42.008463 -92.324822,42.010909</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

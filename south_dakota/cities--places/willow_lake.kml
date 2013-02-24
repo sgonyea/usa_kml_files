@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>willow_lake</name>
+<Schema name="willow_lake" id="willow_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Willow Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#willow_lake">
+		<SimpleData name="Name">Willow Lake</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">71940</SimpleData>
+		<SimpleData name="PLACENS">01267656</SimpleData>
+		<SimpleData name="GEOID">4671940</SimpleData>
+		<SimpleData name="NAMELSAD">Willow Lake city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">964463</SimpleData>
+		<SimpleData name="AWATER">10783</SimpleData>
+		<SimpleData name="INTPTLAT">+44.6279008</SimpleData>
+		<SimpleData name="INTPTLON">-097.6380571</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.645606,44.630926 -97.644405,44.63093 -97.644167,44.630929 -97.644174,44.632018 -97.643979,44.632022 -97.641259,44.631998 -97.63939,44.631986 -97.634243,44.631928 -97.634244,44.63183 -97.634239,44.631707 -97.634239,44.631666 -97.631033,44.631726 -97.631026,44.630883 -97.629707,44.630878 -97.629122,44.630875 -97.629122,44.630592 -97.632716,44.628144 -97.632732,44.627127 -97.632796,44.624991 -97.632756,44.623858 -97.633485,44.623853 -97.633496,44.623642 -97.634185,44.623645 -97.636337,44.623687 -97.639495,44.623598 -97.63956,44.623595 -97.641208,44.623632 -97.644392,44.623599 -97.64439,44.623698 -97.645024,44.623695 -97.6452,44.624998 -97.645266,44.626164 -97.645195,44.627279 -97.645171,44.627378 -97.645678,44.627387 -97.645606,44.630926</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

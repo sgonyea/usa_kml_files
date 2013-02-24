@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>oakville</name>
+<Schema name="oakville" id="oakville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Oakville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#oakville">
+		<SimpleData name="Name">Oakville</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">58395</SimpleData>
+		<SimpleData name="PLACENS">02395294</SimpleData>
+		<SimpleData name="GEOID">1958395</SimpleData>
+		<SimpleData name="NAMELSAD">Oakville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1083944</SimpleData>
+		<SimpleData name="AWATER">12814</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0979877</SimpleData>
+		<SimpleData name="INTPTLON">-091.0437902</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.049446,41.095368 -91.049498,41.098682 -91.049505,41.099066 -91.049502,41.099448 -91.049494,41.100609 -91.049485,41.102209 -91.049477,41.103394 -91.048168,41.10336 -91.046104,41.103274 -91.046104,41.103895 -91.04452,41.103912 -91.044132,41.103916 -91.044159,41.103316 -91.039528,41.103279 -91.039541,41.102161 -91.039579,41.09855 -91.034567,41.098525 -91.034578,41.094866 -91.035221,41.094864 -91.037519,41.094862 -91.039666,41.094943 -91.040146,41.094954 -91.040712,41.094945 -91.041252,41.094947 -91.041514,41.094936 -91.041841,41.094942 -91.042081,41.094951 -91.042227,41.094948 -91.042367,41.09394 -91.044427,41.093868 -91.044437,41.09338 -91.04446,41.092389 -91.049462,41.092377 -91.049446,41.095368</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

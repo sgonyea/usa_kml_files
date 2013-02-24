@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>addison</name>
+<Schema name="addison" id="addison">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Addison</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#addison">
+		<SimpleData name="Name">Addison</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">00380</SimpleData>
+		<SimpleData name="PLACENS">02397912</SimpleData>
+		<SimpleData name="GEOID">2600380</SimpleData>
+		<SimpleData name="NAMELSAD">Addison village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2475258</SimpleData>
+		<SimpleData name="AWATER">112700</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9858873</SimpleData>
+		<SimpleData name="INTPTLON">-084.3490763</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.349415,41.993454 -84.349011,41.99345 -84.348136,41.993464 -84.346153,41.993523 -84.345668,41.993501 -84.345499,41.993494 -84.34518,41.993494 -84.34497,41.993495 -84.344562,41.993517 -84.34285,41.993509 -84.339565,41.993558 -84.339564,41.993376 -84.339549,41.99208 -84.339511,41.986664 -84.339485,41.984546 -84.339447,41.981323 -84.339465,41.978877 -84.340709,41.978883 -84.3442,41.978902 -84.354261,41.978955 -84.358688,41.978984 -84.358792,41.98459 -84.358824,41.986183 -84.358954,41.993454 -84.349415,41.993454</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

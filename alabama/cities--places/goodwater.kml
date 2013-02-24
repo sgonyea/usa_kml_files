@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>goodwater</name>
+<Schema name="goodwater" id="goodwater">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Goodwater</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#goodwater">
+		<SimpleData name="Name">Goodwater</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">30640</SimpleData>
+		<SimpleData name="PLACENS">02406589</SimpleData>
+		<SimpleData name="GEOID">0130640</SimpleData>
+		<SimpleData name="NAMELSAD">Goodwater town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">16819852</SimpleData>
+		<SimpleData name="AWATER">75870</SimpleData>
+		<SimpleData name="INTPTLAT">+33.0606599</SimpleData>
+		<SimpleData name="INTPTLON">-086.0524616</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.063607,33.083472 -86.060169,33.083413 -86.05155,33.083529 -86.0513,33.083532 -86.046397,33.083486 -86.033632,33.083899 -86.033618,33.079265 -86.03356,33.074638 -86.033589,33.070172 -86.033569,33.062984 -86.033591,33.061656 -86.033572,33.056418 -86.033637,33.047311 -86.034077,33.041125 -86.034095,33.040868 -86.033982,33.039129 -86.033971,33.038933 -86.034002,33.038746 -86.035138,33.038623 -86.035417,33.038608 -86.03569,33.038596 -86.036409,33.038553 -86.043235,33.038133 -86.046255,33.037945 -86.048706,33.037899 -86.048812,33.037943 -86.048937,33.038013 -86.051319,33.03799 -86.053271,33.038038 -86.054791,33.03805 -86.05818,33.038072 -86.059803,33.038085 -86.06089,33.038114 -86.063519,33.038064 -86.064095,33.038066 -86.069141,33.038077 -86.069962,33.03821 -86.069914,33.039419 -86.069797,33.044147 -86.069666,33.049501 -86.069604,33.056614 -86.06957,33.059258 -86.069534,33.062116 -86.069469,33.064304 -86.06946,33.066229 -86.069424,33.074091 -86.069418,33.075505 -86.069385,33.077789 -86.069345,33.080708 -86.069336,33.081336 -86.069304,33.08364 -86.063607,33.083472</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

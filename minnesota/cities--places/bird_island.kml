@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bird_island</name>
+<Schema name="bird_island" id="bird_island">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bird Island</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bird_island">
+		<SimpleData name="Name">Bird Island</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">06076</SimpleData>
+		<SimpleData name="PLACENS">02394173</SimpleData>
+		<SimpleData name="GEOID">2706076</SimpleData>
+		<SimpleData name="NAMELSAD">Bird Island city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3969955</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.7646941</SimpleData>
+		<SimpleData name="INTPTLON">-094.8950167</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-94.910301,44.765052 -94.910361,44.767479 -94.910374,44.768085 -94.910416,44.769904 -94.91043,44.770511 -94.910432,44.770623 -94.91044,44.77096 -94.910443,44.771073 -94.906997,44.77116 -94.905408,44.771201 -94.905423,44.772962 -94.898433,44.772994 -94.894987,44.773011 -94.890863,44.773032 -94.884738,44.773064 -94.8847,44.771269 -94.880249,44.771278 -94.879803,44.771279 -94.879802,44.767602 -94.879801,44.767524 -94.8798,44.767291 -94.8798,44.767214 -94.8798,44.767115 -94.879801,44.76682 -94.879802,44.766722 -94.879794,44.763889 -94.879785,44.760593 -94.884984,44.760447 -94.885006,44.760447 -94.88492,44.757637 -94.884872,44.756324 -94.886523,44.756274 -94.889926,44.756172 -94.889816,44.752744 -94.891881,44.752784 -94.894847,44.752843 -94.89484,44.753461 -94.894843,44.753609 -94.894875,44.755352 -94.894877,44.755418 -94.894881,44.75598 -94.894884,44.756471 -94.894894,44.757945 -94.894898,44.758437 -94.895167,44.758425 -94.897126,44.758358 -94.899692,44.758271 -94.902713,44.758126 -94.903119,44.757957 -94.903674,44.757606 -94.905087,44.756717 -94.905288,44.756693 -94.905646,44.756693 -94.905621,44.757416 -94.905547,44.759585 -94.905523,44.760309 -94.905465,44.762735 -94.905435,44.764033 -94.910273,44.76391 -94.910301,44.765052</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-94.915336,44.758467 -94.915452,44.760351 -94.912005,44.760135 -94.910229,44.760024 -94.910248,44.759767 -94.910251,44.759735 -94.910246,44.759477 -94.910236,44.758996 -94.910231,44.75874 -94.910232,44.75833 -94.910237,44.757101 -94.910238,44.757051 -94.910238,44.756692 -94.911235,44.756691 -94.914229,44.756691 -94.915227,44.756691 -94.915336,44.758467</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

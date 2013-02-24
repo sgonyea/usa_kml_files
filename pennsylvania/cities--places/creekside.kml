@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>creekside</name>
+<Schema name="creekside" id="creekside">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Creekside</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#creekside">
+		<SimpleData name="Name">Creekside</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">17024</SimpleData>
+		<SimpleData name="PLACENS">01215286</SimpleData>
+		<SimpleData name="GEOID">4217024</SimpleData>
+		<SimpleData name="NAMELSAD">Creekside borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">572454</SimpleData>
+		<SimpleData name="AWATER">19166</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6819322</SimpleData>
+		<SimpleData name="INTPTLON">-079.1936131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.199227,40.682522 -79.197864,40.683889 -79.198248,40.685976 -79.198101,40.686409 -79.198045,40.686591 -79.197806,40.687348 -79.196862,40.68732 -79.196531,40.687315 -79.195514,40.687286 -79.195197,40.685842 -79.195119,40.684789 -79.194204,40.683818 -79.193377,40.683174 -79.192704,40.682843 -79.19249,40.68266 -79.192192,40.682566 -79.191508,40.682194 -79.190741,40.681899 -79.19064,40.68187 -79.190328,40.681779 -79.18748,40.681877 -79.187481,40.681781 -79.187466,40.681724 -79.187421,40.681424 -79.187464,40.680842 -79.187852,40.67986 -79.187794,40.679466 -79.18754,40.678748 -79.187505,40.678646 -79.187247,40.678273 -79.187766,40.677747 -79.188114,40.677315 -79.188162,40.677261 -79.188601,40.676663 -79.18977,40.675336 -79.191061,40.67683 -79.192941,40.678238 -79.194102,40.67728 -79.19556,40.677691 -79.195483,40.678435 -79.195508,40.678545 -79.19503,40.678853 -79.194522,40.679326 -79.197383,40.68074 -79.197696,40.681022 -79.197863,40.681173 -79.198099,40.681392 -79.199227,40.682522</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

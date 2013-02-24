@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>nebo</name>
+<Schema name="nebo" id="nebo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Nebo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#nebo">
+		<SimpleData name="Name">Nebo</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">55092</SimpleData>
+		<SimpleData name="PLACENS">02404353</SimpleData>
+		<SimpleData name="GEOID">2155092</SimpleData>
+		<SimpleData name="NAMELSAD">Nebo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">641859</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.3832108</SimpleData>
+		<SimpleData name="INTPTLON">-087.6415678</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.645734,37.383852 -87.645648,37.384421 -87.645183,37.387469 -87.642193,37.387152 -87.640025,37.386944 -87.636766,37.386609 -87.636285,37.386563 -87.636409,37.385792 -87.636581,37.384724 -87.636675,37.384386 -87.636866,37.383241 -87.636894,37.38308 -87.637977,37.381812 -87.640242,37.379024 -87.640576,37.3786 -87.640634,37.378504 -87.64215,37.378627 -87.642731,37.378597 -87.643471,37.378413 -87.643869,37.3783 -87.644867,37.37802 -87.644905,37.37827 -87.645354,37.381228 -87.645586,37.382751 -87.645742,37.383777 -87.645734,37.383852</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>aldrich</name>
+<Schema name="aldrich" id="aldrich">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Aldrich</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aldrich">
+		<SimpleData name="Name">Aldrich</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">00568</SimpleData>
+		<SimpleData name="PLACENS">02397926</SimpleData>
+		<SimpleData name="GEOID">2900568</SimpleData>
+		<SimpleData name="NAMELSAD">Aldrich village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">420460</SimpleData>
+		<SimpleData name="AWATER">781</SimpleData>
+		<SimpleData name="INTPTLAT">+37.5484712</SimpleData>
+		<SimpleData name="INTPTLON">-093.5505223</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.55638,37.55288 -93.553314,37.552765 -93.553182,37.552765 -93.553074,37.55268 -93.553134,37.551537 -93.55237,37.551559 -93.547654,37.551626 -93.547637,37.551199 -93.547628,37.549543 -93.547633,37.547754 -93.547655,37.54743 -93.54771,37.547155 -93.547768,37.546955 -93.547804,37.546875 -93.547825,37.545804 -93.548935,37.545832 -93.553057,37.545801 -93.553172,37.54598 -93.553882,37.546802 -93.554173,37.547119 -93.554464,37.547454 -93.554548,37.547528 -93.554164,37.547739 -93.554588,37.54814 -93.554319,37.548336 -93.554573,37.548587 -93.554841,37.548864 -93.554615,37.548998 -93.554849,37.549294 -93.554818,37.549551 -93.554775,37.551452 -93.556151,37.551479 -93.55638,37.55288</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

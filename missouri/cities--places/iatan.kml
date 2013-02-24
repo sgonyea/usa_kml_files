@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>iatan</name>
+<Schema name="iatan" id="iatan">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Iatan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#iatan">
+		<SimpleData name="Name">Iatan</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">34210</SimpleData>
+		<SimpleData name="PLACENS">02398567</SimpleData>
+		<SimpleData name="GEOID">2934210</SimpleData>
+		<SimpleData name="NAMELSAD">Iatan village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">311897</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4772957</SimpleData>
+		<SimpleData name="INTPTLON">-094.9837819</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.988739,39.480242 -94.98851,39.480241 -94.982386,39.480346 -94.982185,39.479285 -94.98227,39.479066 -94.982359,39.478826 -94.982246,39.478515 -94.982194,39.478355 -94.982044,39.477885 -94.981979,39.477675 -94.982009,39.477424 -94.982141,39.476672 -94.981254,39.477101 -94.981202,39.477127 -94.981075,39.477202 -94.980703,39.476949 -94.980511,39.476757 -94.979487,39.475785 -94.979159,39.475475 -94.979708,39.475066 -94.979938,39.474897 -94.980477,39.474499 -94.980893,39.47419 -94.981288,39.473899 -94.981676,39.473611 -94.982066,39.473322 -94.982182,39.473237 -94.982264,39.473317 -94.982379,39.473428 -94.982512,39.47358 -94.982614,39.473665 -94.983515,39.474412 -94.984488,39.47488 -94.984535,39.475048 -94.985941,39.47652 -94.986178,39.476885 -94.98628,39.477042 -94.986843,39.477834 -94.987161,39.478228 -94.987759,39.478894 -94.988739,39.480242</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

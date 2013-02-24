@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wind_point</name>
+<Schema name="wind_point" id="wind_point">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wind Point</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wind_point">
+		<SimpleData name="Name">Wind Point</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">87700</SimpleData>
+		<SimpleData name="PLACENS">01584453</SimpleData>
+		<SimpleData name="GEOID">5587700</SimpleData>
+		<SimpleData name="NAMELSAD">Wind Point village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3241702</SimpleData>
+		<SimpleData name="AWATER">440436</SimpleData>
+		<SimpleData name="INTPTLAT">+42.7804222</SimpleData>
+		<SimpleData name="INTPTLON">-087.7716064</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.778701,42.784498 -87.778177,42.784498 -87.778166,42.78642 -87.77808,42.791736 -87.777976,42.793122 -87.77722,42.7932 -87.776348,42.793304 -87.775774,42.793337 -87.776024,42.794733 -87.775622,42.796415 -87.766235,42.789998 -87.762774,42.787323 -87.758048,42.783488 -87.75684,42.781633 -87.756698,42.781415 -87.758694,42.779101 -87.771777,42.76993 -87.773189,42.770026 -87.774539,42.769971 -87.774717,42.769956 -87.776974,42.769973 -87.777078,42.769974 -87.781911,42.769983 -87.782005,42.769983 -87.781985,42.770752 -87.781961,42.771682 -87.781917,42.773377 -87.781883,42.774646 -87.781874,42.775003 -87.781843,42.776205 -87.781816,42.77724 -87.781751,42.779762 -87.78169,42.782092 -87.781671,42.782805 -87.781627,42.784501 -87.778701,42.784498</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

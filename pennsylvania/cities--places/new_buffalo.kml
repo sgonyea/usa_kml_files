@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_buffalo</name>
+<Schema name="new_buffalo" id="new_buffalo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Buffalo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_buffalo">
+		<SimpleData name="Name">New Buffalo</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">53320</SimpleData>
+		<SimpleData name="PLACENS">01215529</SimpleData>
+		<SimpleData name="GEOID">4253320</SimpleData>
+		<SimpleData name="NAMELSAD">New Buffalo borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">153315</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4543402</SimpleData>
+		<SimpleData name="INTPTLON">-076.9704724</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.973962,40.456149 -76.973549,40.456318 -76.972487,40.45675 -76.971598,40.455204 -76.971423,40.4549 -76.970732,40.455213 -76.970321,40.455401 -76.969962,40.455564 -76.969409,40.455814 -76.968818,40.456083 -76.968743,40.455993 -76.968145,40.45529 -76.968006,40.455128 -76.967897,40.454999 -76.96766,40.454709 -76.967436,40.454457 -76.96724,40.454226 -76.967216,40.454198 -76.967189,40.454165 -76.966833,40.453747 -76.967077,40.453648 -76.967113,40.453634 -76.968945,40.452835 -76.969496,40.452732 -76.970152,40.45251 -76.970986,40.452106 -76.971244,40.451969 -76.971307,40.452062 -76.97141,40.452214 -76.972173,40.453349 -76.972714,40.454153 -76.972909,40.454427 -76.973103,40.454729 -76.973129,40.454768 -76.973207,40.454884 -76.973264,40.454968 -76.973791,40.455754 -76.974039,40.456118 -76.973962,40.456149</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

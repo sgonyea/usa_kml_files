@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>muir</name>
+<Schema name="muir" id="muir">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Muir</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#muir">
+		<SimpleData name="Name">Muir</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">52224</SimpleData>
+		<SimpleData name="PLACENS">02634248</SimpleData>
+		<SimpleData name="GEOID">4252224</SimpleData>
+		<SimpleData name="NAMELSAD">Muir CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1286145</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5942972</SimpleData>
+		<SimpleData name="INTPTLON">-076.5186569</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.528429,40.596691 -76.514038,40.598849 -76.511537,40.599983 -76.511285,40.599393 -76.508736,40.593419 -76.508818,40.593422 -76.50891,40.593427 -76.509065,40.593431 -76.509146,40.593449 -76.509338,40.593246 -76.509402,40.59318 -76.509615,40.592974 -76.509832,40.592776 -76.509954,40.592676 -76.510101,40.59257 -76.510184,40.592516 -76.510424,40.59236 -76.510755,40.592163 -76.510802,40.592138 -76.51113,40.591966 -76.511373,40.591847 -76.511532,40.591774 -76.511704,40.591709 -76.512274,40.591521 -76.512817,40.591334 -76.512923,40.591298 -76.513505,40.591103 -76.513785,40.590996 -76.514256,40.590803 -76.514566,40.590677 -76.515077,40.590437 -76.515206,40.590371 -76.515524,40.590219 -76.516167,40.589925 -76.516459,40.58978 -76.516704,40.58966 -76.516884,40.589581 -76.517016,40.589528 -76.517207,40.589476 -76.517324,40.589663 -76.517362,40.589731 -76.517589,40.590134 -76.517813,40.590509 -76.517932,40.590707 -76.517966,40.590767 -76.518045,40.590908 -76.518111,40.591025 -76.525743,40.589054 -76.526227,40.588929 -76.526801,40.590811 -76.526899,40.591167 -76.527467,40.593219 -76.528429,40.596691</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>red_hook</name>
+<Schema name="red_hook" id="red_hook">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Red Hook</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#red_hook">
+		<SimpleData name="Name">Red Hook</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">60895</SimpleData>
+		<SimpleData name="PLACENS">02391089</SimpleData>
+		<SimpleData name="GEOID">3660895</SimpleData>
+		<SimpleData name="NAMELSAD">Red Hook village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2854923</SimpleData>
+		<SimpleData name="AWATER">32320</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9959411</SimpleData>
+		<SimpleData name="INTPTLON">-073.8769260</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.880738,42.002577 -73.880049,42.002766 -73.879569,42.002906 -73.879137,42.00308 -73.877975,42.003815 -73.877157,42.004748 -73.876896,42.00533 -73.876625,42.005926 -73.875736,42.005576 -73.875269,42.005479 -73.873775,42.00514 -73.870405,42.004174 -73.86898,42.003994 -73.867528,42.003811 -73.865292,42.003504 -73.865231,42.003504 -73.865567,42.000645 -73.865807,41.99872 -73.865859,41.998304 -73.866303,41.994873 -73.866327,41.994697 -73.866516,41.993797 -73.866579,41.993508 -73.86704,41.991309 -73.868865,41.990772 -73.870807,41.990278 -73.879141,41.987783 -73.881044,41.987668 -73.881803,41.987557 -73.885143,41.986611 -73.885375,41.986512 -73.885837,41.986443 -73.887296,41.986892 -73.887576,41.993307 -73.886834,41.997839 -73.886421,42.001427 -73.880738,42.002577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

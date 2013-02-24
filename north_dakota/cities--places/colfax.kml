@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>colfax</name>
+<Schema name="colfax" id="colfax">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Colfax</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#colfax">
+		<SimpleData name="Name">Colfax</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">15180</SimpleData>
+		<SimpleData name="PLACENS">01035975</SimpleData>
+		<SimpleData name="GEOID">3815180</SimpleData>
+		<SimpleData name="NAMELSAD">Colfax city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2638345</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.4708812</SimpleData>
+		<SimpleData name="INTPTLON">-096.8724723</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.883194,46.465055 -96.883209,46.470046 -96.883214,46.470831 -96.883219,46.471226 -96.883214,46.473117 -96.883217,46.474501 -96.879961,46.474508 -96.883225,46.478874 -96.875642,46.478764 -96.875642,46.478184 -96.872414,46.478182 -96.862112,46.478284 -96.862093,46.477737 -96.862,46.474782 -96.861884,46.471616 -96.861875,46.471397 -96.86187,46.470991 -96.861858,46.470823 -96.86185,46.470716 -96.861872,46.46942 -96.861882,46.468704 -96.861934,46.465284 -96.861952,46.46359 -96.871376,46.463606 -96.871479,46.463605 -96.871505,46.463604 -96.871708,46.463605 -96.872526,46.463626 -96.875354,46.463595 -96.883195,46.463417 -96.883194,46.465055</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

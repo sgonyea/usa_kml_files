@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>diagonal</name>
+<Schema name="diagonal" id="diagonal">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Diagonal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#diagonal">
+		<SimpleData name="Name">Diagonal</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">21270</SimpleData>
+		<SimpleData name="PLACENS">02394532</SimpleData>
+		<SimpleData name="GEOID">1921270</SimpleData>
+		<SimpleData name="NAMELSAD">Diagonal city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2341151</SimpleData>
+		<SimpleData name="AWATER">4786</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8108990</SimpleData>
+		<SimpleData name="INTPTLON">-094.3418534</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.352811,40.818461 -94.351927,40.818475 -94.348835,40.81844 -94.347939,40.81843 -94.346516,40.818415 -94.341969,40.818364 -94.341199,40.818355 -94.34057,40.818335 -94.339271,40.818334 -94.338321,40.818323 -94.338238,40.815956 -94.333809,40.815938 -94.333786,40.812419 -94.333785,40.812218 -94.333728,40.805205 -94.333744,40.80447 -94.33375,40.804165 -94.333729,40.802223 -94.333723,40.801789 -94.334471,40.801786 -94.335377,40.801793 -94.338275,40.801819 -94.338363,40.80182 -94.341086,40.801889 -94.345403,40.802 -94.347786,40.801976 -94.347782,40.802032 -94.347759,40.802348 -94.347713,40.802421 -94.347704,40.802556 -94.347687,40.803999 -94.347667,40.804533 -94.347663,40.805312 -94.347663,40.805388 -94.347856,40.809322 -94.347996,40.812366 -94.348606,40.812372 -94.349664,40.812393 -94.350475,40.812424 -94.350762,40.812434 -94.351503,40.812435 -94.352039,40.812435 -94.352723,40.812446 -94.352811,40.818461</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

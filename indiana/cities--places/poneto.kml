@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>poneto</name>
+<Schema name="poneto" id="poneto">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Poneto</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poneto">
+		<SimpleData name="Name">Poneto</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">61020</SimpleData>
+		<SimpleData name="PLACENS">02396862</SimpleData>
+		<SimpleData name="GEOID">1861020</SimpleData>
+		<SimpleData name="NAMELSAD">Poneto town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">297128</SimpleData>
+		<SimpleData name="AWATER">2691</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6571169</SimpleData>
+		<SimpleData name="INTPTLON">-085.2221715</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.226586,40.654588 -85.224437,40.658476 -85.224094,40.658476 -85.222684,40.66136 -85.222293,40.661354 -85.222021,40.661196 -85.221671,40.6611 -85.221361,40.660929 -85.221383,40.660748 -85.221397,40.660556 -85.221409,40.660181 -85.221368,40.658519 -85.220521,40.658536 -85.22053,40.657168 -85.21862,40.657139 -85.218633,40.654605 -85.218767,40.654606 -85.220029,40.654609 -85.221317,40.654611 -85.221313,40.654548 -85.221318,40.654119 -85.221317,40.654036 -85.224916,40.65405 -85.225461,40.654058 -85.224921,40.654592 -85.225186,40.65459 -85.225648,40.654592 -85.225974,40.654593 -85.226586,40.654588</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rocky_ripple</name>
+<Schema name="rocky_ripple" id="rocky_ripple">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rocky Ripple</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rocky_ripple">
+		<SimpleData name="Name">Rocky Ripple</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">65556</SimpleData>
+		<SimpleData name="PLACENS">02396887</SimpleData>
+		<SimpleData name="GEOID">1865556</SimpleData>
+		<SimpleData name="NAMELSAD">Rocky Ripple town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">784484</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8484031</SimpleData>
+		<SimpleData name="INTPTLON">-086.1731275</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.179851,39.848065 -86.178518,39.850416 -86.177017,39.851118 -86.171514,39.85143 -86.169012,39.851831 -86.165221,39.852826 -86.164018,39.853484 -86.164296,39.853171 -86.162344,39.853436 -86.162882,39.852958 -86.165075,39.850983 -86.168624,39.847859 -86.168646,39.847841 -86.168901,39.847613 -86.169769,39.846669 -86.171374,39.844775 -86.172763,39.844861 -86.174053,39.844853 -86.175149,39.844842 -86.176246,39.844837 -86.17734,39.844826 -86.177829,39.844822 -86.177894,39.844821 -86.178462,39.84481 -86.17847,39.844794 -86.178472,39.844785 -86.178459,39.84396 -86.178441,39.843717 -86.178437,39.843685 -86.178433,39.843672 -86.178423,39.843663 -86.178416,39.843609 -86.1784,39.843568 -86.178393,39.843545 -86.178377,39.843464 -86.178359,39.843365 -86.178342,39.843288 -86.178321,39.843121 -86.178321,39.843058 -86.178323,39.843018 -86.178328,39.842977 -86.178349,39.842851 -86.178351,39.842806 -86.178348,39.842752 -86.178329,39.842594 -86.178498,39.839104 -86.179546,39.844743 -86.179929,39.84666 -86.179851,39.848065</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>trumbull</name>
+<Schema name="trumbull" id="trumbull">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Trumbull</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#trumbull">
+		<SimpleData name="Name">Trumbull</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">49285</SimpleData>
+		<SimpleData name="PLACENS">02400006</SimpleData>
+		<SimpleData name="GEOID">3149285</SimpleData>
+		<SimpleData name="NAMELSAD">Trumbull village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1117248</SimpleData>
+		<SimpleData name="AWATER">17</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6800396</SimpleData>
+		<SimpleData name="INTPTLON">-098.2734535</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.278861,40.676839 -98.278167,40.676807 -98.278159,40.677524 -98.278162,40.677678 -98.278174,40.678377 -98.278172,40.678534 -98.278161,40.679558 -98.278156,40.680052 -98.278158,40.680542 -98.278159,40.682004 -98.278149,40.68292 -98.278148,40.683569 -98.278147,40.683789 -98.278146,40.684711 -98.278137,40.685469 -98.278131,40.686664 -98.275358,40.686656 -98.274928,40.686655 -98.270251,40.686619 -98.269847,40.686619 -98.269882,40.683758 -98.266717,40.683749 -98.266188,40.683748 -98.26967,40.680804 -98.269829,40.677351 -98.269801,40.677305 -98.269754,40.677175 -98.269754,40.676645 -98.266473,40.676644 -98.266504,40.674191 -98.269752,40.674216 -98.277999,40.674283 -98.278165,40.674283 -98.278901,40.67429 -98.278861,40.676839</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

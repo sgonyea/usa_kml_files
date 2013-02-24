@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elsmore</name>
+<Schema name="elsmore" id="elsmore">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elsmore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elsmore">
+		<SimpleData name="Name">Elsmore</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">20875</SimpleData>
+		<SimpleData name="PLACENS">02394679</SimpleData>
+		<SimpleData name="GEOID">2020875</SimpleData>
+		<SimpleData name="NAMELSAD">Elsmore city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">396967</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.7941544</SimpleData>
+		<SimpleData name="INTPTLON">-095.1498269</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.145031,37.795152 -95.144186,37.795138 -95.143836,37.795132 -95.143845,37.794953 -95.143881,37.79423 -95.144741,37.794206 -95.14555,37.793641 -95.146106,37.794316 -95.145031,37.795152</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.153227,37.794056 -95.152914,37.794077 -95.152546,37.794094 -95.152425,37.794099 -95.152228,37.794107 -95.152159,37.797981 -95.151889,37.797988 -95.150492,37.797965 -95.15049,37.798073 -95.15048,37.798318 -95.150145,37.798336 -95.149897,37.798282 -95.149867,37.798093 -95.149873,37.797959 -95.148648,37.798105 -95.148558,37.79811 -95.1476,37.798059 -95.14753,37.795625 -95.14749,37.7947 -95.147418,37.792808 -95.14738,37.791777 -95.147478,37.791624 -95.146934,37.791566 -95.146745,37.791546 -95.146834,37.791042 -95.146877,37.790798 -95.147651,37.790789 -95.148514,37.790779 -95.150229,37.790766 -95.151882,37.790755 -95.152291,37.790752 -95.152229,37.790313 -95.15252,37.790358 -95.153141,37.790333 -95.153208,37.790744 -95.153227,37.794056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

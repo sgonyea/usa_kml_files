@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>baker</name>
+<Schema name="baker" id="baker">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Baker</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#baker">
+		<SimpleData name="Name">Baker</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">03214</SimpleData>
+		<SimpleData name="PLACENS">02583772</SimpleData>
+		<SimpleData name="GEOID">2703214</SimpleData>
+		<SimpleData name="NAMELSAD">Baker CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2613731</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.7104886</SimpleData>
+		<SimpleData name="INTPTLON">-096.5579401</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.568513,46.704406 -96.568522,46.707819 -96.568526,46.708957 -96.56853,46.710716 -96.568544,46.715995 -96.568549,46.717442 -96.568564,46.717755 -96.567439,46.717755 -96.564066,46.717757 -96.562942,46.717758 -96.562828,46.717758 -96.562487,46.717758 -96.562374,46.717758 -96.562237,46.717758 -96.561826,46.717758 -96.56169,46.717759 -96.560163,46.717761 -96.5561,46.717767 -96.555585,46.717766 -96.55406,46.717764 -96.552736,46.717762 -96.548763,46.717757 -96.54744,46.717756 -96.54743,46.716793 -96.5474,46.713906 -96.547391,46.712944 -96.547382,46.712293 -96.547356,46.71034 -96.547356,46.710323 -96.54737,46.709723 -96.547369,46.70969 -96.547368,46.709651 -96.547371,46.70963 -96.547385,46.70954 -96.547374,46.709451 -96.547368,46.709392 -96.54736,46.709215 -96.547352,46.70815 -96.547326,46.704426 -96.547318,46.703185 -96.551556,46.703201 -96.564271,46.703252 -96.56851,46.703269 -96.568513,46.704406</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

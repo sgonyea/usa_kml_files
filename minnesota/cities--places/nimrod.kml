@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>nimrod</name>
+<Schema name="nimrod" id="nimrod">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Nimrod</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#nimrod">
+		<SimpleData name="Name">Nimrod</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">46294</SimpleData>
+		<SimpleData name="PLACENS">02395236</SimpleData>
+		<SimpleData name="GEOID">2746294</SimpleData>
+		<SimpleData name="NAMELSAD">Nimrod city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2409155</SimpleData>
+		<SimpleData name="AWATER">132450</SimpleData>
+		<SimpleData name="INTPTLAT">+46.6351579</SimpleData>
+		<SimpleData name="INTPTLON">-094.8806241</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.890995,46.634083 -94.890957,46.644434 -94.889624,46.644438 -94.88573,46.64445 -94.884436,46.644395 -94.882207,46.644422 -94.881977,46.64442 -94.881814,46.644419 -94.881422,46.644416 -94.881288,46.644414 -94.88124,46.644414 -94.881059,46.644413 -94.881053,46.644446 -94.881045,46.644434 -94.879825,46.644431 -94.876124,46.644425 -94.874891,46.644423 -94.874431,46.644432 -94.873051,46.644461 -94.872592,46.644472 -94.8721,46.64457 -94.872072,46.644574 -94.87171,46.64463 -94.87133,46.64466 -94.870489,46.644658 -94.86996,46.644658 -94.869951,46.642037 -94.869927,46.634176 -94.869919,46.631556 -94.869932,46.631306 -94.869973,46.630556 -94.869987,46.630307 -94.873814,46.630276 -94.874024,46.630288 -94.874234,46.630299 -94.874994,46.630341 -94.875659,46.630332 -94.884158,46.63024 -94.884686,46.630234 -94.88692,46.63021 -94.889816,46.630193 -94.89052,46.63019 -94.89101,46.630189 -94.890995,46.634083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

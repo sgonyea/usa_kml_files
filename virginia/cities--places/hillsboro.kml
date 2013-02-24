@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hillsboro</name>
+<Schema name="hillsboro" id="hillsboro">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hillsboro</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hillsboro">
+		<SimpleData name="Name">Hillsboro</SimpleData>
+		<SimpleData name="STATEFP">51</SimpleData>
+		<SimpleData name="PLACEFP">37288</SimpleData>
+		<SimpleData name="PLACENS">02390247</SimpleData>
+		<SimpleData name="GEOID">5137288</SimpleData>
+		<SimpleData name="NAMELSAD">Hillsboro town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">219760</SimpleData>
+		<SimpleData name="AWATER">2707</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2004307</SimpleData>
+		<SimpleData name="INTPTLON">-077.7252027</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.728526,39.199203 -77.728272,39.1995 -77.727932,39.199899 -77.727878,39.199962 -77.727788,39.200071 -77.727605,39.200282 -77.726212,39.201918 -77.723832,39.201733 -77.723514,39.201709 -77.723582,39.201583 -77.723528,39.201543 -77.723134,39.201252 -77.721115,39.200665 -77.721561,39.1994 -77.721765,39.198835 -77.721856,39.198862 -77.722051,39.198358 -77.72182,39.198321 -77.721851,39.198244 -77.722036,39.197787 -77.722485,39.197884 -77.72264,39.197447 -77.72303,39.197546 -77.723132,39.197572 -77.723303,39.197619 -77.723333,39.197552 -77.723348,39.19752 -77.723478,39.197235 -77.723575,39.197021 -77.723641,39.196959 -77.72416,39.196468 -77.724527,39.196515 -77.724545,39.196518 -77.724597,39.196525 -77.724632,39.196529 -77.724665,39.196534 -77.724647,39.196648 -77.724617,39.196819 -77.72461,39.196848 -77.72462,39.196898 -77.724588,39.197069 -77.724532,39.19733 -77.724599,39.197358 -77.724711,39.197405 -77.724836,39.197458 -77.724816,39.197529 -77.726117,39.198046 -77.726968,39.198433 -77.728539,39.19915 -77.728526,39.199203</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

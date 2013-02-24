@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wales</name>
+<Schema name="wales" id="wales">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wales</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wales">
+		<SimpleData name="Name">Wales</SimpleData>
+		<SimpleData name="STATEFP">49</SimpleData>
+		<SimpleData name="PLACEFP">80860</SimpleData>
+		<SimpleData name="PLACENS">02413441</SimpleData>
+		<SimpleData name="GEOID">4980860</SimpleData>
+		<SimpleData name="NAMELSAD">Wales town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">803495</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4857192</SimpleData>
+		<SimpleData name="INTPTLON">-111.6361206</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-111.640723,39.481938 -111.640704,39.483013 -111.640696,39.483452 -111.640688,39.483957 -111.640715,39.484733 -111.640739,39.485419 -111.640798,39.487064 -111.640826,39.487841 -111.640836,39.488148 -111.640854,39.48869 -111.640901,39.490091 -111.639751,39.49012 -111.638902,39.490142 -111.638165,39.490165 -111.635957,39.490234 -111.635221,39.490258 -111.634378,39.490284 -111.63185,39.490363 -111.631516,39.490374 -111.631497,39.489866 -111.631494,39.489589 -111.631488,39.488833 -111.631485,39.488758 -111.631478,39.488482 -111.631464,39.488173 -111.631456,39.487977 -111.631448,39.487486 -111.631453,39.487328 -111.631458,39.487247 -111.631473,39.487033 -111.631471,39.486939 -111.631468,39.4869 -111.631468,39.486658 -111.631469,39.486642 -111.631464,39.486504 -111.631453,39.486367 -111.631456,39.486092 -111.631454,39.485817 -111.631453,39.485537 -111.631439,39.485416 -111.631432,39.485244 -111.631426,39.485082 -111.63142,39.484649 -111.631416,39.484363 -111.631416,39.484313 -111.631421,39.48422 -111.631413,39.48407 -111.631405,39.483782 -111.631395,39.483355 -111.63139,39.483199 -111.631409,39.482918 -111.631411,39.48279 -111.631424,39.482686 -111.631448,39.482641 -111.631476,39.482569 -111.631475,39.482464 -111.631469,39.481712 -111.631468,39.481555 -111.63411,39.481504 -111.635044,39.481486 -111.635036,39.48122 -111.635024,39.480753 -111.638678,39.48075 -111.638679,39.48089 -111.638694,39.481312 -111.638699,39.481453 -111.639105,39.481448 -111.640325,39.481437 -111.640732,39.481434 -111.640723,39.481938</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

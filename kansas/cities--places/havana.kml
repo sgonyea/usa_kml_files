@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>havana</name>
+<Schema name="havana" id="havana">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Havana</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#havana">
+		<SimpleData name="Name">Havana</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">30700</SimpleData>
+		<SimpleData name="PLACENS">02394324</SimpleData>
+		<SimpleData name="GEOID">2030700</SimpleData>
+		<SimpleData name="NAMELSAD">Havana city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">338484</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0920658</SimpleData>
+		<SimpleData name="INTPTLON">-095.9423608</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.946811,37.089087 -95.946778,37.092254 -95.946346,37.09255 -95.946193,37.092652 -95.945733,37.092958 -95.944546,37.092965 -95.94456,37.092474 -95.941967,37.092465 -95.941967,37.092485 -95.941964,37.092531 -95.941969,37.092942 -95.94197,37.093982 -95.941967,37.094534 -95.941986,37.095338 -95.941976,37.096022 -95.941054,37.096014 -95.940948,37.096013 -95.940921,37.094896 -95.937441,37.094764 -95.937218,37.094762 -95.937107,37.095741 -95.93703,37.096325 -95.93625,37.096323 -95.936235,37.09567 -95.936817,37.094937 -95.93668,37.094508 -95.937441,37.093575 -95.938229,37.092977 -95.938851,37.092505 -95.939703,37.091858 -95.940096,37.091552 -95.941338,37.090611 -95.942553,37.089667 -95.942649,37.089618 -95.942846,37.089598 -95.943343,37.089594 -95.943347,37.088889 -95.943773,37.088887 -95.943988,37.088885 -95.943992,37.088589 -95.943985,37.088336 -95.945978,37.088357 -95.945974,37.088592 -95.945976,37.088842 -95.94645,37.088846 -95.946824,37.088851 -95.946811,37.089087</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>casnovia</name>
+<Schema name="casnovia" id="casnovia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Casnovia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#casnovia">
+		<SimpleData name="Name">Casnovia</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">13820</SimpleData>
+		<SimpleData name="PLACENS">02397569</SimpleData>
+		<SimpleData name="GEOID">2613820</SimpleData>
+		<SimpleData name="NAMELSAD">Casnovia village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2790736</SimpleData>
+		<SimpleData name="AWATER">22829</SimpleData>
+		<SimpleData name="INTPTLAT">+43.2319980</SimpleData>
+		<SimpleData name="INTPTLON">-085.7874506</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.792392,43.241492 -85.790533,43.241522 -85.781251,43.241407 -85.781157,43.238448 -85.781059,43.234401 -85.781062,43.234183 -85.78108,43.232861 -85.781085,43.232533 -85.780563,43.232169 -85.780038,43.231822 -85.77969,43.231604 -85.779312,43.231376 -85.77867,43.231023 -85.778471,43.227094 -85.777425,43.227089 -85.776439,43.227085 -85.776135,43.227084 -85.776142,43.227191 -85.776155,43.227383 -85.776014,43.227381 -85.775189,43.227412 -85.775321,43.22932 -85.774432,43.228866 -85.773537,43.22841 -85.77351,43.226766 -85.772991,43.226765 -85.771466,43.226727 -85.771474,43.2258 -85.771478,43.22542 -85.771486,43.224808 -85.77212,43.224295 -85.774104,43.224286 -85.779589,43.226702 -85.779687,43.226746 -85.781093,43.227326 -85.781094,43.227012 -85.781278,43.22709 -85.783811,43.227125 -85.790557,43.227085 -85.790557,43.226933 -85.790677,43.226933 -85.800498,43.227045 -85.800663,43.227049 -85.800665,43.227152 -85.800573,43.230926 -85.800584,43.234343 -85.800558,43.240294 -85.800549,43.241598 -85.792392,43.241492</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

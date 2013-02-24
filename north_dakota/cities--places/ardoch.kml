@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ardoch</name>
+<Schema name="ardoch" id="ardoch">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ardoch</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ardoch">
+		<SimpleData name="Name">Ardoch</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">02860</SimpleData>
+		<SimpleData name="PLACENS">01035913</SimpleData>
+		<SimpleData name="GEOID">3802860</SimpleData>
+		<SimpleData name="NAMELSAD">Ardoch city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">672009</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.2054823</SimpleData>
+		<SimpleData name="INTPTLON">-097.3407538</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.346358,48.206986 -97.346366,48.207376 -97.346368,48.207494 -97.346392,48.208052 -97.346393,48.208148 -97.346376,48.209136 -97.345924,48.209135 -97.344485,48.209127 -97.343519,48.209121 -97.343187,48.209125 -97.342399,48.209134 -97.340783,48.209124 -97.338599,48.209109 -97.335214,48.209073 -97.335175,48.207366 -97.335055,48.201886 -97.337917,48.201894 -97.338115,48.201893 -97.338523,48.201882 -97.338995,48.201886 -97.340703,48.201854 -97.346257,48.201786 -97.346358,48.206986</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

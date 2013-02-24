@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mantador</name>
+<Schema name="mantador" id="mantador">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mantador</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mantador">
+		<SimpleData name="Name">Mantador</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">50380</SimpleData>
+		<SimpleData name="PLACENS">01036147</SimpleData>
+		<SimpleData name="GEOID">3850380</SimpleData>
+		<SimpleData name="NAMELSAD">Mantador city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">355896</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1654733</SimpleData>
+		<SimpleData name="INTPTLON">-096.9778374</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.98519,46.167353 -96.984631,46.167352 -96.984022,46.167356 -96.982567,46.167365 -96.982576,46.168146 -96.978336,46.168287 -96.978268,46.167337 -96.978063,46.167336 -96.977301,46.167335 -96.975768,46.167337 -96.974285,46.167338 -96.972779,46.167334 -96.972723,46.165711 -96.974251,46.165808 -96.974241,46.165357 -96.974236,46.165032 -96.974243,46.164273 -96.974239,46.163194 -96.974235,46.162083 -96.974304,46.161926 -96.974236,46.161888 -96.974465,46.16169 -96.974897,46.161289 -96.975002,46.161193 -96.977579,46.162685 -96.979046,46.163466 -96.979114,46.163502 -96.97953,46.163707 -96.979992,46.163934 -96.979998,46.164075 -96.980007,46.16431 -96.980015,46.164531 -96.98519,46.167353</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

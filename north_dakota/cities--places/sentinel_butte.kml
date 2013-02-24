@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sentinel_butte</name>
+<Schema name="sentinel_butte" id="sentinel_butte">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sentinel Butte</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sentinel_butte">
+		<SimpleData name="Name">Sentinel Butte</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">71780</SimpleData>
+		<SimpleData name="PLACENS">01036258</SimpleData>
+		<SimpleData name="GEOID">3871780</SimpleData>
+		<SimpleData name="NAMELSAD">Sentinel Butte city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2694878</SimpleData>
+		<SimpleData name="AWATER">42371</SimpleData>
+		<SimpleData name="INTPTLAT">+46.9194401</SimpleData>
+		<SimpleData name="INTPTLON">-103.8405901</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.850113,46.916866 -103.850084,46.918972 -103.850122,46.927522 -103.842571,46.927493 -103.830062,46.927486 -103.830077,46.927318 -103.830516,46.918966 -103.830517,46.91895 -103.830547,46.918388 -103.830588,46.917593 -103.830599,46.917228 -103.830801,46.911042 -103.839864,46.911042 -103.840208,46.911037 -103.844518,46.911032 -103.846254,46.911035 -103.850174,46.911053 -103.850113,46.916866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

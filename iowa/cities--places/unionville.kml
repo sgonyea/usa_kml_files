@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>unionville</name>
+<Schema name="unionville" id="unionville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Unionville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#unionville">
+		<SimpleData name="Name">Unionville</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">79680</SimpleData>
+		<SimpleData name="PLACENS">02397089</SimpleData>
+		<SimpleData name="GEOID">1979680</SimpleData>
+		<SimpleData name="NAMELSAD">Unionville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1929361</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8181841</SimpleData>
+		<SimpleData name="INTPTLON">-092.6957756</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.705277,40.814261 -92.705317,40.817009 -92.705323,40.817681 -92.705343,40.819699 -92.70535,40.820372 -92.705356,40.820594 -92.705374,40.821263 -92.705381,40.821486 -92.705388,40.822027 -92.705411,40.82355 -92.705307,40.82355 -92.704766,40.823551 -92.703046,40.823555 -92.697888,40.823569 -92.696169,40.823574 -92.695173,40.82356 -92.692185,40.823519 -92.691189,40.823506 -92.689294,40.82356 -92.686257,40.823647 -92.686217,40.821001 -92.68619,40.819107 -92.686165,40.817779 -92.686091,40.813796 -92.686075,40.812884 -92.68649,40.812876 -92.687608,40.812874 -92.690964,40.812871 -92.691512,40.812871 -92.692083,40.812864 -92.692831,40.812855 -92.695078,40.812832 -92.695827,40.812825 -92.698574,40.812787 -92.705255,40.812698 -92.705277,40.814261</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sandy_creek</name>
+<Schema name="sandy_creek" id="sandy_creek">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sandy Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sandy_creek">
+		<SimpleData name="Name">Sandy Creek</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">65068</SimpleData>
+		<SimpleData name="PLACENS">02391116</SimpleData>
+		<SimpleData name="GEOID">3665068</SimpleData>
+		<SimpleData name="NAMELSAD">Sandy Creek village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3499941</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.6433666</SimpleData>
+		<SimpleData name="INTPTLON">-076.0863156</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.09712,43.652405 -76.092296,43.652701 -76.087129,43.653016 -76.087122,43.653039 -76.086338,43.653065 -76.085785,43.653085 -76.085004,43.653112 -76.083451,43.653165 -76.07832,43.653341 -76.07808,43.65335 -76.077649,43.653358 -76.076759,43.653376 -76.076627,43.65168 -76.076371,43.646048 -76.076336,43.64534 -76.076254,43.64409 -76.076228,43.643583 -76.075966,43.640842 -76.075879,43.634731 -76.075873,43.634536 -76.07586,43.634101 -76.081395,43.633838 -76.081421,43.633838 -76.081753,43.633839 -76.081779,43.633838 -76.085302,43.633704 -76.08985,43.633537 -76.095702,43.633271 -76.095725,43.633583 -76.095729,43.633648 -76.095893,43.635899 -76.096115,43.638817 -76.09619,43.639825 -76.096483,43.643538 -76.096633,43.64544 -76.096741,43.646804 -76.096992,43.65057 -76.097064,43.651689 -76.09712,43.652405</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

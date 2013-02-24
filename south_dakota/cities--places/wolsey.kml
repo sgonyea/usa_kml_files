@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wolsey</name>
+<Schema name="wolsey" id="wolsey">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wolsey</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wolsey">
+		<SimpleData name="Name">Wolsey</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">72540</SimpleData>
+		<SimpleData name="PLACENS">01267660</SimpleData>
+		<SimpleData name="GEOID">4672540</SimpleData>
+		<SimpleData name="NAMELSAD">Wolsey town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5865842</SimpleData>
+		<SimpleData name="AWATER">92868</SimpleData>
+		<SimpleData name="INTPTLAT">+44.4107630</SimpleData>
+		<SimpleData name="INTPTLON">-098.4738917</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.48918,44.400146 -98.48925,44.401959 -98.489256,44.402671 -98.489233,44.404706 -98.489292,44.41374 -98.489289,44.413972 -98.48933,44.421567 -98.485618,44.421544 -98.481495,44.421526 -98.478489,44.421546 -98.477063,44.421395 -98.468085,44.42128 -98.467959,44.421279 -98.466841,44.421269 -98.466264,44.421264 -98.462519,44.421238 -98.458298,44.421213 -98.458287,44.419753 -98.458295,44.417684 -98.45828,44.415703 -98.458284,44.414099 -98.458291,44.410995 -98.458256,44.408844 -98.45828,44.399595 -98.46254,44.39962 -98.464836,44.399634 -98.469114,44.399653 -98.473103,44.399672 -98.473477,44.399669 -98.474231,44.399662 -98.475229,44.399671 -98.477561,44.399693 -98.478402,44.399694 -98.481578,44.399695 -98.487622,44.39969 -98.489124,44.399691 -98.48918,44.400146</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

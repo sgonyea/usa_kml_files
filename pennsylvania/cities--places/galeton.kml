@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>galeton</name>
+<Schema name="galeton" id="galeton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Galeton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#galeton">
+		<SimpleData name="Name">Galeton</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">28280</SimpleData>
+		<SimpleData name="PLACENS">01215538</SimpleData>
+		<SimpleData name="GEOID">4228280</SimpleData>
+		<SimpleData name="NAMELSAD">Galeton borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3291399</SimpleData>
+		<SimpleData name="AWATER">61625</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7343036</SimpleData>
+		<SimpleData name="INTPTLON">-077.6435124</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.659558,41.739889 -77.658179,41.73989 -77.657998,41.73989 -77.657453,41.739891 -77.630553,41.739906 -77.630548,41.738925 -77.630544,41.738466 -77.630542,41.737985 -77.630541,41.737444 -77.630539,41.737397 -77.630543,41.736063 -77.630549,41.734442 -77.630571,41.727593 -77.638677,41.727665 -77.640179,41.727679 -77.640473,41.727681 -77.65326,41.727795 -77.655596,41.727817 -77.655951,41.727821 -77.657007,41.727831 -77.657321,41.727834 -77.657654,41.727835 -77.658193,41.727839 -77.658757,41.727842 -77.658926,41.727843 -77.660616,41.72786 -77.660603,41.728186 -77.660557,41.729284 -77.660538,41.72973 -77.660145,41.739086 -77.660135,41.739313 -77.660111,41.739889 -77.659558,41.739889</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

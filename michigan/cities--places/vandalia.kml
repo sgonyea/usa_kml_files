@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vandalia</name>
+<Schema name="vandalia" id="vandalia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vandalia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vandalia">
+		<SimpleData name="Name">Vandalia</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">81680</SimpleData>
+		<SimpleData name="PLACENS">02400044</SimpleData>
+		<SimpleData name="GEOID">2681680</SimpleData>
+		<SimpleData name="NAMELSAD">Vandalia village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2559996</SimpleData>
+		<SimpleData name="AWATER">1643</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9227900</SimpleData>
+		<SimpleData name="INTPTLON">-085.9155058</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.918322,41.92614 -85.917131,41.926103 -85.916952,41.926109 -85.916092,41.92611 -85.91442,41.926096 -85.91275,41.926116 -85.909337,41.926139 -85.90479,41.926115 -85.904709,41.922246 -85.904699,41.920997 -85.904683,41.918899 -85.904671,41.918201 -85.904639,41.916316 -85.904634,41.911776 -85.911068,41.9117 -85.912025,41.911688 -85.913582,41.91167 -85.914258,41.911665 -85.916393,41.911656 -85.922935,41.91162 -85.923826,41.911614 -85.923917,41.918762 -85.923969,41.926257 -85.918322,41.92614</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>parkway_village</name>
+<Schema name="parkway_village" id="parkway_village">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Parkway Village</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parkway_village">
+		<SimpleData name="Name">Parkway Village</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">59322</SimpleData>
+		<SimpleData name="PLACENS">02404483</SimpleData>
+		<SimpleData name="GEOID">2159322</SimpleData>
+		<SimpleData name="NAMELSAD">Parkway Village city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">226837</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.2113061</SimpleData>
+		<SimpleData name="INTPTLON">-085.7381081</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.741407,38.213038 -85.741373,38.21305 -85.741147,38.213174 -85.741042,38.213227 -85.740884,38.213315 -85.740771,38.21336 -85.740615,38.213444 -85.740377,38.213564 -85.739652,38.213943 -85.739549,38.213994 -85.738975,38.214307 -85.738876,38.214357 -85.738123,38.214768 -85.73806,38.214672 -85.737959,38.214705 -85.737588,38.214043 -85.736933,38.212895 -85.736518,38.21228 -85.736096,38.211577 -85.735358,38.210409 -85.734959,38.209683 -85.734775,38.209401 -85.73474,38.209235 -85.735389,38.209018 -85.736635,38.208604 -85.737423,38.208335 -85.737722,38.208235 -85.737936,38.208163 -85.738135,38.208109 -85.738285,38.208054 -85.738481,38.208362 -85.738895,38.209004 -85.738919,38.209047 -85.738972,38.209118 -85.738994,38.209148 -85.739002,38.209166 -85.739638,38.210157 -85.74009,38.210857 -85.740481,38.211465 -85.740785,38.211941 -85.74083,38.211992 -85.740994,38.212239 -85.741053,38.212326 -85.741334,38.212704 -85.741438,38.212832 -85.741537,38.21297 -85.741407,38.213038</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

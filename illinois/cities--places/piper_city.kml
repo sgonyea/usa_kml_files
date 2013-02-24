@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>piper_city</name>
+<Schema name="piper_city" id="piper_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Piper City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#piper_city">
+		<SimpleData name="Name">Piper City</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">60079</SimpleData>
+		<SimpleData name="PLACENS">02399679</SimpleData>
+		<SimpleData name="GEOID">1760079</SimpleData>
+		<SimpleData name="NAMELSAD">Piper City village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1417711</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7560128</SimpleData>
+		<SimpleData name="INTPTLON">-088.1887428</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.197188,40.758246 -88.196323,40.758322 -88.195819,40.758357 -88.195818,40.758467 -88.195796,40.761305 -88.193547,40.761348 -88.193541,40.762044 -88.192856,40.76205 -88.192907,40.762602 -88.192641,40.762604 -88.192296,40.762607 -88.192319,40.763887 -88.192311,40.76536 -88.190187,40.765355 -88.189002,40.765378 -88.189018,40.762657 -88.189023,40.762251 -88.18809,40.762255 -88.187969,40.758968 -88.182635,40.759242 -88.182622,40.759025 -88.182593,40.758539 -88.182538,40.757618 -88.182475,40.756562 -88.182393,40.755524 -88.182598,40.755497 -88.182704,40.755461 -88.182624,40.754314 -88.182342,40.754327 -88.180936,40.754378 -88.180933,40.754009 -88.180914,40.75318 -88.180433,40.753153 -88.180321,40.752007 -88.182647,40.752022 -88.18263,40.751537 -88.182512,40.748236 -88.189425,40.74817 -88.189717,40.751345 -88.189785,40.752283 -88.192478,40.752326 -88.192461,40.75449 -88.193282,40.75449 -88.193272,40.755553 -88.193566,40.755558 -88.195249,40.755577 -88.195235,40.755376 -88.195722,40.755377 -88.195832,40.754687 -88.197184,40.754717 -88.197171,40.755378 -88.197188,40.758246</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

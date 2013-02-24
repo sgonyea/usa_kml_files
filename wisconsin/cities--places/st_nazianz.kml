@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>st_nazianz</name>
+<Schema name="st_nazianz" id="st_nazianz">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>St. Nazianz</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#st_nazianz">
+		<SimpleData name="Name">St. Nazianz</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">71025</SimpleData>
+		<SimpleData name="PLACENS">01584092</SimpleData>
+		<SimpleData name="GEOID">5571025</SimpleData>
+		<SimpleData name="NAMELSAD">St. Nazianz village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2142802</SimpleData>
+		<SimpleData name="AWATER">55887</SimpleData>
+		<SimpleData name="INTPTLAT">+44.0073453</SimpleData>
+		<SimpleData name="INTPTLON">-087.9247870</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.928806,44.015282 -87.927328,44.015278 -87.926469,44.015275 -87.924089,44.015282 -87.922752,44.015273 -87.922398,44.01526 -87.92238,44.012614 -87.922386,44.012314 -87.921087,44.012336 -87.921036,44.011747 -87.916904,44.011736 -87.916885,44.009628 -87.916653,44.00963 -87.91665,44.009015 -87.915611,44.009016 -87.915607,44.008061 -87.913769,44.008066 -87.913232,44.008067 -87.912236,44.008078 -87.911964,44.008085 -87.911933,44.008085 -87.911911,44.006261 -87.911893,44.004608 -87.911878,44.003954 -87.917857,44.003943 -87.920335,44.003937 -87.920488,44.002985 -87.920518,44.002763 -87.921342,44.002753 -87.921288,44.002092 -87.921248,44.000725 -87.921176,43.999978 -87.921248,43.997014 -87.921282,43.996097 -87.922364,43.996089 -87.929012,43.996062 -87.92893,43.99957 -87.928884,43.999992 -87.92894,44.002649 -87.932315,44.002559 -87.932533,44.002593 -87.932617,44.003832 -87.932566,44.004163 -87.932474,44.004379 -87.932454,44.004812 -87.932431,44.004976 -87.932377,44.005071 -87.932525,44.00805 -87.932543,44.014384 -87.932567,44.01447 -87.932605,44.014635 -87.932728,44.015276 -87.928806,44.015282</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

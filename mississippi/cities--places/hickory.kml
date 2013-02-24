@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hickory</name>
+<Schema name="hickory" id="hickory">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hickory</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hickory">
+		<SimpleData name="Name">Hickory</SimpleData>
+		<SimpleData name="STATEFP">28</SimpleData>
+		<SimpleData name="PLACEFP">31980</SimpleData>
+		<SimpleData name="PLACENS">02405822</SimpleData>
+		<SimpleData name="GEOID">2831980</SimpleData>
+		<SimpleData name="NAMELSAD">Hickory town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2423155</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.3167039</SimpleData>
+		<SimpleData name="INTPTLON">-089.0217348</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.031961,32.322395 -89.030791,32.322378 -89.029569,32.322363 -89.029351,32.322356 -89.028698,32.322336 -89.028481,32.322331 -89.02721,32.32235 -89.025914,32.322372 -89.025486,32.322379 -89.02214,32.322338 -89.018203,32.3223 -89.011325,32.322269 -89.011166,32.322276 -89.011239,32.32081 -89.011307,32.319474 -89.011477,32.316095 -89.011511,32.315418 -89.01152,32.315234 -89.011724,32.311196 -89.01172,32.31111 -89.012144,32.311089 -89.013678,32.311014 -89.014189,32.310991 -89.016328,32.311003 -89.022745,32.311042 -89.024884,32.311055 -89.026847,32.311047 -89.027599,32.311045 -89.032009,32.311028 -89.032007,32.311757 -89.032005,32.313721 -89.032003,32.314342 -89.032001,32.314711 -89.031993,32.317684 -89.031991,32.318675 -89.031988,32.319092 -89.031984,32.319797 -89.031983,32.319896 -89.031961,32.322395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

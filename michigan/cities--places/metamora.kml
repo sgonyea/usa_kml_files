@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>metamora</name>
+<Schema name="metamora" id="metamora">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Metamora</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#metamora">
+		<SimpleData name="Name">Metamora</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">53340</SimpleData>
+		<SimpleData name="PLACENS">02399326</SimpleData>
+		<SimpleData name="GEOID">2653340</SimpleData>
+		<SimpleData name="NAMELSAD">Metamora village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2159246</SimpleData>
+		<SimpleData name="AWATER">3932</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9454460</SimpleData>
+		<SimpleData name="INTPTLON">-083.2929873</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.2871,42.948891 -83.285578,42.948948 -83.28365,42.948987 -83.279267,42.949094 -83.279124,42.94343 -83.279946,42.943413 -83.279946,42.941771 -83.280089,42.941767 -83.282413,42.941702 -83.282433,42.942741 -83.283174,42.942722 -83.283154,42.942132 -83.283559,42.942114 -83.28356,42.94167 -83.283428,42.940023 -83.283421,42.93983 -83.283411,42.939182 -83.283362,42.93835 -83.283335,42.937486 -83.283192,42.935073 -83.283174,42.934559 -83.292404,42.934449 -83.293042,42.934457 -83.296156,42.934405 -83.297549,42.934417 -83.298164,42.942942 -83.298511,42.948565 -83.2871,42.948891</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

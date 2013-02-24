@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>galva</name>
+<Schema name="galva" id="galva">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Galva</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#galva">
+		<SimpleData name="Name">Galva</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">25200</SimpleData>
+		<SimpleData name="PLACENS">02394849</SimpleData>
+		<SimpleData name="GEOID">2025200</SimpleData>
+		<SimpleData name="NAMELSAD">Galva city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1273298</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.3835918</SimpleData>
+		<SimpleData name="INTPTLON">-097.5381274</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.543849,38.391363 -97.540377,38.391425 -97.538928,38.391473 -97.537588,38.391491 -97.537584,38.390228 -97.537565,38.387788 -97.53756,38.387461 -97.536633,38.38746 -97.532788,38.38751 -97.532771,38.386093 -97.532746,38.384551 -97.532739,38.384094 -97.532732,38.383659 -97.532694,38.381286 -97.532807,38.380681 -97.532651,38.380275 -97.532649,38.379655 -97.532664,38.379391 -97.532195,38.379391 -97.532157,38.377032 -97.532613,38.377025 -97.533395,38.377012 -97.534436,38.376997 -97.534755,38.376992 -97.534724,38.375872 -97.537503,38.375872 -97.537519,38.376642 -97.537516,38.376977 -97.538882,38.376964 -97.540962,38.376936 -97.541904,38.37691 -97.541916,38.377528 -97.541354,38.379858 -97.541481,38.380895 -97.542205,38.380864 -97.542586,38.383985 -97.542021,38.383963 -97.542043,38.384137 -97.542101,38.384608 -97.542105,38.3848 -97.542959,38.384787 -97.543262,38.384783 -97.54385,38.384777 -97.543849,38.391363</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

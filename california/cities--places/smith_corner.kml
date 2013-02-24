@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>smith_corner</name>
+<Schema name="smith_corner" id="smith_corner">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Smith Corner</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#smith_corner">
+		<SimpleData name="Name">Smith Corner</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">72338</SimpleData>
+		<SimpleData name="PLACENS">02629764</SimpleData>
+		<SimpleData name="GEOID">0672338</SimpleData>
+		<SimpleData name="NAMELSAD">Smith Corner CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">568642</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.4788310</SimpleData>
+		<SimpleData name="INTPTLON">-119.2771226</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-119.282988,35.481659 -119.278539,35.481691 -119.271838,35.481659 -119.271838,35.478046 -119.274025,35.478051 -119.274152,35.477595 -119.274152,35.47729 -119.274216,35.476293 -119.274211,35.474415 -119.278638,35.474414 -119.278628,35.475164 -119.278589,35.478062 -119.279596,35.478065 -119.281386,35.478069 -119.281729,35.47807 -119.282818,35.478073 -119.283004,35.478073 -119.282988,35.481659</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

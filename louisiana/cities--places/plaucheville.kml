@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>plaucheville</name>
+<Schema name="plaucheville" id="plaucheville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Plaucheville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#plaucheville">
+		<SimpleData name="Name">Plaucheville</SimpleData>
+		<SimpleData name="STATEFP">22</SimpleData>
+		<SimpleData name="PLACEFP">60985</SimpleData>
+		<SimpleData name="PLACENS">02407526</SimpleData>
+		<SimpleData name="GEOID">2260985</SimpleData>
+		<SimpleData name="NAMELSAD">Plaucheville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3921861</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+30.9646924</SimpleData>
+		<SimpleData name="INTPTLON">-091.9836545</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.994026,30.957473 -91.994026,30.961405 -91.994026,30.961516 -91.994026,30.969526 -91.994026,30.97363 -91.991146,30.97362 -91.978548,30.973579 -91.978447,30.973579 -91.973292,30.973562 -91.973245,30.968934 -91.973159,30.960447 -91.97313,30.957588 -91.973113,30.955988 -91.992185,30.955673 -91.994026,30.955643 -91.994026,30.957473</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

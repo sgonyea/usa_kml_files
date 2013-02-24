@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>darwin</name>
+<Schema name="darwin" id="darwin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Darwin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#darwin">
+		<SimpleData name="Name">Darwin</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">14842</SimpleData>
+		<SimpleData name="PLACENS">02393721</SimpleData>
+		<SimpleData name="GEOID">2714842</SimpleData>
+		<SimpleData name="NAMELSAD">Darwin city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5149808</SimpleData>
+		<SimpleData name="AWATER">413773</SimpleData>
+		<SimpleData name="INTPTLAT">+45.0960118</SimpleData>
+		<SimpleData name="INTPTLON">-094.4142930</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.430984,45.094664 -94.430979,45.098225 -94.430969,45.104454 -94.430969,45.104998 -94.430989,45.105277 -94.420756,45.105276 -94.41466,45.105284 -94.410308,45.105289 -94.407963,45.105292 -94.406475,45.105294 -94.395127,45.105308 -94.395127,45.103779 -94.395127,45.102116 -94.395127,45.101876 -94.395127,45.099057 -94.395138,45.098615 -94.395127,45.094273 -94.395127,45.092842 -94.395127,45.09229 -94.395127,45.092017 -94.395127,45.090431 -94.395127,45.089146 -94.395127,45.087569 -94.400953,45.08756 -94.402541,45.087558 -94.405208,45.087552 -94.407327,45.087548 -94.411625,45.08754 -94.412565,45.087536 -94.412815,45.087548 -94.413304,45.08756 -94.414136,45.087553 -94.414604,45.087559 -94.414952,45.087558 -94.430996,45.087526 -94.430984,45.094664</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

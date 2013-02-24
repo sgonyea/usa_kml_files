@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>holiday_lake</name>
+<Schema name="holiday_lake" id="holiday_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Holiday Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#holiday_lake">
+		<SimpleData name="Name">Holiday Lake</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">36660</SimpleData>
+		<SimpleData name="PLACENS">02629968</SimpleData>
+		<SimpleData name="GEOID">1936660</SimpleData>
+		<SimpleData name="NAMELSAD">Holiday Lake CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">3996384</SimpleData>
+		<SimpleData name="AWATER">412285</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8167794</SimpleData>
+		<SimpleData name="INTPTLON">-092.4484519</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.465215,41.824183 -92.455133,41.824183 -92.455133,41.825647 -92.455129,41.826658 -92.453328,41.82651 -92.450651,41.825927 -92.448299,41.825597 -92.447398,41.82548 -92.445682,41.825545 -92.443688,41.825869 -92.443042,41.826054 -92.442121,41.826697 -92.442121,41.826811 -92.441632,41.826995 -92.44105,41.82704 -92.440653,41.827017 -92.439228,41.826721 -92.435789,41.826823 -92.435785,41.822528 -92.435784,41.810543 -92.439576,41.810543 -92.439589,41.806707 -92.439923,41.806645 -92.441544,41.806416 -92.443275,41.806167 -92.443559,41.806114 -92.443757,41.806063 -92.443998,41.805985 -92.444228,41.805892 -92.444404,41.805806 -92.444452,41.805778 -92.444443,41.809297 -92.460631,41.809297 -92.460631,41.811505 -92.465215,41.811505 -92.465215,41.824183</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

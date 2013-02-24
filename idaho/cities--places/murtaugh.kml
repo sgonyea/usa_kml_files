@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>murtaugh</name>
+<Schema name="murtaugh" id="murtaugh">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Murtaugh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#murtaugh">
+		<SimpleData name="Name">Murtaugh</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">55900</SimpleData>
+		<SimpleData name="PLACENS">02411200</SimpleData>
+		<SimpleData name="GEOID">1655900</SimpleData>
+		<SimpleData name="NAMELSAD">Murtaugh city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">299558</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.4918358</SimpleData>
+		<SimpleData name="INTPTLON">-114.1615264</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-114.167012,42.492151 -114.166992,42.493167 -114.166988,42.493731 -114.163903,42.493645 -114.163932,42.494051 -114.163767,42.494047 -114.163555,42.494047 -114.161834,42.494068 -114.161825,42.493784 -114.161856,42.493339 -114.161859,42.493228 -114.161681,42.493218 -114.156715,42.493153 -114.156748,42.492327 -114.156531,42.492324 -114.156533,42.492279 -114.156574,42.49222 -114.156493,42.491718 -114.156452,42.491566 -114.156654,42.491571 -114.157033,42.491579 -114.157038,42.491446 -114.157067,42.4909 -114.157067,42.490534 -114.157034,42.489699 -114.157001,42.489572 -114.158153,42.489574 -114.16145,42.489596 -114.161901,42.489603 -114.162649,42.489608 -114.162737,42.491226 -114.163964,42.491226 -114.164809,42.491225 -114.165165,42.491224 -114.165852,42.491216 -114.166289,42.491202 -114.166444,42.491199 -114.166973,42.491196 -114.167012,42.492151</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

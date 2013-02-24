@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>folsom</name>
+<Schema name="folsom" id="folsom">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Folsom</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#folsom">
+		<SimpleData name="Name">Folsom</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">26780</SimpleData>
+		<SimpleData name="PLACENS">02413552</SimpleData>
+		<SimpleData name="GEOID">3526780</SimpleData>
+		<SimpleData name="NAMELSAD">Folsom village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1367328</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.8482889</SimpleData>
+		<SimpleData name="INTPTLON">-103.9186015</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.926763,36.841422 -103.926806,36.842364 -103.926817,36.84255 -103.92685,36.843129 -103.92272,36.843226 -103.922724,36.843581 -103.922927,36.846005 -103.923065,36.847177 -103.923131,36.847787 -103.923137,36.848011 -103.923175,36.854587 -103.918546,36.85459 -103.915011,36.854611 -103.914384,36.854612 -103.914234,36.854612 -103.909876,36.854541 -103.909801,36.851645 -103.909801,36.851482 -103.9098,36.851349 -103.911877,36.851256 -103.912404,36.851233 -103.912968,36.851172 -103.913642,36.851107 -103.913656,36.850871 -103.913728,36.848779 -103.913783,36.847177 -103.913811,36.846364 -103.913831,36.844288 -103.91384,36.843893 -103.91744,36.843896 -103.917446,36.843497 -103.917452,36.843148 -103.917465,36.841903 -103.920515,36.84194 -103.922497,36.841933 -103.922497,36.839615 -103.926809,36.839592 -103.926763,36.841422</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

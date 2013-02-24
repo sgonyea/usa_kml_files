@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bellerose</name>
+<Schema name="bellerose" id="bellerose">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bellerose</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bellerose">
+		<SimpleData name="Name">Bellerose</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">05639</SimpleData>
+		<SimpleData name="PLACENS">02391545</SimpleData>
+		<SimpleData name="GEOID">3605639</SimpleData>
+		<SimpleData name="NAMELSAD">Bellerose village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">320331</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7242443</SimpleData>
+		<SimpleData name="INTPTLON">-073.7166717</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.720916,40.725273 -73.720335,40.725432 -73.718269,40.725997 -73.716684,40.726375 -73.71585,40.726478 -73.71496,40.72659 -73.714052,40.726705 -73.712421,40.72691 -73.712579,40.726169 -73.712458,40.725705 -73.71243,40.725461 -73.712367,40.724749 -73.712312,40.72376 -73.71228,40.723164 -73.715174,40.72253 -73.719597,40.721523 -73.720322,40.72135 -73.720527,40.721795 -73.720552,40.722435 -73.720668,40.723053 -73.720937,40.723754 -73.721401,40.724385 -73.720916,40.725273</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

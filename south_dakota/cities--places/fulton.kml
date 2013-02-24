@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fulton</name>
+<Schema name="fulton" id="fulton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fulton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fulton">
+		<SimpleData name="Name">Fulton</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">23220</SimpleData>
+		<SimpleData name="PLACENS">01267398</SimpleData>
+		<SimpleData name="GEOID">4623220</SimpleData>
+		<SimpleData name="NAMELSAD">Fulton town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2211423</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7288305</SimpleData>
+		<SimpleData name="INTPTLON">-097.8226276</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.833453,43.73145 -97.833495,43.734287 -97.833501,43.734909 -97.828513,43.73499 -97.828112,43.734997 -97.813331,43.735167 -97.813326,43.734817 -97.813285,43.731506 -97.813205,43.724214 -97.813146,43.720498 -97.818085,43.720511 -97.818102,43.720737 -97.818135,43.721799 -97.818162,43.722173 -97.818165,43.722313 -97.821079,43.72231 -97.823103,43.722327 -97.823134,43.723742 -97.823281,43.723729 -97.823312,43.723928 -97.828124,43.723928 -97.828138,43.724336 -97.833384,43.724406 -97.833453,43.73145</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

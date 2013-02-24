@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>carolina</name>
+<Schema name="carolina" id="carolina">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Carolina</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#carolina">
+		<SimpleData name="Name">Carolina</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">12160</SimpleData>
+		<SimpleData name="PLACENS">02405380</SimpleData>
+		<SimpleData name="GEOID">0112160</SimpleData>
+		<SimpleData name="NAMELSAD">Carolina town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2871453</SimpleData>
+		<SimpleData name="AWATER">20504</SimpleData>
+		<SimpleData name="INTPTLAT">+31.2341499</SimpleData>
+		<SimpleData name="INTPTLON">-086.5210009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.531152,31.234218 -86.530808,31.241265 -86.530677,31.244321 -86.530589,31.244302 -86.530419,31.244276 -86.530249,31.244257 -86.529905,31.244241 -86.528365,31.244257 -86.528022,31.244268 -86.527512,31.244274 -86.527202,31.244243 -86.523854,31.244526 -86.523847,31.241865 -86.523845,31.24128 -86.521356,31.241284 -86.519418,31.241287 -86.519418,31.240827 -86.519419,31.239588 -86.519373,31.237487 -86.515622,31.237588 -86.515276,31.233696 -86.514978,31.233691 -86.5137,31.233675 -86.510875,31.233667 -86.510887,31.229757 -86.510985,31.226357 -86.517635,31.226351 -86.520743,31.226315 -86.528267,31.226227 -86.531186,31.22624 -86.531158,31.233352 -86.531152,31.234218</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>harmony</name>
+<Schema name="harmony" id="harmony">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Harmony</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#harmony">
+		<SimpleData name="Name">Harmony</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">31486</SimpleData>
+		<SimpleData name="PLACENS">02396986</SimpleData>
+		<SimpleData name="GEOID">1831486</SimpleData>
+		<SimpleData name="NAMELSAD">Harmony town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1929316</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.5335389</SimpleData>
+		<SimpleData name="INTPTLON">-087.0734239</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.078562,39.546471 -87.078462,39.546471 -87.07622,39.546465 -87.07569,39.546475 -87.075313,39.546482 -87.075097,39.546486 -87.075138,39.545857 -87.075303,39.540532 -87.075002,39.539893 -87.073638,39.539884 -87.070373,39.539864 -87.066644,39.539858 -87.066676,39.539569 -87.066689,39.537632 -87.06669,39.537545 -87.066714,39.533478 -87.066717,39.533415 -87.066823,39.525069 -87.070582,39.525116 -87.072756,39.525145 -87.079935,39.52528 -87.079854,39.526624 -87.079891,39.526978 -87.079874,39.528486 -87.079872,39.5301 -87.079845,39.53051 -87.079849,39.531195 -87.079851,39.531488 -87.079845,39.531793 -87.079828,39.532691 -87.07981,39.533458 -87.079796,39.534059 -87.079787,39.53443 -87.079768,39.53487 -87.079639,39.534899 -87.076727,39.535544 -87.075601,39.535794 -87.075509,39.535815 -87.075451,39.537591 -87.07539,39.539519 -87.07549,39.53951 -87.079511,39.539606 -87.079356,39.546472 -87.078562,39.546471</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

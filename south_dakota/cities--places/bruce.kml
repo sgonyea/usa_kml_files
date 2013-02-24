@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bruce</name>
+<Schema name="bruce" id="bruce">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bruce</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bruce">
+		<SimpleData name="Name">Bruce</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">07740</SimpleData>
+		<SimpleData name="PLACENS">01267300</SimpleData>
+		<SimpleData name="GEOID">4607740</SimpleData>
+		<SimpleData name="NAMELSAD">Bruce city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">955418</SimpleData>
+		<SimpleData name="AWATER">25173</SimpleData>
+		<SimpleData name="INTPTLAT">+44.4377157</SimpleData>
+		<SimpleData name="INTPTLON">-096.8896336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.896749,44.433938 -96.896723,44.436128 -96.896716,44.437184 -96.896645,44.440357 -96.896617,44.442234 -96.891854,44.442154 -96.890212,44.442132 -96.886861,44.442098 -96.885812,44.442117 -96.884818,44.442134 -96.884574,44.442139 -96.884282,44.442141 -96.884246,44.440037 -96.884215,44.437957 -96.880943,44.437737 -96.880891,44.435687 -96.882724,44.435672 -96.882729,44.435951 -96.883696,44.436043 -96.883627,44.434732 -96.886768,44.434807 -96.886763,44.43394 -96.886761,44.433626 -96.890575,44.433622 -96.890863,44.433622 -96.892103,44.433621 -96.893946,44.433584 -96.896753,44.43358 -96.896749,44.433938</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

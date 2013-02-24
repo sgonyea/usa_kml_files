@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>newark</name>
+<Schema name="newark" id="newark">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Newark</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#newark">
+		<SimpleData name="Name">Newark</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">51662</SimpleData>
+		<SimpleData name="PLACENS">02399489</SimpleData>
+		<SimpleData name="GEOID">2951662</SimpleData>
+		<SimpleData name="NAMELSAD">Newark village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">835908</SimpleData>
+		<SimpleData name="AWATER">949</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9944017</SimpleData>
+		<SimpleData name="INTPTLON">-091.9735883</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.980009,39.996355 -91.978893,39.996353 -91.97573,39.996363 -91.975715,39.997639 -91.97569,39.999849 -91.97457,39.999843 -91.97198,39.999832 -91.971176,39.999846 -91.97121,39.999954 -91.970818,39.999959 -91.970201,39.999949 -91.968881,39.999945 -91.968878,39.997379 -91.968878,39.994239 -91.968878,39.992839 -91.968981,39.989493 -91.972138,39.989502 -91.97313,39.989514 -91.975386,39.989527 -91.975384,39.990871 -91.975553,39.990868 -91.975729,39.990865 -91.975725,39.991203 -91.977596,39.991205 -91.977578,39.992863 -91.978263,39.992869 -91.978769,39.992873 -91.979373,39.992886 -91.979955,39.992865 -91.980009,39.996355</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

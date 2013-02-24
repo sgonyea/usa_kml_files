@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lenkerville</name>
+<Schema name="lenkerville" id="lenkerville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lenkerville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lenkerville">
+		<SimpleData name="Name">Lenkerville</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">42704</SimpleData>
+		<SimpleData name="PLACENS">02630021</SimpleData>
+		<SimpleData name="GEOID">4242704</SimpleData>
+		<SimpleData name="NAMELSAD">Lenkerville CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">868700</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5326866</SimpleData>
+		<SimpleData name="INTPTLON">-076.9594283</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.966908,40.528685 -76.966049,40.53018 -76.96589,40.530507 -76.965559,40.531152 -76.965173,40.531863 -76.964815,40.532499 -76.964511,40.533007 -76.964312,40.533325 -76.963939,40.533951 -76.963702,40.53443 -76.963532,40.534866 -76.963424,40.535214 -76.963323,40.535651 -76.963312,40.535975 -76.963289,40.53612 -76.963311,40.53623 -76.963237,40.536261 -76.963165,40.536291 -76.963088,40.536323 -76.96263,40.536428 -76.961994,40.536575 -76.961368,40.536762 -76.961049,40.536914 -76.960613,40.537125 -76.960555,40.537161 -76.960066,40.537465 -76.959605,40.537636 -76.958346,40.537965 -76.958236,40.537983 -76.957382,40.53813 -76.957045,40.538098 -76.956785,40.538075 -76.956389,40.537779 -76.956209,40.537466 -76.956014,40.537049 -76.955611,40.536643 -76.954906,40.536286 -76.954657,40.536124 -76.95451,40.536028 -76.953877,40.535227 -76.953668,40.534952 -76.953278,40.534622 -76.953585,40.533955 -76.953551,40.53383 -76.952784,40.530958 -76.955506,40.530171 -76.95703,40.528494 -76.960643,40.528401 -76.961858,40.528376 -76.966505,40.52855 -76.966836,40.528563 -76.967002,40.528566 -76.966908,40.528685</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>halma</name>
+<Schema name="halma" id="halma">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Halma</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#halma">
+		<SimpleData name="Name">Halma</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">26612</SimpleData>
+		<SimpleData name="PLACENS">02394271</SimpleData>
+		<SimpleData name="GEOID">2726612</SimpleData>
+		<SimpleData name="NAMELSAD">Halma city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2337793</SimpleData>
+		<SimpleData name="AWATER">32159</SimpleData>
+		<SimpleData name="INTPTLAT">+48.6604535</SimpleData>
+		<SimpleData name="INTPTLON">-096.5976295</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.6103,48.659502 -96.610369,48.660796 -96.610378,48.66096 -96.610393,48.661232 -96.610396,48.661294 -96.6104,48.661356 -96.610406,48.661472 -96.610413,48.661587 -96.610418,48.661672 -96.610422,48.661757 -96.61052,48.663572 -96.610588,48.664822 -96.610673,48.666407 -96.610678,48.666493 -96.610682,48.666578 -96.610688,48.666688 -96.608514,48.666692 -96.605807,48.6667 -96.604704,48.666692 -96.603779,48.666656 -96.594897,48.666485 -96.594914,48.665364 -96.594937,48.663077 -96.592783,48.663142 -96.586236,48.662741 -96.583868,48.662737 -96.583927,48.659322 -96.581287,48.659286 -96.578567,48.659278 -96.578482,48.655491 -96.583965,48.655518 -96.589463,48.655537 -96.589453,48.652167 -96.590172,48.652192 -96.591136,48.652229 -96.594936,48.652154 -96.595024,48.654511 -96.595035,48.65568 -96.597119,48.655692 -96.605918,48.655802 -96.606381,48.655818 -96.607775,48.655836 -96.607997,48.655824 -96.608158,48.655796 -96.60824,48.655767 -96.608292,48.655762 -96.610458,48.655791 -96.6103,48.659502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

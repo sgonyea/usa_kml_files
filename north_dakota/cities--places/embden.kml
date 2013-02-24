@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>embden</name>
+<Schema name="embden" id="embden">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Embden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#embden">
+		<SimpleData name="Name">Embden</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">24020</SimpleData>
+		<SimpleData name="PLACENS">02585498</SimpleData>
+		<SimpleData name="GEOID">3824020</SimpleData>
+		<SimpleData name="NAMELSAD">Embden CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1860145</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.8050308</SimpleData>
+		<SimpleData name="INTPTLON">-097.4395063</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.450983,46.795809 -97.450968,46.796359 -97.450946,46.797178 -97.450897,46.80312 -97.450898,46.803446 -97.450899,46.803615 -97.450933,46.803739 -97.45093,46.804086 -97.450916,46.805492 -97.450216,46.805255 -97.448343,46.8042 -97.447751,46.803983 -97.447191,46.803993 -97.446664,46.804255 -97.445686,46.805454 -97.444526,46.808034 -97.444298,46.808316 -97.443639,46.808557 -97.442783,46.808572 -97.442091,46.808378 -97.441072,46.807829 -97.440743,46.807743 -97.440085,46.807939 -97.439756,46.808152 -97.439662,46.808504 -97.439834,46.808949 -97.440334,46.809429 -97.440933,46.810206 -97.440966,46.810435 -97.440733,46.81055 -97.439801,46.810754 -97.439402,46.81096 -97.439235,46.811211 -97.439402,46.812401 -97.439202,46.812949 -97.438936,46.813155 -97.438503,46.813269 -97.437737,46.813223 -97.43564,46.812834 -97.434675,46.812948 -97.434242,46.813245 -97.434109,46.813474 -97.434076,46.813725 -97.43371,46.813817 -97.433593,46.814235 -97.429909,46.814271 -97.429924,46.810774 -97.42993,46.803508 -97.42993,46.803278 -97.429928,46.803131 -97.429925,46.802819 -97.431874,46.802178 -97.432794,46.801865 -97.435156,46.801062 -97.437796,46.800186 -97.450983,46.795809</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

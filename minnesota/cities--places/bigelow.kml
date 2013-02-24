@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bigelow</name>
+<Schema name="bigelow" id="bigelow">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bigelow</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bigelow">
+		<SimpleData name="Name">Bigelow</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">05644</SimpleData>
+		<SimpleData name="PLACENS">02394166</SimpleData>
+		<SimpleData name="GEOID">2705644</SimpleData>
+		<SimpleData name="NAMELSAD">Bigelow city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1046176</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.5056126</SimpleData>
+		<SimpleData name="INTPTLON">-095.6891548</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.694284,43.500398 -95.694275,43.501518 -95.694267,43.502554 -95.694264,43.502871 -95.69424,43.505875 -95.693951,43.51159 -95.689469,43.511424 -95.688536,43.511378 -95.684322,43.511229 -95.684086,43.51122 -95.684071,43.50352 -95.684043,43.503276 -95.684088,43.502595 -95.684072,43.501785 -95.684062,43.501237 -95.684072,43.500373 -95.684074,43.500224 -95.684076,43.500085 -95.684062,43.499975 -95.683791,43.500091 -95.683605,43.499896 -95.684051,43.499894 -95.684078,43.499894 -95.684344,43.499892 -95.684432,43.499892 -95.6875,43.499898 -95.689309,43.499881 -95.689365,43.499881 -95.692613,43.499891 -95.692673,43.499891 -95.693864,43.499888 -95.694218,43.499952 -95.694305,43.49997 -95.694284,43.500398</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

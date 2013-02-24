@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>maple_rapids</name>
+<Schema name="maple_rapids" id="maple_rapids">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Maple Rapids</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#maple_rapids">
+		<SimpleData name="Name">Maple Rapids</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">51200</SimpleData>
+		<SimpleData name="PLACENS">02399248</SimpleData>
+		<SimpleData name="GEOID">2651200</SimpleData>
+		<SimpleData name="NAMELSAD">Maple Rapids village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3526632</SimpleData>
+		<SimpleData name="AWATER">144081</SimpleData>
+		<SimpleData name="INTPTLAT">+43.1085570</SimpleData>
+		<SimpleData name="INTPTLON">-084.6859717</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.69205,43.118001 -84.692032,43.118001 -84.691957,43.118001 -84.691883,43.118002 -84.691865,43.118002 -84.691554,43.117997 -84.691442,43.11799 -84.684894,43.117976 -84.684745,43.117976 -84.684645,43.117976 -84.680202,43.117968 -84.680009,43.113424 -84.679965,43.112397 -84.67996,43.11216 -84.679956,43.111922 -84.679909,43.10948 -84.679887,43.108341 -84.679843,43.106051 -84.679894,43.104582 -84.679867,43.100913 -84.67995,43.097311 -84.689837,43.097456 -84.692397,43.097519 -84.694873,43.097549 -84.699799,43.097614 -84.699799,43.098766 -84.699728,43.101194 -84.699688,43.102859 -84.699717,43.103604 -84.699714,43.103848 -84.699711,43.104094 -84.699707,43.118025 -84.69205,43.118001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

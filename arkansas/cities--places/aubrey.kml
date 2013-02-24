@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>aubrey</name>
+<Schema name="aubrey" id="aubrey">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Aubrey</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aubrey">
+		<SimpleData name="Name">Aubrey</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">02680</SimpleData>
+		<SimpleData name="PLACENS">02405183</SimpleData>
+		<SimpleData name="GEOID">0502680</SimpleData>
+		<SimpleData name="NAMELSAD">Aubrey town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">914051</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.7197225</SimpleData>
+		<SimpleData name="INTPTLON">-090.8980689</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.90159,34.71654 -90.90159,34.71664 -90.901519,34.71767 -90.901481,34.718215 -90.901448,34.7187 -90.901355,34.720056 -90.901262,34.721411 -90.901156,34.722943 -90.901155,34.722965 -90.901048,34.724519 -90.900884,34.731123 -90.90006,34.73112 -90.899176,34.73116 -90.899264,34.726039 -90.899273,34.725564 -90.898608,34.725016 -90.89832,34.724778 -90.898162,34.724648 -90.898004,34.724517 -90.896245,34.723066 -90.895516,34.722465 -90.894486,34.721615 -90.893496,34.720798 -90.891507,34.719158 -90.891537,34.717887 -90.891568,34.716605 -90.891578,34.716203 -90.894196,34.716166 -90.894698,34.71616 -90.897612,34.716164 -90.899578,34.716048 -90.899635,34.713897 -90.899675,34.71237 -90.899695,34.711624 -90.899754,34.70935 -90.90059,34.70935 -90.901607,34.709347 -90.90159,34.71654</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

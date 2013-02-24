@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>leighton</name>
+<Schema name="leighton" id="leighton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Leighton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#leighton">
+		<SimpleData name="Name">Leighton</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">44310</SimpleData>
+		<SimpleData name="PLACENS">02395673</SimpleData>
+		<SimpleData name="GEOID">1944310</SimpleData>
+		<SimpleData name="NAMELSAD">Leighton city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">246200</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3387995</SimpleData>
+		<SimpleData name="INTPTLON">-092.7864171</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.789467,41.340845 -92.784698,41.34089 -92.784716,41.342641 -92.784716,41.342735 -92.782653,41.342743 -92.782653,41.342226 -92.784161,41.342219 -92.784199,41.34089 -92.784162,41.339054 -92.783702,41.339017 -92.78372,41.336939 -92.784678,41.336949 -92.784738,41.336882 -92.784752,41.336737 -92.78475,41.336651 -92.784732,41.335687 -92.784726,41.335366 -92.785273,41.335593 -92.785437,41.335662 -92.786347,41.33596 -92.786939,41.336212 -92.787485,41.336445 -92.788564,41.336921 -92.789446,41.337252 -92.789467,41.340845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

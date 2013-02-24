@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>osnabrock</name>
+<Schema name="osnabrock" id="osnabrock">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Osnabrock</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#osnabrock">
+		<SimpleData name="Name">Osnabrock</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">60100</SimpleData>
+		<SimpleData name="PLACENS">01036208</SimpleData>
+		<SimpleData name="GEOID">3860100</SimpleData>
+		<SimpleData name="NAMELSAD">Osnabrock city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">776612</SimpleData>
+		<SimpleData name="AWATER">5282</SimpleData>
+		<SimpleData name="INTPTLAT">+48.6701634</SimpleData>
+		<SimpleData name="INTPTLON">-098.1493970</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.15543,48.666544 -98.15542,48.670831 -98.155405,48.670916 -98.155319,48.672468 -98.155363,48.67341 -98.155363,48.673555 -98.155151,48.673557 -98.154268,48.67356 -98.153174,48.673545 -98.151672,48.673519 -98.150431,48.673523 -98.150103,48.673524 -98.149812,48.673531 -98.149076,48.673549 -98.148178,48.673558 -98.1457,48.673619 -98.14443,48.673637 -98.14386,48.673645 -98.142397,48.673637 -98.142412,48.669391 -98.14241,48.668484 -98.142373,48.666429 -98.142373,48.666257 -98.142371,48.66618 -98.143911,48.666178 -98.144429,48.666215 -98.145499,48.666253 -98.145811,48.666221 -98.146921,48.666258 -98.152936,48.666242 -98.154936,48.666191 -98.155415,48.666189 -98.15543,48.666544</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

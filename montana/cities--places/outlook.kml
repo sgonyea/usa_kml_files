@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>outlook</name>
+<Schema name="outlook" id="outlook">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Outlook</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#outlook">
+		<SimpleData name="Name">Outlook</SimpleData>
+		<SimpleData name="STATEFP">30</SimpleData>
+		<SimpleData name="PLACEFP">56050</SimpleData>
+		<SimpleData name="PLACENS">02413095</SimpleData>
+		<SimpleData name="GEOID">3056050</SimpleData>
+		<SimpleData name="NAMELSAD">Outlook town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3377244</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.8887396</SimpleData>
+		<SimpleData name="INTPTLON">-104.7850780</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-104.798788,48.881302 -104.798788,48.881649 -104.798789,48.881765 -104.798795,48.882767 -104.798813,48.885775 -104.79882,48.886778 -104.798836,48.888675 -104.798885,48.894369 -104.798902,48.896267 -104.79871,48.896272 -104.797778,48.896264 -104.797077,48.896258 -104.794474,48.896253 -104.794408,48.896253 -104.793285,48.896253 -104.789997,48.896251 -104.780133,48.896248 -104.777064,48.896247 -104.776947,48.896232 -104.776846,48.896234 -104.776704,48.896222 -104.776455,48.896238 -104.776113,48.896245 -104.775726,48.896245 -104.772387,48.89625 -104.772365,48.896249 -104.771245,48.896246 -104.771261,48.894421 -104.771263,48.894276 -104.771283,48.89207 -104.771288,48.891486 -104.77131,48.888946 -104.771327,48.887122 -104.77134,48.886047 -104.771381,48.882825 -104.771395,48.881751 -104.771406,48.881216 -104.771445,48.881215 -104.77317,48.881203 -104.773745,48.881199 -104.774357,48.881196 -104.776194,48.881191 -104.776807,48.88119 -104.781203,48.881198 -104.793737,48.881221 -104.794391,48.881216 -104.796852,48.8812 -104.798788,48.881187 -104.798788,48.881302</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

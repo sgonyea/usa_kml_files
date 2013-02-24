@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>forman</name>
+<Schema name="forman" id="forman">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Forman</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#forman">
+		<SimpleData name="Name">Forman</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">27260</SimpleData>
+		<SimpleData name="PLACENS">01036039</SimpleData>
+		<SimpleData name="GEOID">3827260</SimpleData>
+		<SimpleData name="NAMELSAD">Forman city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1804683</SimpleData>
+		<SimpleData name="AWATER">23622</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1037610</SimpleData>
+		<SimpleData name="INTPTLON">-097.6370990</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.644176,46.096428 -97.644177,46.096459 -97.644367,46.100942 -97.644434,46.102525 -97.644342,46.105794 -97.644225,46.10963 -97.644235,46.109738 -97.644232,46.109867 -97.644228,46.110009 -97.639251,46.110013 -97.636371,46.110015 -97.633636,46.110017 -97.633636,46.109873 -97.633636,46.109777 -97.633636,46.109691 -97.627858,46.109684 -97.627441,46.109675 -97.62664,46.109683 -97.62557,46.109683 -97.625568,46.108722 -97.625572,46.108377 -97.625566,46.105981 -97.625568,46.102398 -97.63359,46.102447 -97.633585,46.101895 -97.633582,46.101467 -97.63358,46.100799 -97.633585,46.099081 -97.633588,46.098857 -97.633593,46.098423 -97.633581,46.097584 -97.63358,46.09749 -97.635124,46.097478 -97.635133,46.095269 -97.635657,46.095271 -97.636834,46.095274 -97.640647,46.095283 -97.641186,46.095284 -97.641933,46.09529 -97.643208,46.095301 -97.643897,46.095308 -97.644188,46.095312 -97.644176,46.096428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

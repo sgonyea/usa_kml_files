@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wilsonia</name>
+<Schema name="wilsonia" id="wilsonia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wilsonia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wilsonia">
+		<SimpleData name="Name">Wilsonia</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">85866</SimpleData>
+		<SimpleData name="PLACENS">02585464</SimpleData>
+		<SimpleData name="GEOID">0685866</SimpleData>
+		<SimpleData name="NAMELSAD">Wilsonia CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">705824</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.7345980</SimpleData>
+		<SimpleData name="INTPTLON">-118.9558466</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.961392,36.735427 -118.961453,36.73664 -118.96147,36.738181 -118.95092,36.738066 -118.951155,36.731985 -118.951224,36.730493 -118.956052,36.730479 -118.957643,36.730475 -118.959094,36.730551 -118.959071,36.730963 -118.958883,36.731034 -118.958205,36.731294 -118.95817,36.731386 -118.958069,36.731664 -118.958063,36.731684 -118.95807,36.731762 -118.958117,36.732251 -118.95812,36.732279 -118.958403,36.732533 -118.958603,36.732713 -118.959374,36.732927 -118.959428,36.732942 -118.959447,36.733378 -118.960239,36.73324 -118.961357,36.733213 -118.961392,36.735427</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

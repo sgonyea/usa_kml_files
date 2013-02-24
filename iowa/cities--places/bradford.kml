@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bradford</name>
+<Schema name="bradford" id="bradford">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bradford</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bradford">
+		<SimpleData name="Name">Bradford</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">08020</SimpleData>
+		<SimpleData name="PLACENS">02585467</SimpleData>
+		<SimpleData name="GEOID">1908020</SimpleData>
+		<SimpleData name="NAMELSAD">Bradford CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1507973</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.6367057</SimpleData>
+		<SimpleData name="INTPTLON">-093.2489484</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.255442,42.633462 -93.25545,42.635034 -93.250981,42.634992 -93.251624,42.635608 -93.252956,42.636637 -93.254444,42.638193 -93.255094,42.639519 -93.255528,42.641075 -93.255497,42.642173 -93.255188,42.643088 -93.254847,42.643477 -93.25484,42.643755 -93.253351,42.643744 -93.252221,42.643747 -93.247284,42.643718 -93.246756,42.643715 -93.242714,42.643689 -93.242746,42.643029 -93.242767,42.642567 -93.242789,42.642095 -93.242814,42.641528 -93.243067,42.636889 -93.243103,42.635981 -93.243144,42.634944 -93.243156,42.634654 -93.243163,42.634272 -93.243175,42.633813 -93.243191,42.633377 -93.243207,42.63295 -93.243222,42.632494 -93.243234,42.632016 -93.243246,42.631573 -93.243257,42.63114 -93.243264,42.630928 -93.243301,42.629977 -93.243087,42.629778 -93.242824,42.629564 -93.243316,42.629569 -93.243625,42.629572 -93.244709,42.62957 -93.24724,42.629566 -93.250006,42.629592 -93.250237,42.629589 -93.250705,42.629582 -93.252702,42.629587 -93.254248,42.629606 -93.255396,42.62963 -93.255442,42.633462</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

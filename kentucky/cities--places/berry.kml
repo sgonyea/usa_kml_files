@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>berry</name>
+<Schema name="berry" id="berry">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Berry</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#berry">
+		<SimpleData name="Name">Berry</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">05968</SimpleData>
+		<SimpleData name="PLACENS">02403861</SimpleData>
+		<SimpleData name="GEOID">2105968</SimpleData>
+		<SimpleData name="NAMELSAD">Berry city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">659276</SimpleData>
+		<SimpleData name="AWATER">2740</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5192485</SimpleData>
+		<SimpleData name="INTPTLON">-084.3822521</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.389549,38.515536 -84.389526,38.515545 -84.388955,38.515772 -84.388123,38.51625 -84.38755,38.516645 -84.386885,38.517649 -84.386494,38.518489 -84.386241,38.519274 -84.386038,38.520004 -84.385895,38.520573 -84.385884,38.520619 -84.385891,38.521173 -84.385952,38.52148 -84.386002,38.521733 -84.386267,38.52259 -84.386546,38.523298 -84.386937,38.52399 -84.387549,38.524608 -84.385003,38.525764 -84.384756,38.525867 -84.384702,38.525907 -84.384682,38.525922 -84.384669,38.525922 -84.38438,38.526057 -84.384118,38.526174 -84.381293,38.527441 -84.380759,38.524345 -84.380644,38.523667 -84.380608,38.523459 -84.380351,38.521951 -84.380111,38.520591 -84.380367,38.520321 -84.380404,38.520281 -84.380473,38.52021 -84.380855,38.520179 -84.380801,38.519972 -84.380187,38.517664 -84.380686,38.51529 -84.381142,38.515292 -84.381315,38.515293 -84.382247,38.515292 -84.38237,38.515295 -84.383235,38.515293 -84.383331,38.515298 -84.386156,38.515312 -84.389099,38.515325 -84.389419,38.515325 -84.389878,38.515337 -84.389549,38.515536</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

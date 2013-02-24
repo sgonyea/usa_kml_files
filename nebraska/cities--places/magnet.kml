@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>magnet</name>
+<Schema name="magnet" id="magnet">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Magnet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#magnet">
+		<SimpleData name="Name">Magnet</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">30310</SimpleData>
+		<SimpleData name="PLACENS">02399222</SimpleData>
+		<SimpleData name="GEOID">3130310</SimpleData>
+		<SimpleData name="NAMELSAD">Magnet village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">386196</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.4561201</SimpleData>
+		<SimpleData name="INTPTLON">-097.4692941</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.473569,42.45927 -97.473271,42.459272 -97.472419,42.459278 -97.471013,42.457759 -97.468491,42.457427 -97.467991,42.457437 -97.467991,42.4559 -97.46766,42.455904 -97.467696,42.456372 -97.467613,42.456421 -97.467562,42.456374 -97.467125,42.456378 -97.467149,42.45686 -97.466544,42.45685 -97.466758,42.462098 -97.465346,42.462094 -97.465419,42.460171 -97.465482,42.458171 -97.46551,42.457001 -97.465514,42.455918 -97.465512,42.454269 -97.465494,42.453298 -97.465496,42.453082 -97.466289,42.453072 -97.467025,42.453079 -97.467193,42.453092 -97.467446,42.453112 -97.469133,42.453103 -97.470135,42.453117 -97.470295,42.453119 -97.471418,42.453103 -97.472506,42.45309 -97.472738,42.453091 -97.473217,42.453093 -97.473569,42.45927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

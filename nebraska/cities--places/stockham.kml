@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>stockham</name>
+<Schema name="stockham" id="stockham">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Stockham</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#stockham">
+		<SimpleData name="Name">Stockham</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">47220</SimpleData>
+		<SimpleData name="PLACENS">02399903</SimpleData>
+		<SimpleData name="GEOID">3147220</SimpleData>
+		<SimpleData name="NAMELSAD">Stockham village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">438866</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7164104</SimpleData>
+		<SimpleData name="INTPTLON">-097.9433653</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.944224,40.719745 -97.942886,40.720726 -97.942306,40.72111 -97.941943,40.720821 -97.942622,40.720231 -97.94014,40.720238 -97.940134,40.719607 -97.940129,40.718969 -97.940127,40.718795 -97.940122,40.717551 -97.94012,40.716201 -97.940118,40.713305 -97.940118,40.712958 -97.940512,40.712957 -97.941522,40.712955 -97.942865,40.712956 -97.943635,40.712959 -97.944073,40.71296 -97.944475,40.712962 -97.946984,40.71297 -97.946983,40.714664 -97.946944,40.714823 -97.946959,40.715425 -97.94695,40.716022 -97.946963,40.71627 -97.946979,40.717179 -97.946978,40.717274 -97.946968,40.717313 -97.947256,40.717075 -97.947653,40.717493 -97.944224,40.719745</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>friendship</name>
+<Schema name="friendship" id="friendship">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Friendship</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#friendship">
+		<SimpleData name="Name">Friendship</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">27900</SimpleData>
+		<SimpleData name="PLACENS">02412660</SimpleData>
+		<SimpleData name="GEOID">4027900</SimpleData>
+		<SimpleData name="NAMELSAD">Friendship town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">388507</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.6978354</SimpleData>
+		<SimpleData name="INTPTLON">-099.2286945</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.231766,34.696199 -99.231718,34.696451 -99.231949,34.703233 -99.231311,34.703254 -99.230348,34.703268 -99.229543,34.70328 -99.229148,34.703272 -99.229117,34.701283 -99.229085,34.69992 -99.229067,34.698316 -99.229057,34.697926 -99.22597,34.697813 -99.2256,34.697796 -99.224499,34.697818 -99.224557,34.695953 -99.224189,34.694153 -99.224191,34.6939 -99.228982,34.693898 -99.228997,34.694471 -99.229035,34.69594 -99.23174,34.695928 -99.231766,34.696199</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

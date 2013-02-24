@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arco</name>
+<Schema name="arco" id="arco">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arco</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arco">
+		<SimpleData name="Name">Arco</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">01972</SimpleData>
+		<SimpleData name="PLACENS">02393977</SimpleData>
+		<SimpleData name="GEOID">2701972</SimpleData>
+		<SimpleData name="NAMELSAD">Arco city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1656794</SimpleData>
+		<SimpleData name="AWATER">323053</SimpleData>
+		<SimpleData name="INTPTLAT">+44.3803741</SimpleData>
+		<SimpleData name="INTPTLON">-096.1804798</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.191404,44.37662 -96.191392,44.380304 -96.191379,44.384032 -96.191377,44.384127 -96.191351,44.385896 -96.191376,44.386874 -96.190247,44.386862 -96.189713,44.386857 -96.18916,44.386852 -96.189157,44.387217 -96.186667,44.387211 -96.18655,44.386823 -96.186185,44.386877 -96.186057,44.386908 -96.185523,44.38686 -96.178444,44.386582 -96.177643,44.386655 -96.176336,44.38654 -96.174951,44.386748 -96.174807,44.38676 -96.17457,44.386766 -96.174074,44.386778 -96.173336,44.386797 -96.170754,44.386714 -96.170765,44.385833 -96.170785,44.38434 -96.170804,44.383181 -96.170898,44.375884 -96.180976,44.375898 -96.181291,44.375899 -96.184801,44.375961 -96.190805,44.375969 -96.191406,44.37597 -96.191404,44.37662</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

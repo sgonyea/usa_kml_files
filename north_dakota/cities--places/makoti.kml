@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>makoti</name>
+<Schema name="makoti" id="makoti">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Makoti</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#makoti">
+		<SimpleData name="Name">Makoti</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">49820</SimpleData>
+		<SimpleData name="PLACENS">01036145</SimpleData>
+		<SimpleData name="GEOID">3849820</SimpleData>
+		<SimpleData name="NAMELSAD">Makoti city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">522810</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.9605383</SimpleData>
+		<SimpleData name="INTPTLON">-101.8045398</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.815113,47.963399 -101.815016,47.9634 -101.811037,47.963417 -101.810168,47.963417 -101.809247,47.963418 -101.807742,47.963416 -101.806229,47.963421 -101.805049,47.963419 -101.804666,47.963424 -101.804184,47.963429 -101.803091,47.963429 -101.80154,47.96343 -101.800014,47.963432 -101.799692,47.963433 -101.799446,47.963434 -101.799407,47.962687 -101.79942,47.958042 -101.799422,47.957187 -101.799415,47.95708 -101.799415,47.956994 -101.801046,47.956977 -101.802235,47.956968 -101.805175,47.956946 -101.805669,47.956941 -101.807749,47.956922 -101.807743,47.958923 -101.807742,47.959233 -101.807742,47.959995 -101.807734,47.960854 -101.807733,47.96091 -101.809615,47.961588 -101.815113,47.963399</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

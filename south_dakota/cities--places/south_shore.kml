@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>south_shore</name>
+<Schema name="south_shore" id="south_shore">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>South Shore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#south_shore">
+		<SimpleData name="Name">South Shore</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">59940</SimpleData>
+		<SimpleData name="PLACENS">01267579</SimpleData>
+		<SimpleData name="GEOID">4659940</SimpleData>
+		<SimpleData name="NAMELSAD">South Shore town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3617573</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.1015103</SimpleData>
+		<SimpleData name="INTPTLON">-096.9301111</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.943318,45.105519 -96.94327,45.106764 -96.943276,45.107246 -96.943229,45.10878 -96.942624,45.108447 -96.94214,45.108287 -96.941301,45.108265 -96.940397,45.10847 -96.939815,45.108493 -96.938395,45.107967 -96.937846,45.107945 -96.935522,45.108287 -96.934358,45.108637 -96.934005,45.108744 -96.933327,45.108813 -96.933263,45.108859 -96.932553,45.108836 -96.931929,45.108749 -96.931068,45.10863 -96.930164,45.108447 -96.927744,45.108378 -96.927292,45.108332 -96.926001,45.108355 -96.924709,45.108606 -96.923547,45.109109 -96.922611,45.109909 -96.921417,45.11032 -96.920853,45.110656 -96.920091,45.110701 -96.918978,45.11077 -96.918102,45.110822 -96.917963,45.110662 -96.916898,45.109953 -96.915446,45.109359 -96.914704,45.108879 -96.913638,45.108535 -96.91364,45.107053 -96.91364,45.107003 -96.913436,45.10157 -96.913931,45.101976 -96.914254,45.102021 -96.915222,45.101907 -96.91561,45.101724 -96.91561,45.101313 -96.916158,45.101039 -96.91603,45.10017 -96.91549,45.099824 -96.923896,45.099891 -96.923791,45.092417 -96.929053,45.0924 -96.929307,45.092399 -96.93465,45.092341 -96.935512,45.092338 -96.943574,45.092314 -96.943318,45.105519</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

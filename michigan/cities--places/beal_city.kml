@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>beal_city</name>
+<Schema name="beal_city" id="beal_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Beal City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#beal_city">
+		<SimpleData name="Name">Beal City</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">06360</SimpleData>
+		<SimpleData name="PLACENS">02393330</SimpleData>
+		<SimpleData name="GEOID">2606360</SimpleData>
+		<SimpleData name="NAMELSAD">Beal City CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">10393935</SimpleData>
+		<SimpleData name="AWATER">2832</SimpleData>
+		<SimpleData name="INTPTLAT">+43.6605857</SimpleData>
+		<SimpleData name="INTPTLON">-084.8996841</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.908567,43.683657 -84.905887,43.683669 -84.8884,43.683669 -84.888469,43.681252 -84.888503,43.680079 -84.888564,43.676459 -84.888643,43.669196 -84.888658,43.665563 -84.888664,43.654585 -84.908739,43.654735 -84.91382,43.654769 -84.918794,43.654762 -84.923777,43.654772 -84.928681,43.654765 -84.928616,43.669315 -84.928668,43.672898 -84.928714,43.676505 -84.928688,43.683696 -84.908567,43.683657</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

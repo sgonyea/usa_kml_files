@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>monterey</name>
+<Schema name="monterey" id="monterey">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Monterey</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monterey">
+		<SimpleData name="Name">Monterey</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">53076</SimpleData>
+		<SimpleData name="PLACENS">02404286</SimpleData>
+		<SimpleData name="GEOID">2153076</SimpleData>
+		<SimpleData name="NAMELSAD">Monterey city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">665811</SimpleData>
+		<SimpleData name="AWATER">1065</SimpleData>
+		<SimpleData name="INTPTLAT">+38.4247995</SimpleData>
+		<SimpleData name="INTPTLON">-084.8714408</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.875974,38.426438 -84.875632,38.426527 -84.874505,38.426824 -84.874262,38.426888 -84.873144,38.427182 -84.871352,38.427652 -84.870364,38.427912 -84.869956,38.427187 -84.869779,38.426886 -84.868152,38.424028 -84.867977,38.423721 -84.8679,38.423586 -84.866527,38.421175 -84.866889,38.421077 -84.868989,38.420512 -84.869357,38.420413 -84.871038,38.419961 -84.872786,38.41949 -84.87314,38.419395 -84.875752,38.418695 -84.875843,38.418897 -84.876119,38.419507 -84.87709,38.421753 -84.877157,38.421893 -84.877284,38.422159 -84.877349,38.422331 -84.877414,38.422503 -84.877812,38.423422 -84.878062,38.424 -84.878733,38.425521 -84.878795,38.425696 -84.875974,38.426438</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

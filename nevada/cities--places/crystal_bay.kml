@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>crystal_bay</name>
+<Schema name="crystal_bay" id="crystal_bay">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Crystal Bay</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crystal_bay">
+		<SimpleData name="Name">Crystal Bay</SimpleData>
+		<SimpleData name="STATEFP">32</SimpleData>
+		<SimpleData name="PLACEFP">16700</SimpleData>
+		<SimpleData name="PLACENS">02583915</SimpleData>
+		<SimpleData name="GEOID">3216700</SimpleData>
+		<SimpleData name="NAMELSAD">Crystal Bay CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1167825</SimpleData>
+		<SimpleData name="AWATER">849737</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2306325</SimpleData>
+		<SimpleData name="INTPTLON">-120.0021271</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-120.005563,39.218695 -120.005563,39.220022 -120.00561,39.221754 -120.005634,39.22261 -120.005727,39.225828 -120.005726,39.22604 -120.005724,39.226446 -120.005722,39.226973 -120.005577,39.227426 -120.005598,39.227987 -120.005611,39.228335 -120.005629,39.228857 -120.005668,39.22936 -120.005698,39.229772 -120.005693,39.233234 -120.005679,39.236249 -120.00568,39.244038 -120.005686,39.244263 -119.998613,39.244206 -119.997564,39.244101 -119.997164,39.243969 -119.996899,39.243883 -119.99744,39.234585 -119.998033,39.225845 -119.998034,39.225467 -119.99803,39.219254 -119.998028,39.218648 -119.998635,39.218042 -120.001001,39.218037 -120.005541,39.218029 -120.005563,39.218695</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

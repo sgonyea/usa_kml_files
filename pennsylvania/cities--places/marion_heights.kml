@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>marion_heights</name>
+<Schema name="marion_heights" id="marion_heights">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Marion Heights</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#marion_heights">
+		<SimpleData name="Name">Marion Heights</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">47480</SimpleData>
+		<SimpleData name="PLACENS">01215512</SimpleData>
+		<SimpleData name="GEOID">4247480</SimpleData>
+		<SimpleData name="NAMELSAD">Marion Heights borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">520397</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8035333</SimpleData>
+		<SimpleData name="INTPTLON">-076.4640596</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.469733,40.805154 -76.469737,40.805166 -76.461106,40.807547 -76.46097,40.807238 -76.460951,40.807196 -76.460829,40.806917 -76.460489,40.806142 -76.459875,40.80475 -76.458363,40.801317 -76.460118,40.801059 -76.461467,40.800863 -76.461874,40.800804 -76.464976,40.800349 -76.466976,40.800055 -76.467027,40.800063 -76.467551,40.799971 -76.467683,40.800344 -76.467845,40.800732 -76.468073,40.801291 -76.468153,40.801487 -76.468197,40.801598 -76.468478,40.802307 -76.468612,40.802637 -76.468757,40.802993 -76.46889,40.803318 -76.469045,40.80367 -76.469195,40.804002 -76.469257,40.804137 -76.469369,40.804298 -76.469459,40.804426 -76.469555,40.804485 -76.46976,40.804629 -76.470018,40.804809 -76.470043,40.804827 -76.470174,40.804892 -76.470329,40.804991 -76.469733,40.805154</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

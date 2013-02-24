@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>palmyra</name>
+<Schema name="palmyra" id="palmyra">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Palmyra</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#palmyra">
+		<SimpleData name="Name">Palmyra</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">57329</SimpleData>
+		<SimpleData name="PLACENS">02399614</SimpleData>
+		<SimpleData name="GEOID">1757329</SimpleData>
+		<SimpleData name="NAMELSAD">Palmyra village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2587258</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4344968</SimpleData>
+		<SimpleData name="INTPTLON">-089.9959133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.005471,39.434338 -90.005113,39.43434 -90.005111,39.435882 -90.005104,39.436591 -90.005103,39.436666 -90.0051,39.437456 -90.005185,39.441726 -90.004477,39.44173 -90.000003,39.441752 -89.995278,39.44161 -89.995249,39.441669 -89.995173,39.441804 -89.995165,39.441817 -89.995091,39.441934 -89.994998,39.442059 -89.994899,39.442179 -89.994736,39.44235 -89.994536,39.442519 -89.994521,39.442329 -89.994512,39.441806 -89.994509,39.441664 -89.986546,39.44173 -89.986273,39.434473 -89.986592,39.43447 -89.986703,39.42727 -89.986842,39.427278 -89.988306,39.427259 -89.988841,39.427265 -89.988988,39.427288 -89.989052,39.427318 -89.989116,39.427373 -89.995956,39.427276 -89.99879,39.427241 -90.000106,39.427324 -90.005349,39.427136 -90.005471,39.434338</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

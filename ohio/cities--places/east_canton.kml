@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>east_canton</name>
+<Schema name="east_canton" id="east_canton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>East Canton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#east_canton">
+		<SimpleData name="Name">East Canton</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">23324</SimpleData>
+		<SimpleData name="PLACENS">02398771</SimpleData>
+		<SimpleData name="GEOID">3923324</SimpleData>
+		<SimpleData name="NAMELSAD">East Canton village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3410129</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7889832</SimpleData>
+		<SimpleData name="INTPTLON">-081.2836630</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.295434,40.791244 -81.295451,40.794865 -81.290868,40.794755 -81.290608,40.798217 -81.285857,40.798211 -81.285862,40.796413 -81.283465,40.796422 -81.28347,40.795805 -81.282178,40.795871 -81.282286,40.795478 -81.282333,40.795303 -81.28241,40.794986 -81.277906,40.794395 -81.277684,40.794347 -81.277581,40.794646 -81.26863,40.794421 -81.268801,40.790406 -81.269416,40.783574 -81.277707,40.783733 -81.278931,40.783758 -81.27475,40.782337 -81.274802,40.782352 -81.274943,40.782389 -81.27504,40.782409 -81.275108,40.782416 -81.275196,40.782414 -81.275374,40.782399 -81.275481,40.782395 -81.275607,40.782397 -81.275776,40.782406 -81.276251,40.782413 -81.276991,40.782401 -81.277325,40.782389 -81.278565,40.782373 -81.279273,40.78237 -81.280936,40.78233 -81.282098,40.782288 -81.282273,40.782292 -81.28232,40.781417 -81.2848,40.781467 -81.287097,40.781514 -81.289246,40.781559 -81.289764,40.781595 -81.292076,40.781759 -81.291996,40.783158 -81.295332,40.783158 -81.295932,40.783258 -81.298332,40.783258 -81.298323,40.783347 -81.298046,40.785288 -81.298075,40.785311 -81.298099,40.785339 -81.29811,40.785361 -81.298128,40.78542 -81.298126,40.785479 -81.298082,40.785833 -81.298027,40.786338 -81.297956,40.786938 -81.297922,40.787401 -81.297809,40.791261 -81.295434,40.791244</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

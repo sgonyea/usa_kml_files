@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>payne</name>
+<Schema name="payne" id="payne">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Payne</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#payne">
+		<SimpleData name="Name">Payne</SimpleData>
+		<SimpleData name="STATEFP">13</SimpleData>
+		<SimpleData name="PLACEFP">59584</SimpleData>
+		<SimpleData name="PLACENS">02404491</SimpleData>
+		<SimpleData name="GEOID">1359584</SimpleData>
+		<SimpleData name="NAMELSAD">Payne city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">111139</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.8518379</SimpleData>
+		<SimpleData name="INTPTLON">-083.6794107</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-83.681438,32.852775 -83.681346,32.852775 -83.681279,32.852781 -83.680963,32.852913 -83.680467,32.853254 -83.679528,32.853879 -83.676942,32.851857 -83.677697,32.851072 -83.67868,32.85017 -83.678903,32.84996 -83.679317,32.84959 -83.67962,32.849901 -83.679799,32.850084 -83.679987,32.850276 -83.680034,32.850323 -83.680325,32.85062 -83.680488,32.850788 -83.681108,32.851414 -83.681227,32.851543 -83.681304,32.851641 -83.681342,32.851743 -83.681396,32.85196 -83.68134,32.851967 -83.681367,32.852297 -83.68137,32.852336 -83.68139,32.852577 -83.681452,32.852575 -83.681438,32.852775</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-83.682019,32.85241 -83.681627,32.852528 -83.681516,32.852557 -83.681494,32.852319 -83.681491,32.852284 -83.681459,32.851944 -83.681525,32.851928 -83.681654,32.852008 -83.681767,32.852105 -83.681874,32.852206 -83.681955,32.852308 -83.682019,32.85241</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cearfoss</name>
+<Schema name="cearfoss" id="cearfoss">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cearfoss</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cearfoss">
+		<SimpleData name="Name">Cearfoss</SimpleData>
+		<SimpleData name="STATEFP">24</SimpleData>
+		<SimpleData name="PLACEFP">14300</SimpleData>
+		<SimpleData name="PLACENS">02583595</SimpleData>
+		<SimpleData name="GEOID">2414300</SimpleData>
+		<SimpleData name="NAMELSAD">Cearfoss CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">520919</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6991326</SimpleData>
+		<SimpleData name="INTPTLON">-077.7763395</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.779023,39.70327 -77.77917,39.70343 -77.779435,39.703707 -77.77488,39.703343 -77.775142,39.702571 -77.77517,39.70249 -77.771415,39.70138 -77.771608,39.700332 -77.771793,39.699863 -77.772762,39.700009 -77.773545,39.698284 -77.771527,39.696578 -77.772217,39.695842 -77.772564,39.695608 -77.773332,39.695603 -77.77661,39.696466 -77.778309,39.694289 -77.780069,39.695218 -77.780977,39.695657 -77.779778,39.698529 -77.778244,39.700481 -77.77836,39.70052 -77.778755,39.700646 -77.77936,39.70084 -77.78006,39.70107 -77.779023,39.70327</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>brundage</name>
+<Schema name="brundage" id="brundage">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Brundage</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#brundage">
+		<SimpleData name="Name">Brundage</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">10852</SimpleData>
+		<SimpleData name="PLACENS">02407910</SimpleData>
+		<SimpleData name="GEOID">4810852</SimpleData>
+		<SimpleData name="NAMELSAD">Brundage CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1582727</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+28.5739652</SimpleData>
+		<SimpleData name="INTPTLON">-099.6701314</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.676593,28.573268 -99.676736,28.57378 -99.676848,28.574133 -99.676861,28.574232 -99.6769,28.574701 -99.676813,28.578263 -99.676805,28.57965 -99.669845,28.579698 -99.668647,28.579707 -99.666073,28.579699 -99.662372,28.574179 -99.662972,28.574183 -99.66297,28.572598 -99.662966,28.572216 -99.662964,28.571954 -99.662966,28.571809 -99.662957,28.568862 -99.662991,28.5686 -99.668607,28.568578 -99.676815,28.568693 -99.676593,28.573268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

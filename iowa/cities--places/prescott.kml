@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>prescott</name>
+<Schema name="prescott" id="prescott">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Prescott</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prescott">
+		<SimpleData name="Name">Prescott</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">64560</SimpleData>
+		<SimpleData name="PLACENS">02396270</SimpleData>
+		<SimpleData name="GEOID">1964560</SimpleData>
+		<SimpleData name="NAMELSAD">Prescott city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1035853</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0238036</SimpleData>
+		<SimpleData name="INTPTLON">-094.6129796</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.622932,41.023105 -94.622899,41.02399 -94.622912,41.024544 -94.622916,41.025561 -94.615957,41.025436 -94.614763,41.025443 -94.614791,41.027217 -94.614747,41.02884 -94.613406,41.028834 -94.613346,41.028833 -94.612922,41.028818 -94.612207,41.028819 -94.611903,41.02882 -94.610971,41.028795 -94.609471,41.028766 -94.609001,41.028706 -94.608664,41.028617 -94.608659,41.027439 -94.608661,41.027261 -94.608716,41.027065 -94.608734,41.026766 -94.608736,41.02667 -94.607576,41.02665 -94.6076,41.025291 -94.606502,41.025301 -94.60552,41.025308 -94.604458,41.025299 -94.603974,41.02532 -94.603972,41.024992 -94.603988,41.022192 -94.603962,41.021577 -94.60794,41.021592 -94.607395,41.020407 -94.607546,41.020373 -94.607774,41.020342 -94.607994,41.020342 -94.608385,41.020347 -94.608698,41.020373 -94.608689,41.019616 -94.611789,41.019609 -94.612032,41.019615 -94.612693,41.019601 -94.612889,41.0196 -94.613379,41.019596 -94.613365,41.020417 -94.618311,41.020331 -94.61824,41.021628 -94.619224,41.021634 -94.620551,41.021645 -94.622003,41.02166 -94.622948,41.021678 -94.622932,41.023105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>conrad</name>
+<Schema name="conrad" id="conrad">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Conrad</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#conrad">
+		<SimpleData name="Name">Conrad</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">15825</SimpleData>
+		<SimpleData name="PLACENS">02393621</SimpleData>
+		<SimpleData name="GEOID">1915825</SimpleData>
+		<SimpleData name="NAMELSAD">Conrad city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3095975</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.2235057</SimpleData>
+		<SimpleData name="INTPTLON">-092.8744913</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.885066,42.218124 -92.885094,42.222342 -92.885108,42.2245 -92.885161,42.231185 -92.885166,42.231781 -92.876888,42.231711 -92.875201,42.231722 -92.874522,42.231737 -92.874514,42.232418 -92.874504,42.233155 -92.874495,42.234005 -92.874483,42.23497 -92.87448,42.235233 -92.873107,42.235224 -92.873081,42.235224 -92.873118,42.231716 -92.864568,42.231737 -92.864543,42.224526 -92.864531,42.220992 -92.864528,42.220268 -92.864519,42.217238 -92.869343,42.217243 -92.869334,42.21007 -92.874153,42.210061 -92.874169,42.210847 -92.874334,42.216801 -92.874342,42.217263 -92.8752,42.217326 -92.88506,42.21727 -92.885066,42.218124</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

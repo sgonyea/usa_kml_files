@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>norris</name>
+<Schema name="norris" id="norris">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Norris</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#norris">
+		<SimpleData name="Name">Norris</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">53390</SimpleData>
+		<SimpleData name="PLACENS">02399505</SimpleData>
+		<SimpleData name="GEOID">1753390</SimpleData>
+		<SimpleData name="NAMELSAD">Norris village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">733438</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6257777</SimpleData>
+		<SimpleData name="INTPTLON">-090.0319872</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.024209,40.625038 -90.023777,40.625038 -90.023778,40.624891 -90.022869,40.624879 -90.022848,40.624742 -90.022831,40.624104 -90.024195,40.62411 -90.024209,40.625038</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.0378,40.62935 -90.037509,40.629353 -90.037298,40.629355 -90.036993,40.629359 -90.036931,40.629353 -90.036236,40.629342 -90.032819,40.629305 -90.032749,40.629316 -90.032677,40.62932 -90.031857,40.629326 -90.026944,40.629297 -90.026953,40.625851 -90.026953,40.625776 -90.02563,40.625782 -90.024252,40.625709 -90.024209,40.625038 -90.02446,40.625038 -90.025428,40.624582 -90.02641,40.624562 -90.026338,40.625038 -90.026115,40.625499 -90.026768,40.625038 -90.027318,40.624606 -90.027363,40.624138 -90.026888,40.624141 -90.026497,40.624143 -90.026499,40.623853 -90.026853,40.623842 -90.027617,40.623819 -90.0276,40.623664 -90.027617,40.623094 -90.027636,40.622733 -90.027619,40.622593 -90.027516,40.622503 -90.027544,40.622159 -90.029241,40.622146 -90.030598,40.622124 -90.032105,40.622116 -90.035239,40.622107 -90.037199,40.622103 -90.037217,40.625031 -90.037149,40.625738 -90.037733,40.62574 -90.037731,40.626195 -90.0378,40.62935</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-90.02446,40.625038 -90.024448,40.62543 -90.025046,40.625391 -90.025079,40.625038 -90.02446,40.625038</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

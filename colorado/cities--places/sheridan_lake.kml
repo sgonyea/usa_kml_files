@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sheridan_lake</name>
+<Schema name="sheridan_lake" id="sheridan_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sheridan Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sheridan_lake">
+		<SimpleData name="Name">Sheridan Lake</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">69700</SimpleData>
+		<SimpleData name="PLACENS">02413280</SimpleData>
+		<SimpleData name="GEOID">0869700</SimpleData>
+		<SimpleData name="NAMELSAD">Sheridan Lake town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">821236</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.4666766</SimpleData>
+		<SimpleData name="INTPTLON">-102.2941418</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.303335,38.465108 -102.303349,38.46545 -102.303363,38.466076 -102.298859,38.466154 -102.298733,38.466157 -102.298793,38.467483 -102.29884,38.468516 -102.298929,38.470494 -102.297922,38.470498 -102.296263,38.470508 -102.295004,38.470517 -102.294189,38.470515 -102.289801,38.470534 -102.289801,38.470484 -102.289785,38.469601 -102.289781,38.468638 -102.289774,38.468295 -102.289785,38.467853 -102.289813,38.467768 -102.289808,38.467746 -102.284955,38.46785 -102.284962,38.4677 -102.284973,38.467101 -102.285038,38.465756 -102.288233,38.465827 -102.289002,38.465848 -102.28939,38.465858 -102.289389,38.465496 -102.289394,38.463506 -102.289395,38.46331 -102.290844,38.463275 -102.293078,38.463239 -102.298692,38.463159 -102.298729,38.464288 -102.303316,38.464216 -102.303335,38.465108</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

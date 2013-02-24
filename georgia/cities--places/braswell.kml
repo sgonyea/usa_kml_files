@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>braswell</name>
+<Schema name="braswell" id="braswell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Braswell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#braswell">
+		<SimpleData name="Name">Braswell</SimpleData>
+		<SimpleData name="STATEFP">13</SimpleData>
+		<SimpleData name="PLACEFP">10104</SimpleData>
+		<SimpleData name="PLACENS">02405317</SimpleData>
+		<SimpleData name="GEOID">1310104</SimpleData>
+		<SimpleData name="NAMELSAD">Braswell town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">8167809</SimpleData>
+		<SimpleData name="AWATER">29939</SimpleData>
+		<SimpleData name="INTPTLAT">+33.9835453</SimpleData>
+		<SimpleData name="INTPTLON">-084.9584000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.978243,33.988336 -84.978182,33.988342 -84.977875,33.988359 -84.976517,33.988435 -84.974601,33.98847 -84.974602,33.988948 -84.974603,33.989399 -84.974604,33.994498 -84.974604,33.995583 -84.966251,33.99564 -84.961353,33.995667 -84.960299,33.995656 -84.960088,33.995652 -84.955094,33.995621 -84.947392,33.995588 -84.942526,33.995576 -84.94237,33.989396 -84.942349,33.988904 -84.942353,33.984192 -84.942355,33.983702 -84.942358,33.983213 -84.942382,33.97667 -84.942368,33.971535 -84.958634,33.97161 -84.961587,33.971448 -84.963271,33.971261 -84.964393,33.971448 -84.965182,33.971604 -84.965937,33.971649 -84.970216,33.971566 -84.97276,33.971493 -84.974606,33.971522 -84.974607,33.973079 -84.97461,33.976161 -84.974616,33.979964 -84.974607,33.9818 -84.978297,33.981794 -84.978247,33.987854 -84.978243,33.988336</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

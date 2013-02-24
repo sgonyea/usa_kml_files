@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tall_timber</name>
+<Schema name="tall_timber" id="tall_timber">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tall Timber</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tall_timber">
+		<SimpleData name="Name">Tall Timber</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">76325</SimpleData>
+		<SimpleData name="PLACENS">02583304</SimpleData>
+		<SimpleData name="GEOID">0876325</SimpleData>
+		<SimpleData name="NAMELSAD">Tall Timber CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1486598</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0151495</SimpleData>
+		<SimpleData name="INTPTLON">-105.3498218</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-105.360347,40.01532 -105.360431,40.015997 -105.360413,40.01622 -105.359933,40.017632 -105.359924,40.017683 -105.359386,40.018235 -105.357129,40.019032 -105.357112,40.019039 -105.355296,40.019039 -105.353382,40.018809 -105.353264,40.01884 -105.348848,40.01911 -105.342478,40.018955 -105.337754,40.018352 -105.337746,40.016083 -105.33771,40.016074 -105.338716,40.01413 -105.342395,40.013222 -105.345669,40.013109 -105.347633,40.011339 -105.347815,40.010112 -105.348218,40.010151 -105.351048,40.008969 -105.351164,40.009105 -105.351319,40.009247 -105.351466,40.009336 -105.351531,40.009408 -105.351688,40.009607 -105.35172,40.009631 -105.351818,40.009679 -105.351928,40.009704 -105.352186,40.009706 -105.352289,40.009721 -105.352336,40.009743 -105.355077,40.010529 -105.358204,40.01197 -105.359691,40.013578 -105.360347,40.01532</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wales</name>
+<Schema name="wales" id="wales">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wales</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wales">
+		<SimpleData name="Name">Wales</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">82940</SimpleData>
+		<SimpleData name="PLACENS">01036313</SimpleData>
+		<SimpleData name="GEOID">3882940</SimpleData>
+		<SimpleData name="NAMELSAD">Wales city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">607081</SimpleData>
+		<SimpleData name="AWATER">8930</SimpleData>
+		<SimpleData name="INTPTLAT">+48.8934356</SimpleData>
+		<SimpleData name="INTPTLON">-098.5991852</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.606179,48.892845 -98.606172,48.893829 -98.60618,48.894588 -98.606181,48.894676 -98.606177,48.895704 -98.606182,48.896688 -98.606185,48.897192 -98.606191,48.897862 -98.606192,48.897977 -98.606195,48.898418 -98.606197,48.898618 -98.598582,48.898739 -98.596756,48.898786 -98.595775,48.898812 -98.595708,48.898768 -98.595619,48.898398 -98.595501,48.897902 -98.595548,48.89226 -98.595435,48.891889 -98.595433,48.891609 -98.597798,48.891615 -98.599757,48.891611 -98.601071,48.891614 -98.602624,48.89162 -98.60326,48.891617 -98.606168,48.89161 -98.606179,48.892845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

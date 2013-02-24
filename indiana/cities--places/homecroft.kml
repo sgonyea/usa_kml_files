@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>homecroft</name>
+<Schema name="homecroft" id="homecroft">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Homecroft</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#homecroft">
+		<SimpleData name="Name">Homecroft</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">34420</SimpleData>
+		<SimpleData name="PLACENS">02396999</SimpleData>
+		<SimpleData name="GEOID">1834420</SimpleData>
+		<SimpleData name="NAMELSAD">Homecroft town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">625652</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6695722</SimpleData>
+		<SimpleData name="INTPTLON">-086.1312388</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.138205,39.670897 -86.137016,39.670906 -86.136362,39.670911 -86.134773,39.670921 -86.134801,39.67221 -86.131601,39.672231 -86.130567,39.672237 -86.129806,39.672245 -86.129567,39.672247 -86.126483,39.672274 -86.12566,39.672286 -86.125549,39.672285 -86.124091,39.66858 -86.123668,39.667504 -86.124596,39.667228 -86.125075,39.667156 -86.125808,39.667003 -86.126374,39.666887 -86.127023,39.666798 -86.127539,39.666767 -86.130739,39.666806 -86.130811,39.667934 -86.130879,39.66859 -86.131631,39.668582 -86.132221,39.668578 -86.132232,39.66777 -86.134792,39.667662 -86.139473,39.667557 -86.13947,39.66855 -86.139466,39.66965 -86.139462,39.670893 -86.138205,39.670897</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

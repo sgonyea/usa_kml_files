@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bradgate</name>
+<Schema name="bradgate" id="bradgate">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bradgate</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bradgate">
+		<SimpleData name="Name">Bradgate</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">08065</SimpleData>
+		<SimpleData name="PLACENS">02394235</SimpleData>
+		<SimpleData name="GEOID">1908065</SimpleData>
+		<SimpleData name="NAMELSAD">Bradgate city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">900589</SimpleData>
+		<SimpleData name="AWATER">5128</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8029971</SimpleData>
+		<SimpleData name="INTPTLON">-094.4205618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.426071,42.79943 -94.426073,42.79991 -94.4261,42.804212 -94.426094,42.804504 -94.426097,42.805092 -94.426112,42.805407 -94.426134,42.80583 -94.426142,42.806742 -94.42301,42.806732 -94.413173,42.806725 -94.413181,42.804909 -94.413176,42.804648 -94.413152,42.799195 -94.413153,42.798988 -94.418231,42.799012 -94.42498,42.799051 -94.425635,42.799055 -94.426103,42.799058 -94.426071,42.79943</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

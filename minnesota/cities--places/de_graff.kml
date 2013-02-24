@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>de_graff</name>
+<Schema name="de_graff" id="de_graff">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>De Graff</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#de_graff">
+		<SimpleData name="Name">De Graff</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">15418</SimpleData>
+		<SimpleData name="PLACENS">02394473</SimpleData>
+		<SimpleData name="GEOID">2715418</SimpleData>
+		<SimpleData name="NAMELSAD">De Graff city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2095579</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.2597879</SimpleData>
+		<SimpleData name="INTPTLON">-095.4685182</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.480193,45.256635 -95.475166,45.256898 -95.475232,45.258792 -95.475271,45.25884 -95.475358,45.262203 -95.475378,45.264576 -95.475398,45.265215 -95.475507,45.267491 -95.470335,45.26751 -95.470315,45.267495 -95.469293,45.267537 -95.468855,45.267537 -95.468768,45.267512 -95.468505,45.267492 -95.466157,45.267516 -95.463267,45.267536 -95.462184,45.267544 -95.461709,45.267523 -95.460403,45.267535 -95.460323,45.267535 -95.46023,45.263489 -95.460153,45.260056 -95.460138,45.259403 -95.460095,45.257612 -95.460064,45.256285 -95.460015,45.252838 -95.460551,45.252839 -95.470227,45.252992 -95.471637,45.252964 -95.472783,45.252956 -95.472875,45.252955 -95.474218,45.252945 -95.475663,45.25294 -95.476699,45.252937 -95.479852,45.252916 -95.480288,45.252918 -95.480193,45.256635</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

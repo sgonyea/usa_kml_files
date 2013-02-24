@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>salem</name>
+<Schema name="salem" id="salem">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Salem</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#salem">
+		<SimpleData name="Name">Salem</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">70230</SimpleData>
+		<SimpleData name="PLACENS">02396527</SimpleData>
+		<SimpleData name="GEOID">1970230</SimpleData>
+		<SimpleData name="NAMELSAD">Salem city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1581926</SimpleData>
+		<SimpleData name="AWATER">9631</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8521703</SimpleData>
+		<SimpleData name="INTPTLON">-091.6206599</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.628556,40.850068 -91.62849,40.854682 -91.628448,40.857442 -91.625155,40.857463 -91.622737,40.857308 -91.621468,40.857305 -91.61998,40.857311 -91.612615,40.857314 -91.612628,40.857222 -91.612621,40.856725 -91.612603,40.855762 -91.6126,40.855595 -91.612594,40.855307 -91.612588,40.855021 -91.612608,40.854305 -91.612616,40.854017 -91.612653,40.853892 -91.612688,40.853833 -91.612852,40.853806 -91.612751,40.850318 -91.612692,40.846599 -91.621159,40.846626 -91.621584,40.846628 -91.622327,40.846616 -91.622562,40.846619 -91.623261,40.846587 -91.624063,40.846553 -91.625164,40.846561 -91.628145,40.846613 -91.628567,40.846626 -91.628556,40.850068</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

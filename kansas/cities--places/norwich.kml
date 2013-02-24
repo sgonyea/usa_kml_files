@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>norwich</name>
+<Schema name="norwich" id="norwich">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Norwich</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#norwich">
+		<SimpleData name="Name">Norwich</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">51600</SimpleData>
+		<SimpleData name="PLACENS">02395275</SimpleData>
+		<SimpleData name="GEOID">2051600</SimpleData>
+		<SimpleData name="NAMELSAD">Norwich city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1196773</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.4568942</SimpleData>
+		<SimpleData name="INTPTLON">-097.8459295</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-97.834247,37.459313 -97.832756,37.45931 -97.832988,37.448067 -97.83447,37.44809 -97.834247,37.459313</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-97.857891,37.459113 -97.857098,37.459123 -97.855525,37.459149 -97.855564,37.459846 -97.855606,37.460711 -97.855413,37.46071 -97.854227,37.460731 -97.853171,37.460752 -97.853135,37.461535 -97.849383,37.46167 -97.843988,37.46187 -97.843956,37.459743 -97.843954,37.459596 -97.843949,37.45929 -97.842684,37.4593 -97.841361,37.459303 -97.841183,37.459304 -97.841188,37.458863 -97.841206,37.457399 -97.841203,37.45723 -97.841131,37.454402 -97.84108,37.452763 -97.841107,37.452147 -97.842688,37.452168 -97.842695,37.452109 -97.843947,37.452155 -97.844622,37.452175 -97.845304,37.452583 -97.84644,37.45317 -97.849135,37.454066 -97.849423,37.454411 -97.849531,37.454411 -97.850252,37.454422 -97.850508,37.454425 -97.853087,37.454466 -97.853165,37.45622 -97.85315,37.456348 -97.855505,37.457514 -97.857783,37.458641 -97.857891,37.459113</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_era</name>
+<Schema name="new_era" id="new_era">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Era</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_era">
+		<SimpleData name="Name">New Era</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">57280</SimpleData>
+		<SimpleData name="PLACENS">02399462</SimpleData>
+		<SimpleData name="GEOID">2657280</SimpleData>
+		<SimpleData name="NAMELSAD">New Era village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2167261</SimpleData>
+		<SimpleData name="AWATER">11573</SimpleData>
+		<SimpleData name="INTPTLAT">+43.5596327</SimpleData>
+		<SimpleData name="INTPTLON">-086.3471564</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.348702,43.565906 -86.348396,43.565902 -86.348122,43.565897 -86.338028,43.565728 -86.338032,43.564753 -86.338017,43.562168 -86.338,43.561589 -86.337985,43.560976 -86.337974,43.560506 -86.337964,43.560113 -86.337901,43.557486 -86.337855,43.555882 -86.341148,43.555905 -86.342766,43.555919 -86.342623,43.550768 -86.343475,43.550782 -86.343633,43.550785 -86.34526,43.550801 -86.346956,43.550803 -86.35058,43.550864 -86.351427,43.550943 -86.35245,43.550985 -86.352458,43.551275 -86.352467,43.551578 -86.352618,43.556761 -86.357578,43.556837 -86.357607,43.557766 -86.357858,43.565147 -86.357879,43.566082 -86.348702,43.565906</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

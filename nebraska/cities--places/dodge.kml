@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dodge</name>
+<Schema name="dodge" id="dodge">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dodge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dodge">
+		<SimpleData name="Name">Dodge</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">13295</SimpleData>
+		<SimpleData name="PLACENS">02398733</SimpleData>
+		<SimpleData name="GEOID">3113295</SimpleData>
+		<SimpleData name="NAMELSAD">Dodge village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1023157</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7218154</SimpleData>
+		<SimpleData name="INTPTLON">-096.8803848</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.886946,41.717984 -96.886935,41.718667 -96.886926,41.719178 -96.886923,41.720356 -96.88693,41.721332 -96.886925,41.722424 -96.886925,41.722638 -96.886924,41.723481 -96.886924,41.723515 -96.886916,41.724914 -96.886908,41.725625 -96.886909,41.725742 -96.883361,41.725736 -96.883204,41.725737 -96.883198,41.725522 -96.883038,41.725527 -96.882351,41.725529 -96.881671,41.725531 -96.88096,41.725534 -96.880223,41.72553 -96.879547,41.725527 -96.878871,41.725524 -96.877537,41.725507 -96.877029,41.725503 -96.877028,41.725759 -96.877004,41.72615 -96.876998,41.727218 -96.87699,41.727294 -96.877153,41.727397 -96.877217,41.728247 -96.876104,41.728246 -96.875087,41.728249 -96.874606,41.728253 -96.874566,41.724684 -96.874236,41.720966 -96.873311,41.720965 -96.872603,41.720969 -96.871963,41.720977 -96.871282,41.720976 -96.87131,41.720298 -96.872648,41.72029 -96.872731,41.71931 -96.872738,41.719238 -96.873295,41.719267 -96.873529,41.719281 -96.87366,41.719293 -96.873664,41.719215 -96.874253,41.719238 -96.874231,41.719391 -96.876438,41.719416 -96.876412,41.7188 -96.876436,41.718127 -96.877131,41.718199 -96.877083,41.71717 -96.878749,41.71717 -96.87958,41.717161 -96.881257,41.717157 -96.881737,41.717161 -96.886938,41.717188 -96.886946,41.717984</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

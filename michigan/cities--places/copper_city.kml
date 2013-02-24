@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>copper_city</name>
+<Schema name="copper_city" id="copper_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Copper City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#copper_city">
+		<SimpleData name="Name">Copper City</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">18080</SimpleData>
+		<SimpleData name="PLACENS">02398625</SimpleData>
+		<SimpleData name="GEOID">2618080</SimpleData>
+		<SimpleData name="NAMELSAD">Copper City village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">218243</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.2841994</SimpleData>
+		<SimpleData name="INTPTLON">-088.3875486</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.391179,47.28597 -88.390894,47.285968 -88.390161,47.285964 -88.389982,47.285962 -88.389135,47.285957 -88.388082,47.285953 -88.38707,47.28593 -88.386003,47.285929 -88.385275,47.285925 -88.384894,47.285923 -88.384474,47.285921 -88.383855,47.285805 -88.383827,47.285047 -88.38377,47.283493 -88.383761,47.283431 -88.383739,47.282466 -88.384952,47.282472 -88.386004,47.282464 -88.387038,47.282466 -88.388073,47.282462 -88.389148,47.282466 -88.390072,47.282466 -88.390197,47.282484 -88.390719,47.28248 -88.391255,47.282476 -88.391257,47.282709 -88.39126,47.283218 -88.391281,47.283699 -88.391277,47.284184 -88.391288,47.285726 -88.391289,47.28587 -88.391179,47.28597</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

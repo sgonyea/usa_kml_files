@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sargeant</name>
+<Schema name="sargeant" id="sargeant">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sargeant</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sargeant">
+		<SimpleData name="Name">Sargeant</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">58576</SimpleData>
+		<SimpleData name="PLACENS">02396537</SimpleData>
+		<SimpleData name="GEOID">2758576</SimpleData>
+		<SimpleData name="NAMELSAD">Sargeant city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2148808</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.8055924</SimpleData>
+		<SimpleData name="INTPTLON">-092.8006348</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.809228,43.799416 -92.809228,43.79965 -92.80923,43.79983 -92.809232,43.79998 -92.809258,43.802148 -92.809253,43.803639 -92.809253,43.803715 -92.809267,43.805148 -92.809269,43.806058 -92.809271,43.806415 -92.809263,43.808751 -92.809263,43.808788 -92.809267,43.809698 -92.809268,43.810096 -92.809267,43.810192 -92.809266,43.811553 -92.809266,43.811674 -92.809269,43.812169 -92.809214,43.812169 -92.809049,43.812171 -92.808995,43.812172 -92.805192,43.812183 -92.795175,43.812214 -92.793785,43.812215 -92.789983,43.812219 -92.789964,43.810836 -92.789963,43.810789 -92.789932,43.808474 -92.789891,43.806976 -92.789887,43.806501 -92.789878,43.805072 -92.790873,43.805075 -92.793861,43.805086 -92.794857,43.80509 -92.794868,43.80078 -92.794877,43.797895 -92.802684,43.797943 -92.804919,43.797957 -92.809229,43.797984 -92.809228,43.799416</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

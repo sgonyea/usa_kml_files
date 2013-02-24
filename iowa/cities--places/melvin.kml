@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>melvin</name>
+<Schema name="melvin" id="melvin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Melvin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#melvin">
+		<SimpleData name="Name">Melvin</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">51060</SimpleData>
+		<SimpleData name="PLACENS">02395091</SimpleData>
+		<SimpleData name="GEOID">1951060</SimpleData>
+		<SimpleData name="NAMELSAD">Melvin city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">459462</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.2864737</SimpleData>
+		<SimpleData name="INTPTLON">-095.6086460</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.604925,43.27987 -95.604923,43.28086 -95.604922,43.281202 -95.602786,43.279484 -95.604923,43.279472 -95.604925,43.27987</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.615719,43.287292 -95.615661,43.287837 -95.613594,43.287815 -95.615079,43.288862 -95.615101,43.289248 -95.614944,43.289243 -95.613448,43.289239 -95.610751,43.289232 -95.609479,43.289229 -95.608037,43.289225 -95.606666,43.289221 -95.604933,43.289211 -95.604633,43.289212 -95.604663,43.28887 -95.603552,43.288862 -95.603557,43.288119 -95.603536,43.288067 -95.603529,43.287971 -95.603529,43.287661 -95.60353,43.287145 -95.604935,43.287157 -95.604941,43.286651 -95.604943,43.286138 -95.60494,43.285613 -95.604938,43.285104 -95.604936,43.284121 -95.604929,43.283085 -95.60492,43.281929 -95.604921,43.281548 -95.607394,43.283435 -95.608011,43.283251 -95.611876,43.286366 -95.615794,43.286385 -95.615719,43.287292</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

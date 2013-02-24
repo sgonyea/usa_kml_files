@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>santa_cruz</name>
+<Schema name="santa_cruz" id="santa_cruz">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Santa Cruz</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#santa_cruz">
+		<SimpleData name="Name">Santa Cruz</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">65708</SimpleData>
+		<SimpleData name="PLACENS">02409278</SimpleData>
+		<SimpleData name="GEOID">4865708</SimpleData>
+		<SimpleData name="NAMELSAD">Santa Cruz CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">71430</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.3536892</SimpleData>
+		<SimpleData name="INTPTLON">-098.7676148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.770188,26.354158 -98.770163,26.354259 -98.770075,26.354627 -98.769995,26.354923 -98.769937,26.355144 -98.769921,26.355221 -98.769897,26.355346 -98.76988,26.355454 -98.769868,26.355532 -98.769572,26.355372 -98.768684,26.354895 -98.768389,26.354736 -98.767659,26.354349 -98.765472,26.353191 -98.764817,26.352844 -98.764746,26.352767 -98.764768,26.352601 -98.76485,26.351988 -98.764862,26.351905 -98.765507,26.352183 -98.767178,26.352885 -98.768821,26.35357 -98.770188,26.354158</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

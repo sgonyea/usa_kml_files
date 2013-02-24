@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vera_cruz</name>
+<Schema name="vera_cruz" id="vera_cruz">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vera Cruz</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vera_cruz">
+		<SimpleData name="Name">Vera Cruz</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">78776</SimpleData>
+		<SimpleData name="PLACENS">02397712</SimpleData>
+		<SimpleData name="GEOID">1878776</SimpleData>
+		<SimpleData name="NAMELSAD">Vera Cruz town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">262759</SimpleData>
+		<SimpleData name="AWATER">1906</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7014118</SimpleData>
+		<SimpleData name="INTPTLON">-085.0797437</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-85.076907,40.702495 -85.076228,40.703416 -85.073853,40.703384 -85.073853,40.702426 -85.075534,40.702457 -85.076907,40.702495</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-85.083176,40.703252 -85.07959,40.704912 -85.07941,40.704995 -85.07939,40.704164 -85.079414,40.704021 -85.079414,40.703582 -85.079373,40.70331 -85.07936,40.702628 -85.079267,40.702621 -85.077062,40.70247 -85.076907,40.702495 -85.078117,40.701495 -85.076149,40.699941 -85.074976,40.699015 -85.075931,40.699017 -85.075988,40.699021 -85.076099,40.699042 -85.076152,40.699059 -85.076204,40.699083 -85.076695,40.699073 -85.077267,40.699074 -85.077434,40.699075 -85.077472,40.699076 -85.077691,40.699079 -85.081578,40.699104 -85.082128,40.699114 -85.082492,40.699115 -85.082781,40.699361 -85.081342,40.700416 -85.0825,40.701395 -85.083013,40.701886 -85.084039,40.70287 -85.083176,40.703252</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cross_timbers</name>
+<Schema name="cross_timbers" id="cross_timbers">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cross Timbers</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cross_timbers">
+		<SimpleData name="Name">Cross Timbers</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">17524</SimpleData>
+		<SimpleData name="PLACENS">02393680</SimpleData>
+		<SimpleData name="GEOID">2917524</SimpleData>
+		<SimpleData name="NAMELSAD">Cross Timbers city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1157070</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.0242728</SimpleData>
+		<SimpleData name="INTPTLON">-093.2293584</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.23983,38.032323 -93.239445,38.03232 -93.237465,38.032307 -93.237458,38.030323 -93.235458,38.030311 -93.235417,38.028591 -93.231249,38.02858 -93.231258,38.029709 -93.229325,38.029696 -93.226889,38.02967 -93.226943,38.02618 -93.2205,38.026129 -93.220195,38.026068 -93.220186,38.02551 -93.220191,38.024855 -93.222801,38.02303 -93.225135,38.02125 -93.225072,38.0189 -93.222684,38.015613 -93.223485,38.015634 -93.225748,38.015658 -93.227137,38.015677 -93.227107,38.018502 -93.22886,38.019029 -93.233396,38.019059 -93.233399,38.021626 -93.231639,38.021623 -93.231599,38.022813 -93.231615,38.024745 -93.232215,38.025171 -93.235469,38.027485 -93.238839,38.027521 -93.238836,38.028714 -93.23983,38.028743 -93.23983,38.032323</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>castlewood</name>
+<Schema name="castlewood" id="castlewood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Castlewood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#castlewood">
+		<SimpleData name="Name">Castlewood</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">10500</SimpleData>
+		<SimpleData name="PLACENS">01267313</SimpleData>
+		<SimpleData name="GEOID">4610500</SimpleData>
+		<SimpleData name="NAMELSAD">Castlewood city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2979304</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.7241577</SimpleData>
+		<SimpleData name="INTPTLON">-097.0309205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.047038,44.723361 -97.047062,44.724891 -97.04351,44.72474 -97.041643,44.724683 -97.041613,44.731576 -97.039104,44.731621 -97.036855,44.731661 -97.035173,44.731687 -97.032015,44.731736 -97.030569,44.731761 -97.028652,44.731797 -97.027194,44.731824 -97.026668,44.731834 -97.01979,44.731787 -97.016151,44.731762 -97.016182,44.728484 -97.022392,44.728482 -97.022379,44.725717 -97.022394,44.723888 -97.022401,44.722798 -97.022436,44.718311 -97.019596,44.718326 -97.019579,44.717227 -97.01925,44.71723 -97.019217,44.713658 -97.019876,44.713655 -97.024109,44.713658 -97.024382,44.713665 -97.026609,44.7154 -97.026609,44.71538 -97.028729,44.717202 -97.029317,44.717204 -97.029453,44.717205 -97.032099,44.717199 -97.034067,44.717208 -97.036759,44.717179 -97.038129,44.717145 -97.038099,44.720758 -97.038573,44.720739 -97.041996,44.720776 -97.047036,44.720785 -97.047038,44.723361</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

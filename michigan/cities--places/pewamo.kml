@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pewamo</name>
+<Schema name="pewamo" id="pewamo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pewamo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pewamo">
+		<SimpleData name="Name">Pewamo</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">63900</SimpleData>
+		<SimpleData name="PLACENS">02399660</SimpleData>
+		<SimpleData name="GEOID">2663900</SimpleData>
+		<SimpleData name="NAMELSAD">Pewamo village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2585717</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0020101</SimpleData>
+		<SimpleData name="INTPTLON">-084.8472746</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.857161,43.009118 -84.847336,43.009238 -84.837594,43.009381 -84.837328,43.002403 -84.83732,43.002203 -84.837307,43.00207 -84.837305,43.002015 -84.837303,43.001959 -84.837305,43.001851 -84.837308,43.001722 -84.837305,43.001523 -84.837363,43.000044 -84.837573,42.994664 -84.847284,42.994881 -84.847854,42.994864 -84.857204,42.994705 -84.857175,42.998171 -84.857149,43.000046 -84.857154,43.000378 -84.857156,43.000529 -84.857148,43.001783 -84.857206,43.004383 -84.857161,43.009118</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>landfall</name>
+<Schema name="landfall" id="landfall">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Landfall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landfall">
+		<SimpleData name="Name">Landfall</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">35414</SimpleData>
+		<SimpleData name="PLACENS">02395626</SimpleData>
+		<SimpleData name="GEOID">2735414</SimpleData>
+		<SimpleData name="NAMELSAD">Landfall city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">192402</SimpleData>
+		<SimpleData name="AWATER">59283</SimpleData>
+		<SimpleData name="INTPTLAT">+44.9499915</SimpleData>
+		<SimpleData name="INTPTLON">-092.9774151</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.983414,44.949035 -92.983397,44.949117 -92.983406,44.949922 -92.980134,44.950138 -92.980155,44.95205 -92.979773,44.952094 -92.979365,44.952142 -92.978256,44.952195 -92.977748,44.952121 -92.973422,44.952125 -92.972923,44.952126 -92.972814,44.949419 -92.972813,44.948941 -92.973217,44.948889 -92.973954,44.94881 -92.974329,44.948775 -92.974586,44.948766 -92.976554,44.94876 -92.976806,44.948753 -92.977642,44.948742 -92.979092,44.94874 -92.979727,44.948737 -92.980271,44.948735 -92.981215,44.948734 -92.982051,44.948725 -92.982235,44.948728 -92.983424,44.948739 -92.983414,44.949035</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

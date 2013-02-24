@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>osseo</name>
+<Schema name="osseo" id="osseo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Osseo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#osseo">
+		<SimpleData name="Name">Osseo</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">49012</SimpleData>
+		<SimpleData name="PLACENS">02396098</SimpleData>
+		<SimpleData name="GEOID">2749012</SimpleData>
+		<SimpleData name="NAMELSAD">Osseo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1936609</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.1177531</SimpleData>
+		<SimpleData name="INTPTLON">-093.3994568</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.413399,45.12347 -93.412109,45.123463 -93.409933,45.123413 -93.409926,45.121664 -93.408827,45.121768 -93.408735,45.122259 -93.407242,45.122364 -93.407335,45.123353 -93.407097,45.123348 -93.406471,45.123337 -93.405144,45.123302 -93.403618,45.123272 -93.403275,45.123264 -93.402133,45.123235 -93.402069,45.12323 -93.40052,45.123234 -93.399208,45.123234 -93.398094,45.123238 -93.396973,45.123238 -93.39576,45.123238 -93.394623,45.123238 -93.393738,45.123238 -93.39313,45.123238 -93.391876,45.123238 -93.388916,45.123264 -93.388901,45.122898 -93.388924,45.12252 -93.388985,45.122143 -93.389076,45.121735 -93.389183,45.121326 -93.389244,45.12111 -93.390671,45.116085 -93.3909,45.115231 -93.391098,45.114376 -93.391258,45.113514 -93.39136,45.112876 -93.391396,45.112652 -93.391487,45.111786 -93.391556,45.11092 -93.391566,45.110622 -93.392128,45.110687 -93.392419,45.110685 -93.393349,45.11068 -93.393791,45.110676 -93.394638,45.110668 -93.395134,45.110664 -93.395676,45.110657 -93.396126,45.110648 -93.39653,45.110638 -93.39579,45.109703 -93.397308,45.109497 -93.398323,45.110634 -93.398444,45.110768 -93.402283,45.110581 -93.404442,45.11057 -93.404439,45.110811 -93.404356,45.111704 -93.404325,45.111964 -93.404221,45.115366 -93.405141,45.115366 -93.405127,45.116067 -93.405785,45.116081 -93.407188,45.116108 -93.407329,45.116111 -93.407231,45.117464 -93.407325,45.11784 -93.407308,45.118202 -93.407314,45.119294 -93.411546,45.119347 -93.412125,45.119503 -93.413759,45.11994 -93.413399,45.12347</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

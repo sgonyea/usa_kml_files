@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>van_etten</name>
+<Schema name="van_etten" id="van_etten">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Van Etten</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#van_etten">
+		<SimpleData name="Name">Van Etten</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">76881</SimpleData>
+		<SimpleData name="PLACENS">02391183</SimpleData>
+		<SimpleData name="GEOID">3676881</SimpleData>
+		<SimpleData name="NAMELSAD">Van Etten village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2251590</SimpleData>
+		<SimpleData name="AWATER">2326</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1980524</SimpleData>
+		<SimpleData name="INTPTLON">-076.5545111</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.56414,42.199778 -76.563899,42.199945 -76.562518,42.20086 -76.560489,42.202208 -76.560533,42.203246 -76.558393,42.203318 -76.55423,42.203362 -76.553665,42.20342 -76.552978,42.203524 -76.542778,42.203917 -76.542744,42.203382 -76.542738,42.202916 -76.542659,42.201511 -76.542594,42.200356 -76.542451,42.197759 -76.542413,42.197319 -76.542406,42.197245 -76.542523,42.197152 -76.549791,42.191343 -76.551724,42.191327 -76.556408,42.191294 -76.5573,42.191167 -76.560839,42.19118 -76.564749,42.191202 -76.565364,42.19129 -76.5656,42.191748 -76.565142,42.192072 -76.56535,42.193179 -76.565391,42.194261 -76.56539,42.194517 -76.56543,42.194601 -76.565429,42.195318 -76.565579,42.195914 -76.565547,42.195969 -76.565902,42.19863 -76.56414,42.199778</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

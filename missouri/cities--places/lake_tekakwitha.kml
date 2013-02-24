@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lake_tekakwitha</name>
+<Schema name="lake_tekakwitha" id="lake_tekakwitha">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lake Tekakwitha</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lake_tekakwitha">
+		<SimpleData name="Name">Lake Tekakwitha</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">40214</SimpleData>
+		<SimpleData name="PLACENS">02585135</SimpleData>
+		<SimpleData name="GEOID">2940214</SimpleData>
+		<SimpleData name="NAMELSAD">Lake Tekakwitha village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">678278</SimpleData>
+		<SimpleData name="AWATER">54692</SimpleData>
+		<SimpleData name="INTPTLAT">+38.4424234</SimpleData>
+		<SimpleData name="INTPTLON">-090.7177452</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.720486,38.440158 -90.72047,38.44062 -90.720439,38.441732 -90.72039,38.4423 -90.72033,38.44364 -90.72028,38.44421 -90.720281,38.444514 -90.720286,38.445501 -90.720166,38.445362 -90.718987,38.44369 -90.714673,38.44608 -90.70975,38.446104 -90.709864,38.440926 -90.709947,38.43788 -90.71024,38.43788 -90.71071,38.437904 -90.711,38.43792 -90.71269,38.43797 -90.713,38.437975 -90.71329,38.43798 -90.713764,38.437991 -90.713862,38.437993 -90.71415,38.438 -90.714255,38.438003 -90.71517,38.43803 -90.715506,38.438036 -90.718885,38.438107 -90.71902,38.43811 -90.719143,38.438113 -90.719046,38.439513 -90.720486,38.440158</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

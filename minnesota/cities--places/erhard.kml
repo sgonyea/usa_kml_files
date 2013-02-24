@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>erhard</name>
+<Schema name="erhard" id="erhard">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Erhard</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#erhard">
+		<SimpleData name="Name">Erhard</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">19556</SimpleData>
+		<SimpleData name="PLACENS">02394697</SimpleData>
+		<SimpleData name="GEOID">2719556</SimpleData>
+		<SimpleData name="NAMELSAD">Erhard city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1408316</SimpleData>
+		<SimpleData name="AWATER">44823</SimpleData>
+		<SimpleData name="INTPTLAT">+46.4816659</SimpleData>
+		<SimpleData name="INTPTLON">-096.0961748</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.10469,46.480713 -96.104641,46.482044 -96.104595,46.483274 -96.104536,46.484874 -96.104482,46.485399 -96.104511,46.485578 -96.104448,46.488909 -96.098352,46.488925 -96.097109,46.488936 -96.089901,46.488886 -96.088757,46.488885 -96.088573,46.485314 -96.088726,46.478122 -96.096386,46.47821 -96.099879,46.478179 -96.099806,46.478358 -96.104033,46.478363 -96.104136,46.478352 -96.104779,46.478364 -96.10469,46.480713</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

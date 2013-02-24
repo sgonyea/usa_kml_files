@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elida</name>
+<Schema name="elida" id="elida">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elida</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elida">
+		<SimpleData name="Name">Elida</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">23000</SimpleData>
+		<SimpleData name="PLACENS">02412473</SimpleData>
+		<SimpleData name="GEOID">3523000</SimpleData>
+		<SimpleData name="NAMELSAD">Elida town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2112739</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+33.9442742</SimpleData>
+		<SimpleData name="INTPTLON">-103.6553493</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.662594,33.943577 -103.662682,33.94663 -103.662685,33.946727 -103.66259,33.951119 -103.655295,33.951074 -103.654465,33.95107 -103.654352,33.95107 -103.653385,33.951078 -103.653283,33.951087 -103.651288,33.951085 -103.65087,33.951085 -103.649386,33.951101 -103.648862,33.951089 -103.646121,33.951129 -103.645988,33.951134 -103.645623,33.951142 -103.645116,33.951145 -103.645181,33.947566 -103.647367,33.947529 -103.648849,33.947504 -103.649068,33.9475 -103.649427,33.947498 -103.649428,33.947422 -103.649424,33.947323 -103.649422,33.94726 -103.64942,33.947218 -103.649409,33.946946 -103.649409,33.946787 -103.649415,33.945799 -103.649423,33.945132 -103.649419,33.944821 -103.649414,33.94382 -103.649396,33.942843 -103.649394,33.942317 -103.649392,33.941823 -103.64939,33.940846 -103.649388,33.940228 -103.649385,33.940057 -103.649369,33.939253 -103.649343,33.938991 -103.649454,33.93691 -103.649478,33.936595 -103.650138,33.936611 -103.652657,33.936613 -103.653154,33.936613 -103.654225,33.936619 -103.65557,33.936611 -103.656084,33.936608 -103.656849,33.936612 -103.662222,33.936639 -103.662348,33.936612 -103.662419,33.936584 -103.662451,33.936542 -103.662457,33.936434 -103.662594,33.943577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

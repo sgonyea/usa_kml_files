@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bono</name>
+<Schema name="bono" id="bono">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bono</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bono">
+		<SimpleData name="Name">Bono</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">07630</SimpleData>
+		<SimpleData name="PLACENS">02403895</SimpleData>
+		<SimpleData name="GEOID">0507630</SimpleData>
+		<SimpleData name="NAMELSAD">Bono city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3723218</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.9085931</SimpleData>
+		<SimpleData name="INTPTLON">-090.7970597</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.809381,35.902044 -90.809327,35.905369 -90.8093,35.90708 -90.809283,35.908982 -90.809241,35.912636 -90.80924,35.912799 -90.809104,35.914957 -90.809141,35.916142 -90.809229,35.918961 -90.809292,35.919993 -90.807491,35.920043 -90.80731,35.920048 -90.805677,35.916294 -90.805256,35.916269 -90.805075,35.916297 -90.800438,35.916119 -90.799275,35.916116 -90.791065,35.916096 -90.791169,35.912459 -90.782477,35.912455 -90.7823,35.912458 -90.782477,35.90881 -90.782509,35.908042 -90.782639,35.904923 -90.782693,35.903567 -90.7827,35.903002 -90.782696,35.902842 -90.782718,35.901523 -90.78727,35.901503 -90.79165,35.90151 -90.797101,35.90146 -90.797487,35.901453 -90.797892,35.901459 -90.809411,35.901336 -90.809381,35.902044</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>east_berlin</name>
+<Schema name="east_berlin" id="east_berlin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>East Berlin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#east_berlin">
+		<SimpleData name="Name">East Berlin</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">20792</SimpleData>
+		<SimpleData name="PLACENS">01214756</SimpleData>
+		<SimpleData name="GEOID">4220792</SimpleData>
+		<SimpleData name="NAMELSAD">East Berlin borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1813510</SimpleData>
+		<SimpleData name="AWATER">66437</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9368289</SimpleData>
+		<SimpleData name="INTPTLON">-076.9794587</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.991021,39.942434 -76.990967,39.942548 -76.990876,39.942743 -76.99064,39.942925 -76.989976,39.943189 -76.988485,39.943643 -76.987258,39.94397 -76.986503,39.944107 -76.985958,39.944125 -76.985303,39.944143 -76.984385,39.944052 -76.982203,39.943843 -76.980467,39.943652 -76.97874,39.94337 -76.977794,39.943116 -76.977503,39.94297 -76.97693,39.942625 -76.976512,39.942352 -76.976203,39.942134 -76.97597,39.94191 -76.975945,39.941885 -76.975712,39.941661 -76.975458,39.941443 -76.975236,39.941268 -76.975021,39.941098 -76.974767,39.940989 -76.974312,39.940843 -76.973949,39.940698 -76.973494,39.940425 -76.97284,39.93997 -76.972385,39.93957 -76.971912,39.939261 -76.971603,39.939116 -76.97133,39.938916 -76.970985,39.938643 -76.970567,39.938279 -76.970149,39.937825 -76.969712,39.937352 -76.969596,39.937251 -76.969815,39.937139 -76.970266,39.936907 -76.970527,39.936672 -76.970762,39.93646 -76.971125,39.93609 -76.971211,39.936002 -76.971399,39.935742 -76.971479,39.935632 -76.971616,39.935178 -76.971668,39.935076 -76.971718,39.934977 -76.971725,39.934961 -76.971815,39.934786 -76.97198,39.934583 -76.972075,39.934465 -76.972281,39.934122 -76.972051,39.933866 -76.971944,39.933645 -76.971866,39.933483 -76.97183,39.933409 -76.971739,39.933176 -76.971677,39.933016 -76.971373,39.932619 -76.971338,39.932535 -76.971159,39.932108 -76.971161,39.93198 -76.97121,39.932026 -76.971244,39.931912 -76.971498,39.9313 -76.971623,39.931026 -76.971882,39.930427 -76.972079,39.929916 -76.972481,39.92837 -76.97391,39.928061 -76.973953,39.928052 -76.974005,39.928041 -76.976202,39.927566 -76.976955,39.928202 -76.977032,39.928257 -76.977773,39.928834 -76.978275,39.929218 -76.97853,39.929425 -76.978558,39.929477 -76.978578,39.929513 -76.978685,39.929593 -76.978831,39.929835 -76.979035,39.930193 -76.979137,39.930329 -76.979286,39.930416 -76.979537,39.930573 -76.979566,39.930591 -76.979676,39.930645 -76.984513,39.933009 -76.98479,39.933149 -76.984659,39.933769 -76.984604,39.934424 -76.984604,39.934951 -76.984731,39.935497 -76.98495,39.936097 -76.985204,39.936642 -76.985459,39.937042 -76.98555,39.937279 -76.98584,39.937824 -76.986077,39.938188 -76.986331,39.938406 -76.986859,39.938715 -76.987475,39.938899 -76.988277,39.939169 -76.988895,39.93946 -76.989968,39.940115 -76.990331,39.940479 -76.990534,39.940762 -76.990614,39.940886 -76.990858,39.941262 -76.990975,39.941525 -76.991068,39.941809 -76.991058,39.942252 -76.991021,39.942434</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

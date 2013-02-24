@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lawrence</name>
+<Schema name="lawrence" id="lawrence">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lawrence</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lawrence">
+		<SimpleData name="Name">Lawrence</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">26420</SimpleData>
+		<SimpleData name="PLACENS">02398403</SimpleData>
+		<SimpleData name="GEOID">3126420</SimpleData>
+		<SimpleData name="NAMELSAD">Lawrence village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1074398</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2901673</SimpleData>
+		<SimpleData name="INTPTLON">-098.2596749</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.26552,40.288246 -98.265553,40.292441 -98.265574,40.294953 -98.265428,40.294969 -98.265099,40.294971 -98.263901,40.294978 -98.261222,40.294995 -98.258487,40.295014 -98.256148,40.295028 -98.254069,40.295041 -98.254048,40.292655 -98.25374,40.29266 -98.252942,40.292655 -98.252927,40.291188 -98.253911,40.290928 -98.254022,40.290905 -98.253988,40.288233 -98.253977,40.287272 -98.253951,40.285315 -98.256075,40.285304 -98.260456,40.285279 -98.265188,40.285253 -98.265497,40.285252 -98.26552,40.288246</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

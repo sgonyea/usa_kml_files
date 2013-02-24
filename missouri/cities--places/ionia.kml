@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ionia</name>
+<Schema name="ionia" id="ionia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ionia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ionia">
+		<SimpleData name="Name">Ionia</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">35306</SimpleData>
+		<SimpleData name="PLACENS">02397008</SimpleData>
+		<SimpleData name="GEOID">2935306</SimpleData>
+		<SimpleData name="NAMELSAD">Ionia town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">383423</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5037222</SimpleData>
+		<SimpleData name="INTPTLON">-093.3235340</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.326413,38.500318 -93.326293,38.500293 -93.326298,38.501062 -93.326279,38.501723 -93.326273,38.502105 -93.326248,38.502533 -93.326227,38.50353 -93.326219,38.503928 -93.326178,38.504498 -93.326158,38.505175 -93.326143,38.505514 -93.32611,38.506295 -93.326101,38.506492 -93.32608,38.507091 -93.326074,38.507235 -93.324795,38.507206 -93.323492,38.507151 -93.3235,38.508172 -93.322011,38.508159 -93.322046,38.507121 -93.321685,38.507111 -93.32102,38.507095 -93.320788,38.507081 -93.320815,38.506628 -93.32088,38.504781 -93.32092,38.502332 -93.320985,38.50144 -93.321002,38.501216 -93.320991,38.501027 -93.321027,38.50057 -93.321111,38.500049 -93.321126,38.499911 -93.321212,38.499914 -93.321733,38.499925 -93.323523,38.49996 -93.323815,38.499997 -93.323946,38.499986 -93.326405,38.500047 -93.326413,38.500318</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

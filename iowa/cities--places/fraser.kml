@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fraser</name>
+<Schema name="fraser" id="fraser">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fraser</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fraser">
+		<SimpleData name="Name">Fraser</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">28920</SimpleData>
+		<SimpleData name="PLACENS">02394812</SimpleData>
+		<SimpleData name="GEOID">1928920</SimpleData>
+		<SimpleData name="NAMELSAD">Fraser city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2152328</SimpleData>
+		<SimpleData name="AWATER">130222</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1269149</SimpleData>
+		<SimpleData name="INTPTLON">-093.9746719</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.984689,42.121411 -93.984671,42.12251 -93.984661,42.123118 -93.984455,42.124979 -93.984398,42.130228 -93.983148,42.130244 -93.982256,42.130255 -93.981764,42.130261 -93.981136,42.130268 -93.974758,42.130312 -93.974731,42.13049 -93.974719,42.130919 -93.969702,42.130896 -93.969678,42.130349 -93.969053,42.130362 -93.964976,42.130452 -93.959284,42.130579 -93.959286,42.130393 -93.959313,42.128036 -93.961055,42.128084 -93.961096,42.126089 -93.963206,42.126063 -93.964049,42.126056 -93.964134,42.126057 -93.964147,42.125167 -93.964546,42.125171 -93.964549,42.124979 -93.964592,42.12158 -93.964595,42.121355 -93.964598,42.12115 -93.964613,42.1203 -93.964638,42.118977 -93.970349,42.119011 -93.979818,42.11907 -93.984725,42.1191 -93.984689,42.121411</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

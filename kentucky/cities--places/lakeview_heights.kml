@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lakeview_heights</name>
+<Schema name="lakeview_heights" id="lakeview_heights">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lakeview Heights</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lakeview_heights">
+		<SimpleData name="Name">Lakeview Heights</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">43668</SimpleData>
+		<SimpleData name="PLACENS">02404877</SimpleData>
+		<SimpleData name="GEOID">2143668</SimpleData>
+		<SimpleData name="NAMELSAD">Lakeview Heights city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">365526</SimpleData>
+		<SimpleData name="AWATER">6192</SimpleData>
+		<SimpleData name="INTPTLAT">+38.1523365</SimpleData>
+		<SimpleData name="INTPTLON">-083.5043683</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.508754,38.149921 -83.50865,38.150418 -83.508337,38.151912 -83.508245,38.15236 -83.508141,38.152348 -83.507547,38.152283 -83.505983,38.15398 -83.505207,38.154791 -83.504698,38.155028 -83.504068,38.155239 -83.503664,38.15531 -83.503358,38.155354 -83.502977,38.155359 -83.502587,38.155296 -83.501901,38.155024 -83.500974,38.154436 -83.498772,38.153107 -83.499717,38.152593 -83.500393,38.152163 -83.500641,38.152012 -83.500903,38.151854 -83.501337,38.151592 -83.50169,38.15138 -83.502121,38.151105 -83.502422,38.150877 -83.502782,38.150582 -83.503061,38.150339 -83.503347,38.150067 -83.504039,38.149387 -83.505212,38.148248 -83.505452,38.148017 -83.505577,38.147896 -83.505614,38.147922 -83.508754,38.149921</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

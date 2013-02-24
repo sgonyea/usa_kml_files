@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>concord</name>
+<Schema name="concord" id="concord">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Concord</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#concord">
+		<SimpleData name="Name">Concord</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">17740</SimpleData>
+		<SimpleData name="PLACENS">02398612</SimpleData>
+		<SimpleData name="GEOID">2617740</SimpleData>
+		<SimpleData name="NAMELSAD">Concord village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3877759</SimpleData>
+		<SimpleData name="AWATER">321672</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1769962</SimpleData>
+		<SimpleData name="INTPTLON">-084.6454888</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.660919,42.172348 -84.658971,42.173756 -84.659235,42.173976 -84.659226,42.174238 -84.659765,42.181491 -84.658377,42.181416 -84.658043,42.181418 -84.657892,42.181301 -84.657615,42.181298 -84.656955,42.181415 -84.65695,42.182552 -84.65457,42.182596 -84.654682,42.185156 -84.651465,42.185206 -84.651733,42.185463 -84.651937,42.185665 -84.651719,42.185784 -84.651297,42.186014 -84.650166,42.18663 -84.650094,42.185208 -84.649874,42.185179 -84.637144,42.18529 -84.635021,42.185298 -84.634887,42.181607 -84.630328,42.181532 -84.630171,42.180111 -84.630086,42.178691 -84.63004,42.178611 -84.629971,42.177977 -84.629992,42.177471 -84.629973,42.176322 -84.629961,42.175623 -84.6299,42.174445 -84.630899,42.174448 -84.63476,42.174425 -84.63476,42.174272 -84.634609,42.17075 -84.634551,42.169302 -84.634513,42.167961 -84.634516,42.167239 -84.635054,42.167248 -84.638886,42.167293 -84.63923,42.167173 -84.639399,42.167158 -84.644107,42.167122 -84.644099,42.167041 -84.644076,42.16681 -84.644071,42.16676 -84.645463,42.166742 -84.645486,42.167164 -84.647912,42.167148 -84.656805,42.16709 -84.656952,42.171277 -84.657696,42.171889 -84.65942,42.170743 -84.660335,42.171714 -84.660852,42.172264 -84.660919,42.172348</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

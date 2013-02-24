@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>geneseo</name>
+<Schema name="geneseo" id="geneseo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Geneseo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#geneseo">
+		<SimpleData name="Name">Geneseo</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">26075</SimpleData>
+		<SimpleData name="PLACENS">02394873</SimpleData>
+		<SimpleData name="GEOID">2026075</SimpleData>
+		<SimpleData name="NAMELSAD">Geneseo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1511003</SimpleData>
+		<SimpleData name="AWATER">749</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5168172</SimpleData>
+		<SimpleData name="INTPTLON">-098.1544813</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.164338,38.514899 -98.164367,38.516238 -98.164373,38.517674 -98.164372,38.518561 -98.160261,38.518476 -98.160247,38.519443 -98.159581,38.519415 -98.15961,38.521086 -98.159585,38.521544 -98.159598,38.522136 -98.159276,38.522135 -98.159098,38.522135 -98.158879,38.522135 -98.158642,38.522135 -98.158189,38.522136 -98.156582,38.522138 -98.155118,38.522132 -98.154838,38.522143 -98.151081,38.522192 -98.150423,38.522191 -98.150235,38.522191 -98.149598,38.522177 -98.146718,38.52219 -98.146533,38.522191 -98.146181,38.52219 -98.145939,38.52219 -98.145925,38.520676 -98.145941,38.51951 -98.145941,38.519491 -98.145963,38.517145 -98.145963,38.516234 -98.145952,38.514977 -98.148437,38.514955 -98.14977,38.515054 -98.149776,38.514944 -98.149798,38.514592 -98.149877,38.511186 -98.152612,38.511215 -98.155083,38.511241 -98.15641,38.511258 -98.15979,38.511296 -98.159804,38.512381 -98.159813,38.513109 -98.160469,38.513122 -98.160475,38.513944 -98.159195,38.513951 -98.159197,38.514346 -98.161353,38.514317 -98.16216,38.514308 -98.162832,38.514275 -98.163498,38.514315 -98.16383,38.514295 -98.164326,38.514328 -98.164338,38.514899</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

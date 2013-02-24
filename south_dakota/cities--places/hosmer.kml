@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hosmer</name>
+<Schema name="hosmer" id="hosmer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hosmer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hosmer">
+		<SimpleData name="Name">Hosmer</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">30140</SimpleData>
+		<SimpleData name="PLACENS">01267426</SimpleData>
+		<SimpleData name="GEOID">4630140</SimpleData>
+		<SimpleData name="NAMELSAD">Hosmer city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2561861</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.5787866</SimpleData>
+		<SimpleData name="INTPTLON">-099.4736425</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.483899,45.576023 -99.483911,45.577697 -99.483905,45.577903 -99.483889,45.578523 -99.483885,45.57873 -99.483873,45.580588 -99.48384,45.585953 -99.483628,45.58595 -99.48177,45.585926 -99.47664,45.585967 -99.463368,45.586076 -99.463374,45.583959 -99.463391,45.57883 -99.463392,45.575445 -99.463394,45.57168 -99.465264,45.571667 -99.469782,45.571637 -99.473167,45.571615 -99.474881,45.571584 -99.480024,45.571491 -99.481739,45.571461 -99.483413,45.571457 -99.483869,45.571457 -99.483899,45.576023</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

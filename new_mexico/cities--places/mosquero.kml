@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mosquero</name>
+<Schema name="mosquero" id="mosquero">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mosquero</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mosquero">
+		<SimpleData name="Name">Mosquero</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">50300</SimpleData>
+		<SimpleData name="PLACENS">02413574</SimpleData>
+		<SimpleData name="GEOID">3550300</SimpleData>
+		<SimpleData name="NAMELSAD">Mosquero village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2584212</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.7743104</SimpleData>
+		<SimpleData name="INTPTLON">-103.9544133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.963216,35.769187 -103.963242,35.770943 -103.963266,35.772646 -103.963341,35.777757 -103.963367,35.779461 -103.963371,35.779756 -103.963384,35.780642 -103.963389,35.780938 -103.96339,35.781036 -103.963394,35.781332 -103.963396,35.781431 -103.96341,35.781544 -103.963416,35.781584 -103.963308,35.781609 -103.963115,35.78158 -103.963002,35.781564 -103.962165,35.781571 -103.959635,35.781557 -103.959304,35.781556 -103.958794,35.781559 -103.957988,35.781563 -103.956783,35.78157 -103.955573,35.781571 -103.954768,35.781573 -103.952924,35.78157 -103.949947,35.781566 -103.947394,35.781553 -103.947334,35.781553 -103.945551,35.781537 -103.94555,35.781454 -103.945549,35.781207 -103.945549,35.781125 -103.945561,35.77855 -103.945599,35.770825 -103.945613,35.768251 -103.945614,35.76793 -103.945619,35.76697 -103.94562,35.766869 -103.945837,35.766894 -103.947426,35.766917 -103.952192,35.76699 -103.953766,35.767014 -103.957094,35.767055 -103.958211,35.767071 -103.959966,35.767096 -103.963187,35.767143 -103.963216,35.769187</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

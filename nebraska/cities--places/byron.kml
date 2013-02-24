@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>byron</name>
+<Schema name="byron" id="byron">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Byron</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#byron">
+		<SimpleData name="Name">Byron</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">07555</SimpleData>
+		<SimpleData name="PLACENS">02397518</SimpleData>
+		<SimpleData name="GEOID">3107555</SimpleData>
+		<SimpleData name="NAMELSAD">Byron village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">397039</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0048569</SimpleData>
+		<SimpleData name="INTPTLON">-097.7685873</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.773078,40.002544 -97.773091,40.004698 -97.773105,40.006572 -97.771968,40.006527 -97.770423,40.006551 -97.770439,40.005763 -97.769894,40.005761 -97.769403,40.005761 -97.769412,40.006624 -97.769067,40.00676 -97.76906,40.007989 -97.766858,40.007989 -97.76577,40.007988 -97.765755,40.008448 -97.766255,40.00845 -97.76625,40.00903 -97.764963,40.009028 -97.764963,40.008055 -97.764933,40.007332 -97.764936,40.006761 -97.764936,40.006685 -97.764926,40.005835 -97.764942,40.004844 -97.76492,40.003807 -97.764915,40.003519 -97.764936,40.002799 -97.765007,40.00273 -97.764966,40.002362 -97.76494,40.002133 -97.767028,40.002147 -97.767725,40.002137 -97.769027,40.002119 -97.769024,40.001997 -97.76908,40.001995 -97.77045,40.00198 -97.77045,40.002536 -97.77045,40.002626 -97.771461,40.002361 -97.771729,40.002292 -97.772219,40.00228 -97.772651,40.002269 -97.773073,40.002226 -97.773078,40.002544</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

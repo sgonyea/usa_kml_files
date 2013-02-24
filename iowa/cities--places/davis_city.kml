@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>davis_city</name>
+<Schema name="davis_city" id="davis_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Davis City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#davis_city">
+		<SimpleData name="Name">Davis City</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">19090</SimpleData>
+		<SimpleData name="PLACENS">02394468</SimpleData>
+		<SimpleData name="GEOID">1919090</SimpleData>
+		<SimpleData name="NAMELSAD">Davis City city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1527846</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6401517</SimpleData>
+		<SimpleData name="INTPTLON">-093.8126018</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.819839,40.637591 -93.819814,40.638227 -93.819782,40.640602 -93.819907,40.640602 -93.819914,40.641186 -93.819901,40.641576 -93.819904,40.641983 -93.81991,40.642937 -93.819928,40.645721 -93.813104,40.645686 -93.811196,40.645676 -93.805052,40.645618 -93.805045,40.645003 -93.805137,40.642436 -93.805149,40.641229 -93.805167,40.639696 -93.805159,40.639211 -93.805331,40.638018 -93.805307,40.63724 -93.805794,40.637258 -93.805796,40.636896 -93.805839,40.635394 -93.805854,40.634852 -93.805857,40.634555 -93.814337,40.634419 -93.815261,40.634488 -93.819907,40.634589 -93.819839,40.637591</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

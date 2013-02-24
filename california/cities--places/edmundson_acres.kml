@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>edmundson_acres</name>
+<Schema name="edmundson_acres" id="edmundson_acres">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Edmundson Acres</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edmundson_acres">
+		<SimpleData name="Name">Edmundson Acres</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">21558</SimpleData>
+		<SimpleData name="PLACENS">02629761</SimpleData>
+		<SimpleData name="GEOID">0621558</SimpleData>
+		<SimpleData name="NAMELSAD">Edmundson Acres CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">172230</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.2272959</SimpleData>
+		<SimpleData name="INTPTLON">-118.8232520</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.824474,35.230946 -118.824271,35.230947 -118.823469,35.230953 -118.822235,35.23096 -118.821662,35.230963 -118.821658,35.230395 -118.822228,35.230389 -118.822196,35.227321 -118.822163,35.22429 -118.821462,35.224291 -118.821456,35.223685 -118.822157,35.223682 -118.823394,35.223677 -118.824212,35.223673 -118.824398,35.223672 -118.824474,35.230946</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

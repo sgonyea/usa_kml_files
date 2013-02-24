@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hardy</name>
+<Schema name="hardy" id="hardy">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hardy</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hardy">
+		<SimpleData name="Name">Hardy</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">34455</SimpleData>
+		<SimpleData name="PLACENS">02394298</SimpleData>
+		<SimpleData name="GEOID">1934455</SimpleData>
+		<SimpleData name="NAMELSAD">Hardy city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1143295</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8101495</SimpleData>
+		<SimpleData name="INTPTLON">-094.0511446</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.060056,42.812079 -94.060111,42.814765 -94.052501,42.814788 -94.052564,42.816257 -94.050211,42.816333 -94.050208,42.816195 -94.050217,42.815527 -94.050233,42.81532 -94.050304,42.814951 -94.050348,42.814847 -94.04523,42.814917 -94.045179,42.810634 -94.045159,42.80676 -94.045203,42.804096 -94.051061,42.804159 -94.05501,42.8042 -94.054993,42.810264 -94.054997,42.810534 -94.055008,42.811331 -94.055487,42.811327 -94.057292,42.811335 -94.057967,42.811337 -94.060051,42.811328 -94.060056,42.812079</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

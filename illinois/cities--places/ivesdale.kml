@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ivesdale</name>
+<Schema name="ivesdale" id="ivesdale">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ivesdale</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ivesdale">
+		<SimpleData name="Name">Ivesdale</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">37998</SimpleData>
+		<SimpleData name="PLACENS">02398284</SimpleData>
+		<SimpleData name="GEOID">1737998</SimpleData>
+		<SimpleData name="NAMELSAD">Ivesdale village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2146880</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9456228</SimpleData>
+		<SimpleData name="INTPTLON">-088.4568812</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.462584,39.951209 -88.462526,39.952412 -88.461558,39.952426 -88.458282,39.952444 -88.454317,39.952447 -88.45409,39.952444 -88.453645,39.95246 -88.452528,39.952462 -88.450588,39.952474 -88.447392,39.952487 -88.446343,39.952493 -88.44635,39.951096 -88.44635,39.947481 -88.446348,39.947285 -88.447901,39.946985 -88.449387,39.946698 -88.449477,39.946681 -88.449387,39.94642 -88.448895,39.944988 -88.449565,39.944858 -88.45192,39.944405 -88.452309,39.944324 -88.452441,39.944299 -88.452013,39.94296 -88.451926,39.942688 -88.451877,39.942697 -88.45184,39.941225 -88.451841,39.940815 -88.451855,39.940431 -88.451844,39.940237 -88.451819,39.940084 -88.451779,39.939937 -88.451733,39.939826 -88.451658,39.939692 -88.451563,39.939563 -88.451659,39.937724 -88.452078,39.937722 -88.453628,39.937711 -88.453723,39.937719 -88.453792,39.937738 -88.453851,39.937773 -88.462479,39.937648 -88.464893,39.937629 -88.464908,39.943843 -88.464926,39.944942 -88.46498,39.948241 -88.464998,39.949341 -88.465002,39.951211 -88.462584,39.951209</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

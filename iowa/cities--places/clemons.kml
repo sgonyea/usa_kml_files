@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>clemons</name>
+<Schema name="clemons" id="clemons">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Clemons</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clemons">
+		<SimpleData name="Name">Clemons</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">14160</SimpleData>
+		<SimpleData name="PLACENS">02393558</SimpleData>
+		<SimpleData name="GEOID">1914160</SimpleData>
+		<SimpleData name="NAMELSAD">Clemons city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">699184</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1138981</SimpleData>
+		<SimpleData name="INTPTLON">-093.1585080</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.163671,42.113639 -93.16363,42.115693 -93.163647,42.116777 -93.163659,42.117511 -93.16114,42.117555 -93.160057,42.117575 -93.159662,42.117582 -93.158478,42.117602 -93.158084,42.11761 -93.157711,42.117617 -93.156595,42.11764 -93.156223,42.117649 -93.154915,42.117635 -93.153368,42.117619 -93.153354,42.11673 -93.153352,42.115243 -93.153351,42.113936 -93.153358,42.11343 -93.153378,42.111914 -93.153386,42.111409 -93.153384,42.110744 -93.153383,42.11023 -93.15486,42.110226 -93.155525,42.110225 -93.155666,42.110222 -93.156091,42.110215 -93.156233,42.110213 -93.15649,42.110213 -93.157261,42.110214 -93.157519,42.110215 -93.15781,42.110214 -93.158684,42.110213 -93.158976,42.110213 -93.161029,42.110203 -93.163742,42.110192 -93.163671,42.113639</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

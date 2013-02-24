@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>aetna_estates</name>
+<Schema name="aetna_estates" id="aetna_estates">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Aetna Estates</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aetna_estates">
+		<SimpleData name="Name">Aetna Estates</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">00620</SimpleData>
+		<SimpleData name="PLACENS">02583206</SimpleData>
+		<SimpleData name="GEOID">0800620</SimpleData>
+		<SimpleData name="NAMELSAD">Aetna Estates CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">339481</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.7381267</SimpleData>
+		<SimpleData name="INTPTLON">-104.6732335</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-104.678306,39.736498 -104.678282,39.738339 -104.678281,39.738755 -104.67828,39.739359 -104.678279,39.739468 -104.678289,39.739572 -104.678305,39.739995 -104.676244,39.739967 -104.673527,39.73993 -104.670736,39.739921 -104.669325,39.739903 -104.668358,39.739901 -104.668358,39.739816 -104.668357,39.739748 -104.668356,39.736476 -104.668355,39.734924 -104.668902,39.734916 -104.668891,39.736412 -104.669324,39.736431 -104.67132,39.736424 -104.674777,39.736431 -104.677366,39.736438 -104.678306,39.736442 -104.678306,39.736498</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

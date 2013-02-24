@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>triplett</name>
+<Schema name="triplett" id="triplett">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Triplett</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#triplett">
+		<SimpleData name="Name">Triplett</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">73870</SimpleData>
+		<SimpleData name="PLACENS">02397055</SimpleData>
+		<SimpleData name="GEOID">2973870</SimpleData>
+		<SimpleData name="NAMELSAD">Triplett city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">597470</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4983547</SimpleData>
+		<SimpleData name="INTPTLON">-093.1938595</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.199766,39.499939 -93.198491,39.499922 -93.19779,39.499909 -93.196434,39.499877 -93.195121,39.499847 -93.194926,39.499844 -93.194988,39.500021 -93.195247,39.500037 -93.195912,39.503653 -93.195717,39.503645 -93.19363,39.503632 -93.192773,39.50363 -93.19277,39.500409 -93.19179,39.500428 -93.192367,39.500023 -93.19236,39.499727 -93.191652,39.499711 -93.191633,39.500121 -93.191205,39.500625 -93.188739,39.500612 -93.1886,39.500249 -93.189124,39.500118 -93.189025,39.499659 -93.188971,39.499229 -93.188464,39.496409 -93.188246,39.49512 -93.193679,39.495118 -93.193937,39.495133 -93.195662,39.495297 -93.198874,39.495318 -93.199766,39.499939</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

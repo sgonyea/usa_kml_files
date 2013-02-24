@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>millerton</name>
+<Schema name="millerton" id="millerton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Millerton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#millerton">
+		<SimpleData name="Name">Millerton</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">48600</SimpleData>
+		<SimpleData name="PLACENS">02412998</SimpleData>
+		<SimpleData name="GEOID">4048600</SimpleData>
+		<SimpleData name="NAMELSAD">Millerton town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4584357</SimpleData>
+		<SimpleData name="AWATER">27425</SimpleData>
+		<SimpleData name="INTPTLAT">+33.9834328</SimpleData>
+		<SimpleData name="INTPTLON">-095.0171294</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.02905,33.973598 -95.02905,33.973844 -95.029069,33.981158 -95.029112,33.988923 -95.029112,33.989009 -95.029113,33.989233 -95.029117,33.99006 -95.029106,33.990532 -95.029137,33.993039 -95.021704,33.992958 -95.019585,33.99294 -95.017465,33.992923 -95.013922,33.992864 -95.010959,33.992861 -95.006129,33.992836 -95.006118,33.990155 -95.006117,33.990028 -95.006142,33.982832 -95.006137,33.981194 -95.006135,33.980526 -95.006138,33.980036 -95.006146,33.973354 -95.013264,33.973388 -95.020766,33.973381 -95.029049,33.973353 -95.02905,33.973598</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.038623,33.994706 -95.037327,33.99489 -95.037301,33.993833 -95.038548,33.993697 -95.038623,33.994706</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

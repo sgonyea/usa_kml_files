@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>coy</name>
+<Schema name="coy" id="coy">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Coy</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#coy">
+		<SimpleData name="Name">Coy</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">15790</SimpleData>
+		<SimpleData name="PLACENS">02406331</SimpleData>
+		<SimpleData name="GEOID">0515790</SimpleData>
+		<SimpleData name="NAMELSAD">Coy town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1747275</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.5404975</SimpleData>
+		<SimpleData name="INTPTLON">-091.8710887</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.878241,34.537473 -91.878212,34.538633 -91.878197,34.538721 -91.878155,34.538985 -91.878141,34.539074 -91.87816,34.540178 -91.878203,34.542582 -91.878224,34.543492 -91.87825,34.544597 -91.878202,34.545952 -91.878234,34.546732 -91.877684,34.546723 -91.876915,34.546712 -91.874951,34.546684 -91.874608,34.546697 -91.87384,34.546728 -91.864947,34.546345 -91.864935,34.545962 -91.864929,34.545761 -91.865135,34.545753 -91.865124,34.545325 -91.864351,34.545257 -91.864273,34.545255 -91.864038,34.545249 -91.863961,34.545248 -91.863969,34.543808 -91.863975,34.542729 -91.863838,34.539492 -91.863778,34.538054 -91.86378,34.537218 -91.86379,34.534713 -91.863792,34.534357 -91.86427,34.534341 -91.864354,34.53434 -91.864609,34.53434 -91.864694,34.53434 -91.865323,34.534345 -91.866564,34.534383 -91.87085,34.534515 -91.872174,34.534562 -91.874044,34.534629 -91.874242,34.534633 -91.874526,34.53466 -91.875136,34.53472 -91.875973,34.534732 -91.876457,34.53474 -91.877616,34.534708 -91.878312,34.53469 -91.878241,34.537473</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

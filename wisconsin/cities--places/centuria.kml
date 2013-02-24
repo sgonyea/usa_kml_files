@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>centuria</name>
+<Schema name="centuria" id="centuria">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Centuria</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#centuria">
+		<SimpleData name="Name">Centuria</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">13850</SimpleData>
+		<SimpleData name="PLACENS">01582944</SimpleData>
+		<SimpleData name="GEOID">5513850</SimpleData>
+		<SimpleData name="NAMELSAD">Centuria village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4398177</SimpleData>
+		<SimpleData name="AWATER">2087</SimpleData>
+		<SimpleData name="INTPTLAT">+45.4486915</SimpleData>
+		<SimpleData name="INTPTLON">-092.5578941</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.580649,45.458326 -92.572693,45.458224 -92.572676,45.456956 -92.572667,45.456466 -92.570251,45.456435 -92.570256,45.45699 -92.570268,45.457832 -92.570281,45.458196 -92.560038,45.458038 -92.556161,45.457978 -92.551556,45.45791 -92.551444,45.457905 -92.549839,45.459924 -92.549806,45.45788 -92.549598,45.457883 -92.544689,45.457929 -92.544632,45.454294 -92.544434,45.454296 -92.54191,45.454323 -92.539518,45.454354 -92.539432,45.450757 -92.542085,45.450738 -92.544481,45.450716 -92.54444,45.449466 -92.544363,45.447221 -92.544345,45.446587 -92.544111,45.440095 -92.546618,45.440104 -92.549343,45.440114 -92.556432,45.440217 -92.558667,45.440257 -92.559364,45.440259 -92.559886,45.440269 -92.561786,45.440306 -92.565227,45.440358 -92.565843,45.440367 -92.565991,45.440368 -92.567705,45.440382 -92.568444,45.440388 -92.569337,45.440396 -92.569753,45.440404 -92.569678,45.440655 -92.569713,45.442184 -92.569766,45.444456 -92.569788,45.445392 -92.569823,45.44752 -92.570237,45.454657 -92.580104,45.454797 -92.580259,45.454807 -92.580593,45.454829 -92.580649,45.458326</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

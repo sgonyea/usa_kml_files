@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>west_millgrove</name>
+<Schema name="west_millgrove" id="west_millgrove">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>West Millgrove</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#west_millgrove">
+		<SimpleData name="Name">West Millgrove</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">83888</SimpleData>
+		<SimpleData name="PLACENS">02400139</SimpleData>
+		<SimpleData name="GEOID">3983888</SimpleData>
+		<SimpleData name="NAMELSAD">West Millgrove village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">673365</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2427453</SimpleData>
+		<SimpleData name="INTPTLON">-083.4914072</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.496296,41.246065 -83.493835,41.246076 -83.492761,41.24607 -83.492345,41.246185 -83.490144,41.246804 -83.486972,41.247693 -83.486937,41.245075 -83.486941,41.244927 -83.486162,41.244012 -83.486995,41.243725 -83.486975,41.242084 -83.48694,41.239226 -83.486933,41.238874 -83.490295,41.238861 -83.493869,41.238849 -83.496309,41.238839 -83.496261,41.240766 -83.496272,41.240783 -83.49636,41.240835 -83.496223,41.240934 -83.496246,41.242572 -83.496258,41.243426 -83.496296,41.246065</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rocky</name>
+<Schema name="rocky" id="rocky">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rocky</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rocky">
+		<SimpleData name="Name">Rocky</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">63700</SimpleData>
+		<SimpleData name="PLACENS">02412566</SimpleData>
+		<SimpleData name="GEOID">4063700</SimpleData>
+		<SimpleData name="NAMELSAD">Rocky town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">590799</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.1561016</SimpleData>
+		<SimpleData name="INTPTLON">-099.0593571</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.062878,35.153278 -99.062888,35.154923 -99.062896,35.156262 -99.06289,35.156835 -99.062875,35.15691 -99.063029,35.158583 -99.063013,35.160089 -99.062322,35.160085 -99.06189,35.160087 -99.061798,35.160088 -99.061693,35.160089 -99.061289,35.160091 -99.06051,35.160096 -99.059393,35.1601 -99.059248,35.160101 -99.058306,35.160103 -99.056917,35.160107 -99.055483,35.16011 -99.055531,35.15736 -99.055614,35.152656 -99.056999,35.152659 -99.058587,35.152662 -99.060508,35.152669 -99.060512,35.150327 -99.060512,35.150271 -99.061989,35.150133 -99.06199,35.151952 -99.062012,35.152661 -99.062015,35.152745 -99.062361,35.152755 -99.062729,35.152766 -99.062853,35.152789 -99.062878,35.153278</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

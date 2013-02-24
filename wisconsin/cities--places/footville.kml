@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>footville</name>
+<Schema name="footville" id="footville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Footville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#footville">
+		<SimpleData name="Name">Footville</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">26400</SimpleData>
+		<SimpleData name="PLACENS">01583211</SimpleData>
+		<SimpleData name="GEOID">5526400</SimpleData>
+		<SimpleData name="NAMELSAD">Footville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2895083</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.6715247</SimpleData>
+		<SimpleData name="INTPTLON">-089.2080354</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.219276,42.673556 -89.219087,42.673536 -89.219078,42.679404 -89.214877,42.679403 -89.209665,42.679402 -89.19961,42.679402 -89.199555,42.675641 -89.199508,42.672059 -89.199502,42.671732 -89.199486,42.67051 -89.197392,42.670511 -89.197392,42.669503 -89.194726,42.669503 -89.194726,42.664282 -89.199417,42.664387 -89.199417,42.663717 -89.199417,42.661893 -89.200879,42.662641 -89.204249,42.664367 -89.204936,42.664714 -89.205224,42.664859 -89.205397,42.664914 -89.20547,42.664937 -89.205715,42.66498 -89.205948,42.664999 -89.206796,42.664997 -89.2074,42.664984 -89.208065,42.664248 -89.208235,42.664265 -89.208627,42.664282 -89.209236,42.664296 -89.209538,42.6643 -89.209541,42.664882 -89.209258,42.664879 -89.209261,42.664974 -89.209272,42.665062 -89.209308,42.665182 -89.209575,42.665171 -89.211437,42.665136 -89.214907,42.665091 -89.215019,42.665091 -89.215197,42.665108 -89.217297,42.66513 -89.219105,42.665225 -89.219106,42.665304 -89.219107,42.665408 -89.219088,42.671897 -89.219094,42.672215 -89.219105,42.673386 -89.219376,42.673561 -89.219276,42.673556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

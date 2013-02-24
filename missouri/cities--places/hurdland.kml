@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hurdland</name>
+<Schema name="hurdland" id="hurdland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hurdland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hurdland">
+		<SimpleData name="Name">Hurdland</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">33904</SimpleData>
+		<SimpleData name="PLACENS">02394455</SimpleData>
+		<SimpleData name="GEOID">2933904</SimpleData>
+		<SimpleData name="NAMELSAD">Hurdland city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">861983</SimpleData>
+		<SimpleData name="AWATER">2626</SimpleData>
+		<SimpleData name="INTPTLAT">+40.1483860</SimpleData>
+		<SimpleData name="INTPTLON">-092.3026322</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.308089,40.145252 -92.308094,40.146524 -92.308102,40.146801 -92.308102,40.147404 -92.308111,40.147724 -92.308123,40.148157 -92.308133,40.149188 -92.308146,40.149931 -92.308141,40.150142 -92.308134,40.150465 -92.308142,40.15102 -92.308141,40.151379 -92.308136,40.152318 -92.308143,40.152567 -92.308152,40.152847 -92.308143,40.153761 -92.306846,40.153772 -92.303523,40.1538 -92.301819,40.153817 -92.30149,40.153819 -92.299804,40.153846 -92.29875,40.153857 -92.298747,40.153265 -92.298751,40.152932 -92.298774,40.152799 -92.298825,40.15271 -92.298926,40.152629 -92.29909,40.150232 -92.298835,40.14901 -92.298612,40.147804 -92.298592,40.146595 -92.298557,40.144018 -92.299627,40.144019 -92.308026,40.14403 -92.308017,40.144201 -92.307998,40.144324 -92.308042,40.144408 -92.308069,40.144515 -92.30808,40.144777 -92.308089,40.145252</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

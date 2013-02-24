@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mount_ayr</name>
+<Schema name="mount_ayr" id="mount_ayr">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mount Ayr</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mount_ayr">
+		<SimpleData name="Name">Mount Ayr</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">51336</SimpleData>
+		<SimpleData name="PLACENS">02396787</SimpleData>
+		<SimpleData name="GEOID">1851336</SimpleData>
+		<SimpleData name="NAMELSAD">Mount Ayr town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">453324</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9522889</SimpleData>
+		<SimpleData name="INTPTLON">-087.2989562</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.30219,40.955029 -87.301789,40.955027 -87.300587,40.955023 -87.300187,40.955022 -87.29991,40.95502 -87.299082,40.955017 -87.298806,40.955016 -87.298202,40.955013 -87.296391,40.955007 -87.295788,40.955005 -87.295642,40.955005 -87.295205,40.955005 -87.29506,40.955005 -87.294521,40.955005 -87.294524,40.951297 -87.294532,40.949486 -87.295087,40.94949 -87.295798,40.949489 -87.295797,40.94955 -87.295907,40.949548 -87.297773,40.949558 -87.302236,40.949583 -87.303387,40.949586 -87.30342,40.955033 -87.30219,40.955029</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>coleta</name>
+<Schema name="coleta" id="coleta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Coleta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#coleta">
+		<SimpleData name="Name">Coleta</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">15469</SimpleData>
+		<SimpleData name="PLACENS">02398597</SimpleData>
+		<SimpleData name="GEOID">1715469</SimpleData>
+		<SimpleData name="NAMELSAD">Coleta village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1543018</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9026356</SimpleData>
+		<SimpleData name="INTPTLON">-089.8002375</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.807706,41.907422 -89.807695,41.908249 -89.803434,41.908316 -89.802065,41.908338 -89.801752,41.908248 -89.799665,41.908217 -89.795994,41.908164 -89.792601,41.908093 -89.792748,41.90263 -89.792749,41.902027 -89.792773,41.897097 -89.795959,41.897149 -89.799974,41.897215 -89.802077,41.89725 -89.802144,41.895529 -89.802278,41.895534 -89.803745,41.895547 -89.803695,41.897263 -89.804228,41.897267 -89.804899,41.897271 -89.807488,41.89729 -89.807615,41.900094 -89.807708,41.902114 -89.807723,41.902548 -89.807727,41.90266 -89.807727,41.902836 -89.80773,41.905004 -89.807731,41.905727 -89.807706,41.907422</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

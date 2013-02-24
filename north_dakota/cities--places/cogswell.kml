@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cogswell</name>
+<Schema name="cogswell" id="cogswell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cogswell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cogswell">
+		<SimpleData name="Name">Cogswell</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">15100</SimpleData>
+		<SimpleData name="PLACENS">01035973</SimpleData>
+		<SimpleData name="GEOID">3815100</SimpleData>
+		<SimpleData name="NAMELSAD">Cogswell city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">864895</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1068645</SimpleData>
+		<SimpleData name="INTPTLON">-097.7844408</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.790705,46.106629 -97.790682,46.109676 -97.790682,46.109794 -97.790717,46.110835 -97.789069,46.110845 -97.786325,46.110861 -97.784906,46.110866 -97.78348,46.110875 -97.778074,46.1109 -97.778062,46.109905 -97.778059,46.109792 -97.778056,46.109725 -97.778055,46.109677 -97.778152,46.107647 -97.778192,46.106639 -97.778234,46.105612 -97.778351,46.102852 -97.779605,46.102836 -97.780442,46.102839 -97.78122,46.10284 -97.784043,46.102834 -97.787437,46.102819 -97.787855,46.10282 -97.788905,46.10282 -97.790727,46.102811 -97.790705,46.106629</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

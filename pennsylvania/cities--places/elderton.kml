@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elderton</name>
+<Schema name="elderton" id="elderton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elderton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elderton">
+		<SimpleData name="Name">Elderton</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">22832</SimpleData>
+		<SimpleData name="PLACENS">01214848</SimpleData>
+		<SimpleData name="GEOID">4222832</SimpleData>
+		<SimpleData name="NAMELSAD">Elderton borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">837673</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6945457</SimpleData>
+		<SimpleData name="INTPTLON">-079.3420777</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.348006,40.698772 -79.347411,40.699018 -79.346539,40.69938 -79.342804,40.70093 -79.341549,40.701455 -79.340353,40.699203 -79.338803,40.696267 -79.336831,40.692543 -79.336177,40.691307 -79.337927,40.690028 -79.339619,40.688792 -79.340516,40.688138 -79.340856,40.687887 -79.341889,40.687131 -79.342047,40.687016 -79.343034,40.688734 -79.343108,40.688801 -79.343197,40.688901 -79.343378,40.689066 -79.343564,40.689248 -79.343684,40.689439 -79.343784,40.689685 -79.343832,40.689878 -79.34387,40.690066 -79.343943,40.690316 -79.344038,40.690481 -79.344296,40.690931 -79.344835,40.692253 -79.345461,40.693786 -79.345581,40.694089 -79.346985,40.696371 -79.347181,40.696688 -79.347713,40.697551 -79.348362,40.698611 -79.348006,40.698772</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

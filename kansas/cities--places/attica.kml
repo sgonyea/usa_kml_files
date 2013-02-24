@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>attica</name>
+<Schema name="attica" id="attica">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Attica</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#attica">
+		<SimpleData name="Name">Attica</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">03100</SimpleData>
+		<SimpleData name="PLACENS">02394019</SimpleData>
+		<SimpleData name="GEOID">2003100</SimpleData>
+		<SimpleData name="NAMELSAD">Attica city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1666495</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.2427814</SimpleData>
+		<SimpleData name="INTPTLON">-098.2275894</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-98.235145,37.244922 -98.232528,37.24564 -98.230052,37.24632 -98.23019,37.246699 -98.230142,37.246699 -98.230083,37.246709 -98.230033,37.250019 -98.230023,37.250341 -98.229703,37.250344 -98.226828,37.250353 -98.226661,37.250353 -98.224393,37.250351 -98.22439,37.250021 -98.224533,37.246784 -98.220416,37.246904 -98.220414,37.246826 -98.220408,37.245662 -98.220398,37.244608 -98.220392,37.244106 -98.220388,37.243793 -98.219466,37.243784 -98.218764,37.243779 -98.217717,37.243696 -98.217717,37.242808 -98.217696,37.241052 -98.218635,37.24076 -98.220346,37.240231 -98.220338,37.240109 -98.220325,37.239915 -98.220341,37.239581 -98.220349,37.239251 -98.220352,37.239153 -98.220859,37.238994 -98.221318,37.238896 -98.221333,37.238651 -98.22175,37.238527 -98.222208,37.238415 -98.223051,37.238176 -98.22365,37.238001 -98.224938,37.237556 -98.226396,37.237208 -98.227037,37.237053 -98.227304,37.236983 -98.228621,37.236644 -98.228892,37.237261 -98.229123,37.237181 -98.231052,37.236565 -98.231677,37.236652 -98.232207,37.236968 -98.234127,37.237724 -98.234011,37.2397 -98.2341,37.242914 -98.234254,37.243302 -98.235145,37.244922</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-98.234317,37.233902 -98.23431,37.234664 -98.233068,37.235185 -98.231503,37.236015 -98.230855,37.234832 -98.230704,37.234851 -98.2296,37.235011 -98.229419,37.232086 -98.229609,37.231819 -98.22968,37.234137 -98.229886,37.234391 -98.230601,37.23428 -98.230537,37.233645 -98.232633,37.232661 -98.234062,37.232359 -98.234317,37.233902</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-98.239229,37.255668 -98.235936,37.255703 -98.235817,37.253876 -98.237047,37.253854 -98.239217,37.253831 -98.239229,37.255668</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

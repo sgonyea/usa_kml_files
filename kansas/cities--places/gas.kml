@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gas</name>
+<Schema name="gas" id="gas">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gas</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gas">
+		<SimpleData name="Name">Gas</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">25975</SimpleData>
+		<SimpleData name="PLACENS">02394865</SimpleData>
+		<SimpleData name="GEOID">2025975</SimpleData>
+		<SimpleData name="NAMELSAD">Gas city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1900536</SimpleData>
+		<SimpleData name="AWATER">1578</SimpleData>
+		<SimpleData name="INTPTLAT">+37.9225701</SimpleData>
+		<SimpleData name="INTPTLON">-095.3449559</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.337981,37.932889 -95.335757,37.932932 -95.335751,37.931497 -95.335754,37.931312 -95.337921,37.931302 -95.337981,37.932889</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.354225,37.91752 -95.354221,37.917972 -95.354224,37.919324 -95.354225,37.919504 -95.354227,37.920392 -95.354209,37.921529 -95.354223,37.922118 -95.354201,37.922541 -95.354173,37.923614 -95.354176,37.923925 -95.354165,37.924432 -95.354166,37.924508 -95.35416,37.924745 -95.35415,37.925132 -95.354146,37.925653 -95.354145,37.925738 -95.354144,37.925858 -95.354151,37.92669 -95.351177,37.926768 -95.350154,37.926795 -95.350015,37.926799 -95.349835,37.926804 -95.349803,37.928663 -95.349786,37.929294 -95.340487,37.929271 -95.340408,37.929271 -95.340413,37.929135 -95.340435,37.929131 -95.340425,37.928823 -95.340425,37.928681 -95.340424,37.928241 -95.340424,37.928076 -95.339868,37.928076 -95.339876,37.927442 -95.340407,37.927442 -95.340448,37.925688 -95.34036,37.925688 -95.340265,37.925689 -95.340046,37.925696 -95.339802,37.925702 -95.33577,37.9257 -95.335753,37.924277 -95.335754,37.923804 -95.335755,37.922474 -95.335763,37.922026 -95.336511,37.922002 -95.336532,37.920468 -95.336537,37.920098 -95.336562,37.919369 -95.336555,37.91825 -95.337953,37.918276 -95.339283,37.918301 -95.339275,37.916686 -95.342277,37.916675 -95.343637,37.916662 -95.345003,37.916639 -95.345002,37.916657 -95.344981,37.91718 -95.344977,37.917234 -95.345211,37.917237 -95.345318,37.917227 -95.345444,37.917194 -95.348174,37.917213 -95.350755,37.917231 -95.354227,37.917255 -95.354225,37.91752</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

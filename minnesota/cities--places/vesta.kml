@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vesta</name>
+<Schema name="vesta" id="vesta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vesta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vesta">
+		<SimpleData name="Name">Vesta</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">66982</SimpleData>
+		<SimpleData name="PLACENS">02397132</SimpleData>
+		<SimpleData name="GEOID">2766982</SimpleData>
+		<SimpleData name="NAMELSAD">Vesta city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1049638</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.5065253</SimpleData>
+		<SimpleData name="INTPTLON">-095.4139812</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.424398,44.504112 -95.423261,44.505195 -95.422731,44.505645 -95.422574,44.505779 -95.422095,44.506229 -95.421875,44.506544 -95.421623,44.506961 -95.421586,44.507076 -95.423039,44.507068 -95.423068,44.508043 -95.423062,44.5082 -95.421946,44.508186 -95.421461,44.508181 -95.421453,44.508472 -95.421445,44.508849 -95.42145,44.509855 -95.42145,44.510188 -95.417924,44.510219 -95.41793,44.511748 -95.411384,44.511787 -95.411385,44.511621 -95.411388,44.511206 -95.411355,44.509626 -95.411383,44.508847 -95.410109,44.50882 -95.41016,44.50807 -95.409249,44.508067 -95.406291,44.50802 -95.40583,44.508013 -95.405871,44.506242 -95.40597,44.501856 -95.405998,44.500983 -95.406057,44.500981 -95.411371,44.500876 -95.411371,44.501482 -95.411369,44.503369 -95.411353,44.504166 -95.41289,44.504176 -95.412906,44.503786 -95.417549,44.503808 -95.417577,44.504241 -95.418542,44.504237 -95.423339,44.504207 -95.424339,44.503364 -95.425169,44.503404 -95.424398,44.504112</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

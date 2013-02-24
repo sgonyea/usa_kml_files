@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>emerson</name>
+<Schema name="emerson" id="emerson">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Emerson</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#emerson">
+		<SimpleData name="Name">Emerson</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">15710</SimpleData>
+		<SimpleData name="PLACENS">02398827</SimpleData>
+		<SimpleData name="GEOID">3115710</SimpleData>
+		<SimpleData name="NAMELSAD">Emerson village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1226128</SimpleData>
+		<SimpleData name="AWATER">484</SimpleData>
+		<SimpleData name="INTPTLAT">+42.2782052</SimpleData>
+		<SimpleData name="INTPTLON">-096.7262904</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.731937,42.277451 -96.731986,42.277477 -96.732049,42.277548 -96.732065,42.277608 -96.73206,42.277762 -96.732063,42.277905 -96.732073,42.278396 -96.732078,42.278653 -96.732049,42.279273 -96.732034,42.27938 -96.732012,42.279403 -96.731982,42.279419 -96.732031,42.280245 -96.732094,42.281305 -96.731788,42.281332 -96.731858,42.282919 -96.731053,42.282948 -96.731071,42.283212 -96.731113,42.283821 -96.73112,42.283918 -96.730837,42.283919 -96.730315,42.283923 -96.729279,42.283928 -96.729248,42.284662 -96.726614,42.284682 -96.726611,42.285006 -96.726611,42.285034 -96.726605,42.285679 -96.726605,42.285699 -96.726604,42.285726 -96.726603,42.285818 -96.726603,42.285869 -96.725231,42.285802 -96.723881,42.285751 -96.722515,42.285621 -96.721592,42.285699 -96.721741,42.28419 -96.721818,42.283423 -96.721822,42.282406 -96.721873,42.281404 -96.721907,42.280396 -96.721837,42.27941 -96.721721,42.278762 -96.721656,42.278397 -96.721505,42.278001 -96.721412,42.272921 -96.721382,42.271286 -96.725156,42.27128 -96.726433,42.271282 -96.728588,42.271308 -96.72971,42.271324 -96.729697,42.272018 -96.729567,42.272443 -96.729337,42.273554 -96.72909,42.273963 -96.73148,42.273892 -96.731482,42.274098 -96.731527,42.274952 -96.731602,42.274954 -96.731888,42.274951 -96.731937,42.277451</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

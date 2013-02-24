@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>talladega_springs</name>
+<Schema name="talladega_springs" id="talladega_springs">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Talladega Springs</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#talladega_springs">
+		<SimpleData name="Name">Talladega Springs</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">74616</SimpleData>
+		<SimpleData name="PLACENS">02406710</SimpleData>
+		<SimpleData name="GEOID">0174616</SimpleData>
+		<SimpleData name="NAMELSAD">Talladega Springs town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3187158</SimpleData>
+		<SimpleData name="AWATER">28965</SimpleData>
+		<SimpleData name="INTPTLAT">+33.1204519</SimpleData>
+		<SimpleData name="INTPTLON">-086.4377611</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.450324,33.128238 -86.446588,33.128222 -86.441851,33.128307 -86.437752,33.128309 -86.43355,33.128304 -86.433883,33.125121 -86.433297,33.114655 -86.433268,33.109924 -86.442469,33.109972 -86.444232,33.110082 -86.44439,33.110053 -86.445195,33.110087 -86.44691,33.110121 -86.450597,33.110196 -86.450578,33.113546 -86.450573,33.11593 -86.450565,33.117897 -86.450586,33.118979 -86.450582,33.119279 -86.450578,33.119535 -86.450583,33.123132 -86.450561,33.125183 -86.450324,33.128238</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fox_chase</name>
+<Schema name="fox_chase" id="fox_chase">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fox Chase</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fox_chase">
+		<SimpleData name="Name">Fox Chase</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">27130</SimpleData>
+		<SimpleData name="PLACENS">02631267</SimpleData>
+		<SimpleData name="GEOID">4227130</SimpleData>
+		<SimpleData name="NAMELSAD">Fox Chase CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">892985</SimpleData>
+		<SimpleData name="AWATER">33881</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3947957</SimpleData>
+		<SimpleData name="INTPTLON">-075.9634199</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.972766,40.393482 -75.97268,40.393539 -75.97217,40.393875 -75.971123,40.394565 -75.966674,40.397417 -75.965516,40.398076 -75.962693,40.399473 -75.96127,40.400177 -75.960896,40.400362 -75.959165,40.401219 -75.959006,40.400895 -75.958911,40.400719 -75.958798,40.400543 -75.958685,40.400366 -75.958142,40.39956 -75.957103,40.398036 -75.957046,40.398056 -75.956845,40.397826 -75.956731,40.397682 -75.956232,40.39697 -75.955787,40.396349 -75.955346,40.395748 -75.955222,40.395616 -75.954917,40.395328 -75.954827,40.39523 -75.954576,40.394934 -75.954507,40.394867 -75.956252,40.394244 -75.956362,40.394223 -75.956809,40.394044 -75.959201,40.393191 -75.959694,40.393016 -75.961483,40.392375 -75.963044,40.391832 -75.963628,40.391634 -75.964311,40.391392 -75.964432,40.391253 -75.964666,40.391259 -75.964794,40.391222 -75.965705,40.390901 -75.966619,40.390587 -75.967111,40.390419 -75.967568,40.390282 -75.967672,40.390282 -75.967855,40.390328 -75.967977,40.390351 -75.968129,40.390389 -75.968329,40.390465 -75.968497,40.390564 -75.968649,40.390603 -75.968848,40.390671 -75.969015,40.390717 -75.969229,40.390816 -75.969397,40.390931 -75.969748,40.39116 -75.969885,40.391228 -75.969931,40.391279 -75.970099,40.391465 -75.970312,40.391571 -75.970556,40.391724 -75.970679,40.391823 -75.970923,40.39206 -75.971106,40.392251 -75.971304,40.392418 -75.971457,40.39251 -75.971884,40.392785 -75.972011,40.392871 -75.972189,40.392991 -75.972479,40.393181 -75.972586,40.393311 -75.972766,40.393482</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

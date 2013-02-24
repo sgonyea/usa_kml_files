@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>minden_city</name>
+<Schema name="minden_city" id="minden_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Minden City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#minden_city">
+		<SimpleData name="Name">Minden City</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">54560</SimpleData>
+		<SimpleData name="PLACENS">02399369</SimpleData>
+		<SimpleData name="GEOID">2654560</SimpleData>
+		<SimpleData name="NAMELSAD">Minden City village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2839044</SimpleData>
+		<SimpleData name="AWATER">6484</SimpleData>
+		<SimpleData name="INTPTLAT">+43.6718918</SimpleData>
+		<SimpleData name="INTPTLON">-082.7773525</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.787701,43.678234 -82.787126,43.678245 -82.785887,43.678292 -82.785856,43.678306 -82.785701,43.678306 -82.784276,43.678346 -82.78285,43.678385 -82.778739,43.678475 -82.778639,43.678497 -82.778438,43.678478 -82.776663,43.67859 -82.768434,43.678903 -82.765894,43.679002 -82.765891,43.678585 -82.76589,43.678384 -82.76579,43.674734 -82.765736,43.67195 -82.765704,43.669552 -82.765693,43.666399 -82.765607,43.664747 -82.76813,43.664627 -82.778147,43.664141 -82.781689,43.664052 -82.784672,43.663976 -82.785492,43.663956 -82.787636,43.663879 -82.78792,43.671013 -82.788089,43.675542 -82.78802,43.677979 -82.788006,43.678256 -82.787701,43.678234</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

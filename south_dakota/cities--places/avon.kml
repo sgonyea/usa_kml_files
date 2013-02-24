@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>avon</name>
+<Schema name="avon" id="avon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Avon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#avon">
+		<SimpleData name="Name">Avon</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">02900</SimpleData>
+		<SimpleData name="PLACENS">01267274</SimpleData>
+		<SimpleData name="GEOID">4602900</SimpleData>
+		<SimpleData name="NAMELSAD">Avon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1657080</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0051615</SimpleData>
+		<SimpleData name="INTPTLON">-098.0592964</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.069983,43.002886 -98.069984,43.003784 -98.06994,43.005046 -98.069894,43.006361 -98.069893,43.006579 -98.069893,43.006625 -98.06989,43.007466 -98.069853,43.009426 -98.069861,43.009727 -98.069842,43.010029 -98.067757,43.010023 -98.067131,43.010028 -98.064974,43.010042 -98.064395,43.010038 -98.063727,43.010044 -98.062843,43.010051 -98.062198,43.010056 -98.061528,43.010055 -98.060828,43.010054 -98.060552,43.010053 -98.060082,43.010052 -98.057232,43.010043 -98.055924,43.010051 -98.05515,43.010014 -98.054532,43.00997 -98.054178,43.009937 -98.053878,43.009893 -98.053011,43.009784 -98.052511,43.009692 -98.051358,43.009417 -98.050194,43.009086 -98.050252,43.006135 -98.050243,43.005608 -98.050258,43.004867 -98.050275,43.003937 -98.050296,43.002753 -98.050353,42.999138 -98.06025,42.999144 -98.060238,42.999852 -98.060217,43.000494 -98.06111,43.000469 -98.061141,43.000982 -98.061173,43.001598 -98.061391,43.0016 -98.061961,43.001605 -98.062994,43.001601 -98.062983,43.002365 -98.065414,43.002377 -98.065427,43.002615 -98.069983,43.00265 -98.069983,43.002886</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

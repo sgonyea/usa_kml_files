@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bock</name>
+<Schema name="bock" id="bock">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bock</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bock">
+		<SimpleData name="Name">Bock</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">06814</SimpleData>
+		<SimpleData name="PLACENS">02394211</SimpleData>
+		<SimpleData name="GEOID">2706814</SimpleData>
+		<SimpleData name="NAMELSAD">Bock city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">378664</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.7841419</SimpleData>
+		<SimpleData name="INTPTLON">-093.5527366</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.557349,45.785344 -93.556947,45.785477 -93.556433,45.785656 -93.554129,45.78646 -93.553013,45.786853 -93.552683,45.78698 -93.55234,45.787112 -93.551395,45.787477 -93.549237,45.788306 -93.549087,45.785371 -93.549052,45.784274 -93.548976,45.781796 -93.550641,45.781785 -93.551903,45.78178 -93.551903,45.780195 -93.553801,45.780155 -93.553755,45.780743 -93.553721,45.781773 -93.556968,45.78176 -93.556986,45.782046 -93.557126,45.783368 -93.557144,45.783844 -93.557141,45.783867 -93.557349,45.785344</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

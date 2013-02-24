@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>genoa</name>
+<Schema name="genoa" id="genoa">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Genoa</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#genoa">
+		<SimpleData name="Name">Genoa</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">28625</SimpleData>
+		<SimpleData name="PLACENS">01583262</SimpleData>
+		<SimpleData name="GEOID">5528625</SimpleData>
+		<SimpleData name="NAMELSAD">Genoa village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">765589</SimpleData>
+		<SimpleData name="AWATER">21271</SimpleData>
+		<SimpleData name="INTPTLAT">+43.5733376</SimpleData>
+		<SimpleData name="INTPTLON">-091.2260532</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.232883,43.559869 -91.232757,43.560033 -91.231364,43.561841 -91.230924,43.562515 -91.230334,43.563575 -91.230025,43.563734 -91.229814,43.564201 -91.229641,43.566337 -91.229693,43.56662 -91.229537,43.566826 -91.229496,43.567602 -91.228969,43.571252 -91.228709,43.573053 -91.228692,43.573176 -91.228674,43.573298 -91.228163,43.576851 -91.227565,43.580982 -91.227035,43.580976 -91.226874,43.580978 -91.227003,43.581343 -91.227354,43.582441 -91.226905,43.58245 -91.225758,43.582441 -91.22509,43.581235 -91.225087,43.581131 -91.225018,43.580981 -91.224904,43.580766 -91.221674,43.580911 -91.218741,43.581044 -91.218808,43.579647 -91.218812,43.57955 -91.219808,43.579528 -91.222111,43.579493 -91.222113,43.57834 -91.222118,43.577756 -91.22212,43.577352 -91.222146,43.572948 -91.222147,43.572658 -91.223312,43.572544 -91.224121,43.572468 -91.224379,43.572441 -91.22671,43.572215 -91.226476,43.568652 -91.228515,43.568632 -91.228583,43.56621 -91.228836,43.566226 -91.228972,43.561455 -91.226536,43.561396 -91.22655,43.560938 -91.22656,43.560617 -91.226573,43.559863 -91.229142,43.559778 -91.229517,43.559764 -91.229824,43.559739 -91.230049,43.559701 -91.231662,43.55925 -91.232919,43.55936 -91.232883,43.559869</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

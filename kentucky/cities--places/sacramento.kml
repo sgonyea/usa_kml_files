@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sacramento</name>
+<Schema name="sacramento" id="sacramento">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sacramento</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sacramento">
+		<SimpleData name="Name">Sacramento</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">67638</SimpleData>
+		<SimpleData name="PLACENS">02405386</SimpleData>
+		<SimpleData name="GEOID">2167638</SimpleData>
+		<SimpleData name="NAMELSAD">Sacramento city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1076560</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.4164962</SimpleData>
+		<SimpleData name="INTPTLON">-087.2671479</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.273969,37.416089 -87.27372,37.416189 -87.272739,37.416586 -87.2722,37.416805 -87.273686,37.418949 -87.272612,37.419514 -87.270198,37.420778 -87.268658,37.421614 -87.267773,37.42209 -87.267533,37.422219 -87.266594,37.422724 -87.2646,37.423803 -87.264305,37.423962 -87.264112,37.423482 -87.264088,37.423423 -87.2639,37.422773 -87.263698,37.42207 -87.263483,37.421322 -87.263407,37.421064 -87.262494,37.417921 -87.261915,37.416084 -87.261808,37.415793 -87.261297,37.414195 -87.262345,37.413826 -87.262715,37.413695 -87.262685,37.413636 -87.261785,37.412259 -87.261101,37.411173 -87.26101,37.411062 -87.261105,37.411026 -87.261201,37.410987 -87.261295,37.410947 -87.261499,37.410864 -87.261735,37.410773 -87.26186,37.410727 -87.261987,37.410679 -87.262249,37.410578 -87.262373,37.410532 -87.262649,37.410429 -87.2629,37.410339 -87.262989,37.410306 -87.263225,37.410219 -87.263312,37.410185 -87.263447,37.410135 -87.263583,37.410087 -87.264338,37.409832 -87.264696,37.409711 -87.265385,37.410945 -87.264498,37.411241 -87.264737,37.41167 -87.265576,37.411438 -87.26605,37.412399 -87.271324,37.411666 -87.271764,37.411602 -87.272301,37.412706 -87.27344,37.415018 -87.273969,37.416089</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

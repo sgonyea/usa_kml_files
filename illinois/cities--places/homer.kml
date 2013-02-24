@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>homer</name>
+<Schema name="homer" id="homer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Homer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#homer">
+		<SimpleData name="Name">Homer</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">35814</SimpleData>
+		<SimpleData name="PLACENS">02398532</SimpleData>
+		<SimpleData name="GEOID">1735814</SimpleData>
+		<SimpleData name="NAMELSAD">Homer village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2542952</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0329912</SimpleData>
+		<SimpleData name="INTPTLON">-087.9577666</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.97013,40.036908 -87.969098,40.036811 -87.969098,40.036909 -87.969091,40.037572 -87.969094,40.037756 -87.968685,40.037754 -87.968687,40.039567 -87.961887,40.039629 -87.959594,40.039654 -87.958876,40.039659 -87.958912,40.04036 -87.958093,40.040367 -87.957771,40.040386 -87.957778,40.040248 -87.957205,40.040253 -87.957201,40.039686 -87.95335,40.039754 -87.953372,40.042472 -87.952521,40.042487 -87.952531,40.042015 -87.952551,40.039777 -87.948493,40.039841 -87.948492,40.039753 -87.948495,40.039671 -87.948498,40.039458 -87.948496,40.039039 -87.948541,40.035703 -87.948542,40.035654 -87.948543,40.035618 -87.948544,40.035526 -87.948545,40.035488 -87.948544,40.035405 -87.948582,40.032466 -87.948565,40.029669 -87.94854,40.025228 -87.948899,40.025226 -87.957962,40.025134 -87.962695,40.025087 -87.962698,40.025198 -87.96272,40.028698 -87.967641,40.02864 -87.967621,40.028649 -87.967571,40.028684 -87.967556,40.028705 -87.967531,40.028795 -87.967522,40.028896 -87.967524,40.029266 -87.967539,40.029756 -87.967562,40.031198 -87.967551,40.031272 -87.967518,40.031351 -87.967508,40.031362 -87.967526,40.033838 -87.967523,40.036096 -87.968325,40.036005 -87.968643,40.035981 -87.969099,40.035967 -87.969168,40.035967 -87.969223,40.035966 -87.96939,40.035966 -87.969482,40.035965 -87.969639,40.035965 -87.970823,40.03596 -87.97013,40.036908</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

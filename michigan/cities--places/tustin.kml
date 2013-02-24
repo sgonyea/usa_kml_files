@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tustin</name>
+<Schema name="tustin" id="tustin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tustin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tustin">
+		<SimpleData name="Name">Tustin</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">80960</SimpleData>
+		<SimpleData name="PLACENS">02400011</SimpleData>
+		<SimpleData name="GEOID">2680960</SimpleData>
+		<SimpleData name="NAMELSAD">Tustin village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1002709</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.1007241</SimpleData>
+		<SimpleData name="INTPTLON">-085.4587781</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.463817,44.106343 -85.463582,44.106343 -85.462667,44.106342 -85.459925,44.106339 -85.459011,44.106339 -85.458816,44.106339 -85.458234,44.106339 -85.45804,44.10634 -85.457981,44.106339 -85.457945,44.106339 -85.457837,44.106339 -85.457802,44.106339 -85.457376,44.106339 -85.456098,44.106339 -85.455673,44.10634 -85.454577,44.106336 -85.453859,44.106334 -85.453875,44.103767 -85.453882,44.102673 -85.45383,44.102671 -85.453714,44.102666 -85.453672,44.102665 -85.453674,44.101923 -85.453681,44.099697 -85.453684,44.098956 -85.453664,44.097957 -85.453612,44.0952 -85.453851,44.0952 -85.454851,44.0952 -85.455673,44.095189 -85.458138,44.095159 -85.458961,44.09515 -85.460723,44.095146 -85.463809,44.09514 -85.46381,44.097342 -85.463811,44.097461 -85.463811,44.097608 -85.463819,44.099105 -85.463818,44.099838 -85.463816,44.10204 -85.463816,44.102774 -85.463816,44.103534 -85.463816,44.105817 -85.463817,44.106343</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pendleton</name>
+<Schema name="pendleton" id="pendleton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pendleton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pendleton">
+		<SimpleData name="Name">Pendleton</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">56882</SimpleData>
+		<SimpleData name="PLACENS">02399648</SimpleData>
+		<SimpleData name="GEOID">2956882</SimpleData>
+		<SimpleData name="NAMELSAD">Pendleton village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">235246</SimpleData>
+		<SimpleData name="AWATER">2798</SimpleData>
+		<SimpleData name="INTPTLAT">+38.8263281</SimpleData>
+		<SimpleData name="INTPTLON">-091.2316566</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.236683,38.826914 -91.235929,38.827023 -91.235834,38.827115 -91.235699,38.827214 -91.235499,38.827306 -91.235477,38.827315 -91.234312,38.827479 -91.233717,38.827539 -91.233623,38.827549 -91.233189,38.827608 -91.233127,38.827617 -91.232907,38.82767 -91.232887,38.827693 -91.232633,38.827799 -91.230451,38.828065 -91.228278,38.828147 -91.227925,38.825094 -91.235253,38.824586 -91.236429,38.824505 -91.236428,38.825806 -91.236683,38.826914</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

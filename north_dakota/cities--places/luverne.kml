@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>luverne</name>
+<Schema name="luverne" id="luverne">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Luverne</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luverne">
+		<SimpleData name="Name">Luverne</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">48580</SimpleData>
+		<SimpleData name="PLACENS">01036138</SimpleData>
+		<SimpleData name="GEOID">3848580</SimpleData>
+		<SimpleData name="NAMELSAD">Luverne city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">661039</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.2513939</SimpleData>
+		<SimpleData name="INTPTLON">-097.9348767</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.940176,47.250186 -97.940175,47.250832 -97.940175,47.252104 -97.940175,47.252586 -97.940175,47.253316 -97.940205,47.254174 -97.9402,47.255046 -97.939257,47.25505 -97.938964,47.255049 -97.935417,47.255034 -97.934891,47.255091 -97.934459,47.255196 -97.934113,47.255217 -97.931405,47.255213 -97.930321,47.255182 -97.929732,47.255124 -97.929552,47.249975 -97.929522,47.248439 -97.929529,47.248046 -97.929534,47.247724 -97.929812,47.247722 -97.94018,47.247658 -97.940176,47.250186</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

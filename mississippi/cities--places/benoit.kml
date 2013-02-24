@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>benoit</name>
+<Schema name="benoit" id="benoit">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Benoit</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#benoit">
+		<SimpleData name="Name">Benoit</SimpleData>
+		<SimpleData name="STATEFP">28</SimpleData>
+		<SimpleData name="PLACEFP">05220</SimpleData>
+		<SimpleData name="PLACENS">02405241</SimpleData>
+		<SimpleData name="GEOID">2805220</SimpleData>
+		<SimpleData name="NAMELSAD">Benoit town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2523557</SimpleData>
+		<SimpleData name="AWATER">31527</SimpleData>
+		<SimpleData name="INTPTLAT">+33.6515947</SimpleData>
+		<SimpleData name="INTPTLON">-091.0087406</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.017309,33.645813 -91.017303,33.65131 -91.017302,33.652938 -91.0173,33.657279 -91.017303,33.657544 -91.017347,33.658911 -91.015423,33.658912 -91.014753,33.658913 -91.012682,33.65891 -91.007499,33.658912 -91.003848,33.658914 -91.000731,33.658918 -91.000106,33.658917 -91.000106,33.65538 -91.000103,33.650352 -91.000105,33.650142 -91.000105,33.650082 -91.000106,33.64994 -91.000102,33.645854 -91.000129,33.644449 -91.00254,33.644451 -91.00297,33.644443 -91.004098,33.644446 -91.016603,33.644518 -91.017013,33.644533 -91.017353,33.644541 -91.017309,33.645813</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>saltaire</name>
+<Schema name="saltaire" id="saltaire">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Saltaire</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#saltaire">
+		<SimpleData name="Name">Saltaire</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">64881</SimpleData>
+		<SimpleData name="PLACENS">02391114</SimpleData>
+		<SimpleData name="GEOID">3664881</SimpleData>
+		<SimpleData name="NAMELSAD">Saltaire village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">602908</SimpleData>
+		<SimpleData name="AWATER">132675</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6380715</SimpleData>
+		<SimpleData name="INTPTLON">-073.1947175</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.198246,40.64109 -73.194656,40.6431 -73.194447,40.643063 -73.193386,40.642899 -73.191532,40.643109 -73.190618,40.64299 -73.189991,40.641747 -73.18966,40.640958 -73.188907,40.639294 -73.188886,40.639252 -73.188566,40.638595 -73.188503,40.638466 -73.188352,40.638157 -73.187996,40.637411 -73.187835,40.637072 -73.188187,40.636993 -73.188844,40.636874 -73.189498,40.636736 -73.190125,40.636593 -73.190753,40.636423 -73.191391,40.636282 -73.191681,40.63621 -73.192027,40.636124 -73.192648,40.63596 -73.19326,40.635791 -73.193911,40.635645 -73.194542,40.635491 -73.195192,40.635369 -73.195822,40.635161 -73.196502,40.635037 -73.197153,40.634924 -73.197789,40.63476 -73.198435,40.634649 -73.199087,40.634513 -73.199902,40.634282 -73.199911,40.634642 -73.200285,40.635316 -73.201167,40.637447 -73.201861,40.638947 -73.198246,40.64109</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

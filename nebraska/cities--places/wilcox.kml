@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wilcox</name>
+<Schema name="wilcox" id="wilcox">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wilcox</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wilcox">
+		<SimpleData name="Name">Wilcox</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">52995</SimpleData>
+		<SimpleData name="PLACENS">02400169</SimpleData>
+		<SimpleData name="GEOID">3152995</SimpleData>
+		<SimpleData name="NAMELSAD">Wilcox village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1396778</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3641117</SimpleData>
+		<SimpleData name="INTPTLON">-099.1694114</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.179414,40.360492 -99.179412,40.361537 -99.179409,40.362441 -99.179402,40.364928 -99.175044,40.365034 -99.175047,40.365115 -99.175236,40.368966 -99.172123,40.3689 -99.162936,40.368685 -99.162077,40.368678 -99.16126,40.368672 -99.160494,40.368673 -99.160488,40.367768 -99.160486,40.366979 -99.160491,40.366795 -99.160481,40.36641 -99.160464,40.365705 -99.160466,40.364813 -99.160464,40.363286 -99.160462,40.362678 -99.160453,40.361461 -99.160447,40.360238 -99.160501,40.360244 -99.16119,40.360313 -99.167505,40.362257 -99.167777,40.358468 -99.170007,40.358544 -99.171281,40.358588 -99.172462,40.358666 -99.174285,40.358643 -99.1715,40.36012 -99.172109,40.360119 -99.174735,40.360175 -99.179409,40.360224 -99.179414,40.360492</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

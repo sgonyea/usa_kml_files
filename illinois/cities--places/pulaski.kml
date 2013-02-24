@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pulaski</name>
+<Schema name="pulaski" id="pulaski">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pulaski</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pulaski">
+		<SimpleData name="Name">Pulaski</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">62211</SimpleData>
+		<SimpleData name="PLACENS">02399029</SimpleData>
+		<SimpleData name="GEOID">1762211</SimpleData>
+		<SimpleData name="NAMELSAD">Pulaski village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3392381</SimpleData>
+		<SimpleData name="AWATER">14251</SimpleData>
+		<SimpleData name="INTPTLAT">+37.2176266</SimpleData>
+		<SimpleData name="INTPTLON">-089.2071064</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.217178,37.225176 -89.207961,37.225122 -89.204342,37.225113 -89.203015,37.22511 -89.202456,37.22509 -89.202253,37.225618 -89.201366,37.227803 -89.200985,37.228771 -89.200924,37.228926 -89.200824,37.228895 -89.200098,37.228864 -89.198959,37.22881 -89.198958,37.228665 -89.198945,37.228547 -89.198883,37.225071 -89.198873,37.221321 -89.198881,37.219419 -89.198866,37.217612 -89.198852,37.216053 -89.198808,37.211046 -89.198749,37.206813 -89.20498,37.206826 -89.206773,37.206843 -89.210016,37.206868 -89.212395,37.20689 -89.217152,37.206913 -89.217163,37.206975 -89.217208,37.214259 -89.217195,37.222372 -89.217195,37.224247 -89.217178,37.225176</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

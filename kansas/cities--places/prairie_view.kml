@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>prairie_view</name>
+<Schema name="prairie_view" id="prairie_view">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Prairie View</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#prairie_view">
+		<SimpleData name="Name">Prairie View</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">57525</SimpleData>
+		<SimpleData name="PLACENS">02396268</SimpleData>
+		<SimpleData name="GEOID">2057525</SimpleData>
+		<SimpleData name="NAMELSAD">Prairie View city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">380822</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8320340</SimpleData>
+		<SimpleData name="INTPTLON">-099.5733646</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.576063,39.82891 -99.576101,39.831632 -99.576105,39.831933 -99.576118,39.832299 -99.576124,39.833258 -99.576128,39.833574 -99.576153,39.835287 -99.576171,39.835689 -99.57147,39.835708 -99.570969,39.835713 -99.570839,39.833895 -99.570831,39.833808 -99.570783,39.833807 -99.570306,39.833803 -99.570303,39.833728 -99.570244,39.832153 -99.570705,39.832148 -99.570629,39.830264 -99.57061,39.829415 -99.570565,39.828786 -99.570578,39.828713 -99.570608,39.828651 -99.570664,39.828541 -99.570586,39.828513 -99.570516,39.828488 -99.570685,39.828471 -99.574631,39.828315 -99.574928,39.828354 -99.57509,39.828375 -99.575816,39.828448 -99.576072,39.828474 -99.576063,39.82891</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

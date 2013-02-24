@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>coolidge</name>
+<Schema name="coolidge" id="coolidge">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Coolidge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#coolidge">
+		<SimpleData name="Name">Coolidge</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">15400</SimpleData>
+		<SimpleData name="PLACENS">02393627</SimpleData>
+		<SimpleData name="GEOID">2015400</SimpleData>
+		<SimpleData name="NAMELSAD">Coolidge city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1196248</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.0414247</SimpleData>
+		<SimpleData name="INTPTLON">-102.0078189</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.018277,38.040035 -102.018277,38.040054 -102.018265,38.040349 -102.018261,38.040449 -102.018172,38.041772 -102.018158,38.042 -102.018319,38.042031 -102.018343,38.042792 -102.018343,38.044051 -102.01835,38.044808 -102.013443,38.044695 -102.011645,38.044653 -102.010391,38.044625 -102.00894,38.044593 -102.007668,38.04456 -102.000493,38.044602 -101.998831,38.044591 -101.998825,38.042326 -101.998819,38.039882 -101.998816,38.038334 -101.998814,38.037156 -101.998814,38.037016 -101.999286,38.037083 -101.999416,38.037101 -102.000459,38.037191 -102.003443,38.037439 -102.005905,38.037814 -102.009251,38.03837 -102.01099,38.038659 -102.012669,38.038934 -102.018277,38.040035</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

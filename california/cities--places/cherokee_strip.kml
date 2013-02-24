@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cherokee_strip</name>
+<Schema name="cherokee_strip" id="cherokee_strip">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cherokee Strip</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cherokee_strip">
+		<SimpleData name="Name">Cherokee Strip</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">12860</SimpleData>
+		<SimpleData name="PLACENS">02629760</SimpleData>
+		<SimpleData name="GEOID">0612860</SimpleData>
+		<SimpleData name="NAMELSAD">Cherokee Strip CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">234735</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.4695666</SimpleData>
+		<SimpleData name="INTPTLON">-119.2615255</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-119.26318,35.470766 -119.263136,35.47427 -119.260839,35.474279 -119.26087,35.471564 -119.26088,35.470761 -119.259983,35.470758 -119.260013,35.464168 -119.25938,35.464168 -119.259306,35.463961 -119.259335,35.463515 -119.260963,35.463512 -119.260921,35.467153 -119.263122,35.467167 -119.26318,35.470766</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

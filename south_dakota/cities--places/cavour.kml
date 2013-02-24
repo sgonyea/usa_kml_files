@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cavour</name>
+<Schema name="cavour" id="cavour">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cavour</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cavour">
+		<SimpleData name="Name">Cavour</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">10620</SimpleData>
+		<SimpleData name="PLACENS">01267314</SimpleData>
+		<SimpleData name="GEOID">4610620</SimpleData>
+		<SimpleData name="NAMELSAD">Cavour town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1062529</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.3693293</SimpleData>
+		<SimpleData name="INTPTLON">-098.0420956</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.053921,44.367989 -98.053931,44.369564 -98.053915,44.369639 -98.053838,44.36984 -98.053813,44.369835 -98.051736,44.369841 -98.048246,44.369797 -98.043594,44.369726 -98.043659,44.373055 -98.0411,44.373057 -98.041102,44.376659 -98.038458,44.376586 -98.038564,44.375906 -98.03862,44.373081 -98.038608,44.372997 -98.037812,44.372928 -98.034308,44.372894 -98.034029,44.372888 -98.033553,44.372883 -98.033554,44.372272 -98.03356,44.371712 -98.033566,44.371226 -98.033578,44.370023 -98.033583,44.368795 -98.033584,44.368449 -98.033585,44.368295 -98.033586,44.367977 -98.033594,44.366316 -98.033598,44.365897 -98.053828,44.365941 -98.053945,44.365946 -98.053921,44.367989</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

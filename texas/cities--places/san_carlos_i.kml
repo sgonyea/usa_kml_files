@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>san_carlos_i</name>
+<Schema name="san_carlos_i" id="san_carlos_i">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>San Carlos I</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#san_carlos_i">
+		<SimpleData name="Name">San Carlos I</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">65049</SimpleData>
+		<SimpleData name="PLACENS">02584731</SimpleData>
+		<SimpleData name="GEOID">4865049</SimpleData>
+		<SimpleData name="NAMELSAD">San Carlos I CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">337772</SimpleData>
+		<SimpleData name="AWATER">2962</SimpleData>
+		<SimpleData name="INTPTLAT">+27.4894888</SimpleData>
+		<SimpleData name="INTPTLON">-099.3729265</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.374934,27.496421 -99.37492,27.496567 -99.374901,27.496629 -99.371096,27.495203 -99.370944,27.486141 -99.371022,27.486141 -99.370928,27.485079 -99.371155,27.485077 -99.372355,27.485068 -99.373837,27.485058 -99.373849,27.485555 -99.373907,27.488129 -99.373914,27.488425 -99.373915,27.488466 -99.373924,27.489222 -99.373952,27.489997 -99.373966,27.491437 -99.373975,27.492036 -99.373985,27.492438 -99.373996,27.492916 -99.374017,27.493482 -99.37403,27.494579 -99.373681,27.494584 -99.373722,27.495739 -99.374105,27.495884 -99.374106,27.496094 -99.374934,27.496421</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

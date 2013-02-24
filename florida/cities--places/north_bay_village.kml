@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>north_bay_village</name>
+<Schema name="north_bay_village" id="north_bay_village">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>North Bay Village</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#north_bay_village">
+		<SimpleData name="Name">North Bay Village</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">49225</SimpleData>
+		<SimpleData name="PLACENS">02404390</SimpleData>
+		<SimpleData name="GEOID">1249225</SimpleData>
+		<SimpleData name="NAMELSAD">North Bay Village city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">957593</SimpleData>
+		<SimpleData name="AWATER">1155021</SimpleData>
+		<SimpleData name="INTPTLAT">+25.8491293</SimpleData>
+		<SimpleData name="INTPTLON">-080.1510286</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.153368,25.856073 -80.148968,25.852573 -80.148508,25.852174 -80.14508,25.84926 -80.144662,25.848829 -80.143452,25.847583 -80.143224,25.844214 -80.143168,25.843374 -80.150634,25.843031 -80.151868,25.842974 -80.158872,25.842827 -80.160935,25.842783 -80.161107,25.848432 -80.161271,25.853814 -80.16138,25.855786 -80.153368,25.856073</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

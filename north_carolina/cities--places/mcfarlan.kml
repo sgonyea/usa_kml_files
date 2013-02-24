@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mcfarlan</name>
+<Schema name="mcfarlan" id="mcfarlan">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>McFarlan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mcfarlan">
+		<SimpleData name="Name">McFarlan</SimpleData>
+		<SimpleData name="STATEFP">37</SimpleData>
+		<SimpleData name="PLACEFP">40240</SimpleData>
+		<SimpleData name="PLACENS">02406130</SimpleData>
+		<SimpleData name="GEOID">3740240</SimpleData>
+		<SimpleData name="NAMELSAD">McFarlan town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2382280</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.8148156</SimpleData>
+		<SimpleData name="INTPTLON">-079.9766257</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.984721,34.821989 -79.981396,34.821924 -79.979919,34.821895 -79.977478,34.821976 -79.977335,34.822012 -79.976906,34.822083 -79.976365,34.822027 -79.970865,34.821706 -79.970281,34.821781 -79.970215,34.82178 -79.968252,34.821766 -79.968011,34.821765 -79.968039,34.821353 -79.968144,34.819246 -79.96846,34.812926 -79.968566,34.81082 -79.968896,34.807476 -79.970887,34.807554 -79.972551,34.807575 -79.97353,34.807583 -79.984739,34.807866 -79.984809,34.807867 -79.985019,34.807873 -79.98509,34.807875 -79.985077,34.808258 -79.985041,34.809408 -79.985029,34.809792 -79.984999,34.810744 -79.984912,34.813603 -79.984884,34.814556 -79.98487,34.8152 -79.984829,34.817135 -79.984816,34.81778 -79.984721,34.821989</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

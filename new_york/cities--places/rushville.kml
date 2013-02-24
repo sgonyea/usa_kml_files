@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rushville</name>
+<Schema name="rushville" id="rushville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rushville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rushville">
+		<SimpleData name="Name">Rushville</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">64199</SimpleData>
+		<SimpleData name="PLACENS">02391105</SimpleData>
+		<SimpleData name="GEOID">3664199</SimpleData>
+		<SimpleData name="NAMELSAD">Rushville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1655814</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.7606872</SimpleData>
+		<SimpleData name="INTPTLON">-077.2273936</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.234262,42.767583 -77.231202,42.76756 -77.228887,42.767544 -77.228159,42.767559 -77.225975,42.767603 -77.225248,42.767619 -77.224265,42.767588 -77.221316,42.767495 -77.220859,42.767481 -77.220848,42.766956 -77.220847,42.766827 -77.220845,42.76644 -77.220845,42.766311 -77.220844,42.765829 -77.220844,42.764384 -77.220844,42.763903 -77.220842,42.763399 -77.220836,42.761887 -77.220834,42.761384 -77.220832,42.760935 -77.220829,42.759589 -77.220829,42.759141 -77.220828,42.758908 -77.220826,42.758212 -77.220826,42.75798 -77.220795,42.755921 -77.220772,42.754344 -77.223301,42.754266 -77.223309,42.752198 -77.223314,42.750931 -77.224099,42.750836 -77.224686,42.750773 -77.224709,42.75284 -77.224724,42.754188 -77.23135,42.754189 -77.234008,42.75419 -77.23402,42.755041 -77.234056,42.757594 -77.234069,42.758447 -77.234073,42.758621 -77.234085,42.759142 -77.234089,42.759317 -77.23409,42.759561 -77.234093,42.760298 -77.234094,42.760544 -77.234094,42.760566 -77.234094,42.760639 -77.234095,42.760663 -77.234095,42.760807 -77.234096,42.761238 -77.234097,42.761384 -77.234158,42.763698 -77.234262,42.767583</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

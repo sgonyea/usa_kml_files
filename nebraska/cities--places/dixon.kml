@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dixon</name>
+<Schema name="dixon" id="dixon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dixon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dixon">
+		<SimpleData name="Name">Dixon</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">13225</SimpleData>
+		<SimpleData name="PLACENS">02398732</SimpleData>
+		<SimpleData name="GEOID">3113225</SimpleData>
+		<SimpleData name="NAMELSAD">Dixon village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">392969</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.4154076</SimpleData>
+		<SimpleData name="INTPTLON">-096.9948334</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.998373,42.413194 -96.998373,42.414596 -96.998373,42.414806 -96.998373,42.415019 -96.998373,42.415537 -96.998373,42.415702 -96.998372,42.416095 -96.998384,42.419407 -96.99838,42.420371 -96.997046,42.420369 -96.997048,42.420042 -96.99705,42.419742 -96.997054,42.419398 -96.996992,42.419387 -96.996958,42.419367 -96.995615,42.419375 -96.995613,42.418336 -96.995583,42.418327 -96.995522,42.418279 -96.99548,42.418223 -96.995471,42.418125 -96.995479,42.417866 -96.995479,42.417306 -96.990998,42.417306 -96.991008,42.41681 -96.991011,42.416472 -96.991064,42.41349 -96.991073,42.412951 -96.991115,42.410591 -96.991215,42.410588 -96.992805,42.410597 -96.992835,42.412942 -96.995948,42.412995 -96.998373,42.41305 -96.998373,42.413194</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>maloy</name>
+<Schema name="maloy" id="maloy">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Maloy</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#maloy">
+		<SimpleData name="Name">Maloy</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">48675</SimpleData>
+		<SimpleData name="PLACENS">02395824</SimpleData>
+		<SimpleData name="GEOID">1948675</SimpleData>
+		<SimpleData name="NAMELSAD">Maloy city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1594317</SimpleData>
+		<SimpleData name="AWATER">11439</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6706354</SimpleData>
+		<SimpleData name="INTPTLON">-094.4095504</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.419128,40.668651 -94.419003,40.675759 -94.418955,40.679184 -94.415908,40.679169 -94.415813,40.679169 -94.415725,40.679171 -94.405556,40.679313 -94.404728,40.679323 -94.404778,40.675517 -94.404709,40.674614 -94.404773,40.668189 -94.409918,40.668137 -94.409846,40.665629 -94.412079,40.665599 -94.414726,40.665563 -94.414693,40.666727 -94.41468,40.667172 -94.414677,40.667295 -94.41462,40.667985 -94.414612,40.668045 -94.415232,40.668053 -94.415928,40.668059 -94.418133,40.668061 -94.419136,40.668059 -94.419128,40.668651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

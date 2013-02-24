@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wynot</name>
+<Schema name="wynot" id="wynot">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wynot</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wynot">
+		<SimpleData name="Name">Wynot</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">53905</SimpleData>
+		<SimpleData name="PLACENS">02399747</SimpleData>
+		<SimpleData name="GEOID">3153905</SimpleData>
+		<SimpleData name="NAMELSAD">Wynot village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">475273</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.7398014</SimpleData>
+		<SimpleData name="INTPTLON">-097.1697370</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.174102,42.738079 -97.172773,42.738125 -97.172781,42.738309 -97.172792,42.738812 -97.174147,42.738781 -97.174139,42.73934 -97.172803,42.739334 -97.172836,42.74018 -97.172873,42.741194 -97.172874,42.741226 -97.172884,42.741628 -97.172901,42.742181 -97.172942,42.743209 -97.172966,42.743963 -97.171755,42.74396 -97.170904,42.744029 -97.170771,42.744003 -97.170577,42.744024 -97.167867,42.744018 -97.168012,42.74222 -97.166876,42.742233 -97.166596,42.742231 -97.166318,42.742228 -97.166208,42.74222 -97.166139,42.742185 -97.166108,42.742104 -97.166098,42.74194 -97.166105,42.741892 -97.16612,42.741785 -97.166118,42.741113 -97.166117,42.741094 -97.166095,42.740402 -97.165951,42.740212 -97.165943,42.739323 -97.165918,42.736547 -97.166088,42.736506 -97.166283,42.736463 -97.166883,42.736333 -97.167213,42.736258 -97.16893,42.736081 -97.172705,42.735792 -97.172732,42.737241 -97.172745,42.737521 -97.174095,42.737495 -97.174102,42.738079</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

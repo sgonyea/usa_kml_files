@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>kenyon</name>
+<Schema name="kenyon" id="kenyon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Kenyon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#kenyon">
+		<SimpleData name="Name">Kenyon</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">32840</SimpleData>
+		<SimpleData name="PLACENS">02395515</SimpleData>
+		<SimpleData name="GEOID">2732840</SimpleData>
+		<SimpleData name="NAMELSAD">Kenyon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">6047380</SimpleData>
+		<SimpleData name="AWATER">30399</SimpleData>
+		<SimpleData name="INTPTLAT">+44.2725511</SimpleData>
+		<SimpleData name="INTPTLON">-092.9864002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.005616,44.266895 -93.000525,44.268745 -93.00046,44.271929 -93.000434,44.272665 -93.000412,44.27437 -93.000363,44.276258 -93.000308,44.278418 -93.000249,44.280668 -93.00017,44.283747 -92.99953,44.283783 -92.989169,44.283681 -92.980731,44.283688 -92.979591,44.283706 -92.977289,44.283703 -92.970013,44.283694 -92.969963,44.281357 -92.970092,44.277921 -92.970247,44.269545 -92.970267,44.267899 -92.97036,44.263442 -92.970407,44.262572 -92.970378,44.262088 -92.970991,44.262085 -92.975858,44.262055 -92.980406,44.262121 -92.98205,44.26213 -92.984857,44.262136 -92.984966,44.262138 -92.985439,44.262147 -92.995535,44.261886 -92.996574,44.261882 -93.000204,44.261917 -93.000658,44.261952 -93.005639,44.261942 -93.005616,44.266895</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

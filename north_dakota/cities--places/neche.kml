@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>neche</name>
+<Schema name="neche" id="neche">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Neche</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#neche">
+		<SimpleData name="Name">Neche</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">55620</SimpleData>
+		<SimpleData name="PLACENS">01036176</SimpleData>
+		<SimpleData name="GEOID">3855620</SimpleData>
+		<SimpleData name="NAMELSAD">Neche city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">905730</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.9830367</SimpleData>
+		<SimpleData name="INTPTLON">-097.5516273</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.557233,48.979309 -97.557233,48.980015 -97.557233,48.980277 -97.557225,48.980899 -97.557218,48.980999 -97.557218,48.982345 -97.557218,48.982911 -97.557218,48.983623 -97.557218,48.985336 -97.55721,48.986381 -97.557205,48.987415 -97.557204,48.987793 -97.557202,48.988197 -97.556096,48.988172 -97.555472,48.988171 -97.554604,48.988125 -97.553225,48.988109 -97.551833,48.988087 -97.55086,48.988059 -97.550087,48.988006 -97.546447,48.987944 -97.546191,48.98561 -97.545873,48.980682 -97.545808,48.979675 -97.545781,48.979255 -97.545709,48.978164 -97.545732,48.978081 -97.546144,48.978046 -97.546559,48.978031 -97.547086,48.977993 -97.547435,48.977968 -97.54764,48.977977 -97.548863,48.978029 -97.551816,48.978157 -97.555185,48.978186 -97.556045,48.978206 -97.557069,48.978243 -97.557233,48.978076 -97.557233,48.979309</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lyons</name>
+<Schema name="lyons" id="lyons">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lyons</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lyons">
+		<SimpleData name="Name">Lyons</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">45752</SimpleData>
+		<SimpleData name="PLACENS">01214921</SimpleData>
+		<SimpleData name="GEOID">4245752</SimpleData>
+		<SimpleData name="NAMELSAD">Lyons borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">921388</SimpleData>
+		<SimpleData name="AWATER">1293</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4805775</SimpleData>
+		<SimpleData name="INTPTLON">-075.7589483</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.759588,40.484584 -75.758779,40.484845 -75.75573,40.485772 -75.754738,40.484395 -75.754175,40.483348 -75.753452,40.482308 -75.752201,40.480206 -75.751415,40.478895 -75.751213,40.478556 -75.756083,40.476878 -75.756966,40.476573 -75.759725,40.475622 -75.762971,40.477664 -75.763308,40.477876 -75.764395,40.478561 -75.765329,40.47915 -75.768776,40.481317 -75.769226,40.481599 -75.759588,40.484584</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

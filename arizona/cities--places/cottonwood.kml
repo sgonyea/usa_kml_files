@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cottonwood</name>
+<Schema name="cottonwood" id="cottonwood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cottonwood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cottonwood">
+		<SimpleData name="Name">Cottonwood</SimpleData>
+		<SimpleData name="STATEFP">04</SimpleData>
+		<SimpleData name="PLACEFP">16360</SimpleData>
+		<SimpleData name="PLACENS">02582764</SimpleData>
+		<SimpleData name="GEOID">0416360</SimpleData>
+		<SimpleData name="NAMELSAD">Cottonwood CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">370844</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.0723828</SimpleData>
+		<SimpleData name="INTPTLON">-109.8902362</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-109.896014,36.071619 -109.895885,36.071717 -109.895284,36.072091 -109.89493,36.072312 -109.894451,36.072692 -109.894158,36.072925 -109.893871,36.073218 -109.893357,36.073744 -109.892596,36.074566 -109.892399,36.074778 -109.891469,36.075694 -109.8914,36.07577 -109.891185,36.07601 -109.888927,36.074611 -109.888408,36.074265 -109.887234,36.073481 -109.886931,36.073279 -109.886749,36.07316 -109.886488,36.072989 -109.885985,36.07268 -109.885279,36.072248 -109.884529,36.071825 -109.884664,36.071725 -109.884726,36.071696 -109.884712,36.071618 -109.884691,36.071566 -109.8847,36.07149 -109.884737,36.071404 -109.885021,36.071058 -109.885029,36.071002 -109.885016,36.070918 -109.884949,36.070787 -109.885059,36.070852 -109.885165,36.070943 -109.885211,36.071019 -109.886229,36.070633 -109.887473,36.070167 -109.888533,36.070072 -109.888565,36.069985 -109.88863,36.069925 -109.888764,36.069927 -109.888959,36.069975 -109.889022,36.069994 -109.889243,36.07006 -109.889365,36.070096 -109.889811,36.07021 -109.890018,36.070335 -109.890098,36.070412 -109.89014,36.070407 -109.892437,36.070179 -109.892334,36.070255 -109.892781,36.07027 -109.893656,36.070641 -109.89443,36.070923 -109.895029,36.071186 -109.896014,36.071619</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>doland</name>
+<Schema name="doland" id="doland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Doland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#doland">
+		<SimpleData name="Name">Doland</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">16820</SimpleData>
+		<SimpleData name="PLACENS">01267355</SimpleData>
+		<SimpleData name="GEOID">4616820</SimpleData>
+		<SimpleData name="NAMELSAD">Doland city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1523297</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.8944925</SimpleData>
+		<SimpleData name="INTPTLON">-098.0998503</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.109153,44.893859 -98.109051,44.899677 -98.105148,44.899607 -98.103418,44.899594 -98.102884,44.899588 -98.100964,44.899582 -98.091764,44.899449 -98.091761,44.895692 -98.091756,44.894533 -98.089575,44.894483 -98.089589,44.892982 -98.091774,44.89297 -98.09178,44.892797 -98.091784,44.892625 -98.092404,44.892615 -98.092344,44.888906 -98.097152,44.889064 -98.098564,44.889115 -98.098564,44.889032 -98.098567,44.888786 -98.098567,44.888621 -98.09857,44.888374 -98.09857,44.88821 -98.098572,44.888003 -98.10106,44.888039 -98.10106,44.889138 -98.101865,44.889146 -98.105995,44.889185 -98.105994,44.892971 -98.108424,44.892994 -98.10854,44.892996 -98.108723,44.892997 -98.109166,44.893003 -98.109153,44.893859</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

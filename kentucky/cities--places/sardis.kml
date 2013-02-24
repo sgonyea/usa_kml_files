@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sardis</name>
+<Schema name="sardis" id="sardis">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sardis</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sardis">
+		<SimpleData name="Name">Sardis</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">68646</SimpleData>
+		<SimpleData name="PLACENS">02405424</SimpleData>
+		<SimpleData name="GEOID">2168646</SimpleData>
+		<SimpleData name="NAMELSAD">Sardis city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2586355</SimpleData>
+		<SimpleData name="AWATER">3579</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5333347</SimpleData>
+		<SimpleData name="INTPTLON">-083.9526955</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.967865,38.538602 -83.966791,38.539055 -83.965949,38.53941 -83.964406,38.540059 -83.962237,38.540951 -83.962185,38.540973 -83.961979,38.541057 -83.961607,38.54121 -83.953491,38.544598 -83.95214,38.542591 -83.952113,38.542507 -83.950116,38.539604 -83.949199,38.538247 -83.946683,38.534512 -83.944843,38.531789 -83.947126,38.530834 -83.952342,38.528671 -83.953218,38.528301 -83.956954,38.526741 -83.958911,38.525929 -83.959262,38.525792 -83.959689,38.525606 -83.961149,38.524997 -83.965479,38.531408 -83.966015,38.532188 -83.967546,38.534449 -83.969486,38.53734 -83.969798,38.537804 -83.967865,38.538602</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

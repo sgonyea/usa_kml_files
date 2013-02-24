@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>amaya</name>
+<Schema name="amaya" id="amaya">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Amaya</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amaya">
+		<SimpleData name="Name">Amaya</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">03008</SimpleData>
+		<SimpleData name="PLACENS">02586908</SimpleData>
+		<SimpleData name="GEOID">4803008</SimpleData>
+		<SimpleData name="NAMELSAD">Amaya CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">594086</SimpleData>
+		<SimpleData name="AWATER">1192</SimpleData>
+		<SimpleData name="INTPTLAT">+28.7138478</SimpleData>
+		<SimpleData name="INTPTLON">-099.8358343</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.838778,28.71814 -99.838695,28.718191 -99.838552,28.718263 -99.838465,28.718334 -99.837816,28.718807 -99.837591,28.718901 -99.837298,28.719083 -99.837169,28.719169 -99.836873,28.719369 -99.836636,28.719479 -99.836249,28.719732 -99.836087,28.719808 -99.83593,28.719406 -99.835393,28.718049 -99.835137,28.717368 -99.834909,28.716722 -99.834369,28.715431 -99.834165,28.714912 -99.834062,28.714633 -99.833715,28.713771 -99.833353,28.712845 -99.832867,28.711581 -99.832273,28.710093 -99.83181,28.708915 -99.831594,28.708385 -99.831291,28.707558 -99.831236,28.70742 -99.831012,28.70686 -99.831991,28.706606 -99.832213,28.706548 -99.832302,28.706526 -99.83239,28.706503 -99.832689,28.706429 -99.832978,28.70635 -99.833275,28.706273 -99.835998,28.705567 -99.836719,28.708743 -99.83739,28.711821 -99.837472,28.712225 -99.837667,28.71307 -99.838176,28.715385 -99.838325,28.71607 -99.838778,28.71814</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

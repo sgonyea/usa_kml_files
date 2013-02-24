@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>casselman</name>
+<Schema name="casselman" id="casselman">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Casselman</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#casselman">
+		<SimpleData name="Name">Casselman</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">11624</SimpleData>
+		<SimpleData name="PLACENS">01215584</SimpleData>
+		<SimpleData name="GEOID">4211624</SimpleData>
+		<SimpleData name="NAMELSAD">Casselman borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">520723</SimpleData>
+		<SimpleData name="AWATER">1494</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8854071</SimpleData>
+		<SimpleData name="INTPTLON">-079.2106505</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.21605,39.887432 -79.215222,39.887585 -79.214931,39.887638 -79.214617,39.887711 -79.214204,39.887751 -79.207673,39.88884 -79.207469,39.888704 -79.206168,39.887837 -79.205495,39.887385 -79.205292,39.887251 -79.205283,39.887224 -79.205106,39.886572 -79.205081,39.886491 -79.205069,39.886451 -79.205088,39.886243 -79.205096,39.88616 -79.20518,39.885732 -79.205914,39.884726 -79.206548,39.884117 -79.206734,39.883939 -79.208054,39.883137 -79.209059,39.882855 -79.209787,39.882808 -79.212618,39.883085 -79.213868,39.88326 -79.214808,39.883392 -79.215195,39.88335 -79.216321,39.883229 -79.216606,39.884222 -79.216627,39.88429 -79.216637,39.884331 -79.216646,39.884364 -79.21665,39.884379 -79.216817,39.884971 -79.216981,39.885555 -79.217437,39.887177 -79.21605,39.887432</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

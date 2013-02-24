@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>callender</name>
+<Schema name="callender" id="callender">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Callender</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#callender">
+		<SimpleData name="Name">Callender</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">09955</SimpleData>
+		<SimpleData name="PLACENS">02393498</SimpleData>
+		<SimpleData name="GEOID">1909955</SimpleData>
+		<SimpleData name="NAMELSAD">Callender city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1356287</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.3616110</SimpleData>
+		<SimpleData name="INTPTLON">-094.2955132</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.300655,42.357722 -94.300653,42.357972 -94.300652,42.358228 -94.300648,42.359276 -94.300654,42.361239 -94.300654,42.361281 -94.300654,42.361496 -94.300632,42.361598 -94.30065,42.361791 -94.300557,42.363661 -94.300434,42.367732 -94.300404,42.369038 -94.295409,42.368944 -94.290834,42.368822 -94.290523,42.368814 -94.29059,42.362458 -94.289745,42.362485 -94.288418,42.362439 -94.288286,42.362431 -94.288286,42.36158 -94.288286,42.361477 -94.290117,42.361528 -94.290581,42.361542 -94.290688,42.35881 -94.290661,42.354253 -94.300671,42.354345 -94.300655,42.357722</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

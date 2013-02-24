@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>golden_valley</name>
+<Schema name="golden_valley" id="golden_valley">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Golden Valley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#golden_valley">
+		<SimpleData name="Name">Golden Valley</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">31180</SimpleData>
+		<SimpleData name="PLACENS">01036059</SimpleData>
+		<SimpleData name="GEOID">3831180</SimpleData>
+		<SimpleData name="NAMELSAD">Golden Valley city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1895657</SimpleData>
+		<SimpleData name="AWATER">2835</SimpleData>
+		<SimpleData name="INTPTLAT">+47.2902640</SimpleData>
+		<SimpleData name="INTPTLON">-102.0653002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.075773,47.288831 -102.075804,47.289938 -102.075968,47.295725 -102.070686,47.295615 -102.069981,47.295608 -102.06848,47.295586 -102.060109,47.295478 -102.055548,47.29549 -102.054965,47.289075 -102.054774,47.287328 -102.05477,47.286781 -102.054976,47.285185 -102.055017,47.284755 -102.056056,47.284764 -102.056259,47.284644 -102.059925,47.284615 -102.061535,47.284679 -102.070818,47.284647 -102.071272,47.284754 -102.071304,47.28475 -102.071711,47.284727 -102.072975,47.284732 -102.075814,47.284742 -102.075773,47.288831</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

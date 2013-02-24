@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sanborn</name>
+<Schema name="sanborn" id="sanborn">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sanborn</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sanborn">
+		<SimpleData name="Name">Sanborn</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">58306</SimpleData>
+		<SimpleData name="PLACENS">02396531</SimpleData>
+		<SimpleData name="GEOID">2758306</SimpleData>
+		<SimpleData name="NAMELSAD">Sanborn city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5391132</SimpleData>
+		<SimpleData name="AWATER">136573</SimpleData>
+		<SimpleData name="INTPTLAT">+44.2091968</SimpleData>
+		<SimpleData name="INTPTLON">-095.1298043</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.148988,44.210517 -95.148982,44.210636 -95.148976,44.210738 -95.148942,44.211313 -95.148938,44.211386 -95.148929,44.211504 -95.148807,44.213134 -95.148833,44.213328 -95.148867,44.213583 -95.148689,44.213597 -95.14793,44.213655 -95.147816,44.213664 -95.147703,44.213672 -95.147475,44.21367 -95.143422,44.213628 -95.138654,44.21347 -95.13861,44.214113 -95.13861,44.214459 -95.138277,44.224126 -95.137551,44.224124 -95.130535,44.224118 -95.12855,44.224103 -95.124833,44.224077 -95.123403,44.224079 -95.12113,44.224076 -95.118491,44.22406 -95.118664,44.215375 -95.118579,44.210144 -95.118545,44.20933 -95.118615,44.202103 -95.11862,44.201568 -95.118626,44.201034 -95.118679,44.195583 -95.118682,44.195278 -95.118716,44.195278 -95.118767,44.195278 -95.118818,44.195278 -95.118852,44.195279 -95.119328,44.195277 -95.120757,44.195275 -95.121234,44.195274 -95.121524,44.195266 -95.122397,44.195263 -95.122688,44.195262 -95.123945,44.195261 -95.125009,44.195261 -95.126152,44.195268 -95.127718,44.195267 -95.128761,44.195267 -95.128976,44.19527 -95.129083,44.195271 -95.129407,44.195274 -95.129515,44.195276 -95.129771,44.195276 -95.130539,44.195279 -95.130795,44.19528 -95.131578,44.195281 -95.137566,44.195277 -95.138059,44.195283 -95.139276,44.195294 -95.139925,44.195302 -95.139362,44.197738 -95.138849,44.207372 -95.138841,44.207513 -95.138837,44.207645 -95.138773,44.209727 -95.141371,44.209761 -95.14143,44.209761 -95.141744,44.209762 -95.141954,44.209762 -95.14464,44.209766 -95.148154,44.209791 -95.149024,44.209794 -95.148988,44.210517</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

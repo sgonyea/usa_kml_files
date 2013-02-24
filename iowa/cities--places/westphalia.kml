@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>westphalia</name>
+<Schema name="westphalia" id="westphalia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Westphalia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#westphalia">
+		<SimpleData name="Name">Westphalia</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">84540</SimpleData>
+		<SimpleData name="PLACENS">02397283</SimpleData>
+		<SimpleData name="GEOID">1984540</SimpleData>
+		<SimpleData name="NAMELSAD">Westphalia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">247308</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7192516</SimpleData>
+		<SimpleData name="INTPTLON">-095.3936652</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.392578,41.71805 -95.387765,41.718029 -95.387678,41.716457 -95.392561,41.716528 -95.392578,41.71805</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.397482,41.718397 -95.39749,41.718866 -95.397503,41.719659 -95.397517,41.720583 -95.397565,41.720762 -95.397572,41.720943 -95.397592,41.721232 -95.397615,41.721372 -95.397673,41.721479 -95.39773,41.721572 -95.397698,41.721745 -95.395571,41.722004 -95.394309,41.722044 -95.393732,41.722057 -95.393417,41.722063 -95.39267,41.72201 -95.392613,41.720457 -95.392592,41.719623 -95.392576,41.718986 -95.392577,41.718751 -95.392578,41.71805 -95.395046,41.718063 -95.396281,41.718072 -95.397484,41.718086 -95.397482,41.718397</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

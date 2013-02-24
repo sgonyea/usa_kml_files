@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>randlett</name>
+<Schema name="randlett" id="randlett">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Randlett</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#randlett">
+		<SimpleData name="Name">Randlett</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">61850</SimpleData>
+		<SimpleData name="PLACENS">02412527</SimpleData>
+		<SimpleData name="GEOID">4061850</SimpleData>
+		<SimpleData name="NAMELSAD">Randlett town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1625044</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.1773470</SimpleData>
+		<SimpleData name="INTPTLON">-098.4639207</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.474852,34.176294 -98.474848,34.177281 -98.474829,34.180377 -98.474815,34.180985 -98.470457,34.181007 -98.468867,34.180999 -98.467073,34.18099 -98.4624,34.180966 -98.452986,34.180982 -98.452991,34.179289 -98.452987,34.178436 -98.452986,34.177323 -98.452987,34.176487 -98.452999,34.175881 -98.452981,34.173694 -98.453262,34.173692 -98.453523,34.173696 -98.454224,34.173705 -98.455451,34.173708 -98.456695,34.173701 -98.457544,34.173703 -98.458998,34.173707 -98.45985,34.173714 -98.460172,34.173717 -98.460682,34.173713 -98.461288,34.173709 -98.462297,34.173717 -98.462361,34.173717 -98.463703,34.173724 -98.463971,34.173722 -98.464726,34.173718 -98.466066,34.173721 -98.468849,34.173716 -98.470452,34.173718 -98.47205,34.17372 -98.473693,34.173716 -98.474873,34.173711 -98.474852,34.176294</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

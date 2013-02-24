@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>virden</name>
+<Schema name="virden" id="virden">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Virden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#virden">
+		<SimpleData name="Name">Virden</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">83200</SimpleData>
+		<SimpleData name="PLACENS">02413597</SimpleData>
+		<SimpleData name="GEOID">3583200</SimpleData>
+		<SimpleData name="NAMELSAD">Virden village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">578023</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.6889257</SimpleData>
+		<SimpleData name="INTPTLON">-109.0015030</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-109.00957,32.690267 -109.009603,32.691392 -109.003124,32.691398 -109.003056,32.691398 -109.002955,32.691401 -109.000615,32.691445 -108.99636,32.691459 -108.996356,32.690824 -108.996361,32.688383 -108.996368,32.686537 -108.996347,32.685326 -109.000616,32.685654 -109.001449,32.685654 -109.003626,32.685651 -109.003529,32.687595 -109.003426,32.687783 -109.003426,32.687852 -109.003429,32.688187 -109.003495,32.688789 -109.003661,32.689095 -109.005609,32.689207 -109.005886,32.689202 -109.009632,32.689211 -109.00957,32.690267</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

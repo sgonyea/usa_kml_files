@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>castalia</name>
+<Schema name="castalia" id="castalia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Castalia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#castalia">
+		<SimpleData name="Name">Castalia</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">11485</SimpleData>
+		<SimpleData name="PLACENS">02393770</SimpleData>
+		<SimpleData name="GEOID">1911485</SimpleData>
+		<SimpleData name="NAMELSAD">Castalia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1506421</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.1128048</SimpleData>
+		<SimpleData name="INTPTLON">-091.6769622</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.684591,43.109446 -91.684454,43.1146 -91.684434,43.116099 -91.68443,43.116462 -91.684383,43.118336 -91.682909,43.118334 -91.679492,43.11831 -91.678409,43.118311 -91.673976,43.118341 -91.67132,43.118315 -91.669684,43.118298 -91.669727,43.114792 -91.668256,43.114792 -91.667016,43.114036 -91.666945,43.113544 -91.667043,43.11342 -91.669727,43.113449 -91.669772,43.111496 -91.669822,43.108073 -91.669893,43.107251 -91.670234,43.10722 -91.671938,43.10722 -91.674395,43.10726 -91.683133,43.107257 -91.684656,43.107258 -91.684591,43.109446</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

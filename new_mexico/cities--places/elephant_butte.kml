@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elephant_butte</name>
+<Schema name="elephant_butte" id="elephant_butte">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elephant Butte</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elephant_butte">
+		<SimpleData name="Name">Elephant Butte</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">22720</SimpleData>
+		<SimpleData name="PLACENS">02410420</SimpleData>
+		<SimpleData name="GEOID">3522720</SimpleData>
+		<SimpleData name="NAMELSAD">Elephant Butte city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">11134599</SimpleData>
+		<SimpleData name="AWATER">26291</SimpleData>
+		<SimpleData name="INTPTLAT">+33.1824269</SimpleData>
+		<SimpleData name="INTPTLON">-107.2215656</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-107.243153,33.160018 -107.243144,33.160253 -107.243139,33.160407 -107.243109,33.16039 -107.243058,33.160361 -107.243048,33.160355 -107.241787,33.161386 -107.239475,33.163252 -107.23909,33.163591 -107.238827,33.163873 -107.238544,33.164277 -107.238429,33.164497 -107.238243,33.164872 -107.238058,33.165441 -107.238006,33.165884 -107.237993,33.166389 -107.238069,33.166856 -107.238567,33.169267 -107.239332,33.172823 -107.239356,33.17292 -107.239523,33.173766 -107.239691,33.174602 -107.240069,33.176053 -107.241833,33.18042 -107.242162,33.181267 -107.242595,33.182338 -107.242776,33.182811 -107.243252,33.183973 -107.244392,33.186801 -107.244203,33.186808 -107.23509,33.186779 -107.231557,33.186773 -107.231924,33.198794 -107.232013,33.200564 -107.232203,33.209007 -107.224644,33.208927 -107.216451,33.208838 -107.215781,33.20883 -107.215778,33.208585 -107.215895,33.207053 -107.21569,33.202173 -107.215509,33.187739 -107.215508,33.18572 -107.215401,33.183633 -107.21569,33.164608 -107.215792,33.162802 -107.21574,33.160021 -107.2177,33.159668 -107.221488,33.15898 -107.222326,33.158822 -107.225136,33.158313 -107.225696,33.158251 -107.230933,33.157322 -107.231071,33.15739 -107.232764,33.157412 -107.234551,33.157406 -107.234831,33.157406 -107.236383,33.15747 -107.23833,33.157508 -107.242441,33.157586 -107.243246,33.157601 -107.243153,33.160018</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

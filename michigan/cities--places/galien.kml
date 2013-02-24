@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>galien</name>
+<Schema name="galien" id="galien">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Galien</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#galien">
+		<SimpleData name="Name">Galien</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">31300</SimpleData>
+		<SimpleData name="PLACENS">02398938</SimpleData>
+		<SimpleData name="GEOID">2631300</SimpleData>
+		<SimpleData name="NAMELSAD">Galien village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1074927</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8015923</SimpleData>
+		<SimpleData name="INTPTLON">-086.4995648</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.506145,41.802447 -86.503549,41.802491 -86.503613,41.8029 -86.503663,41.803309 -86.503686,41.803653 -86.503657,41.803998 -86.503651,41.805325 -86.503685,41.806578 -86.50227,41.806596 -86.502254,41.807678 -86.500157,41.807666 -86.49878,41.807755 -86.497803,41.809009 -86.49695,41.80869 -86.496731,41.808575 -86.496979,41.808234 -86.497021,41.807768 -86.497322,41.807763 -86.497345,41.806535 -86.495877,41.806549 -86.495763,41.806514 -86.495681,41.80645 -86.495647,41.806361 -86.495645,41.805871 -86.495177,41.805883 -86.495176,41.805281 -86.494286,41.805268 -86.493977,41.805263 -86.494017,41.802692 -86.493757,41.802686 -86.493216,41.802688 -86.492917,41.802694 -86.492919,41.802622 -86.492992,41.798889 -86.494038,41.798851 -86.494134,41.798012 -86.494201,41.798012 -86.49486,41.798016 -86.497547,41.798018 -86.498948,41.798006 -86.498933,41.79489 -86.503826,41.794848 -86.503739,41.798039 -86.504334,41.79805 -86.5043,41.799471 -86.505663,41.798714 -86.506229,41.798725 -86.506177,41.800492 -86.506145,41.802447</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

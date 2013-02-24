@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>weott</name>
+<Schema name="weott" id="weott">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Weott</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#weott">
+		<SimpleData name="Name">Weott</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">84004</SimpleData>
+		<SimpleData name="PLACENS">02611454</SimpleData>
+		<SimpleData name="GEOID">0684004</SimpleData>
+		<SimpleData name="NAMELSAD">Weott CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1949126</SimpleData>
+		<SimpleData name="AWATER">48591</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3227715</SimpleData>
+		<SimpleData name="INTPTLON">-123.9206222</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.929024,40.320822 -123.929024,40.321349 -123.929263,40.321509 -123.929383,40.321829 -123.929442,40.322676 -123.929382,40.323797 -123.929024,40.324689 -123.928704,40.32507 -123.928545,40.325261 -123.928545,40.325422 -123.928485,40.325951 -123.928426,40.326474 -123.928306,40.327458 -123.927978,40.329518 -123.927743,40.329305 -123.927234,40.329307 -123.92893,40.33135 -123.928785,40.331371 -123.926996,40.331119 -123.926829,40.331081 -123.920471,40.331077 -123.920377,40.329329 -123.920271,40.32734 -123.918404,40.327305 -123.915313,40.327248 -123.915448,40.329345 -123.913293,40.329353 -123.913454,40.321527 -123.913639,40.315774 -123.913654,40.313937 -123.911576,40.313304 -123.911035,40.313147 -123.910634,40.313017 -123.909995,40.312759 -123.909631,40.312594 -123.90918,40.312343 -123.909263,40.312292 -123.909282,40.312305 -123.909925,40.312649 -123.910298,40.312811 -123.910515,40.312899 -123.91108,40.313088 -123.912747,40.313586 -123.913688,40.313881 -123.91369,40.313834 -123.916241,40.313868 -123.917606,40.313887 -123.918414,40.314254 -123.921104,40.314643 -123.922658,40.31517 -123.923166,40.315559 -123.923375,40.315879 -123.923405,40.316268 -123.923495,40.31636 -123.923524,40.316634 -123.923584,40.316817 -123.923853,40.316932 -123.923913,40.317115 -123.92463,40.317664 -123.924696,40.317696 -123.925736,40.318213 -123.926812,40.318877 -123.927589,40.319198 -123.928606,40.320044 -123.928875,40.320388 -123.929024,40.320822</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

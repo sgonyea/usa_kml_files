@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>edgerton</name>
+<Schema name="edgerton" id="edgerton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Edgerton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edgerton">
+		<SimpleData name="Name">Edgerton</SimpleData>
+		<SimpleData name="STATEFP">56</SimpleData>
+		<SimpleData name="PLACEFP">23155</SimpleData>
+		<SimpleData name="PLACENS">02412466</SimpleData>
+		<SimpleData name="GEOID">5623155</SimpleData>
+		<SimpleData name="NAMELSAD">Edgerton town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">654303</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.4141620</SimpleData>
+		<SimpleData name="INTPTLON">-106.2476731</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-106.252865,43.411296 -106.252865,43.411337 -106.252877,43.411917 -106.252882,43.412111 -106.25288,43.412253 -106.252876,43.412612 -106.252875,43.41268 -106.252874,43.412823 -106.252853,43.41389 -106.252842,43.414438 -106.252822,43.41543 -106.25282,43.415498 -106.252777,43.417685 -106.252276,43.417696 -106.25032,43.417737 -106.248204,43.417754 -106.246938,43.417764 -106.244263,43.417787 -106.242916,43.417842 -106.242736,43.417849 -106.242733,43.417688 -106.242673,43.414044 -106.242649,43.412622 -106.242636,43.411843 -106.242621,43.410934 -106.242592,43.410643 -106.242586,43.410576 -106.242584,43.41052 -106.242964,43.410513 -106.243413,43.410506 -106.244136,43.410494 -106.244692,43.410485 -106.245487,43.410473 -106.245818,43.410476 -106.24834,43.410496 -106.249256,43.410502 -106.249519,43.410481 -106.250234,43.410426 -106.250305,43.410403 -106.250557,43.410325 -106.250843,43.410309 -106.251039,43.410299 -106.251064,43.410963 -106.251075,43.41125 -106.251204,43.41125 -106.251591,43.41125 -106.25172,43.41125 -106.25192,43.41124 -106.252112,43.41122 -106.252862,43.411144 -106.252865,43.411296</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

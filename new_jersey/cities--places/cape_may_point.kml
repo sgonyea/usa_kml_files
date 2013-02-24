@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cape_may_point</name>
+<Schema name="cape_may_point" id="cape_may_point">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cape May Point</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cape_may_point">
+		<SimpleData name="Name">Cape May Point</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">10330</SimpleData>
+		<SimpleData name="PLACENS">00885179</SimpleData>
+		<SimpleData name="GEOID">3410330</SimpleData>
+		<SimpleData name="NAMELSAD">Cape May Point borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">765542</SimpleData>
+		<SimpleData name="AWATER">50205</SimpleData>
+		<SimpleData name="INTPTLAT">+38.9369094</SimpleData>
+		<SimpleData name="INTPTLON">-074.9653744</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.971995,38.94037 -74.970664,38.940579 -74.963792,38.941629 -74.964451,38.94261 -74.964677,38.942934 -74.964913,38.943284 -74.964447,38.943172 -74.962857,38.942789 -74.961585,38.942489 -74.960856,38.942317 -74.961146,38.938186 -74.961321,38.934994 -74.961341,38.934634 -74.960945,38.933941 -74.960448,38.93307 -74.959518,38.931482 -74.959672,38.931393 -74.959762,38.93111 -74.960621,38.931057 -74.961524,38.930907 -74.961588,38.930897 -74.962555,38.931194 -74.963463,38.931194 -74.963844,38.931354 -74.964987,38.931743 -74.965456,38.932315 -74.966013,38.93275 -74.967215,38.933093 -74.967274,38.933413 -74.967512,38.933867 -74.967538,38.933917 -74.968417,38.93458 -74.968505,38.935359 -74.968711,38.935702 -74.969151,38.936274 -74.969971,38.936617 -74.970147,38.936846 -74.970177,38.937212 -74.97003,38.937647 -74.970058,38.937763 -74.970118,38.938013 -74.970881,38.93854 -74.971262,38.939386 -74.971888,38.940227 -74.971995,38.94037</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

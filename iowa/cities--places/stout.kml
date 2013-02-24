@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>stout</name>
+<Schema name="stout" id="stout">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Stout</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#stout">
+		<SimpleData name="Name">Stout</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">75720</SimpleData>
+		<SimpleData name="PLACENS">02395978</SimpleData>
+		<SimpleData name="GEOID">1975720</SimpleData>
+		<SimpleData name="NAMELSAD">Stout city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">765894</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5268983</SimpleData>
+		<SimpleData name="INTPTLON">-092.7115452</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.716674,42.526417 -92.716694,42.527604 -92.716696,42.527741 -92.716699,42.527878 -92.716733,42.531398 -92.71194,42.531444 -92.707199,42.531472 -92.707093,42.527771 -92.707048,42.526274 -92.706821,42.526271 -92.706766,42.523176 -92.706954,42.523177 -92.709713,42.523152 -92.709758,42.523117 -92.709033,42.522074 -92.709187,42.52201 -92.708918,42.52162 -92.708972,42.521566 -92.707764,42.520285 -92.708257,42.520277 -92.711737,42.520213 -92.71174,42.520512 -92.711748,42.520923 -92.711749,42.521014 -92.71179,42.523106 -92.711794,42.52328 -92.711803,42.523756 -92.711811,42.524144 -92.711933,42.524141 -92.713148,42.524133 -92.716625,42.52411 -92.716674,42.526417</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

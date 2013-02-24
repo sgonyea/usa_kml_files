@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>aspinwall</name>
+<Schema name="aspinwall" id="aspinwall">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Aspinwall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aspinwall">
+		<SimpleData name="Name">Aspinwall</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">03340</SimpleData>
+		<SimpleData name="PLACENS">02394005</SimpleData>
+		<SimpleData name="GEOID">1903340</SimpleData>
+		<SimpleData name="NAMELSAD">Aspinwall city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">460077</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9105489</SimpleData>
+		<SimpleData name="INTPTLON">-095.1349612</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.138508,41.910299 -95.138476,41.910348 -95.138448,41.910429 -95.1384,41.910655 -95.13836,41.910729 -95.138329,41.910826 -95.138324,41.910968 -95.138342,41.911945 -95.138347,41.912615 -95.138385,41.913441 -95.13844,41.91412 -95.133691,41.914162 -95.131452,41.914171 -95.131448,41.914078 -95.131423,41.913507 -95.131412,41.913266 -95.131407,41.913126 -95.131388,41.912533 -95.13141,41.911945 -95.131547,41.910529 -95.131562,41.91037 -95.131567,41.910318 -95.131576,41.909946 -95.131558,41.908735 -95.13157,41.906941 -95.132827,41.906935 -95.135851,41.906956 -95.13791,41.90694 -95.138499,41.906941 -95.138508,41.910299</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

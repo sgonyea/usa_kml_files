@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>big_creek</name>
+<Schema name="big_creek" id="big_creek">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Big Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#big_creek">
+		<SimpleData name="Name">Big Creek</SimpleData>
+		<SimpleData name="STATEFP">28</SimpleData>
+		<SimpleData name="PLACEFP">06060</SimpleData>
+		<SimpleData name="PLACENS">02407419</SimpleData>
+		<SimpleData name="GEOID">2806060</SimpleData>
+		<SimpleData name="NAMELSAD">Big Creek village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2939637</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+33.8463925</SimpleData>
+		<SimpleData name="INTPTLON">-089.4158950</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.424589,33.850896 -89.424572,33.851871 -89.424527,33.854503 -89.424233,33.854506 -89.423258,33.854517 -89.423036,33.854521 -89.422146,33.854537 -89.41881,33.8546 -89.417699,33.854621 -89.417176,33.854633 -89.415607,33.85467 -89.415085,33.854683 -89.414873,33.854685 -89.414347,33.854688 -89.412133,33.854704 -89.411395,33.85471 -89.410191,33.854684 -89.407147,33.85462 -89.407155,33.854054 -89.407174,33.852851 -89.407168,33.85112 -89.407167,33.850916 -89.407156,33.847112 -89.407149,33.845111 -89.407143,33.843177 -89.407165,33.843169 -89.40715,33.841365 -89.407126,33.838293 -89.409462,33.838299 -89.411266,33.838304 -89.413007,33.838301 -89.418233,33.838295 -89.419975,33.838293 -89.420753,33.838295 -89.420911,33.838238 -89.423585,33.837287 -89.424477,33.836971 -89.424475,33.837012 -89.424471,33.837137 -89.42447,33.837179 -89.424493,33.839922 -89.424565,33.848152 -89.424589,33.850896</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>amorita</name>
+<Schema name="amorita" id="amorita">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Amorita</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amorita">
+		<SimpleData name="Name">Amorita</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">02000</SimpleData>
+		<SimpleData name="PLACENS">02412362</SimpleData>
+		<SimpleData name="GEOID">4002000</SimpleData>
+		<SimpleData name="NAMELSAD">Amorita town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">656547</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.9240257</SimpleData>
+		<SimpleData name="INTPTLON">-098.2936363</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.298254,36.925414 -98.29829,36.926393 -98.298339,36.927652 -98.298202,36.927652 -98.297301,36.927653 -98.295701,36.927646 -98.295312,36.927644 -98.292625,36.927657 -98.289664,36.927651 -98.289091,36.927652 -98.289093,36.927603 -98.289081,36.927065 -98.28909,36.926638 -98.289094,36.926422 -98.289083,36.925833 -98.289083,36.925578 -98.289092,36.924497 -98.289096,36.923426 -98.289093,36.921868 -98.289108,36.920706 -98.289104,36.920395 -98.289103,36.920319 -98.294716,36.920364 -98.296637,36.920394 -98.297782,36.920425 -98.297964,36.920419 -98.298044,36.920388 -98.298061,36.920378 -98.298254,36.925414</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

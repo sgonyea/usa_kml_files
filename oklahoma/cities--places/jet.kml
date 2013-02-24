@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>jet</name>
+<Schema name="jet" id="jet">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Jet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jet">
+		<SimpleData name="Name">Jet</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">38000</SimpleData>
+		<SimpleData name="PLACENS">02412805</SimpleData>
+		<SimpleData name="GEOID">4038000</SimpleData>
+		<SimpleData name="NAMELSAD">Jet town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">806711</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.6664005</SimpleData>
+		<SimpleData name="INTPTLON">-098.1813749</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.186905,36.666278 -98.186421,36.66627 -98.18637,36.670344 -98.183768,36.670301 -98.18297,36.670291 -98.182712,36.670281 -98.18175,36.670256 -98.181747,36.670651 -98.18174,36.671262 -98.180499,36.671242 -98.180502,36.670238 -98.179245,36.670228 -98.177775,36.670247 -98.177368,36.670169 -98.177294,36.670089 -98.177271,36.670009 -98.176159,36.67003 -98.176193,36.666684 -98.176199,36.666498 -98.176293,36.6662 -98.176336,36.66237 -98.177285,36.662375 -98.181683,36.662419 -98.182109,36.662424 -98.186543,36.662476 -98.186513,36.663564 -98.186457,36.665683 -98.186937,36.665686 -98.186905,36.666278</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

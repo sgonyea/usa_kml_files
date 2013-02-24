@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>winside</name>
+<Schema name="winside" id="winside">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Winside</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#winside">
+		<SimpleData name="Name">Winside</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">53380</SimpleData>
+		<SimpleData name="PLACENS">02399720</SimpleData>
+		<SimpleData name="GEOID">3153380</SimpleData>
+		<SimpleData name="NAMELSAD">Winside village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">675982</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1774437</SimpleData>
+		<SimpleData name="INTPTLON">-097.1753924</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.181962,42.175849 -97.181996,42.177572 -97.1815,42.17757 -97.181493,42.177696 -97.180449,42.177716 -97.180549,42.181157 -97.179572,42.181174 -97.176317,42.181196 -97.173777,42.181213 -97.17239,42.181225 -97.172307,42.17918 -97.170533,42.17918 -97.170499,42.178567 -97.17062,42.178565 -97.172331,42.178576 -97.172348,42.177556 -97.171596,42.177554 -97.170903,42.177554 -97.168132,42.177556 -97.168034,42.177556 -97.167992,42.176208 -97.166038,42.176229 -97.166031,42.175798 -97.166031,42.175573 -97.168062,42.175516 -97.168062,42.174339 -97.171031,42.174814 -97.171036,42.17514 -97.172009,42.175111 -97.171997,42.174796 -97.172009,42.174421 -97.173799,42.174464 -97.175212,42.174546 -97.178992,42.17455 -97.181939,42.174641 -97.181962,42.175849</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

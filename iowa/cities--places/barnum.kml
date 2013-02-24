@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>barnum</name>
+<Schema name="barnum" id="barnum">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Barnum</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#barnum">
+		<SimpleData name="Name">Barnum</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">04645</SimpleData>
+		<SimpleData name="PLACENS">02394068</SimpleData>
+		<SimpleData name="GEOID">1904645</SimpleData>
+		<SimpleData name="NAMELSAD">Barnum city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">950811</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5062002</SimpleData>
+		<SimpleData name="INTPTLON">-094.3656980</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.371212,42.502336 -94.371245,42.50871 -94.37127,42.511165 -94.363776,42.51117 -94.363784,42.510658 -94.363798,42.509787 -94.363803,42.509448 -94.362884,42.509419 -94.359052,42.509301 -94.35904,42.508045 -94.359034,42.507349 -94.359113,42.505609 -94.359126,42.505118 -94.359068,42.502478 -94.359045,42.50239 -94.359009,42.502337 -94.35899,42.502327 -94.368846,42.502316 -94.368852,42.501541 -94.368848,42.50143 -94.368847,42.501406 -94.368872,42.500214 -94.371299,42.500245 -94.371212,42.502336</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>richards</name>
+<Schema name="richards" id="richards">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Richards</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#richards">
+		<SimpleData name="Name">Richards</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">61364</SimpleData>
+		<SimpleData name="PLACENS">02396877</SimpleData>
+		<SimpleData name="GEOID">2961364</SimpleData>
+		<SimpleData name="NAMELSAD">Richards town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">693540</SimpleData>
+		<SimpleData name="AWATER">2372</SimpleData>
+		<SimpleData name="INTPTLAT">+37.9099587</SimpleData>
+		<SimpleData name="INTPTLON">-094.5574100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.561693,37.907306 -94.561676,37.907425 -94.561631,37.907501 -94.561597,37.907531 -94.561663,37.908148 -94.561808,37.909493 -94.561633,37.910528 -94.561607,37.911424 -94.561546,37.912081 -94.561315,37.914574 -94.560436,37.914542 -94.560064,37.914528 -94.559633,37.914512 -94.55879,37.914492 -94.557512,37.914461 -94.557378,37.914458 -94.557235,37.914454 -94.557075,37.914447 -94.556431,37.91442 -94.556289,37.914417 -94.55507,37.914392 -94.553832,37.914358 -94.553771,37.914356 -94.552592,37.914318 -94.552392,37.914313 -94.552582,37.910919 -94.552708,37.909157 -94.55284,37.907323 -94.555628,37.907375 -94.555656,37.906812 -94.556653,37.906842 -94.557034,37.906853 -94.557509,37.906436 -94.558044,37.905919 -94.559085,37.90497 -94.559203,37.904862 -94.559375,37.904707 -94.560557,37.904738 -94.560495,37.907272 -94.561694,37.907264 -94.561693,37.907306</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

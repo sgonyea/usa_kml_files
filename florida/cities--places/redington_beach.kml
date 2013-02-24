@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>redington_beach</name>
+<Schema name="redington_beach" id="redington_beach">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Redington Beach</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#redington_beach">
+		<SimpleData name="Name">Redington Beach</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">59725</SimpleData>
+		<SimpleData name="PLACENS">02407189</SimpleData>
+		<SimpleData name="GEOID">1259725</SimpleData>
+		<SimpleData name="NAMELSAD">Redington Beach town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">927717</SimpleData>
+		<SimpleData name="AWATER">2427674</SimpleData>
+		<SimpleData name="INTPTLAT">+27.8094871</SimpleData>
+		<SimpleData name="INTPTLON">-082.8121382</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.826897,27.808863 -82.82358,27.811224 -82.822025,27.812331 -82.820334,27.813737 -82.819531,27.81461 -82.8194,27.814483 -82.819154,27.814256 -82.817505,27.815199 -82.817468,27.815188 -82.817381,27.815177 -82.817344,27.815182 -82.817252,27.81521 -82.817134,27.815237 -82.816855,27.815358 -82.816422,27.815683 -82.816268,27.815815 -82.816132,27.81592 -82.816039,27.81603 -82.815965,27.816156 -82.815841,27.816343 -82.815736,27.816464 -82.815606,27.816585 -82.815408,27.816794 -82.815086,27.817031 -82.81474,27.817233 -82.809725,27.821302 -82.805352,27.817348 -82.803887,27.816024 -82.799724,27.812103 -82.801421,27.81023 -82.804802,27.806894 -82.805399,27.806158 -82.805912,27.805642 -82.806145,27.805393 -82.806448,27.805099 -82.806717,27.804818 -82.807151,27.804172 -82.807961,27.803206 -82.810124,27.801174 -82.813265,27.798223 -82.826897,27.808863</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vining</name>
+<Schema name="vining" id="vining">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vining</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vining">
+		<SimpleData name="Name">Vining</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">67216</SimpleData>
+		<SimpleData name="PLACENS">02397145</SimpleData>
+		<SimpleData name="GEOID">2767216</SimpleData>
+		<SimpleData name="NAMELSAD">Vining city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3304947</SimpleData>
+		<SimpleData name="AWATER">99958</SimpleData>
+		<SimpleData name="INTPTLAT">+46.2568560</SimpleData>
+		<SimpleData name="INTPTLON">-095.5315963</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.547738,46.257754 -95.547631,46.259013 -95.547592,46.260398 -95.547785,46.267375 -95.547597,46.267263 -95.547256,46.267459 -95.546918,46.267526 -95.542774,46.267433 -95.542013,46.267416 -95.541824,46.270973 -95.54124,46.270922 -95.539588,46.270883 -95.536922,46.270847 -95.53673,46.27083 -95.536388,46.2708 -95.531448,46.270754 -95.531464,46.268373 -95.531494,46.267176 -95.529609,46.267222 -95.529324,46.267231 -95.52888,46.267203 -95.528502,46.267203 -95.52839,46.267203 -95.527183,46.267266 -95.526846,46.267245 -95.52624,46.267206 -95.521439,46.267456 -95.521209,46.267443 -95.521133,46.253063 -95.536988,46.253121 -95.542692,46.252927 -95.542676,46.254844 -95.542712,46.256551 -95.547718,46.256592 -95.547738,46.257754</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

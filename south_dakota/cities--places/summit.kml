@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>summit</name>
+<Schema name="summit" id="summit">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Summit</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#summit">
+		<SimpleData name="Name">Summit</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">62220</SimpleData>
+		<SimpleData name="PLACENS">01267597</SimpleData>
+		<SimpleData name="GEOID">4662220</SimpleData>
+		<SimpleData name="NAMELSAD">Summit town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1453082</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.3056955</SimpleData>
+		<SimpleData name="INTPTLON">-097.0393834</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.051657,45.310402 -97.051488,45.310968 -97.05083,45.312232 -97.049912,45.313832 -97.048366,45.312978 -97.047789,45.312691 -97.046801,45.312254 -97.04616,45.312056 -97.04529,45.311819 -97.044843,45.311724 -97.044164,45.311606 -97.043592,45.311525 -97.043016,45.311464 -97.042319,45.311424 -97.041585,45.311403 -97.039952,45.311386 -97.03718,45.311382 -97.036497,45.311381 -97.036498,45.310765 -97.036499,45.310375 -97.036497,45.31032 -97.037399,45.310344 -97.037446,45.309799 -97.036481,45.309763 -97.036459,45.30899 -97.030615,45.309017 -97.030639,45.307973 -97.03064,45.307637 -97.03064,45.307551 -97.03065,45.305872 -97.03068,45.30083 -97.036112,45.300867 -97.036066,45.29994 -97.036009,45.298681 -97.035998,45.297189 -97.035997,45.297127 -97.033083,45.297091 -97.033093,45.29774 -97.029816,45.297692 -97.029778,45.296978 -97.030783,45.29697 -97.036049,45.296989 -97.036102,45.296989 -97.03691,45.296992 -97.041158,45.296991 -97.041122,45.299301 -97.041106,45.300362 -97.041104,45.300477 -97.042353,45.300488 -97.042369,45.304586 -97.041058,45.304567 -97.041114,45.304943 -97.041223,45.305658 -97.041326,45.306377 -97.041433,45.307017 -97.041519,45.307526 -97.041544,45.308966 -97.045339,45.308941 -97.045363,45.307156 -97.049681,45.3078 -97.050481,45.307919 -97.051738,45.308107 -97.051657,45.310402</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

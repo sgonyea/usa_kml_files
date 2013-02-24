@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lacona</name>
+<Schema name="lacona" id="lacona">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lacona</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lacona">
+		<SimpleData name="Name">Lacona</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">42285</SimpleData>
+		<SimpleData name="PLACENS">02395579</SimpleData>
+		<SimpleData name="GEOID">1942285</SimpleData>
+		<SimpleData name="NAMELSAD">Lacona city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">942182</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1899088</SimpleData>
+		<SimpleData name="INTPTLON">-093.3849692</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.389957,41.18844 -93.389941,41.189559 -93.389946,41.193334 -93.389894,41.195326 -93.385432,41.195316 -93.380507,41.195273 -93.380512,41.190358 -93.380163,41.190342 -93.380179,41.189531 -93.380204,41.189531 -93.380507,41.189532 -93.380522,41.187221 -93.380291,41.187229 -93.380287,41.186012 -93.380523,41.186024 -93.380535,41.183543 -93.38305,41.183581 -93.385306,41.183614 -93.38531,41.18393 -93.385325,41.185882 -93.385326,41.186066 -93.385602,41.185756 -93.389922,41.18568 -93.389957,41.18844</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

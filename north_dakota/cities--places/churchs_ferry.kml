@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>churchs_ferry</name>
+<Schema name="churchs_ferry" id="churchs_ferry">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Churchs Ferry</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#churchs_ferry">
+		<SimpleData name="Name">Churchs Ferry</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">14140</SimpleData>
+		<SimpleData name="PLACENS">01035970</SimpleData>
+		<SimpleData name="GEOID">3814140</SimpleData>
+		<SimpleData name="NAMELSAD">Churchs Ferry city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1113152</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.2686275</SimpleData>
+		<SimpleData name="INTPTLON">-099.1943500</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.200054,48.263359 -99.200056,48.263567 -99.200061,48.26387 -99.200102,48.266277 -99.20011,48.267258 -99.20011,48.267281 -99.200113,48.268228 -99.200113,48.268266 -99.200113,48.269303 -99.200113,48.269446 -99.200113,48.269649 -99.200113,48.269725 -99.200113,48.26993 -99.200113,48.269985 -99.200113,48.270046 -99.200113,48.270159 -99.200113,48.270223 -99.200113,48.270262 -99.200114,48.270487 -99.200114,48.270525 -99.20012,48.271067 -99.200123,48.27133 -99.200151,48.273308 -99.200157,48.274287 -99.200159,48.274628 -99.199518,48.274576 -99.197031,48.274533 -99.192966,48.274371 -99.192929,48.274378 -99.188572,48.274409 -99.188554,48.271056 -99.18854,48.268387 -99.188594,48.267288 -99.188603,48.265697 -99.188596,48.265116 -99.188594,48.264958 -99.188601,48.264518 -99.188628,48.262703 -99.192312,48.262738 -99.194669,48.262765 -99.20005,48.262849 -99.200054,48.263359</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

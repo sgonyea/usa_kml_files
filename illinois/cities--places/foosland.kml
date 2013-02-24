@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>foosland</name>
+<Schema name="foosland" id="foosland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Foosland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#foosland">
+		<SimpleData name="Name">Foosland</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">26662</SimpleData>
+		<SimpleData name="PLACENS">02398891</SimpleData>
+		<SimpleData name="GEOID">1726662</SimpleData>
+		<SimpleData name="NAMELSAD">Foosland village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">184939</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3611221</SimpleData>
+		<SimpleData name="INTPTLON">-088.4291754</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.432877,40.359551 -88.432722,40.359801 -88.43261,40.359983 -88.432076,40.360849 -88.431521,40.361749 -88.430667,40.363139 -88.426526,40.363104 -88.426536,40.36282 -88.426538,40.362457 -88.426532,40.362401 -88.426529,40.362228 -88.426576,40.36157 -88.426578,40.361135 -88.426579,40.361116 -88.426579,40.361039 -88.42658,40.36102 -88.42658,40.360962 -88.426581,40.360943 -88.426581,40.360905 -88.426583,40.360828 -88.426584,40.360778 -88.426594,40.360528 -88.426593,40.360458 -88.426607,40.36018 -88.426629,40.359977 -88.426658,40.359863 -88.426674,40.359769 -88.426657,40.359553 -88.42665,40.359363 -88.42666,40.35914 -88.430264,40.359446 -88.43149,40.359516 -88.432278,40.359533 -88.432877,40.359551</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

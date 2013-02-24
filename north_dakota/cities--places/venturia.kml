@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>venturia</name>
+<Schema name="venturia" id="venturia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Venturia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#venturia">
+		<SimpleData name="Name">Venturia</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">81700</SimpleData>
+		<SimpleData name="PLACENS">01036308</SimpleData>
+		<SimpleData name="GEOID">3881700</SimpleData>
+		<SimpleData name="NAMELSAD">Venturia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">162537</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.9974696</SimpleData>
+		<SimpleData name="INTPTLON">-099.5497458</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.55327,45.995774 -99.553247,45.996664 -99.553219,45.997708 -99.553206,45.998186 -99.551763,45.998574 -99.551759,45.998686 -99.550293,45.99867 -99.550087,45.998668 -99.549581,45.99867 -99.549569,45.999083 -99.549142,45.999234 -99.548939,45.999295 -99.547907,45.999644 -99.547909,45.999138 -99.546718,45.999134 -99.546719,45.998684 -99.546719,45.998115 -99.545937,45.998115 -99.545946,45.99762 -99.545965,45.996587 -99.546723,45.996595 -99.546743,45.996998 -99.547549,45.997005 -99.547645,45.99701 -99.547642,45.99716 -99.548165,45.997173 -99.548165,45.99661 -99.54818,45.995589 -99.54885,45.995593 -99.549692,45.995598 -99.549671,45.996259 -99.551907,45.996264 -99.551918,45.995611 -99.553274,45.995619 -99.55327,45.995774</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

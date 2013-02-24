@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>marengo</name>
+<Schema name="marengo" id="marengo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Marengo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#marengo">
+		<SimpleData name="Name">Marengo</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">47558</SimpleData>
+		<SimpleData name="PLACENS">02399254</SimpleData>
+		<SimpleData name="GEOID">3947558</SimpleData>
+		<SimpleData name="NAMELSAD">Marengo village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">436070</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4008196</SimpleData>
+		<SimpleData name="INTPTLON">-082.8109939</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.815326,40.402381 -82.814492,40.40236 -82.814461,40.403971 -82.812931,40.403969 -82.810761,40.403886 -82.809996,40.403869 -82.807371,40.403813 -82.806786,40.403813 -82.806802,40.40253 -82.806992,40.402163 -82.806986,40.402027 -82.80699,40.401637 -82.806937,40.401552 -82.806905,40.401504 -82.807691,40.401514 -82.807693,40.399459 -82.807559,40.398924 -82.80727,40.398346 -82.80773,40.397932 -82.808568,40.397383 -82.811049,40.39752 -82.814568,40.397685 -82.814384,40.400058 -82.814367,40.401042 -82.815305,40.401066 -82.815326,40.402381</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

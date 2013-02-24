@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arkoe</name>
+<Schema name="arkoe" id="arkoe">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arkoe</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arkoe">
+		<SimpleData name="Name">Arkoe</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">01864</SimpleData>
+		<SimpleData name="PLACENS">02397438</SimpleData>
+		<SimpleData name="GEOID">2901864</SimpleData>
+		<SimpleData name="NAMELSAD">Arkoe town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">352049</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2596211</SimpleData>
+		<SimpleData name="INTPTLON">-094.8290522</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.833558,40.262003 -94.833557,40.262096 -94.830347,40.262006 -94.829649,40.261989 -94.828639,40.261965 -94.827558,40.261938 -94.826862,40.261922 -94.826616,40.261916 -94.826558,40.261914 -94.826144,40.261905 -94.825646,40.261892 -94.825526,40.26189 -94.825343,40.261886 -94.825343,40.261662 -94.825343,40.261168 -94.825344,40.259014 -94.825344,40.258644 -94.825345,40.258297 -94.825345,40.257541 -94.825347,40.256499 -94.826569,40.256482 -94.827325,40.256472 -94.828116,40.256479 -94.829401,40.256492 -94.829407,40.257583 -94.829413,40.258376 -94.82945,40.258376 -94.829624,40.258379 -94.83026,40.258391 -94.830472,40.258395 -94.831975,40.258423 -94.833608,40.258464 -94.833558,40.262003</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>murdock</name>
+<Schema name="murdock" id="murdock">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Murdock</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#murdock">
+		<SimpleData name="Name">Murdock</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">44818</SimpleData>
+		<SimpleData name="PLACENS">02395140</SimpleData>
+		<SimpleData name="GEOID">2744818</SimpleData>
+		<SimpleData name="NAMELSAD">Murdock city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1449333</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.2231328</SimpleData>
+		<SimpleData name="INTPTLON">-095.3934631</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.402033,45.222558 -95.401996,45.225333 -95.401967,45.227516 -95.401962,45.227862 -95.401999,45.228769 -95.392443,45.228814 -95.389242,45.228824 -95.38923,45.228224 -95.389221,45.227199 -95.389531,45.225086 -95.387857,45.225025 -95.386025,45.225117 -95.38597,45.22514 -95.385869,45.225173 -95.38567,45.225191 -95.384178,45.225191 -95.384359,45.219517 -95.384368,45.219258 -95.38444,45.217949 -95.389446,45.217904 -95.398977,45.217818 -95.399681,45.217815 -95.399673,45.218148 -95.399638,45.219283 -95.399602,45.22048 -95.399571,45.221504 -95.402047,45.221597 -95.402033,45.222558</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>union</name>
+<Schema name="union" id="union">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Union</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#union">
+		<SimpleData name="Name">Union</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">77616</SimpleData>
+		<SimpleData name="PLACENS">02406776</SimpleData>
+		<SimpleData name="GEOID">0177616</SimpleData>
+		<SimpleData name="NAMELSAD">Union town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2126776</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.9938104</SimpleData>
+		<SimpleData name="INTPTLON">-087.9071786</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-87.911498,33.000124 -87.910669,33.000124 -87.910653,33.000816 -87.910234,33.000794 -87.906508,33.000709 -87.906149,33.000708 -87.902531,33.000763 -87.901948,33.000788 -87.901827,33.005086 -87.902909,33.005087 -87.906328,33.005086 -87.906316,33.008727 -87.906074,33.008609 -87.905834,33.00853 -87.90559,33.008479 -87.90533,33.008446 -87.905071,33.008432 -87.90454,33.008417 -87.904286,33.0084 -87.903761,33.008389 -87.903492,33.008376 -87.902974,33.008359 -87.902852,33.008362 -87.898257,33.00842 -87.898238,33.005702 -87.898445,33.002681 -87.898445,33.000663 -87.901537,33.000625 -87.902069,33.000616 -87.902334,33.000124 -87.902451,32.996533 -87.902227,32.98997 -87.902588,32.98997 -87.906743,32.990191 -87.906756,32.993512 -87.907659,32.993513 -87.911496,32.993512 -87.911498,33.000124</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-87.915365,32.990679 -87.912219,32.990492 -87.911342,32.990436 -87.906743,32.990191 -87.906762,32.989508 -87.906869,32.980953 -87.906849,32.979218 -87.908831,32.979211 -87.91073,32.979207 -87.910719,32.982515 -87.912813,32.982301 -87.915271,32.98239 -87.915288,32.983151 -87.915671,32.990665 -87.915365,32.990679</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

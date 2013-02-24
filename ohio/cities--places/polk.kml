@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>polk</name>
+<Schema name="polk" id="polk">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Polk</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#polk">
+		<SimpleData name="Name">Polk</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">63996</SimpleData>
+		<SimpleData name="PLACENS">02398993</SimpleData>
+		<SimpleData name="GEOID">3963996</SimpleData>
+		<SimpleData name="NAMELSAD">Polk village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2621524</SimpleData>
+		<SimpleData name="AWATER">61494</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9451586</SimpleData>
+		<SimpleData name="INTPTLON">-082.2143238</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.224586,40.952277 -82.219514,40.952125 -82.21948,40.952127 -82.214758,40.9521 -82.212743,40.952172 -82.211586,40.952209 -82.204867,40.95233 -82.204868,40.952006 -82.204869,40.950498 -82.204906,40.944789 -82.204875,40.944482 -82.204881,40.937964 -82.204878,40.937567 -82.214686,40.937561 -82.219299,40.937566 -82.224437,40.937565 -82.224491,40.943498 -82.224457,40.944689 -82.224443,40.945164 -82.224526,40.948227 -82.224522,40.949701 -82.224582,40.95201 -82.224586,40.952277</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

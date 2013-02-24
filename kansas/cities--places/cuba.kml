@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cuba</name>
+<Schema name="cuba" id="cuba">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cuba</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cuba">
+		<SimpleData name="Name">Cuba</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">16625</SimpleData>
+		<SimpleData name="PLACENS">02393691</SimpleData>
+		<SimpleData name="GEOID">2016625</SimpleData>
+		<SimpleData name="NAMELSAD">Cuba city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">790603</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8020885</SimpleData>
+		<SimpleData name="INTPTLON">-097.4573055</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.462628,39.800436 -97.462631,39.802032 -97.462616,39.80345 -97.462615,39.803494 -97.462592,39.804994 -97.462593,39.805532 -97.462594,39.806048 -97.462595,39.806171 -97.461993,39.806149 -97.45781,39.806156 -97.456416,39.806153 -97.454972,39.806149 -97.454954,39.807423 -97.45319,39.807328 -97.453191,39.806583 -97.452259,39.806571 -97.452278,39.805003 -97.453143,39.804703 -97.453146,39.804481 -97.453225,39.799616 -97.452727,39.799614 -97.45114,39.79963 -97.451142,39.799484 -97.451146,39.799073 -97.451291,39.799066 -97.452771,39.799 -97.453127,39.799001 -97.45311,39.798864 -97.45319,39.796346 -97.456585,39.796353 -97.456596,39.798868 -97.457166,39.798865 -97.457101,39.798348 -97.457914,39.798395 -97.458587,39.798355 -97.458591,39.798862 -97.459283,39.798857 -97.459959,39.798852 -97.460608,39.798848 -97.462624,39.798841 -97.462628,39.800436</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

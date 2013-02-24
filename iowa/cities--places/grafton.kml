@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>grafton</name>
+<Schema name="grafton" id="grafton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Grafton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#grafton">
+		<SimpleData name="Name">Grafton</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">31890</SimpleData>
+		<SimpleData name="PLACENS">02394944</SimpleData>
+		<SimpleData name="GEOID">1931890</SimpleData>
+		<SimpleData name="NAMELSAD">Grafton city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">842350</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.3304388</SimpleData>
+		<SimpleData name="INTPTLON">-093.0687031</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.073693,43.327716 -93.07365,43.327783 -93.073662,43.328365 -93.073668,43.328729 -93.073672,43.328907 -93.073695,43.329926 -93.073706,43.330319 -93.073707,43.330733 -93.073666,43.330863 -93.073604,43.33092 -93.073719,43.33503 -93.067664,43.335016 -93.067428,43.335014 -93.0674,43.335056 -93.067041,43.335594 -93.066811,43.33596 -93.065463,43.335941 -93.065516,43.33501 -93.063817,43.335006 -93.0638,43.327909 -93.063807,43.327155 -93.063813,43.326514 -93.063806,43.326041 -93.063801,43.325705 -93.064917,43.325709 -93.073603,43.325664 -93.073693,43.327716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

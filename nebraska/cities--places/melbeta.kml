@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>melbeta</name>
+<Schema name="melbeta" id="melbeta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Melbeta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#melbeta">
+		<SimpleData name="Name">Melbeta</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">31570</SimpleData>
+		<SimpleData name="PLACENS">02399306</SimpleData>
+		<SimpleData name="GEOID">3131570</SimpleData>
+		<SimpleData name="NAMELSAD">Melbeta village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">220605</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7822237</SimpleData>
+		<SimpleData name="INTPTLON">-103.5170680</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.519147,41.77946 -103.519153,41.780425 -103.519158,41.781425 -103.519164,41.782416 -103.519167,41.78342 -103.519166,41.783754 -103.519164,41.784374 -103.519156,41.784888 -103.519144,41.785585 -103.515512,41.784297 -103.512387,41.783188 -103.512776,41.782738 -103.512837,41.782666 -103.513191,41.782261 -103.513387,41.78233 -103.514474,41.782699 -103.515327,41.783009 -103.515332,41.782418 -103.515343,41.781526 -103.515368,41.781491 -103.515351,41.781295 -103.516505,41.781295 -103.516457,41.778712 -103.51914,41.778673 -103.519147,41.77946</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

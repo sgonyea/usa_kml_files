@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>parkerville</name>
+<Schema name="parkerville" id="parkerville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Parkerville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parkerville">
+		<SimpleData name="Name">Parkerville</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">54575</SimpleData>
+		<SimpleData name="PLACENS">02396153</SimpleData>
+		<SimpleData name="GEOID">2054575</SimpleData>
+		<SimpleData name="NAMELSAD">Parkerville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">310855</SimpleData>
+		<SimpleData name="AWATER">316</SimpleData>
+		<SimpleData name="INTPTLAT">+38.7637483</SimpleData>
+		<SimpleData name="INTPTLON">-096.6625002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.666123,38.764283 -96.665637,38.765288 -96.664983,38.766673 -96.664673,38.7665 -96.663991,38.766317 -96.662545,38.765932 -96.659105,38.765002 -96.658802,38.764932 -96.657867,38.76472 -96.657144,38.764545 -96.656843,38.76446 -96.656955,38.764144 -96.657413,38.762853 -96.657439,38.762782 -96.657464,38.76271 -96.65775,38.761905 -96.657865,38.76158 -96.658022,38.761139 -96.65836,38.761246 -96.659042,38.761448 -96.661526,38.762097 -96.661877,38.761375 -96.664286,38.761493 -96.664187,38.761889 -96.66407,38.762233 -96.663864,38.762681 -96.665477,38.763154 -96.666527,38.763444 -96.666123,38.764283</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

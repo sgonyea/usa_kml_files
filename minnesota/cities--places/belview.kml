@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>belview</name>
+<Schema name="belview" id="belview">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Belview</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#belview">
+		<SimpleData name="Name">Belview</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">05050</SimpleData>
+		<SimpleData name="PLACENS">02394128</SimpleData>
+		<SimpleData name="GEOID">2705050</SimpleData>
+		<SimpleData name="NAMELSAD">Belview city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2449577</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.6066817</SimpleData>
+		<SimpleData name="INTPTLON">-095.3288731</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.339582,44.60087 -95.339587,44.602018 -95.339614,44.603118 -95.339637,44.605438 -95.339671,44.606369 -95.339712,44.607289 -95.339811,44.607498 -95.339759,44.607672 -95.339707,44.608674 -95.336177,44.6085 -95.336143,44.614322 -95.332929,44.614345 -95.331418,44.614356 -95.329535,44.614348 -95.328556,44.614344 -95.324976,44.614309 -95.32207,44.614302 -95.319318,44.614273 -95.31933,44.606297 -95.319319,44.599674 -95.320563,44.599678 -95.322413,44.599668 -95.325069,44.599652 -95.326685,44.599643 -95.328166,44.599635 -95.329533,44.599613 -95.339567,44.599766 -95.339582,44.60087</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

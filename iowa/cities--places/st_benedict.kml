@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>st_benedict</name>
+<Schema name="st_benedict" id="st_benedict">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>St. Benedict</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#st_benedict">
+		<SimpleData name="Name">St. Benedict</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">69825</SimpleData>
+		<SimpleData name="PLACENS">02585485</SimpleData>
+		<SimpleData name="GEOID">1969825</SimpleData>
+		<SimpleData name="NAMELSAD">St. Benedict CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1986783</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0440076</SimpleData>
+		<SimpleData name="INTPTLON">-094.0609498</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.069548,43.040246 -94.069542,43.041471 -94.069558,43.044209 -94.069563,43.045736 -94.069583,43.052782 -94.068373,43.052786 -94.066431,43.052759 -94.064361,43.052746 -94.061653,43.052713 -94.061706,43.046811 -94.049775,43.046786 -94.049764,43.046252 -94.049776,43.045494 -94.049762,43.042868 -94.04977,43.041525 -94.049752,43.040153 -94.049755,43.038867 -94.049739,43.038075 -94.052203,43.038092 -94.053355,43.038103 -94.054195,43.038113 -94.058149,43.038157 -94.05973,43.038182 -94.062951,43.038229 -94.064109,43.038227 -94.064196,43.038237 -94.064311,43.038268 -94.064311,43.037761 -94.06419,43.037215 -94.064102,43.037127 -94.06405,43.036978 -94.064042,43.036892 -94.064046,43.036775 -94.064112,43.036606 -94.06419,43.036547 -94.064326,43.036546 -94.064599,43.036606 -94.064655,43.036642 -94.064687,43.036705 -94.064733,43.036881 -94.064765,43.036958 -94.06489,43.037011 -94.065107,43.037064 -94.065218,43.037067 -94.065397,43.037056 -94.06544,43.037061 -94.065533,43.037096 -94.065602,43.03714 -94.06564,43.037222 -94.065627,43.038264 -94.066058,43.038262 -94.067119,43.03828 -94.06953,43.038283 -94.069548,43.040246</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ridgeway</name>
+<Schema name="ridgeway" id="ridgeway">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ridgeway</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ridgeway">
+		<SimpleData name="Name">Ridgeway</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">67118</SimpleData>
+		<SimpleData name="PLACENS">02399073</SimpleData>
+		<SimpleData name="GEOID">3967118</SimpleData>
+		<SimpleData name="NAMELSAD">Ridgeway village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1534167</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5124298</SimpleData>
+		<SimpleData name="INTPTLON">-083.5689479</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.575736,40.515758 -83.575604,40.516054 -83.573554,40.516678 -83.573361,40.516738 -83.573385,40.516537 -83.563387,40.519847 -83.562528,40.520132 -83.562532,40.519854 -83.561943,40.51681 -83.561867,40.516441 -83.561854,40.516326 -83.562243,40.516318 -83.562329,40.516306 -83.562309,40.516176 -83.56182,40.512845 -83.561784,40.512555 -83.561879,40.512539 -83.561843,40.512292 -83.561964,40.512302 -83.562221,40.512322 -83.561599,40.507371 -83.56168,40.507364 -83.562249,40.507314 -83.568891,40.506677 -83.572139,40.506373 -83.573899,40.506221 -83.576011,40.506032 -83.576275,40.507328 -83.576378,40.507842 -83.575418,40.50795 -83.575481,40.508369 -83.576138,40.512804 -83.576199,40.513222 -83.578237,40.513055 -83.578252,40.513187 -83.578281,40.513424 -83.578478,40.513439 -83.578497,40.514689 -83.57851,40.514942 -83.575736,40.515758</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

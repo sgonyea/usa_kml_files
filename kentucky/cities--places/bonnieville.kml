@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bonnieville</name>
+<Schema name="bonnieville" id="bonnieville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bonnieville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bonnieville">
+		<SimpleData name="Name">Bonnieville</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">08488</SimpleData>
+		<SimpleData name="PLACENS">02403894</SimpleData>
+		<SimpleData name="GEOID">2108488</SimpleData>
+		<SimpleData name="NAMELSAD">Bonnieville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1436550</SimpleData>
+		<SimpleData name="AWATER">1897</SimpleData>
+		<SimpleData name="INTPTLAT">+37.3776459</SimpleData>
+		<SimpleData name="INTPTLON">-085.9016601</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.908747,37.37241 -85.908394,37.372548 -85.905346,37.373966 -85.905368,37.374088 -85.906057,37.382429 -85.906193,37.383288 -85.906267,37.384269 -85.906299,37.38468 -85.90568,37.384764 -85.905669,37.384766 -85.905196,37.384828 -85.905151,37.384833 -85.904957,37.38486 -85.904877,37.38487 -85.90482,37.384879 -85.904741,37.384891 -85.90449,37.384926 -85.903904,37.385003 -85.903744,37.385019 -85.903079,37.385102 -85.899702,37.385526 -85.898341,37.385707 -85.896778,37.385905 -85.89678,37.385734 -85.896741,37.38541 -85.896713,37.384866 -85.89636,37.378022 -85.896348,37.377211 -85.896372,37.376936 -85.895919,37.369232 -85.896654,37.369382 -85.901437,37.370405 -85.902478,37.370631 -85.903347,37.370851 -85.903757,37.37092 -85.9048,37.371144 -85.905198,37.371212 -85.905619,37.371273 -85.906461,37.371484 -85.908142,37.371652 -85.908271,37.37167 -85.908624,37.371695 -85.908682,37.372035 -85.908747,37.37241</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

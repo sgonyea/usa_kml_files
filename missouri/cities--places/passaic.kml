@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>passaic</name>
+<Schema name="passaic" id="passaic">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Passaic</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#passaic">
+		<SimpleData name="Name">Passaic</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">56468</SimpleData>
+		<SimpleData name="PLACENS">02396849</SimpleData>
+		<SimpleData name="GEOID">2956468</SimpleData>
+		<SimpleData name="NAMELSAD">Passaic town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">183774</SimpleData>
+		<SimpleData name="AWATER">468</SimpleData>
+		<SimpleData name="INTPTLAT">+38.3216305</SimpleData>
+		<SimpleData name="INTPTLON">-094.3489854</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.351362,38.322188 -94.3509,38.322179 -94.350748,38.322175 -94.35092,38.323917 -94.35072,38.323915 -94.350181,38.323917 -94.346729,38.323937 -94.346005,38.323936 -94.34599,38.322024 -94.345971,38.320231 -94.34684,38.320226 -94.348338,38.320216 -94.348733,38.320213 -94.349722,38.320207 -94.350148,38.320204 -94.351319,38.320206 -94.351362,38.322188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

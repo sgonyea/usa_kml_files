@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>niotaze</name>
+<Schema name="niotaze" id="niotaze">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Niotaze</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#niotaze">
+		<SimpleData name="Name">Niotaze</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">50750</SimpleData>
+		<SimpleData name="PLACENS">02395237</SimpleData>
+		<SimpleData name="GEOID">2050750</SimpleData>
+		<SimpleData name="NAMELSAD">Niotaze city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">953252</SimpleData>
+		<SimpleData name="AWATER">4767</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0673465</SimpleData>
+		<SimpleData name="INTPTLON">-096.0144690</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.02127,37.065153 -96.021349,37.067395 -96.021359,37.067675 -96.021317,37.067921 -96.018461,37.067872 -96.018526,37.070334 -96.015838,37.070313 -96.015882,37.072784 -96.015924,37.075017 -96.015516,37.075012 -96.01503,37.075006 -96.014586,37.075008 -96.011117,37.072573 -96.009798,37.071648 -96.009788,37.07134 -96.009723,37.069074 -96.009706,37.067844 -96.009556,37.063229 -96.011312,37.063208 -96.017385,37.063117 -96.018835,37.063098 -96.021179,37.063062 -96.02127,37.065153</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

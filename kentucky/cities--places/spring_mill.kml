@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>spring_mill</name>
+<Schema name="spring_mill" id="spring_mill">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Spring Mill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#spring_mill">
+		<SimpleData name="Name">Spring Mill</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">72770</SimpleData>
+		<SimpleData name="PLACENS">02405507</SimpleData>
+		<SimpleData name="GEOID">2172770</SimpleData>
+		<SimpleData name="NAMELSAD">Spring Mill city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">143601</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.1436101</SimpleData>
+		<SimpleData name="INTPTLON">-085.6315872</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.63547,38.144723 -85.635142,38.144708 -85.635048,38.144704 -85.63262,38.144588 -85.63215,38.144568 -85.631156,38.144521 -85.630529,38.144492 -85.630506,38.144494 -85.62957,38.144447 -85.628472,38.144396 -85.628302,38.144392 -85.628282,38.144153 -85.628185,38.144151 -85.627855,38.144145 -85.627746,38.144144 -85.627639,38.144153 -85.627595,38.144149 -85.627593,38.144134 -85.627575,38.14403 -85.627523,38.143756 -85.627719,38.143779 -85.62768,38.143621 -85.627686,38.143461 -85.627474,38.143499 -85.627402,38.143121 -85.62738,38.14298 -85.627347,38.142839 -85.627281,38.142493 -85.627447,38.142518 -85.630895,38.142671 -85.631928,38.142717 -85.632565,38.142746 -85.634221,38.142824 -85.634467,38.142839 -85.634838,38.142865 -85.635559,38.142914 -85.635669,38.144722 -85.63547,38.144723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

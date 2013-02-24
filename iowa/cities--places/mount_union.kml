@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mount_union</name>
+<Schema name="mount_union" id="mount_union">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mount Union</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mount_union">
+		<SimpleData name="Name">Mount Union</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">54795</SimpleData>
+		<SimpleData name="PLACENS">02395127</SimpleData>
+		<SimpleData name="GEOID">1954795</SimpleData>
+		<SimpleData name="NAMELSAD">Mount Union city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">290005</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0576119</SimpleData>
+		<SimpleData name="INTPTLON">-091.3908331</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.396109,41.05983 -91.39529,41.059827 -91.394737,41.059812 -91.393584,41.059789 -91.392689,41.05978 -91.39234,41.059775 -91.391155,41.059759 -91.389974,41.059732 -91.387962,41.059714 -91.387535,41.059717 -91.387576,41.0588 -91.387578,41.058584 -91.387585,41.057905 -91.387588,41.057002 -91.387592,41.056263 -91.387581,41.056154 -91.387637,41.053917 -91.390013,41.054882 -91.390576,41.055104 -91.391058,41.055445 -91.392239,41.056051 -91.393081,41.056716 -91.394735,41.057748 -91.395021,41.058117 -91.395899,41.059496 -91.396109,41.05983</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

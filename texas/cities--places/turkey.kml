@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>turkey</name>
+<Schema name="turkey" id="turkey">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Turkey</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#turkey">
+		<SimpleData name="Name">Turkey</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">73964</SimpleData>
+		<SimpleData name="PLACENS">02412113</SimpleData>
+		<SimpleData name="GEOID">4873964</SimpleData>
+		<SimpleData name="NAMELSAD">Turkey city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2118792</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.3939221</SimpleData>
+		<SimpleData name="INTPTLON">-100.8953020</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-100.887216,34.398711 -100.887215,34.398865 -100.887139,34.398865 -100.886109,34.398864 -100.886111,34.398032 -100.887089,34.398043 -100.887217,34.398039 -100.887216,34.398711</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-100.901258,34.392785 -100.90154,34.394933 -100.901549,34.39731 -100.901544,34.397501 -100.901547,34.398806 -100.901547,34.40163 -100.901548,34.402187 -100.900934,34.402192 -100.89872,34.402211 -100.897611,34.402211 -100.894266,34.402283 -100.89051,34.402265 -100.890518,34.399865 -100.890522,34.399018 -100.890523,34.398682 -100.889951,34.398708 -100.887765,34.398707 -100.887701,34.398074 -100.887706,34.398038 -100.887924,34.39705 -100.887844,34.39581 -100.887786,34.394843 -100.887764,34.393821 -100.887745,34.39285 -100.887733,34.391915 -100.88773,34.391719 -100.887712,34.390928 -100.887673,34.390715 -100.888946,34.390715 -100.889642,34.390723 -100.889531,34.388754 -100.889665,34.388762 -100.889911,34.388744 -100.891949,34.388768 -100.892008,34.385138 -100.89527,34.384959 -100.901032,34.385067 -100.901591,34.385071 -100.901258,34.392785</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>clay_center</name>
+<Schema name="clay_center" id="clay_center">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Clay Center</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clay_center">
+		<SimpleData name="Name">Clay Center</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">15588</SimpleData>
+		<SimpleData name="PLACENS">02397636</SimpleData>
+		<SimpleData name="GEOID">3915588</SimpleData>
+		<SimpleData name="NAMELSAD">Clay Center village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2684754</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.5732260</SimpleData>
+		<SimpleData name="INTPTLON">-083.3642871</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.372975,41.581294 -83.368128,41.581303 -83.36816,41.581998 -83.368176,41.582153 -83.368226,41.585839 -83.360326,41.585897 -83.360348,41.585562 -83.360369,41.585213 -83.35851,41.58529 -83.35852,41.581617 -83.358521,41.581248 -83.358527,41.577699 -83.358527,41.574351 -83.358524,41.567708 -83.358533,41.56584 -83.358559,41.56336 -83.358565,41.562513 -83.358567,41.562309 -83.358579,41.561589 -83.358594,41.559969 -83.358592,41.559668 -83.359495,41.559666 -83.361838,41.559644 -83.365357,41.5596 -83.367754,41.55957 -83.368426,41.559562 -83.368427,41.56141 -83.368421,41.56177 -83.368426,41.561995 -83.368419,41.562463 -83.368417,41.562623 -83.368418,41.563336 -83.368421,41.564598 -83.368403,41.566262 -83.368398,41.567567 -83.36841,41.568331 -83.368405,41.568646 -83.368416,41.570158 -83.368444,41.573908 -83.368452,41.57408 -83.368467,41.574129 -83.368477,41.574142 -83.368491,41.574154 -83.368516,41.574167 -83.368581,41.574186 -83.368724,41.574192 -83.369625,41.574167 -83.372958,41.574097 -83.372975,41.581294</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

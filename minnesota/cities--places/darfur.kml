@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>darfur</name>
+<Schema name="darfur" id="darfur">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Darfur</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#darfur">
+		<SimpleData name="Name">Darfur</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">14770</SimpleData>
+		<SimpleData name="PLACENS">02393719</SimpleData>
+		<SimpleData name="GEOID">2714770</SimpleData>
+		<SimpleData name="NAMELSAD">Darfur city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">907244</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.0538138</SimpleData>
+		<SimpleData name="INTPTLON">-094.8356821</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.841801,44.051784 -94.841802,44.055803 -94.841803,44.057143 -94.841787,44.057775 -94.841783,44.057952 -94.84006,44.057939 -94.839427,44.057935 -94.835933,44.057927 -94.829224,44.057914 -94.829257,44.054143 -94.829289,44.05065 -94.829346,44.050649 -94.830197,44.050635 -94.830922,44.050624 -94.832217,44.050617 -94.832924,44.050607 -94.833833,44.050596 -94.83386,44.050595 -94.833943,44.050594 -94.833971,44.050594 -94.834023,44.050592 -94.834181,44.05059 -94.834234,44.05059 -94.834391,44.050587 -94.834393,44.050343 -94.834405,44.048632 -94.83939,44.048647 -94.839389,44.048703 -94.839389,44.048873 -94.839389,44.04893 -94.839388,44.049047 -94.839386,44.0494 -94.839386,44.049518 -94.839386,44.049717 -94.839388,44.050048 -94.839392,44.050316 -94.839395,44.050516 -94.839694,44.05051 -94.840124,44.050502 -94.840593,44.050486 -94.840893,44.050477 -94.841074,44.05047 -94.841619,44.050451 -94.841801,44.050445 -94.841801,44.051784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

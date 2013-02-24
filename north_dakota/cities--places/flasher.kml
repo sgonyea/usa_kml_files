@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>flasher</name>
+<Schema name="flasher" id="flasher">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Flasher</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#flasher">
+		<SimpleData name="Name">Flasher</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">26660</SimpleData>
+		<SimpleData name="PLACENS">01036034</SimpleData>
+		<SimpleData name="GEOID">3826660</SimpleData>
+		<SimpleData name="NAMELSAD">Flasher city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1815909</SimpleData>
+		<SimpleData name="AWATER">23467</SimpleData>
+		<SimpleData name="INTPTLAT">+46.4520995</SimpleData>
+		<SimpleData name="INTPTLON">-101.2328605</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.239232,46.444112 -101.239263,46.451682 -101.239267,46.452665 -101.239267,46.452764 -101.239183,46.454319 -101.23929,46.458409 -101.239298,46.4602 -101.236701,46.460268 -101.226274,46.460239 -101.225997,46.460238 -101.226074,46.458397 -101.226049,46.457776 -101.226004,46.453349 -101.226042,46.451107 -101.226042,46.450982 -101.226044,46.450434 -101.226069,46.443892 -101.226403,46.443897 -101.226815,46.443888 -101.227764,46.443881 -101.22863,46.443882 -101.23028,46.443896 -101.230412,46.443894 -101.231214,46.443885 -101.231433,46.443886 -101.232178,46.443894 -101.232616,46.443903 -101.232921,46.443915 -101.233107,46.443933 -101.233301,46.443966 -101.2339,46.444043 -101.234771,46.444032 -101.236181,46.443997 -101.237867,46.443996 -101.239232,46.443978 -101.239232,46.444112</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

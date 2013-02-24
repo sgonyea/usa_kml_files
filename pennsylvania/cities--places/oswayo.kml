@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>oswayo</name>
+<Schema name="oswayo" id="oswayo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Oswayo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#oswayo">
+		<SimpleData name="Name">Oswayo</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">57280</SimpleData>
+		<SimpleData name="PLACENS">01215539</SimpleData>
+		<SimpleData name="GEOID">4257280</SimpleData>
+		<SimpleData name="NAMELSAD">Oswayo borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3573462</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9206640</SimpleData>
+		<SimpleData name="INTPTLON">-078.0205424</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.033413,41.928688 -78.024029,41.928783 -78.023667,41.928786 -78.022986,41.928789 -78.022513,41.928791 -78.01931,41.928805 -78.017979,41.928814 -78.01254,41.928822 -78.012437,41.926521 -78.012331,41.924191 -78.011287,41.924175 -78.011212,41.924171 -78.010965,41.924161 -78.01062,41.924153 -78.007442,41.924079 -78.006977,41.924069 -78.006569,41.924059 -78.00627,41.924052 -78.006273,41.923505 -78.006341,41.913403 -78.006914,41.913384 -78.007548,41.913399 -78.009141,41.91337 -78.011345,41.91336 -78.027207,41.913259 -78.028079,41.913252 -78.028823,41.913247 -78.029298,41.913244 -78.029765,41.913238 -78.030221,41.913233 -78.032612,41.913218 -78.033025,41.913216 -78.033076,41.91529 -78.033413,41.928688</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

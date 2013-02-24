@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>excelsior_estates</name>
+<Schema name="excelsior_estates" id="excelsior_estates">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Excelsior Estates</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#excelsior_estates">
+		<SimpleData name="Name">Excelsior Estates</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">23077</SimpleData>
+		<SimpleData name="PLACENS">02398849</SimpleData>
+		<SimpleData name="GEOID">2923077</SimpleData>
+		<SimpleData name="NAMELSAD">Excelsior Estates village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">619180</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.3899502</SimpleData>
+		<SimpleData name="INTPTLON">-094.2081842</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.212709,39.392788 -94.212026,39.39342 -94.211266,39.394858 -94.211237,39.394607 -94.211305,39.394266 -94.211306,39.394237 -94.211313,39.39394 -94.211331,39.393239 -94.210102,39.393232 -94.208922,39.393227 -94.203377,39.393204 -94.20342,39.386478 -94.20651,39.386502 -94.207729,39.386511 -94.208683,39.386513 -94.208694,39.385898 -94.208698,39.385689 -94.209005,39.385701 -94.21076,39.385806 -94.21159,39.385805 -94.211569,39.386853 -94.211563,39.387928 -94.211565,39.388092 -94.211434,39.388234 -94.211432,39.388452 -94.211432,39.388508 -94.211425,39.389377 -94.211417,39.389633 -94.2121,39.389619 -94.212721,39.389811 -94.212762,39.389823 -94.214704,39.391241 -94.214859,39.391261 -94.214957,39.391323 -94.212709,39.392788</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

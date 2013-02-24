@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>goose_lake</name>
+<Schema name="goose_lake" id="goose_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Goose Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#goose_lake">
+		<SimpleData name="Name">Goose Lake</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">31665</SimpleData>
+		<SimpleData name="PLACENS">02394932</SimpleData>
+		<SimpleData name="GEOID">1931665</SimpleData>
+		<SimpleData name="NAMELSAD">Goose Lake city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">817468</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9678834</SimpleData>
+		<SimpleData name="INTPTLON">-090.3817616</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.390741,41.968217 -90.39016,41.968256 -90.388421,41.968376 -90.387841,41.968416 -90.387852,41.96997 -90.387864,41.971596 -90.384826,41.971593 -90.383272,41.971592 -90.38185,41.971591 -90.378194,41.97159 -90.378191,41.970981 -90.378186,41.96956 -90.377815,41.969551 -90.376703,41.969526 -90.376333,41.969518 -90.375779,41.96924 -90.375724,41.969212 -90.375297,41.968994 -90.375111,41.968362 -90.37466,41.968127 -90.374265,41.968099 -90.373907,41.968075 -90.373661,41.967868 -90.373396,41.967882 -90.373365,41.964756 -90.373627,41.96477 -90.375204,41.964989 -90.378131,41.965458 -90.37814,41.965382 -90.378136,41.964623 -90.387767,41.964646 -90.387791,41.966851 -90.387794,41.966869 -90.387803,41.966923 -90.387807,41.966942 -90.388373,41.967028 -90.390071,41.967288 -90.390638,41.967375 -90.390648,41.967544 -90.390663,41.967776 -90.390711,41.968049 -90.390741,41.968217</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

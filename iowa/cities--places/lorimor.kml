@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lorimor</name>
+<Schema name="lorimor" id="lorimor">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lorimor</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lorimor">
+		<SimpleData name="Name">Lorimor</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">46515</SimpleData>
+		<SimpleData name="PLACENS">02395765</SimpleData>
+		<SimpleData name="GEOID">1946515</SimpleData>
+		<SimpleData name="NAMELSAD">Lorimor city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">981305</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1266756</SimpleData>
+		<SimpleData name="INTPTLON">-094.0570493</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.064442,41.125172 -94.064453,41.12526 -94.064467,41.12704 -94.064459,41.12809 -94.06449,41.128734 -94.061778,41.128765 -94.061778,41.131043 -94.052607,41.131059 -94.052606,41.13017 -94.052625,41.129372 -94.052649,41.129157 -94.052673,41.129097 -94.052677,41.12907 -94.052765,41.128772 -94.052883,41.128471 -94.052958,41.128328 -94.049231,41.128309 -94.049227,41.128088 -94.049221,41.125 -94.049196,41.124996 -94.049202,41.124536 -94.049208,41.124059 -94.049214,41.123651 -94.049268,41.123641 -94.049491,41.12364 -94.050712,41.12364 -94.052557,41.123646 -94.052554,41.123385 -94.052552,41.122117 -94.053974,41.122103 -94.053992,41.12321 -94.057499,41.123198 -94.058286,41.123188 -94.058871,41.122165 -94.059643,41.12218 -94.059685,41.123172 -94.064445,41.123235 -94.064442,41.125172</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

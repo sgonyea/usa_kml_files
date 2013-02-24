@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>raleigh</name>
+<Schema name="raleigh" id="raleigh">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Raleigh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#raleigh">
+		<SimpleData name="Name">Raleigh</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">65100</SimpleData>
+		<SimpleData name="PLACENS">02584354</SimpleData>
+		<SimpleData name="GEOID">3865100</SimpleData>
+		<SimpleData name="NAMELSAD">Raleigh CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">743420</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.3571430</SimpleData>
+		<SimpleData name="INTPTLON">-101.3053831</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.312834,46.35697 -101.312812,46.359246 -101.309692,46.359238 -101.309704,46.360341 -101.306197,46.360335 -101.305979,46.360372 -101.30576,46.360397 -101.305533,46.360417 -101.305246,46.360435 -101.305015,46.360444 -101.304651,46.360464 -101.304097,46.36051 -101.303936,46.360516 -101.303396,46.360557 -101.303201,46.360566 -101.302175,46.360631 -101.301914,46.360657 -101.301679,46.360669 -101.301406,46.360704 -101.301216,46.360718 -101.300997,46.360745 -101.3008,46.360784 -101.300426,46.360879 -101.300176,46.360979 -101.299706,46.361193 -101.29949,46.3613 -101.299326,46.361335 -101.299004,46.361357 -101.299002,46.361023 -101.299008,46.360425 -101.298994,46.359695 -101.299008,46.357759 -101.299004,46.357387 -101.299002,46.35698 -101.299002,46.356845 -101.299006,46.356423 -101.299012,46.35569 -101.299056,46.354963 -101.29907,46.354833 -101.299078,46.354759 -101.299128,46.354502 -101.299221,46.354136 -101.299362,46.353713 -101.304564,46.353761 -101.308956,46.353761 -101.310685,46.354497 -101.311016,46.354543 -101.311809,46.35484 -101.312602,46.355343 -101.312898,46.355456 -101.312834,46.35697</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

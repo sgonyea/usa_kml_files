@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>harpster</name>
+<Schema name="harpster" id="harpster">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Harpster</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#harpster">
+		<SimpleData name="Name">Harpster</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">33656</SimpleData>
+		<SimpleData name="PLACENS">02398250</SimpleData>
+		<SimpleData name="GEOID">3933656</SimpleData>
+		<SimpleData name="NAMELSAD">Harpster village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5103788</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7384290</SimpleData>
+		<SimpleData name="INTPTLON">-083.2501783</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.259941,40.752763 -83.258403,40.752731 -83.25261,40.752827 -83.25245,40.752832 -83.249901,40.752771 -83.240859,40.75282 -83.240843,40.749333 -83.240834,40.748658 -83.240836,40.747892 -83.240821,40.746316 -83.240808,40.745776 -83.24071,40.738264 -83.240632,40.732266 -83.240543,40.725359 -83.240527,40.724042 -83.240833,40.72404 -83.250429,40.724083 -83.252386,40.724087 -83.254258,40.724096 -83.256181,40.724105 -83.256952,40.724103 -83.259504,40.724113 -83.259613,40.734183 -83.259661,40.738118 -83.259746,40.747727 -83.259765,40.750053 -83.25983,40.751027 -83.259941,40.752763</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

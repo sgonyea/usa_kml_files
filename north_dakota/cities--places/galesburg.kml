@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>galesburg</name>
+<Schema name="galesburg" id="galesburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Galesburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#galesburg">
+		<SimpleData name="Name">Galesburg</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">28980</SimpleData>
+		<SimpleData name="PLACENS">01036049</SimpleData>
+		<SimpleData name="GEOID">3828980</SimpleData>
+		<SimpleData name="NAMELSAD">Galesburg city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">445790</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.2701843</SimpleData>
+		<SimpleData name="INTPTLON">-097.4087443</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.414964,47.26958 -97.415071,47.271575 -97.410842,47.271566 -97.409809,47.271549 -97.409883,47.27379 -97.409884,47.274307 -97.409275,47.274301 -97.409179,47.274153 -97.408981,47.273949 -97.408859,47.273819 -97.408792,47.273748 -97.408632,47.272964 -97.408223,47.272924 -97.406685,47.272895 -97.404324,47.272908 -97.40423,47.271512 -97.402926,47.271479 -97.40295,47.271003 -97.403066,47.267888 -97.404257,47.267884 -97.405168,47.267874 -97.405304,47.267861 -97.406173,47.267884 -97.406694,47.267887 -97.407309,47.26788 -97.408182,47.267886 -97.408803,47.26788 -97.4097,47.267892 -97.409897,47.267895 -97.410759,47.267896 -97.412246,47.26789 -97.415003,47.267886 -97.414964,47.26958</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

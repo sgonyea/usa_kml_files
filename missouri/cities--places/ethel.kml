@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ethel</name>
+<Schema name="ethel" id="ethel">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ethel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ethel">
+		<SimpleData name="Name">Ethel</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">22672</SimpleData>
+		<SimpleData name="PLACENS">02396929</SimpleData>
+		<SimpleData name="GEOID">2922672</SimpleData>
+		<SimpleData name="NAMELSAD">Ethel town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">592396</SimpleData>
+		<SimpleData name="AWATER">1167</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8937808</SimpleData>
+		<SimpleData name="INTPTLON">-092.7407103</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.747196,39.895117 -92.747212,39.896343 -92.739034,39.896129 -92.738902,39.896115 -92.738913,39.895937 -92.738075,39.895952 -92.737052,39.895917 -92.735303,39.895899 -92.734951,39.895902 -92.734952,39.895734 -92.734929,39.894187 -92.734931,39.893782 -92.734954,39.892251 -92.736566,39.892394 -92.736167,39.891665 -92.736143,39.891621 -92.738769,39.891617 -92.7388,39.890791 -92.73883,39.889736 -92.739255,39.889748 -92.739285,39.888784 -92.743495,39.888794 -92.743551,39.890246 -92.74371,39.890907 -92.743674,39.891597 -92.743673,39.891637 -92.743668,39.892518 -92.743651,39.892974 -92.747039,39.893086 -92.747233,39.893112 -92.747196,39.895117</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

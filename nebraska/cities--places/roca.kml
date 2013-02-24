@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>roca</name>
+<Schema name="roca" id="roca">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Roca</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roca">
+		<SimpleData name="Name">Roca</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">41830</SimpleData>
+		<SimpleData name="PLACENS">02399098</SimpleData>
+		<SimpleData name="GEOID">3141830</SimpleData>
+		<SimpleData name="NAMELSAD">Roca village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">360307</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6584645</SimpleData>
+		<SimpleData name="INTPTLON">-096.6613997</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.666281,40.6611 -96.658027,40.661094 -96.657922,40.661094 -96.657934,40.660017 -96.657948,40.658741 -96.657959,40.657739 -96.657959,40.65765 -96.657962,40.657524 -96.658011,40.657524 -96.658009,40.657431 -96.658006,40.656891 -96.658008,40.656292 -96.657995,40.656198 -96.657997,40.655709 -96.658715,40.655702 -96.658715,40.655442 -96.658727,40.655442 -96.659976,40.655431 -96.659976,40.655052 -96.659998,40.65505 -96.6612,40.655043 -96.6612,40.654941 -96.661171,40.653872 -96.661279,40.653871 -96.661312,40.65568 -96.66239,40.655671 -96.663633,40.65566 -96.663664,40.655751 -96.663691,40.655828 -96.663734,40.655944 -96.663942,40.656549 -96.664173,40.657212 -96.664273,40.65748 -96.664317,40.657588 -96.664386,40.657746 -96.664408,40.657795 -96.664446,40.657878 -96.66451,40.658009 -96.664646,40.658268 -96.664831,40.658582 -96.665131,40.659065 -96.665051,40.659065 -96.665263,40.659408 -96.666001,40.660596 -96.666042,40.660661 -96.666114,40.660783 -96.666184,40.660906 -96.66625,40.66103 -96.666281,40.6611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

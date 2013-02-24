@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>canton</name>
+<Schema name="canton" id="canton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Canton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#canton">
+		<SimpleData name="Name">Canton</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">10475</SimpleData>
+		<SimpleData name="PLACENS">02393735</SimpleData>
+		<SimpleData name="GEOID">2010475</SimpleData>
+		<SimpleData name="NAMELSAD">Canton city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1300034</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.3859386</SimpleData>
+		<SimpleData name="INTPTLON">-097.4300399</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.436546,38.384245 -97.436541,38.385311 -97.436516,38.391313 -97.435076,38.391308 -97.433184,38.391321 -97.431954,38.391323 -97.429548,38.391332 -97.427219,38.391348 -97.426809,38.39136 -97.426107,38.391415 -97.42603,38.391349 -97.425306,38.391352 -97.425305,38.392213 -97.423857,38.392202 -97.423858,38.391352 -97.423942,38.391352 -97.42402,38.385671 -97.424019,38.384449 -97.424384,38.384452 -97.424382,38.384273 -97.424422,38.381645 -97.424417,38.380749 -97.425112,38.380695 -97.425947,38.380518 -97.426502,38.380532 -97.426824,38.380533 -97.427149,38.380532 -97.427148,38.380437 -97.427744,38.38043 -97.42973,38.38041 -97.429729,38.378043 -97.431915,38.378037 -97.431926,38.379047 -97.431932,38.380298 -97.433134,38.380309 -97.434261,38.380315 -97.434201,38.383574 -97.436271,38.383575 -97.436269,38.384059 -97.436547,38.384063 -97.436546,38.384245</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

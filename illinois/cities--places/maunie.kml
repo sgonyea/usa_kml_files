@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>maunie</name>
+<Schema name="maunie" id="maunie">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Maunie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#maunie">
+		<SimpleData name="Name">Maunie</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">47592</SimpleData>
+		<SimpleData name="PLACENS">02399276</SimpleData>
+		<SimpleData name="GEOID">1747592</SimpleData>
+		<SimpleData name="NAMELSAD">Maunie village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">412855</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.0353587</SimpleData>
+		<SimpleData name="INTPTLON">-088.0457213</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.04843,38.038167 -88.048073,38.038164 -88.047627,38.038161 -88.047089,38.038155 -88.047122,38.038259 -88.04713,38.038396 -88.047121,38.039067 -88.04395,38.039039 -88.043835,38.038571 -88.043748,38.038502 -88.043748,38.038388 -88.043604,38.038173 -88.043488,38.037999 -88.043488,38.037861 -88.043343,38.037564 -88.043283,38.037337 -88.043228,38.037129 -88.042967,38.036671 -88.042462,38.03613 -88.042482,38.035619 -88.042484,38.033003 -88.042445,38.032598 -88.042455,38.032385 -88.042567,38.032226 -88.04257,38.03179 -88.042574,38.031157 -88.04484,38.031141 -88.044802,38.03202 -88.045942,38.032025 -88.046659,38.032028 -88.04697,38.032026 -88.047098,38.032066 -88.047183,38.032128 -88.047151,38.032496 -88.047134,38.033285 -88.047125,38.033652 -88.047125,38.033681 -88.048196,38.033721 -88.048298,38.034565 -88.048468,38.034564 -88.049713,38.034561 -88.049704,38.035402 -88.049677,38.035766 -88.049681,38.035828 -88.049699,38.036162 -88.049688,38.036815 -88.049763,38.038176 -88.04843,38.038167</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

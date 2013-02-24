@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rhame</name>
+<Schema name="rhame" id="rhame">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rhame</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rhame">
+		<SimpleData name="Name">Rhame</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">66300</SimpleData>
+		<SimpleData name="PLACENS">01036237</SimpleData>
+		<SimpleData name="GEOID">3866300</SimpleData>
+		<SimpleData name="NAMELSAD">Rhame city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3897732</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.2346126</SimpleData>
+		<SimpleData name="INTPTLON">-103.6551629</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.670699,46.227404 -103.670765,46.234635 -103.670845,46.240045 -103.67087,46.241368 -103.670961,46.241948 -103.670699,46.241965 -103.660488,46.241876 -103.642677,46.241806 -103.640496,46.241805 -103.640077,46.241805 -103.63951,46.241797 -103.63952,46.239841 -103.639512,46.239821 -103.639447,46.239432 -103.639426,46.238332 -103.639421,46.238052 -103.639416,46.236903 -103.639419,46.236126 -103.639413,46.23538 -103.639429,46.234766 -103.639433,46.234645 -103.639561,46.227314 -103.644759,46.227366 -103.645739,46.227366 -103.647766,46.22737 -103.650052,46.227368 -103.660207,46.227333 -103.661518,46.227333 -103.670698,46.227302 -103.670699,46.227404</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

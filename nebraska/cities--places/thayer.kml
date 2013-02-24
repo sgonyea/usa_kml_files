@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>thayer</name>
+<Schema name="thayer" id="thayer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Thayer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#thayer">
+		<SimpleData name="Name">Thayer</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">48690</SimpleData>
+		<SimpleData name="PLACENS">02399965</SimpleData>
+		<SimpleData name="GEOID">3148690</SimpleData>
+		<SimpleData name="NAMELSAD">Thayer village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">754690</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9703046</SimpleData>
+		<SimpleData name="INTPTLON">-097.4966446</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.501774,40.965983 -97.501806,40.968112 -97.501843,40.971078 -97.501846,40.971364 -97.501864,40.973215 -97.497746,40.973262 -97.497721,40.974214 -97.497209,40.974224 -97.497207,40.973268 -97.49587,40.973282 -97.495859,40.973832 -97.494607,40.973753 -97.494556,40.975176 -97.495725,40.975257 -97.495745,40.976031 -97.494572,40.97601 -97.494593,40.976781 -97.492173,40.976799 -97.49215,40.973339 -97.492399,40.966052 -97.500135,40.965799 -97.501773,40.96588 -97.501774,40.965983</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

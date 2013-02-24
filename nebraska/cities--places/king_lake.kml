@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>king_lake</name>
+<Schema name="king_lake" id="king_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>King Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#king_lake">
+		<SimpleData name="Name">King Lake</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">25510</SimpleData>
+		<SimpleData name="PLACENS">02583885</SimpleData>
+		<SimpleData name="GEOID">3125510</SimpleData>
+		<SimpleData name="NAMELSAD">King Lake CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2559565</SimpleData>
+		<SimpleData name="AWATER">64897</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3096721</SimpleData>
+		<SimpleData name="INTPTLON">-096.3022733</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.311602,41.316934 -96.311397,41.317324 -96.311414,41.320821 -96.304971,41.320878 -96.293884,41.320858 -96.29333,41.320869 -96.293358,41.320552 -96.29357,41.319778 -96.293552,41.319311 -96.293409,41.318709 -96.293328,41.318529 -96.293053,41.317921 -96.292902,41.317586 -96.291848,41.316044 -96.291842,41.315703 -96.291851,41.315599 -96.2918,41.315395 -96.291782,41.315208 -96.291629,41.313561 -96.291501,41.312198 -96.291401,41.306298 -96.298223,41.306335 -96.30453,41.306383 -96.306005,41.306397 -96.306428,41.30642 -96.30684,41.306434 -96.307064,41.306432 -96.307438,41.306413 -96.3077,41.306408 -96.309348,41.306467 -96.311358,41.306556 -96.311374,41.31354 -96.311789,41.314142 -96.312036,41.314558 -96.312272,41.314968 -96.312354,41.315569 -96.311602,41.316934</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

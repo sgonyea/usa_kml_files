@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>shishmaref</name>
+<Schema name="shishmaref" id="shishmaref">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Shishmaref</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#shishmaref">
+		<SimpleData name="Name">Shishmaref</SimpleData>
+		<SimpleData name="STATEFP">02</SimpleData>
+		<SimpleData name="PLACEFP">69770</SimpleData>
+		<SimpleData name="PLACENS">02418855</SimpleData>
+		<SimpleData name="GEOID">0269770</SimpleData>
+		<SimpleData name="NAMELSAD">Shishmaref city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5756627</SimpleData>
+		<SimpleData name="AWATER">13059632</SimpleData>
+		<SimpleData name="INTPTLAT">+66.2349991</SimpleData>
+		<SimpleData name="INTPTLON">-166.1191387</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-166.153012,66.212289 -166.170909,66.218437 -166.172071,66.219909 -166.178474,66.228016 -166.177606,66.234732 -166.168636,66.237933 -166.165412,66.239084 -166.152374,66.246373 -166.129652,66.252813 -166.102609,66.258567 -166.101781,66.258743 -166.092472,66.26008 -166.083327,66.261394 -166.077428,66.262242 -166.066097,66.263721 -166.063513,66.264058 -166.056379,66.26499 -166.055758,66.264981 -166.053153,66.264944 -166.048896,66.264882 -166.036701,66.264708 -166.036126,66.264698 -166.03187,66.264639 -166.031342,66.264631 -166.024327,66.257194 -166.019921,66.252754 -166.039227,66.250168 -166.066397,66.246531 -166.096969,66.237833 -166.121659,66.214773 -166.137523,66.210331 -166.13839,66.210089 -166.153012,66.212289</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

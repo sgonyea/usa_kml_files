@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>alden</name>
+<Schema name="alden" id="alden">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Alden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#alden">
+		<SimpleData name="Name">Alden</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">01088</SimpleData>
+		<SimpleData name="PLACENS">02391505</SimpleData>
+		<SimpleData name="GEOID">3601088</SimpleData>
+		<SimpleData name="NAMELSAD">Alden village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">7040219</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8988786</SimpleData>
+		<SimpleData name="INTPTLON">-078.4946069</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.500762,42.911254 -78.500715,42.911245 -78.500638,42.911257 -78.498202,42.91125 -78.492196,42.911165 -78.478123,42.910998 -78.478188,42.905359 -78.478247,42.900318 -78.478252,42.899926 -78.478415,42.895582 -78.478507,42.893272 -78.478564,42.89193 -78.47859,42.891234 -78.478659,42.889361 -78.484509,42.889255 -78.484938,42.885959 -78.496498,42.886254 -78.511332,42.886572 -78.511215,42.89475 -78.511225,42.894887 -78.509645,42.895274 -78.509727,42.897167 -78.509745,42.900361 -78.509733,42.900521 -78.509757,42.90812 -78.50983,42.911161 -78.500762,42.911254</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

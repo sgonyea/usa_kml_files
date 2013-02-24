@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bushnell</name>
+<Schema name="bushnell" id="bushnell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bushnell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bushnell">
+		<SimpleData name="Name">Bushnell</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">07415</SimpleData>
+		<SimpleData name="PLACENS">02397510</SimpleData>
+		<SimpleData name="GEOID">3107415</SimpleData>
+		<SimpleData name="NAMELSAD">Bushnell village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">591488</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2327290</SimpleData>
+		<SimpleData name="INTPTLON">-103.8911248</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.895771,41.229623 -103.895794,41.230676 -103.895883,41.234696 -103.895545,41.2347 -103.89431,41.234736 -103.894327,41.2366 -103.894065,41.236616 -103.89285,41.236651 -103.8927,41.236655 -103.891056,41.236649 -103.88809,41.236698 -103.888013,41.234811 -103.888008,41.234699 -103.887978,41.23406 -103.886987,41.234087 -103.886323,41.234126 -103.885522,41.234409 -103.885504,41.234172 -103.885496,41.234062 -103.885465,41.233461 -103.885465,41.233251 -103.885465,41.232767 -103.885465,41.232237 -103.885466,41.231926 -103.885467,41.231107 -103.886036,41.231111 -103.889778,41.229746 -103.889986,41.229673 -103.890107,41.229616 -103.889546,41.228736 -103.890583,41.228336 -103.891552,41.228184 -103.892293,41.22921 -103.892565,41.229108 -103.892547,41.229349 -103.892545,41.229393 -103.892844,41.229381 -103.894268,41.229328 -103.894924,41.229308 -103.895521,41.229306 -103.895764,41.229285 -103.895771,41.229623</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

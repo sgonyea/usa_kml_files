@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>flat_rock</name>
+<Schema name="flat_rock" id="flat_rock">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Flat Rock</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#flat_rock">
+		<SimpleData name="Name">Flat Rock</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">27356</SimpleData>
+		<SimpleData name="PLACENS">02628891</SimpleData>
+		<SimpleData name="GEOID">3927356</SimpleData>
+		<SimpleData name="NAMELSAD">Flat Rock CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">541725</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2354899</SimpleData>
+		<SimpleData name="INTPTLON">-082.8591569</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.862088,41.233425 -82.861737,41.233974 -82.860999,41.234963 -82.860443,41.235967 -82.860186,41.236304 -82.860175,41.237134 -82.860165,41.240686 -82.859463,41.240681 -82.859473,41.241123 -82.859446,41.24294 -82.859438,41.243349 -82.855379,41.243361 -82.85725,41.240646 -82.857315,41.240546 -82.856223,41.233849 -82.856824,41.233623 -82.856797,41.230489 -82.858053,41.230512 -82.858212,41.230415 -82.858265,41.230207 -82.858402,41.230037 -82.858699,41.229997 -82.859039,41.229868 -82.85922,41.229763 -82.859708,41.22981 -82.864588,41.229922 -82.862088,41.233425</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

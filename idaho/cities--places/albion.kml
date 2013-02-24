@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>albion</name>
+<Schema name="albion" id="albion">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Albion</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#albion">
+		<SimpleData name="Name">Albion</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">01000</SimpleData>
+		<SimpleData name="PLACENS">02409677</SimpleData>
+		<SimpleData name="GEOID">1601000</SimpleData>
+		<SimpleData name="NAMELSAD">Albion city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1222683</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.4095765</SimpleData>
+		<SimpleData name="INTPTLON">-113.5800124</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-113.58505,42.406788 -113.58505,42.407607 -113.58505,42.408206 -113.585004,42.411795 -113.586285,42.411819 -113.586943,42.411828 -113.586943,42.411928 -113.586952,42.413056 -113.586964,42.414427 -113.586956,42.415631 -113.585237,42.415667 -113.58459,42.41569 -113.58291,42.415708 -113.58103,42.415714 -113.580936,42.415719 -113.574285,42.415836 -113.574291,42.41524 -113.574263,42.414058 -113.572491,42.414401 -113.57225,42.4136 -113.572289,42.413599 -113.573345,42.413455 -113.573559,42.413421 -113.573605,42.413038 -113.574403,42.411804 -113.574442,42.411262 -113.575939,42.41127 -113.575942,42.410881 -113.577375,42.410851 -113.577463,42.410264 -113.577946,42.410174 -113.57796,42.409534 -113.577862,42.408693 -113.57716,42.408724 -113.577152,42.408052 -113.575113,42.408088 -113.575037,42.404677 -113.575497,42.404685 -113.578374,42.404637 -113.578411,42.403477 -113.573936,42.403406 -113.573781,42.40329 -113.573252,42.402892 -113.573266,42.402365 -113.574892,42.401623 -113.574911,42.40102 -113.5758,42.401021 -113.576123,42.401022 -113.578479,42.401026 -113.578453,42.401976 -113.580909,42.40198 -113.580909,42.403919 -113.58138,42.403919 -113.581366,42.404643 -113.584791,42.404652 -113.585051,42.404653 -113.58505,42.406788</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

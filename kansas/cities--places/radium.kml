@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>radium</name>
+<Schema name="radium" id="radium">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Radium</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#radium">
+		<SimpleData name="Name">Radium</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">58300</SimpleData>
+		<SimpleData name="PLACENS">02396306</SimpleData>
+		<SimpleData name="GEOID">2058300</SimpleData>
+		<SimpleData name="NAMELSAD">Radium city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">106810</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.1738007</SimpleData>
+		<SimpleData name="INTPTLON">-098.8944687</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.898176,38.174241 -98.898181,38.174489 -98.898176,38.174647 -98.895713,38.174615 -98.895663,38.17496 -98.894684,38.175015 -98.894684,38.175327 -98.894195,38.175366 -98.894186,38.175184 -98.892134,38.175187 -98.892109,38.174963 -98.891659,38.174945 -98.891639,38.174656 -98.892186,38.17466 -98.892197,38.174471 -98.89222,38.174244 -98.892253,38.173259 -98.893462,38.173256 -98.893469,38.172544 -98.893464,38.172468 -98.893475,38.172404 -98.893496,38.172366 -98.893523,38.172336 -98.893553,38.172321 -98.893607,38.172311 -98.893918,38.172296 -98.894041,38.172298 -98.894675,38.172306 -98.894671,38.171527 -98.895716,38.171607 -98.895716,38.174107 -98.898171,38.174113 -98.898176,38.174241</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

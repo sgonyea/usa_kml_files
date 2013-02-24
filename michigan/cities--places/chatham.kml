@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>chatham</name>
+<Schema name="chatham" id="chatham">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Chatham</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#chatham">
+		<SimpleData name="Name">Chatham</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">14940</SimpleData>
+		<SimpleData name="PLACENS">02397607</SimpleData>
+		<SimpleData name="GEOID">2614940</SimpleData>
+		<SimpleData name="NAMELSAD">Chatham village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">6347475</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.3440769</SimpleData>
+		<SimpleData name="INTPTLON">-086.9312836</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.944249,46.358457 -86.940638,46.358461 -86.939439,46.358462 -86.939346,46.358463 -86.928893,46.358429 -86.918454,46.358371 -86.918463,46.358238 -86.918473,46.354752 -86.918272,46.349175 -86.918233,46.347546 -86.918371,46.342345 -86.918407,46.341511 -86.918362,46.340279 -86.918338,46.336365 -86.918344,46.333041 -86.918351,46.329707 -86.928771,46.329732 -86.944171,46.329737 -86.944176,46.333121 -86.944205,46.347581 -86.944224,46.353812 -86.944228,46.354806 -86.944249,46.358457</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

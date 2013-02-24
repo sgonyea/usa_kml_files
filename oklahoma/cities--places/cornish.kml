@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cornish</name>
+<Schema name="cornish" id="cornish">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cornish</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cornish">
+		<SimpleData name="Name">Cornish</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">17350</SimpleData>
+		<SimpleData name="PLACENS">02413243</SimpleData>
+		<SimpleData name="GEOID">4017350</SimpleData>
+		<SimpleData name="NAMELSAD">Cornish town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1461079</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.1637144</SimpleData>
+		<SimpleData name="INTPTLON">-097.5967134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.604197,34.165246 -97.599726,34.165137 -97.599549,34.165123 -97.599525,34.167754 -97.599508,34.169826 -97.599513,34.172922 -97.599313,34.172922 -97.597445,34.172904 -97.597054,34.1729 -97.595086,34.172911 -97.593806,34.172905 -97.593708,34.172904 -97.593237,34.172881 -97.593184,34.171108 -97.593107,34.170113 -97.593063,34.169783 -97.593023,34.169483 -97.592287,34.169481 -97.592287,34.169283 -97.592369,34.167703 -97.592366,34.167435 -97.592373,34.167249 -97.592388,34.166215 -97.592356,34.16428 -97.592199,34.158382 -97.592171,34.155661 -97.592467,34.155653 -97.593039,34.155636 -97.59474,34.155651 -97.59751,34.155675 -97.600545,34.155674 -97.600545,34.158373 -97.601721,34.158373 -97.601692,34.163795 -97.604178,34.163795 -97.604197,34.165246</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>martinsville</name>
+<Schema name="martinsville" id="martinsville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Martinsville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#martinsville">
+		<SimpleData name="Name">Martinsville</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">48118</SimpleData>
+		<SimpleData name="PLACENS">02399267</SimpleData>
+		<SimpleData name="GEOID">3948118</SimpleData>
+		<SimpleData name="NAMELSAD">Martinsville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1137885</SimpleData>
+		<SimpleData name="AWATER">4051</SimpleData>
+		<SimpleData name="INTPTLAT">+39.3208543</SimpleData>
+		<SimpleData name="INTPTLON">-083.8108727</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.818527,39.327069 -83.815944,39.326964 -83.81395,39.326868 -83.811164,39.326753 -83.811193,39.326495 -83.811252,39.325961 -83.811284,39.325657 -83.807416,39.325388 -83.807469,39.324413 -83.800224,39.323998 -83.800348,39.322988 -83.800664,39.320458 -83.802107,39.31996 -83.8038,39.319379 -83.804564,39.319312 -83.807529,39.319031 -83.814947,39.318499 -83.818248,39.318548 -83.818367,39.31972 -83.818939,39.324309 -83.818527,39.327069</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

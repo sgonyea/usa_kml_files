@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>westphalia</name>
+<Schema name="westphalia" id="westphalia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Westphalia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#westphalia">
+		<SimpleData name="Name">Westphalia</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">86120</SimpleData>
+		<SimpleData name="PLACENS">02400156</SimpleData>
+		<SimpleData name="GEOID">2686120</SimpleData>
+		<SimpleData name="NAMELSAD">Westphalia village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2885164</SimpleData>
+		<SimpleData name="AWATER">79964</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9310400</SimpleData>
+		<SimpleData name="INTPTLON">-084.7978806</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.801855,42.936586 -84.800474,42.936579 -84.798798,42.936574 -84.798789,42.938343 -84.798791,42.938472 -84.793428,42.938481 -84.793295,42.941154 -84.793344,42.941436 -84.792177,42.941256 -84.791473,42.941046 -84.790773,42.941023 -84.790197,42.940916 -84.789633,42.940596 -84.789461,42.940359 -84.789384,42.940086 -84.789488,42.939589 -84.789627,42.939323 -84.789656,42.939122 -84.789579,42.938938 -84.789474,42.938762 -84.78927,42.938642 -84.783651,42.938641 -84.783555,42.937161 -84.783565,42.936483 -84.788907,42.93645 -84.788903,42.932 -84.788896,42.929327 -84.788774,42.921908 -84.798745,42.922019 -84.79946,42.922037 -84.800729,42.922027 -84.803607,42.922011 -84.808553,42.922011 -84.808482,42.928531 -84.808499,42.92934 -84.808481,42.93659 -84.801855,42.936586</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

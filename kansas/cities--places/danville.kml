@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>danville</name>
+<Schema name="danville" id="danville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Danville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#danville">
+		<SimpleData name="Name">Danville</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">17000</SimpleData>
+		<SimpleData name="PLACENS">02393717</SimpleData>
+		<SimpleData name="GEOID">2017000</SimpleData>
+		<SimpleData name="NAMELSAD">Danville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">214267</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.2859515</SimpleData>
+		<SimpleData name="INTPTLON">-097.8920712</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.89461,37.284517 -97.894634,37.28615 -97.894646,37.286914 -97.89465,37.287184 -97.894663,37.288153 -97.894674,37.2889 -97.894675,37.28898 -97.894255,37.288809 -97.892659,37.288072 -97.892011,37.287818 -97.890359,37.287224 -97.890211,37.287347 -97.889079,37.286933 -97.889078,37.286924 -97.889038,37.286329 -97.888882,37.284036 -97.889034,37.284033 -97.890456,37.284005 -97.891187,37.28399 -97.891813,37.283978 -97.892431,37.283966 -97.89341,37.283953 -97.894047,37.283945 -97.894602,37.283939 -97.89461,37.284517</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

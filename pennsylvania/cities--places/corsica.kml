@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>corsica</name>
+<Schema name="corsica" id="corsica">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Corsica</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#corsica">
+		<SimpleData name="Name">Corsica</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">16304</SimpleData>
+		<SimpleData name="PLACENS">01215300</SimpleData>
+		<SimpleData name="GEOID">4216304</SimpleData>
+		<SimpleData name="NAMELSAD">Corsica borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1043089</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1816469</SimpleData>
+		<SimpleData name="INTPTLON">-079.2026768</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2096,41.185604 -79.209553,41.185565 -79.204255,41.185533 -79.200064,41.185511 -79.198726,41.185499 -79.198691,41.185481 -79.198656,41.185464 -79.198509,41.185388 -79.198089,41.185174 -79.197719,41.184986 -79.197625,41.184936 -79.197014,41.184624 -79.196335,41.184277 -79.195274,41.183735 -79.194699,41.183441 -79.194711,41.182275 -79.194723,41.181046 -79.194735,41.179914 -79.194745,41.179228 -79.194754,41.178012 -79.195512,41.177991 -79.195773,41.177991 -79.197594,41.177995 -79.20184,41.177998 -79.205479,41.177989 -79.210162,41.177984 -79.210146,41.179345 -79.210136,41.180246 -79.210131,41.180758 -79.210102,41.185569 -79.210102,41.185598 -79.2096,41.185604</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

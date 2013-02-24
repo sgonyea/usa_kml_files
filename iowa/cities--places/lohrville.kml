@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lohrville</name>
+<Schema name="lohrville" id="lohrville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lohrville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lohrville">
+		<SimpleData name="Name">Lohrville</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">46245</SimpleData>
+		<SimpleData name="PLACENS">02395748</SimpleData>
+		<SimpleData name="GEOID">1946245</SimpleData>
+		<SimpleData name="NAMELSAD">Lohrville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5551014</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.2671724</SimpleData>
+		<SimpleData name="INTPTLON">-094.5515983</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.56609,42.261285 -94.566109,42.26289 -94.566156,42.267307 -94.566292,42.277912 -94.552404,42.27793 -94.547608,42.277906 -94.542793,42.277913 -94.54187,42.276264 -94.539167,42.271591 -94.538876,42.271088 -94.538391,42.271076 -94.537634,42.271058 -94.537021,42.271088 -94.537278,42.270783 -94.533568,42.270783 -94.532847,42.270769 -94.532847,42.270739 -94.532818,42.269279 -94.53282,42.268261 -94.532805,42.267261 -94.532795,42.26662 -94.53279,42.265025 -94.532797,42.264591 -94.533025,42.264578 -94.538008,42.264556 -94.538008,42.256908 -94.542315,42.256903 -94.55124,42.256883 -94.55157,42.256889 -94.557902,42.256813 -94.566036,42.256866 -94.56609,42.261285</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

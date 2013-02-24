@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hague</name>
+<Schema name="hague" id="hague">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hague</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hague">
+		<SimpleData name="Name">Hague</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">34180</SimpleData>
+		<SimpleData name="PLACENS">01036071</SimpleData>
+		<SimpleData name="GEOID">3834180</SimpleData>
+		<SimpleData name="NAMELSAD">Hague city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">708153</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.0289062</SimpleData>
+		<SimpleData name="INTPTLON">-099.9989549</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.004566,46.026892 -100.004575,46.028923 -100.004612,46.032548 -100.004611,46.032739 -100.000385,46.03262 -99.999842,46.032541 -99.993826,46.032535 -99.99384,46.031006 -99.993841,46.030946 -99.993847,46.03032 -99.99385,46.029989 -99.993854,46.029601 -99.993311,46.029591 -99.992543,46.029571 -99.992525,46.029549 -99.992398,46.029392 -99.99239,46.028854 -99.992403,46.027863 -99.992368,46.027609 -99.992405,46.027133 -99.993916,46.027135 -99.993932,46.026886 -99.993914,46.026615 -99.993909,46.025482 -99.993908,46.025168 -99.994246,46.025168 -99.998886,46.025181 -99.999295,46.025218 -99.999854,46.025201 -100.000379,46.025354 -100.00457,46.025345 -100.004566,46.026892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

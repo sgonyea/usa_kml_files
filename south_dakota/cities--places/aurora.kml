@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>aurora</name>
+<Schema name="aurora" id="aurora">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Aurora</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aurora">
+		<SimpleData name="Name">Aurora</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">02780</SimpleData>
+		<SimpleData name="PLACENS">01267273</SimpleData>
+		<SimpleData name="GEOID">4602780</SimpleData>
+		<SimpleData name="NAMELSAD">Aurora town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1184478</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.2821379</SimpleData>
+		<SimpleData name="INTPTLON">-096.6865649</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.697894,44.282202 -96.695615,44.282191 -96.693663,44.282171 -96.693014,44.282155 -96.692989,44.284111 -96.692984,44.285717 -96.692523,44.28573 -96.69182,44.285728 -96.690852,44.285759 -96.689253,44.285811 -96.68887,44.285797 -96.68887,44.28609 -96.688087,44.28608 -96.68808,44.286301 -96.687528,44.28632 -96.687526,44.286671 -96.687524,44.286911 -96.682859,44.286774 -96.682794,44.285725 -96.677362,44.285694 -96.677408,44.282101 -96.677353,44.281208 -96.67752,44.280758 -96.677486,44.278645 -96.687681,44.278657 -96.697791,44.278581 -96.697894,44.282202</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

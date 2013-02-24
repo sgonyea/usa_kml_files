@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hartford</name>
+<Schema name="hartford" id="hartford">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hartford</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hartford">
+		<SimpleData name="Name">Hartford</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">34680</SimpleData>
+		<SimpleData name="PLACENS">02394307</SimpleData>
+		<SimpleData name="GEOID">1934680</SimpleData>
+		<SimpleData name="NAMELSAD">Hartford city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2540212</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.4577050</SimpleData>
+		<SimpleData name="INTPTLON">-093.4052141</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.414768,41.457756 -93.414824,41.464339 -93.414831,41.464811 -93.414736,41.464812 -93.411855,41.464847 -93.405013,41.46493 -93.403004,41.464921 -93.401891,41.464917 -93.399947,41.464909 -93.398956,41.464906 -93.398133,41.464881 -93.395821,41.464811 -93.395806,41.464437 -93.395801,41.463987 -93.395795,41.463919 -93.395788,41.463746 -93.395792,41.463375 -93.395794,41.463358 -93.395799,41.463342 -93.395807,41.463328 -93.395819,41.463315 -93.395844,41.463291 -93.395691,41.459948 -93.39558,41.45422 -93.395487,41.45068 -93.40509,41.450472 -93.409742,41.450524 -93.411601,41.450559 -93.414666,41.450551 -93.414768,41.457756</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

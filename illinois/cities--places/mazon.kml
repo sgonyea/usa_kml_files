@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mazon</name>
+<Schema name="mazon" id="mazon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mazon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mazon">
+		<SimpleData name="Name">Mazon</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">47787</SimpleData>
+		<SimpleData name="PLACENS">02399282</SimpleData>
+		<SimpleData name="GEOID">1747787</SimpleData>
+		<SimpleData name="NAMELSAD">Mazon village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1528122</SimpleData>
+		<SimpleData name="AWATER">15897</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2414606</SimpleData>
+		<SimpleData name="INTPTLON">-088.4231012</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.433457,41.241037 -88.431277,41.241078 -88.431022,41.241083 -88.431111,41.24259 -88.428875,41.242666 -88.428954,41.245015 -88.423619,41.245183 -88.42362,41.248099 -88.419192,41.248186 -88.414455,41.248305 -88.414169,41.242291 -88.414155,41.241856 -88.414436,41.241775 -88.414694,41.2417 -88.416156,41.241276 -88.416492,41.241267 -88.416461,41.241053 -88.416444,41.240227 -88.416442,41.240112 -88.416454,41.24 -88.416666,41.237948 -88.417825,41.237971 -88.418161,41.237978 -88.418533,41.237985 -88.418818,41.237963 -88.421497,41.237931 -88.421957,41.237935 -88.422514,41.237939 -88.422517,41.237826 -88.422554,41.236283 -88.428048,41.23608 -88.428662,41.236079 -88.428646,41.23528 -88.429254,41.235248 -88.43047,41.235236 -88.431979,41.235217 -88.431888,41.236532 -88.431442,41.236662 -88.431459,41.236743 -88.431454,41.236819 -88.432589,41.23649 -88.432784,41.236433 -88.433322,41.236279 -88.433196,41.238368 -88.433312,41.238811 -88.433331,41.240662 -88.438262,41.240554 -88.438269,41.240744 -88.438267,41.240877 -88.433457,41.241037</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

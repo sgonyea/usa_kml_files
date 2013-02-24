@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ashburn</name>
+<Schema name="ashburn" id="ashburn">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ashburn</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ashburn">
+		<SimpleData name="Name">Ashburn</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">02152</SimpleData>
+		<SimpleData name="PLACENS">02397440</SimpleData>
+		<SimpleData name="GEOID">2902152</SimpleData>
+		<SimpleData name="NAMELSAD">Ashburn town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C9</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">I</SimpleData>
+		<SimpleData name="ALAND">342783</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.5457743</SimpleData>
+		<SimpleData name="INTPTLON">-091.1719615</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.177259,39.544813 -91.177197,39.547543 -91.176028,39.54753 -91.171781,39.547473 -91.171624,39.547461 -91.170468,39.547448 -91.169924,39.547442 -91.169883,39.547442 -91.169024,39.54746 -91.168406,39.54744 -91.168357,39.547427 -91.166683,39.547435 -91.166683,39.544022 -91.166737,39.544027 -91.167893,39.544028 -91.168029,39.544029 -91.168767,39.544034 -91.17203,39.544076 -91.173889,39.544101 -91.174756,39.54411 -91.174992,39.54411 -91.177286,39.544129 -91.177259,39.544813</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

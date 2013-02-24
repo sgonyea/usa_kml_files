@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>aneta</name>
+<Schema name="aneta" id="aneta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Aneta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aneta">
+		<SimpleData name="Name">Aneta</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">02380</SimpleData>
+		<SimpleData name="PLACENS">01035911</SimpleData>
+		<SimpleData name="GEOID">3802380</SimpleData>
+		<SimpleData name="NAMELSAD">Aneta city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2553850</SimpleData>
+		<SimpleData name="AWATER">10299</SimpleData>
+		<SimpleData name="INTPTLAT">+47.6797193</SimpleData>
+		<SimpleData name="INTPTLON">-097.9889837</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.000373,47.680523 -98.000373,47.681985 -98.000382,47.68287 -98.000391,47.683764 -98.000401,47.68481 -98.000403,47.685003 -98.000373,47.68571 -98.000379,47.686797 -97.999495,47.686797 -97.996904,47.686784 -97.996258,47.68678 -97.994757,47.686782 -97.992012,47.686782 -97.989769,47.686784 -97.989193,47.686786 -97.987325,47.686776 -97.985108,47.68678 -97.983805,47.68678 -97.980186,47.686769 -97.979124,47.686772 -97.979129,47.674919 -97.979103,47.67457 -97.979067,47.674136 -97.979068,47.673965 -97.979087,47.672275 -97.979513,47.672275 -97.981648,47.672296 -97.98393,47.672304 -97.98481,47.6723 -97.985564,47.672297 -97.987907,47.6723 -97.988418,47.672294 -97.9891,47.672281 -97.993265,47.672296 -97.993339,47.672296 -97.999506,47.672309 -98.000023,47.672306 -98.000181,47.672307 -98.000373,47.680523</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

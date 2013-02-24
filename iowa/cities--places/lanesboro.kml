@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lanesboro</name>
+<Schema name="lanesboro" id="lanesboro">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lanesboro</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lanesboro">
+		<SimpleData name="Name">Lanesboro</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">43140</SimpleData>
+		<SimpleData name="PLACENS">02395629</SimpleData>
+		<SimpleData name="GEOID">1943140</SimpleData>
+		<SimpleData name="NAMELSAD">Lanesboro city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1923592</SimpleData>
+		<SimpleData name="AWATER">25917</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1827823</SimpleData>
+		<SimpleData name="INTPTLON">-094.6898219</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.701943,42.179133 -94.702028,42.180991 -94.701958,42.185322 -94.701913,42.18814 -94.691734,42.188086 -94.687403,42.188064 -94.684974,42.188044 -94.68234,42.188024 -94.682414,42.183374 -94.682453,42.180946 -94.682389,42.17917 -94.682315,42.177108 -94.685582,42.177178 -94.687359,42.177217 -94.689136,42.177224 -94.69447,42.177246 -94.696248,42.177254 -94.698107,42.177273 -94.698598,42.177278 -94.701861,42.177312 -94.701943,42.179133</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

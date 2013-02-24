@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>orchard</name>
+<Schema name="orchard" id="orchard">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Orchard</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#orchard">
+		<SimpleData name="Name">Orchard</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">55925</SimpleData>
+		<SimpleData name="PLACENS">02583274</SimpleData>
+		<SimpleData name="GEOID">0855925</SimpleData>
+		<SimpleData name="NAMELSAD">Orchard CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">413959</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3320011</SimpleData>
+		<SimpleData name="INTPTLON">-104.1177990</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-104.121585,40.327934 -104.120514,40.328474 -104.120528,40.328702 -104.120597,40.328719 -104.120648,40.328757 -104.120682,40.328838 -104.12069,40.329245 -104.120688,40.329622 -104.120682,40.330692 -104.120767,40.330712 -104.121645,40.330699 -104.12191,40.330703 -104.121996,40.33324 -104.121937,40.333354 -104.122022,40.334498 -104.118377,40.334524 -104.117133,40.334525 -104.115597,40.334549 -104.112831,40.334559 -104.112686,40.334597 -104.112518,40.334668 -104.112344,40.334167 -104.112289,40.332631 -104.112289,40.332433 -104.114647,40.331256 -104.115165,40.330956 -104.11542,40.33076 -104.116343,40.329943 -104.116554,40.329765 -104.116626,40.329716 -104.116911,40.329436 -104.117019,40.329305 -104.117582,40.329027 -104.118279,40.328682 -104.118358,40.328651 -104.118774,40.328486 -104.119269,40.328338 -104.120423,40.328027 -104.121028,40.327807 -104.123111,40.326957 -104.123634,40.326735 -104.123795,40.326698 -104.124001,40.326697 -104.121585,40.327934</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

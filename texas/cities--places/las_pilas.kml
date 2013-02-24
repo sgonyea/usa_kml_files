@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>las_pilas</name>
+<Schema name="las_pilas" id="las_pilas">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Las Pilas</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#las_pilas">
+		<SimpleData name="Name">Las Pilas</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">41582</SimpleData>
+		<SimpleData name="PLACENS">02584672</SimpleData>
+		<SimpleData name="GEOID">4841582</SimpleData>
+		<SimpleData name="NAMELSAD">Las Pilas CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2198612</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+27.6815381</SimpleData>
+		<SimpleData name="INTPTLON">-099.1831597</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.195766,27.682052 -99.195766,27.682069 -99.195769,27.683701 -99.195769,27.68372 -99.195769,27.683778 -99.195737,27.684398 -99.195734,27.684475 -99.194406,27.68485 -99.184479,27.68485 -99.184479,27.684921 -99.184485,27.685393 -99.18449,27.685751 -99.184488,27.685784 -99.183543,27.685544 -99.180711,27.684825 -99.180534,27.68478 -99.17985,27.684827 -99.179754,27.684869 -99.178096,27.685608 -99.176499,27.686457 -99.175495,27.687123 -99.173795,27.687882 -99.173666,27.688019 -99.173641,27.688501 -99.173625,27.688503 -99.173129,27.688548 -99.172916,27.688563 -99.172087,27.688593 -99.171762,27.688596 -99.171557,27.686553 -99.171372,27.684486 -99.171156,27.682387 -99.170988,27.680115 -99.170963,27.679774 -99.170973,27.679595 -99.171021,27.67956 -99.170981,27.679479 -99.170878,27.6782 -99.17382,27.678131 -99.176754,27.678135 -99.184655,27.678278 -99.184651,27.677772 -99.18465,27.677574 -99.184649,27.67738 -99.184645,27.677239 -99.18463,27.676525 -99.18463,27.676237 -99.194598,27.676246 -99.1946,27.677689 -99.194635,27.679191 -99.195337,27.679234 -99.195799,27.6792 -99.195766,27.682052</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

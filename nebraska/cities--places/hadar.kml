@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hadar</name>
+<Schema name="hadar" id="hadar">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hadar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hadar">
+		<SimpleData name="Name">Hadar</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">20470</SimpleData>
+		<SimpleData name="PLACENS">02398220</SimpleData>
+		<SimpleData name="GEOID">3120470</SimpleData>
+		<SimpleData name="NAMELSAD">Hadar village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1026179</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1072208</SimpleData>
+		<SimpleData name="INTPTLON">-097.4509718</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.458143,42.112377 -97.451572,42.112403 -97.445749,42.112423 -97.44576,42.110949 -97.445788,42.107129 -97.445794,42.106343 -97.445798,42.105277 -97.445819,42.104102 -97.445818,42.103688 -97.445828,42.101599 -97.449194,42.101471 -97.451057,42.101581 -97.451464,42.101588 -97.452153,42.101578 -97.454206,42.10161 -97.454432,42.101605 -97.45509,42.101562 -97.455564,42.101562 -97.455564,42.101587 -97.455555,42.102194 -97.455547,42.102776 -97.455539,42.103181 -97.455522,42.104604 -97.455524,42.105231 -97.454591,42.105236 -97.456081,42.108224 -97.456141,42.108347 -97.458143,42.112377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

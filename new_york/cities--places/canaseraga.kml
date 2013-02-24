@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>canaseraga</name>
+<Schema name="canaseraga" id="canaseraga">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Canaseraga</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#canaseraga">
+		<SimpleData name="Name">Canaseraga</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">12177</SimpleData>
+		<SimpleData name="PLACENS">02391576</SimpleData>
+		<SimpleData name="GEOID">3612177</SimpleData>
+		<SimpleData name="NAMELSAD">Canaseraga village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2751303</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.4617618</SimpleData>
+		<SimpleData name="INTPTLON">-077.7772703</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.779478,42.469443 -77.777237,42.469416 -77.7759,42.469407 -77.768722,42.469298 -77.768109,42.469296 -77.767419,42.469295 -77.76729,42.469295 -77.767289,42.468897 -77.767288,42.468368 -77.767557,42.462404 -77.767556,42.462133 -77.767554,42.462074 -77.767534,42.461608 -77.767372,42.457982 -77.767452,42.454025 -77.777768,42.454111 -77.78113,42.454146 -77.781206,42.454146 -77.781639,42.454138 -77.787149,42.454173 -77.787105,42.456286 -77.787096,42.458211 -77.787096,42.458296 -77.787089,42.459933 -77.787095,42.460634 -77.787077,42.469237 -77.787067,42.469537 -77.779478,42.469443</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

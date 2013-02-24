@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>riverside</name>
+<Schema name="riverside" id="riverside">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Riverside</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#riverside">
+		<SimpleData name="Name">Riverside</SimpleData>
+		<SimpleData name="STATEFP">13</SimpleData>
+		<SimpleData name="PLACEFP">65604</SimpleData>
+		<SimpleData name="PLACENS">02407225</SimpleData>
+		<SimpleData name="GEOID">1365604</SimpleData>
+		<SimpleData name="NAMELSAD">Riverside town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">540792</SimpleData>
+		<SimpleData name="AWATER">7577</SimpleData>
+		<SimpleData name="INTPTLAT">+31.1782818</SimpleData>
+		<SimpleData name="INTPTLON">-083.8043279</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.809547,31.182217 -83.80928,31.182427 -83.809046,31.182611 -83.808094,31.181989 -83.807763,31.181815 -83.805904,31.181146 -83.805815,31.181127 -83.804338,31.180719 -83.804209,31.180667 -83.803316,31.180369 -83.80255,31.180116 -83.802283,31.180054 -83.802026,31.180009 -83.800875,31.179991 -83.800885,31.178994 -83.800906,31.178034 -83.800919,31.177137 -83.800921,31.177053 -83.800869,31.176124 -83.800904,31.175151 -83.800901,31.174862 -83.802002,31.174861 -83.802225,31.174858 -83.802499,31.174855 -83.802673,31.174853 -83.802749,31.174853 -83.802852,31.174838 -83.803384,31.174868 -83.805466,31.174936 -83.807428,31.174875 -83.807787,31.175228 -83.808475,31.175625 -83.808901,31.175833 -83.809194,31.176009 -83.809195,31.176407 -83.809484,31.176819 -83.809389,31.177176 -83.809262,31.17741 -83.809599,31.177876 -83.809648,31.178206 -83.809474,31.178962 -83.809475,31.179442 -83.809732,31.180088 -83.809735,31.180884 -83.809736,31.181228 -83.809832,31.181626 -83.809849,31.181969 -83.809547,31.182217</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>chapin</name>
+<Schema name="chapin" id="chapin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Chapin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#chapin">
+		<SimpleData name="Name">Chapin</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">12675</SimpleData>
+		<SimpleData name="PLACENS">02585476</SimpleData>
+		<SimpleData name="GEOID">1912675</SimpleData>
+		<SimpleData name="NAMELSAD">Chapin CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">180643</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8353123</SimpleData>
+		<SimpleData name="INTPTLON">-093.2219824</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.224234,42.835432 -93.22423,42.835917 -93.224206,42.836086 -93.224203,42.836945 -93.224212,42.837603 -93.224134,42.837759 -93.224108,42.837769 -93.224019,42.837804 -93.22382,42.837822 -93.223336,42.837819 -93.222683,42.837793 -93.221933,42.83782 -93.221714,42.837822 -93.221154,42.837827 -93.220791,42.837837 -93.220561,42.837815 -93.220464,42.837758 -93.220302,42.837629 -93.220249,42.837257 -93.219916,42.834913 -93.219738,42.833624 -93.219936,42.833622 -93.219903,42.832829 -93.220605,42.832781 -93.221072,42.832739 -93.22201,42.83267 -93.222279,42.832662 -93.222497,42.832637 -93.22265,42.832549 -93.223452,42.832548 -93.223463,42.833619 -93.22344,42.834846 -93.223839,42.83485 -93.224057,42.834863 -93.224173,42.834928 -93.224208,42.834948 -93.224251,42.835054 -93.224234,42.835432</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

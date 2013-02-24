@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>penelope</name>
+<Schema name="penelope" id="penelope">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Penelope</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#penelope">
+		<SimpleData name="Name">Penelope</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">56672</SimpleData>
+		<SimpleData name="PLACENS">02413124</SimpleData>
+		<SimpleData name="GEOID">4856672</SimpleData>
+		<SimpleData name="NAMELSAD">Penelope town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2570400</SimpleData>
+		<SimpleData name="AWATER">67494</SimpleData>
+		<SimpleData name="INTPTLAT">+31.8545330</SimpleData>
+		<SimpleData name="INTPTLON">-096.9281854</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.93478,31.863713 -96.932317,31.86491 -96.929358,31.866409 -96.925423,31.868402 -96.925022,31.868605 -96.924995,31.868564 -96.923259,31.865828 -96.921969,31.863906 -96.921756,31.863589 -96.921604,31.863363 -96.921545,31.863253 -96.920779,31.862361 -96.920596,31.861998 -96.920499,31.861855 -96.920144,31.861327 -96.916464,31.85581 -96.918365,31.854759 -96.919835,31.854114 -96.92036,31.853842 -96.921315,31.853368 -96.923038,31.852544 -96.925633,31.851276 -96.926299,31.850941 -96.927996,31.850138 -96.93019,31.849052 -96.930295,31.848991 -96.930479,31.848864 -96.930633,31.84873 -96.930698,31.848659 -96.930845,31.848472 -96.930976,31.848288 -96.931007,31.848231 -96.931007,31.848158 -96.93112,31.848333 -96.931359,31.848705 -96.93169,31.849112 -96.932565,31.85041 -96.935526,31.854924 -96.937717,31.858059 -96.938519,31.859285 -96.939535,31.860837 -96.939707,31.861149 -96.939781,31.861283 -96.93478,31.863713</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

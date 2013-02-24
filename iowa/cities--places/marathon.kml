@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>marathon</name>
+<Schema name="marathon" id="marathon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Marathon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#marathon">
+		<SimpleData name="Name">Marathon</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">49260</SimpleData>
+		<SimpleData name="PLACENS">02395849</SimpleData>
+		<SimpleData name="GEOID">1949260</SimpleData>
+		<SimpleData name="NAMELSAD">Marathon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1913841</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8602686</SimpleData>
+		<SimpleData name="INTPTLON">-094.9828686</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.992654,42.856054 -94.992656,42.856201 -94.992645,42.856975 -94.992643,42.858941 -94.992646,42.859103 -94.992661,42.859685 -94.992667,42.86012 -94.992671,42.860411 -94.992683,42.861284 -94.992688,42.861576 -94.992696,42.86211 -94.992722,42.863712 -94.992731,42.864247 -94.992732,42.864329 -94.992734,42.864559 -94.992743,42.865499 -94.992747,42.865812 -94.991526,42.865795 -94.991457,42.865793 -94.987589,42.865715 -94.9863,42.86569 -94.985619,42.865678 -94.983577,42.865645 -94.982897,42.865634 -94.980952,42.865603 -94.977576,42.865551 -94.975119,42.865517 -94.973175,42.865491 -94.973146,42.864832 -94.973144,42.86479 -94.973092,42.862689 -94.973075,42.861989 -94.973067,42.861689 -94.973044,42.860792 -94.973037,42.860493 -94.973012,42.859509 -94.973009,42.859338 -94.972977,42.857186 -94.972969,42.855873 -94.972962,42.854719 -94.973985,42.854746 -94.977055,42.854827 -94.978079,42.854855 -94.978621,42.854872 -94.980247,42.854926 -94.98079,42.854944 -94.981193,42.854934 -94.982404,42.854905 -94.982808,42.854896 -94.984776,42.854924 -94.99068,42.855009 -94.992648,42.855038 -94.992654,42.856054</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

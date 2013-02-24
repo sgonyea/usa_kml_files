@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dorchester</name>
+<Schema name="dorchester" id="dorchester">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dorchester</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dorchester">
+		<SimpleData name="Name">Dorchester</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">20370</SimpleData>
+		<SimpleData name="PLACENS">02398740</SimpleData>
+		<SimpleData name="GEOID">1720370</SimpleData>
+		<SimpleData name="NAMELSAD">Dorchester village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1863161</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.0858840</SimpleData>
+		<SimpleData name="INTPTLON">-089.8877688</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.894943,39.085636 -89.894879,39.089169 -89.894846,39.09272 -89.885935,39.092699 -89.885721,39.092698 -89.881118,39.092672 -89.881006,39.088585 -89.881013,39.088436 -89.881011,39.087984 -89.88099,39.086992 -89.880963,39.085991 -89.880959,39.085647 -89.880966,39.085585 -89.880996,39.085519 -89.880228,39.085407 -89.876687,39.08535 -89.876051,39.085354 -89.876035,39.082559 -89.876525,39.082568 -89.885727,39.08267 -89.885716,39.081677 -89.885706,39.081069 -89.885707,39.080835 -89.885676,39.078176 -89.88713,39.078184 -89.894789,39.078224 -89.894943,39.085636</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

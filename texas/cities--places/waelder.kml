@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>waelder</name>
+<Schema name="waelder" id="waelder">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Waelder</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waelder">
+		<SimpleData name="Name">Waelder</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">76024</SimpleData>
+		<SimpleData name="PLACENS">02412163</SimpleData>
+		<SimpleData name="GEOID">4876024</SimpleData>
+		<SimpleData name="NAMELSAD">Waelder city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3312487</SimpleData>
+		<SimpleData name="AWATER">17913</SimpleData>
+		<SimpleData name="INTPTLAT">+29.6944960</SimpleData>
+		<SimpleData name="INTPTLON">-097.2978480</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.308817,29.690969 -97.306966,29.69509 -97.306831,29.69539 -97.306655,29.695788 -97.305461,29.698577 -97.303473,29.703219 -97.302736,29.704722 -97.299609,29.703828 -97.298641,29.703637 -97.29739,29.703339 -97.295286,29.702717 -97.292117,29.701602 -97.288307,29.700235 -97.285056,29.699069 -97.286981,29.694768 -97.28828,29.691824 -97.288874,29.6905 -97.288946,29.690325 -97.289258,29.689568 -97.289291,29.689486 -97.289337,29.689378 -97.28996,29.687873 -97.291523,29.684103 -97.291758,29.683542 -97.293252,29.684149 -97.293847,29.684353 -97.294385,29.68461 -97.301731,29.687143 -97.309293,29.689562 -97.309426,29.689605 -97.308817,29.690969</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

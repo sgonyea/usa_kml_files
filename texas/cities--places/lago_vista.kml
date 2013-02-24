@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lago_vista</name>
+<Schema name="lago_vista" id="lago_vista">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lago Vista</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lago_vista">
+		<SimpleData name="Name">Lago Vista</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">40270</SimpleData>
+		<SimpleData name="PLACENS">02584663</SimpleData>
+		<SimpleData name="GEOID">4840270</SimpleData>
+		<SimpleData name="NAMELSAD">Lago Vista CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1141910</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.5643224</SimpleData>
+		<SimpleData name="INTPTLON">-099.1077667</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.120866,26.557968 -99.119984,26.558806 -99.12006,26.558887 -99.11801,26.560142 -99.117886,26.560214 -99.112849,26.563176 -99.112078,26.56363 -99.112032,26.563659 -99.108003,26.566152 -99.107985,26.566164 -99.107914,26.566205 -99.105516,26.567665 -99.095719,26.573625 -99.095452,26.57379 -99.095431,26.573801 -99.091698,26.575968 -99.091854,26.574676 -99.091976,26.574681 -99.092035,26.574677 -99.092132,26.574662 -99.092303,26.57461 -99.092585,26.574495 -99.093086,26.574294 -99.094281,26.573828 -99.094713,26.573654 -99.095314,26.573413 -99.095423,26.573375 -99.095403,26.571606 -99.095387,26.570256 -99.097705,26.568697 -99.097734,26.568687 -99.098269,26.568335 -99.098576,26.568139 -99.098703,26.568062 -99.098752,26.568032 -99.098791,26.568002 -99.099797,26.567346 -99.100214,26.567086 -99.100333,26.567013 -99.100387,26.566967 -99.100414,26.566935 -99.10773,26.56218 -99.107791,26.56214 -99.117283,26.556174 -99.117316,26.55613 -99.117382,26.556071 -99.118065,26.555642 -99.118381,26.55543 -99.118534,26.555328 -99.118763,26.555176 -99.118886,26.555105 -99.119129,26.555287 -99.11986,26.555836 -99.120104,26.556019 -99.120152,26.556055 -99.120606,26.556402 -99.120029,26.557117 -99.120866,26.557968</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

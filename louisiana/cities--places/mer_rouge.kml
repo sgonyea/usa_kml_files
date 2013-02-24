@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mer_rouge</name>
+<Schema name="mer_rouge" id="mer_rouge">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mer Rouge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mer_rouge">
+		<SimpleData name="Name">Mer Rouge</SimpleData>
+		<SimpleData name="STATEFP">22</SimpleData>
+		<SimpleData name="PLACEFP">49905</SimpleData>
+		<SimpleData name="PLACENS">02407500</SimpleData>
+		<SimpleData name="GEOID">2249905</SimpleData>
+		<SimpleData name="NAMELSAD">Mer Rouge village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3036763</SimpleData>
+		<SimpleData name="AWATER">21140</SimpleData>
+		<SimpleData name="INTPTLAT">+32.7769206</SimpleData>
+		<SimpleData name="INTPTLON">-091.7943671</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.807952,32.782877 -91.805852,32.785621 -91.79851,32.781851 -91.798286,32.782152 -91.796515,32.784427 -91.795836,32.785397 -91.795735,32.785525 -91.790665,32.783135 -91.788199,32.781937 -91.787694,32.781686 -91.785972,32.780853 -91.785719,32.780721 -91.784155,32.779933 -91.781475,32.778651 -91.783201,32.776018 -91.784321,32.774312 -91.78506,32.773215 -91.787279,32.769927 -91.78776,32.769215 -91.788019,32.768831 -91.789226,32.767023 -91.789924,32.76598 -91.794662,32.768279 -91.796619,32.769228 -91.796687,32.76926 -91.796892,32.769357 -91.796961,32.769391 -91.797304,32.769557 -91.800448,32.771083 -91.800687,32.771199 -91.801404,32.771547 -91.801644,32.771664 -91.804241,32.772875 -91.804771,32.773122 -91.804859,32.773183 -91.802345,32.776578 -91.80209,32.776929 -91.807412,32.779809 -91.807466,32.779838 -91.808402,32.780341 -91.80946,32.78089 -91.807952,32.782877</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

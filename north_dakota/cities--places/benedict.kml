@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>benedict</name>
+<Schema name="benedict" id="benedict">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Benedict</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#benedict">
+		<SimpleData name="Name">Benedict</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">05980</SimpleData>
+		<SimpleData name="PLACENS">01035927</SimpleData>
+		<SimpleData name="GEOID">3805980</SimpleData>
+		<SimpleData name="NAMELSAD">Benedict city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">642150</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.8301388</SimpleData>
+		<SimpleData name="INTPTLON">-101.0843438</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.089616,47.831552 -101.089578,47.833835 -101.086759,47.833805 -101.085724,47.833795 -101.083878,47.833799 -101.083784,47.833789 -101.083695,47.833766 -101.083617,47.83373 -101.083597,47.833711 -101.07904,47.833784 -101.079039,47.833588 -101.079039,47.833468 -101.079036,47.833006 -101.079022,47.831071 -101.079016,47.830312 -101.079016,47.830051 -101.079021,47.829159 -101.079025,47.827976 -101.079016,47.826518 -101.083605,47.826557 -101.083608,47.826487 -101.08369,47.826457 -101.084226,47.826466 -101.084497,47.826461 -101.085318,47.826461 -101.086223,47.826472 -101.08968,47.826543 -101.089616,47.831552</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

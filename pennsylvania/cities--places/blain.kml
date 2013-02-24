@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>blain</name>
+<Schema name="blain" id="blain">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Blain</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#blain">
+		<SimpleData name="Name">Blain</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">06824</SimpleData>
+		<SimpleData name="PLACENS">01215522</SimpleData>
+		<SimpleData name="GEOID">4206824</SimpleData>
+		<SimpleData name="NAMELSAD">Blain borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">822356</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3365176</SimpleData>
+		<SimpleData name="INTPTLON">-077.5123678</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.51856,40.338208 -77.518513,40.338242 -77.515846,40.340146 -77.51373,40.341658 -77.512703,40.342393 -77.512424,40.342591 -77.512221,40.342736 -77.512196,40.342708 -77.512024,40.342511 -77.511957,40.342434 -77.509871,40.340047 -77.509334,40.339433 -77.506885,40.336633 -77.505849,40.335447 -77.505503,40.335051 -77.505434,40.334973 -77.505377,40.334907 -77.505142,40.334638 -77.505073,40.334559 -77.505045,40.334527 -77.504461,40.333858 -77.506701,40.333462 -77.506818,40.333441 -77.506911,40.333425 -77.508479,40.333149 -77.509837,40.332909 -77.511045,40.332694 -77.511079,40.332687 -77.511189,40.332625 -77.513456,40.331338 -77.513472,40.331332 -77.51431,40.330853 -77.514411,40.331 -77.517052,40.334789 -77.517489,40.335419 -77.519143,40.337791 -77.51856,40.338208</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

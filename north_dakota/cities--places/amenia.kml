@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>amenia</name>
+<Schema name="amenia" id="amenia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Amenia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenia">
+		<SimpleData name="Name">Amenia</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">01940</SimpleData>
+		<SimpleData name="PLACENS">01035908</SimpleData>
+		<SimpleData name="GEOID">3801940</SimpleData>
+		<SimpleData name="NAMELSAD">Amenia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3704793</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.0068179</SimpleData>
+		<SimpleData name="INTPTLON">-097.2241830</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.240166,47.006504 -97.240235,47.008226 -97.239985,47.011585 -97.239973,47.013724 -97.219307,47.013712 -97.218916,47.013688 -97.215381,47.01371 -97.213804,47.013707 -97.209297,47.013558 -97.208259,47.013568 -97.208232,47.006439 -97.208222,47.006147 -97.208164,46.999891 -97.212974,46.999986 -97.215276,46.999987 -97.218986,46.999973 -97.219282,46.999976 -97.219282,46.999937 -97.221543,46.999941 -97.229248,46.999956 -97.238815,46.999914 -97.239953,46.999867 -97.239952,47.000002 -97.23995,47.000112 -97.240018,47.000312 -97.240166,47.006504</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

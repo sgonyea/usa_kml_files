@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>langleyville</name>
+<Schema name="langleyville" id="langleyville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Langleyville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#langleyville">
+		<SimpleData name="Name">Langleyville</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">42002</SimpleData>
+		<SimpleData name="PLACENS">02629875</SimpleData>
+		<SimpleData name="GEOID">1742002</SimpleData>
+		<SimpleData name="NAMELSAD">Langleyville CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1017671</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.5611068</SimpleData>
+		<SimpleData name="INTPTLON">-089.3602553</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.366742,39.567175 -89.362598,39.565531 -89.361217,39.564983 -89.360764,39.564803 -89.360049,39.56453 -89.358815,39.56406 -89.35654,39.563188 -89.355371,39.562741 -89.354661,39.562469 -89.352533,39.561654 -89.351824,39.561383 -89.351153,39.561118 -89.349542,39.560482 -89.34914,39.560328 -89.348742,39.560176 -89.348452,39.560128 -89.348711,39.560124 -89.349171,39.560118 -89.349171,39.559112 -89.34974,39.55915 -89.35002,39.559145 -89.35086,39.559134 -89.351141,39.559131 -89.351424,39.559127 -89.352275,39.559116 -89.352559,39.559113 -89.353338,39.559177 -89.353338,39.557432 -89.354096,39.557445 -89.354322,39.557441 -89.355004,39.557432 -89.355231,39.55743 -89.355458,39.557427 -89.356139,39.557418 -89.356366,39.557415 -89.356768,39.55741 -89.357973,39.557395 -89.358376,39.557391 -89.366865,39.557405 -89.367123,39.567326 -89.366742,39.567175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

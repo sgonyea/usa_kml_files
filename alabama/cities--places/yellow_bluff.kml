@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>yellow_bluff</name>
+<Schema name="yellow_bluff" id="yellow_bluff">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Yellow Bluff</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#yellow_bluff">
+		<SimpleData name="Name">Yellow Bluff</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">83976</SimpleData>
+		<SimpleData name="PLACENS">02406925</SimpleData>
+		<SimpleData name="GEOID">0183976</SimpleData>
+		<SimpleData name="NAMELSAD">Yellow Bluff town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1197812</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+31.9621390</SimpleData>
+		<SimpleData name="INTPTLON">-087.4807197</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.487799,31.965964 -87.48709,31.965947 -87.486229,31.965925 -87.482195,31.965815 -87.482017,31.965813 -87.480248,31.965788 -87.480184,31.96579 -87.479733,31.965806 -87.479395,31.965842 -87.47467,31.966011 -87.469471,31.966082 -87.469519,31.963158 -87.47301,31.963006 -87.477443,31.962976 -87.477412,31.961372 -87.477415,31.959978 -87.477427,31.959787 -87.477358,31.95803 -87.477358,31.957114 -87.4776,31.957104 -87.478004,31.957104 -87.478371,31.957116 -87.479101,31.957091 -87.479464,31.957094 -87.480187,31.957078 -87.480332,31.957089 -87.480527,31.957089 -87.484714,31.95727 -87.486146,31.957332 -87.488004,31.957413 -87.487944,31.958978 -87.487921,31.959603 -87.487783,31.963047 -87.487809,31.963147 -87.487836,31.963634 -87.487799,31.965964</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

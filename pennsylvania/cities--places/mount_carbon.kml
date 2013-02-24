@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mount_carbon</name>
+<Schema name="mount_carbon" id="mount_carbon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mount Carbon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mount_carbon">
+		<SimpleData name="Name">Mount Carbon</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">51488</SimpleData>
+		<SimpleData name="PLACENS">01215558</SimpleData>
+		<SimpleData name="GEOID">4251488</SimpleData>
+		<SimpleData name="NAMELSAD">Mount Carbon borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">178712</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6733294</SimpleData>
+		<SimpleData name="INTPTLON">-076.1883812</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.193067,40.673805 -76.192784,40.67393 -76.190385,40.674989 -76.189617,40.675329 -76.188507,40.67572 -76.188252,40.675812 -76.187788,40.675974 -76.187459,40.675698 -76.187335,40.675339 -76.187214,40.675205 -76.187211,40.67507 -76.18697,40.674802 -76.186311,40.674313 -76.186054,40.674028 -76.185977,40.673905 -76.185816,40.673539 -76.185808,40.673277 -76.185847,40.673104 -76.185852,40.672985 -76.185872,40.672886 -76.185958,40.67271 -76.185967,40.672674 -76.185705,40.672437 -76.185711,40.672295 -76.185548,40.671788 -76.185389,40.671517 -76.185358,40.671195 -76.18563,40.670596 -76.185712,40.670185 -76.186027,40.669341 -76.186289,40.669712 -76.186355,40.669804 -76.186436,40.669922 -76.186445,40.669942 -76.187154,40.670954 -76.187896,40.672005 -76.188014,40.672174 -76.188459,40.672817 -76.189098,40.67374 -76.191035,40.672952 -76.192034,40.672542 -76.192062,40.672598 -76.192173,40.672553 -76.192581,40.673123 -76.192959,40.673654 -76.193067,40.673805</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

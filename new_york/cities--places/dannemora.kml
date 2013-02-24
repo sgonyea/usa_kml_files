@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dannemora</name>
+<Schema name="dannemora" id="dannemora">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dannemora</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dannemora">
+		<SimpleData name="Name">Dannemora</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">19642</SimpleData>
+		<SimpleData name="PLACENS">02391632</SimpleData>
+		<SimpleData name="GEOID">3619642</SimpleData>
+		<SimpleData name="NAMELSAD">Dannemora village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3127196</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.7197211</SimpleData>
+		<SimpleData name="INTPTLON">-073.7185351</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.729959,44.724266 -73.729245,44.724933 -73.727085,44.726952 -73.726369,44.727619 -73.710782,44.729887 -73.710287,44.728051 -73.710204,44.727808 -73.710138,44.727561 -73.709154,44.723643 -73.709048,44.723635 -73.708969,44.723626 -73.708903,44.723618 -73.708561,44.723546 -73.708682,44.722989 -73.708859,44.722842 -73.708547,44.721619 -73.707877,44.718983 -73.707083,44.715866 -73.706491,44.71354 -73.706483,44.713506 -73.706333,44.712916 -73.71142,44.712132 -73.713434,44.711822 -73.71381,44.711764 -73.721032,44.710651 -73.721249,44.710618 -73.72692,44.709744 -73.727065,44.71046 -73.728676,44.717217 -73.729212,44.719257 -73.729594,44.720997 -73.730307,44.723926 -73.729959,44.724266</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

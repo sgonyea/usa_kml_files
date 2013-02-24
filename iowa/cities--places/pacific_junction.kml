@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pacific_junction</name>
+<Schema name="pacific_junction" id="pacific_junction">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pacific Junction</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pacific_junction">
+		<SimpleData name="Name">Pacific Junction</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">60825</SimpleData>
+		<SimpleData name="PLACENS">02396124</SimpleData>
+		<SimpleData name="GEOID">1960825</SimpleData>
+		<SimpleData name="NAMELSAD">Pacific Junction city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1961815</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0179888</SimpleData>
+		<SimpleData name="INTPTLON">-095.7995623</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.809165,41.016141 -95.809165,41.016173 -95.809184,41.0162 -95.809083,41.019808 -95.809084,41.023499 -95.8043,41.023527 -95.804284,41.023499 -95.801702,41.023406 -95.801604,41.023422 -95.80134,41.023437 -95.800868,41.023449 -95.800842,41.023449 -95.800606,41.023447 -95.799355,41.023435 -95.797005,41.023443 -95.794676,41.02345 -95.789784,41.023459 -95.790022,41.018527 -95.789984,41.018525 -95.789985,41.017699 -95.789998,41.017655 -95.790029,41.017547 -95.790011,41.016052 -95.790011,41.01602 -95.790056,41.016052 -95.790045,41.015293 -95.790084,41.015099 -95.790059,41.015073 -95.789983,41.014999 -95.790083,41.012527 -95.796156,41.012503 -95.801007,41.012497 -95.801518,41.012458 -95.802053,41.012462 -95.803922,41.012478 -95.80431,41.012481 -95.804329,41.012505 -95.808384,41.012499 -95.809164,41.012539 -95.809165,41.016141</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

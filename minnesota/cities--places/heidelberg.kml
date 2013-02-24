@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>heidelberg</name>
+<Schema name="heidelberg" id="heidelberg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Heidelberg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#heidelberg">
+		<SimpleData name="Name">Heidelberg</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">28214</SimpleData>
+		<SimpleData name="PLACENS">02394346</SimpleData>
+		<SimpleData name="GEOID">2728214</SimpleData>
+		<SimpleData name="NAMELSAD">Heidelberg city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1384039</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.4930699</SimpleData>
+		<SimpleData name="INTPTLON">-093.6264584</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-93.628375,44.485898 -93.626256,44.485916 -93.626216,44.485252 -93.626203,44.483123 -93.628333,44.483141 -93.628375,44.485898</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-93.631585,44.487296 -93.631556,44.491095 -93.631547,44.492362 -93.631548,44.492549 -93.631551,44.49311 -93.631552,44.493297 -93.631547,44.494786 -93.631534,44.499253 -93.631532,44.49997 -93.631514,44.500742 -93.630507,44.50074 -93.627486,44.500736 -93.626479,44.500735 -93.625447,44.500736 -93.622352,44.50074 -93.621321,44.500742 -93.621307,44.500188 -93.621301,44.499963 -93.621213,44.499963 -93.621216,44.4998 -93.621276,44.496712 -93.621297,44.495683 -93.621287,44.495668 -93.62126,44.495626 -93.621251,44.495612 -93.621271,44.492917 -93.621324,44.486157 -93.621609,44.486155 -93.622645,44.486149 -93.625232,44.486136 -93.625232,44.486028 -93.625437,44.486029 -93.626053,44.486033 -93.626259,44.486035 -93.627326,44.486031 -93.627566,44.486031 -93.628867,44.486032 -93.630528,44.48603 -93.631596,44.48603 -93.631585,44.487296</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

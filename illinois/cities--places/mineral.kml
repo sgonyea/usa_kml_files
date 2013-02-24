@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mineral</name>
+<Schema name="mineral" id="mineral">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mineral</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mineral">
+		<SimpleData name="Name">Mineral</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">49516</SimpleData>
+		<SimpleData name="PLACENS">02399370</SimpleData>
+		<SimpleData name="GEOID">1749516</SimpleData>
+		<SimpleData name="NAMELSAD">Mineral village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1509927</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3843472</SimpleData>
+		<SimpleData name="INTPTLON">-089.8387768</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-89.839062,41.395256 -89.838853,41.390454 -89.836298,41.390503 -89.835979,41.390516 -89.835979,41.390137 -89.835979,41.389674 -89.835979,41.389251 -89.83725,41.389497 -89.844416,41.390958 -89.844423,41.391185 -89.844551,41.395133 -89.839062,41.395256</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-89.843319,41.382826 -89.843151,41.382828 -89.843153,41.383088 -89.842998,41.383053 -89.842239,41.382885 -89.842241,41.383025 -89.841107,41.382788 -89.841107,41.382879 -89.841112,41.383295 -89.841111,41.383417 -89.841298,41.383417 -89.841298,41.383952 -89.841107,41.383952 -89.841101,41.384841 -89.842264,41.384839 -89.842508,41.385157 -89.841933,41.385998 -89.84145,41.38643 -89.841351,41.386488 -89.841145,41.386609 -89.840683,41.387323 -89.84077,41.3898 -89.840322,41.389698 -89.839415,41.389495 -89.838506,41.3893 -89.837736,41.389149 -89.837595,41.389121 -89.837135,41.389037 -89.836214,41.388876 -89.836212,41.387879 -89.833846,41.387893 -89.833837,41.386783 -89.834225,41.386783 -89.834219,41.386507 -89.834219,41.386388 -89.833833,41.386383 -89.833835,41.386508 -89.831462,41.386517 -89.831391,41.382053 -89.831376,41.380856 -89.831378,41.380443 -89.831379,41.380387 -89.831379,41.380266 -89.830061,41.38001 -89.829387,41.379868 -89.829101,41.37981 -89.828746,41.37974 -89.828418,41.379689 -89.828414,41.379303 -89.828781,41.379301 -89.828915,41.379301 -89.830132,41.379289 -89.831387,41.379266 -89.8314,41.37769 -89.838625,41.377635 -89.841112,41.377595 -89.841082,41.379283 -89.841183,41.379284 -89.842321,41.379291 -89.844321,41.379291 -89.845365,41.379288 -89.845778,41.379291 -89.846218,41.379294 -89.846884,41.379303 -89.848838,41.379302 -89.848972,41.382791 -89.843319,41.382826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

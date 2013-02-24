@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>anaktuvuk_pass</name>
+<Schema name="anaktuvuk_pass" id="anaktuvuk_pass">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Anaktuvuk Pass</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#anaktuvuk_pass">
+		<SimpleData name="Name">Anaktuvuk Pass</SimpleData>
+		<SimpleData name="STATEFP">02</SimpleData>
+		<SimpleData name="PLACEFP">02080</SimpleData>
+		<SimpleData name="PLACENS">02419354</SimpleData>
+		<SimpleData name="GEOID">0202080</SimpleData>
+		<SimpleData name="NAMELSAD">Anaktuvuk Pass city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">12521154</SimpleData>
+		<SimpleData name="AWATER">139518</SimpleData>
+		<SimpleData name="INTPTLAT">+68.1549323</SimpleData>
+		<SimpleData name="INTPTLON">-151.7052005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-151.728376,68.136679 -151.729451,68.137266 -151.734858,68.140218 -151.736003,68.140843 -151.750398,68.148698 -151.752455,68.149801 -151.753338,68.150278 -151.75599,68.151709 -151.756874,68.152187 -151.76102,68.154493 -151.769027,68.158947 -151.764123,68.160244 -151.759536,68.161458 -151.744998,68.165137 -151.74298,68.165649 -151.726425,68.16984 -151.701386,68.176177 -151.701097,68.176251 -151.687549,68.170554 -151.685693,68.169516 -151.684542,68.168872 -151.681535,68.16719 -151.680127,68.166402 -151.678272,68.165365 -151.652789,68.15181 -151.650102,68.150381 -151.72001,68.132225 -151.728376,68.136679</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

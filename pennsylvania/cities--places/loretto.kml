@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>loretto</name>
+<Schema name="loretto" id="loretto">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Loretto</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#loretto">
+		<SimpleData name="Name">Loretto</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">44704</SimpleData>
+		<SimpleData name="PLACENS">01215028</SimpleData>
+		<SimpleData name="GEOID">4244704</SimpleData>
+		<SimpleData name="NAMELSAD">Loretto borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2479162</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5085963</SimpleData>
+		<SimpleData name="INTPTLON">-078.6348888</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.644058,40.518039 -78.643135,40.518107 -78.642168,40.518177 -78.634981,40.518705 -78.63491,40.518696 -78.634461,40.518117 -78.632477,40.515563 -78.631025,40.513682 -78.626283,40.507541 -78.625194,40.506131 -78.623736,40.504243 -78.62312,40.503445 -78.623093,40.50341 -78.624054,40.502538 -78.624268,40.502318 -78.624559,40.502096 -78.628477,40.498513 -78.628579,40.498536 -78.628646,40.498552 -78.628896,40.498628 -78.629108,40.498704 -78.629177,40.498735 -78.63052,40.499173 -78.632829,40.499915 -78.635382,40.500759 -78.635522,40.500805 -78.637385,40.501411 -78.637688,40.501505 -78.638208,40.501684 -78.638907,40.501925 -78.639632,40.502145 -78.64043,40.503325 -78.643209,40.507415 -78.643461,40.507786 -78.643892,40.508419 -78.643896,40.508578 -78.643847,40.508578 -78.643702,40.50858 -78.643654,40.508582 -78.643547,40.508584 -78.643512,40.508584 -78.643517,40.508677 -78.643595,40.510116 -78.643807,40.513745 -78.644058,40.518039</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

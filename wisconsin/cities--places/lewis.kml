@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lewis</name>
+<Schema name="lewis" id="lewis">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lewis</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lewis">
+		<SimpleData name="Name">Lewis</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">43725</SimpleData>
+		<SimpleData name="PLACENS">02586525</SimpleData>
+		<SimpleData name="GEOID">5543725</SimpleData>
+		<SimpleData name="NAMELSAD">Lewis CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">3766115</SimpleData>
+		<SimpleData name="AWATER">15905</SimpleData>
+		<SimpleData name="INTPTLAT">+45.7218870</SimpleData>
+		<SimpleData name="INTPTLON">-092.3922153</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.406647,45.705067 -92.406615,45.705287 -92.406602,45.705468 -92.4066,45.705923 -92.406572,45.706515 -92.406575,45.707522 -92.406525,45.709657 -92.406613,45.712053 -92.406529,45.717503 -92.406494,45.72101 -92.406668,45.726543 -92.406554,45.726514 -92.406429,45.726505 -92.402273,45.726474 -92.396969,45.726434 -92.39039,45.726407 -92.38811,45.726368 -92.384022,45.726336 -92.383152,45.726327 -92.383736,45.72538 -92.384018,45.724899 -92.384194,45.72464 -92.384361,45.724373 -92.384551,45.724049 -92.384805,45.723648 -92.385362,45.722733 -92.385536,45.722469 -92.385727,45.722206 -92.385855,45.722043 -92.38591,45.721973 -92.386154,45.721687 -92.386444,45.721374 -92.386764,45.721069 -92.387016,45.720844 -92.386898,45.720754 -92.38683,45.720638 -92.38678,45.720519 -92.386764,45.720352 -92.386816,45.718994 -92.38679,45.715558 -92.386761,45.713272 -92.386757,45.712264 -92.386745,45.704891 -92.396897,45.704878 -92.400589,45.704873 -92.406646,45.704866 -92.406647,45.705067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

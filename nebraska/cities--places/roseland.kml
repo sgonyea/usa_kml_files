@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>roseland</name>
+<Schema name="roseland" id="roseland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Roseland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roseland">
+		<SimpleData name="Name">Roseland</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">42355</SimpleData>
+		<SimpleData name="PLACENS">02399121</SimpleData>
+		<SimpleData name="GEOID">3142355</SimpleData>
+		<SimpleData name="NAMELSAD">Roseland village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">689924</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4698457</SimpleData>
+		<SimpleData name="INTPTLON">-098.5584807</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.564813,40.468438 -98.562851,40.468653 -98.562867,40.469906 -98.562869,40.470098 -98.562868,40.470292 -98.562864,40.471283 -98.562855,40.472687 -98.562848,40.473247 -98.562853,40.473359 -98.562907,40.473454 -98.562966,40.473512 -98.56309,40.47355 -98.561328,40.473588 -98.554801,40.473562 -98.554801,40.474441 -98.55356,40.474447 -98.553555,40.473556 -98.55355,40.472682 -98.553543,40.471299 -98.553541,40.470294 -98.553542,40.469946 -98.553544,40.468543 -98.553543,40.466309 -98.553953,40.466304 -98.555569,40.466301 -98.556814,40.466288 -98.557483,40.46629 -98.558912,40.466296 -98.560223,40.466296 -98.562255,40.466298 -98.562839,40.466299 -98.56289,40.466299 -98.562974,40.466299 -98.563348,40.466299 -98.564008,40.4663 -98.564803,40.4663 -98.564813,40.468438</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

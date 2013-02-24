@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>carsonville</name>
+<Schema name="carsonville" id="carsonville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Carsonville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#carsonville">
+		<SimpleData name="Name">Carsonville</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">13620</SimpleData>
+		<SimpleData name="PLACENS">02397565</SimpleData>
+		<SimpleData name="GEOID">2613620</SimpleData>
+		<SimpleData name="NAMELSAD">Carsonville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2938290</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.4258422</SimpleData>
+		<SimpleData name="INTPTLON">-082.6729819</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.686359,43.421031 -82.681237,43.42119 -82.681418,43.424375 -82.68157,43.426486 -82.681583,43.426894 -82.681686,43.428941 -82.681883,43.433765 -82.674193,43.434021 -82.674014,43.434027 -82.672,43.434113 -82.661991,43.434477 -82.661556,43.427265 -82.661281,43.420368 -82.671472,43.420018 -82.673583,43.419946 -82.673725,43.419925 -82.674458,43.419887 -82.675772,43.41985 -82.675998,43.419847 -82.67615,43.419816 -82.676362,43.419749 -82.676606,43.419747 -82.676638,43.419641 -82.676702,43.419588 -82.676813,43.419534 -82.676898,43.419528 -82.676491,43.415899 -82.686009,43.415567 -82.68622,43.419128 -82.686359,43.421031</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

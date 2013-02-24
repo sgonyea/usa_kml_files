@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>andover</name>
+<Schema name="andover" id="andover">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Andover</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#andover">
+		<SimpleData name="Name">Andover</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">01330</SimpleData>
+		<SimpleData name="PLACENS">00885140</SimpleData>
+		<SimpleData name="GEOID">3401330</SimpleData>
+		<SimpleData name="NAMELSAD">Andover borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3761458</SimpleData>
+		<SimpleData name="AWATER">48467</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9857580</SimpleData>
+		<SimpleData name="INTPTLON">-074.7435897</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.749953,41.000007 -74.74971,41.00002 -74.747243,41.000002 -74.747014,40.999985 -74.745565,40.999969 -74.743355,40.999401 -74.74298,40.999301 -74.742376,40.999106 -74.741911,40.998944 -74.740668,40.998526 -74.736916,40.9972 -74.735523,40.996797 -74.735237,40.996721 -74.733476,40.99636 -74.732351,40.996023 -74.731974,40.995851 -74.732221,40.995291 -74.733654,40.989755 -74.734033,40.988574 -74.735035,40.985362 -74.735527,40.983649 -74.735827,40.982697 -74.736367,40.980955 -74.736953,40.979078 -74.736999,40.978937 -74.737584,40.977021 -74.738088,40.975412 -74.738293,40.974759 -74.740027,40.969225 -74.740495,40.968775 -74.740584,40.968706 -74.740769,40.968863 -74.74126,40.969353 -74.742266,40.970347 -74.749704,40.976212 -74.751363,40.977499 -74.75126,40.979922 -74.751169,40.982012 -74.750895,40.988506 -74.750392,40.995245 -74.750319,40.996554 -74.750394,40.99932 -74.750325,40.999986 -74.749953,41.000007</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

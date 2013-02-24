@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_hampton</name>
+<Schema name="new_hampton" id="new_hampton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Hampton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_hampton">
+		<SimpleData name="Name">New Hampton</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">51860</SimpleData>
+		<SimpleData name="PLACENS">02395197</SimpleData>
+		<SimpleData name="GEOID">2951860</SimpleData>
+		<SimpleData name="NAMELSAD">New Hampton city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1421117</SimpleData>
+		<SimpleData name="AWATER">3497</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2647661</SimpleData>
+		<SimpleData name="INTPTLON">-094.1950889</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.203407,40.265024 -94.203425,40.267595 -94.203395,40.269139 -94.203371,40.270332 -94.202185,40.27036 -94.202154,40.269111 -94.197334,40.269195 -94.19733,40.269723 -94.197324,40.270377 -94.189309,40.270388 -94.187804,40.270362 -94.187577,40.268233 -94.187417,40.267017 -94.187695,40.265623 -94.187756,40.265314 -94.187818,40.265006 -94.187843,40.264964 -94.187871,40.26483 -94.187889,40.264642 -94.187909,40.26406 -94.187899,40.263502 -94.187915,40.263196 -94.187943,40.263038 -94.188007,40.262983 -94.187927,40.261404 -94.187895,40.260771 -94.187881,40.260329 -94.187875,40.260145 -94.187951,40.260148 -94.191897,40.260127 -94.196534,40.260098 -94.196707,40.2601 -94.199884,40.260128 -94.202157,40.260138 -94.202176,40.260355 -94.202152,40.261029 -94.202137,40.262229 -94.202169,40.263019 -94.202564,40.263029 -94.202756,40.263034 -94.202876,40.263033 -94.203316,40.263028 -94.20339,40.26303 -94.203407,40.265024</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

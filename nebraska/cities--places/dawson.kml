@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dawson</name>
+<Schema name="dawson" id="dawson">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dawson</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dawson">
+		<SimpleData name="Name">Dawson</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">12420</SimpleData>
+		<SimpleData name="PLACENS">02398690</SimpleData>
+		<SimpleData name="GEOID">3112420</SimpleData>
+		<SimpleData name="NAMELSAD">Dawson village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">551700</SimpleData>
+		<SimpleData name="AWATER">4094</SimpleData>
+		<SimpleData name="INTPTLAT">+40.1308864</SimpleData>
+		<SimpleData name="INTPTLON">-095.8300790</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.833514,40.131153 -95.832914,40.131157 -95.832761,40.131158 -95.832775,40.131287 -95.832787,40.133031 -95.832795,40.134026 -95.832801,40.134773 -95.833357,40.134761 -95.833379,40.13588 -95.831873,40.135882 -95.83187,40.136402 -95.831529,40.136401 -95.831525,40.137088 -95.830709,40.137111 -95.830642,40.136388 -95.830637,40.13634 -95.82996,40.136331 -95.829931,40.135687 -95.829901,40.134669 -95.828746,40.134666 -95.827928,40.134642 -95.827904,40.134636 -95.827774,40.134602 -95.827016,40.134596 -95.827071,40.131889 -95.826545,40.131861 -95.826533,40.131147 -95.826284,40.131145 -95.826157,40.131142 -95.825668,40.131132 -95.825671,40.130632 -95.826297,40.13063 -95.826994,40.130629 -95.826948,40.127487 -95.826888,40.126092 -95.826924,40.125642 -95.826938,40.125249 -95.826954,40.125001 -95.826855,40.124716 -95.827143,40.124776 -95.828285,40.125001 -95.829686,40.125405 -95.830596,40.125668 -95.83188,40.126038 -95.831887,40.126551 -95.831894,40.127077 -95.831907,40.1286 -95.832934,40.128601 -95.832941,40.129593 -95.832939,40.12978 -95.83294,40.130249 -95.833495,40.130251 -95.833514,40.131153</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

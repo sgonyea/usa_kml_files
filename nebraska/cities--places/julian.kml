@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>julian</name>
+<Schema name="julian" id="julian">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Julian</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#julian">
+		<SimpleData name="Name">Julian</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">24915</SimpleData>
+		<SimpleData name="PLACENS">02398313</SimpleData>
+		<SimpleData name="GEOID">3124915</SimpleData>
+		<SimpleData name="NAMELSAD">Julian village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">227491</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5198851</SimpleData>
+		<SimpleData name="INTPTLON">-095.8673656</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.869544,40.521244 -95.869307,40.521949 -95.869377,40.522969 -95.869165,40.522969 -95.86786,40.522971 -95.866589,40.522977 -95.865534,40.522978 -95.865561,40.521942 -95.865527,40.521942 -95.865408,40.521916 -95.865319,40.52187 -95.865269,40.521771 -95.86526,40.521628 -95.865272,40.5211 -95.865304,40.52104 -95.865344,40.520994 -95.865444,40.520973 -95.865511,40.520972 -95.865209,40.517933 -95.865729,40.517904 -95.865718,40.517541 -95.86626,40.517566 -95.866229,40.516229 -95.868395,40.516185 -95.868397,40.517536 -95.869126,40.517542 -95.869112,40.51977 -95.869643,40.519763 -95.869544,40.521244</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

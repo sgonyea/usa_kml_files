@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>aurora</name>
+<Schema name="aurora" id="aurora">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Aurora</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#aurora">
+		<SimpleData name="Name">Aurora</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">03425</SimpleData>
+		<SimpleData name="PLACENS">02394035</SimpleData>
+		<SimpleData name="GEOID">2003425</SimpleData>
+		<SimpleData name="NAMELSAD">Aurora city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">262488</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4519216</SimpleData>
+		<SimpleData name="INTPTLON">-097.5298787</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.534497,39.453074 -97.534247,39.453099 -97.534139,39.453103 -97.533818,39.453117 -97.533711,39.453123 -97.533641,39.453125 -97.533434,39.453133 -97.533365,39.453137 -97.53301,39.45312 -97.531946,39.453069 -97.531592,39.453052 -97.531594,39.453218 -97.5316,39.453716 -97.531603,39.453882 -97.53141,39.453905 -97.530833,39.453977 -97.53076,39.453987 -97.530664,39.453916 -97.529844,39.454006 -97.529846,39.454182 -97.529852,39.454508 -97.527172,39.454547 -97.527094,39.454549 -97.52715,39.453627 -97.527135,39.453509 -97.52709,39.453158 -97.527075,39.453041 -97.526686,39.453057 -97.526275,39.453074 -97.526278,39.452725 -97.526684,39.452726 -97.527073,39.452727 -97.527072,39.452685 -97.527072,39.452559 -97.527072,39.452517 -97.526602,39.452533 -97.526008,39.452554 -97.526018,39.452324 -97.526601,39.452285 -97.527071,39.452255 -97.52707,39.452207 -97.52707,39.452065 -97.52707,39.452018 -97.527068,39.451822 -97.527062,39.451235 -97.52706,39.45104 -97.527058,39.450844 -97.527052,39.450257 -97.52705,39.450062 -97.527048,39.44996 -97.527045,39.449656 -97.527045,39.449555 -97.527915,39.449558 -97.530526,39.449569 -97.531397,39.449573 -97.531803,39.44957 -97.531951,39.44957 -97.53255,39.450458 -97.532778,39.450795 -97.532941,39.451041 -97.533431,39.451782 -97.533595,39.452029 -97.533664,39.452129 -97.533799,39.452282 -97.534447,39.453017 -97.534497,39.453074</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>river_sioux</name>
+<Schema name="river_sioux" id="river_sioux">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>River Sioux</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#river_sioux">
+		<SimpleData name="Name">River Sioux</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">67530</SimpleData>
+		<SimpleData name="PLACENS">02583493</SimpleData>
+		<SimpleData name="GEOID">1967530</SimpleData>
+		<SimpleData name="NAMELSAD">River Sioux CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">985685</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8024393</SimpleData>
+		<SimpleData name="INTPTLON">-096.0479880</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.057423,41.805151 -96.055384,41.805643 -96.055076,41.805694 -96.054855,41.805716 -96.054632,41.805727 -96.054372,41.805722 -96.054297,41.805721 -96.050449,41.805786 -96.050349,41.805779 -96.050179,41.805752 -96.050041,41.805712 -96.049998,41.805804 -96.047894,41.805813 -96.047859,41.806301 -96.047152,41.806437 -96.046666,41.806459 -96.045761,41.806661 -96.045321,41.805788 -96.045311,41.805753 -96.044427,41.805761 -96.043167,41.805758 -96.042608,41.805757 -96.041201,41.805767 -96.040677,41.8058 -96.04058,41.79854 -96.042699,41.798549 -96.043952,41.798554 -96.045466,41.79857 -96.052147,41.798559 -96.052339,41.798776 -96.052822,41.799301 -96.053249,41.799764 -96.054932,41.801635 -96.055351,41.802083 -96.055675,41.802434 -96.056114,41.802929 -96.056382,41.803205 -96.056619,41.803477 -96.057096,41.803998 -96.057205,41.804117 -96.0578,41.804796 -96.057857,41.804857 -96.057423,41.805151</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

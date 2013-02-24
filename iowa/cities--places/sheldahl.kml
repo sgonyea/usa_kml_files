@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sheldahl</name>
+<Schema name="sheldahl" id="sheldahl">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sheldahl</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sheldahl">
+		<SimpleData name="Name">Sheldahl</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">72345</SimpleData>
+		<SimpleData name="PLACENS">02395867</SimpleData>
+		<SimpleData name="GEOID">1972345</SimpleData>
+		<SimpleData name="NAMELSAD">Sheldahl city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2177706</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8642900</SimpleData>
+		<SimpleData name="INTPTLON">-093.6967162</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.708022,41.865965 -93.707901,41.870482 -93.707899,41.870573 -93.698038,41.870581 -93.692443,41.870638 -93.68936,41.870664 -93.688153,41.870647 -93.688036,41.863371 -93.688019,41.861726 -93.688211,41.8561 -93.693867,41.856116 -93.69717,41.856167 -93.697926,41.856177 -93.697987,41.856171 -93.697979,41.85787 -93.697994,41.859075 -93.700007,41.859156 -93.702823,41.859184 -93.702844,41.863351 -93.702868,41.863351 -93.704583,41.863353 -93.704633,41.863353 -93.704769,41.863353 -93.705536,41.863354 -93.706182,41.863355 -93.706341,41.863355 -93.706508,41.863355 -93.707315,41.863356 -93.707611,41.863356 -93.708047,41.863357 -93.708092,41.863357 -93.708022,41.865965</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

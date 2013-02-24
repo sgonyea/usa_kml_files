@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tripoli</name>
+<Schema name="tripoli" id="tripoli">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tripoli</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tripoli">
+		<SimpleData name="Name">Tripoli</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">78915</SimpleData>
+		<SimpleData name="PLACENS">02397056</SimpleData>
+		<SimpleData name="GEOID">1978915</SimpleData>
+		<SimpleData name="NAMELSAD">Tripoli city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3650130</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8083301</SimpleData>
+		<SimpleData name="INTPTLON">-092.2578938</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.268292,42.800522 -92.268189,42.80124 -92.268112,42.802395 -92.268088,42.818363 -92.267402,42.818361 -92.263092,42.818351 -92.258173,42.818338 -92.250157,42.818261 -92.248077,42.818186 -92.248068,42.809237 -92.248064,42.805265 -92.248062,42.803516 -92.248095,42.802341 -92.247921,42.802342 -92.247253,42.802346 -92.242998,42.802374 -92.240723,42.802389 -92.2406,42.80239 -92.240599,42.802315 -92.240723,42.802323 -92.240722,42.801756 -92.240721,42.801316 -92.24052,42.801305 -92.24052,42.800882 -92.240719,42.800888 -92.241587,42.800885 -92.241595,42.800749 -92.241605,42.800587 -92.242998,42.800591 -92.242998,42.800746 -92.242998,42.80175 -92.242998,42.80218 -92.247238,42.802108 -92.247907,42.802108 -92.248067,42.802076 -92.248048,42.79857 -92.250139,42.798412 -92.256836,42.798545 -92.257401,42.79858 -92.257365,42.79801 -92.258144,42.798045 -92.258143,42.798194 -92.258141,42.798567 -92.268312,42.798698 -92.268292,42.800522</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

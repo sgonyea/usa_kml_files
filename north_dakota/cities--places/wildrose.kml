@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wildrose</name>
+<Schema name="wildrose" id="wildrose">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wildrose</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wildrose">
+		<SimpleData name="Name">Wildrose</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">86020</SimpleData>
+		<SimpleData name="PLACENS">01036334</SimpleData>
+		<SimpleData name="GEOID">3886020</SimpleData>
+		<SimpleData name="NAMELSAD">Wildrose city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">741755</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.6298754</SimpleData>
+		<SimpleData name="INTPTLON">-103.1837890</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.189809,48.627726 -103.189806,48.628817 -103.189799,48.63122 -103.189814,48.632777 -103.189811,48.633173 -103.18981,48.633291 -103.189807,48.633712 -103.189786,48.633712 -103.18732,48.633717 -103.185935,48.633695 -103.18515,48.633645 -103.184112,48.633586 -103.18187,48.63346 -103.181088,48.63343 -103.180201,48.633396 -103.179571,48.633345 -103.179332,48.633326 -103.179178,48.633311 -103.179078,48.633301 -103.179115,48.63292 -103.179107,48.632764 -103.177141,48.632658 -103.177146,48.631827 -103.176875,48.631825 -103.176812,48.630191 -103.176813,48.629482 -103.176775,48.628602 -103.178129,48.628597 -103.178653,48.628586 -103.178673,48.627636 -103.178705,48.626086 -103.189812,48.626062 -103.189809,48.627726</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

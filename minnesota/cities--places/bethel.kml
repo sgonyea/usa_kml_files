@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bethel</name>
+<Schema name="bethel" id="bethel">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bethel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bethel">
+		<SimpleData name="Name">Bethel</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">05554</SimpleData>
+		<SimpleData name="PLACENS">02394156</SimpleData>
+		<SimpleData name="GEOID">2705554</SimpleData>
+		<SimpleData name="NAMELSAD">Bethel city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2344574</SimpleData>
+		<SimpleData name="AWATER">158624</SimpleData>
+		<SimpleData name="INTPTLAT">+45.4035266</SimpleData>
+		<SimpleData name="INTPTLON">-093.2749321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.280637,45.391261 -93.28061,45.391494 -93.280624,45.394622 -93.280654,45.39919 -93.280707,45.405721 -93.280725,45.407995 -93.278298,45.407995 -93.270461,45.407995 -93.265468,45.408018 -93.26536,45.408014 -93.265273,45.408011 -93.26499,45.408024 -93.26068,45.408038 -93.260658,45.407647 -93.260355,45.399267 -93.260228,45.394675 -93.265351,45.394692 -93.268593,45.39466 -93.271225,45.394631 -93.275585,45.394626 -93.275568,45.391188 -93.280651,45.391153 -93.280637,45.391261</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>duenweg</name>
+<Schema name="duenweg" id="duenweg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Duenweg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#duenweg">
+		<SimpleData name="Name">Duenweg</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">20314</SimpleData>
+		<SimpleData name="PLACENS">02394567</SimpleData>
+		<SimpleData name="GEOID">2920314</SimpleData>
+		<SimpleData name="NAMELSAD">Duenweg city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5279524</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0840225</SimpleData>
+		<SimpleData name="INTPTLON">-094.4127325</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.422834,37.074612 -94.422787,37.075839 -94.422737,37.077134 -94.422717,37.07753 -94.42271,37.078309 -94.422681,37.078997 -94.422594,37.081027 -94.422558,37.081854 -94.422471,37.083284 -94.422403,37.085096 -94.421936,37.097581 -94.421881,37.098836 -94.421831,37.100023 -94.421798,37.10074 -94.421761,37.101192 -94.417418,37.10109 -94.417576,37.097523 -94.412921,37.097461 -94.410052,37.097434 -94.403949,37.097374 -94.403726,37.097365 -94.403851,37.095094 -94.403869,37.094052 -94.403914,37.092662 -94.404015,37.090606 -94.404234,37.086129 -94.404299,37.084599 -94.404328,37.083917 -94.404315,37.083136 -94.404328,37.082303 -94.404373,37.08117 -94.401993,37.081109 -94.401956,37.082238 -94.399672,37.082181 -94.399633,37.083056 -94.399491,37.083054 -94.39934,37.082919 -94.395099,37.082862 -94.395224,37.079907 -94.404416,37.080085 -94.40444,37.079497 -94.40446,37.079076 -94.404594,37.075959 -94.404601,37.07581 -94.404639,37.075 -94.404788,37.071869 -94.404899,37.069542 -94.407409,37.068681 -94.408556,37.068692 -94.411475,37.068729 -94.411764,37.068733 -94.412231,37.068739 -94.412455,37.068743 -94.414128,37.068765 -94.416842,37.06884 -94.41872,37.068892 -94.419816,37.068905 -94.419736,37.070785 -94.418472,37.07076 -94.418417,37.072742 -94.418376,37.074243 -94.421842,37.074306 -94.422859,37.07432 -94.422834,37.074612</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

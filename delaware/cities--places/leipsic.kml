@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>leipsic</name>
+<Schema name="leipsic" id="leipsic">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Leipsic</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#leipsic">
+		<SimpleData name="Name">Leipsic</SimpleData>
+		<SimpleData name="STATEFP">10</SimpleData>
+		<SimpleData name="PLACEFP">41700</SimpleData>
+		<SimpleData name="PLACENS">02391267</SimpleData>
+		<SimpleData name="GEOID">1041700</SimpleData>
+		<SimpleData name="NAMELSAD">Leipsic town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">756205</SimpleData>
+		<SimpleData name="AWATER">69383</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2422630</SimpleData>
+		<SimpleData name="INTPTLON">-075.5163298</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.520688,39.242284 -75.520582,39.242429 -75.519633,39.244355 -75.519564,39.244495 -75.519495,39.244635 -75.519454,39.244721 -75.519412,39.244807 -75.518956,39.245751 -75.518928,39.245793 -75.518869,39.245926 -75.51881,39.246058 -75.518756,39.246178 -75.518703,39.246297 -75.518531,39.246654 -75.518017,39.247726 -75.517846,39.248084 -75.515899,39.248237 -75.514129,39.248377 -75.511914,39.248536 -75.511619,39.247086 -75.511541,39.246713 -75.511143,39.244802 -75.511112,39.244622 -75.51108,39.244443 -75.511072,39.2444 -75.511014,39.244111 -75.510927,39.243439 -75.510892,39.238368 -75.511136,39.238356 -75.511381,39.238342 -75.51285,39.23826 -75.51334,39.238233 -75.513667,39.238227 -75.514649,39.23821 -75.514977,39.238205 -75.515086,39.238198 -75.515414,39.238177 -75.515524,39.238171 -75.517058,39.238161 -75.51822,39.238155 -75.520972,39.239941 -75.520967,39.240103 -75.52093,39.24144 -75.520927,39.241539 -75.520924,39.241638 -75.520922,39.241721 -75.520919,39.241804 -75.520918,39.241817 -75.520913,39.24198 -75.520688,39.242284</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

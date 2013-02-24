@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>trent</name>
+<Schema name="trent" id="trent">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Trent</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#trent">
+		<SimpleData name="Name">Trent</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">73580</SimpleData>
+		<SimpleData name="PLACENS">02413398</SimpleData>
+		<SimpleData name="GEOID">4873580</SimpleData>
+		<SimpleData name="NAMELSAD">Trent town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1045598</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.4884098</SimpleData>
+		<SimpleData name="INTPTLON">-100.1233364</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.129758,32.491869 -100.128893,32.492066 -100.121094,32.493775 -100.120781,32.493834 -100.119995,32.493277 -100.119908,32.493217 -100.11984,32.492843 -100.119364,32.492835 -100.119293,32.492786 -100.117757,32.491694 -100.117896,32.491537 -100.118166,32.49123 -100.11822,32.490749 -100.117274,32.489283 -100.117139,32.488939 -100.11722,32.488137 -100.117759,32.487527 -100.117787,32.487496 -100.117895,32.48722 -100.11793,32.48719 -100.118324,32.486846 -100.118225,32.485914 -100.117993,32.484794 -100.119239,32.484364 -100.125394,32.482869 -100.126313,32.482585 -100.126386,32.482565 -100.127032,32.482329 -100.127063,32.482736 -100.127151,32.483106 -100.127337,32.483756 -100.127637,32.484751 -100.127944,32.485768 -100.128256,32.486798 -100.128489,32.487571 -100.128618,32.487996 -100.128991,32.489227 -100.129225,32.489953 -100.129391,32.490519 -100.129527,32.490986 -100.129555,32.491086 -100.129758,32.491869</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

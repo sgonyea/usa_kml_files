@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>paynesville</name>
+<Schema name="paynesville" id="paynesville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Paynesville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#paynesville">
+		<SimpleData name="Name">Paynesville</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">56612</SimpleData>
+		<SimpleData name="PLACENS">02399638</SimpleData>
+		<SimpleData name="GEOID">2956612</SimpleData>
+		<SimpleData name="NAMELSAD">Paynesville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">681662</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2624771</SimpleData>
+		<SimpleData name="INTPTLON">-090.9002946</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.9055,39.261756 -90.904655,39.261739 -90.904583,39.261739 -90.904578,39.262307 -90.903023,39.262311 -90.902528,39.262314 -90.902712,39.262839 -90.903828,39.265981 -90.903247,39.266148 -90.903063,39.266202 -90.903349,39.266823 -90.903569,39.267302 -90.904962,39.270548 -90.905066,39.270787 -90.90369,39.270979 -90.90341,39.271036 -90.902604,39.271185 -90.902537,39.271036 -90.902019,39.269956 -90.901528,39.268735 -90.901725,39.268538 -90.901805,39.268459 -90.901232,39.266737 -90.900587,39.264798 -90.899261,39.26485 -90.898087,39.262861 -90.894491,39.262729 -90.89448,39.261782 -90.894486,39.257838 -90.896351,39.257888 -90.897302,39.257909 -90.901451,39.258053 -90.90537,39.260023 -90.9055,39.261756</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

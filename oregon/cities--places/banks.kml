@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>banks</name>
+<Schema name="banks" id="banks">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Banks</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#banks">
+		<SimpleData name="Name">Banks</SimpleData>
+		<SimpleData name="STATEFP">41</SimpleData>
+		<SimpleData name="PLACEFP">03850</SimpleData>
+		<SimpleData name="PLACENS">02409784</SimpleData>
+		<SimpleData name="GEOID">4103850</SimpleData>
+		<SimpleData name="NAMELSAD">Banks city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">955978</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.6145376</SimpleData>
+		<SimpleData name="INTPTLON">-123.1115564</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.119701,45.614504 -123.115178,45.614506 -123.115101,45.618739 -123.115215,45.61874 -123.115188,45.619521 -123.115065,45.619523 -123.114989,45.62178 -123.11472,45.621781 -123.114592,45.621781 -123.114355,45.621756 -123.114124,45.621744 -123.113998,45.62174 -123.113877,45.621737 -123.113689,45.621737 -123.11377,45.621835 -123.114254,45.622378 -123.114227,45.622765 -123.114111,45.62264 -123.110257,45.622586 -123.110241,45.622314 -123.11022,45.621673 -123.110205,45.621169 -123.110198,45.620768 -123.109629,45.620753 -123.10962,45.618641 -123.109622,45.618321 -123.109799,45.618044 -123.109436,45.618036 -123.109078,45.618029 -123.109185,45.617772 -123.109294,45.617468 -123.106795,45.614624 -123.106584,45.614384 -123.107221,45.6144 -123.107479,45.614407 -123.107811,45.614406 -123.107472,45.614013 -123.106961,45.61341 -123.106463,45.612843 -123.10617,45.612524 -123.105469,45.611742 -123.105383,45.611611 -123.104944,45.611098 -123.104458,45.610532 -123.10401,45.610017 -123.10309,45.60903 -123.105174,45.608774 -123.105169,45.608714 -123.105722,45.608689 -123.10679,45.608682 -123.10888,45.60878 -123.111764,45.609048 -123.111993,45.609061 -123.112416,45.609106 -123.113581,45.609251 -123.114102,45.609294 -123.114185,45.609949 -123.114299,45.610607 -123.114303,45.610735 -123.114298,45.610918 -123.114307,45.611492 -123.114302,45.611965 -123.114307,45.61234 -123.114311,45.612571 -123.114445,45.612566 -123.115124,45.612537 -123.115133,45.61196 -123.115606,45.61196 -123.11591,45.61196 -123.11636,45.611961 -123.116821,45.611961 -123.119703,45.611962 -123.119701,45.614504</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

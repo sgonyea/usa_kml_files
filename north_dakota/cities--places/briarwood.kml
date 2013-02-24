@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>briarwood</name>
+<Schema name="briarwood" id="briarwood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Briarwood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#briarwood">
+		<SimpleData name="Name">Briarwood</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">09320</SimpleData>
+		<SimpleData name="PLACENS">01035941</SimpleData>
+		<SimpleData name="GEOID">3809320</SimpleData>
+		<SimpleData name="NAMELSAD">Briarwood city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">394731</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.7870764</SimpleData>
+		<SimpleData name="INTPTLON">-096.7951952</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.802437,46.788907 -96.80218,46.788916 -96.802008,46.788922 -96.795486,46.789155 -96.795096,46.788806 -96.79433,46.788555 -96.792831,46.788555 -96.792132,46.788648 -96.791265,46.789083 -96.790467,46.789472 -96.790067,46.789562 -96.789568,46.789562 -96.789301,46.789379 -96.789334,46.789174 -96.789933,46.788533 -96.790234,46.788029 -96.790233,46.787297 -96.7899,46.787023 -96.7895,46.786886 -96.788002,46.786497 -96.787568,46.786177 -96.787136,46.785651 -96.787136,46.785496 -96.787137,46.785322 -96.792097,46.785284 -96.799561,46.785067 -96.799943,46.785058 -96.800002,46.785141 -96.800432,46.785718 -96.80087,46.786316 -96.80136,46.786994 -96.801794,46.787622 -96.801851,46.787719 -96.802081,46.788106 -96.802118,46.788185 -96.8023,46.788574 -96.802437,46.788907</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

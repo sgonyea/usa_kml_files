@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_haven</name>
+<Schema name="new_haven" id="new_haven">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Haven</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_haven">
+		<SimpleData name="Name">New Haven</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">57380</SimpleData>
+		<SimpleData name="PLACENS">02399465</SimpleData>
+		<SimpleData name="GEOID">2657380</SimpleData>
+		<SimpleData name="NAMELSAD">New Haven village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">6563219</SimpleData>
+		<SimpleData name="AWATER">2832</SimpleData>
+		<SimpleData name="INTPTLAT">+42.7297621</SimpleData>
+		<SimpleData name="INTPTLON">-082.7970398</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.808381,42.741611 -82.807479,42.741633 -82.806665,42.741652 -82.805416,42.741682 -82.804863,42.741703 -82.804356,42.741706 -82.80357,42.741708 -82.8019,42.74175 -82.792558,42.741911 -82.787773,42.742001 -82.786318,42.742028 -82.781505,42.742222 -82.781311,42.738656 -82.781285,42.737915 -82.781169,42.734584 -82.780632,42.7346 -82.780568,42.734603 -82.780196,42.734613 -82.778778,42.734653 -82.776125,42.734728 -82.775852,42.727222 -82.777106,42.727198 -82.780927,42.727118 -82.78068,42.719669 -82.780937,42.719662 -82.781087,42.719659 -82.785613,42.719559 -82.788919,42.719489 -82.79308,42.719395 -82.797361,42.719301 -82.799315,42.71926 -82.800741,42.71922 -82.8009,42.719215 -82.80172,42.719203 -82.802496,42.71919 -82.805474,42.719135 -82.808302,42.719094 -82.808683,42.719088 -82.810936,42.719034 -82.811193,42.724675 -82.811238,42.72605 -82.811284,42.727424 -82.811354,42.728833 -82.811394,42.730495 -82.811547,42.732851 -82.811598,42.733988 -82.811632,42.734717 -82.81222,42.734983 -82.811916,42.735415 -82.811648,42.735283 -82.81163,42.735812 -82.811667,42.736652 -82.811701,42.737735 -82.811709,42.738152 -82.811828,42.741554 -82.808381,42.741611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

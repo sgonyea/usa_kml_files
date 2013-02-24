@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>subiaco</name>
+<Schema name="subiaco" id="subiaco">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Subiaco</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#subiaco">
+		<SimpleData name="Name">Subiaco</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">67520</SimpleData>
+		<SimpleData name="PLACENS">02406677</SimpleData>
+		<SimpleData name="GEOID">0567520</SimpleData>
+		<SimpleData name="NAMELSAD">Subiaco town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4761040</SimpleData>
+		<SimpleData name="AWATER">37815</SimpleData>
+		<SimpleData name="INTPTLAT">+35.2973674</SimpleData>
+		<SimpleData name="INTPTLON">-093.6394392</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.651844,35.29439 -93.651777,35.296157 -93.651535,35.302565 -93.651312,35.308325 -93.651289,35.309057 -93.651264,35.309486 -93.642102,35.309312 -93.64205,35.312603 -93.641511,35.312599 -93.640669,35.312604 -93.640687,35.309378 -93.637282,35.309421 -93.633198,35.309473 -93.633174,35.308423 -93.633177,35.307872 -93.633192,35.30556 -93.633205,35.305511 -93.633214,35.30413 -93.633291,35.303976 -93.633205,35.303919 -93.633301,35.301269 -93.633315,35.299195 -93.632049,35.299202 -93.631567,35.299206 -93.626527,35.299245 -93.625083,35.299252 -93.624044,35.299281 -93.62405,35.297906 -93.624071,35.29389 -93.624021,35.29027 -93.62397,35.286595 -93.625173,35.28658 -93.62802,35.28663 -93.637113,35.286791 -93.637974,35.286793 -93.637858,35.287806 -93.637871,35.28795 -93.637847,35.288746 -93.637815,35.290084 -93.637805,35.290224 -93.637809,35.290294 -93.637836,35.290358 -93.637892,35.29041 -93.637976,35.290432 -93.638063,35.290442 -93.638151,35.290446 -93.638412,35.290439 -93.638672,35.290453 -93.638831,35.290487 -93.638936,35.290539 -93.639126,35.290457 -93.642383,35.290523 -93.646713,35.290549 -93.646765,35.292407 -93.647379,35.292405 -93.650625,35.292375 -93.651922,35.292388 -93.651844,35.29439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

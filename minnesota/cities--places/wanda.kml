@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wanda</name>
+<Schema name="wanda" id="wanda">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wanda</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wanda">
+		<SimpleData name="Name">Wanda</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">68008</SimpleData>
+		<SimpleData name="PLACENS">02397190</SimpleData>
+		<SimpleData name="GEOID">2768008</SimpleData>
+		<SimpleData name="NAMELSAD">Wanda city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">666887</SimpleData>
+		<SimpleData name="AWATER">8054</SimpleData>
+		<SimpleData name="INTPTLAT">+44.3132189</SimpleData>
+		<SimpleData name="INTPTLON">-095.2135331</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.218164,44.311257 -95.21814,44.311377 -95.218106,44.311632 -95.218106,44.312503 -95.218121,44.314204 -95.218112,44.315508 -95.218098,44.316163 -95.218082,44.31623 -95.217985,44.316336 -95.218072,44.318386 -95.21295,44.318403 -95.212839,44.320115 -95.211967,44.320097 -95.210814,44.318472 -95.210621,44.318468 -95.20835,44.318364 -95.207878,44.318421 -95.207909,44.318267 -95.207993,44.316066 -95.208078,44.313873 -95.208155,44.312861 -95.208033,44.312502 -95.208013,44.312332 -95.207999,44.311081 -95.218204,44.311123 -95.218164,44.311257</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

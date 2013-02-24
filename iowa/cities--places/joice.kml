@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>joice</name>
+<Schema name="joice" id="joice">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Joice</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#joice">
+		<SimpleData name="Name">Joice</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">39855</SimpleData>
+		<SimpleData name="PLACENS">02395476</SimpleData>
+		<SimpleData name="GEOID">1939855</SimpleData>
+		<SimpleData name="NAMELSAD">Joice city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2592311</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.3647891</SimpleData>
+		<SimpleData name="INTPTLON">-093.4581066</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.467993,43.358233 -93.467879,43.365044 -93.467872,43.365243 -93.467899,43.365278 -93.467999,43.365433 -93.468029,43.365553 -93.468046,43.365712 -93.468042,43.366775 -93.468038,43.367334 -93.468061,43.367667 -93.468104,43.367889 -93.46806,43.372078 -93.462243,43.372062 -93.461356,43.372062 -93.458044,43.372057 -93.457948,43.37206 -93.448144,43.371997 -93.448162,43.367327 -93.448192,43.366898 -93.448219,43.366643 -93.448283,43.366412 -93.448277,43.365624 -93.448203,43.35747 -93.448342,43.357471 -93.448419,43.357471 -93.448914,43.357483 -93.449277,43.357473 -93.451885,43.357472 -93.454415,43.357488 -93.457086,43.357498 -93.458187,43.357502 -93.460802,43.357507 -93.462256,43.357512 -93.463904,43.357518 -93.466554,43.357529 -93.468006,43.35753 -93.467993,43.358233</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>richland</name>
+<Schema name="richland" id="richland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Richland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#richland">
+		<SimpleData name="Name">Richland</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">66720</SimpleData>
+		<SimpleData name="PLACENS">02396364</SimpleData>
+		<SimpleData name="GEOID">1966720</SimpleData>
+		<SimpleData name="NAMELSAD">Richland city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1988785</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1857093</SimpleData>
+		<SimpleData name="INTPTLON">-091.9960251</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.003331,41.17925 -92.00334,41.182848 -92.003343,41.184048 -92.003325,41.18439 -92.003272,41.185419 -92.003255,41.185762 -92.003248,41.186391 -92.003227,41.188518 -92.003184,41.192998 -92.000177,41.193074 -91.999393,41.193072 -91.996637,41.193065 -91.995967,41.193062 -91.993957,41.193053 -91.993287,41.19305 -91.992452,41.193048 -91.98995,41.193042 -91.989117,41.19304 -91.988769,41.193048 -91.98875,41.191828 -91.988678,41.187127 -91.988655,41.18556 -91.988655,41.185329 -91.988657,41.184639 -91.988658,41.18441 -91.988665,41.182253 -91.988672,41.180131 -91.988677,41.178591 -91.991484,41.178544 -91.993641,41.178508 -91.994614,41.178498 -91.997534,41.178467 -91.998508,41.178458 -91.99892,41.178466 -92.000156,41.178491 -92.000175,41.178492 -92.000173,41.178098 -92.000206,41.178098 -92.000804,41.178088 -92.002697,41.17806 -92.003328,41.178051 -92.003331,41.17925</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

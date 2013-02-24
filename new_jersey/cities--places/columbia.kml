@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>columbia</name>
+<Schema name="columbia" id="columbia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Columbia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#columbia">
+		<SimpleData name="Name">Columbia</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">14590</SimpleData>
+		<SimpleData name="PLACENS">02583981</SimpleData>
+		<SimpleData name="GEOID">3414590</SimpleData>
+		<SimpleData name="NAMELSAD">Columbia CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">258160</SimpleData>
+		<SimpleData name="AWATER">68386</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9258682</SimpleData>
+		<SimpleData name="INTPTLON">-075.0940623</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.098568,40.929109 -75.09766,40.930029 -75.097499,40.929927 -75.097318,40.929978 -75.097162,40.930081 -75.097039,40.930113 -75.096974,40.930074 -75.096391,40.929659 -75.095544,40.929123 -75.094934,40.928752 -75.094789,40.928657 -75.094362,40.928402 -75.093443,40.927833 -75.093029,40.927546 -75.092893,40.927447 -75.092687,40.927281 -75.092415,40.927049 -75.092206,40.926845 -75.092105,40.926739 -75.091911,40.926511 -75.091819,40.926395 -75.091653,40.926167 -75.091536,40.925986 -75.091322,40.925601 -75.091285,40.925525 -75.091225,40.925426 -75.091166,40.925279 -75.091139,40.925223 -75.090912,40.924793 -75.090678,40.924242 -75.090236,40.923173 -75.090059,40.922743 -75.090435,40.922481 -75.090668,40.922319 -75.090757,40.922255 -75.090789,40.922233 -75.091058,40.922045 -75.091342,40.921847 -75.091686,40.921613 -75.092086,40.921879 -75.092468,40.922129 -75.09255,40.922183 -75.092633,40.922237 -75.092848,40.92238 -75.093062,40.922522 -75.09419,40.923272 -75.095366,40.924042 -75.095528,40.924148 -75.096659,40.925453 -75.097725,40.926684 -75.099167,40.928523 -75.098568,40.929109</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

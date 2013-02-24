@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rossburg</name>
+<Schema name="rossburg" id="rossburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rossburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rossburg">
+		<SimpleData name="Name">Rossburg</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">68672</SimpleData>
+		<SimpleData name="PLACENS">02399126</SimpleData>
+		<SimpleData name="GEOID">3968672</SimpleData>
+		<SimpleData name="NAMELSAD">Rossburg village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">363129</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2802025</SimpleData>
+		<SimpleData name="INTPTLON">-084.6382802</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.640038,40.284994 -84.63731,40.28491 -84.636707,40.284905 -84.636696,40.281036 -84.636516,40.281082 -84.636676,40.279635 -84.633191,40.279735 -84.633181,40.279374 -84.633183,40.279305 -84.633226,40.279306 -84.633703,40.279309 -84.633558,40.278707 -84.636576,40.278579 -84.636484,40.276585 -84.637282,40.276583 -84.637583,40.276586 -84.637577,40.276108 -84.637566,40.275199 -84.637986,40.275202 -84.63868,40.2752 -84.638686,40.275809 -84.639853,40.275809 -84.640564,40.275802 -84.640565,40.276461 -84.640508,40.279295 -84.640392,40.284997 -84.640038,40.284994</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

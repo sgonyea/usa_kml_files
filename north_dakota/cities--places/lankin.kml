@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lankin</name>
+<Schema name="lankin" id="lankin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lankin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lankin">
+		<SimpleData name="Name">Lankin</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">44860</SimpleData>
+		<SimpleData name="PLACENS">01036118</SimpleData>
+		<SimpleData name="GEOID">3844860</SimpleData>
+		<SimpleData name="NAMELSAD">Lankin city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">894106</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.3144963</SimpleData>
+		<SimpleData name="INTPTLON">-097.9213195</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.928795,48.313585 -97.92882,48.318102 -97.927944,48.318108 -97.924903,48.318107 -97.924728,48.318081 -97.919232,48.318118 -97.916804,48.31813 -97.916517,48.318182 -97.916427,48.318199 -97.914302,48.318221 -97.913882,48.318222 -97.91387,48.317355 -97.913879,48.312213 -97.913879,48.311827 -97.913879,48.31172 -97.913856,48.311043 -97.913852,48.310868 -97.913934,48.310868 -97.91669,48.310865 -97.918487,48.310865 -97.919428,48.310865 -97.921455,48.310864 -97.921762,48.310864 -97.922654,48.310864 -97.923004,48.310863 -97.923167,48.310863 -97.923595,48.310863 -97.924634,48.310862 -97.924933,48.310861 -97.928769,48.310849 -97.928795,48.313585</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

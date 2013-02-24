@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mount_erie</name>
+<Schema name="mount_erie" id="mount_erie">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mount Erie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mount_erie">
+		<SimpleData name="Name">Mount Erie</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">50933</SimpleData>
+		<SimpleData name="PLACENS">02399411</SimpleData>
+		<SimpleData name="GEOID">1750933</SimpleData>
+		<SimpleData name="NAMELSAD">Mount Erie village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1024428</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5145517</SimpleData>
+		<SimpleData name="INTPTLON">-088.2323070</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.239597,38.511189 -88.239405,38.514373 -88.239405,38.51451 -88.239464,38.514579 -88.239436,38.515128 -88.239388,38.515199 -88.239379,38.516089 -88.239389,38.518335 -88.237931,38.518332 -88.235554,38.518342 -88.235201,38.518359 -88.230216,38.518351 -88.229521,38.518351 -88.22943,38.518363 -88.227968,38.51836 -88.225602,38.518345 -88.225601,38.517018 -88.225651,38.513209 -88.224505,38.513207 -88.224508,38.512588 -88.223963,38.512594 -88.223952,38.511153 -88.223973,38.510815 -88.22571,38.510781 -88.225711,38.510921 -88.225744,38.511197 -88.229489,38.511111 -88.229493,38.510869 -88.235,38.510896 -88.238293,38.510897 -88.239585,38.510944 -88.239597,38.511189</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

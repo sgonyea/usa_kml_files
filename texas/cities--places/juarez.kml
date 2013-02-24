@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>juarez</name>
+<Schema name="juarez" id="juarez">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Juarez</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#juarez">
+		<SimpleData name="Name">Juarez</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">38168</SimpleData>
+		<SimpleData name="PLACENS">02584657</SimpleData>
+		<SimpleData name="GEOID">4838168</SimpleData>
+		<SimpleData name="NAMELSAD">Juarez CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">512223</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.2009017</SimpleData>
+		<SimpleData name="INTPTLON">-097.7296223</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.733759,26.199648 -97.733732,26.200193 -97.733729,26.200248 -97.733726,26.20032 -97.733536,26.20076 -97.733536,26.200974 -97.733536,26.201233 -97.733536,26.20138 -97.733536,26.201926 -97.733536,26.202911 -97.733536,26.203864 -97.733388,26.203864 -97.733388,26.20395 -97.728491,26.203913 -97.727607,26.203863 -97.725919,26.20379 -97.725733,26.203791 -97.725876,26.200193 -97.725962,26.200193 -97.725992,26.197636 -97.730501,26.19764 -97.730617,26.197667 -97.733448,26.198971 -97.733783,26.199037 -97.733759,26.199648</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

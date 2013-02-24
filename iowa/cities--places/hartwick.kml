@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hartwick</name>
+<Schema name="hartwick" id="hartwick">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hartwick</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hartwick">
+		<SimpleData name="Name">Hartwick</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">34770</SimpleData>
+		<SimpleData name="PLACENS">02394314</SimpleData>
+		<SimpleData name="GEOID">1934770</SimpleData>
+		<SimpleData name="NAMELSAD">Hartwick city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">346751</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7861464</SimpleData>
+		<SimpleData name="INTPTLON">-092.3453557</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.347525,41.786406 -92.347527,41.787948 -92.347489,41.790247 -92.347133,41.790257 -92.344909,41.790271 -92.344592,41.790272 -92.344277,41.79028 -92.343961,41.790283 -92.34333,41.790278 -92.342697,41.790281 -92.342691,41.789962 -92.342699,41.78824 -92.342733,41.786536 -92.343249,41.786537 -92.343314,41.786396 -92.343375,41.786231 -92.34342,41.786062 -92.343458,41.785842 -92.343516,41.785328 -92.343597,41.784876 -92.343682,41.784265 -92.343712,41.783923 -92.343713,41.782993 -92.343736,41.78213 -92.343759,41.781849 -92.343792,41.781528 -92.347577,41.781557 -92.347525,41.786406</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

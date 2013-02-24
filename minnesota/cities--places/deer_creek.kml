@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>deer_creek</name>
+<Schema name="deer_creek" id="deer_creek">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Deer Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#deer_creek">
+		<SimpleData name="Name">Deer Creek</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">15184</SimpleData>
+		<SimpleData name="PLACENS">02394488</SimpleData>
+		<SimpleData name="GEOID">2715184</SimpleData>
+		<SimpleData name="NAMELSAD">Deer Creek city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">10392427</SimpleData>
+		<SimpleData name="AWATER">44560</SimpleData>
+		<SimpleData name="INTPTLAT">+46.3905526</SimpleData>
+		<SimpleData name="INTPTLON">-095.3224474</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.342634,46.379377 -95.342667,46.383675 -95.342672,46.39091 -95.34277,46.398215 -95.342833,46.402206 -95.342851,46.403317 -95.342885,46.405489 -95.321955,46.405481 -95.306479,46.405466 -95.303635,46.405381 -95.301207,46.405417 -95.301065,46.405542 -95.300847,46.399133 -95.300825,46.398468 -95.300763,46.394903 -95.300762,46.394849 -95.300693,46.390851 -95.300655,46.383336 -95.300654,46.38306 -95.30062,46.376346 -95.311121,46.376379 -95.311219,46.376426 -95.317452,46.376365 -95.321819,46.376418 -95.332222,46.376394 -95.34261,46.376325 -95.342634,46.379377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

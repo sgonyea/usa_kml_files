@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vail</name>
+<Schema name="vail" id="vail">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vail</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vail">
+		<SimpleData name="Name">Vail</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">80130</SimpleData>
+		<SimpleData name="PLACENS">02397107</SimpleData>
+		<SimpleData name="GEOID">1980130</SimpleData>
+		<SimpleData name="NAMELSAD">Vail city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1478913</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.0598223</SimpleData>
+		<SimpleData name="INTPTLON">-095.2003198</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.207614,42.057292 -95.207616,42.058272 -95.207619,42.058383 -95.207629,42.058852 -95.207634,42.062761 -95.207663,42.062919 -95.207667,42.065337 -95.207251,42.065341 -95.206228,42.065301 -95.205354,42.065306 -95.204892,42.065309 -95.203934,42.065295 -95.201122,42.06536 -95.199903,42.065325 -95.19792,42.065284 -95.192919,42.065326 -95.192907,42.064067 -95.192906,42.063964 -95.19293,42.06283 -95.192975,42.058497 -95.192979,42.057795 -95.193018,42.054499 -95.201149,42.054521 -95.201504,42.054489 -95.201519,42.054296 -95.20161,42.053366 -95.201671,42.053039 -95.201773,42.052553 -95.201941,42.051734 -95.202041,42.051293 -95.202522,42.051288 -95.20244,42.054425 -95.202439,42.0545 -95.204031,42.054521 -95.205229,42.054542 -95.206712,42.054515 -95.20729,42.054491 -95.207356,42.05449 -95.20757,42.054489 -95.207614,42.057292</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

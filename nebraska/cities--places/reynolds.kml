@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>reynolds</name>
+<Schema name="reynolds" id="reynolds">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Reynolds</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reynolds">
+		<SimpleData name="Name">Reynolds</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">41235</SimpleData>
+		<SimpleData name="PLACENS">02399062</SimpleData>
+		<SimpleData name="GEOID">3141235</SimpleData>
+		<SimpleData name="NAMELSAD">Reynolds village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">650643</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0598106</SimpleData>
+		<SimpleData name="INTPTLON">-097.3359466</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.340662,40.057214 -97.340713,40.05798 -97.340707,40.058399 -97.340691,40.05945 -97.340691,40.059783 -97.340661,40.063021 -97.34066,40.063432 -97.340237,40.063435 -97.33827,40.063447 -97.331248,40.063455 -97.331244,40.062895 -97.331234,40.062225 -97.331236,40.061848 -97.331238,40.060807 -97.331232,40.060285 -97.331236,40.059763 -97.331227,40.059394 -97.33124,40.058836 -97.33123,40.057695 -97.33123,40.057499 -97.331228,40.056529 -97.331222,40.05614 -97.337133,40.056182 -97.3398,40.056214 -97.340655,40.05622 -97.340662,40.057214</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

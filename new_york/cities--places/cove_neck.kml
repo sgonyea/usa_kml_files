@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cove_neck</name>
+<Schema name="cove_neck" id="cove_neck">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cove Neck</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cove_neck">
+		<SimpleData name="Name">Cove Neck</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">18597</SimpleData>
+		<SimpleData name="PLACENS">02391627</SimpleData>
+		<SimpleData name="GEOID">3618597</SimpleData>
+		<SimpleData name="NAMELSAD">Cove Neck village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3325819</SimpleData>
+		<SimpleData name="AWATER">724187</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8855910</SimpleData>
+		<SimpleData name="INTPTLON">-073.4978214</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.508067,40.895198 -73.506905,40.895295 -73.494866,40.896298 -73.489766,40.892598 -73.487966,40.886098 -73.488766,40.882698 -73.487166,40.879998 -73.489463,40.879833 -73.490104,40.878881 -73.495813,40.875496 -73.496457,40.8758 -73.499905,40.873332 -73.498555,40.871947 -73.499269,40.871254 -73.499322,40.871257 -73.499438,40.87123 -73.499583,40.871176 -73.499772,40.871089 -73.500527,40.8707 -73.500668,40.870626 -73.500977,40.870463 -73.501471,40.87018 -73.501725,40.870045 -73.502007,40.869514 -73.503588,40.870032 -73.505729,40.870692 -73.506144,40.870903 -73.506368,40.871002 -73.506867,40.872059 -73.506767,40.872998 -73.505267,40.873598 -73.505867,40.875298 -73.505767,40.878298 -73.507867,40.879298 -73.512167,40.887998 -73.509967,40.890898 -73.511167,40.892598 -73.508067,40.895198</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arcola</name>
+<Schema name="arcola" id="arcola">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arcola</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arcola">
+		<SimpleData name="Name">Arcola</SimpleData>
+		<SimpleData name="STATEFP">28</SimpleData>
+		<SimpleData name="PLACEFP">01820</SimpleData>
+		<SimpleData name="PLACENS">02405162</SimpleData>
+		<SimpleData name="GEOID">2801820</SimpleData>
+		<SimpleData name="NAMELSAD">Arcola town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">568185</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+33.2705404</SimpleData>
+		<SimpleData name="INTPTLON">-090.8800018</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.885095,33.273024 -90.883338,33.273026 -90.881352,33.273029 -90.879185,33.27303 -90.87918,33.273092 -90.879178,33.273108 -90.8793,33.273955 -90.879413,33.274749 -90.877794,33.274759 -90.876,33.274772 -90.875941,33.274774 -90.875884,33.274779 -90.87591,33.272086 -90.876042,33.27135 -90.876238,33.270232 -90.876359,33.269878 -90.876648,33.268333 -90.877004,33.266748 -90.877181,33.266751 -90.877342,33.26675 -90.878248,33.266764 -90.880551,33.266796 -90.880541,33.266773 -90.880419,33.266506 -90.880821,33.266436 -90.880873,33.266426 -90.881084,33.266388 -90.882358,33.266167 -90.883066,33.268369 -90.883281,33.269098 -90.883519,33.269895 -90.883803,33.269892 -90.884183,33.269886 -90.884255,33.269883 -90.884892,33.269858 -90.885029,33.269844 -90.885082,33.272126 -90.885095,33.273024</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

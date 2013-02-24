@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>reid</name>
+<Schema name="reid" id="reid">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Reid</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#reid">
+		<SimpleData name="Name">Reid</SimpleData>
+		<SimpleData name="STATEFP">24</SimpleData>
+		<SimpleData name="PLACEFP">65550</SimpleData>
+		<SimpleData name="PLACENS">02583681</SimpleData>
+		<SimpleData name="GEOID">2465550</SimpleData>
+		<SimpleData name="NAMELSAD">Reid CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">324099</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.7125076</SimpleData>
+		<SimpleData name="INTPTLON">-077.6793135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.68342,39.7142 -77.68316,39.71417 -77.68275,39.71476 -77.68201,39.71576 -77.677217,39.715236 -77.677545,39.714635 -77.677814,39.714164 -77.677983,39.713833 -77.678143,39.713573 -77.6783,39.713382 -77.6747,39.712264 -77.674715,39.712154 -77.67475,39.712088 -77.67478,39.711939 -77.675072,39.711184 -77.677493,39.709119 -77.681261,39.709768 -77.681501,39.70981 -77.680717,39.712222 -77.683752,39.713392 -77.684474,39.713703 -77.68439,39.7143 -77.68342,39.7142</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

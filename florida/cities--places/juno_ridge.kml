@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>juno_ridge</name>
+<Schema name="juno_ridge" id="juno_ridge">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Juno Ridge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#juno_ridge">
+		<SimpleData name="Name">Juno Ridge</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">35862</SimpleData>
+		<SimpleData name="PLACENS">02402637</SimpleData>
+		<SimpleData name="GEOID">1235862</SimpleData>
+		<SimpleData name="NAMELSAD">Juno Ridge CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">390526</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.8490654</SimpleData>
+		<SimpleData name="INTPTLON">-080.0619409</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.060022,26.852608 -80.058462,26.85254 -80.058747,26.851692 -80.058756,26.851665 -80.058859,26.851359 -80.059052,26.850781 -80.059472,26.849534 -80.059618,26.849099 -80.059798,26.848561 -80.059886,26.8483 -80.05995,26.848108 -80.060073,26.847742 -80.060987,26.845021 -80.061022,26.844917 -80.061077,26.844752 -80.061267,26.844767 -80.061586,26.844791 -80.061599,26.844543 -80.061671,26.844547 -80.061948,26.844561 -80.061981,26.844563 -80.062247,26.844595 -80.062734,26.844626 -80.062735,26.844878 -80.062736,26.844964 -80.063234,26.844966 -80.063235,26.844665 -80.063567,26.84469 -80.06357,26.844966 -80.063778,26.844971 -80.063938,26.844975 -80.063929,26.845209 -80.064349,26.84521 -80.064398,26.845209 -80.064396,26.845266 -80.064394,26.845305 -80.064386,26.84552 -80.064391,26.845748 -80.064388,26.845827 -80.06436,26.846573 -80.064319,26.847184 -80.064306,26.847397 -80.064275,26.848247 -80.064268,26.848401 -80.064257,26.848656 -80.064247,26.848904 -80.064244,26.84899 -80.064233,26.84945 -80.064226,26.849785 -80.06422,26.850017 -80.064208,26.850456 -80.064204,26.850517 -80.064171,26.851011 -80.064167,26.851093 -80.06415,26.851637 -80.064129,26.852133 -80.06412,26.852338 -80.064103,26.852758 -80.060022,26.852608</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

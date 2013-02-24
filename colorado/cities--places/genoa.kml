@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>genoa</name>
+<Schema name="genoa" id="genoa">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Genoa</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#genoa">
+		<SimpleData name="Name">Genoa</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">29680</SimpleData>
+		<SimpleData name="PLACENS">02412675</SimpleData>
+		<SimpleData name="GEOID">0829680</SimpleData>
+		<SimpleData name="NAMELSAD">Genoa town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">926204</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2783302</SimpleData>
+		<SimpleData name="INTPTLON">-103.4987858</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.50617,39.273357 -103.505728,39.273525 -103.504723,39.273778 -103.502173,39.274455 -103.501811,39.27465 -103.501792,39.275607 -103.505367,39.275499 -103.505364,39.275847 -103.505375,39.276057 -103.505344,39.276931 -103.505285,39.282116 -103.500586,39.282101 -103.495905,39.281883 -103.495931,39.281276 -103.491625,39.281215 -103.491597,39.280343 -103.49133,39.280347 -103.489011,39.280454 -103.48896,39.277523 -103.490603,39.277483 -103.491333,39.279987 -103.491597,39.279988 -103.491597,39.279717 -103.491597,39.278599 -103.491336,39.278599 -103.49133,39.27717 -103.493795,39.27716 -103.494429,39.277177 -103.49443,39.276994 -103.494436,39.276261 -103.496093,39.276324 -103.496087,39.276147 -103.497019,39.276101 -103.497016,39.276338 -103.498127,39.275994 -103.498157,39.275526 -103.498217,39.275087 -103.498943,39.274858 -103.498958,39.274468 -103.499012,39.273117 -103.500401,39.273121 -103.503265,39.273129 -103.50337,39.273125 -103.503794,39.27309 -103.504217,39.27302 -103.504967,39.272846 -103.505812,39.272619 -103.505989,39.272984 -103.50617,39.273357</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

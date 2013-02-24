@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sarles</name>
+<Schema name="sarles" id="sarles">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sarles</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sarles">
+		<SimpleData name="Name">Sarles</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">70780</SimpleData>
+		<SimpleData name="PLACENS">01036254</SimpleData>
+		<SimpleData name="GEOID">3870780</SimpleData>
+		<SimpleData name="NAMELSAD">Sarles city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">565723</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.9450526</SimpleData>
+		<SimpleData name="INTPTLON">-098.9957283</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.002544,48.944724 -99.001748,48.944963 -99.001673,48.94626 -99.001554,48.946259 -99.000992,48.946265 -99.000409,48.94626 -99.000237,48.946259 -99.000233,48.946706 -99.000225,48.947687 -99.000226,48.948085 -98.997339,48.948124 -98.996224,48.948123 -98.99437,48.948142 -98.994444,48.94827 -98.994285,48.948143 -98.993846,48.948086 -98.98984,48.948193 -98.989846,48.946752 -98.989852,48.94673 -98.989737,48.944337 -98.989705,48.943641 -98.989687,48.943233 -98.989821,48.942445 -98.991,48.942253 -99.000056,48.942179 -99.000262,48.942178 -99.000261,48.942351 -99.002555,48.942368 -99.002544,48.944724</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

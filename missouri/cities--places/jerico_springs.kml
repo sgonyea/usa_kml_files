@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>jerico_springs</name>
+<Schema name="jerico_springs" id="jerico_springs">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Jerico Springs</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jerico_springs">
+		<SimpleData name="Name">Jerico Springs</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">37214</SimpleData>
+		<SimpleData name="PLACENS">02398297</SimpleData>
+		<SimpleData name="GEOID">2937214</SimpleData>
+		<SimpleData name="NAMELSAD">Jerico Springs village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1772215</SimpleData>
+		<SimpleData name="AWATER">599</SimpleData>
+		<SimpleData name="INTPTLAT">+37.6190450</SimpleData>
+		<SimpleData name="INTPTLON">-094.0154903</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.019283,37.61408 -94.01917,37.616966 -94.019033,37.620651 -94.018984,37.621852 -94.018969,37.622521 -94.018913,37.624289 -94.01887,37.625278 -94.016567,37.625277 -94.016318,37.625277 -94.014199,37.625285 -94.012658,37.625274 -94.009541,37.625253 -94.0053,37.625238 -94.005275,37.62504 -94.005387,37.624221 -94.005133,37.624241 -94.004688,37.624256 -94.003336,37.624224 -94.00248,37.624197 -94.002147,37.624186 -94.00064,37.624151 -94.000706,37.622611 -94.000722,37.622248 -94.000752,37.62091 -94.000784,37.620495 -94.000789,37.620432 -94.000805,37.620223 -94.005648,37.620194 -94.005684,37.618713 -94.005694,37.618286 -94.005684,37.617081 -94.005674,37.615833 -94.005797,37.613265 -94.006305,37.613264 -94.010052,37.613254 -94.010525,37.613179 -94.012084,37.613204 -94.012654,37.613208 -94.012906,37.61322 -94.012996,37.613262 -94.019307,37.613356 -94.019283,37.61408</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

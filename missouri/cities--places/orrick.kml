@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>orrick</name>
+<Schema name="orrick" id="orrick">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Orrick</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#orrick">
+		<SimpleData name="Name">Orrick</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">54938</SimpleData>
+		<SimpleData name="PLACENS">02396085</SimpleData>
+		<SimpleData name="GEOID">2954938</SimpleData>
+		<SimpleData name="NAMELSAD">Orrick city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3456818</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2132908</SimpleData>
+		<SimpleData name="INTPTLON">-094.1253998</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.136919,39.210897 -94.136928,39.21379 -94.136862,39.216391 -94.136783,39.221311 -94.136599,39.221308 -94.133312,39.22126 -94.131144,39.221232 -94.128722,39.221155 -94.127611,39.221138 -94.126989,39.221132 -94.126442,39.221124 -94.125532,39.221144 -94.12485,39.221129 -94.123618,39.221109 -94.118366,39.220922 -94.118012,39.22091 -94.113913,39.220948 -94.113798,39.220949 -94.113797,39.211194 -94.113724,39.210916 -94.113797,39.205692 -94.117433,39.205632 -94.117346,39.202936 -94.117865,39.20294 -94.117899,39.205625 -94.117975,39.205638 -94.137087,39.205479 -94.136919,39.210897</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

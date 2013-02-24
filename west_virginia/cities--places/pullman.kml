@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pullman</name>
+<Schema name="pullman" id="pullman">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pullman</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pullman">
+		<SimpleData name="Name">Pullman</SimpleData>
+		<SimpleData name="STATEFP">54</SimpleData>
+		<SimpleData name="PLACEFP">65956</SimpleData>
+		<SimpleData name="PLACENS">02391375</SimpleData>
+		<SimpleData name="GEOID">5465956</SimpleData>
+		<SimpleData name="NAMELSAD">Pullman town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">629283</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.1880146</SimpleData>
+		<SimpleData name="INTPTLON">-080.9489950</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.95545,39.187599 -80.954866,39.187879 -80.949893,39.190377 -80.949293,39.190678 -80.947157,39.191751 -80.946484,39.1921 -80.94422,39.193234 -80.943236,39.191102 -80.942169,39.188714 -80.943005,39.188274 -80.953294,39.182875 -80.953346,39.182874 -80.954114,39.184065 -80.954664,39.184931 -80.954849,39.185224 -80.955979,39.187316 -80.95545,39.187599</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

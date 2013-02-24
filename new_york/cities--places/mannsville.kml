@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mannsville</name>
+<Schema name="mannsville" id="mannsville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mannsville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mannsville">
+		<SimpleData name="Name">Mannsville</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">45073</SimpleData>
+		<SimpleData name="PLACENS">02390962</SimpleData>
+		<SimpleData name="GEOID">3645073</SimpleData>
+		<SimpleData name="NAMELSAD">Mannsville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2323439</SimpleData>
+		<SimpleData name="AWATER">84385</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7178142</SimpleData>
+		<SimpleData name="INTPTLON">-076.0668154</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.068659,43.723641 -76.064193,43.723335 -76.05664,43.722694 -76.056262,43.712176 -76.05619,43.710668 -76.056149,43.709795 -76.056086,43.708565 -76.056076,43.708371 -76.05606,43.708052 -76.056004,43.707339 -76.06179,43.707628 -76.06448,43.707946 -76.066602,43.708206 -76.06895,43.708406 -76.069015,43.708413 -76.072508,43.708691 -76.073766,43.708748 -76.073746,43.709644 -76.073683,43.71071 -76.073734,43.712651 -76.073743,43.71297 -76.073961,43.719634 -76.074049,43.72414 -76.068659,43.723641</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

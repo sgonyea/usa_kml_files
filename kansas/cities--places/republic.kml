@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>republic</name>
+<Schema name="republic" id="republic">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Republic</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#republic">
+		<SimpleData name="Name">Republic</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">59000</SimpleData>
+		<SimpleData name="PLACENS">02396353</SimpleData>
+		<SimpleData name="GEOID">2059000</SimpleData>
+		<SimpleData name="NAMELSAD">Republic city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">676974</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9240270</SimpleData>
+		<SimpleData name="INTPTLON">-097.8246952</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.831365,39.923915 -97.831383,39.924987 -97.831406,39.926447 -97.82897,39.92647 -97.826185,39.926513 -97.823317,39.926549 -97.823329,39.927298 -97.820954,39.92735 -97.820941,39.927745 -97.819569,39.927769 -97.819569,39.927401 -97.819584,39.926579 -97.818577,39.926574 -97.818497,39.923969 -97.81848,39.923477 -97.818431,39.922081 -97.818428,39.921992 -97.818427,39.921907 -97.818424,39.921822 -97.819562,39.921758 -97.819556,39.921521 -97.819562,39.921136 -97.821769,39.921111 -97.825518,39.921068 -97.82726,39.921048 -97.829003,39.921029 -97.829006,39.921424 -97.830335,39.921395 -97.830335,39.92199 -97.831314,39.921966 -97.831365,39.923915</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

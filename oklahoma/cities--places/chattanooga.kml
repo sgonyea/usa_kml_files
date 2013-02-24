@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>chattanooga</name>
+<Schema name="chattanooga" id="chattanooga">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Chattanooga</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#chattanooga">
+		<SimpleData name="Name">Chattanooga</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">13600</SimpleData>
+		<SimpleData name="PLACENS">02413191</SimpleData>
+		<SimpleData name="GEOID">4013600</SimpleData>
+		<SimpleData name="NAMELSAD">Chattanooga town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1470864</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.4242471</SimpleData>
+		<SimpleData name="INTPTLON">-098.6540892</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.664532,34.421171 -98.662148,34.421345 -98.662151,34.421775 -98.662154,34.422046 -98.662156,34.422397 -98.66216,34.423484 -98.662164,34.424547 -98.66216,34.425232 -98.662158,34.425538 -98.662148,34.426954 -98.662148,34.426964 -98.662145,34.427343 -98.662141,34.428278 -98.662141,34.428321 -98.66214,34.428535 -98.649654,34.4286 -98.648334,34.428612 -98.648327,34.427676 -98.644598,34.427739 -98.644596,34.423281 -98.644597,34.422488 -98.645043,34.422486 -98.646778,34.422478 -98.64678,34.421855 -98.646752,34.420403 -98.647546,34.420395 -98.648969,34.420392 -98.650077,34.42039 -98.651216,34.420391 -98.652223,34.420385 -98.653332,34.420376 -98.653322,34.419607 -98.659847,34.419665 -98.661496,34.41968 -98.661471,34.420332 -98.661899,34.420331 -98.66214,34.420325 -98.662808,34.420311 -98.663013,34.420313 -98.664528,34.42033 -98.664577,34.42033 -98.664532,34.421171</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

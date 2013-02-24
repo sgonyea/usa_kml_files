@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>woodward</name>
+<Schema name="woodward" id="woodward">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Woodward</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#woodward">
+		<SimpleData name="Name">Woodward</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">86432</SimpleData>
+		<SimpleData name="PLACENS">02390540</SimpleData>
+		<SimpleData name="GEOID">4286432</SimpleData>
+		<SimpleData name="NAMELSAD">Woodward CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1529263</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8997377</SimpleData>
+		<SimpleData name="INTPTLON">-077.3470742</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.361969,40.898158 -77.361572,40.898616 -77.359629,40.900494 -77.359468,40.900814 -77.359149,40.90145 -77.358955,40.901837 -77.358146,40.903453 -77.357614,40.904516 -77.353255,40.902135 -77.35111,40.900964 -77.346688,40.90377 -77.342235,40.902642 -77.336531,40.902764 -77.33406,40.900873 -77.331498,40.901727 -77.330565,40.901121 -77.330409,40.900909 -77.330135,40.900353 -77.329471,40.899008 -77.34207,40.896684 -77.3532,40.897464 -77.357133,40.895878 -77.359825,40.894794 -77.360706,40.896264 -77.361217,40.897313 -77.361969,40.898158</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

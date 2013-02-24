@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>island_park</name>
+<Schema name="island_park" id="island_park">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Island Park</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#island_park">
+		<SimpleData name="Name">Island Park</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">37847</SimpleData>
+		<SimpleData name="PLACENS">02390912</SimpleData>
+		<SimpleData name="GEOID">3637847</SimpleData>
+		<SimpleData name="NAMELSAD">Island Park village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1150376</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6053474</SimpleData>
+		<SimpleData name="INTPTLON">-073.6554389</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.661319,40.605949 -73.660997,40.606044 -73.660929,40.606064 -73.660832,40.606083 -73.660322,40.60618 -73.659833,40.606273 -73.659215,40.60639 -73.659008,40.60643 -73.657927,40.606774 -73.657477,40.606957 -73.656877,40.607437 -73.655842,40.608637 -73.655436,40.609108 -73.654056,40.610275 -73.653155,40.610641 -73.652735,40.61103 -73.652525,40.611397 -73.652273,40.612125 -73.652206,40.612317 -73.652136,40.612519 -73.652226,40.612861 -73.652384,40.613062 -73.652496,40.613204 -73.652616,40.61373 -73.652436,40.614462 -73.652256,40.614645 -73.652316,40.614897 -73.652677,40.615423 -73.652677,40.615881 -73.652377,40.616178 -73.651656,40.616544 -73.650126,40.617002 -73.649896,40.617027 -73.648525,40.61201 -73.649062,40.610801 -73.648727,40.610782 -73.648655,40.610759 -73.648612,40.610735 -73.648551,40.610671 -73.648523,40.610575 -73.648532,40.610309 -73.648539,40.610252 -73.648568,40.610134 -73.648666,40.610034 -73.648818,40.609518 -73.649063,40.60922 -73.649754,40.608362 -73.650445,40.606703 -73.651521,40.605656 -73.652684,40.603933 -73.65339,40.602889 -73.654829,40.601572 -73.654581,40.601418 -73.653796,40.600883 -73.654002,40.600686 -73.654336,40.600276 -73.654393,40.600206 -73.654712,40.599816 -73.655102,40.599338 -73.655261,40.599148 -73.655424,40.598955 -73.655849,40.598336 -73.656524,40.59735 -73.656746,40.596813 -73.65675,40.596678 -73.656746,40.596469 -73.657156,40.596573 -73.657502,40.596661 -73.659332,40.596661 -73.659753,40.596661 -73.660148,40.596629 -73.661599,40.596513 -73.661764,40.5965 -73.661914,40.596591 -73.661844,40.597144 -73.661795,40.59753 -73.661795,40.597606 -73.661795,40.597781 -73.662005,40.598033 -73.662036,40.599039 -73.661899,40.600251 -73.66174,40.601657 -73.661649,40.602459 -73.661585,40.603028 -73.66143,40.604402 -73.661408,40.604599 -73.661375,40.605102 -73.661319,40.605949</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

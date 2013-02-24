@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hardtner</name>
+<Schema name="hardtner" id="hardtner">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hardtner</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hardtner">
+		<SimpleData name="Name">Hardtner</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">30000</SimpleData>
+		<SimpleData name="PLACENS">02394296</SimpleData>
+		<SimpleData name="GEOID">2030000</SimpleData>
+		<SimpleData name="NAMELSAD">Hardtner city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">772491</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0147299</SimpleData>
+		<SimpleData name="INTPTLON">-098.6493183</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.654097,37.010701 -98.654069,37.011885 -98.654054,37.012081 -98.654,37.013825 -98.653977,37.014037 -98.653865,37.014049 -98.653806,37.017611 -98.651652,37.017582 -98.651709,37.01918 -98.651677,37.01991 -98.649254,37.019886 -98.64636,37.019851 -98.64639,37.017829 -98.644835,37.017822 -98.644839,37.016951 -98.644821,37.015926 -98.644799,37.014886 -98.644775,37.013825 -98.644795,37.012731 -98.64482,37.011697 -98.64485,37.01053 -98.644859,37.010417 -98.645468,37.010442 -98.64687,37.01043 -98.649371,37.010399 -98.65408,37.010351 -98.654097,37.010701</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

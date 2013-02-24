@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>richland</name>
+<Schema name="richland" id="richland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Richland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#richland">
+		<SimpleData name="Name">Richland</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">68240</SimpleData>
+		<SimpleData name="PLACENS">02399064</SimpleData>
+		<SimpleData name="GEOID">2668240</SimpleData>
+		<SimpleData name="NAMELSAD">Richland village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2628519</SimpleData>
+		<SimpleData name="AWATER">1931</SimpleData>
+		<SimpleData name="INTPTLAT">+42.3717102</SimpleData>
+		<SimpleData name="INTPTLON">-085.4581467</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.465201,42.383472 -85.464528,42.383472 -85.459138,42.383477 -85.455274,42.383481 -85.445387,42.383511 -85.445371,42.376243 -85.445401,42.376026 -85.445353,42.372782 -85.445285,42.368984 -85.445282,42.368903 -85.446078,42.36889 -85.446082,42.368977 -85.451518,42.369004 -85.455089,42.368985 -85.463887,42.368939 -85.465106,42.368927 -85.465189,42.376206 -85.465202,42.381318 -85.46519,42.382912 -85.465201,42.383472</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

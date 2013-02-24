@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>forbes</name>
+<Schema name="forbes" id="forbes">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Forbes</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#forbes">
+		<SimpleData name="Name">Forbes</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">26980</SimpleData>
+		<SimpleData name="PLACENS">01036036</SimpleData>
+		<SimpleData name="GEOID">3826980</SimpleData>
+		<SimpleData name="NAMELSAD">Forbes city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">642599</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.9424826</SimpleData>
+		<SimpleData name="INTPTLON">-098.7821613</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.787345,45.94047 -98.787383,45.946034 -98.786679,45.946056 -98.782186,45.946111 -98.776993,45.946035 -98.776996,45.945638 -98.777002,45.944781 -98.77701,45.94461 -98.777022,45.944276 -98.777023,45.944007 -98.777019,45.943559 -98.777006,45.943486 -98.776968,45.942948 -98.776974,45.941368 -98.776956,45.941019 -98.776961,45.940408 -98.776956,45.940096 -98.776964,45.938858 -98.777122,45.938859 -98.782211,45.938882 -98.782239,45.938882 -98.786796,45.938938 -98.787338,45.93894 -98.787345,45.94047</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

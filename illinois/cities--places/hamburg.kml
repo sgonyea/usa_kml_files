@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hamburg</name>
+<Schema name="hamburg" id="hamburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hamburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hamburg">
+		<SimpleData name="Name">Hamburg</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">32395</SimpleData>
+		<SimpleData name="PLACENS">02398227</SimpleData>
+		<SimpleData name="GEOID">1732395</SimpleData>
+		<SimpleData name="NAMELSAD">Hamburg village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1351384</SimpleData>
+		<SimpleData name="AWATER">347079</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2324896</SimpleData>
+		<SimpleData name="INTPTLON">-090.7154273</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.723725,39.239183 -90.720863,39.239172 -90.72022,39.239169 -90.71948,39.239162 -90.713891,39.239105 -90.708501,39.239092 -90.708501,39.235108 -90.708499,39.234255 -90.708507,39.232033 -90.708501,39.230771 -90.708501,39.228812 -90.708502,39.22608 -90.711682,39.226157 -90.712557,39.226179 -90.712827,39.2258 -90.713054,39.225616 -90.713414,39.22552 -90.713897,39.22551 -90.714345,39.225484 -90.714472,39.225477 -90.714555,39.225356 -90.714803,39.225356 -90.714745,39.225182 -90.715518,39.225146 -90.715754,39.225114 -90.716443,39.224947 -90.716898,39.224675 -90.717191,39.227042 -90.719135,39.226696 -90.71974,39.22659 -90.721845,39.226176 -90.721784,39.226646 -90.721364,39.228091 -90.721326,39.228534 -90.721188,39.230176 -90.721593,39.23273 -90.72232,39.234993 -90.722538,39.23567 -90.723663,39.238952 -90.723725,39.239183</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

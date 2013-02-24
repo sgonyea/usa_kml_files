@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fairland</name>
+<Schema name="fairland" id="fairland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fairland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fairland">
+		<SimpleData name="Name">Fairland</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">22396</SimpleData>
+		<SimpleData name="PLACENS">02508767</SimpleData>
+		<SimpleData name="GEOID">1822396</SimpleData>
+		<SimpleData name="NAMELSAD">Fairland town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">424739</SimpleData>
+		<SimpleData name="AWATER">132</SimpleData>
+		<SimpleData name="INTPTLAT">+39.5865503</SimpleData>
+		<SimpleData name="INTPTLON">-085.8626583</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.865927,39.588468 -85.864608,39.588475 -85.863962,39.588478 -85.863782,39.588479 -85.862832,39.588483 -85.86078,39.588493 -85.859756,39.588498 -85.857273,39.588511 -85.857282,39.587623 -85.857295,39.587477 -85.857303,39.587456 -85.857306,39.585268 -85.857305,39.585213 -85.857302,39.584712 -85.857302,39.584564 -85.857304,39.583957 -85.858644,39.58397 -85.858829,39.583951 -85.85888,39.583949 -85.859822,39.583921 -85.860098,39.583917 -85.860828,39.583909 -85.861421,39.583909 -85.861973,39.58391 -85.86203,39.583909 -85.862734,39.58389 -85.863423,39.583872 -85.863702,39.583865 -85.864947,39.583872 -85.865838,39.583855 -85.866964,39.583853 -85.866957,39.584259 -85.866973,39.58502 -85.867017,39.585933 -85.867013,39.586135 -85.867031,39.586853 -85.867039,39.587326 -85.867066,39.587992 -85.867081,39.588463 -85.865927,39.588468</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pickrell</name>
+<Schema name="pickrell" id="pickrell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pickrell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pickrell">
+		<SimpleData name="Name">Pickrell</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">39065</SimpleData>
+		<SimpleData name="PLACENS">02399668</SimpleData>
+		<SimpleData name="GEOID">3139065</SimpleData>
+		<SimpleData name="NAMELSAD">Pickrell village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">278405</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3783191</SimpleData>
+		<SimpleData name="INTPTLON">-096.7291169</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.73279,40.378475 -96.731732,40.378481 -96.731684,40.38107 -96.731684,40.381805 -96.730337,40.381805 -96.730327,40.380565 -96.729697,40.380565 -96.728364,40.38058 -96.72729,40.380594 -96.727132,40.380596 -96.726668,40.380609 -96.726374,40.380593 -96.726029,40.37849 -96.725714,40.37644 -96.726067,40.376409 -96.726468,40.376419 -96.726386,40.376088 -96.726963,40.376089 -96.726962,40.375755 -96.728328,40.375735 -96.729683,40.375713 -96.731086,40.375702 -96.731082,40.375495 -96.731646,40.375495 -96.731648,40.375695 -96.73165,40.376261 -96.731653,40.377753 -96.732074,40.377768 -96.73279,40.377783 -96.73279,40.378475</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

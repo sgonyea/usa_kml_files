@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>davenport</name>
+<Schema name="davenport" id="davenport">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Davenport</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#davenport">
+		<SimpleData name="Name">Davenport</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">18180</SimpleData>
+		<SimpleData name="PLACENS">01035983</SimpleData>
+		<SimpleData name="GEOID">3818180</SimpleData>
+		<SimpleData name="NAMELSAD">Davenport city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">707711</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.7149201</SimpleData>
+		<SimpleData name="INTPTLON">-097.0649603</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.075513,46.716916 -97.073913,46.716931 -97.073268,46.716937 -97.073222,46.716929 -97.071918,46.716947 -97.065631,46.71701 -97.06151,46.717045 -97.057387,46.71708 -97.053096,46.717116 -97.05216,46.717129 -97.052149,46.716183 -97.052144,46.715777 -97.063498,46.712823 -97.063488,46.712808 -97.068209,46.711517 -97.069301,46.711207 -97.07056,46.710804 -97.07091,46.711229 -97.071232,46.711625 -97.071495,46.711949 -97.072279,46.712915 -97.072683,46.713424 -97.073045,46.713855 -97.073624,46.714577 -97.073729,46.714704 -97.074179,46.715245 -97.074247,46.715327 -97.07506,46.716362 -97.075513,46.716916</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

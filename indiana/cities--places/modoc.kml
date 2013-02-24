@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>modoc</name>
+<Schema name="modoc" id="modoc">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Modoc</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#modoc">
+		<SimpleData name="Name">Modoc</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">50058</SimpleData>
+		<SimpleData name="PLACENS">02396769</SimpleData>
+		<SimpleData name="GEOID">1850058</SimpleData>
+		<SimpleData name="NAMELSAD">Modoc town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">267613</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0454710</SimpleData>
+		<SimpleData name="INTPTLON">-085.1262368</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.128744,40.044387 -85.128699,40.044387 -85.128754,40.048097 -85.127931,40.048096 -85.126736,40.048086 -85.126187,40.048097 -85.125663,40.048107 -85.125163,40.048112 -85.124526,40.048118 -85.123903,40.048146 -85.122718,40.048169 -85.122802,40.045786 -85.124433,40.045846 -85.124625,40.04377 -85.124426,40.043748 -85.124425,40.043575 -85.124428,40.042826 -85.126408,40.042911 -85.126464,40.041638 -85.126756,40.041655 -85.128256,40.0417 -85.12828,40.042891 -85.128275,40.043154 -85.12828,40.043469 -85.128282,40.043602 -85.128287,40.043903 -85.128917,40.043923 -85.129436,40.043871 -85.129434,40.044398 -85.128744,40.044387</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

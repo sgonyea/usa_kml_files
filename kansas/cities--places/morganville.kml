@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>morganville</name>
+<Schema name="morganville" id="morganville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Morganville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#morganville">
+		<SimpleData name="Name">Morganville</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">48225</SimpleData>
+		<SimpleData name="PLACENS">02395401</SimpleData>
+		<SimpleData name="GEOID">2048225</SimpleData>
+		<SimpleData name="NAMELSAD">Morganville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">866756</SimpleData>
+		<SimpleData name="AWATER">7558</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4667154</SimpleData>
+		<SimpleData name="INTPTLON">-097.2036743</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.210797,39.467721 -97.210781,39.468207 -97.210108,39.468245 -97.210023,39.470352 -97.209086,39.470337 -97.20877,39.470334 -97.208171,39.470331 -97.202948,39.470234 -97.202907,39.471757 -97.201356,39.47173 -97.201354,39.472021 -97.19987,39.472007 -97.199974,39.46823 -97.198875,39.468256 -97.198905,39.466438 -97.196881,39.466431 -97.196885,39.464602 -97.196886,39.464 -97.196887,39.463925 -97.196889,39.463053 -97.196889,39.462897 -97.201389,39.46295 -97.201423,39.461314 -97.204916,39.461368 -97.206709,39.464967 -97.210268,39.464991 -97.210195,39.465422 -97.210028,39.466458 -97.209989,39.466757 -97.210886,39.466725 -97.210797,39.467721</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

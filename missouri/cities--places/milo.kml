@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>milo</name>
+<Schema name="milo" id="milo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Milo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#milo">
+		<SimpleData name="Name">Milo</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">48476</SimpleData>
+		<SimpleData name="PLACENS">02399365</SimpleData>
+		<SimpleData name="GEOID">2948476</SimpleData>
+		<SimpleData name="NAMELSAD">Milo village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">197642</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.7554123</SimpleData>
+		<SimpleData name="INTPTLON">-094.3051464</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.308976,37.75555 -94.308943,37.755898 -94.308938,37.755999 -94.308942,37.756729 -94.308929,37.75701 -94.308114,37.756997 -94.307903,37.756987 -94.307844,37.756972 -94.307747,37.756972 -94.306405,37.75697 -94.306265,37.75697 -94.305959,37.756936 -94.305838,37.756932 -94.30535,37.756927 -94.30504,37.756924 -94.30491,37.756943 -94.304842,37.756949 -94.304766,37.756951 -94.302317,37.756902 -94.302032,37.756882 -94.302056,37.755696 -94.302072,37.755622 -94.302058,37.755583 -94.302056,37.75549 -94.302062,37.755204 -94.302077,37.754435 -94.302129,37.753652 -94.302139,37.753511 -94.302131,37.753395 -94.302852,37.753449 -94.304886,37.753602 -94.305122,37.7536 -94.305981,37.753636 -94.306638,37.753665 -94.306632,37.753834 -94.306588,37.754899 -94.306866,37.754899 -94.307526,37.754907 -94.307678,37.754905 -94.309001,37.754975 -94.308976,37.75555</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

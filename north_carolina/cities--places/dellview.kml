@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dellview</name>
+<Schema name="dellview" id="dellview">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dellview</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dellview">
+		<SimpleData name="Name">Dellview</SimpleData>
+		<SimpleData name="STATEFP">37</SimpleData>
+		<SimpleData name="PLACEFP">16820</SimpleData>
+		<SimpleData name="PLACENS">02406373</SimpleData>
+		<SimpleData name="GEOID">3716820</SimpleData>
+		<SimpleData name="NAMELSAD">Dellview town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C9</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">I</SimpleData>
+		<SimpleData name="ALAND">292994</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.3865521</SimpleData>
+		<SimpleData name="INTPTLON">-081.4127072</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.413967,35.388599 -81.413438,35.390135 -81.413371,35.390117 -81.413257,35.390087 -81.412918,35.389979 -81.412503,35.389837 -81.412286,35.389754 -81.412146,35.389701 -81.412118,35.38969 -81.411648,35.389491 -81.411355,35.389355 -81.411014,35.389185 -81.410586,35.388957 -81.410395,35.388855 -81.410217,35.388754 -81.409999,35.388624 -81.409554,35.388354 -81.409404,35.388263 -81.409611,35.385685 -81.409735,35.384146 -81.409787,35.384167 -81.413052,35.385169 -81.413209,35.38389 -81.417205,35.383741 -81.413967,35.388599</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

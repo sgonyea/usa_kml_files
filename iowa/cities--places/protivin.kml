@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>protivin</name>
+<Schema name="protivin" id="protivin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Protivin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#protivin">
+		<SimpleData name="Name">Protivin</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">65010</SimpleData>
+		<SimpleData name="PLACENS">02396290</SimpleData>
+		<SimpleData name="GEOID">1965010</SimpleData>
+		<SimpleData name="NAMELSAD">Protivin city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1253551</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.2164282</SimpleData>
+		<SimpleData name="INTPTLON">-092.0891446</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.096051,43.213253 -92.09609,43.21602 -92.096148,43.220265 -92.095266,43.220275 -92.0953,43.222738 -92.09434,43.222749 -92.092142,43.222764 -92.091973,43.22259 -92.091665,43.222498 -92.090919,43.22233 -92.090917,43.221925 -92.090929,43.220906 -92.090932,43.220745 -92.09093,43.220386 -92.088348,43.220394 -92.080929,43.220422 -92.080937,43.213699 -92.080976,43.212947 -92.08135,43.212955 -92.083795,43.212959 -92.084731,43.212967 -92.08568,43.212967 -92.086855,43.212967 -92.086855,43.21247 -92.087249,43.212471 -92.087604,43.212471 -92.087604,43.211533 -92.089457,43.211536 -92.089457,43.211082 -92.090571,43.211083 -92.090581,43.210916 -92.09058,43.209146 -92.093086,43.209091 -92.093056,43.211786 -92.094455,43.211831 -92.094435,43.212992 -92.094773,43.212994 -92.095374,43.212999 -92.096049,43.213 -92.096051,43.213253</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

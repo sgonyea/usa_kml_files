@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>greenwich</name>
+<Schema name="greenwich" id="greenwich">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Greenwich</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#greenwich">
+		<SimpleData name="Name">Greenwich</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">28250</SimpleData>
+		<SimpleData name="PLACENS">02583994</SimpleData>
+		<SimpleData name="GEOID">3428250</SimpleData>
+		<SimpleData name="NAMELSAD">Greenwich CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2348919</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6849075</SimpleData>
+		<SimpleData name="INTPTLON">-075.1338212</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.145826,40.685139 -75.145399,40.686591 -75.145175,40.687363 -75.145067,40.687735 -75.144721,40.688873 -75.144566,40.689292 -75.144515,40.6894 -75.144469,40.689514 -75.144303,40.689848 -75.144211,40.690018 -75.141652,40.688087 -75.137534,40.687503 -75.134486,40.689221 -75.138442,40.691751 -75.137975,40.692345 -75.13799,40.692354 -75.139386,40.694847 -75.138699,40.694834 -75.137704,40.694795 -75.135806,40.694789 -75.135171,40.694772 -75.134125,40.694771 -75.133615,40.694757 -75.133324,40.694749 -75.132783,40.694655 -75.132213,40.694441 -75.131953,40.69438 -75.130612,40.694237 -75.129782,40.694193 -75.129084,40.694236 -75.131017,40.691653 -75.124988,40.686552 -75.124938,40.68658 -75.122197,40.683061 -75.12314,40.68124 -75.123049,40.681238 -75.133049,40.675306 -75.133955,40.675869 -75.138494,40.679273 -75.146074,40.684323 -75.145826,40.685139</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

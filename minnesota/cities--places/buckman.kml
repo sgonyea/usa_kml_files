@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>buckman</name>
+<Schema name="buckman" id="buckman">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Buckman</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buckman">
+		<SimpleData name="Name">Buckman</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">08416</SimpleData>
+		<SimpleData name="PLACENS">02393450</SimpleData>
+		<SimpleData name="GEOID">2708416</SimpleData>
+		<SimpleData name="NAMELSAD">Buckman city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2641823</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.8972551</SimpleData>
+		<SimpleData name="INTPTLON">-094.0937126</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.104873,45.904284 -94.103052,45.904307 -94.09642,45.90439 -94.09421,45.904419 -94.090582,45.904509 -94.083389,45.904688 -94.08332,45.901738 -94.083289,45.901 -94.083142,45.897375 -94.083017,45.893819 -94.082936,45.89151 -94.082888,45.89013 -94.085374,45.890096 -94.089867,45.890036 -94.093425,45.88999 -94.096211,45.889945 -94.10372,45.889827 -94.103784,45.890673 -94.103998,45.893452 -94.104063,45.894216 -94.104261,45.89651 -94.104327,45.897275 -94.104428,45.898599 -94.104734,45.902571 -94.104837,45.903895 -94.104873,45.904284</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

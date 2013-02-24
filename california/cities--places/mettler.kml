@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mettler</name>
+<Schema name="mettler" id="mettler">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mettler</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mettler">
+		<SimpleData name="Name">Mettler</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">47164</SimpleData>
+		<SimpleData name="PLACENS">02408825</SimpleData>
+		<SimpleData name="GEOID">0647164</SimpleData>
+		<SimpleData name="NAMELSAD">Mettler CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">602290</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.0635633</SimpleData>
+		<SimpleData name="INTPTLON">-118.9729799</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.976053,35.062315 -118.975945,35.069207 -118.973849,35.06924 -118.971863,35.069272 -118.970243,35.064084 -118.969923,35.063059 -118.968995,35.060119 -118.969014,35.059743 -118.969344,35.059482 -118.969678,35.059384 -118.969831,35.058203 -118.969917,35.057886 -118.970261,35.057902 -118.970603,35.05795 -118.970937,35.058029 -118.971259,35.058138 -118.971563,35.058276 -118.971847,35.058441 -118.97265,35.058875 -118.972997,35.059039 -118.973361,35.059175 -118.973739,35.059283 -118.974175,35.059368 -118.974633,35.05941 -118.975963,35.059409 -118.976053,35.062315</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

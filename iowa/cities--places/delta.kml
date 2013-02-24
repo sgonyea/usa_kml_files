@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>delta</name>
+<Schema name="delta" id="delta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Delta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#delta">
+		<SimpleData name="Name">Delta</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">19855</SimpleData>
+		<SimpleData name="PLACENS">02394511</SimpleData>
+		<SimpleData name="GEOID">1919855</SimpleData>
+		<SimpleData name="NAMELSAD">Delta city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2415731</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3225875</SimpleData>
+		<SimpleData name="INTPTLON">-092.3304212</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.340078,41.319683 -92.340081,41.320006 -92.340082,41.320094 -92.3401,41.32252 -92.339931,41.327338 -92.33704,41.327336 -92.33704,41.329602 -92.336567,41.329597 -92.33324,41.329565 -92.331652,41.329608 -92.326892,41.32974 -92.325305,41.329784 -92.324034,41.329788 -92.320714,41.329799 -92.320706,41.329308 -92.320686,41.328038 -92.320669,41.326805 -92.320619,41.323107 -92.320612,41.322557 -92.320604,41.321875 -92.320602,41.321783 -92.320599,41.321508 -92.320599,41.321483 -92.320598,41.321417 -92.320588,41.32092 -92.320561,41.319432 -92.320552,41.318936 -92.321676,41.31894 -92.323619,41.318932 -92.323618,41.315361 -92.330293,41.31538 -92.330824,41.315385 -92.332417,41.315403 -92.332949,41.315409 -92.335785,41.315419 -92.340048,41.315435 -92.340078,41.319683</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

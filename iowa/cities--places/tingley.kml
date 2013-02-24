@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tingley</name>
+<Schema name="tingley" id="tingley">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tingley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tingley">
+		<SimpleData name="Name">Tingley</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">78195</SimpleData>
+		<SimpleData name="PLACENS">02397025</SimpleData>
+		<SimpleData name="GEOID">1978195</SimpleData>
+		<SimpleData name="NAMELSAD">Tingley city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1750542</SimpleData>
+		<SimpleData name="AWATER">5413</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8528372</SimpleData>
+		<SimpleData name="INTPTLON">-094.1957489</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.204704,40.851678 -94.204687,40.851941 -94.204676,40.851959 -94.204541,40.85455 -94.204602,40.854583 -94.204854,40.854682 -94.204703,40.854755 -94.204711,40.855625 -94.204664,40.85649 -94.204695,40.857674 -94.204729,40.858457 -94.202652,40.858451 -94.195158,40.858438 -94.190378,40.85843 -94.19032,40.854989 -94.190301,40.854816 -94.187311,40.854829 -94.186713,40.854831 -94.186226,40.854832 -94.185645,40.854821 -94.185621,40.853838 -94.185626,40.853475 -94.185632,40.853105 -94.185608,40.852291 -94.18562,40.85166 -94.185606,40.850911 -94.185618,40.850341 -94.185625,40.850042 -94.185611,40.849286 -94.185598,40.84772 -94.189374,40.847708 -94.193161,40.847697 -94.19512,40.847691 -94.200474,40.84772 -94.204675,40.847675 -94.204704,40.851678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

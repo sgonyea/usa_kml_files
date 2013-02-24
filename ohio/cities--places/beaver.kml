@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>beaver</name>
+<Schema name="beaver" id="beaver">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Beaver</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#beaver">
+		<SimpleData name="Name">Beaver</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">04696</SimpleData>
+		<SimpleData name="PLACENS">02398059</SimpleData>
+		<SimpleData name="GEOID">3904696</SimpleData>
+		<SimpleData name="NAMELSAD">Beaver village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1010661</SimpleData>
+		<SimpleData name="AWATER">827</SimpleData>
+		<SimpleData name="INTPTLAT">+39.0349815</SimpleData>
+		<SimpleData name="INTPTLON">-082.8256951</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.831644,39.038037 -82.830621,39.037913 -82.820388,39.036691 -82.820573,39.035755 -82.821258,39.032245 -82.821315,39.031939 -82.821382,39.031956 -82.823339,39.03236 -82.823682,39.031549 -82.819483,39.030646 -82.819747,39.029679 -82.819793,39.029519 -82.820249,39.029535 -82.820234,39.029366 -82.820155,39.028814 -82.819958,39.02722 -82.819883,39.026975 -82.819758,39.026716 -82.819611,39.026489 -82.819375,39.026321 -82.819413,39.026193 -82.818983,39.025569 -82.818988,39.025467 -82.821136,39.025477 -82.827397,39.025567 -82.827254,39.027736 -82.827156,39.029266 -82.827127,39.029917 -82.827137,39.030147 -82.82729,39.030153 -82.830242,39.030443 -82.830158,39.031827 -82.829668,39.031706 -82.829655,39.031882 -82.829872,39.031901 -82.831108,39.03201 -82.831576,39.032055 -82.831595,39.032509 -82.831013,39.032491 -82.831019,39.034001 -82.830614,39.034 -82.830579,39.035397 -82.831456,39.035382 -82.831644,39.038037</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

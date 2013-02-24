@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>monmouth</name>
+<Schema name="monmouth" id="monmouth">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Monmouth</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monmouth">
+		<SimpleData name="Name">Monmouth</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">48592</SimpleData>
+		<SimpleData name="PLACENS">02628758</SimpleData>
+		<SimpleData name="GEOID">0648592</SimpleData>
+		<SimpleData name="NAMELSAD">Monmouth CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">797858</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.5656206</SimpleData>
+		<SimpleData name="INTPTLON">-119.7404754</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-119.745973,36.562745 -119.745973,36.562832 -119.746042,36.562936 -119.746059,36.563023 -119.746089,36.563886 -119.746007,36.564044 -119.746024,36.569131 -119.745107,36.569134 -119.743499,36.569139 -119.74266,36.569149 -119.742616,36.569149 -119.742122,36.569144 -119.741481,36.569143 -119.738076,36.569137 -119.736941,36.569136 -119.734075,36.569119 -119.734075,36.56614 -119.735555,36.566163 -119.735534,36.565303 -119.735653,36.565292 -119.735642,36.561866 -119.736055,36.561869 -119.736992,36.561875 -119.737145,36.561869 -119.737296,36.561869 -119.738878,36.561764 -119.740872,36.561871 -119.7409,36.561871 -119.743701,36.561871 -119.745973,36.561871 -119.745973,36.562745</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tavistock</name>
+<Schema name="tavistock" id="tavistock">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tavistock</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tavistock">
+		<SimpleData name="Name">Tavistock</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">72240</SimpleData>
+		<SimpleData name="PLACENS">00885416</SimpleData>
+		<SimpleData name="GEOID">3472240</SimpleData>
+		<SimpleData name="NAMELSAD">Tavistock borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">657798</SimpleData>
+		<SimpleData name="AWATER">6603</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8764822</SimpleData>
+		<SimpleData name="INTPTLON">-075.0279790</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.037197,39.881075 -75.03641,39.880734 -75.03544,39.880367 -75.034731,39.880144 -75.033639,39.8798 -75.033011,39.879573 -75.032263,39.879303 -75.032117,39.879231 -75.032059,39.879186 -75.032024,39.879113 -75.032024,39.879016 -75.032068,39.878922 -75.032289,39.878379 -75.028207,39.876713 -75.023356,39.87683 -75.023239,39.876896 -75.022932,39.877325 -75.022738,39.877186 -75.02245,39.876979 -75.02213,39.876765 -75.019155,39.87478 -75.018875,39.873784 -75.018813,39.873565 -75.018671,39.873316 -75.018454,39.872934 -75.018372,39.872817 -75.018307,39.872281 -75.018663,39.872292 -75.019605,39.87232 -75.019956,39.87233 -75.021242,39.872369 -75.021895,39.872388 -75.022533,39.872407 -75.026541,39.872527 -75.027914,39.872607 -75.028128,39.872607 -75.028627,39.872643 -75.029024,39.872631 -75.034943,39.876858 -75.035337,39.877404 -75.03712,39.878924 -75.037095,39.879777 -75.037097,39.880054 -75.037197,39.881075</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

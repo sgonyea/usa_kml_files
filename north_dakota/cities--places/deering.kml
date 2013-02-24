@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>deering</name>
+<Schema name="deering" id="deering">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Deering</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#deering">
+		<SimpleData name="Name">Deering</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">18620</SimpleData>
+		<SimpleData name="PLACENS">01035987</SimpleData>
+		<SimpleData name="GEOID">3818620</SimpleData>
+		<SimpleData name="NAMELSAD">Deering city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">191611</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.3957587</SimpleData>
+		<SimpleData name="INTPTLON">-101.0495453</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-101.044637,48.396501 -101.044592,48.396501 -101.042821,48.396463 -101.041817,48.396504 -101.041817,48.396484 -101.041777,48.394264 -101.042675,48.394259 -101.043741,48.394254 -101.044178,48.394552 -101.044658,48.39488 -101.044637,48.396501</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-101.055185,48.39614 -101.054371,48.39632 -101.054183,48.396362 -101.054164,48.396118 -101.053349,48.396129 -101.053353,48.396272 -101.053371,48.396824 -101.053375,48.396951 -101.053364,48.39737 -101.053349,48.397899 -101.05227,48.397895 -101.052015,48.397883 -101.051889,48.397872 -101.050923,48.397745 -101.050328,48.397405 -101.049841,48.397129 -101.048912,48.396811 -101.048894,48.396659 -101.048876,48.396495 -101.048871,48.396272 -101.048869,48.396134 -101.048862,48.395782 -101.048845,48.394786 -101.048844,48.394185 -101.050185,48.394213 -101.050805,48.394168 -101.050862,48.394773 -101.051092,48.394772 -101.051843,48.39477 -101.053374,48.394768 -101.053367,48.394254 -101.055156,48.394259 -101.055185,48.39614</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

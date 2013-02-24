@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bradshaw</name>
+<Schema name="bradshaw" id="bradshaw">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bradshaw</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bradshaw">
+		<SimpleData name="Name">Bradshaw</SimpleData>
+		<SimpleData name="STATEFP">54</SimpleData>
+		<SimpleData name="PLACEFP">09700</SimpleData>
+		<SimpleData name="PLACENS">02390746</SimpleData>
+		<SimpleData name="GEOID">5409700</SimpleData>
+		<SimpleData name="NAMELSAD">Bradshaw town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2004121</SimpleData>
+		<SimpleData name="AWATER">67351</SimpleData>
+		<SimpleData name="INTPTLAT">+37.3534214</SimpleData>
+		<SimpleData name="INTPTLON">-081.8007947</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.80237,37.364005 -81.800972,37.362657 -81.800699,37.362405 -81.800565,37.362281 -81.800441,37.362158 -81.800131,37.361848 -81.800091,37.361808 -81.800024,37.361742 -81.799455,37.361199 -81.795942,37.355601 -81.791558,37.348613 -81.791565,37.348261 -81.791566,37.348224 -81.791572,37.348032 -81.791576,37.347883 -81.791577,37.347732 -81.791579,37.347492 -81.791623,37.345719 -81.793144,37.345736 -81.793462,37.34574 -81.803399,37.345866 -81.805492,37.346549 -81.805901,37.346668 -81.806218,37.346767 -81.806657,37.346906 -81.808435,37.355085 -81.808928,37.357165 -81.808983,37.35743 -81.809441,37.359393 -81.80237,37.364005</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

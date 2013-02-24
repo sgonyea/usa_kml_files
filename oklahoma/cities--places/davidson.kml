@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>davidson</name>
+<Schema name="davidson" id="davidson">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Davidson</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#davidson">
+		<SimpleData name="Name">Davidson</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">19400</SimpleData>
+		<SimpleData name="PLACENS">02412408</SimpleData>
+		<SimpleData name="GEOID">4019400</SimpleData>
+		<SimpleData name="NAMELSAD">Davidson town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1244304</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.2421066</SimpleData>
+		<SimpleData name="INTPTLON">-099.0781217</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.083659,34.247274 -99.083698,34.24817 -99.080288,34.248191 -99.074431,34.248199 -99.074101,34.248194 -99.070595,34.248181 -99.070459,34.247263 -99.071957,34.247265 -99.072967,34.247266 -99.073229,34.247271 -99.074343,34.247269 -99.074869,34.247268 -99.075023,34.247078 -99.075133,34.246907 -99.075239,34.24673 -99.075314,34.246562 -99.075622,34.245833 -99.075673,34.245691 -99.075765,34.245389 -99.075789,34.24519 -99.075799,34.245031 -99.075806,34.244766 -99.075817,34.244391 -99.075827,34.243599 -99.075839,34.242687 -99.071595,34.242679 -99.070419,34.242716 -99.070364,34.239126 -99.074749,34.239061 -99.074818,34.235581 -99.076156,34.235591 -99.080269,34.235584 -99.081319,34.235581 -99.081308,34.238148 -99.083104,34.238168 -99.083692,34.238152 -99.083659,34.247274</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

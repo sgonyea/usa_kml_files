@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>buffalo</name>
+<Schema name="buffalo" id="buffalo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Buffalo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buffalo">
+		<SimpleData name="Name">Buffalo</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">09434</SimpleData>
+		<SimpleData name="PLACENS">02397489</SimpleData>
+		<SimpleData name="GEOID">1709434</SimpleData>
+		<SimpleData name="NAMELSAD">Buffalo village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">946385</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8498827</SimpleData>
+		<SimpleData name="INTPTLON">-089.4089406</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.415502,39.851384 -89.415486,39.851717 -89.415481,39.851828 -89.415483,39.851987 -89.415491,39.852464 -89.415494,39.852624 -89.415493,39.852759 -89.415493,39.852804 -89.412472,39.852852 -89.411268,39.852851 -89.41125,39.853088 -89.411205,39.854492 -89.405838,39.854509 -89.405683,39.854481 -89.40568,39.853694 -89.40568,39.853622 -89.402922,39.853518 -89.40263,39.853507 -89.402635,39.852856 -89.402634,39.852823 -89.402631,39.852724 -89.402631,39.852691 -89.40267,39.850696 -89.4027,39.849187 -89.402719,39.84825 -89.402763,39.845975 -89.404023,39.845973 -89.406018,39.845971 -89.408989,39.845964 -89.415552,39.845949 -89.415532,39.848302 -89.415508,39.851274 -89.415502,39.851384</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

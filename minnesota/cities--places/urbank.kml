@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>urbank</name>
+<Schema name="urbank" id="urbank">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Urbank</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#urbank">
+		<SimpleData name="Name">Urbank</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">66388</SimpleData>
+		<SimpleData name="PLACENS">02397101</SimpleData>
+		<SimpleData name="GEOID">2766388</SimpleData>
+		<SimpleData name="NAMELSAD">Urbank city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1860067</SimpleData>
+		<SimpleData name="AWATER">16233</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1248792</SimpleData>
+		<SimpleData name="INTPTLON">-095.5108055</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.520809,46.122661 -95.52091,46.124965 -95.520921,46.130006 -95.516575,46.130031 -95.501262,46.130154 -95.501175,46.125011 -95.501163,46.123103 -95.501161,46.122711 -95.501131,46.119445 -95.501144,46.119187 -95.501142,46.119019 -95.511599,46.118997 -95.51633,46.118948 -95.51696,46.11894 -95.517591,46.118933 -95.520794,46.118901 -95.520809,46.122661</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

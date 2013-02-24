@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>loma_vista</name>
+<Schema name="loma_vista" id="loma_vista">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Loma Vista</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#loma_vista">
+		<SimpleData name="Name">Loma Vista</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">43474</SimpleData>
+		<SimpleData name="PLACENS">02584676</SimpleData>
+		<SimpleData name="GEOID">4843474</SimpleData>
+		<SimpleData name="NAMELSAD">Loma Vista CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">34124</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.4168717</SimpleData>
+		<SimpleData name="INTPTLON">-098.9814119</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.982549,26.416232 -98.982531,26.416468 -98.982526,26.416494 -98.982512,26.416581 -98.982508,26.416634 -98.982498,26.416793 -98.982496,26.416847 -98.982476,26.416971 -98.982464,26.417051 -98.982448,26.417347 -98.982442,26.417473 -98.98244,26.417505 -98.982429,26.417531 -98.982398,26.41756 -98.982044,26.417568 -98.980677,26.417603 -98.980515,26.417608 -98.980222,26.417612 -98.980246,26.417466 -98.980319,26.417031 -98.980344,26.416886 -98.980353,26.41683 -98.980374,26.41672 -98.980385,26.416665 -98.980397,26.41661 -98.980405,26.416564 -98.980433,26.416429 -98.980443,26.416384 -98.980451,26.416334 -98.980476,26.416186 -98.980485,26.416137 -98.980635,26.416133 -98.980894,26.416139 -98.981318,26.41615 -98.982123,26.416141 -98.982484,26.416137 -98.982531,26.416151 -98.982553,26.416191 -98.982549,26.416232</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

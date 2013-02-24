@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ridgeway</name>
+<Schema name="ridgeway" id="ridgeway">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ridgeway</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ridgeway">
+		<SimpleData name="Name">Ridgeway</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">67875</SimpleData>
+		<SimpleData name="PLACENS">01584034</SimpleData>
+		<SimpleData name="GEOID">5567875</SimpleData>
+		<SimpleData name="NAMELSAD">Ridgeway village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3253666</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9985213</SimpleData>
+		<SimpleData name="INTPTLON">-089.9932419</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.005563,43.005989 -90.00127,43.005981 -90.000123,43.005979 -89.993773,43.005837 -89.989148,43.005735 -89.988952,43.005906 -89.988536,43.006169 -89.988165,43.006309 -89.987672,43.006428 -89.987388,43.006499 -89.987184,43.00655 -89.987183,43.00654 -89.987137,43.006248 -89.98709,43.006075 -89.987075,43.006024 -89.986917,43.005739 -89.986909,43.005725 -89.986887,43.005686 -89.98688,43.005673 -89.986652,43.005671 -89.985968,43.005666 -89.98574,43.005665 -89.981132,43.005574 -89.981103,43.00015 -89.980803,42.994706 -89.980726,42.992421 -89.980799,42.992135 -89.980862,42.991501 -89.980863,42.991408 -89.980868,42.99113 -89.98087,42.991038 -89.982678,42.991068 -89.988102,42.991158 -89.98991,42.991189 -89.990463,42.991198 -89.992122,42.991226 -89.992675,42.991236 -89.994906,42.991259 -90.000117,42.991316 -90.000814,42.991308 -90.001602,42.991299 -90.003834,42.991274 -90.004614,42.991277 -90.004822,42.99128 -90.005449,42.991287 -90.005466,42.995101 -90.005475,42.99744 -90.005476,42.9976 -90.005485,42.999997 -90.005536,43.004145 -90.005563,43.005989</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>effie</name>
+<Schema name="effie" id="effie">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Effie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#effie">
+		<SimpleData name="Name">Effie</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">18260</SimpleData>
+		<SimpleData name="PLACENS">02394627</SimpleData>
+		<SimpleData name="GEOID">2718260</SimpleData>
+		<SimpleData name="NAMELSAD">Effie city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">9437141</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.8412269</SimpleData>
+		<SimpleData name="INTPTLON">-093.6375746</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.66019,47.83111 -93.66019,47.83158 -93.66017,47.83273 -93.66018,47.83324 -93.66017,47.83497 -93.66016,47.83583 -93.66017,47.83676 -93.660168,47.837158 -93.66016,47.84003 -93.660158,47.842606 -93.660155,47.850338 -93.660154,47.852915 -93.660167,47.853843 -93.66018,47.854658 -93.658207,47.854659 -93.657278,47.85466 -93.654425,47.854664 -93.645868,47.85468 -93.643016,47.854685 -93.638533,47.854706 -93.63653,47.854711 -93.636135,47.854713 -93.632894,47.854713 -93.630234,47.85472 -93.627811,47.854735 -93.625923,47.854732 -93.625188,47.854733 -93.623099,47.854704 -93.621159,47.854667 -93.619111,47.854671 -93.617519,47.854656 -93.617513,47.854212 -93.617497,47.852725 -93.617479,47.851155 -93.617447,47.849336 -93.617448,47.848362 -93.6174,47.84773 -93.6174,47.846189 -93.6174,47.8461 -93.61736,47.84248 -93.617367,47.84157 -93.61737,47.84123 -93.61736,47.84003 -93.617364,47.839715 -93.617378,47.838772 -93.617383,47.838458 -93.617347,47.836071 -93.617343,47.834302 -93.617336,47.830838 -93.617263,47.826452 -93.617301,47.825574 -93.62027,47.825605 -93.621037,47.825624 -93.622557,47.825664 -93.624412,47.825604 -93.62519,47.825662 -93.628757,47.825657 -93.639458,47.825642 -93.643025,47.825637 -93.64303,47.82631 -93.64303,47.827327 -93.64303,47.830039 -93.644469,47.830011 -93.644397,47.833065 -93.655182,47.833088 -93.655176,47.830267 -93.660187,47.830234 -93.66019,47.83111</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>derby</name>
+<Schema name="derby" id="derby">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Derby</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#derby">
+		<SimpleData name="Name">Derby</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">20125</SimpleData>
+		<SimpleData name="PLACENS">02394520</SimpleData>
+		<SimpleData name="GEOID">1920125</SimpleData>
+		<SimpleData name="NAMELSAD">Derby city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">673593</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9303355</SimpleData>
+		<SimpleData name="INTPTLON">-093.4564833</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.461446,40.927331 -93.461459,40.929237 -93.461455,40.929866 -93.461455,40.930208 -93.461457,40.931234 -93.461458,40.931414 -93.461452,40.931577 -93.461439,40.931746 -93.461438,40.931759 -93.461435,40.932308 -93.461434,40.932491 -93.461436,40.932696 -93.461442,40.933233 -93.46144,40.933313 -93.461438,40.933519 -93.461436,40.933612 -93.461436,40.933689 -93.461433,40.933891 -93.461432,40.933984 -93.460349,40.933967 -93.457103,40.933918 -93.456021,40.933902 -93.455189,40.933884 -93.452697,40.93383 -93.451866,40.933813 -93.45083,40.933802 -93.450779,40.933431 -93.450693,40.931934 -93.451317,40.93188 -93.451322,40.931036 -93.451776,40.930991 -93.451917,40.926559 -93.452187,40.926558 -93.452824,40.926556 -93.452999,40.926558 -93.45327,40.926562 -93.454264,40.926576 -93.454595,40.926581 -93.455357,40.926599 -93.456256,40.926606 -93.457249,40.92662 -93.458244,40.926635 -93.458883,40.926645 -93.459803,40.92666 -93.460803,40.926686 -93.461252,40.926699 -93.461443,40.926698 -93.461446,40.927331</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-93.455421,40.930422 -93.455266,40.930417 -93.454915,40.930406 -93.454801,40.930413 -93.454759,40.930417 -93.454647,40.930411 -93.454644,40.930483 -93.454637,40.9307 -93.454635,40.930773 -93.454851,40.930768 -93.455384,40.930756 -93.455397,40.930637 -93.455421,40.930422</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-93.453093,40.932355 -93.452439,40.932357 -93.451876,40.93236 -93.451946,40.932546 -93.452309,40.932575 -93.45306,40.932637 -93.453093,40.932355</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

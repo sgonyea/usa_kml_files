@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>palestine</name>
+<Schema name="palestine" id="palestine">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Palestine</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#palestine">
+		<SimpleData name="Name">Palestine</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">59598</SimpleData>
+		<SimpleData name="PLACENS">02399609</SimpleData>
+		<SimpleData name="GEOID">3959598</SimpleData>
+		<SimpleData name="NAMELSAD">Palestine village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">378330</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0501515</SimpleData>
+		<SimpleData name="INTPTLON">-084.7443210</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.749348,40.051554 -84.748108,40.051553 -84.748108,40.051604 -84.744331,40.051587 -84.74417,40.052478 -84.744156,40.052582 -84.743608,40.053034 -84.743608,40.053081 -84.743632,40.053472 -84.74265,40.053469 -84.742581,40.053997 -84.74257,40.054086 -84.741363,40.054114 -84.740465,40.054135 -84.740405,40.052827 -84.74042,40.052827 -84.741148,40.052835 -84.741399,40.052814 -84.741329,40.052205 -84.741273,40.051726 -84.741244,40.051458 -84.741164,40.051468 -84.741163,40.05147 -84.740015,40.051592 -84.740018,40.051531 -84.739998,40.050164 -84.741094,40.050077 -84.74109,40.049903 -84.741082,40.047777 -84.742921,40.047833 -84.743536,40.047857 -84.743968,40.04787 -84.743919,40.046808 -84.743869,40.045746 -84.745982,40.045785 -84.745963,40.046188 -84.745933,40.047916 -84.746445,40.047978 -84.746489,40.049773 -84.747294,40.049783 -84.748118,40.049792 -84.748114,40.049671 -84.750266,40.049688 -84.750264,40.049792 -84.750264,40.050526 -84.750264,40.051553 -84.749348,40.051554</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

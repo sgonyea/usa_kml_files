@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sedgwick</name>
+<Schema name="sedgwick" id="sedgwick">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sedgwick</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sedgwick">
+		<SimpleData name="Name">Sedgwick</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">68930</SimpleData>
+		<SimpleData name="PLACENS">02413269</SimpleData>
+		<SimpleData name="GEOID">0868930</SimpleData>
+		<SimpleData name="NAMELSAD">Sedgwick town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">864656</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9350683</SimpleData>
+		<SimpleData name="INTPTLON">-102.5256738</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.531984,40.930713 -102.531981,40.930841 -102.531915,40.931444 -102.531962,40.932247 -102.529681,40.932287 -102.529683,40.93313 -102.529699,40.934311 -102.531839,40.934354 -102.531829,40.935358 -102.531827,40.936408 -102.52989,40.936387 -102.529948,40.939489 -102.529171,40.939495 -102.527215,40.939505 -102.527212,40.939834 -102.520576,40.939949 -102.52059,40.939556 -102.520694,40.934462 -102.520706,40.933855 -102.520709,40.933734 -102.520712,40.933586 -102.520713,40.933359 -102.520724,40.932815 -102.519402,40.932861 -102.519395,40.932637 -102.519347,40.931161 -102.522686,40.93111 -102.523386,40.9311 -102.527256,40.931042 -102.52729,40.930293 -102.531994,40.930197 -102.531984,40.930713</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

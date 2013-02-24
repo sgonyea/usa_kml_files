@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>morrison</name>
+<Schema name="morrison" id="morrison">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Morrison</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#morrison">
+		<SimpleData name="Name">Morrison</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">54165</SimpleData>
+		<SimpleData name="PLACENS">02395410</SimpleData>
+		<SimpleData name="GEOID">1954165</SimpleData>
+		<SimpleData name="NAMELSAD">Morrison city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">258810</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.3430332</SimpleData>
+		<SimpleData name="INTPTLON">-092.6731467</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.675686,42.341502 -92.675707,42.342773 -92.675657,42.344022 -92.675639,42.344547 -92.675604,42.345104 -92.675597,42.345207 -92.675591,42.346254 -92.674988,42.346118 -92.670721,42.345148 -92.670721,42.345221 -92.670518,42.345214 -92.669804,42.345209 -92.669854,42.343914 -92.669855,42.343881 -92.669863,42.343684 -92.670542,42.343851 -92.670754,42.343879 -92.670771,42.343386 -92.670771,42.342784 -92.670774,42.342749 -92.670746,42.342124 -92.670717,42.341484 -92.670716,42.340219 -92.672025,42.340224 -92.673645,42.34023 -92.675016,42.340235 -92.675701,42.340237 -92.675686,42.341502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

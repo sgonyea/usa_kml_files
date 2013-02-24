@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>plymouth</name>
+<Schema name="plymouth" id="plymouth">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Plymouth</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#plymouth">
+		<SimpleData name="Name">Plymouth</SimpleData>
+		<SimpleData name="STATEFP">49</SimpleData>
+		<SimpleData name="PLACEFP">61260</SimpleData>
+		<SimpleData name="PLACENS">02412492</SimpleData>
+		<SimpleData name="GEOID">4961260</SimpleData>
+		<SimpleData name="NAMELSAD">Plymouth town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1687736</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8752761</SimpleData>
+		<SimpleData name="INTPTLON">-112.1424044</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-112.151663,41.871036 -112.15167,41.872204 -112.151614,41.87303 -112.15148,41.875049 -112.151483,41.87551 -112.151489,41.876339 -112.151641,41.876511 -112.151827,41.876722 -112.152096,41.877029 -112.152248,41.877203 -112.152643,41.877653 -112.152901,41.877947 -112.153833,41.879001 -112.154037,41.879232 -112.154192,41.879413 -112.154229,41.879452 -112.153908,41.87946 -112.153729,41.879462 -112.152729,41.879476 -112.152229,41.879487 -112.152054,41.879492 -112.151838,41.879469 -112.151731,41.87947 -112.151723,41.879855 -112.151713,41.880459 -112.151161,41.88047 -112.150776,41.880479 -112.150753,41.880481 -112.150684,41.880488 -112.150662,41.880491 -112.148854,41.880504 -112.143433,41.880543 -112.141626,41.880557 -112.141262,41.88057 -112.140172,41.88061 -112.139809,41.880624 -112.13768,41.880671 -112.137486,41.880675 -112.137382,41.880682 -112.137404,41.87945 -112.137423,41.878269 -112.137462,41.87598 -112.127864,41.875952 -112.127848,41.872481 -112.127839,41.872212 -112.128045,41.872258 -112.128377,41.872351 -112.128814,41.872588 -112.129065,41.872591 -112.129154,41.872593 -112.130439,41.872583 -112.134111,41.872535 -112.13458,41.87253 -112.135017,41.872517 -112.135793,41.872507 -112.135967,41.870512 -112.146782,41.87041 -112.146929,41.870414 -112.147372,41.870426 -112.14752,41.870431 -112.148686,41.870452 -112.151367,41.870503 -112.15166,41.870509 -112.151663,41.871036</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

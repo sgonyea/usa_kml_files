@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>stanford</name>
+<Schema name="stanford" id="stanford">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Stanford</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#stanford">
+		<SimpleData name="Name">Stanford</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">72260</SimpleData>
+		<SimpleData name="PLACENS">02399886</SimpleData>
+		<SimpleData name="GEOID">1772260</SimpleData>
+		<SimpleData name="NAMELSAD">Stanford village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1713711</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4318014</SimpleData>
+		<SimpleData name="INTPTLON">-089.2208406</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.227673,40.442094 -89.227624,40.439839 -89.22759,40.438852 -89.227531,40.438256 -89.225589,40.438241 -89.22362,40.438256 -89.218001,40.438254 -89.218017,40.438665 -89.21802,40.438752 -89.218148,40.442265 -89.216934,40.44229 -89.216837,40.438256 -89.213313,40.438266 -89.213331,40.436627 -89.213302,40.435162 -89.213302,40.435015 -89.212881,40.435023 -89.212883,40.434323 -89.212886,40.433273 -89.21316,40.433265 -89.213156,40.431538 -89.215188,40.43152 -89.215195,40.430406 -89.217069,40.430397 -89.21707,40.430582 -89.217784,40.430574 -89.217778,40.430304 -89.217775,40.430123 -89.218242,40.430122 -89.21826,40.429013 -89.217762,40.429007 -89.217751,40.427895 -89.217731,40.425088 -89.217703,40.420993 -89.217703,40.420404 -89.222897,40.420356 -89.22285,40.427829 -89.223164,40.427825 -89.227379,40.427759 -89.227446,40.431198 -89.227451,40.431442 -89.227489,40.433339 -89.227508,40.434597 -89.227484,40.434995 -89.227452,40.435518 -89.227475,40.436542 -89.228403,40.436552 -89.22841,40.436623 -89.22849,40.442084 -89.227673,40.442094</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-89.221068,40.430129 -89.220743,40.430135 -89.22074,40.430389 -89.220739,40.431551 -89.221073,40.431545 -89.221068,40.430129</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sylvester</name>
+<Schema name="sylvester" id="sylvester">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sylvester</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sylvester">
+		<SimpleData name="Name">Sylvester</SimpleData>
+		<SimpleData name="STATEFP">54</SimpleData>
+		<SimpleData name="PLACEFP">78964</SimpleData>
+		<SimpleData name="PLACENS">02391437</SimpleData>
+		<SimpleData name="GEOID">5478964</SimpleData>
+		<SimpleData name="NAMELSAD">Sylvester town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">653000</SimpleData>
+		<SimpleData name="AWATER">14342</SimpleData>
+		<SimpleData name="INTPTLAT">+38.0080309</SimpleData>
+		<SimpleData name="INTPTLON">-081.5616756</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.569381,38.00756 -81.565793,38.00983 -81.562427,38.011882 -81.562306,38.011993 -81.562288,38.012002 -81.562176,38.012066 -81.562037,38.012145 -81.561571,38.012448 -81.56078,38.012851 -81.56064,38.012711 -81.560392,38.012463 -81.560224,38.012302 -81.560123,38.012363 -81.560012,38.012413 -81.559893,38.01245 -81.559801,38.012468 -81.559495,38.012227 -81.557428,38.010208 -81.556573,38.010303 -81.556811,38.009983 -81.556275,38.009371 -81.55588,38.009038 -81.555771,38.008996 -81.555671,38.008955 -81.555652,38.008761 -81.555669,38.00874 -81.555725,38.008663 -81.555794,38.008555 -81.555891,38.008405 -81.556035,38.008206 -81.556044,38.008193 -81.556231,38.007967 -81.556301,38.007901 -81.557184,38.00781 -81.557257,38.007722 -81.557357,38.007603 -81.557387,38.007546 -81.560703,38.004591 -81.562683,38.002826 -81.569381,38.00756</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

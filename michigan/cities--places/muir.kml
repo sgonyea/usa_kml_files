@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>muir</name>
+<Schema name="muir" id="muir">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Muir</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#muir">
+		<SimpleData name="Name">Muir</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">56080</SimpleData>
+		<SimpleData name="PLACENS">02399423</SimpleData>
+		<SimpleData name="GEOID">2656080</SimpleData>
+		<SimpleData name="NAMELSAD">Muir village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1845553</SimpleData>
+		<SimpleData name="AWATER">116833</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9974781</SimpleData>
+		<SimpleData name="INTPTLON">-084.9350987</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.946155,43.002604 -84.940847,43.002609 -84.936262,43.002614 -84.925673,43.002603 -84.92564,43.0017 -84.92552,42.998631 -84.925803,42.998549 -84.925953,42.998514 -84.926126,42.998461 -84.926115,42.998243 -84.926104,42.998031 -84.92608,42.997566 -84.926057,42.9971 -84.925758,42.991853 -84.928627,42.991793 -84.930428,42.991803 -84.930704,42.99198 -84.931415,42.991972 -84.932869,42.991963 -84.941971,42.991875 -84.942734,42.991869 -84.94361,42.99186 -84.943725,42.991857 -84.943793,42.991881 -84.944275,42.991969 -84.945223,42.992002 -84.945884,42.992071 -84.945886,42.992186 -84.945948,42.994002 -84.946009,42.995702 -84.946007,42.996191 -84.946011,42.996365 -84.946147,42.997607 -84.946107,43.000038 -84.94612,43.001509 -84.946155,43.002604</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

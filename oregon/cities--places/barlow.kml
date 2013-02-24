@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>barlow</name>
+<Schema name="barlow" id="barlow">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Barlow</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#barlow">
+		<SimpleData name="Name">Barlow</SimpleData>
+		<SimpleData name="STATEFP">41</SimpleData>
+		<SimpleData name="PLACEFP">04000</SimpleData>
+		<SimpleData name="PLACENS">02409787</SimpleData>
+		<SimpleData name="GEOID">4104000</SimpleData>
+		<SimpleData name="NAMELSAD">Barlow city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">135097</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.2523723</SimpleData>
+		<SimpleData name="INTPTLON">-122.7223759</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-122.727815,45.252804 -122.723844,45.252777 -122.722677,45.252784 -122.722678,45.25316 -122.722671,45.25385 -122.722667,45.254176 -122.721155,45.254179 -122.721161,45.253954 -122.721161,45.253695 -122.721549,45.253694 -122.721552,45.253396 -122.720696,45.253399 -122.719951,45.253401 -122.717489,45.253404 -122.717201,45.253408 -122.717715,45.253106 -122.719553,45.251939 -122.719939,45.251714 -122.721404,45.25076 -122.72271,45.249962 -122.72271,45.250263 -122.72271,45.250664 -122.722708,45.250788 -122.722688,45.251786 -122.723051,45.251793 -122.723786,45.251795 -122.723837,45.251796 -122.725386,45.251813 -122.726481,45.251815 -122.727212,45.251808 -122.727479,45.25181 -122.727822,45.251812 -122.727815,45.252804</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

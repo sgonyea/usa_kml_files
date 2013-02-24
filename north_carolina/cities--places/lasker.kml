@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lasker</name>
+<Schema name="lasker" id="lasker">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lasker</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lasker">
+		<SimpleData name="Name">Lasker</SimpleData>
+		<SimpleData name="STATEFP">37</SimpleData>
+		<SimpleData name="PLACEFP">37000</SimpleData>
+		<SimpleData name="PLACENS">02405988</SimpleData>
+		<SimpleData name="GEOID">3737000</SimpleData>
+		<SimpleData name="NAMELSAD">Lasker town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2896817</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.3502214</SimpleData>
+		<SimpleData name="INTPTLON">-077.3057468</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.315016,36.358175 -77.305615,36.358152 -77.296816,36.358175 -77.296754,36.357397 -77.29669,36.356439 -77.29676,36.350334 -77.296849,36.349271 -77.296225,36.349111 -77.294681,36.348715 -77.293794,36.348491 -77.294524,36.347137 -77.296157,36.348209 -77.296834,36.348436 -77.296725,36.342369 -77.297191,36.342369 -77.297792,36.342356 -77.299629,36.342387 -77.301739,36.34234 -77.306561,36.342337 -77.307351,36.342348 -77.315223,36.34237 -77.314855,36.350047 -77.314894,36.357264 -77.315016,36.358175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

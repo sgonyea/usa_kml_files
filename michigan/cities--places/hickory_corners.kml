@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hickory_corners</name>
+<Schema name="hickory_corners" id="hickory_corners">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hickory Corners</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hickory_corners">
+		<SimpleData name="Name">Hickory Corners</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">37960</SimpleData>
+		<SimpleData name="PLACENS">02583741</SimpleData>
+		<SimpleData name="GEOID">2637960</SimpleData>
+		<SimpleData name="NAMELSAD">Hickory Corners CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">5362457</SimpleData>
+		<SimpleData name="AWATER">14976</SimpleData>
+		<SimpleData name="INTPTLAT">+42.4344025</SimpleData>
+		<SimpleData name="INTPTLON">-085.3858586</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.395567,42.441783 -85.390713,42.441692 -85.390702,42.446412 -85.384111,42.446602 -85.381879,42.446601 -85.378312,42.446532 -85.375998,42.446555 -85.374967,42.446603 -85.374963,42.446519 -85.371042,42.446529 -85.366255,42.444479 -85.365031,42.443958 -85.364419,42.4415 -85.363551,42.437632 -85.361905,42.430609 -85.36188,42.430528 -85.36272,42.430652 -85.363519,42.43069 -85.363806,42.430633 -85.363819,42.427014 -85.366248,42.427012 -85.375055,42.427079 -85.376092,42.427078 -85.378675,42.427085 -85.391717,42.42721 -85.395761,42.427274 -85.395708,42.429056 -85.395656,42.430784 -85.395661,42.431557 -85.395627,42.434412 -85.395615,42.437494 -85.395567,42.441783</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

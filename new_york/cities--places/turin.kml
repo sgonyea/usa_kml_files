@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>turin</name>
+<Schema name="turin" id="turin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Turin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#turin">
+		<SimpleData name="Name">Turin</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">75682</SimpleData>
+		<SimpleData name="PLACENS">02391172</SimpleData>
+		<SimpleData name="GEOID">3675682</SimpleData>
+		<SimpleData name="NAMELSAD">Turin village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2657765</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.6291789</SimpleData>
+		<SimpleData name="INTPTLON">-075.4106719</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.4187,43.636206 -75.416053,43.636927 -75.411881,43.638261 -75.411156,43.638433 -75.409798,43.637782 -75.408184,43.636938 -75.407147,43.636394 -75.402496,43.634071 -75.399842,43.632838 -75.398735,43.632293 -75.396806,43.631511 -75.396131,43.631266 -75.396312,43.631076 -75.400347,43.626756 -75.401962,43.625069 -75.403126,43.624044 -75.404567,43.623517 -75.40814,43.62206 -75.412464,43.620338 -75.420729,43.620792 -75.420477,43.622052 -75.420415,43.622359 -75.420348,43.62282 -75.420286,43.623168 -75.419969,43.624822 -75.419924,43.624998 -75.419864,43.625373 -75.419843,43.625583 -75.419894,43.626943 -75.41989,43.62743 -75.419963,43.628847 -75.419966,43.629338 -75.420004,43.630307 -75.420028,43.63124 -75.420087,43.632629 -75.420178,43.634018 -75.420235,43.635666 -75.420236,43.63572 -75.4187,43.636206</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

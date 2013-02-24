@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gascoyne</name>
+<Schema name="gascoyne" id="gascoyne">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gascoyne</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gascoyne">
+		<SimpleData name="Name">Gascoyne</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">29540</SimpleData>
+		<SimpleData name="PLACENS">01036053</SimpleData>
+		<SimpleData name="GEOID">3829540</SimpleData>
+		<SimpleData name="NAMELSAD">Gascoyne city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2577162</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1189746</SimpleData>
+		<SimpleData name="INTPTLON">-103.0787587</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.08921,46.113144 -103.089211,46.113309 -103.08922,46.114119 -103.08918,46.11897 -103.089151,46.122428 -103.089145,46.123487 -103.0891,46.123877 -103.089067,46.124166 -103.089105,46.124234 -103.089131,46.124317 -103.08917,46.124505 -103.089167,46.124898 -103.089178,46.125015 -103.089163,46.125888 -103.089173,46.126017 -103.089243,46.126153 -103.089264,46.126176 -103.082636,46.126176 -103.078711,46.126168 -103.068533,46.126178 -103.068331,46.12618 -103.068334,46.124962 -103.068323,46.11899 -103.068375,46.113963 -103.068394,46.111762 -103.078099,46.111782 -103.078682,46.111792 -103.080419,46.111769 -103.085199,46.111767 -103.085752,46.11176 -103.08693,46.111788 -103.087385,46.111821 -103.087536,46.111836 -103.087578,46.111834 -103.089214,46.111833 -103.08921,46.113144</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

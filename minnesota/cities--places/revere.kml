@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>revere</name>
+<Schema name="revere" id="revere">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Revere</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#revere">
+		<SimpleData name="Name">Revere</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">53908</SimpleData>
+		<SimpleData name="PLACENS">02396355</SimpleData>
+		<SimpleData name="GEOID">2753908</SimpleData>
+		<SimpleData name="NAMELSAD">Revere city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1485767</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.2215838</SimpleData>
+		<SimpleData name="INTPTLON">-095.3612140</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.370708,44.217775 -95.370707,44.218037 -95.370704,44.21898 -95.370708,44.220122 -95.370693,44.222166 -95.370689,44.222765 -95.370677,44.223405 -95.370665,44.224012 -95.370649,44.224841 -95.370638,44.225453 -95.37061,44.226844 -95.3607,44.226572 -95.360651,44.226571 -95.360698,44.224947 -95.360526,44.224962 -95.360529,44.224779 -95.360537,44.224684 -95.353958,44.224599 -95.353219,44.224619 -95.350431,44.224602 -95.350495,44.219496 -95.3505,44.219107 -95.350498,44.218352 -95.350507,44.217401 -95.357055,44.217406 -95.359183,44.21724 -95.360743,44.217174 -95.364255,44.217471 -95.367215,44.217428 -95.369718,44.217465 -95.370715,44.21745 -95.370708,44.217775</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

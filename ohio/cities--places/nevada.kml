@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>nevada</name>
+<Schema name="nevada" id="nevada">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Nevada</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#nevada">
+		<SimpleData name="Name">Nevada</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">53942</SimpleData>
+		<SimpleData name="PLACENS">02399447</SimpleData>
+		<SimpleData name="GEOID">3953942</SimpleData>
+		<SimpleData name="NAMELSAD">Nevada village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2656928</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8187772</SimpleData>
+		<SimpleData name="INTPTLON">-083.1311889</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.140921,40.826207 -83.13983,40.826216 -83.138822,40.826217 -83.137162,40.826232 -83.135602,40.826238 -83.134863,40.826245 -83.132611,40.826256 -83.131439,40.826255 -83.124938,40.82638 -83.121978,40.826255 -83.1219,40.823873 -83.121754,40.819213 -83.121764,40.819061 -83.121761,40.818856 -83.121768,40.817282 -83.121768,40.817062 -83.121752,40.811224 -83.124871,40.811173 -83.130787,40.811166 -83.140292,40.811175 -83.140267,40.814778 -83.140265,40.814899 -83.140265,40.815286 -83.140243,40.818183 -83.140238,40.818926 -83.14094,40.818923 -83.140921,40.826207</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

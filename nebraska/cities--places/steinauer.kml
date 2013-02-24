@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>steinauer</name>
+<Schema name="steinauer" id="steinauer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Steinauer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#steinauer">
+		<SimpleData name="Name">Steinauer</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">47080</SimpleData>
+		<SimpleData name="PLACENS">02399893</SimpleData>
+		<SimpleData name="GEOID">3147080</SimpleData>
+		<SimpleData name="NAMELSAD">Steinauer village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">349531</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2072888</SimpleData>
+		<SimpleData name="INTPTLON">-096.2329013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.236598,40.204064 -96.236572,40.204936 -96.236551,40.205026 -96.236534,40.205102 -96.23649,40.20877 -96.236469,40.20965 -96.235962,40.209655 -96.235028,40.209667 -96.233861,40.209681 -96.233222,40.209689 -96.231904,40.209706 -96.229115,40.209744 -96.229152,40.209945 -96.227773,40.209953 -96.227754,40.207476 -96.227735,40.207078 -96.232606,40.206993 -96.232628,40.204774 -96.230206,40.203975 -96.231487,40.203948 -96.231966,40.203938 -96.236599,40.203844 -96.236598,40.204064</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

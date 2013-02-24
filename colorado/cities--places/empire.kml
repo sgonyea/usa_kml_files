@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>empire</name>
+<Schema name="empire" id="empire">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Empire</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#empire">
+		<SimpleData name="Name">Empire</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">24620</SimpleData>
+		<SimpleData name="PLACENS">02412485</SimpleData>
+		<SimpleData name="GEOID">0824620</SimpleData>
+		<SimpleData name="NAMELSAD">Empire town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">661507</SimpleData>
+		<SimpleData name="AWATER">8541</SimpleData>
+		<SimpleData name="INTPTLAT">+39.7597104</SimpleData>
+		<SimpleData name="INTPTLON">-105.6828128</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-105.689048,39.760968 -105.689071,39.7613 -105.689084,39.761464 -105.689104,39.761736 -105.68476,39.76301 -105.683909,39.764628 -105.683781,39.764636 -105.682945,39.764692 -105.682777,39.764701 -105.682516,39.764719 -105.68248,39.764593 -105.682214,39.76499 -105.681932,39.765398 -105.681826,39.765354 -105.682158,39.764891 -105.682431,39.764423 -105.681831,39.762281 -105.680305,39.761615 -105.679899,39.761451 -105.677664,39.762111 -105.67843,39.760624 -105.678089,39.760491 -105.677867,39.760404 -105.677345,39.760592 -105.677232,39.760378 -105.67781,39.760202 -105.677774,39.760078 -105.67748,39.759046 -105.677171,39.757965 -105.67711,39.757749 -105.677098,39.757707 -105.677086,39.757666 -105.676922,39.75709 -105.676866,39.756892 -105.678419,39.756091 -105.678835,39.756261 -105.679561,39.756582 -105.679893,39.756725 -105.680846,39.756066 -105.682262,39.755475 -105.682437,39.755403 -105.684827,39.756031 -105.68557,39.756226 -105.68788,39.756833 -105.687887,39.757679 -105.687912,39.758705 -105.688399,39.758718 -105.688609,39.758723 -105.688487,39.759142 -105.688475,39.759183 -105.688462,39.759227 -105.688079,39.760546 -105.689067,39.76059 -105.689048,39.760968</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

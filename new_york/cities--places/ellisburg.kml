@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ellisburg</name>
+<Schema name="ellisburg" id="ellisburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ellisburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ellisburg">
+		<SimpleData name="Name">Ellisburg</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">24075</SimpleData>
+		<SimpleData name="PLACENS">02391663</SimpleData>
+		<SimpleData name="GEOID">3624075</SimpleData>
+		<SimpleData name="NAMELSAD">Ellisburg village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2627714</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7349582</SimpleData>
+		<SimpleData name="INTPTLON">-076.1345889</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.149105,43.734396 -76.142617,43.738208 -76.139883,43.739837 -76.138546,43.740814 -76.137981,43.740926 -76.130677,43.745159 -76.128074,43.742882 -76.124702,43.739877 -76.124565,43.739772 -76.12315,43.738566 -76.123132,43.738551 -76.122513,43.738032 -76.121787,43.737362 -76.120085,43.735756 -76.121938,43.734641 -76.124967,43.732895 -76.13166,43.72868 -76.137857,43.72469 -76.138242,43.724571 -76.140351,43.726529 -76.140472,43.726636 -76.142662,43.728605 -76.146492,43.732066 -76.149105,43.734396</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

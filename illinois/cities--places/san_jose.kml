@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>san_jose</name>
+<Schema name="san_jose" id="san_jose">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>San Jose</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#san_jose">
+		<SimpleData name="Name">San Jose</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">67613</SimpleData>
+		<SimpleData name="PLACENS">02399178</SimpleData>
+		<SimpleData name="GEOID">1767613</SimpleData>
+		<SimpleData name="NAMELSAD">San Jose village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1296084</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3059834</SimpleData>
+		<SimpleData name="INTPTLON">-089.6040408</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.611897,40.30914 -89.607687,40.309171 -89.607421,40.309171 -89.607389,40.312809 -89.602828,40.312817 -89.596787,40.312889 -89.596364,40.312893 -89.599294,40.309838 -89.599806,40.309319 -89.600033,40.308882 -89.600843,40.307579 -89.600108,40.307581 -89.600156,40.305597 -89.599765,40.305608 -89.598195,40.303704 -89.598127,40.302589 -89.598109,40.301382 -89.59898,40.301376 -89.600178,40.301378 -89.600133,40.298278 -89.602535,40.298281 -89.602527,40.298124 -89.605457,40.298106 -89.605607,40.298106 -89.606892,40.298103 -89.606933,40.300494 -89.606942,40.301475 -89.606905,40.302494 -89.606947,40.303292 -89.608022,40.303294 -89.608036,40.303508 -89.608074,40.304024 -89.60919,40.30402 -89.609244,40.305527 -89.611889,40.305497 -89.611897,40.30914</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

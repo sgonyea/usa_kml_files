@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>opal</name>
+<Schema name="opal" id="opal">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Opal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#opal">
+		<SimpleData name="Name">Opal</SimpleData>
+		<SimpleData name="STATEFP">56</SimpleData>
+		<SimpleData name="PLACEFP">57810</SimpleData>
+		<SimpleData name="PLACENS">02413082</SimpleData>
+		<SimpleData name="GEOID">5657810</SimpleData>
+		<SimpleData name="NAMELSAD">Opal town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1020677</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7680548</SimpleData>
+		<SimpleData name="INTPTLON">-110.3240777</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-110.331473,41.765035 -110.331475,41.765093 -110.331475,41.765107 -110.331477,41.765151 -110.331481,41.765325 -110.331484,41.765398 -110.331492,41.766172 -110.331517,41.768493 -110.331526,41.769268 -110.331526,41.769336 -110.331529,41.769541 -110.33153,41.76961 -110.331533,41.769966 -110.331545,41.771037 -110.331549,41.771394 -110.331553,41.771769 -110.3294,41.771765 -110.321318,41.771752 -110.31711,41.771505 -110.316171,41.771477 -110.31617,41.771136 -110.31617,41.770356 -110.31617,41.769945 -110.31617,41.769414 -110.316171,41.768094 -110.317024,41.768105 -110.317058,41.766834 -110.317073,41.766294 -110.317074,41.766234 -110.317076,41.766173 -110.317076,41.766116 -110.317075,41.76606 -110.317074,41.76595 -110.31707,41.765281 -110.31707,41.765147 -110.31707,41.765058 -110.31707,41.764994 -110.317069,41.764929 -110.317068,41.764899 -110.317062,41.764422 -110.317062,41.764355 -110.317061,41.764264 -110.317178,41.764262 -110.32001,41.764214 -110.320467,41.764207 -110.320601,41.764205 -110.321016,41.764198 -110.325214,41.764282 -110.326042,41.764299 -110.328858,41.764355 -110.331492,41.764408 -110.331473,41.765035</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

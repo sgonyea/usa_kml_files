@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fife_lake</name>
+<Schema name="fife_lake" id="fife_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fife Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fife_lake">
+		<SimpleData name="Name">Fife Lake</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">28000</SimpleData>
+		<SimpleData name="PLACENS">02398875</SimpleData>
+		<SimpleData name="GEOID">2628000</SimpleData>
+		<SimpleData name="NAMELSAD">Fife Lake village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1942596</SimpleData>
+		<SimpleData name="AWATER">1174219</SimpleData>
+		<SimpleData name="INTPTLAT">+44.5763428</SimpleData>
+		<SimpleData name="INTPTLON">-085.3467572</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.363235,44.580712 -85.361117,44.580748 -85.352698,44.580661 -85.350671,44.580661 -85.350612,44.580661 -85.346777,44.580654 -85.346494,44.580643 -85.342436,44.580633 -85.34256,44.576912 -85.340724,44.576947 -85.340167,44.576943 -85.337847,44.576855 -85.33784,44.576558 -85.337832,44.576297 -85.337845,44.575964 -85.337825,44.575228 -85.337791,44.57432 -85.337786,44.573173 -85.337784,44.57288 -85.337964,44.572011 -85.337492,44.566215 -85.355123,44.566122 -85.35569,44.566125 -85.355955,44.566126 -85.356428,44.566127 -85.35649,44.566128 -85.363433,44.566168 -85.363341,44.569231 -85.363281,44.577063 -85.363292,44.577223 -85.363316,44.577327 -85.363316,44.577335 -85.363285,44.577764 -85.363235,44.580712</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

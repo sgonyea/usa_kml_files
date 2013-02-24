@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>woodbine</name>
+<Schema name="woodbine" id="woodbine">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Woodbine</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#woodbine">
+		<SimpleData name="Name">Woodbine</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">80350</SimpleData>
+		<SimpleData name="PLACENS">02397366</SimpleData>
+		<SimpleData name="GEOID">2080350</SimpleData>
+		<SimpleData name="NAMELSAD">Woodbine city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">419649</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.7955654</SimpleData>
+		<SimpleData name="INTPTLON">-096.9593512</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.964261,38.793991 -96.964263,38.794276 -96.964265,38.794876 -96.964265,38.7959 -96.964269,38.797969 -96.962994,38.797965 -96.962373,38.797963 -96.961714,38.797961 -96.960459,38.797944 -96.959506,38.797928 -96.959458,38.797928 -96.958898,38.797919 -96.958771,38.797917 -96.958186,38.797907 -96.957196,38.797892 -96.955918,38.797872 -96.954887,38.797858 -96.954895,38.79683 -96.954905,38.795777 -96.954906,38.794952 -96.954917,38.79474 -96.954917,38.79453 -96.954917,38.79419 -96.954917,38.794095 -96.954916,38.793887 -96.954915,38.793121 -96.954915,38.79255 -96.957588,38.792534 -96.957581,38.793121 -96.958892,38.793114 -96.958971,38.793366 -96.959026,38.793539 -96.959716,38.793556 -96.959561,38.794356 -96.960486,38.794376 -96.960486,38.794298 -96.960494,38.793931 -96.960541,38.793847 -96.960577,38.793807 -96.960669,38.793797 -96.96068,38.79327 -96.961742,38.7933 -96.962884,38.79334 -96.962888,38.793951 -96.96426,38.793914 -96.964261,38.793991</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

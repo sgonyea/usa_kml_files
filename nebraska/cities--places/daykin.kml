@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>daykin</name>
+<Schema name="daykin" id="daykin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Daykin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#daykin">
+		<SimpleData name="Name">Daykin</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">12455</SimpleData>
+		<SimpleData name="PLACENS">02398691</SimpleData>
+		<SimpleData name="GEOID">3112455</SimpleData>
+		<SimpleData name="NAMELSAD">Daykin village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">425018</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3217195</SimpleData>
+		<SimpleData name="INTPTLON">-097.2983281</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.304258,40.321262 -97.304242,40.322369 -97.302611,40.322289 -97.302604,40.322901 -97.300651,40.322902 -97.300624,40.322902 -97.300651,40.324715 -97.30001,40.324709 -97.300013,40.324472 -97.300011,40.324271 -97.299117,40.324278 -97.298299,40.324277 -97.297975,40.32428 -97.294377,40.324271 -97.293549,40.324271 -97.293547,40.323601 -97.293544,40.323172 -97.293551,40.322401 -97.293552,40.322289 -97.293544,40.321257 -97.293537,40.321082 -97.293535,40.320277 -97.293534,40.319587 -97.293531,40.31933 -97.296134,40.319502 -97.297429,40.319526 -97.298381,40.319478 -97.298918,40.319489 -97.301297,40.319523 -97.302624,40.319406 -97.303026,40.319407 -97.303025,40.320124 -97.304259,40.320101 -97.304258,40.321262</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

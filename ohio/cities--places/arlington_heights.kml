@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arlington_heights</name>
+<Schema name="arlington_heights" id="arlington_heights">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arlington Heights</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arlington_heights">
+		<SimpleData name="Name">Arlington Heights</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">02428</SimpleData>
+		<SimpleData name="PLACENS">01086198</SimpleData>
+		<SimpleData name="GEOID">3902428</SimpleData>
+		<SimpleData name="NAMELSAD">Arlington Heights village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">693562</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2151835</SimpleData>
+		<SimpleData name="INTPTLON">-084.4555028</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.463674,39.211839 -84.462638,39.2129 -84.461963,39.213496 -84.461094,39.214119 -84.461026,39.214451 -84.461034,39.214612 -84.460808,39.215861 -84.460732,39.21777 -84.460092,39.217713 -84.45667,39.217444 -84.456536,39.217448 -84.455951,39.217688 -84.455685,39.217799 -84.455307,39.217949 -84.45485,39.218138 -84.454125,39.218474 -84.453615,39.218709 -84.452349,39.219295 -84.451769,39.219444 -84.45139,39.219268 -84.450265,39.219116 -84.448862,39.21877 -84.448761,39.218725 -84.448342,39.218459 -84.44974,39.215952 -84.45094,39.212957 -84.45374,39.212654 -84.454735,39.212054 -84.455237,39.211759 -84.455243,39.211582 -84.455245,39.21146 -84.455429,39.211273 -84.456374,39.211322 -84.457588,39.211537 -84.458102,39.211613 -84.460431,39.211856 -84.46049,39.211857 -84.460666,39.21186 -84.460894,39.21186 -84.46171,39.211862 -84.461973,39.211867 -84.462287,39.21192 -84.462867,39.211886 -84.463674,39.211839</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

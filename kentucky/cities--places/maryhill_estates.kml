@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>maryhill_estates</name>
+<Schema name="maryhill_estates" id="maryhill_estates">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Maryhill Estates</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#maryhill_estates">
+		<SimpleData name="Name">Maryhill Estates</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">50412</SimpleData>
+		<SimpleData name="PLACENS">02405035</SimpleData>
+		<SimpleData name="GEOID">2150412</SimpleData>
+		<SimpleData name="NAMELSAD">Maryhill Estates city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">102444</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.2663792</SimpleData>
+		<SimpleData name="INTPTLON">-085.6532289</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.655509,38.266322 -85.65543,38.266351 -85.655378,38.266382 -85.65492,38.266649 -85.654241,38.267046 -85.653916,38.26723 -85.653737,38.26732 -85.653681,38.267362 -85.654075,38.267778 -85.654022,38.268095 -85.653999,38.2682 -85.653957,38.26824 -85.653908,38.268188 -85.653552,38.268394 -85.65337,38.268504 -85.652875,38.268791 -85.652293,38.268879 -85.652315,38.268335 -85.652325,38.268099 -85.652662,38.267895 -85.650997,38.265889 -85.650754,38.265597 -85.653915,38.264501 -85.654101,38.26445 -85.654114,38.264469 -85.654139,38.264504 -85.655037,38.265495 -85.6552,38.265674 -85.65558,38.266093 -85.655674,38.26623 -85.655509,38.266322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

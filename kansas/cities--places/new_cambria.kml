@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_cambria</name>
+<Schema name="new_cambria" id="new_cambria">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Cambria</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_cambria">
+		<SimpleData name="Name">New Cambria</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">50300</SimpleData>
+		<SimpleData name="PLACENS">02395189</SimpleData>
+		<SimpleData name="GEOID">2050300</SimpleData>
+		<SimpleData name="NAMELSAD">New Cambria city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">556158</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.8787904</SimpleData>
+		<SimpleData name="INTPTLON">-097.5066671</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.51209,38.878173 -97.512082,38.878979 -97.512081,38.879039 -97.512079,38.87922 -97.512079,38.879281 -97.511962,38.881324 -97.511979,38.881357 -97.51158,38.881367 -97.504137,38.881563 -97.501939,38.881621 -97.501657,38.881647 -97.501566,38.881655 -97.50136,38.881675 -97.501358,38.88161 -97.501357,38.88152 -97.501356,38.881481 -97.501354,38.881364 -97.501354,38.881325 -97.501363,38.880658 -97.501393,38.878658 -97.501403,38.877992 -97.501408,38.877561 -97.501426,38.876269 -97.50143,38.876048 -97.501639,38.87605 -97.503497,38.876063 -97.509072,38.876105 -97.510931,38.876119 -97.511736,38.876126 -97.512111,38.87613 -97.51209,38.878173</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

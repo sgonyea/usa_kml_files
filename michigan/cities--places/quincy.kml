@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>quincy</name>
+<Schema name="quincy" id="quincy">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Quincy</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#quincy">
+		<SimpleData name="Name">Quincy</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">66640</SimpleData>
+		<SimpleData name="PLACENS">02399033</SimpleData>
+		<SimpleData name="GEOID">2666640</SimpleData>
+		<SimpleData name="NAMELSAD">Quincy village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3158640</SimpleData>
+		<SimpleData name="AWATER">509</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9433546</SimpleData>
+		<SimpleData name="INTPTLON">-084.8851116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.899475,41.940834 -84.899123,41.941045 -84.898611,41.941106 -84.898609,41.941548 -84.898604,41.942066 -84.898582,41.943264 -84.898549,41.945282 -84.897798,41.945286 -84.897046,41.945282 -84.893747,41.945256 -84.893689,41.948878 -84.890492,41.948865 -84.888968,41.948859 -84.888935,41.95093 -84.888935,41.951007 -84.888304,41.952468 -84.884192,41.952459 -84.881699,41.952463 -84.881703,41.950241 -84.881705,41.949509 -84.881712,41.948865 -84.875734,41.948858 -84.869787,41.948834 -84.869802,41.947848 -84.869797,41.94747 -84.869813,41.946655 -84.869833,41.945196 -84.869815,41.944556 -84.86984,41.942747 -84.869833,41.942314 -84.869845,41.941621 -84.870242,41.941601 -84.870401,41.9416 -84.871405,41.941599 -84.872314,41.941596 -84.873564,41.941599 -84.874665,41.941593 -84.874742,41.935957 -84.874751,41.935292 -84.883905,41.935227 -84.883907,41.936212 -84.883911,41.937846 -84.88766,41.937892 -84.889622,41.937916 -84.891739,41.937909 -84.892457,41.937918 -84.895154,41.937941 -84.89522,41.936794 -84.895231,41.936087 -84.895855,41.936094 -84.898364,41.936104 -84.898418,41.9361 -84.898363,41.936554 -84.899052,41.936463 -84.899122,41.936451 -84.899159,41.936384 -84.89912,41.93614 -84.899194,41.935981 -84.899207,41.935952 -84.899205,41.935741 -84.899242,41.935687 -84.899397,41.935726 -84.8995,41.935791 -84.899772,41.93576 -84.89981,41.935792 -84.899811,41.936004 -84.899863,41.93614 -84.900034,41.936278 -84.900235,41.940488 -84.899475,41.940834</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

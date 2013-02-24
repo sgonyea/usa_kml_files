@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>centrahoma</name>
+<Schema name="centrahoma" id="centrahoma">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Centrahoma</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#centrahoma">
+		<SimpleData name="Name">Centrahoma</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">13100</SimpleData>
+		<SimpleData name="PLACENS">02409426</SimpleData>
+		<SimpleData name="GEOID">4013100</SimpleData>
+		<SimpleData name="NAMELSAD">Centrahoma city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">626983</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.6104087</SimpleData>
+		<SimpleData name="INTPTLON">-096.3436051</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.349616,34.608745 -96.349619,34.608957 -96.349612,34.609655 -96.349715,34.610891 -96.345655,34.610807 -96.345656,34.611216 -96.345653,34.61183 -96.345646,34.613448 -96.345629,34.613805 -96.345604,34.614291 -96.344351,34.614334 -96.34187,34.614418 -96.341769,34.614471 -96.341641,34.614487 -96.339691,34.614469 -96.339016,34.614473 -96.339034,34.61368 -96.33902,34.61229 -96.339085,34.609552 -96.33945,34.607245 -96.339473,34.607152 -96.345645,34.607231 -96.349571,34.607189 -96.349652,34.607734 -96.349616,34.608745</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gagetown</name>
+<Schema name="gagetown" id="gagetown">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gagetown</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gagetown">
+		<SimpleData name="Name">Gagetown</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">31180</SimpleData>
+		<SimpleData name="PLACENS">02398934</SimpleData>
+		<SimpleData name="GEOID">2631180</SimpleData>
+		<SimpleData name="NAMELSAD">Gagetown village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2541558</SimpleData>
+		<SimpleData name="AWATER">5322</SimpleData>
+		<SimpleData name="INTPTLAT">+43.6581219</SimpleData>
+		<SimpleData name="INTPTLON">-083.2446051</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.255108,43.664165 -83.245229,43.664429 -83.245139,43.664432 -83.240702,43.664534 -83.235257,43.664677 -83.235034,43.657487 -83.234988,43.656451 -83.23491,43.654261 -83.234897,43.653359 -83.234801,43.650839 -83.234775,43.65027 -83.246461,43.649992 -83.254483,43.64981 -83.254605,43.654697 -83.254618,43.654845 -83.254804,43.657024 -83.254882,43.660593 -83.255062,43.663159 -83.255108,43.664165</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

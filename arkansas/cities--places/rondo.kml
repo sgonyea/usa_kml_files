@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rondo</name>
+<Schema name="rondo" id="rondo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rondo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rondo">
+		<SimpleData name="Name">Rondo</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">60590</SimpleData>
+		<SimpleData name="PLACENS">02407239</SimpleData>
+		<SimpleData name="GEOID">0560590</SimpleData>
+		<SimpleData name="NAMELSAD">Rondo town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2607809</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.6575057</SimpleData>
+		<SimpleData name="INTPTLON">-090.8208839</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.829712,34.654331 -90.829685,34.657543 -90.829679,34.658892 -90.829665,34.66294 -90.82966,34.66429 -90.829657,34.66439 -90.82965,34.664691 -90.82963,34.66479 -90.827851,34.664795 -90.823728,34.664809 -90.822516,34.664813 -90.820738,34.664819 -90.8175,34.664805 -90.811943,34.664783 -90.812116,34.660632 -90.812213,34.658316 -90.812251,34.657398 -90.812211,34.655943 -90.812143,34.653469 -90.812114,34.652418 -90.812087,34.651578 -90.812042,34.650124 -90.812502,34.650123 -90.813883,34.650121 -90.814344,34.650121 -90.815651,34.650133 -90.819573,34.650172 -90.820881,34.650186 -90.824092,34.650246 -90.829747,34.650352 -90.829712,34.654331</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

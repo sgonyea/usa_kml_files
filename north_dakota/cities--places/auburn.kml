@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>auburn</name>
+<Schema name="auburn" id="auburn">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Auburn</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#auburn">
+		<SimpleData name="Name">Auburn</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">03740</SimpleData>
+		<SimpleData name="PLACENS">02584335</SimpleData>
+		<SimpleData name="GEOID">3803740</SimpleData>
+		<SimpleData name="NAMELSAD">Auburn CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2603388</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.5065628</SimpleData>
+		<SimpleData name="INTPTLON">-097.4368439</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.447786,48.49984 -97.447771,48.503336 -97.447774,48.505299 -97.44776,48.509296 -97.447735,48.512577 -97.447718,48.512788 -97.44766,48.513153 -97.4477,48.513411 -97.447718,48.513694 -97.447717,48.513859 -97.444878,48.513852 -97.444051,48.513848 -97.441812,48.513839 -97.441076,48.513836 -97.439968,48.513832 -97.439754,48.513831 -97.43946,48.513831 -97.43849,48.51383 -97.437459,48.513823 -97.435629,48.513802 -97.432503,48.513781 -97.425876,48.513764 -97.425871,48.511671 -97.425896,48.509663 -97.425888,48.50765 -97.425924,48.505637 -97.425926,48.503639 -97.425941,48.501943 -97.425951,48.50087 -97.425968,48.499291 -97.429608,48.499292 -97.434809,48.499314 -97.435414,48.499316 -97.435658,48.499316 -97.438844,48.499306 -97.441952,48.499316 -97.445118,48.499333 -97.447783,48.49934 -97.447786,48.49984</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

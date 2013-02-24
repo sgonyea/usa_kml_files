@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bentley</name>
+<Schema name="bentley" id="bentley">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bentley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bentley">
+		<SimpleData name="Name">Bentley</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">05274</SimpleData>
+		<SimpleData name="PLACENS">02396588</SimpleData>
+		<SimpleData name="GEOID">1705274</SimpleData>
+		<SimpleData name="NAMELSAD">Bentley town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">370624</SimpleData>
+		<SimpleData name="AWATER">3809</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3436698</SimpleData>
+		<SimpleData name="INTPTLON">-091.1122881</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.114813,40.347502 -91.114728,40.348448 -91.114763,40.34972 -91.114437,40.34971 -91.113958,40.349688 -91.113569,40.349676 -91.113397,40.34966 -91.113274,40.349642 -91.113185,40.349609 -91.113076,40.349635 -91.112955,40.349639 -91.112652,40.349626 -91.112582,40.349351 -91.111903,40.347346 -91.11123,40.347416 -91.110471,40.347506 -91.110418,40.346818 -91.110231,40.344412 -91.109853,40.344418 -91.109139,40.342084 -91.109504,40.342094 -91.109246,40.34146 -91.105861,40.334645 -91.105812,40.33441 -91.106781,40.334473 -91.108118,40.336876 -91.10872,40.338262 -91.109714,40.340401 -91.110398,40.341967 -91.110774,40.341981 -91.110861,40.341481 -91.111649,40.341502 -91.111608,40.342157 -91.112562,40.342186 -91.113176,40.342209 -91.114916,40.342258 -91.114813,40.347502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

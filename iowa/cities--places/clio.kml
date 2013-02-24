@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>clio</name>
+<Schema name="clio" id="clio">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Clio</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clio">
+		<SimpleData name="Name">Clio</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">14475</SimpleData>
+		<SimpleData name="PLACENS">02393571</SimpleData>
+		<SimpleData name="GEOID">1914475</SimpleData>
+		<SimpleData name="NAMELSAD">Clio city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1946162</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6359743</SimpleData>
+		<SimpleData name="INTPTLON">-093.4513924</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.461011,40.63344 -93.460978,40.634367 -93.460846,40.637937 -93.460725,40.641247 -93.460706,40.641629 -93.45147,40.641449 -93.447164,40.641332 -93.441862,40.641212 -93.441877,40.640042 -93.441855,40.637664 -93.441855,40.636735 -93.441861,40.636063 -93.441867,40.635354 -93.44186,40.634838 -93.441863,40.633665 -93.441882,40.632315 -93.441868,40.631641 -93.441863,40.631367 -93.441855,40.630948 -93.441856,40.630367 -93.444881,40.630423 -93.451413,40.630547 -93.461081,40.630755 -93.461011,40.63344</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

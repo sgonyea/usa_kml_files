@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>drummond</name>
+<Schema name="drummond" id="drummond">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Drummond</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#drummond">
+		<SimpleData name="Name">Drummond</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">22780</SimpleData>
+		<SimpleData name="PLACENS">02410359</SimpleData>
+		<SimpleData name="GEOID">1622780</SimpleData>
+		<SimpleData name="NAMELSAD">Drummond city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">264191</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.9995691</SimpleData>
+		<SimpleData name="INTPTLON">-111.3433759</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-111.346461,43.998443 -111.346558,43.999764 -111.346927,44.001892 -111.345448,44.001905 -111.34598,44.002633 -111.345416,44.002691 -111.344231,44.002714 -111.342864,44.001649 -111.342728,44.001736 -111.341782,44.002507 -111.341347,44.002869 -111.342048,44.000329 -111.341401,43.999756 -111.341123,43.999763 -111.340657,43.99923 -111.340131,43.998906 -111.33903,43.998509 -111.338501,43.998249 -111.337977,43.998347 -111.337686,43.998506 -111.337702,43.997815 -111.337724,43.997603 -111.337731,43.9974 -111.338652,43.99741 -111.342544,43.997454 -111.346369,43.997313 -111.346461,43.998443</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

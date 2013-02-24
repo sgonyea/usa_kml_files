@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sleepy_hollow</name>
+<Schema name="sleepy_hollow" id="sleepy_hollow">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sleepy Hollow</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sleepy_hollow">
+		<SimpleData name="Name">Sleepy Hollow</SimpleData>
+		<SimpleData name="STATEFP">56</SimpleData>
+		<SimpleData name="PLACEFP">71350</SimpleData>
+		<SimpleData name="PLACENS">02408747</SimpleData>
+		<SimpleData name="GEOID">5671350</SimpleData>
+		<SimpleData name="NAMELSAD">Sleepy Hollow CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1081116</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.2326781</SimpleData>
+		<SimpleData name="INTPTLON">-105.4308623</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-105.43873,44.22945 -105.43874,44.22999 -105.43874,44.23053 -105.438695,44.23668 -105.438282,44.236711 -105.43728,44.236785 -105.43707,44.236807 -105.436678,44.236849 -105.435504,44.236977 -105.435113,44.237021 -105.435101,44.236626 -105.4351,44.23656 -105.434802,44.236417 -105.434409,44.236041 -105.434306,44.235822 -105.434182,44.235558 -105.434176,44.23652 -105.433303,44.236522 -105.428498,44.236479 -105.426328,44.23646 -105.422959,44.236431 -105.42294,44.23593 -105.423052,44.230634 -105.422994,44.230306 -105.422994,44.22963 -105.422827,44.229521 -105.422362,44.229337 -105.42208,44.22916 -105.421976,44.228983 -105.4227,44.22884 -105.422995,44.22883 -105.42363,44.22881 -105.42564,44.22879 -105.42677,44.22877 -105.426802,44.228773 -105.42688,44.22878 -105.42744,44.22877 -105.42897,44.2288 -105.43322,44.22884 -105.43481,44.22886 -105.43551,44.228882 -105.43607,44.2289 -105.436337,44.228902 -105.43875,44.22893 -105.43873,44.22945</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

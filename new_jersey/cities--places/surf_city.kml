@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>surf_city</name>
+<Schema name="surf_city" id="surf_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Surf City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#surf_city">
+		<SimpleData name="Name">Surf City</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">71640</SimpleData>
+		<SimpleData name="PLACENS">00885413</SimpleData>
+		<SimpleData name="GEOID">3471640</SimpleData>
+		<SimpleData name="NAMELSAD">Surf City borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1930616</SimpleData>
+		<SimpleData name="AWATER">445832</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6620851</SimpleData>
+		<SimpleData name="INTPTLON">-074.1694561</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.180292,39.662709 -74.175384,39.665299 -74.174017,39.66602 -74.162488,39.672108 -74.161873,39.671792 -74.160768,39.671196 -74.160035,39.670819 -74.158971,39.670295 -74.15786,39.669767 -74.157689,39.669685 -74.156866,39.669225 -74.157255,39.668653 -74.15747,39.668225 -74.157559,39.668019 -74.157479,39.667916 -74.157382,39.66779 -74.157945,39.667287 -74.158947,39.666041 -74.159159,39.665777 -74.159633,39.664816 -74.161796,39.662093 -74.162367,39.661528 -74.162952,39.660949 -74.163367,39.66024 -74.163828,39.659751 -74.164367,39.659197 -74.164895,39.658633 -74.165474,39.658029 -74.165588,39.657906 -74.16599,39.657372 -74.166442,39.656696 -74.167425,39.655206 -74.167884,39.654723 -74.168469,39.65411 -74.169043,39.653501 -74.169468,39.653055 -74.169588,39.652897 -74.170022,39.652285 -74.170457,39.651667 -74.171616,39.652233 -74.173038,39.65295 -74.173585,39.65322 -74.174115,39.653496 -74.175602,39.654108 -74.175617,39.654198 -74.176527,39.654679 -74.176586,39.654651 -74.176792,39.654656 -74.177261,39.654916 -74.177394,39.655069 -74.180044,39.65636 -74.180232,39.656453 -74.180649,39.656695 -74.180367,39.656773 -74.179894,39.657103 -74.179721,39.657225 -74.179469,39.657771 -74.179535,39.658523 -74.179912,39.659391 -74.180408,39.660059 -74.181616,39.661166 -74.180292,39.662709</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

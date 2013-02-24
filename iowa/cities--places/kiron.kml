@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>kiron</name>
+<Schema name="kiron" id="kiron">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Kiron</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#kiron">
+		<SimpleData name="Name">Kiron</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">41610</SimpleData>
+		<SimpleData name="PLACENS">02395550</SimpleData>
+		<SimpleData name="GEOID">1941610</SimpleData>
+		<SimpleData name="NAMELSAD">Kiron city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">539665</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1941297</SimpleData>
+		<SimpleData name="INTPTLON">-095.3272681</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.331196,42.200227 -95.329782,42.200215 -95.329008,42.200146 -95.328533,42.200206 -95.328573,42.199667 -95.32858,42.198579 -95.328594,42.197662 -95.328594,42.197491 -95.328364,42.197496 -95.325382,42.197511 -95.325447,42.196678 -95.324991,42.196666 -95.324906,42.196606 -95.324881,42.196559 -95.324177,42.196568 -95.323374,42.196578 -95.323377,42.196238 -95.323415,42.195637 -95.323424,42.19534 -95.323448,42.194754 -95.323453,42.194636 -95.323501,42.194003 -95.323526,42.193093 -95.323544,42.19237 -95.32356,42.191338 -95.323571,42.190638 -95.32359,42.18942 -95.323874,42.189414 -95.324177,42.189423 -95.32499,42.189425 -95.329913,42.189395 -95.329867,42.190342 -95.329812,42.191713 -95.329779,42.194554 -95.330406,42.194538 -95.330358,42.196306 -95.330315,42.196545 -95.330243,42.196665 -95.331233,42.196658 -95.331196,42.200227</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

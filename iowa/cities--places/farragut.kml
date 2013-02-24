@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>farragut</name>
+<Schema name="farragut" id="farragut">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Farragut</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#farragut">
+		<SimpleData name="Name">Farragut</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">26985</SimpleData>
+		<SimpleData name="PLACENS">02394751</SimpleData>
+		<SimpleData name="GEOID">1926985</SimpleData>
+		<SimpleData name="NAMELSAD">Farragut city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1051418</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7200067</SimpleData>
+		<SimpleData name="INTPTLON">-095.4806851</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.486331,40.717618 -95.486028,40.724909 -95.484871,40.724903 -95.483564,40.724901 -95.482184,40.724917 -95.4807,40.724913 -95.47813,40.724917 -95.476706,40.724987 -95.473139,40.724928 -95.473131,40.724507 -95.473116,40.723666 -95.473111,40.723328 -95.474211,40.722964 -95.475254,40.722619 -95.475629,40.722495 -95.475634,40.722354 -95.475711,40.720463 -95.475931,40.714786 -95.476959,40.714791 -95.477116,40.714807 -95.479504,40.714637 -95.480805,40.71464 -95.481229,40.714655 -95.485368,40.714807 -95.486447,40.714851 -95.486331,40.717618</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>oconto</name>
+<Schema name="oconto" id="oconto">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Oconto</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#oconto">
+		<SimpleData name="Name">Oconto</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">35665</SimpleData>
+		<SimpleData name="PLACENS">02399555</SimpleData>
+		<SimpleData name="GEOID">3135665</SimpleData>
+		<SimpleData name="NAMELSAD">Oconto village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">526060</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1416592</SimpleData>
+		<SimpleData name="INTPTLON">-099.7619381</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.768905,41.144562 -99.76869,41.144558 -99.767219,41.144537 -99.764706,41.144524 -99.761952,41.14451 -99.759348,41.144402 -99.759346,41.144346 -99.759356,41.14426 -99.759397,41.143842 -99.756943,41.143834 -99.756967,41.141505 -99.756966,41.141073 -99.757003,41.138751 -99.759582,41.1387 -99.759603,41.137462 -99.75961,41.137013 -99.759635,41.136428 -99.760847,41.137336 -99.763251,41.139159 -99.764393,41.140015 -99.765737,41.141033 -99.765922,41.141173 -99.766003,41.141234 -99.766121,41.141309 -99.766642,41.141707 -99.767209,41.142139 -99.767851,41.142629 -99.76816,41.142864 -99.768623,41.143214 -99.768953,41.143463 -99.768905,41.144562</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

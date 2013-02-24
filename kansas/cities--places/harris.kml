@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>harris</name>
+<Schema name="harris" id="harris">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Harris</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#harris">
+		<SimpleData name="Name">Harris</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">30250</SimpleData>
+		<SimpleData name="PLACENS">02629159</SimpleData>
+		<SimpleData name="GEOID">2030250</SimpleData>
+		<SimpleData name="NAMELSAD">Harris CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">917639</SimpleData>
+		<SimpleData name="AWATER">23982</SimpleData>
+		<SimpleData name="INTPTLAT">+38.3211499</SimpleData>
+		<SimpleData name="INTPTLON">-095.4487561</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.452737,38.325147 -95.452765,38.326547 -95.452746,38.32679 -95.452516,38.326575 -95.452165,38.326373 -95.450688,38.325642 -95.448468,38.324499 -95.445641,38.323068 -95.443225,38.321816 -95.442333,38.321365 -95.435658,38.321394 -95.434182,38.3214 -95.434176,38.321193 -95.434193,38.320514 -95.434208,38.319784 -95.433557,38.319758 -95.433463,38.319356 -95.433417,38.31894 -95.433484,38.318522 -95.433444,38.318295 -95.433328,38.318196 -95.433179,38.318048 -95.432979,38.317825 -95.432939,38.317756 -95.432916,38.317716 -95.434179,38.317729 -95.435408,38.317755 -95.435677,38.317768 -95.436729,38.317762 -95.437501,38.317766 -95.43805,38.317761 -95.439386,38.31775 -95.439843,38.317746 -95.442049,38.317743 -95.442445,38.31774 -95.443376,38.317733 -95.444747,38.317723 -95.44755,38.317715 -95.448185,38.317713 -95.450228,38.317706 -95.45276,38.317685 -95.452737,38.325147</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

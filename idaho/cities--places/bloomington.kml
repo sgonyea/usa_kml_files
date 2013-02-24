@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bloomington</name>
+<Schema name="bloomington" id="bloomington">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bloomington</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bloomington">
+		<SimpleData name="Name">Bloomington</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">08560</SimpleData>
+		<SimpleData name="PLACENS">02409866</SimpleData>
+		<SimpleData name="GEOID">1608560</SimpleData>
+		<SimpleData name="NAMELSAD">Bloomington city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2333654</SimpleData>
+		<SimpleData name="AWATER">1178</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1910027</SimpleData>
+		<SimpleData name="INTPTLON">-111.4056771</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-111.415408,42.18651 -111.415403,42.186808 -111.415407,42.187238 -111.415415,42.188097 -111.415399,42.191299 -111.411239,42.191205 -111.410561,42.191198 -111.410719,42.192901 -111.410727,42.194219 -111.410733,42.195153 -111.410609,42.196385 -111.410651,42.196385 -111.410695,42.196408 -111.410753,42.19645 -111.410797,42.196488 -111.410764,42.197254 -111.410768,42.197799 -111.410889,42.199472 -111.409779,42.199487 -111.403992,42.199461 -111.402685,42.199458 -111.401218,42.199427 -111.397191,42.1996 -111.397103,42.198371 -111.396972,42.191964 -111.396944,42.187286 -111.395207,42.187287 -111.395132,42.185546 -111.396901,42.18555 -111.396916,42.182911 -111.401269,42.183457 -111.40269,42.183624 -111.40405,42.183764 -111.405725,42.183962 -111.406602,42.183971 -111.409686,42.184128 -111.410056,42.184128 -111.410067,42.184043 -111.4101,42.184014 -111.410125,42.184 -111.410213,42.183967 -111.411161,42.18395 -111.412844,42.183948 -111.413076,42.183949 -111.413419,42.183951 -111.413672,42.183945 -111.414026,42.183977 -111.414627,42.183979 -111.41489,42.183981 -111.415416,42.183996 -111.415408,42.18651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

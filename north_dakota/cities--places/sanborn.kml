@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sanborn</name>
+<Schema name="sanborn" id="sanborn">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sanborn</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sanborn">
+		<SimpleData name="Name">Sanborn</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">70380</SimpleData>
+		<SimpleData name="PLACENS">01036253</SimpleData>
+		<SimpleData name="GEOID">3870380</SimpleData>
+		<SimpleData name="NAMELSAD">Sanborn city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1412006</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.9421141</SimpleData>
+		<SimpleData name="INTPTLON">-098.2239592</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.232703,46.940142 -98.232702,46.940654 -98.232661,46.942025 -98.23166,46.942058 -98.231847,46.942174 -98.231946,46.942237 -98.23207,46.942997 -98.232692,46.942995 -98.232675,46.943944 -98.232676,46.946675 -98.227605,46.946668 -98.227603,46.947021 -98.227598,46.948141 -98.216832,46.948039 -98.216838,46.945076 -98.216849,46.943958 -98.216864,46.94296 -98.216873,46.941544 -98.216876,46.941176 -98.21688,46.9407 -98.216919,46.936927 -98.216931,46.935731 -98.218242,46.935735 -98.222561,46.935747 -98.224798,46.935754 -98.226981,46.935768 -98.227618,46.935763 -98.227615,46.936412 -98.227604,46.939279 -98.232721,46.939363 -98.232703,46.940142</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-98.221407,46.944482 -98.220397,46.944477 -98.220389,46.945161 -98.221376,46.945166 -98.221407,46.944482</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-98.22464,46.945325 -98.223134,46.945202 -98.223142,46.945322 -98.223198,46.946332 -98.224656,46.946366 -98.224698,46.946088 -98.224689,46.945856 -98.22466,46.945645 -98.22464,46.945325</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

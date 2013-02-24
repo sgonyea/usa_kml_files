@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>altamont</name>
+<Schema name="altamont" id="altamont">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Altamont</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#altamont">
+		<SimpleData name="Name">Altamont</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">00910</SimpleData>
+		<SimpleData name="PLACENS">02397947</SimpleData>
+		<SimpleData name="GEOID">2900910</SimpleData>
+		<SimpleData name="NAMELSAD">Altamont village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">663342</SimpleData>
+		<SimpleData name="AWATER">8183</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8880332</SimpleData>
+		<SimpleData name="INTPTLON">-094.0870311</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.092916,39.88694 -94.092857,39.888392 -94.092868,39.888805 -94.092449,39.88877 -94.092292,39.888728 -94.092288,39.888895 -94.092355,39.890039 -94.092373,39.891016 -94.088813,39.891379 -94.088705,39.891378 -94.087417,39.891532 -94.086287,39.891585 -94.086074,39.891615 -94.085763,39.891644 -94.084937,39.891723 -94.08494,39.891815 -94.084027,39.891961 -94.081825,39.892314 -94.081914,39.89146 -94.081981,39.889388 -94.080673,39.889441 -94.080056,39.889494 -94.080067,39.889126 -94.080071,39.886862 -94.080068,39.885918 -94.082841,39.885836 -94.084811,39.885779 -94.084812,39.88601 -94.084816,39.886114 -94.090521,39.886032 -94.091051,39.886023 -94.091054,39.884816 -94.091106,39.884212 -94.09119,39.88252 -94.091784,39.882552 -94.092442,39.882578 -94.092438,39.884122 -94.092454,39.885935 -94.092472,39.886502 -94.092966,39.886491 -94.092916,39.88694</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

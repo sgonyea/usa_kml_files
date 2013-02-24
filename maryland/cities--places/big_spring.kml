@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>big_spring</name>
+<Schema name="big_spring" id="big_spring">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Big Spring</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#big_spring">
+		<SimpleData name="Name">Big Spring</SimpleData>
+		<SimpleData name="STATEFP">24</SimpleData>
+		<SimpleData name="PLACEFP">07400</SimpleData>
+		<SimpleData name="PLACENS">02583584</SimpleData>
+		<SimpleData name="GEOID">2407400</SimpleData>
+		<SimpleData name="NAMELSAD">Big Spring CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">360106</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6259018</SimpleData>
+		<SimpleData name="INTPTLON">-077.9396324</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.940188,39.629746 -77.940199,39.629754 -77.940429,39.629894 -77.940629,39.629975 -77.94096,39.630082 -77.939566,39.63137 -77.937948,39.630729 -77.93796,39.63071 -77.93805,39.63061 -77.93817,39.6305 -77.937924,39.630391 -77.937928,39.63034 -77.937978,39.630257 -77.93807,39.63011 -77.938233,39.629956 -77.938545,39.629758 -77.938716,39.629413 -77.938744,39.629171 -77.938728,39.629102 -77.938687,39.628919 -77.938517,39.628699 -77.938509,39.628678 -77.93846,39.628556 -77.938325,39.628364 -77.938274,39.628187 -77.936163,39.623519 -77.937364,39.62062 -77.937487,39.620325 -77.938033,39.620303 -77.938228,39.620302 -77.93935,39.620298 -77.939609,39.620298 -77.939538,39.620517 -77.939157,39.623722 -77.940501,39.623925 -77.940026,39.626569 -77.941377,39.627024 -77.94442,39.62501 -77.94499,39.62541 -77.94483,39.6255 -77.94447,39.625752 -77.94509,39.626791 -77.940188,39.629746</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

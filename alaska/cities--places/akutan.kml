@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>akutan</name>
+<Schema name="akutan" id="akutan">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Akutan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#akutan">
+		<SimpleData name="Name">Akutan</SimpleData>
+		<SimpleData name="STATEFP">02</SimpleData>
+		<SimpleData name="PLACEFP">01090</SimpleData>
+		<SimpleData name="PLACENS">02419349</SimpleData>
+		<SimpleData name="GEOID">0201090</SimpleData>
+		<SimpleData name="NAMELSAD">Akutan city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">35823299</SimpleData>
+		<SimpleData name="AWATER">13085312</SimpleData>
+		<SimpleData name="INTPTLAT">+54.1381957</SimpleData>
+		<SimpleData name="INTPTLON">-165.7908096</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-165.86529,54.14008 -165.86536,54.141775 -165.865546,54.146308 -165.865773,54.15183 -165.856468,54.151904 -165.847571,54.151974 -165.773801,54.152557 -165.739225,54.152831 -165.736449,54.152824 -165.728121,54.152806 -165.725345,54.152801 -165.722838,54.152784 -165.721595,54.152776 -165.721556,54.152262 -165.721508,54.146503 -165.721488,54.143997 -165.721481,54.139734 -165.721461,54.126945 -165.721455,54.122683 -165.721459,54.107021 -165.72146,54.105471 -165.736172,54.105477 -165.743189,54.10548 -165.831944,54.105518 -165.8379,54.105521 -165.863869,54.105532 -165.86529,54.14008</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

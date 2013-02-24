@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hillsview</name>
+<Schema name="hillsview" id="hillsview">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hillsview</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hillsview">
+		<SimpleData name="Name">Hillsview</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">29340</SimpleData>
+		<SimpleData name="PLACENS">01267424</SimpleData>
+		<SimpleData name="GEOID">4629340</SimpleData>
+		<SimpleData name="NAMELSAD">Hillsview town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1649768</SimpleData>
+		<SimpleData name="AWATER">18850</SimpleData>
+		<SimpleData name="INTPTLAT">+45.6619667</SimpleData>
+		<SimpleData name="INTPTLON">-099.5606571</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.569042,45.665667 -99.569069,45.668612 -99.569079,45.669973 -99.566993,45.669961 -99.55228,45.669882 -99.552279,45.669216 -99.552279,45.668481 -99.552278,45.668336 -99.552279,45.668185 -99.552278,45.667602 -99.552277,45.667459 -99.552278,45.667314 -99.552277,45.667174 -99.552277,45.666616 -99.552276,45.666486 -99.552276,45.665636 -99.552277,45.664723 -99.552276,45.664601 -99.552277,45.664473 -99.552278,45.663602 -99.552277,45.663447 -99.552278,45.663287 -99.55228,45.660978 -99.55228,45.659581 -99.552281,45.659405 -99.552282,45.658391 -99.568987,45.658465 -99.569042,45.665667</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

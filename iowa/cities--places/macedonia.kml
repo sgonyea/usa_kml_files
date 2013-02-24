@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>macedonia</name>
+<Schema name="macedonia" id="macedonia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Macedonia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#macedonia">
+		<SimpleData name="Name">Macedonia</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">47955</SimpleData>
+		<SimpleData name="PLACENS">02395797</SimpleData>
+		<SimpleData name="GEOID">1947955</SimpleData>
+		<SimpleData name="NAMELSAD">Macedonia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">852299</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1919280</SimpleData>
+		<SimpleData name="INTPTLON">-095.4267721</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.433917,41.192947 -95.432336,41.19295 -95.430833,41.192941 -95.429884,41.192928 -95.429974,41.196733 -95.425971,41.196643 -95.425402,41.196614 -95.422903,41.19651 -95.420191,41.196532 -95.420133,41.195658 -95.420037,41.19468 -95.419857,41.192843 -95.421534,41.192843 -95.422767,41.192843 -95.422981,41.192847 -95.422875,41.191736 -95.422933,41.191051 -95.422776,41.190845 -95.423095,41.189255 -95.423129,41.18892 -95.423289,41.188918 -95.425287,41.188894 -95.425269,41.188379 -95.425241,41.187584 -95.425154,41.185151 -95.425138,41.184705 -95.42707,41.184693 -95.428265,41.184686 -95.427995,41.188813 -95.428648,41.189037 -95.43238,41.189331 -95.433942,41.189288 -95.433917,41.192947</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

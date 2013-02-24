@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>victory_gardens</name>
+<Schema name="victory_gardens" id="victory_gardens">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Victory Gardens</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#victory_gardens">
+		<SimpleData name="Name">Victory Gardens</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">75890</SimpleData>
+		<SimpleData name="PLACENS">00885427</SimpleData>
+		<SimpleData name="GEOID">3475890</SimpleData>
+		<SimpleData name="NAMELSAD">Victory Gardens borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">384324</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8761535</SimpleData>
+		<SimpleData name="INTPTLON">-074.5435674</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.549701,40.875421 -74.548912,40.87592 -74.548709,40.876049 -74.548537,40.876159 -74.548304,40.876091 -74.547144,40.877009 -74.546744,40.877298 -74.546541,40.877426 -74.546031,40.877751 -74.544976,40.878419 -74.544832,40.878319 -74.542648,40.876696 -74.542504,40.876802 -74.541647,40.877439 -74.540019,40.878661 -74.540188,40.878796 -74.53926,40.879515 -74.538982,40.879774 -74.539198,40.880096 -74.539854,40.880811 -74.539452,40.881008 -74.538211,40.880475 -74.538209,40.880465 -74.536727,40.879839 -74.536701,40.879935 -74.536265,40.879868 -74.536282,40.879815 -74.536335,40.879594 -74.536406,40.879262 -74.536433,40.879156 -74.536447,40.87911 -74.536542,40.878808 -74.536979,40.878871 -74.537108,40.878376 -74.537138,40.878375 -74.537228,40.87836 -74.537267,40.878347 -74.537313,40.878318 -74.537658,40.878105 -74.537729,40.87806 -74.538246,40.877735 -74.53858,40.877513 -74.539205,40.87707 -74.539718,40.876705 -74.54022,40.876331 -74.540775,40.875904 -74.54168,40.875226 -74.54647,40.871582 -74.546508,40.871553 -74.547663,40.872685 -74.547081,40.872996 -74.54931,40.875071 -74.549701,40.875421</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

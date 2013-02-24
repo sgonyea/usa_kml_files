@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>haverhill</name>
+<Schema name="haverhill" id="haverhill">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Haverhill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#haverhill">
+		<SimpleData name="Name">Haverhill</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">35220</SimpleData>
+		<SimpleData name="PLACENS">02394328</SimpleData>
+		<SimpleData name="GEOID">1935220</SimpleData>
+		<SimpleData name="NAMELSAD">Haverhill city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">341460</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9441206</SimpleData>
+		<SimpleData name="INTPTLON">-092.9607403</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.965609,41.943556 -92.965564,41.945129 -92.965552,41.945348 -92.965547,41.945458 -92.964998,41.945483 -92.964779,41.945493 -92.96438,41.945486 -92.963185,41.945466 -92.962787,41.94546 -92.962761,41.946127 -92.962734,41.946856 -92.961458,41.946889 -92.96079,41.946907 -92.960787,41.94682 -92.960781,41.946561 -92.960779,41.946475 -92.960028,41.946501 -92.958934,41.946539 -92.958984,41.945552 -92.958813,41.945556 -92.958062,41.945575 -92.957278,41.945587 -92.955823,41.945611 -92.955891,41.944716 -92.955951,41.943935 -92.955953,41.94382 -92.955959,41.943476 -92.955962,41.943362 -92.956005,41.942854 -92.955977,41.942174 -92.955975,41.942118 -92.959486,41.942129 -92.960676,41.942133 -92.962248,41.942166 -92.965648,41.94224 -92.965609,41.943556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

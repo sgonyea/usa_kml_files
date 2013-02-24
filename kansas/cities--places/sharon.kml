@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sharon</name>
+<Schema name="sharon" id="sharon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sharon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sharon">
+		<SimpleData name="Name">Sharon</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">64325</SimpleData>
+		<SimpleData name="PLACENS">02395857</SimpleData>
+		<SimpleData name="GEOID">2064325</SimpleData>
+		<SimpleData name="NAMELSAD">Sharon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">740094</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.2500314</SimpleData>
+		<SimpleData name="INTPTLON">-098.4177087</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-98.412372,37.249834 -98.412098,37.250022 -98.412109,37.250568 -98.410639,37.250577 -98.410638,37.250022 -98.41051,37.24885 -98.412382,37.248882 -98.412372,37.249834</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-98.423606,37.247286 -98.423626,37.248037 -98.423551,37.249601 -98.423566,37.250642 -98.422245,37.250624 -98.422244,37.251688 -98.422244,37.252372 -98.421845,37.252353 -98.421426,37.252351 -98.421134,37.252354 -98.421135,37.253598 -98.42109,37.25401 -98.417691,37.254022 -98.416442,37.254022 -98.415179,37.254028 -98.413088,37.254022 -98.413084,37.253619 -98.413137,37.251326 -98.413157,37.250602 -98.413177,37.250052 -98.413145,37.249905 -98.413333,37.247083 -98.413348,37.246736 -98.413375,37.246213 -98.417632,37.246413 -98.422204,37.246634 -98.423611,37.246694 -98.423606,37.247286</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>henry</name>
+<Schema name="henry" id="henry">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Henry</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#henry">
+		<SimpleData name="Name">Henry</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">28140</SimpleData>
+		<SimpleData name="PLACENS">01267417</SimpleData>
+		<SimpleData name="GEOID">4628140</SimpleData>
+		<SimpleData name="NAMELSAD">Henry town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3760890</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.8808555</SimpleData>
+		<SimpleData name="INTPTLON">-097.4615566</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.472125,44.874687 -97.472247,44.875051 -97.472274,44.876446 -97.472304,44.879513 -97.472373,44.888297 -97.472389,44.888681 -97.472428,44.889064 -97.472476,44.889391 -97.47251,44.889554 -97.472595,44.889878 -97.472699,44.890198 -97.472853,44.890623 -97.473093,44.891219 -97.463195,44.89119 -97.462457,44.891191 -97.461757,44.891191 -97.453044,44.891161 -97.451688,44.891162 -97.451534,44.883643 -97.451449,44.876495 -97.451461,44.869924 -97.451463,44.869121 -97.453466,44.869115 -97.461871,44.869096 -97.461802,44.872082 -97.472093,44.872087 -97.472125,44.874687</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

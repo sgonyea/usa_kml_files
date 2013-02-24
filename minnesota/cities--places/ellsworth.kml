@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ellsworth</name>
+<Schema name="ellsworth" id="ellsworth">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ellsworth</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ellsworth">
+		<SimpleData name="Name">Ellsworth</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">18836</SimpleData>
+		<SimpleData name="PLACENS">02394667</SimpleData>
+		<SimpleData name="GEOID">2718836</SimpleData>
+		<SimpleData name="NAMELSAD">Ellsworth city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1626518</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.5203893</SimpleData>
+		<SimpleData name="INTPTLON">-096.0182182</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.024561,43.51463 -96.02452,43.51463 -96.023892,43.514632 -96.02361,43.514633 -96.023307,43.522093 -96.023317,43.522379 -96.023635,43.528946 -96.02365,43.529167 -96.023335,43.529146 -96.021489,43.529125 -96.019008,43.529101 -96.018762,43.529069 -96.01782,43.529068 -96.013171,43.529057 -96.013169,43.528929 -96.013165,43.528628 -96.01317,43.527508 -96.013171,43.52732 -96.013196,43.526229 -96.013212,43.522206 -96.013256,43.521906 -96.013026,43.516124 -96.009414,43.514631 -96.009933,43.514629 -96.011264,43.514625 -96.011973,43.514628 -96.011949,43.512359 -96.018223,43.512306 -96.024573,43.512263 -96.024561,43.51463</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bellwood</name>
+<Schema name="bellwood" id="bellwood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bellwood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bellwood">
+		<SimpleData name="Name">Bellwood</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">04020</SimpleData>
+		<SimpleData name="PLACENS">02398085</SimpleData>
+		<SimpleData name="GEOID">3104020</SimpleData>
+		<SimpleData name="NAMELSAD">Bellwood village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">616415</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3420442</SimpleData>
+		<SimpleData name="INTPTLON">-097.2399501</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.243975,41.340752 -97.243966,41.341661 -97.243953,41.342617 -97.24393,41.343552 -97.243924,41.343805 -97.243943,41.344473 -97.243958,41.345142 -97.243956,41.345427 -97.243953,41.346362 -97.243953,41.347275 -97.243954,41.347362 -97.241907,41.347366 -97.241457,41.347374 -97.236506,41.343435 -97.235349,41.342545 -97.234487,41.341828 -97.234485,41.341553 -97.234483,41.3414 -97.234482,41.341226 -97.234484,41.340697 -97.234484,41.340661 -97.232832,41.340151 -97.234487,41.340125 -97.234489,41.33979 -97.234499,41.338887 -97.23582,41.338903 -97.237064,41.338944 -97.237511,41.3389 -97.237497,41.338323 -97.237934,41.338328 -97.23821,41.338891 -97.238524,41.338888 -97.238526,41.338751 -97.238535,41.338046 -97.23854,41.337682 -97.239269,41.337661 -97.242295,41.337586 -97.24255,41.337576 -97.242585,41.338149 -97.243024,41.338128 -97.243034,41.33979 -97.243367,41.339791 -97.243986,41.339793 -97.243975,41.340752</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

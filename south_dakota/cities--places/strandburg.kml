@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>strandburg</name>
+<Schema name="strandburg" id="strandburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Strandburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#strandburg">
+		<SimpleData name="Name">Strandburg</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">61980</SimpleData>
+		<SimpleData name="PLACENS">01267594</SimpleData>
+		<SimpleData name="GEOID">4661980</SimpleData>
+		<SimpleData name="NAMELSAD">Strandburg town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">193136</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.0440669</SimpleData>
+		<SimpleData name="INTPTLON">-096.7604414</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.763946,45.043466 -96.763258,45.043883 -96.762916,45.044264 -96.762711,45.044427 -96.761973,45.044437 -96.76196,45.044958 -96.761383,45.045043 -96.761383,45.04528 -96.761651,45.045271 -96.76149,45.046048 -96.76082,45.046106 -96.760497,45.046132 -96.760265,45.046743 -96.760236,45.04676 -96.759763,45.046946 -96.759473,45.047023 -96.759097,45.04709 -96.758636,45.047121 -96.758403,45.047121 -96.757961,45.047103 -96.758051,45.043393 -96.758084,45.042332 -96.760633,45.042217 -96.7608,45.042254 -96.760799,45.041829 -96.759678,45.041801 -96.759692,45.041394 -96.760798,45.041404 -96.762181,45.041822 -96.762941,45.0418 -96.762932,45.042227 -96.763887,45.042697 -96.764098,45.042883 -96.764439,45.043062 -96.763946,45.043466</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

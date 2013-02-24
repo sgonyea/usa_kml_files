@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>barnes</name>
+<Schema name="barnes" id="barnes">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Barnes</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#barnes">
+		<SimpleData name="Name">Barnes</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">04250</SimpleData>
+		<SimpleData name="PLACENS">02394063</SimpleData>
+		<SimpleData name="GEOID">2004250</SimpleData>
+		<SimpleData name="NAMELSAD">Barnes city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">448128</SimpleData>
+		<SimpleData name="AWATER">16687</SimpleData>
+		<SimpleData name="INTPTLAT">+39.7117361</SimpleData>
+		<SimpleData name="INTPTLON">-096.8731047</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.875171,39.705463 -96.874092,39.705722 -96.872839,39.705697 -96.872845,39.704388 -96.875155,39.704203 -96.875171,39.705463</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.877478,39.712129 -96.875888,39.712147 -96.875889,39.712383 -96.875889,39.712669 -96.875885,39.717225 -96.875898,39.717402 -96.874863,39.717392 -96.874872,39.717199 -96.874761,39.717195 -96.874554,39.717198 -96.874326,39.717215 -96.874314,39.716931 -96.872818,39.716938 -96.872816,39.716818 -96.872798,39.715602 -96.87281,39.715168 -96.87229,39.715163 -96.87229,39.714994 -96.870325,39.714999 -96.870314,39.713565 -96.870301,39.712124 -96.869167,39.712123 -96.869164,39.711766 -96.868934,39.711766 -96.868924,39.710487 -96.870162,39.710886 -96.870865,39.711112 -96.870863,39.711018 -96.870859,39.710722 -96.870843,39.709776 -96.870811,39.707358 -96.870892,39.707385 -96.871534,39.707421 -96.872204,39.707423 -96.872854,39.707425 -96.873457,39.707427 -96.874354,39.707429 -96.874966,39.70743 -96.874974,39.709222 -96.875001,39.710141 -96.875038,39.711336 -96.875117,39.711346 -96.875299,39.711377 -96.875693,39.711373 -96.875693,39.711691 -96.875692,39.711872 -96.876304,39.711885 -96.877479,39.71186 -96.877478,39.712129</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

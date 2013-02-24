@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mcclusky</name>
+<Schema name="mcclusky" id="mcclusky">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>McClusky</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mcclusky">
+		<SimpleData name="Name">McClusky</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">49020</SimpleData>
+		<SimpleData name="PLACENS">01036141</SimpleData>
+		<SimpleData name="GEOID">3849020</SimpleData>
+		<SimpleData name="NAMELSAD">McClusky city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1002782</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.4840516</SimpleData>
+		<SimpleData name="INTPTLON">-100.4427346</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.449042,47.480846 -100.449074,47.481536 -100.449047,47.482036 -100.44907,47.485299 -100.449075,47.485929 -100.449091,47.487102 -100.44883,47.487102 -100.446818,47.487093 -100.44592,47.48709 -100.445177,47.487081 -100.444025,47.487072 -100.444028,47.49067 -100.441528,47.490623 -100.438374,47.490609 -100.438373,47.489689 -100.438373,47.488563 -100.438381,47.488067 -100.438397,47.487195 -100.438399,47.487071 -100.4384,47.487015 -100.438406,47.486657 -100.438001,47.486658 -100.436932,47.486659 -100.435817,47.486657 -100.435736,47.486657 -100.435443,47.486652 -100.435445,47.486341 -100.435421,47.486256 -100.435473,47.486082 -100.435459,47.485953 -100.435196,47.48596 -100.434804,47.486003 -100.434443,47.486024 -100.43439,47.484953 -100.434386,47.4842 -100.435151,47.48419 -100.435414,47.484187 -100.438392,47.484147 -100.438387,47.483925 -100.438353,47.482548 -100.438327,47.480975 -100.438321,47.480616 -100.438315,47.480263 -100.438307,47.479776 -100.438295,47.478618 -100.440307,47.478625 -100.442738,47.478633 -100.446103,47.478653 -100.448944,47.478573 -100.448961,47.478657 -100.449042,47.480846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

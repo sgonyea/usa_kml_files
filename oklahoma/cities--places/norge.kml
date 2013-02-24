@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>norge</name>
+<Schema name="norge" id="norge">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Norge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#norge">
+		<SimpleData name="Name">Norge</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">52450</SimpleData>
+		<SimpleData name="PLACENS">02413051</SimpleData>
+		<SimpleData name="GEOID">4052450</SimpleData>
+		<SimpleData name="NAMELSAD">Norge town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">794543</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.9892270</SimpleData>
+		<SimpleData name="INTPTLON">-097.9940599</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.00098,34.986087 -98.000775,34.986347 -98.000761,34.986372 -98.000637,34.986584 -98.00037,34.987116 -98.000169,34.987499 -98.000066,34.987645 -98.000003,34.987688 -97.999863,34.987799 -97.999709,34.987866 -97.999533,34.98791 -97.999458,34.987916 -97.999481,34.988377 -97.99948,34.989097 -97.999479,34.989617 -97.999475,34.989719 -97.99947,34.989842 -97.999468,34.989997 -97.999468,34.990492 -97.999474,34.993014 -97.990801,34.993013 -97.990354,34.993012 -97.990209,34.993014 -97.99219,34.991312 -97.99053,34.991312 -97.9878,34.991311 -97.987823,34.989488 -97.987813,34.989051 -97.987792,34.988115 -97.987825,34.986006 -97.987808,34.985923 -97.988914,34.985905 -97.989062,34.985887 -97.989206,34.985852 -97.989501,34.985795 -97.989652,34.985793 -97.990027,34.985816 -97.990178,34.98583 -97.990392,34.985871 -97.990643,34.985906 -97.990858,34.985928 -97.991013,34.985932 -97.9912,34.985932 -97.993042,34.985935 -97.993444,34.985935 -97.994207,34.985933 -97.994674,34.985942 -97.995099,34.98595 -97.995624,34.985967 -97.995664,34.985981 -97.999277,34.986046 -97.999574,34.986035 -98.00103,34.986044 -98.00098,34.986087</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

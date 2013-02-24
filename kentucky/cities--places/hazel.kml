@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hazel</name>
+<Schema name="hazel" id="hazel">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hazel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hazel">
+		<SimpleData name="Name">Hazel</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">35380</SimpleData>
+		<SimpleData name="PLACENS">02404668</SimpleData>
+		<SimpleData name="GEOID">2135380</SimpleData>
+		<SimpleData name="NAMELSAD">Hazel city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">906613</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.5054708</SimpleData>
+		<SimpleData name="INTPTLON">-088.3252545</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.329553,36.507643 -88.329555,36.507956 -88.329522,36.508514 -88.326341,36.508357 -88.326297,36.508336 -88.326234,36.511691 -88.3261,36.511695 -88.32597,36.511699 -88.325653,36.511722 -88.32467,36.51178 -88.322137,36.51177 -88.321136,36.511767 -88.321108,36.511767 -88.321018,36.506061 -88.321013,36.505753 -88.320956,36.50216 -88.320953,36.502029 -88.320952,36.501923 -88.320928,36.500438 -88.321845,36.50044 -88.322346,36.500441 -88.324341,36.500444 -88.32455,36.500443 -88.324838,36.500445 -88.32597,36.500447 -88.326058,36.500447 -88.327157,36.500449 -88.327284,36.50045 -88.327431,36.50045 -88.328037,36.500451 -88.328459,36.500451 -88.329709,36.500453 -88.330393,36.500454 -88.33036,36.502257 -88.33026,36.507673 -88.329553,36.507643</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

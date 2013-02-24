@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>spurgeon</name>
+<Schema name="spurgeon" id="spurgeon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Spurgeon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#spurgeon">
+		<SimpleData name="Name">Spurgeon</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">72440</SimpleData>
+		<SimpleData name="PLACENS">02397677</SimpleData>
+		<SimpleData name="GEOID">1872440</SimpleData>
+		<SimpleData name="NAMELSAD">Spurgeon town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">454236</SimpleData>
+		<SimpleData name="AWATER">545</SimpleData>
+		<SimpleData name="INTPTLAT">+38.2555021</SimpleData>
+		<SimpleData name="INTPTLON">-087.2595264</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.261036,38.260307 -87.260471,38.260309 -87.258446,38.260314 -87.256251,38.26028 -87.256189,38.260182 -87.256424,38.259486 -87.256745,38.258554 -87.256752,38.253487 -87.255588,38.253487 -87.255586,38.252519 -87.255229,38.252519 -87.255252,38.252106 -87.255249,38.252008 -87.255227,38.251204 -87.25634,38.251203 -87.256339,38.250654 -87.261354,38.250651 -87.261324,38.250791 -87.261295,38.250859 -87.261255,38.250923 -87.261213,38.250963 -87.261211,38.251758 -87.261208,38.252221 -87.261203,38.252994 -87.261195,38.255224 -87.261194,38.255518 -87.261186,38.257832 -87.261178,38.2601 -87.261191,38.260127 -87.261242,38.260294 -87.261036,38.260307</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

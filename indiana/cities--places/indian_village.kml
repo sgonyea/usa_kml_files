@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>indian_village</name>
+<Schema name="indian_village" id="indian_village">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Indian Village</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#indian_village">
+		<SimpleData name="Name">Indian Village</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">36306</SimpleData>
+		<SimpleData name="PLACENS">02397006</SimpleData>
+		<SimpleData name="GEOID">1836306</SimpleData>
+		<SimpleData name="NAMELSAD">Indian Village town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">230187</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7142968</SimpleData>
+		<SimpleData name="INTPTLON">-086.2321902</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.235693,41.716004 -86.235353,41.715997 -86.234857,41.716 -86.234549,41.71601 -86.234414,41.716019 -86.233512,41.716026 -86.233444,41.716016 -86.233451,41.71603 -86.233071,41.716026 -86.231307,41.716044 -86.228607,41.716076 -86.228601,41.715999 -86.228596,41.714735 -86.228595,41.714426 -86.228656,41.712747 -86.228669,41.712579 -86.228791,41.712579 -86.231108,41.712581 -86.235737,41.712485 -86.235742,41.712637 -86.235742,41.713045 -86.235743,41.713086 -86.235753,41.713766 -86.235757,41.714241 -86.235765,41.715239 -86.235774,41.715884 -86.235776,41.716011 -86.235693,41.716004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

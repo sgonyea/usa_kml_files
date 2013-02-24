@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>monango</name>
+<Schema name="monango" id="monango">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Monango</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monango">
+		<SimpleData name="Name">Monango</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">53820</SimpleData>
+		<SimpleData name="PLACENS">01036168</SimpleData>
+		<SimpleData name="GEOID">3853820</SimpleData>
+		<SimpleData name="NAMELSAD">Monango city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">957725</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1733445</SimpleData>
+		<SimpleData name="INTPTLON">-098.5951496</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.602929,46.17692 -98.599693,46.1769 -98.599213,46.176904 -98.587366,46.176978 -98.587367,46.176643 -98.58738,46.174715 -98.587395,46.174006 -98.587398,46.173599 -98.587419,46.173019 -98.587412,46.172494 -98.587432,46.171985 -98.58743,46.171515 -98.587451,46.170569 -98.587459,46.169733 -98.587798,46.169722 -98.592815,46.169747 -98.593614,46.169741 -98.594914,46.16975 -98.595173,46.169753 -98.595783,46.169749 -98.596131,46.169747 -98.59712,46.169753 -98.597909,46.169747 -98.598541,46.169758 -98.59993,46.16976 -98.601534,46.169775 -98.602946,46.169778 -98.602929,46.17692</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

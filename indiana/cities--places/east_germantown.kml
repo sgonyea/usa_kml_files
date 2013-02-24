@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>east_germantown</name>
+<Schema name="east_germantown" id="east_germantown">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>East Germantown</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#east_germantown">
+		<SimpleData name="Name">East Germantown</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">19756</SimpleData>
+		<SimpleData name="PLACENS">02396917</SimpleData>
+		<SimpleData name="GEOID">1819756</SimpleData>
+		<SimpleData name="NAMELSAD">East Germantown town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">331362</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8131720</SimpleData>
+		<SimpleData name="INTPTLON">-085.1368429</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.136272,39.814531 -85.136255,39.815119 -85.136054,39.815123 -85.135266,39.815094 -85.13526,39.814705 -85.135231,39.814513 -85.13403,39.81452 -85.134033,39.81615 -85.13329,39.816136 -85.132101,39.816112 -85.132145,39.814707 -85.132159,39.814241 -85.132702,39.81423 -85.132701,39.814121 -85.132693,39.813302 -85.132375,39.8133 -85.13234,39.811394 -85.132468,39.8114 -85.135569,39.811346 -85.135577,39.81106 -85.13618,39.811013 -85.137458,39.810989 -85.137489,39.811347 -85.141945,39.81139 -85.141949,39.811549 -85.141962,39.811858 -85.141951,39.812291 -85.141966,39.812418 -85.14196,39.812911 -85.141981,39.813182 -85.141965,39.814086 -85.141988,39.814689 -85.136272,39.814531</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

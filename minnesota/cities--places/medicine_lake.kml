@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>medicine_lake</name>
+<Schema name="medicine_lake" id="medicine_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Medicine Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#medicine_lake">
+		<SimpleData name="Name">Medicine Lake</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">41462</SimpleData>
+		<SimpleData name="PLACENS">02395082</SimpleData>
+		<SimpleData name="GEOID">2741462</SimpleData>
+		<SimpleData name="NAMELSAD">Medicine Lake city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">453709</SimpleData>
+		<SimpleData name="AWATER">383074</SimpleData>
+		<SimpleData name="INTPTLAT">+45.0024330</SimpleData>
+		<SimpleData name="INTPTLON">-093.4231702</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.42783,45.002161 -93.427689,45.002349 -93.42753,45.002561 -93.427346,45.002851 -93.42613,45.004762 -93.424962,45.005003 -93.424492,45.0051 -93.422731,45.005462 -93.42112,45.004808 -93.419531,45.004162 -93.418231,45.002562 -93.413832,44.997361 -93.415097,44.996306 -93.415522,44.995916 -93.41571,44.995956 -93.415886,44.995667 -93.415587,44.995543 -93.415771,44.9953 -93.414712,44.994911 -93.415074,44.994366 -93.41543,44.994564 -93.41553,44.993764 -93.41643,44.993764 -93.416987,44.99367 -93.417007,44.993168 -93.416917,44.993173 -93.416374,44.99321 -93.415829,44.993256 -93.415763,44.992763 -93.417064,44.992766 -93.417124,44.992766 -93.417328,44.992218 -93.417351,44.992155 -93.420079,44.992159 -93.420045,44.99269 -93.419543,44.992661 -93.41953,44.993129 -93.420822,44.993126 -93.421171,44.993125 -93.421428,44.993124 -93.421478,44.994183 -93.421524,44.995146 -93.42153,44.995264 -93.422029,44.997663 -93.423072,44.998763 -93.423829,44.999562 -93.426229,44.999861 -93.42663,45.000437 -93.42783,45.002161</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

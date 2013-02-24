@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>castleford</name>
+<Schema name="castleford" id="castleford">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Castleford</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#castleford">
+		<SimpleData name="Name">Castleford</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">13240</SimpleData>
+		<SimpleData name="PLACENS">02409410</SimpleData>
+		<SimpleData name="GEOID">1613240</SimpleData>
+		<SimpleData name="NAMELSAD">Castleford city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">241180</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5205525</SimpleData>
+		<SimpleData name="INTPTLON">-114.8717473</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-114.875689,42.522293 -114.874967,42.522325 -114.87448,42.522353 -114.87384,42.522486 -114.873086,42.522467 -114.871331,42.522443 -114.86967,42.522467 -114.868407,42.522469 -114.868403,42.521549 -114.868409,42.520605 -114.868432,42.520234 -114.8684,42.519184 -114.868408,42.518452 -114.872618,42.518449 -114.873014,42.518449 -114.873026,42.518771 -114.874749,42.518767 -114.874743,42.519182 -114.874738,42.519634 -114.874728,42.520086 -114.874723,42.520621 -114.875734,42.52062 -114.875689,42.522293</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

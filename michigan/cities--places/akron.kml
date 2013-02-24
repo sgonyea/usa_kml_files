@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>akron</name>
+<Schema name="akron" id="akron">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Akron</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#akron">
+		<SimpleData name="Name">Akron</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">00700</SimpleData>
+		<SimpleData name="PLACENS">02397920</SimpleData>
+		<SimpleData name="GEOID">2600700</SimpleData>
+		<SimpleData name="NAMELSAD">Akron village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2439741</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.5667233</SimpleData>
+		<SimpleData name="INTPTLON">-083.5142950</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.524255,43.573479 -83.524183,43.573481 -83.514336,43.573537 -83.509398,43.573555 -83.50486,43.573564 -83.504248,43.573565 -83.504199,43.566456 -83.504444,43.566452 -83.504446,43.566338 -83.504362,43.559975 -83.504468,43.559981 -83.514321,43.559916 -83.518884,43.559868 -83.519138,43.559868 -83.524199,43.559801 -83.524276,43.559791 -83.524283,43.560456 -83.524292,43.5607 -83.524337,43.563411 -83.524353,43.564471 -83.524362,43.564907 -83.524378,43.566245 -83.524141,43.566246 -83.524192,43.569803 -83.524228,43.57193 -83.524255,43.573479</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

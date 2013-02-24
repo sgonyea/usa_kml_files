@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>southside_place</name>
+<Schema name="southside_place" id="southside_place">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Southside Place</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#southside_place">
+		<SimpleData name="Name">Southside Place</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">69272</SimpleData>
+		<SimpleData name="PLACENS">02411947</SimpleData>
+		<SimpleData name="GEOID">4869272</SimpleData>
+		<SimpleData name="NAMELSAD">Southside Place city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">640779</SimpleData>
+		<SimpleData name="AWATER">266</SimpleData>
+		<SimpleData name="INTPTLAT">+29.7086859</SimpleData>
+		<SimpleData name="INTPTLON">-095.4354835</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.445519,29.705933 -95.445425,29.705933 -95.445099,29.705944 -95.443773,29.705937 -95.442786,29.705946 -95.441959,29.705959 -95.441576,29.705964 -95.440985,29.705972 -95.440202,29.705985 -95.439604,29.705989 -95.437765,29.706014 -95.437833,29.707219 -95.437879,29.708021 -95.437886,29.708727 -95.437864,29.709435 -95.437869,29.710139 -95.437892,29.710865 -95.437912,29.711579 -95.437901,29.712281 -95.437921,29.712984 -95.43791,29.713776 -95.437938,29.714592 -95.437677,29.714669 -95.437349,29.714846 -95.433826,29.714904 -95.433221,29.714903 -95.433133,29.714903 -95.433066,29.712726 -95.433035,29.711858 -95.433041,29.711567 -95.433028,29.710945 -95.433002,29.70974 -95.433083,29.709133 -95.433121,29.709053 -95.43318,29.708925 -95.43311,29.707891 -95.43308,29.707442 -95.433087,29.70703 -95.433092,29.706767 -95.433194,29.70604 -95.433123,29.704856 -95.435112,29.70458 -95.435185,29.704591 -95.437167,29.704579 -95.440157,29.704558 -95.442779,29.704525 -95.445379,29.704493 -95.445519,29.705933</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

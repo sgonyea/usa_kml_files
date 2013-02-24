@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ithaca</name>
+<Schema name="ithaca" id="ithaca">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ithaca</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ithaca">
+		<SimpleData name="Name">Ithaca</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">37604</SimpleData>
+		<SimpleData name="PLACENS">02398281</SimpleData>
+		<SimpleData name="GEOID">3937604</SimpleData>
+		<SimpleData name="NAMELSAD">Ithaca village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">80879</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9377367</SimpleData>
+		<SimpleData name="INTPTLON">-084.5533320</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.55429,39.938542 -84.554426,39.938914 -84.554505,39.939119 -84.554559,39.939206 -84.5546,39.939266 -84.554643,39.939322 -84.552983,39.93933 -84.552105,39.939334 -84.552023,39.939334 -84.552018,39.939211 -84.551952,39.937754 -84.551878,39.936257 -84.551963,39.936257 -84.553437,39.936257 -84.553395,39.936131 -84.553521,39.936129 -84.554002,39.936125 -84.554062,39.936112 -84.554418,39.936109 -84.55451,39.936098 -84.554543,39.936262 -84.554538,39.936301 -84.554545,39.93635 -84.55457,39.936458 -84.554587,39.936514 -84.554695,39.936872 -84.554716,39.936979 -84.554725,39.937059 -84.554721,39.93711 -84.554964,39.93832 -84.55496,39.938412 -84.55429,39.938542</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

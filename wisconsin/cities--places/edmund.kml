@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>edmund</name>
+<Schema name="edmund" id="edmund">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Edmund</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edmund">
+		<SimpleData name="Name">Edmund</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">22700</SimpleData>
+		<SimpleData name="PLACENS">02586482</SimpleData>
+		<SimpleData name="GEOID">5522700</SimpleData>
+		<SimpleData name="NAMELSAD">Edmund CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">885830</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9662211</SimpleData>
+		<SimpleData name="INTPTLON">-090.2644381</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.276529,42.969279 -90.276185,42.969315 -90.27445,42.96935 -90.273912,42.969361 -90.268212,42.969144 -90.267874,42.969132 -90.266134,42.969044 -90.265855,42.96903 -90.265018,42.968991 -90.26474,42.968979 -90.261991,42.968835 -90.256054,42.968608 -90.256035,42.967596 -90.256035,42.967391 -90.256045,42.963962 -90.256049,42.962714 -90.266042,42.962735 -90.266051,42.963662 -90.270842,42.963643 -90.270845,42.963939 -90.270846,42.965037 -90.270842,42.966931 -90.270821,42.967472 -90.271972,42.967465 -90.272951,42.967466 -90.273581,42.967466 -90.274884,42.967468 -90.275474,42.967472 -90.276105,42.967477 -90.276187,42.967477 -90.276435,42.96748 -90.276518,42.967481 -90.27652,42.96784 -90.276526,42.968919 -90.276529,42.969279</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

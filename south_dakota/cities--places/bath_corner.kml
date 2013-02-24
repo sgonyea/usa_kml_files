@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bath_corner</name>
+<Schema name="bath_corner" id="bath_corner">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bath Corner</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bath_corner">
+		<SimpleData name="Name">Bath Corner</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">03960</SimpleData>
+		<SimpleData name="PLACENS">02584545</SimpleData>
+		<SimpleData name="GEOID">4603960</SimpleData>
+		<SimpleData name="NAMELSAD">Bath Corner CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">452164</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.4626894</SimpleData>
+		<SimpleData name="INTPTLON">-098.3328962</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.336739,45.463627 -98.336791,45.465081 -98.336637,45.46556 -98.336159,45.465948 -98.335646,45.466175 -98.331641,45.466269 -98.329262,45.466326 -98.329265,45.46587 -98.329267,45.465611 -98.329285,45.463467 -98.329292,45.462753 -98.329292,45.46261 -98.329296,45.462188 -98.329298,45.462047 -98.329298,45.461872 -98.329298,45.461351 -98.329301,45.461177 -98.329298,45.461 -98.329293,45.460471 -98.329292,45.460295 -98.32929,45.460042 -98.329285,45.459286 -98.329284,45.459034 -98.329615,45.459037 -98.330608,45.459046 -98.33094,45.45905 -98.331977,45.45906 -98.33509,45.459091 -98.33613,45.459102 -98.336159,45.459334 -98.336254,45.460032 -98.336286,45.460265 -98.336261,45.460498 -98.336225,45.460848 -98.336483,45.461088 -98.336655,45.461249 -98.336739,45.463627</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

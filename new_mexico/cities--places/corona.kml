@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>corona</name>
+<Schema name="corona" id="corona">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Corona</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#corona">
+		<SimpleData name="Name">Corona</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">17680</SimpleData>
+		<SimpleData name="PLACENS">02413543</SimpleData>
+		<SimpleData name="GEOID">3517680</SimpleData>
+		<SimpleData name="NAMELSAD">Corona village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2688738</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.2499983</SimpleData>
+		<SimpleData name="INTPTLON">-105.5970817</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-105.603968,34.241892 -105.60378,34.250049 -105.603549,34.254397 -105.603553,34.255613 -105.603524,34.259392 -105.603456,34.259748 -105.603388,34.259977 -105.600897,34.259979 -105.60083,34.259979 -105.600824,34.259979 -105.600224,34.259979 -105.600042,34.25998 -105.599933,34.25998 -105.598602,34.259981 -105.597411,34.259981 -105.597022,34.259982 -105.593732,34.259984 -105.593415,34.259984 -105.590485,34.259986 -105.590489,34.257962 -105.590491,34.256867 -105.59049,34.256356 -105.590491,34.255449 -105.590492,34.254648 -105.590502,34.251477 -105.590502,34.250146 -105.590368,34.249762 -105.590381,34.247717 -105.5904,34.24482 -105.590423,34.241058 -105.590453,34.24007 -105.595979,34.240171 -105.596417,34.240178 -105.596741,34.240184 -105.598413,34.240215 -105.600097,34.240243 -105.600572,34.240251 -105.604005,34.240286 -105.603968,34.241892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

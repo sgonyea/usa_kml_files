@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ovid</name>
+<Schema name="ovid" id="ovid">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ovid</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ovid">
+		<SimpleData name="Name">Ovid</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">61860</SimpleData>
+		<SimpleData name="PLACENS">02399601</SimpleData>
+		<SimpleData name="GEOID">2661860</SimpleData>
+		<SimpleData name="NAMELSAD">Ovid village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2341959</SimpleData>
+		<SimpleData name="AWATER">3984</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0030847</SimpleData>
+		<SimpleData name="INTPTLON">-084.3758869</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.378933,43.011522 -84.378292,43.011526 -84.376307,43.011528 -84.376248,43.011528 -84.376247,43.012519 -84.372504,43.01255 -84.371828,43.012555 -84.371825,43.012415 -84.371797,43.011583 -84.366863,43.011626 -84.366862,43.011203 -84.366834,43.01022 -84.366831,43.010096 -84.366825,43.009891 -84.366817,43.009613 -84.36681,43.009354 -84.36681,43.009323 -84.366809,43.009109 -84.366807,43.008458 -84.366806,43.008271 -84.366799,43.007917 -84.366129,43.007974 -84.366048,43.007448 -84.366789,43.007447 -84.366784,43.007251 -84.366781,43.007124 -84.366757,43.00619 -84.366749,43.005972 -84.366718,43.004699 -84.366714,43.00453 -84.366669,43.002871 -84.366668,43.002739 -84.366668,43.002724 -84.366631,43.001277 -84.366624,43.001 -84.366622,43.000893 -84.366618,43.000719 -84.366599,42.999982 -84.366566,42.998683 -84.366513,42.994521 -84.369402,42.994465 -84.371479,42.994439 -84.374767,42.994399 -84.381287,42.994288 -84.381389,42.999734 -84.381418,43.001222 -84.381563,43.005011 -84.381573,43.005558 -84.381585,43.005897 -84.381603,43.006078 -84.381685,43.008659 -84.381726,43.011507 -84.378933,43.011522</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

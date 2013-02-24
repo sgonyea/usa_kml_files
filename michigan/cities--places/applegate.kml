@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>applegate</name>
+<Schema name="applegate" id="applegate">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Applegate</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#applegate">
+		<SimpleData name="Name">Applegate</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">03200</SimpleData>
+		<SimpleData name="PLACENS">02397974</SimpleData>
+		<SimpleData name="GEOID">2603200</SimpleData>
+		<SimpleData name="NAMELSAD">Applegate village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2597299</SimpleData>
+		<SimpleData name="AWATER">18466</SimpleData>
+		<SimpleData name="INTPTLAT">+43.3595124</SimpleData>
+		<SimpleData name="INTPTLON">-082.6391969</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.647545,43.362294 -82.643272,43.362437 -82.639214,43.362583 -82.637551,43.362629 -82.627566,43.362968 -82.627447,43.360821 -82.627345,43.359178 -82.627069,43.355682 -82.626936,43.353616 -82.626626,43.348434 -82.631692,43.348269 -82.633572,43.348208 -82.636557,43.348102 -82.645444,43.347793 -82.645611,43.347783 -82.645789,43.347772 -82.646583,43.347755 -82.646882,43.352854 -82.646887,43.352968 -82.646894,43.353142 -82.647023,43.355018 -82.647068,43.355326 -82.647096,43.355634 -82.647091,43.355886 -82.647085,43.355946 -82.647124,43.356721 -82.647216,43.358471 -82.647268,43.359061 -82.647329,43.359731 -82.647386,43.360259 -82.647545,43.362294</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

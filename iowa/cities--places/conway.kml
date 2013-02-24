@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>conway</name>
+<Schema name="conway" id="conway">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Conway</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#conway">
+		<SimpleData name="Name">Conway</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">15960</SimpleData>
+		<SimpleData name="PLACENS">02393622</SimpleData>
+		<SimpleData name="GEOID">1915960</SimpleData>
+		<SimpleData name="NAMELSAD">Conway city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">572432</SimpleData>
+		<SimpleData name="AWATER">2050</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7490479</SimpleData>
+		<SimpleData name="INTPTLON">-094.6193487</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.626592,40.747846 -94.626566,40.748439 -94.626357,40.748913 -94.625963,40.749811 -94.625696,40.749812 -94.625039,40.750735 -94.625032,40.750473 -94.624856,40.750476 -94.624067,40.750513 -94.624073,40.751026 -94.624028,40.752154 -94.623321,40.752131 -94.622664,40.752137 -94.622293,40.752122 -94.619106,40.752112 -94.61435,40.752092 -94.614407,40.74998 -94.614394,40.748356 -94.61444,40.746619 -94.624883,40.746689 -94.625278,40.746617 -94.625398,40.746625 -94.626539,40.746634 -94.626592,40.747846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

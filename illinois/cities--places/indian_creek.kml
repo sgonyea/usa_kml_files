@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>indian_creek</name>
+<Schema name="indian_creek" id="indian_creek">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Indian Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#indian_creek">
+		<SimpleData name="Name">Indian Creek</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">37218</SimpleData>
+		<SimpleData name="PLACENS">02398570</SimpleData>
+		<SimpleData name="GEOID">1737218</SimpleData>
+		<SimpleData name="NAMELSAD">Indian Creek village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">665605</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.2270704</SimpleData>
+		<SimpleData name="INTPTLON">-087.9779163</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.979887,42.233606 -87.97971,42.233609 -87.979677,42.229092 -87.979256,42.228689 -87.979008,42.228565 -87.977167,42.227642 -87.97643,42.227256 -87.975174,42.226597 -87.974854,42.226408 -87.974712,42.226325 -87.974653,42.22629 -87.974264,42.226314 -87.973117,42.226315 -87.972894,42.226319 -87.971174,42.226322 -87.970854,42.226379 -87.97047,42.226448 -87.969716,42.225006 -87.969285,42.224181 -87.96921,42.222576 -87.969323,42.222295 -87.969356,42.222322 -87.969751,42.222627 -87.970122,42.222913 -87.970265,42.223024 -87.970355,42.223093 -87.97061,42.223302 -87.970781,42.223198 -87.971615,42.222628 -87.971979,42.222632 -87.979478,42.222728 -87.979477,42.222789 -87.979472,42.223509 -87.979469,42.223972 -87.979465,42.225051 -87.979453,42.225321 -87.979384,42.226234 -87.979382,42.22644 -87.98337,42.22652 -87.983563,42.226531 -87.983586,42.226512 -87.983811,42.226524 -87.983864,42.226533 -87.983885,42.226551 -87.984011,42.231142 -87.984098,42.233568 -87.979887,42.233606</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

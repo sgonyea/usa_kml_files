@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>otoe</name>
+<Schema name="otoe" id="otoe">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Otoe</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#otoe">
+		<SimpleData name="Name">Otoe</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">37630</SimpleData>
+		<SimpleData name="PLACENS">02399595</SimpleData>
+		<SimpleData name="GEOID">3137630</SimpleData>
+		<SimpleData name="NAMELSAD">Otoe village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">412633</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7240750</SimpleData>
+		<SimpleData name="INTPTLON">-096.1206099</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.125291,40.726065 -96.125289,40.728042 -96.123848,40.727204 -96.12352,40.727205 -96.123519,40.727084 -96.123138,40.727085 -96.123138,40.727206 -96.122154,40.727241 -96.121188,40.727234 -96.121189,40.726632 -96.121171,40.726035 -96.120856,40.726041 -96.119894,40.726061 -96.118634,40.726066 -96.117412,40.726061 -96.116477,40.726053 -96.116176,40.72605 -96.116194,40.721466 -96.117301,40.721497 -96.11743,40.72149 -96.117469,40.72148 -96.117662,40.721469 -96.118539,40.721462 -96.119852,40.721483 -96.119911,40.719548 -96.121188,40.719517 -96.121191,40.720214 -96.121179,40.72153 -96.121178,40.72166 -96.12293,40.721668 -96.122923,40.722366 -96.123637,40.72237 -96.123614,40.723365 -96.123618,40.724296 -96.125309,40.724243 -96.125291,40.726065</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

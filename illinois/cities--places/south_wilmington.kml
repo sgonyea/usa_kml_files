@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>south_wilmington</name>
+<Schema name="south_wilmington" id="south_wilmington">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>South Wilmington</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#south_wilmington">
+		<SimpleData name="Name">South Wilmington</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">71370</SimpleData>
+		<SimpleData name="PLACENS">02399862</SimpleData>
+		<SimpleData name="GEOID">1771370</SimpleData>
+		<SimpleData name="NAMELSAD">South Wilmington village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1452678</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1744076</SimpleData>
+		<SimpleData name="INTPTLON">-088.2813283</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.295103,41.1765 -88.281397,41.176382 -88.281467,41.178302 -88.281487,41.179103 -88.271913,41.179294 -88.271801,41.176241 -88.26959,41.176249 -88.269611,41.175025 -88.270075,41.174992 -88.270321,41.174954 -88.270526,41.174894 -88.270678,41.174829 -88.271803,41.174787 -88.271753,41.173994 -88.271755,41.173043 -88.271674,41.17207 -88.271615,41.170986 -88.27158,41.17002 -88.272775,41.17002 -88.274087,41.170007 -88.275321,41.169981 -88.281157,41.170003 -88.281182,41.170539 -88.281226,41.171492 -88.28124,41.171873 -88.282108,41.171864 -88.285936,41.171797 -88.289789,41.17174 -88.292091,41.17169 -88.295231,41.171641 -88.295103,41.1765</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

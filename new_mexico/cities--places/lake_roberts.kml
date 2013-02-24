@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lake_roberts</name>
+<Schema name="lake_roberts" id="lake_roberts">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lake Roberts</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lake_roberts">
+		<SimpleData name="Name">Lake Roberts</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">37860</SimpleData>
+		<SimpleData name="PLACENS">02584126</SimpleData>
+		<SimpleData name="GEOID">3537860</SimpleData>
+		<SimpleData name="NAMELSAD">Lake Roberts CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">733791</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+33.0313511</SimpleData>
+		<SimpleData name="INTPTLON">-108.1688323</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-108.173729,33.035807 -108.166589,33.036606 -108.165406,33.032355 -108.164977,33.03177 -108.164977,33.031563 -108.164434,33.030968 -108.164406,33.030808 -108.165059,33.03067 -108.164923,33.030098 -108.164842,33.029915 -108.164706,33.029366 -108.164706,33.028771 -108.165059,33.028084 -108.165195,33.027534 -108.165196,33.026825 -108.165141,33.026595 -108.165113,33.026366 -108.170581,33.025768 -108.172913,33.032929 -108.173201,33.033812 -108.173729,33.035807</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

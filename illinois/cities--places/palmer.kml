@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>palmer</name>
+<Schema name="palmer" id="palmer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Palmer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#palmer">
+		<SimpleData name="Name">Palmer</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">57303</SimpleData>
+		<SimpleData name="PLACENS">02399612</SimpleData>
+		<SimpleData name="GEOID">1757303</SimpleData>
+		<SimpleData name="NAMELSAD">Palmer village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2576895</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4586766</SimpleData>
+		<SimpleData name="INTPTLON">-089.4079231</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.415442,39.465994 -89.414079,39.466019 -89.413965,39.466024 -89.413625,39.466038 -89.413512,39.466044 -89.413207,39.466027 -89.41237,39.465983 -89.411768,39.465952 -89.408943,39.465918 -89.407801,39.465905 -89.406132,39.465881 -89.401411,39.465813 -89.401127,39.465809 -89.399459,39.465786 -89.399261,39.465787 -89.398698,39.465795 -89.398697,39.465766 -89.398695,39.465569 -89.398693,39.465474 -89.398693,39.46545 -89.398688,39.465193 -89.398687,39.465099 -89.398664,39.463802 -89.398598,39.459914 -89.398576,39.458618 -89.398536,39.456286 -89.398453,39.451421 -89.400582,39.451425 -89.402914,39.45143 -89.404798,39.451438 -89.410451,39.451463 -89.412336,39.451472 -89.412422,39.45147 -89.412907,39.451464 -89.414622,39.451444 -89.415194,39.451438 -89.415317,39.451413 -89.415688,39.45134 -89.415812,39.451316 -89.416051,39.451316 -89.41677,39.451318 -89.41701,39.451319 -89.417054,39.452776 -89.417188,39.457147 -89.417233,39.458605 -89.417247,39.459368 -89.417292,39.46166 -89.417307,39.462424 -89.417326,39.463787 -89.417358,39.465961 -89.415442,39.465994</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

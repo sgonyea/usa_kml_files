@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lasana</name>
+<Schema name="lasana" id="lasana">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lasana</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lasana">
+		<SimpleData name="Name">Lasana</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">41542</SimpleData>
+		<SimpleData name="PLACENS">02408583</SimpleData>
+		<SimpleData name="GEOID">4841542</SimpleData>
+		<SimpleData name="NAMELSAD">Lasana CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2126123</SimpleData>
+		<SimpleData name="AWATER">4434</SimpleData>
+		<SimpleData name="INTPTLAT">+26.2560998</SimpleData>
+		<SimpleData name="INTPTLON">-097.6948755</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.701644,26.249233 -97.70058,26.250173 -97.700537,26.250255 -97.700525,26.250569 -97.700506,26.251939 -97.70049,26.25401 -97.700422,26.262863 -97.70042,26.263026 -97.700404,26.264729 -97.700398,26.266952 -97.700423,26.268317 -97.700421,26.268354 -97.700262,26.268328 -97.689505,26.266442 -97.689503,26.262256 -97.689503,26.260782 -97.689471,26.257452 -97.689443,26.254665 -97.689423,26.252547 -97.689417,26.251884 -97.689416,26.251775 -97.689411,26.251282 -97.689404,26.250532 -97.689383,26.248345 -97.69372,26.248377 -97.693837,26.252645 -97.696308,26.252673 -97.696709,26.252664 -97.697127,26.252653 -97.697165,26.250806 -97.697135,26.24928 -97.69724,26.249268 -97.70148,26.24919 -97.701644,26.249187 -97.701644,26.249233</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

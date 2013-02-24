@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>seneca</name>
+<Schema name="seneca" id="seneca">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Seneca</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#seneca">
+		<SimpleData name="Name">Seneca</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">58180</SimpleData>
+		<SimpleData name="PLACENS">01267563</SimpleData>
+		<SimpleData name="GEOID">4658180</SimpleData>
+		<SimpleData name="NAMELSAD">Seneca town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1084558</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.0608038</SimpleData>
+		<SimpleData name="INTPTLON">-099.5091652</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.516905,45.059286 -99.516895,45.064324 -99.514414,45.064305 -99.511909,45.064287 -99.511906,45.064565 -99.511896,45.065401 -99.511894,45.06568 -99.509491,45.065665 -99.507474,45.065653 -99.507451,45.065033 -99.505411,45.065008 -99.50541,45.064346 -99.503544,45.06433 -99.501489,45.064314 -99.501527,45.063969 -99.501495,45.062531 -99.501399,45.058217 -99.501367,45.05678 -99.50167,45.05678 -99.502918,45.056779 -99.507572,45.056779 -99.509124,45.056779 -99.509682,45.056779 -99.511358,45.056779 -99.511917,45.056779 -99.512915,45.056779 -99.515911,45.056779 -99.51691,45.05678 -99.516905,45.059286</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

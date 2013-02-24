@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>abie</name>
+<Schema name="abie" id="abie">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Abie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#abie">
+		<SimpleData name="Name">Abie</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">00205</SimpleData>
+		<SimpleData name="PLACENS">02397906</SimpleData>
+		<SimpleData name="GEOID">3100205</SimpleData>
+		<SimpleData name="NAMELSAD">Abie village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">276181</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3340160</SimpleData>
+		<SimpleData name="INTPTLON">-096.9495144</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.953346,41.336155 -96.953104,41.336155 -96.952177,41.336157 -96.951752,41.336158 -96.950441,41.336138 -96.950101,41.336133 -96.950094,41.33695 -96.948623,41.336947 -96.948607,41.336129 -96.947426,41.336137 -96.946758,41.336137 -96.946395,41.336137 -96.946511,41.331459 -96.946753,41.33146 -96.94711,41.331464 -96.947623,41.331471 -96.950854,41.331511 -96.950845,41.331207 -96.950844,41.331056 -96.950956,41.330865 -96.951338,41.330894 -96.951839,41.332616 -96.952179,41.332612 -96.952763,41.334375 -96.953346,41.336155</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>west_brooklyn</name>
+<Schema name="west_brooklyn" id="west_brooklyn">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>West Brooklyn</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#west_brooklyn">
+		<SimpleData name="Name">West Brooklyn</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">80008</SimpleData>
+		<SimpleData name="PLACENS">02400127</SimpleData>
+		<SimpleData name="GEOID">1780008</SimpleData>
+		<SimpleData name="NAMELSAD">West Brooklyn village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">276539</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.6928016</SimpleData>
+		<SimpleData name="INTPTLON">-089.1473050</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.149515,41.695195 -89.14919,41.695214 -89.14898,41.695212 -89.148352,41.695209 -89.148143,41.695208 -89.148129,41.695211 -89.14809,41.695222 -89.148077,41.695226 -89.147717,41.695221 -89.146637,41.695207 -89.146277,41.695203 -89.145868,41.695211 -89.144643,41.695236 -89.144235,41.695245 -89.144227,41.694928 -89.144203,41.69398 -89.144196,41.693664 -89.14423,41.693222 -89.144225,41.692027 -89.14422,41.69035 -89.147454,41.690383 -89.149092,41.6904 -89.149942,41.690377 -89.150346,41.690367 -89.150402,41.692513 -89.150425,41.693364 -89.150432,41.693649 -89.150454,41.694507 -89.150462,41.694793 -89.150471,41.695119 -89.150472,41.695141 -89.149515,41.695195</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

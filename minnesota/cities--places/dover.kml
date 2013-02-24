@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dover</name>
+<Schema name="dover" id="dover">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dover</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dover">
+		<SimpleData name="Name">Dover</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">16264</SimpleData>
+		<SimpleData name="PLACENS">02394555</SimpleData>
+		<SimpleData name="GEOID">2716264</SimpleData>
+		<SimpleData name="NAMELSAD">Dover city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2588191</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.9698137</SimpleData>
+		<SimpleData name="INTPTLON">-092.1340394</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.144068,43.964657 -92.144133,43.966185 -92.144126,43.966548 -92.144109,43.967638 -92.144104,43.968002 -92.144018,43.972094 -92.143931,43.973436 -92.144072,43.973442 -92.144076,43.974174 -92.144075,43.97507 -92.14408,43.976924 -92.14408,43.977093 -92.142818,43.97709 -92.142451,43.977087 -92.141836,43.977084 -92.1418,43.977081 -92.14104,43.977093 -92.140478,43.977081 -92.13906,43.977076 -92.137866,43.977072 -92.134523,43.977089 -92.127171,43.977081 -92.124112,43.977005 -92.124105,43.97249 -92.124107,43.972217 -92.124109,43.971902 -92.12412,43.97057 -92.124089,43.965231 -92.122987,43.965231 -92.122987,43.963861 -92.124055,43.963861 -92.124047,43.962632 -92.13901,43.962622 -92.13901,43.96253 -92.13951,43.96255 -92.14005,43.96255 -92.144046,43.962626 -92.144068,43.964657</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

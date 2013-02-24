@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>watson</name>
+<Schema name="watson" id="watson">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Watson</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#watson">
+		<SimpleData name="Name">Watson</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">77848</SimpleData>
+		<SimpleData name="PLACENS">02400107</SimpleData>
+		<SimpleData name="GEOID">2977848</SimpleData>
+		<SimpleData name="NAMELSAD">Watson village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">281156</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4799057</SimpleData>
+		<SimpleData name="INTPTLON">-095.6234795</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.625801,40.478245 -95.625817,40.481884 -95.625823,40.483097 -95.62582,40.4833 -95.625668,40.483302 -95.625282,40.48331 -95.624608,40.483229 -95.624256,40.483188 -95.623976,40.483185 -95.623134,40.483177 -95.622856,40.483176 -95.621306,40.483132 -95.621261,40.483131 -95.621297,40.478525 -95.62131,40.476975 -95.621151,40.476973 -95.620935,40.476971 -95.620674,40.476965 -95.620516,40.476962 -95.620516,40.47653 -95.620517,40.476419 -95.621696,40.47649 -95.622127,40.476518 -95.622154,40.476518 -95.622236,40.47652 -95.622264,40.476521 -95.622745,40.476509 -95.624133,40.476476 -95.624133,40.476531 -95.624142,40.477013 -95.624189,40.477014 -95.624259,40.477014 -95.624617,40.477017 -95.624736,40.477019 -95.624946,40.477021 -95.625582,40.477029 -95.625796,40.477032 -95.625801,40.478245</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

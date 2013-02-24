@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fillmore</name>
+<Schema name="fillmore" id="fillmore">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fillmore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fillmore">
+		<SimpleData name="Name">Fillmore</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">26077</SimpleData>
+		<SimpleData name="PLACENS">02398877</SimpleData>
+		<SimpleData name="GEOID">1726077</SimpleData>
+		<SimpleData name="NAMELSAD">Fillmore village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2618366</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.1153695</SimpleData>
+		<SimpleData name="INTPTLON">-089.2785108</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.280436,39.122587 -89.278659,39.122585 -89.277991,39.122585 -89.269118,39.122664 -89.2691,39.11546 -89.269095,39.113367 -89.269095,39.113199 -89.269095,39.112764 -89.269121,39.108452 -89.269106,39.108269 -89.269077,39.108063 -89.27203,39.108129 -89.272405,39.108143 -89.278649,39.108113 -89.279512,39.10812 -89.281963,39.108129 -89.283065,39.108147 -89.287935,39.108148 -89.287934,39.109162 -89.287934,39.11195 -89.287934,39.112238 -89.287933,39.11858 -89.28794,39.122623 -89.280436,39.122587</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

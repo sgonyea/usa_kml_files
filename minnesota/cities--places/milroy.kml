@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>milroy</name>
+<Schema name="milroy" id="milroy">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Milroy</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#milroy">
+		<SimpleData name="Name">Milroy</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">42362</SimpleData>
+		<SimpleData name="PLACENS">02395334</SimpleData>
+		<SimpleData name="GEOID">2742362</SimpleData>
+		<SimpleData name="NAMELSAD">Milroy city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">662169</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.4176377</SimpleData>
+		<SimpleData name="INTPTLON">-095.5534600</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.558591,44.420512 -95.558602,44.421229 -95.554221,44.421254 -95.554205,44.421889 -95.553468,44.4219 -95.553469,44.421359 -95.551884,44.421335 -95.548507,44.421272 -95.548431,44.419354 -95.548381,44.417774 -95.548361,44.416727 -95.548312,44.413988 -95.548918,44.413989 -95.550703,44.414023 -95.550836,44.414023 -95.551499,44.414026 -95.55239,44.41403 -95.552896,44.414026 -95.552843,44.413174 -95.553479,44.413166 -95.553482,44.414021 -95.554946,44.414012 -95.556139,44.414006 -95.557812,44.414006 -95.558497,44.413998 -95.558591,44.420512</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

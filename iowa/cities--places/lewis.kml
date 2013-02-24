@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lewis</name>
+<Schema name="lewis" id="lewis">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lewis</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lewis">
+		<SimpleData name="Name">Lewis</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">44805</SimpleData>
+		<SimpleData name="PLACENS">02395690</SimpleData>
+		<SimpleData name="GEOID">1944805</SimpleData>
+		<SimpleData name="NAMELSAD">Lewis city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1295385</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3064932</SimpleData>
+		<SimpleData name="INTPTLON">-095.0842835</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.093857,41.306716 -95.093793,41.307897 -95.094072,41.308015 -95.094077,41.308171 -95.09409,41.308594 -95.093782,41.308709 -95.09379,41.310109 -95.087397,41.310112 -95.083477,41.310113 -95.078034,41.310122 -95.074632,41.310127 -95.074636,41.310003 -95.074632,41.30868 -95.07462,41.306472 -95.074638,41.306115 -95.074701,41.306007 -95.074683,41.305811 -95.074626,41.302903 -95.07559,41.302902 -95.07955,41.302902 -95.082339,41.302904 -95.08343,41.302893 -95.085489,41.302899 -95.086989,41.302896 -95.08788,41.302899 -95.088448,41.302881 -95.0934,41.302759 -95.093939,41.302772 -95.093857,41.306716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

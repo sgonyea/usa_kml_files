@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>de_lamere</name>
+<Schema name="de_lamere" id="de_lamere">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>De Lamere</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#de_lamere">
+		<SimpleData name="Name">De Lamere</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">18820</SimpleData>
+		<SimpleData name="PLACENS">02585497</SimpleData>
+		<SimpleData name="GEOID">3818820</SimpleData>
+		<SimpleData name="NAMELSAD">De Lamere CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">682132</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.2668235</SimpleData>
+		<SimpleData name="INTPTLON">-097.3333183</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.342738,46.26738 -97.342756,46.267553 -97.342764,46.267749 -97.340153,46.267733 -97.338727,46.267732 -97.338728,46.268685 -97.3364,46.268685 -97.336453,46.271282 -97.334871,46.271282 -97.331639,46.271282 -97.331639,46.267706 -97.329392,46.267683 -97.327699,46.267683 -97.327668,46.267683 -97.325298,46.267691 -97.323128,46.267687 -97.321841,46.267693 -97.321838,46.267424 -97.32182,46.265531 -97.324266,46.265577 -97.327669,46.265626 -97.331747,46.265684 -97.331799,46.262597 -97.335951,46.262597 -97.335925,46.264407 -97.339707,46.264425 -97.339626,46.265771 -97.340702,46.265783 -97.342734,46.265792 -97.342738,46.26738</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

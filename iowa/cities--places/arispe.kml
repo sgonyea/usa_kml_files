@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arispe</name>
+<Schema name="arispe" id="arispe">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arispe</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arispe">
+		<SimpleData name="Name">Arispe</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">02800</SimpleData>
+		<SimpleData name="PLACENS">02393984</SimpleData>
+		<SimpleData name="GEOID">1902800</SimpleData>
+		<SimpleData name="NAMELSAD">Arispe city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1338961</SimpleData>
+		<SimpleData name="AWATER">3486</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9463021</SimpleData>
+		<SimpleData name="INTPTLON">-094.2192593</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.228491,40.944965 -94.228488,40.948427 -94.228546,40.951822 -94.228474,40.951822 -94.225259,40.95183 -94.224024,40.95183 -94.221635,40.951845 -94.22086,40.951851 -94.218848,40.951864 -94.214469,40.951886 -94.209774,40.951919 -94.209782,40.944283 -94.212211,40.944258 -94.21454,40.944231 -94.215701,40.944221 -94.22403,40.944146 -94.228491,40.944138 -94.228491,40.944965</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

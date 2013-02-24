@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>point_lookout</name>
+<Schema name="point_lookout" id="point_lookout">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Point Lookout</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#point_lookout">
+		<SimpleData name="Name">Point Lookout</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">58849</SimpleData>
+		<SimpleData name="PLACENS">02389692</SimpleData>
+		<SimpleData name="GEOID">3658849</SimpleData>
+		<SimpleData name="NAMELSAD">Point Lookout CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">585381</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5903263</SimpleData>
+		<SimpleData name="INTPTLON">-073.5794563</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.583471,40.593844 -73.580877,40.594169 -73.579715,40.594314 -73.577647,40.594573 -73.57724,40.594624 -73.576015,40.594777 -73.575835,40.594731 -73.575757,40.594659 -73.575265,40.594205 -73.575146,40.593884 -73.575086,40.593473 -73.574906,40.592718 -73.574937,40.592397 -73.575718,40.590659 -73.576134,40.589248 -73.576561,40.587799 -73.576621,40.587227 -73.576758,40.586933 -73.576802,40.586839 -73.577282,40.586313 -73.57763,40.586046 -73.577718,40.58598 -73.577792,40.585924 -73.578303,40.58581 -73.579692,40.585797 -73.580704,40.585788 -73.580863,40.585739 -73.581514,40.585537 -73.582026,40.585684 -73.582954,40.585949 -73.583136,40.585956 -73.583195,40.587227 -73.583194,40.589166 -73.583202,40.592088 -73.583206,40.593547 -73.583471,40.593844</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

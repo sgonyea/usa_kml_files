@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>berrysburg</name>
+<Schema name="berrysburg" id="berrysburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Berrysburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#berrysburg">
+		<SimpleData name="Name">Berrysburg</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">05856</SimpleData>
+		<SimpleData name="PLACENS">01215157</SimpleData>
+		<SimpleData name="GEOID">4205856</SimpleData>
+		<SimpleData name="NAMELSAD">Berrysburg borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1570042</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6029351</SimpleData>
+		<SimpleData name="INTPTLON">-076.8101049</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.815619,40.607657 -76.815093,40.608016 -76.81336,40.609196 -76.812715,40.609634 -76.812686,40.609654 -76.812523,40.609675 -76.810745,40.6099 -76.806794,40.610402 -76.805547,40.608237 -76.802801,40.603474 -76.801662,40.601496 -76.802057,40.5989 -76.803352,40.598501 -76.807968,40.597081 -76.808151,40.597024 -76.809956,40.596823 -76.812017,40.596595 -76.816737,40.596071 -76.816734,40.596158 -76.816675,40.59738 -76.816519,40.600673 -76.8168,40.600715 -76.816841,40.600959 -76.817014,40.602502 -76.817453,40.606409 -76.815619,40.607657</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

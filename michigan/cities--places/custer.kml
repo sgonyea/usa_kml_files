@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>custer</name>
+<Schema name="custer" id="custer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Custer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#custer">
+		<SimpleData name="Name">Custer</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">19420</SimpleData>
+		<SimpleData name="PLACENS">02398663</SimpleData>
+		<SimpleData name="GEOID">2619420</SimpleData>
+		<SimpleData name="NAMELSAD">Custer village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2550423</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.9504637</SimpleData>
+		<SimpleData name="INTPTLON">-086.2181515</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.228047,43.957643 -86.221035,43.957632 -86.218545,43.957629 -86.215919,43.957582 -86.208697,43.957455 -86.20851,43.957452 -86.208067,43.957438 -86.208108,43.954785 -86.208095,43.954336 -86.208045,43.949322 -86.208024,43.947146 -86.208067,43.945585 -86.20813,43.943323 -86.210548,43.94335 -86.212109,43.943369 -86.212423,43.943369 -86.213366,43.943369 -86.213681,43.94337 -86.214709,43.943373 -86.217795,43.943384 -86.218824,43.943388 -86.219548,43.943388 -86.221721,43.94339 -86.222446,43.943391 -86.222837,43.943391 -86.224013,43.943394 -86.224405,43.943395 -86.226007,43.943388 -86.228324,43.94338 -86.228315,43.943837 -86.228277,43.94587 -86.228248,43.947473 -86.228237,43.948095 -86.228208,43.949964 -86.228198,43.950587 -86.228184,43.951408 -86.228146,43.953871 -86.228133,43.954693 -86.22806,43.957182 -86.228047,43.957643</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

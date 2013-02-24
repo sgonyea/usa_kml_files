@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>friendship</name>
+<Schema name="friendship" id="friendship">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Friendship</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#friendship">
+		<SimpleData name="Name">Friendship</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">27950</SimpleData>
+		<SimpleData name="PLACENS">01583248</SimpleData>
+		<SimpleData name="GEOID">5527950</SimpleData>
+		<SimpleData name="NAMELSAD">Friendship village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2277129</SimpleData>
+		<SimpleData name="AWATER">111073</SimpleData>
+		<SimpleData name="INTPTLAT">+43.9717463</SimpleData>
+		<SimpleData name="INTPTLON">-089.8200164</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.837939,43.968991 -89.830449,43.969026 -89.83059,43.970513 -89.832678,43.970548 -89.832839,43.974174 -89.832877,43.97669 -89.831093,43.976508 -89.828961,43.97625 -89.828831,43.97605 -89.828304,43.976074 -89.82798,43.975693 -89.829943,43.975727 -89.830002,43.975082 -89.829942,43.97417 -89.827443,43.974151 -89.82743,43.975392 -89.827413,43.976351 -89.827386,43.977724 -89.827336,43.977726 -89.826489,43.977722 -89.821913,43.977554 -89.815476,43.977671 -89.814095,43.977679 -89.811778,43.977657 -89.809935,43.97764 -89.808217,43.977637 -89.807735,43.977641 -89.807779,43.976979 -89.807713,43.977 -89.807641,43.977022 -89.807503,43.977106 -89.807473,43.976156 -89.80747,43.976073 -89.807698,43.976198 -89.807698,43.976099 -89.807695,43.974096 -89.807642,43.966835 -89.811427,43.966827 -89.812718,43.966844 -89.817799,43.96683 -89.819365,43.966832 -89.820616,43.966828 -89.821605,43.966838 -89.82199,43.966843 -89.823083,43.966858 -89.824045,43.966853 -89.827784,43.966851 -89.827904,43.966853 -89.828896,43.966851 -89.829815,43.966852 -89.830904,43.966864 -89.831895,43.966876 -89.832928,43.966856 -89.835081,43.96686 -89.836559,43.966883 -89.837959,43.966866 -89.837939,43.968991</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

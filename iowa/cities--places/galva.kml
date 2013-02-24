@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>galva</name>
+<Schema name="galva" id="galva">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Galva</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#galva">
+		<SimpleData name="Name">Galva</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">29595</SimpleData>
+		<SimpleData name="PLACENS">02394848</SimpleData>
+		<SimpleData name="GEOID">1929595</SimpleData>
+		<SimpleData name="NAMELSAD">Galva city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1843818</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5059145</SimpleData>
+		<SimpleData name="INTPTLON">-095.4177424</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.427091,42.501258 -95.427095,42.501809 -95.427097,42.502105 -95.427115,42.503201 -95.427114,42.503823 -95.42716,42.506972 -95.427165,42.507539 -95.427174,42.508646 -95.427172,42.509068 -95.427194,42.510245 -95.42721,42.511088 -95.419955,42.511072 -95.417296,42.511061 -95.407399,42.511042 -95.407382,42.510041 -95.407363,42.507713 -95.407354,42.507212 -95.407356,42.506761 -95.407345,42.505866 -95.407346,42.505279 -95.407326,42.503804 -95.407322,42.503483 -95.407328,42.502778 -95.407319,42.502226 -95.407323,42.502061 -95.407327,42.501891 -95.417217,42.50185 -95.417215,42.501632 -95.417209,42.501232 -95.417197,42.50044 -95.417188,42.499832 -95.417421,42.499828 -95.42708,42.499877 -95.427091,42.501258</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

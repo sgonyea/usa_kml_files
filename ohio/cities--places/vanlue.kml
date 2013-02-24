@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vanlue</name>
+<Schema name="vanlue" id="vanlue">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vanlue</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vanlue">
+		<SimpleData name="Name">Vanlue</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">79534</SimpleData>
+		<SimpleData name="PLACENS">02400048</SimpleData>
+		<SimpleData name="GEOID">3979534</SimpleData>
+		<SimpleData name="NAMELSAD">Vanlue village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">903765</SimpleData>
+		<SimpleData name="AWATER">17036</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9740534</SimpleData>
+		<SimpleData name="INTPTLON">-083.4847129</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.487158,40.977226 -83.486116,40.97724 -83.48586,40.977238 -83.485861,40.977308 -83.485869,40.980901 -83.481541,40.980901 -83.481586,40.97724 -83.481146,40.977243 -83.47887,40.977241 -83.476696,40.97726 -83.474947,40.977266 -83.474933,40.975519 -83.47494,40.975217 -83.475193,40.975219 -83.475193,40.97469 -83.474953,40.974682 -83.475005,40.972558 -83.474999,40.972283 -83.474999,40.971766 -83.476715,40.971773 -83.479587,40.971769 -83.479622,40.969847 -83.481407,40.969852 -83.481407,40.971596 -83.481423,40.971771 -83.482097,40.971763 -83.486245,40.971766 -83.486422,40.971766 -83.486774,40.971767 -83.486911,40.971767 -83.487497,40.971777 -83.489491,40.97178 -83.489486,40.973608 -83.489531,40.974213 -83.489516,40.974516 -83.489446,40.975934 -83.489471,40.977206 -83.487158,40.977226</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

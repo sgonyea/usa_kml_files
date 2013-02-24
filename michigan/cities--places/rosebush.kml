@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rosebush</name>
+<Schema name="rosebush" id="rosebush">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rosebush</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rosebush">
+		<SimpleData name="Name">Rosebush</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">69640</SimpleData>
+		<SimpleData name="PLACENS">02399120</SimpleData>
+		<SimpleData name="GEOID">2669640</SimpleData>
+		<SimpleData name="NAMELSAD">Rosebush village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2302342</SimpleData>
+		<SimpleData name="AWATER">4626</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7039770</SimpleData>
+		<SimpleData name="INTPTLON">-084.7637254</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.767816,43.709329 -84.762784,43.709344 -84.762803,43.70769 -84.75905,43.707669 -84.758101,43.707654 -84.75773,43.707646 -84.757961,43.706683 -84.75876,43.703587 -84.758975,43.702492 -84.759002,43.702255 -84.759013,43.702079 -84.759092,43.700328 -84.759021,43.699154 -84.759015,43.699091 -84.758954,43.69844 -84.758869,43.697939 -84.758822,43.697659 -84.758629,43.696717 -84.758106,43.694815 -84.757652,43.693237 -84.757314,43.691933 -84.757106,43.690833 -84.757582,43.690791 -84.763761,43.69089 -84.767826,43.690951 -84.772842,43.691023 -84.772819,43.694946 -84.772756,43.698516 -84.772748,43.700269 -84.772789,43.703902 -84.772669,43.706198 -84.772603,43.709389 -84.767816,43.709329</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

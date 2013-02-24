@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>miller_s_cove</name>
+<Schema name="miller_s_cove" id="miller_s_cove">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Miller's Cove</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#miller_s_cove">
+		<SimpleData name="Name">Miller's Cove</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">48478</SimpleData>
+		<SimpleData name="PLACENS">02412997</SimpleData>
+		<SimpleData name="GEOID">4848478</SimpleData>
+		<SimpleData name="NAMELSAD">Miller's Cove town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">424420</SimpleData>
+		<SimpleData name="AWATER">9126</SimpleData>
+		<SimpleData name="INTPTLAT">+33.1552827</SimpleData>
+		<SimpleData name="INTPTLON">-095.1151669</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.117902,33.157069 -95.117144,33.157024 -95.117125,33.157459 -95.117024,33.15983 -95.116553,33.159773 -95.116259,33.159736 -95.115413,33.159629 -95.114445,33.159182 -95.113756,33.159018 -95.113342,33.158952 -95.112826,33.158884 -95.111937,33.15901 -95.111777,33.15905 -95.111447,33.159155 -95.111498,33.158139 -95.111131,33.158132 -95.111232,33.156422 -95.111332,33.15475 -95.111757,33.154257 -95.112985,33.152828 -95.113272,33.152495 -95.114451,33.152548 -95.114693,33.152558 -95.11863,33.152738 -95.117902,33.157069</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arimo</name>
+<Schema name="arimo" id="arimo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arimo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arimo">
+		<SimpleData name="Name">Arimo</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">03340</SimpleData>
+		<SimpleData name="PLACENS">02409729</SimpleData>
+		<SimpleData name="GEOID">1603340</SimpleData>
+		<SimpleData name="NAMELSAD">Arimo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1059809</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5597489</SimpleData>
+		<SimpleData name="INTPTLON">-112.1725159</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-112.176645,42.556887 -112.176791,42.557983 -112.176584,42.557987 -112.176164,42.557978 -112.175992,42.557974 -112.176663,42.560639 -112.17635,42.561308 -112.177793,42.5644 -112.176587,42.564345 -112.17659,42.56578 -112.17659,42.566052 -112.176591,42.566538 -112.176514,42.567318 -112.176695,42.568832 -112.174496,42.568812 -112.174133,42.568793 -112.173816,42.56879 -112.172938,42.568748 -112.171034,42.565178 -112.170763,42.564587 -112.169222,42.561416 -112.169017,42.560992 -112.167756,42.557799 -112.167462,42.557088 -112.167272,42.556442 -112.167114,42.555958 -112.167056,42.555775 -112.166618,42.554394 -112.167196,42.553597 -112.167528,42.553139 -112.16787,42.552664 -112.168103,42.552332 -112.169191,42.550829 -112.17226,42.553238 -112.174075,42.554663 -112.174132,42.554529 -112.174282,42.554367 -112.17441,42.554318 -112.174861,42.554301 -112.175082,42.5543 -112.175511,42.554309 -112.175872,42.55432 -112.176081,42.554299 -112.176646,42.554307 -112.176645,42.556887</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

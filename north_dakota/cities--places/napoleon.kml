@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>napoleon</name>
+<Schema name="napoleon" id="napoleon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Napoleon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#napoleon">
+		<SimpleData name="Name">Napoleon</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">55420</SimpleData>
+		<SimpleData name="PLACENS">01036175</SimpleData>
+		<SimpleData name="GEOID">3855420</SimpleData>
+		<SimpleData name="NAMELSAD">Napoleon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3633091</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.5039053</SimpleData>
+		<SimpleData name="INTPTLON">-099.7684134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.781603,46.498772 -99.781555,46.499575 -99.780665,46.499691 -99.779709,46.4997 -99.779696,46.500008 -99.779693,46.500125 -99.779684,46.500216 -99.779663,46.500256 -99.779614,46.500286 -99.779542,46.500301 -99.779424,46.500301 -99.779417,46.501116 -99.77976,46.5078 -99.779803,46.50845 -99.777585,46.508496 -99.777344,46.508415 -99.777082,46.508363 -99.776852,46.508339 -99.776623,46.508323 -99.775678,46.5083 -99.775313,46.508297 -99.774693,46.5083 -99.774361,46.508294 -99.774204,46.51569 -99.773172,46.515683 -99.770382,46.515689 -99.769857,46.51569 -99.768984,46.515657 -99.766914,46.515589 -99.765548,46.515543 -99.764032,46.515527 -99.762076,46.515496 -99.760541,46.51549 -99.75968,46.515487 -99.759039,46.515484 -99.758364,46.515479 -99.758488,46.512797 -99.758476,46.511917 -99.758563,46.509302 -99.7586,46.508181 -99.758722,46.50716 -99.758724,46.506337 -99.758694,46.506248 -99.758766,46.505151 -99.758741,46.504093 -99.758714,46.502997 -99.75869,46.501975 -99.758644,46.50098 -99.75863,46.500019 -99.758574,46.49868 -99.758523,46.496004 -99.758504,46.49502 -99.758481,46.493779 -99.758466,46.493455 -99.767748,46.493544 -99.769126,46.493556 -99.779396,46.493626 -99.779431,46.49892 -99.779768,46.498701 -99.781612,46.498624 -99.781603,46.498772</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

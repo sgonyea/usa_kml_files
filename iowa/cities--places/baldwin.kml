@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>baldwin</name>
+<Schema name="baldwin" id="baldwin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Baldwin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#baldwin">
+		<SimpleData name="Name">Baldwin</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">04330</SimpleData>
+		<SimpleData name="PLACENS">02394054</SimpleData>
+		<SimpleData name="GEOID">1904330</SimpleData>
+		<SimpleData name="NAMELSAD">Baldwin city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">940151</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.0732052</SimpleData>
+		<SimpleData name="INTPTLON">-090.8385145</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.845741,42.072066 -90.845741,42.073193 -90.845708,42.074826 -90.845668,42.076831 -90.842771,42.076845 -90.841138,42.076854 -90.840924,42.07685 -90.840912,42.076849 -90.84058,42.076828 -90.840235,42.076817 -90.84001,42.07681 -90.839137,42.076784 -90.838255,42.07675 -90.835387,42.076641 -90.83299,42.076569 -90.831235,42.076518 -90.831218,42.075945 -90.831168,42.074227 -90.831155,42.07375 -90.831145,42.073655 -90.831196,42.072577 -90.831338,42.069646 -90.831638,42.06964 -90.832717,42.069623 -90.834014,42.069634 -90.837907,42.069667 -90.839205,42.069679 -90.839569,42.069684 -90.840661,42.069699 -90.841025,42.069704 -90.841532,42.069706 -90.843054,42.069715 -90.843562,42.069718 -90.844688,42.06973 -90.845744,42.069743 -90.845741,42.072066</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

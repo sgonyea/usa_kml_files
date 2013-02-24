@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>selz</name>
+<Schema name="selz" id="selz">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Selz</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#selz">
+		<SimpleData name="Name">Selz</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">71700</SimpleData>
+		<SimpleData name="PLACENS">02584356</SimpleData>
+		<SimpleData name="GEOID">3871700</SimpleData>
+		<SimpleData name="NAMELSAD">Selz CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">354518</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.8594045</SimpleData>
+		<SimpleData name="INTPTLON">-099.8934117</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.89839,47.858181 -99.898388,47.858682 -99.898383,47.860122 -99.898387,47.860727 -99.898395,47.861893 -99.890567,47.861893 -99.890559,47.861543 -99.890536,47.860565 -99.89054,47.860507 -99.890558,47.860327 -99.890596,47.860144 -99.889126,47.859833 -99.887868,47.859598 -99.887807,47.859561 -99.887764,47.859514 -99.887739,47.859462 -99.887736,47.859407 -99.887753,47.859353 -99.887784,47.859312 -99.887959,47.858934 -99.888127,47.858592 -99.888483,47.857755 -99.888521,47.857716 -99.888574,47.857686 -99.888638,47.857669 -99.888673,47.857666 -99.888705,47.857667 -99.888995,47.856858 -99.889081,47.856591 -99.889167,47.856323 -99.892022,47.85691 -99.89839,47.858181</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

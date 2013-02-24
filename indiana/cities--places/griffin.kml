@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>griffin</name>
+<Schema name="griffin" id="griffin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Griffin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#griffin">
+		<SimpleData name="Name">Griffin</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">30024</SimpleData>
+		<SimpleData name="PLACENS">02396978</SimpleData>
+		<SimpleData name="GEOID">1830024</SimpleData>
+		<SimpleData name="NAMELSAD">Griffin town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">177073</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.2043044</SimpleData>
+		<SimpleData name="INTPTLON">-087.9149197</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.915931,38.207999 -87.915292,38.207992 -87.914657,38.207973 -87.914326,38.207974 -87.914097,38.207968 -87.914112,38.207611 -87.914104,38.207305 -87.91409,38.206717 -87.913968,38.206713 -87.913615,38.206703 -87.913479,38.206695 -87.913363,38.206637 -87.913285,38.206642 -87.913273,38.20428 -87.913272,38.203949 -87.913908,38.203954 -87.913969,38.200634 -87.913938,38.200513 -87.914162,38.200508 -87.914717,38.200516 -87.916206,38.200508 -87.91616,38.203644 -87.916158,38.203953 -87.916132,38.208001 -87.915931,38.207999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

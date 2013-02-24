@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>eden</name>
+<Schema name="eden" id="eden">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Eden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#eden">
+		<SimpleData name="Name">Eden</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">24310</SimpleData>
+		<SimpleData name="PLACENS">02410397</SimpleData>
+		<SimpleData name="GEOID">1624310</SimpleData>
+		<SimpleData name="NAMELSAD">Eden city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">825544</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.6053070</SimpleData>
+		<SimpleData name="INTPTLON">-114.2090579</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-114.215258,42.605658 -114.215251,42.605826 -114.215422,42.609288 -114.210375,42.609251 -114.21038,42.609458 -114.210392,42.610033 -114.210393,42.610237 -114.210397,42.610879 -114.208253,42.609245 -114.207784,42.609234 -114.207486,42.609227 -114.20552,42.609182 -114.20551,42.607593 -114.205508,42.607287 -114.205507,42.607025 -114.205536,42.606361 -114.205524,42.606288 -114.205531,42.60616 -114.205551,42.605797 -114.204461,42.605782 -114.204127,42.60581 -114.204091,42.605812 -114.204069,42.605825 -114.203783,42.605799 -114.2032,42.605806 -114.200564,42.605825 -114.20057,42.605693 -114.201713,42.605705 -114.202667,42.605699 -114.203202,42.605692 -114.203797,42.605686 -114.204295,42.605676 -114.204484,42.605681 -114.205557,42.605672 -114.20556,42.605621 -114.204298,42.605605 -114.203729,42.605597 -114.203626,42.6056 -114.203204,42.605611 -114.203142,42.60561 -114.200538,42.604069 -114.200528,42.604046 -114.200443,42.603903 -114.200462,42.603417 -114.200468,42.603037 -114.200432,42.601945 -114.210373,42.601969 -114.21039,42.600886 -114.210984,42.600865 -114.210814,42.601976 -114.210994,42.601979 -114.215364,42.601999 -114.215258,42.605658</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>coalmont</name>
+<Schema name="coalmont" id="coalmont">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Coalmont</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#coalmont">
+		<SimpleData name="Name">Coalmont</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">14640</SimpleData>
+		<SimpleData name="PLACENS">01215268</SimpleData>
+		<SimpleData name="GEOID">4214640</SimpleData>
+		<SimpleData name="NAMELSAD">Coalmont borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">310672</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2112099</SimpleData>
+		<SimpleData name="INTPTLON">-078.1999767</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.205564,40.213541 -78.205408,40.213609 -78.204578,40.21397 -78.203913,40.21426 -78.203658,40.214371 -78.202235,40.21261 -78.201754,40.212334 -78.20042,40.212213 -78.199788,40.212192 -78.199318,40.212221 -78.195703,40.213308 -78.194083,40.213874 -78.194075,40.213864 -78.193716,40.213215 -78.193412,40.212665 -78.197394,40.210827 -78.199119,40.207783 -78.199796,40.207608 -78.200194,40.207504 -78.200211,40.207515 -78.201697,40.208599 -78.202363,40.209369 -78.204534,40.212216 -78.205355,40.213269 -78.205564,40.213541</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

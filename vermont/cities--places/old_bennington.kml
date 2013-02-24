@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>old_bennington</name>
+<Schema name="old_bennington" id="old_bennington">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Old Bennington</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#old_bennington">
+		<SimpleData name="Name">Old Bennington</SimpleData>
+		<SimpleData name="STATEFP">50</SimpleData>
+		<SimpleData name="PLACEFP">53125</SimpleData>
+		<SimpleData name="PLACENS">02378323</SimpleData>
+		<SimpleData name="GEOID">5053125</SimpleData>
+		<SimpleData name="NAMELSAD">Old Bennington village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">952064</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8848545</SimpleData>
+		<SimpleData name="INTPTLON">-073.2142971</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.220235,42.886464 -73.219677,42.887981 -73.219218,42.889256 -73.218626,42.890839 -73.216119,42.890793 -73.21223,42.89072 -73.211089,42.889631 -73.210303,42.888437 -73.210224,42.888324 -73.210005,42.887875 -73.209941,42.887411 -73.209843,42.886168 -73.209677,42.884866 -73.209431,42.883421 -73.209442,42.883345 -73.209787,42.880849 -73.210062,42.878784 -73.210311,42.876928 -73.212978,42.878473 -73.212942,42.878516 -73.212892,42.87859 -73.216968,42.879567 -73.216999,42.882105 -73.217582,42.8826 -73.218222,42.883144 -73.218463,42.88335 -73.219602,42.884318 -73.220235,42.886464</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

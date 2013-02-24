@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>centralia</name>
+<Schema name="centralia" id="centralia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Centralia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#centralia">
+		<SimpleData name="Name">Centralia</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">12425</SimpleData>
+		<SimpleData name="PLACENS">02393790</SimpleData>
+		<SimpleData name="GEOID">2012425</SimpleData>
+		<SimpleData name="NAMELSAD">Centralia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1217341</SimpleData>
+		<SimpleData name="AWATER">257</SimpleData>
+		<SimpleData name="INTPTLAT">+39.7244128</SimpleData>
+		<SimpleData name="INTPTLON">-096.1309550</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.137137,39.720077 -96.135747,39.72007 -96.135729,39.720842 -96.135728,39.721056 -96.135726,39.721319 -96.135764,39.72168 -96.13575,39.722024 -96.135743,39.722532 -96.135742,39.722621 -96.13574,39.722789 -96.135737,39.722987 -96.135715,39.723621 -96.13571,39.724615 -96.13623,39.72461 -96.136226,39.725204 -96.136837,39.725212 -96.136836,39.725687 -96.136462,39.725691 -96.135844,39.725698 -96.135705,39.725699 -96.135683,39.726821 -96.135695,39.727886 -96.135708,39.728869 -96.135761,39.729152 -96.135854,39.729511 -96.135843,39.729989 -96.132399,39.730011 -96.131924,39.730014 -96.130908,39.730009 -96.130909,39.730458 -96.130095,39.730467 -96.130089,39.730663 -96.129314,39.730669 -96.129316,39.730053 -96.128317,39.73005 -96.126351,39.729976 -96.126349,39.730087 -96.126346,39.730248 -96.126367,39.732063 -96.124917,39.732066 -96.124952,39.731413 -96.12496,39.729981 -96.125621,39.729971 -96.125638,39.727742 -96.12549,39.727754 -96.125206,39.727777 -96.123187,39.727771 -96.123112,39.725996 -96.124937,39.725937 -96.125434,39.725937 -96.126399,39.725935 -96.126398,39.725737 -96.126385,39.725525 -96.125275,39.725534 -96.124606,39.725428 -96.123779,39.725429 -96.122726,39.72544 -96.122734,39.724671 -96.122728,39.723604 -96.124596,39.723616 -96.1248,39.723605 -96.125018,39.72361 -96.125217,39.72361 -96.125539,39.723609 -96.125582,39.723113 -96.126376,39.723087 -96.126373,39.722558 -96.126365,39.721777 -96.126363,39.721296 -96.126361,39.720699 -96.126367,39.720094 -96.126376,39.719018 -96.126371,39.718847 -96.126377,39.718572 -96.128183,39.718586 -96.129648,39.718574 -96.129631,39.71823 -96.130005,39.718256 -96.130182,39.718246 -96.130189,39.718574 -96.13115,39.718572 -96.132732,39.718578 -96.133727,39.718581 -96.13585,39.718561 -96.135767,39.719031 -96.135765,39.719109 -96.137129,39.719122 -96.137137,39.720077</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

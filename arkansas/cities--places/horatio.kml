@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>horatio</name>
+<Schema name="horatio" id="horatio">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Horatio</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#horatio">
+		<SimpleData name="Name">Horatio</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">33310</SimpleData>
+		<SimpleData name="PLACENS">02404728</SimpleData>
+		<SimpleData name="GEOID">0533310</SimpleData>
+		<SimpleData name="NAMELSAD">Horatio city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4674796</SimpleData>
+		<SimpleData name="AWATER">34599</SimpleData>
+		<SimpleData name="INTPTLAT">+33.9427386</SimpleData>
+		<SimpleData name="INTPTLON">-094.3562010</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.368055,33.941943 -94.367804,33.947269 -94.367514,33.950912 -94.365587,33.95091 -94.364383,33.950883 -94.363858,33.95087 -94.359609,33.950759 -94.357638,33.950733 -94.353566,33.95054 -94.352306,33.950516 -94.344933,33.950293 -94.345038,33.946518 -94.345101,33.946243 -94.345143,33.945809 -94.345195,33.944067 -94.345211,33.943593 -94.345226,33.942153 -94.342849,33.942158 -94.34222,33.942168 -94.341002,33.942182 -94.341034,33.939875 -94.341099,33.93568 -94.341404,33.932049 -94.342081,33.932073 -94.342688,33.93209 -94.345004,33.932107 -94.346402,33.932128 -94.350895,33.932344 -94.351485,33.932372 -94.352137,33.932316 -94.353201,33.932294 -94.35404,33.932301 -94.356048,33.932377 -94.356201,33.932384 -94.359037,33.932419 -94.359637,33.93243 -94.360385,33.932435 -94.364357,33.932582 -94.364526,33.932602 -94.368526,33.932709 -94.368055,33.941943</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

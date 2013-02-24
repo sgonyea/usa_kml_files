@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>country_life_acres</name>
+<Schema name="country_life_acres" id="country_life_acres">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Country Life Acres</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#country_life_acres">
+		<SimpleData name="Name">Country Life Acres</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">16876</SimpleData>
+		<SimpleData name="PLACENS">02398637</SimpleData>
+		<SimpleData name="GEOID">2916876</SimpleData>
+		<SimpleData name="NAMELSAD">Country Life Acres village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">284698</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.6224682</SimpleData>
+		<SimpleData name="INTPTLON">-090.4551356</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.457227,38.625396 -90.457219,38.625949 -90.455106,38.625937 -90.45302,38.625949 -90.453037,38.624262 -90.453042,38.623738 -90.453053,38.622761 -90.452987,38.622171 -90.452929,38.621651 -90.452926,38.621551 -90.45292,38.621251 -90.452919,38.621152 -90.452934,38.620835 -90.452979,38.619884 -90.452994,38.619567 -90.452999,38.619464 -90.453014,38.619155 -90.453019,38.619052 -90.453112,38.619052 -90.455684,38.619044 -90.457321,38.619039 -90.457227,38.625396</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

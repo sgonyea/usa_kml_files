@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>stewart_manor</name>
+<Schema name="stewart_manor" id="stewart_manor">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Stewart Manor</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#stewart_manor">
+		<SimpleData name="Name">Stewart Manor</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">71267</SimpleData>
+		<SimpleData name="PLACENS">02391159</SimpleData>
+		<SimpleData name="GEOID">3671267</SimpleData>
+		<SimpleData name="NAMELSAD">Stewart Manor village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">543099</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7201719</SimpleData>
+		<SimpleData name="INTPTLON">-073.6853003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.688865,40.719503 -73.688841,40.71961 -73.688758,40.719921 -73.688639,40.720404 -73.688613,40.720477 -73.688584,40.720597 -73.688411,40.721269 -73.688286,40.721763 -73.688239,40.721945 -73.688113,40.722443 -73.688083,40.722583 -73.688084,40.722608 -73.687896,40.723318 -73.687862,40.723449 -73.687784,40.72375 -73.687611,40.724426 -73.687508,40.724849 -73.687438,40.725102 -73.687375,40.725347 -73.68583,40.725304 -73.685839,40.725146 -73.684874,40.725175 -73.683922,40.725145 -73.683023,40.725099 -73.682067,40.725104 -73.681783,40.725114 -73.681351,40.725129 -73.681329,40.724833 -73.681678,40.724834 -73.68208,40.724835 -73.682164,40.723143 -73.682204,40.723004 -73.682591,40.721604 -73.682692,40.719328 -73.682779,40.71694 -73.682924,40.716673 -73.682854,40.716141 -73.682574,40.714802 -73.68284,40.713976 -73.68299,40.713852 -73.683915,40.714288 -73.684779,40.714708 -73.685637,40.715103 -73.686445,40.715829 -73.687267,40.716443 -73.688038,40.716962 -73.68909,40.71799 -73.689129,40.718181 -73.689116,40.718403 -73.689105,40.718584 -73.688865,40.719503</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

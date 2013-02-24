@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>kaltag</name>
+<Schema name="kaltag" id="kaltag">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Kaltag</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#kaltag">
+		<SimpleData name="Name">Kaltag</SimpleData>
+		<SimpleData name="STATEFP">02</SimpleData>
+		<SimpleData name="PLACEFP">37430</SimpleData>
+		<SimpleData name="PLACENS">02419405</SimpleData>
+		<SimpleData name="GEOID">0237430</SimpleData>
+		<SimpleData name="NAMELSAD">Kaltag city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">55917054</SimpleData>
+		<SimpleData name="AWATER">15595702</SimpleData>
+		<SimpleData name="INTPTLAT">+64.3138233</SimpleData>
+		<SimpleData name="INTPTLON">-158.7797265</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-158.820893,64.290213 -158.820851,64.292981 -158.820724,64.301288 -158.820683,64.304058 -158.820314,64.314732 -158.819312,64.343689 -158.818495,64.367321 -158.778267,64.367597 -158.723171,64.367975 -158.693159,64.368182 -158.683516,64.368248 -158.678525,64.368291 -158.675774,64.368316 -158.668031,64.368384 -158.663555,64.368423 -158.662136,64.368436 -158.663223,64.365035 -158.663346,64.362871 -158.663717,64.356382 -158.663842,64.35422 -158.663931,64.349631 -158.663938,64.349303 -158.664034,64.344386 -158.664201,64.335865 -158.664286,64.331552 -158.664287,64.331487 -158.664288,64.331422 -158.66429,64.33135 -158.664291,64.331277 -158.663977,64.317397 -158.663926,64.31514 -158.663561,64.299003 -158.66356,64.298932 -158.663558,64.29886 -158.663556,64.29878 -158.663554,64.2987 -158.663165,64.281483 -158.668874,64.28191 -158.682718,64.282951 -158.690439,64.282948 -158.69816,64.282944 -158.70568,64.28294 -158.713201,64.282937 -158.715153,64.28294 -158.821161,64.283092 -158.820893,64.290213</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lisbon</name>
+<Schema name="lisbon" id="lisbon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lisbon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lisbon">
+		<SimpleData name="Name">Lisbon</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">47100</SimpleData>
+		<SimpleData name="PLACENS">01036133</SimpleData>
+		<SimpleData name="GEOID">3847100</SimpleData>
+		<SimpleData name="NAMELSAD">Lisbon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5823082</SimpleData>
+		<SimpleData name="AWATER">1646</SimpleData>
+		<SimpleData name="INTPTLAT">+46.4380365</SimpleData>
+		<SimpleData name="INTPTLON">-097.6844065</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.69958,46.428178 -97.699574,46.430037 -97.699567,46.431176 -97.699561,46.432192 -97.699564,46.432896 -97.699569,46.434212 -97.69954,46.435766 -97.699532,46.4364 -97.699531,46.437083 -97.699531,46.437397 -97.699506,46.440645 -97.699507,46.441467 -97.699507,46.441682 -97.699555,46.441797 -97.699603,46.441939 -97.699667,46.442039 -97.69974,46.442198 -97.699757,46.442347 -97.699776,46.442615 -97.699769,46.442876 -97.699775,46.443438 -97.699979,46.443799 -97.699682,46.444124 -97.699663,46.444405 -97.699655,46.445113 -97.699692,46.449103 -97.695486,46.449077 -97.689718,46.449085 -97.689077,46.449086 -97.688542,46.449093 -97.688449,46.449087 -97.687704,46.449088 -97.687507,46.449086 -97.684891,46.449065 -97.684899,46.450548 -97.684645,46.450549 -97.682169,46.450638 -97.682165,46.450177 -97.682185,46.449543 -97.682158,46.449088 -97.681469,46.449135 -97.677467,46.449127 -97.677073,46.449126 -97.668611,46.449027 -97.668542,46.441856 -97.668377,46.433314 -97.668378,46.43311 -97.668345,46.430731 -97.668268,46.427384 -97.674269,46.427438 -97.674829,46.427547 -97.675367,46.427528 -97.677203,46.427484 -97.67867,46.427382 -97.682126,46.42731 -97.683972,46.427293 -97.684434,46.427288 -97.684631,46.427286 -97.686629,46.427266 -97.688164,46.427259 -97.688329,46.427258 -97.688669,46.427257 -97.688894,46.427257 -97.689197,46.427256 -97.690293,46.427252 -97.691864,46.427245 -97.695491,46.42722 -97.697689,46.427199 -97.699591,46.427196 -97.69958,46.428178</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

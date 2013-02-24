@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rich_square</name>
+<Schema name="rich_square" id="rich_square">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rich Square</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rich_square">
+		<SimpleData name="Name">Rich Square</SimpleData>
+		<SimpleData name="STATEFP">37</SimpleData>
+		<SimpleData name="PLACEFP">56440</SimpleData>
+		<SimpleData name="PLACENS">02407205</SimpleData>
+		<SimpleData name="GEOID">3756440</SimpleData>
+		<SimpleData name="NAMELSAD">Rich Square town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">7991652</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.2739420</SimpleData>
+		<SimpleData name="INTPTLON">-077.2839064</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.300722,36.279064 -77.300146,36.280216 -77.299354,36.281131 -77.298223,36.282541 -77.298128,36.282774 -77.296363,36.28436 -77.293337,36.286341 -77.288793,36.28782 -77.286347,36.288395 -77.283084,36.288373 -77.27961,36.288215 -77.279033,36.288035 -77.27663,36.287039 -77.275303,36.286613 -77.273103,36.285356 -77.271124,36.283847 -77.269377,36.282165 -77.268076,36.280328 -77.26697,36.277795 -77.26641,36.275363 -77.26663,36.271372 -77.266882,36.26977 -77.267541,36.268261 -77.268572,36.266598 -77.269678,36.265244 -77.271149,36.263909 -77.271312,36.263642 -77.274392,36.261788 -77.27656,36.260468 -77.278288,36.259839 -77.280676,36.259619 -77.28385,36.259462 -77.287307,36.259965 -77.289401,36.260391 -77.292263,36.261334 -77.292586,36.261332 -77.29367,36.261741 -77.294081,36.261944 -77.295037,36.262416 -77.296121,36.263139 -77.297048,36.264035 -77.297563,36.264589 -77.300202,36.268326 -77.300699,36.27026 -77.301568,36.273859 -77.300929,36.276784 -77.300722,36.279064</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

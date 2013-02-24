@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>doran</name>
+<Schema name="doran" id="doran">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Doran</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#doran">
+		<SimpleData name="Name">Doran</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">16156</SimpleData>
+		<SimpleData name="PLACENS">02394549</SimpleData>
+		<SimpleData name="GEOID">2716156</SimpleData>
+		<SimpleData name="NAMELSAD">Doran city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">541733</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1850941</SimpleData>
+		<SimpleData name="INTPTLON">-096.4855937</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.490483,46.184288 -96.490484,46.184777 -96.49049,46.186008 -96.490492,46.18647 -96.490498,46.187749 -96.490402,46.187801 -96.489996,46.188022 -96.489923,46.188061 -96.489705,46.188178 -96.489633,46.188218 -96.488008,46.189101 -96.486385,46.189984 -96.483537,46.187625 -96.482114,46.186446 -96.480806,46.185292 -96.480795,46.185282 -96.480273,46.185626 -96.479197,46.184733 -96.479912,46.184281 -96.479132,46.183633 -96.480318,46.183025 -96.48187,46.18223 -96.481976,46.18217 -96.482295,46.181992 -96.482402,46.181933 -96.482618,46.181798 -96.483269,46.181394 -96.483487,46.18126 -96.483541,46.181264 -96.483705,46.181276 -96.48376,46.18128 -96.48402,46.18123 -96.48421,46.18122 -96.484459,46.18122 -96.486573,46.181223 -96.487278,46.181224 -96.488167,46.182074 -96.490483,46.184288</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

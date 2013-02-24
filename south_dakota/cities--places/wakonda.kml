@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wakonda</name>
+<Schema name="wakonda" id="wakonda">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wakonda</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wakonda">
+		<SimpleData name="Name">Wakonda</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">68100</SimpleData>
+		<SimpleData name="PLACENS">01267621</SimpleData>
+		<SimpleData name="GEOID">4668100</SimpleData>
+		<SimpleData name="NAMELSAD">Wakonda town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">999921</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0081155</SimpleData>
+		<SimpleData name="INTPTLON">-097.1059743</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.110461,43.003763 -97.110514,43.003871 -97.11072,43.004292 -97.110926,43.005269 -97.111017,43.005699 -97.110743,43.007949 -97.110637,43.010198 -97.110568,43.010904 -97.112122,43.010911 -97.112172,43.01312 -97.108697,43.013202 -97.106637,43.013202 -97.102336,43.013118 -97.100666,43.014367 -97.100486,43.014366 -97.100492,43.014235 -97.100515,43.013114 -97.100567,43.010857 -97.100562,43.010382 -97.100528,43.008897 -97.100492,43.007431 -97.100484,43.007058 -97.100439,43.005131 -97.100422,43.004495 -97.10042,43.003788 -97.100588,43.003774 -97.101641,43.003734 -97.105716,43.003687 -97.105834,43.001881 -97.107874,43.001897 -97.108563,43.001921 -97.109875,43.001927 -97.111157,43.001941 -97.110461,43.003763</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>south_wayne</name>
+<Schema name="south_wayne" id="south_wayne">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>South Wayne</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#south_wayne">
+		<SimpleData name="Name">South Wayne</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">75275</SimpleData>
+		<SimpleData name="PLACENS">01584180</SimpleData>
+		<SimpleData name="GEOID">5575275</SimpleData>
+		<SimpleData name="NAMELSAD">South Wayne village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2054333</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5668199</SimpleData>
+		<SimpleData name="INTPTLON">-089.8760935</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.887522,42.567669 -89.887384,42.568095 -89.887095,42.571705 -89.882922,42.571607 -89.878643,42.571624 -89.877404,42.571598 -89.875629,42.571579 -89.872802,42.571507 -89.872698,42.57104 -89.872695,42.57089 -89.871876,42.570984 -89.863104,42.571952 -89.862836,42.571798 -89.862827,42.571593 -89.862824,42.570833 -89.862761,42.56627 -89.863912,42.566275 -89.863909,42.565275 -89.862747,42.565252 -89.862732,42.564139 -89.864179,42.564083 -89.865126,42.564091 -89.867519,42.564008 -89.868702,42.564108 -89.869582,42.564039 -89.870106,42.564032 -89.870412,42.564104 -89.871513,42.564082 -89.872342,42.564071 -89.872733,42.564096 -89.872761,42.560967 -89.875163,42.561069 -89.882484,42.561181 -89.887402,42.56133 -89.887411,42.562766 -89.887522,42.567669</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

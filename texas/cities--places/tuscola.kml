@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tuscola</name>
+<Schema name="tuscola" id="tuscola">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tuscola</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tuscola">
+		<SimpleData name="Name">Tuscola</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">74048</SimpleData>
+		<SimpleData name="PLACENS">02412116</SimpleData>
+		<SimpleData name="GEOID">4874048</SimpleData>
+		<SimpleData name="NAMELSAD">Tuscola city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1944229</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.2106287</SimpleData>
+		<SimpleData name="INTPTLON">-099.7992950</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.805958,32.209276 -99.806015,32.209735 -99.805934,32.214283 -99.805928,32.215767 -99.805046,32.215767 -99.805046,32.214329 -99.804302,32.214335 -99.804224,32.220312 -99.803612,32.220309 -99.803268,32.220306 -99.802884,32.220305 -99.802135,32.220303 -99.801361,32.220306 -99.800308,32.220298 -99.799725,32.220304 -99.799461,32.220306 -99.799294,32.220325 -99.799187,32.220306 -99.797447,32.220304 -99.797842,32.218823 -99.797971,32.218306 -99.797553,32.217582 -99.795708,32.21434 -99.795172,32.213631 -99.794776,32.213037 -99.792324,32.208744 -99.789825,32.204334 -99.789573,32.203868 -99.789347,32.203452 -99.789253,32.203277 -99.789101,32.20303 -99.788984,32.202831 -99.78938,32.202799 -99.790144,32.202818 -99.790304,32.202821 -99.790358,32.203412 -99.79412,32.203481 -99.794121,32.202885 -99.794826,32.202919 -99.798063,32.203042 -99.798027,32.20311 -99.797913,32.203377 -99.797821,32.203651 -99.797752,32.203933 -99.797714,32.204216 -99.797691,32.204422 -99.798897,32.20443 -99.800049,32.204419 -99.800819,32.204411 -99.801125,32.204411 -99.801261,32.204407 -99.801521,32.204403 -99.802704,32.204403 -99.804955,32.204425 -99.805115,32.204433 -99.805206,32.20443 -99.805565,32.204441 -99.805968,32.204447 -99.805958,32.209276</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

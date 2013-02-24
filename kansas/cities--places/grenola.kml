@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>grenola</name>
+<Schema name="grenola" id="grenola">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Grenola</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#grenola">
+		<SimpleData name="Name">Grenola</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">28800</SimpleData>
+		<SimpleData name="PLACENS">02394247</SimpleData>
+		<SimpleData name="GEOID">2028800</SimpleData>
+		<SimpleData name="NAMELSAD">Grenola city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1232720</SimpleData>
+		<SimpleData name="AWATER">8543</SimpleData>
+		<SimpleData name="INTPTLAT">+37.3502887</SimpleData>
+		<SimpleData name="INTPTLON">-096.4496706</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.453746,37.344658 -96.453743,37.345122 -96.453739,37.345761 -96.453729,37.346954 -96.453724,37.348083 -96.453723,37.348387 -96.453719,37.34946 -96.453712,37.349932 -96.453662,37.352942 -96.453649,37.354965 -96.453597,37.357488 -96.449154,37.35748 -96.447771,37.357444 -96.444332,37.357373 -96.444342,37.355469 -96.444339,37.354124 -96.444333,37.353037 -96.444408,37.349923 -96.444443,37.348482 -96.444437,37.347902 -96.444437,37.347107 -96.444417,37.345749 -96.445744,37.345748 -96.447021,37.345751 -96.44796,37.345753 -96.448588,37.345754 -96.448509,37.34224 -96.449274,37.342211 -96.44926,37.342057 -96.449249,37.341719 -96.449688,37.341718 -96.449681,37.342473 -96.449844,37.342456 -96.449839,37.343265 -96.451273,37.343271 -96.453772,37.343218 -96.453746,37.344658</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.453797,37.341813 -96.45288,37.34182 -96.45214,37.341826 -96.451932,37.341828 -96.451819,37.341474 -96.451762,37.341296 -96.45172,37.341165 -96.451648,37.340938 -96.451575,37.340712 -96.451264,37.339738 -96.452613,37.339758 -96.45289,37.341352 -96.453775,37.341363 -96.453797,37.341813</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>st_lucas</name>
+<Schema name="st_lucas" id="st_lucas">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>St. Lucas</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#st_lucas">
+		<SimpleData name="Name">St. Lucas</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">70050</SimpleData>
+		<SimpleData name="PLACENS">02396501</SimpleData>
+		<SimpleData name="GEOID">1970050</SimpleData>
+		<SimpleData name="NAMELSAD">St. Lucas city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">689164</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0666937</SimpleData>
+		<SimpleData name="INTPTLON">-091.9341797</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.943151,43.06687 -91.943165,43.067568 -91.940746,43.067568 -91.938453,43.067568 -91.938461,43.070975 -91.936736,43.070996 -91.933415,43.071036 -91.933407,43.070596 -91.933369,43.069764 -91.933366,43.069415 -91.929133,43.068968 -91.928248,43.069056 -91.928248,43.068696 -91.928246,43.067874 -91.928238,43.067246 -91.928245,43.066814 -91.928266,43.066593 -91.92833,43.066408 -91.928404,43.066291 -91.928363,43.066183 -91.928327,43.06531 -91.928287,43.064168 -91.928264,43.064087 -91.928222,43.06401 -91.928255,43.062961 -91.932473,43.063093 -91.933358,43.06308 -91.933314,43.062676 -91.937012,43.06278 -91.937011,43.065411 -91.937833,43.065393 -91.938182,43.065373 -91.938171,43.066039 -91.943129,43.06614 -91.943151,43.06687</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>scotland</name>
+<Schema name="scotland" id="scotland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Scotland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#scotland">
+		<SimpleData name="Name">Scotland</SimpleData>
+		<SimpleData name="STATEFP">13</SimpleData>
+		<SimpleData name="PLACEFP">69336</SimpleData>
+		<SimpleData name="PLACENS">02405431</SimpleData>
+		<SimpleData name="GEOID">1369336</SimpleData>
+		<SimpleData name="NAMELSAD">Scotland city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3714603</SimpleData>
+		<SimpleData name="AWATER">66315</SimpleData>
+		<SimpleData name="INTPTLAT">+32.0475723</SimpleData>
+		<SimpleData name="INTPTLON">-082.8184794</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.831327,32.052532 -82.830735,32.053028 -82.827578,32.055667 -82.824551,32.058198 -82.822861,32.059611 -82.822675,32.059768 -82.822592,32.059767 -82.822637,32.0598 -82.822086,32.060257 -82.819879,32.058339 -82.817044,32.055804 -82.815773,32.054668 -82.814905,32.053891 -82.81442,32.053461 -82.813621,32.05275 -82.813219,32.052395 -82.81077,32.050226 -82.810567,32.050045 -82.807457,32.047289 -82.802946,32.043159 -82.804614,32.041837 -82.807875,32.039335 -82.81377,32.034569 -82.814146,32.034266 -82.819483,32.038994 -82.822807,32.041935 -82.82555,32.044379 -82.827098,32.045751 -82.828638,32.047118 -82.833083,32.051064 -82.831327,32.052532</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

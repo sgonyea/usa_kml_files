@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>neponset</name>
+<Schema name="neponset" id="neponset">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Neponset</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#neponset">
+		<SimpleData name="Name">Neponset</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">51999</SimpleData>
+		<SimpleData name="PLACENS">02399446</SimpleData>
+		<SimpleData name="GEOID">1751999</SimpleData>
+		<SimpleData name="NAMELSAD">Neponset village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2703760</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2968130</SimpleData>
+		<SimpleData name="INTPTLON">-089.7894694</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.799244,41.294905 -89.799243,41.295151 -89.799198,41.300726 -89.799133,41.304295 -89.789364,41.304291 -89.779655,41.304278 -89.779696,41.302389 -89.779709,41.301809 -89.779738,41.300344 -89.779831,41.296177 -89.779883,41.293118 -89.779889,41.292547 -89.779848,41.292429 -89.779824,41.292301 -89.779816,41.292161 -89.779825,41.29201 -89.779845,41.291134 -89.779847,41.2907 -89.779848,41.290534 -89.779866,41.289712 -89.779865,41.289511 -89.779856,41.289309 -89.779837,41.289171 -89.786624,41.289265 -89.789472,41.289305 -89.79918,41.289501 -89.799213,41.290062 -89.79925,41.290526 -89.799231,41.294659 -89.799244,41.294905</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

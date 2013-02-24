@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rose_hill</name>
+<Schema name="rose_hill" id="rose_hill">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rose Hill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rose_hill">
+		<SimpleData name="Name">Rose Hill</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">68700</SimpleData>
+		<SimpleData name="PLACENS">02396428</SimpleData>
+		<SimpleData name="GEOID">1968700</SimpleData>
+		<SimpleData name="NAMELSAD">Rose Hill city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">353762</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3203615</SimpleData>
+		<SimpleData name="INTPTLON">-092.4636988</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.468669,41.318916 -92.468657,41.31933 -92.468675,41.319868 -92.468711,41.32189 -92.468434,41.32189 -92.467606,41.321894 -92.46733,41.321896 -92.466992,41.321897 -92.465978,41.321901 -92.465641,41.321903 -92.465289,41.321908 -92.464233,41.321924 -92.463882,41.32193 -92.463882,41.322127 -92.463882,41.32272 -92.463882,41.322918 -92.463529,41.322918 -92.462597,41.322921 -92.462473,41.322915 -92.462122,41.322901 -92.461906,41.322933 -92.460659,41.322951 -92.460556,41.322933 -92.460488,41.322911 -92.460419,41.322873 -92.460395,41.322829 -92.460388,41.322783 -92.460383,41.322293 -92.459159,41.322274 -92.459154,41.321949 -92.459149,41.321354 -92.459146,41.321081 -92.45914,41.320262 -92.459138,41.31999 -92.459133,41.319808 -92.459121,41.319283 -92.459123,41.319266 -92.459132,41.319204 -92.45916,41.319153 -92.459201,41.319109 -92.45918,41.318339 -92.459498,41.318339 -92.46034,41.318339 -92.462097,41.318338 -92.462765,41.318338 -92.463854,41.318338 -92.464203,41.318337 -92.465251,41.318335 -92.465601,41.318335 -92.466335,41.318333 -92.468538,41.318327 -92.468683,41.318327 -92.468669,41.318916</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

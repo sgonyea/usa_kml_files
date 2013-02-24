@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ogdensburg</name>
+<Schema name="ogdensburg" id="ogdensburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ogdensburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ogdensburg">
+		<SimpleData name="Name">Ogdensburg</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">59475</SimpleData>
+		<SimpleData name="PLACENS">01583854</SimpleData>
+		<SimpleData name="GEOID">5559475</SimpleData>
+		<SimpleData name="NAMELSAD">Ogdensburg village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2481115</SimpleData>
+		<SimpleData name="AWATER">136532</SimpleData>
+		<SimpleData name="INTPTLAT">+44.4571961</SimpleData>
+		<SimpleData name="INTPTLON">-089.0243628</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.041925,44.450329 -89.041827,44.453492 -89.041827,44.453918 -89.041812,44.45614 -89.0418,44.457348 -89.041793,44.458039 -89.041743,44.460831 -89.03665,44.460876 -89.026389,44.460781 -89.021307,44.460706 -89.021348,44.454701 -89.021409,44.449769 -89.021421,44.448259 -89.021445,44.446116 -89.031349,44.446453 -89.031634,44.446456 -89.031782,44.446459 -89.033515,44.446447 -89.033628,44.446447 -89.035329,44.446436 -89.035614,44.446436 -89.035925,44.446433 -89.041876,44.446394 -89.041925,44.450329</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>renwick</name>
+<Schema name="renwick" id="renwick">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Renwick</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#renwick">
+		<SimpleData name="Name">Renwick</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">66450</SimpleData>
+		<SimpleData name="PLACENS">02396351</SimpleData>
+		<SimpleData name="GEOID">1966450</SimpleData>
+		<SimpleData name="NAMELSAD">Renwick city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2599909</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8269156</SimpleData>
+		<SimpleData name="INTPTLON">-093.9813336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.991244,42.834189 -93.990031,42.834191 -93.989451,42.834192 -93.989172,42.834197 -93.981146,42.834156 -93.980987,42.834171 -93.972467,42.834128 -93.971896,42.834126 -93.971473,42.834124 -93.971479,42.833265 -93.971472,42.831174 -93.971474,42.830472 -93.971476,42.830022 -93.971475,42.829892 -93.971466,42.829154 -93.97146,42.828697 -93.971458,42.828445 -93.971464,42.827893 -93.971475,42.826942 -93.971475,42.826881 -93.971473,42.826156 -93.971472,42.825838 -93.971473,42.824777 -93.971474,42.824033 -93.971455,42.820981 -93.971465,42.819704 -93.971465,42.8197 -93.972526,42.819597 -93.981691,42.819673 -93.991161,42.819695 -93.991244,42.834189</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

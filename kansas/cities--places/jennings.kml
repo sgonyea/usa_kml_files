@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>jennings</name>
+<Schema name="jennings" id="jennings">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Jennings</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jennings">
+		<SimpleData name="Name">Jennings</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">35375</SimpleData>
+		<SimpleData name="PLACENS">02395466</SimpleData>
+		<SimpleData name="GEOID">2035375</SimpleData>
+		<SimpleData name="NAMELSAD">Jennings city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">694142</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6805466</SimpleData>
+		<SimpleData name="INTPTLON">-100.2932083</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.297791,39.678834 -100.29773,39.680716 -100.297718,39.68119 -100.297686,39.682035 -100.296587,39.682029 -100.296601,39.683238 -100.296976,39.683232 -100.291944,39.685375 -100.291952,39.686759 -100.291637,39.686778 -100.290615,39.68678 -100.290382,39.686789 -100.290218,39.686801 -100.290041,39.686829 -100.289956,39.68685 -100.289376,39.686777 -100.289405,39.68499 -100.289412,39.684625 -100.289413,39.684421 -100.289423,39.684093 -100.289444,39.683224 -100.289473,39.681358 -100.289581,39.676022 -100.291986,39.675983 -100.294657,39.676007 -100.295206,39.676007 -100.29599,39.675995 -100.297517,39.675994 -100.297675,39.675963 -100.297885,39.675972 -100.297791,39.678834</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

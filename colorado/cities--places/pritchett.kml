@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pritchett</name>
+<Schema name="pritchett" id="pritchett">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pritchett</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pritchett">
+		<SimpleData name="Name">Pritchett</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">61315</SimpleData>
+		<SimpleData name="PLACENS">02412509</SimpleData>
+		<SimpleData name="GEOID">0861315</SimpleData>
+		<SimpleData name="NAMELSAD">Pritchett town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">603596</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.3700091</SimpleData>
+		<SimpleData name="INTPTLON">-102.8587491</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.862471,37.36592 -102.86249,37.366074 -102.86266,37.366775 -102.862668,37.367477 -102.862666,37.368525 -102.862665,37.369572 -102.862658,37.370667 -102.862667,37.371727 -102.86268,37.373171 -102.862672,37.373717 -102.862272,37.373717 -102.861384,37.373713 -102.860824,37.37371 -102.86083,37.374709 -102.860539,37.374701 -102.860528,37.374422 -102.860031,37.374421 -102.860033,37.373699 -102.854632,37.373791 -102.854532,37.36831 -102.854548,37.367682 -102.854544,37.367383 -102.85454,37.367083 -102.854539,37.366932 -102.860191,37.365929 -102.862501,37.36552 -102.862471,37.36592</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

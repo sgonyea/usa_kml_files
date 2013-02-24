@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>madrid</name>
+<Schema name="madrid" id="madrid">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Madrid</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#madrid">
+		<SimpleData name="Name">Madrid</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">45904</SimpleData>
+		<SimpleData name="PLACENS">02406075</SimpleData>
+		<SimpleData name="GEOID">0145904</SimpleData>
+		<SimpleData name="NAMELSAD">Madrid town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5025805</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+31.0357714</SimpleData>
+		<SimpleData name="INTPTLON">-085.3978454</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.415989,31.036016 -85.415989,31.036511 -85.416014,31.040353 -85.410854,31.042227 -85.410841,31.04311 -85.406276,31.04308 -85.406024,31.043078 -85.401888,31.043027 -85.394554,31.042935 -85.394388,31.042933 -85.388244,31.042954 -85.381414,31.042879 -85.381445,31.038807 -85.381454,31.037142 -85.381608,31.032436 -85.381663,31.030736 -85.381667,31.028242 -85.386794,31.028245 -85.389205,31.028289 -85.39213,31.028344 -85.394313,31.028372 -85.394606,31.028376 -85.395581,31.028498 -85.40684,31.028578 -85.407081,31.02858 -85.411001,31.02861 -85.412985,31.028609 -85.412986,31.032166 -85.412983,31.03346 -85.413159,31.033575 -85.416326,31.035642 -85.416889,31.036016 -85.415989,31.036016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

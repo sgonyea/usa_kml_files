@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>river_bend</name>
+<Schema name="river_bend" id="river_bend">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>River Bend</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#river_bend">
+		<SimpleData name="Name">River Bend</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">62056</SimpleData>
+		<SimpleData name="PLACENS">02399083</SimpleData>
+		<SimpleData name="GEOID">2962056</SimpleData>
+		<SimpleData name="NAMELSAD">River Bend village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3937863</SimpleData>
+		<SimpleData name="AWATER">582366</SimpleData>
+		<SimpleData name="INTPTLAT">+39.1779480</SimpleData>
+		<SimpleData name="INTPTLON">-094.3898141</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.409025,39.192104 -94.408628,39.193603 -94.407228,39.195303 -94.402128,39.197003 -94.401782,39.197001 -94.401725,39.197001 -94.401632,39.196993 -94.401512,39.19698 -94.401267,39.196955 -94.395028,39.196303 -94.390694,39.194013 -94.389728,39.193503 -94.389287,39.192936 -94.387817,39.191052 -94.384828,39.187204 -94.38409,39.185218 -94.38232,39.180456 -94.381089,39.176358 -94.380098,39.17345 -94.378845,39.171104 -94.378494,39.170365 -94.378784,39.170335 -94.379208,39.170291 -94.379564,39.171104 -94.38002,39.171866 -94.382337,39.17181 -94.385086,39.171742 -94.389668,39.171245 -94.393998,39.170723 -94.394056,39.170997 -94.39479,39.170997 -94.395104,39.17095 -94.395159,39.170943 -94.395248,39.171227 -94.395228,39.171648 -94.395062,39.175078 -94.395126,39.175979 -94.39877,39.175978 -94.400426,39.175983 -94.402309,39.180447 -94.402339,39.180517 -94.402412,39.180693 -94.40251,39.180933 -94.402582,39.181109 -94.402619,39.1812 -94.403085,39.181982 -94.409025,39.192104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

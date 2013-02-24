@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lewiston</name>
+<Schema name="lewiston" id="lewiston">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lewiston</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lewiston">
+		<SimpleData name="Name">Lewiston</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">26875</SimpleData>
+		<SimpleData name="PLACENS">02398429</SimpleData>
+		<SimpleData name="GEOID">3126875</SimpleData>
+		<SimpleData name="NAMELSAD">Lewiston village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">268545</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2428708</SimpleData>
+		<SimpleData name="INTPTLON">-096.4074482</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.412211,40.244109 -96.410835,40.24412 -96.410843,40.24457 -96.407371,40.244555 -96.406234,40.244555 -96.403815,40.24454 -96.403483,40.244555 -96.403483,40.245005 -96.403169,40.245005 -96.403189,40.24454 -96.402936,40.244557 -96.402945,40.243055 -96.402935,40.242202 -96.402921,40.241764 -96.404959,40.241729 -96.407364,40.241392 -96.407364,40.241368 -96.40736,40.240626 -96.410872,40.240563 -96.410886,40.240935 -96.410941,40.243041 -96.411169,40.243042 -96.411997,40.243043 -96.412209,40.243048 -96.412211,40.244109</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

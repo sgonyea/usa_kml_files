@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>clermont</name>
+<Schema name="clermont" id="clermont">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Clermont</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clermont">
+		<SimpleData name="Name">Clermont</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">14250</SimpleData>
+		<SimpleData name="PLACENS">02393559</SimpleData>
+		<SimpleData name="GEOID">1914250</SimpleData>
+		<SimpleData name="NAMELSAD">Clermont city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3181839</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0001627</SimpleData>
+		<SimpleData name="INTPTLON">-091.6523114</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.665403,42.996755 -91.665334,42.997881 -91.665305,42.999629 -91.664788,43.007766 -91.657487,43.007665 -91.657237,43.00766 -91.65612,43.007671 -91.655454,43.007678 -91.655194,43.007701 -91.653215,43.007733 -91.647239,43.007738 -91.642917,43.007682 -91.64293,43.00049 -91.642919,42.99998 -91.642807,42.999981 -91.642846,42.999254 -91.642845,42.999194 -91.640463,42.99898 -91.639571,42.998872 -91.637418,42.998612 -91.637433,42.997702 -91.636917,42.997668 -91.636831,42.997668 -91.636845,42.998577 -91.636359,42.998545 -91.635625,42.998499 -91.635436,42.9934 -91.63612,42.993402 -91.642759,42.993441 -91.650541,42.993496 -91.656683,42.993829 -91.657069,42.993852 -91.659189,42.994016 -91.659285,42.994024 -91.659614,42.994008 -91.659987,42.993967 -91.662345,42.993984 -91.662993,42.993988 -91.663592,42.993992 -91.664623,42.994 -91.665001,42.994074 -91.66544,42.994064 -91.665468,42.99444 -91.665403,42.996755</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>conesville</name>
+<Schema name="conesville" id="conesville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Conesville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#conesville">
+		<SimpleData name="Name">Conesville</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">15645</SimpleData>
+		<SimpleData name="PLACENS">02393618</SimpleData>
+		<SimpleData name="GEOID">1915645</SimpleData>
+		<SimpleData name="NAMELSAD">Conesville city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">928632</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3796769</SimpleData>
+		<SimpleData name="INTPTLON">-091.3485847</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.352163,41.373328 -91.352148,41.374644 -91.352107,41.375939 -91.352101,41.376206 -91.352071,41.377646 -91.352047,41.378782 -91.352029,41.379647 -91.351971,41.38321 -91.351925,41.386798 -91.351917,41.386926 -91.350172,41.38694 -91.349891,41.386963 -91.349502,41.386952 -91.349118,41.386947 -91.348851,41.386944 -91.345078,41.386909 -91.344988,41.386908 -91.345162,41.379766 -91.345277,41.375012 -91.345332,41.372943 -91.345338,41.372706 -91.345332,41.372289 -91.346903,41.372303 -91.347925,41.372299 -91.348219,41.372284 -91.348494,41.372259 -91.350062,41.372061 -91.350059,41.372287 -91.350059,41.372303 -91.350057,41.372533 -91.350053,41.372865 -91.351229,41.372701 -91.351638,41.372643 -91.352179,41.37257 -91.352163,41.373328</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

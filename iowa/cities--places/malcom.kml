@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>malcom</name>
+<Schema name="malcom" id="malcom">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Malcom</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#malcom">
+		<SimpleData name="Name">Malcom</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">48540</SimpleData>
+		<SimpleData name="PLACENS">02395821</SimpleData>
+		<SimpleData name="GEOID">1948540</SimpleData>
+		<SimpleData name="NAMELSAD">Malcom city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1583600</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7075959</SimpleData>
+		<SimpleData name="INTPTLON">-092.5574629</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.565312,41.702564 -92.565229,41.70614 -92.565182,41.708044 -92.565173,41.708297 -92.565079,41.712256 -92.565027,41.712255 -92.56507,41.713233 -92.560018,41.713179 -92.554767,41.713137 -92.552052,41.713119 -92.550748,41.713107 -92.54975,41.713099 -92.549767,41.712053 -92.549764,41.711509 -92.549727,41.70377 -92.549719,41.702193 -92.549717,41.701992 -92.552149,41.702013 -92.556856,41.702061 -92.561805,41.702121 -92.563902,41.70213 -92.565317,41.702141 -92.565312,41.702564</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

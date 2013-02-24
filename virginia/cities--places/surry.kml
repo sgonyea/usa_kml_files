@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>surry</name>
+<Schema name="surry" id="surry">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Surry</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#surry">
+		<SimpleData name="Name">Surry</SimpleData>
+		<SimpleData name="STATEFP">51</SimpleData>
+		<SimpleData name="PLACEFP">76880</SimpleData>
+		<SimpleData name="PLACENS">02391434</SimpleData>
+		<SimpleData name="GEOID">5176880</SimpleData>
+		<SimpleData name="NAMELSAD">Surry town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2141656</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.1370707</SimpleData>
+		<SimpleData name="INTPTLON">-076.8332750</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.842119,37.137997 -76.841549,37.13918 -76.840094,37.142186 -76.838594,37.145839 -76.833179,37.142828 -76.832556,37.143419 -76.831901,37.143271 -76.825251,37.141453 -76.82305,37.140865 -76.822924,37.138562 -76.822834,37.13672 -76.822778,37.135632 -76.822759,37.135288 -76.823451,37.135291 -76.830837,37.130289 -76.832129,37.129414 -76.833663,37.12837 -76.834925,37.12951 -76.837535,37.13046 -76.83882,37.13094 -76.838745,37.131395 -76.838452,37.131752 -76.840303,37.132755 -76.843757,37.134627 -76.842119,37.137997</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

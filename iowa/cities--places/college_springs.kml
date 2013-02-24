@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>college_springs</name>
+<Schema name="college_springs" id="college_springs">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>College Springs</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#college_springs">
+		<SimpleData name="Name">College Springs</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">15105</SimpleData>
+		<SimpleData name="PLACENS">02393596</SimpleData>
+		<SimpleData name="GEOID">1915105</SimpleData>
+		<SimpleData name="NAMELSAD">College Springs city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2836545</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6212899</SimpleData>
+		<SimpleData name="INTPTLON">-095.1211184</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.130583,40.619429 -95.1306,40.624158 -95.130601,40.624187 -95.13076,40.624992 -95.130708,40.62921 -95.125793,40.629156 -95.125257,40.629151 -95.122612,40.629203 -95.120877,40.629202 -95.111352,40.629198 -95.11135,40.624991 -95.111754,40.624061 -95.111768,40.624026 -95.111768,40.620277 -95.111743,40.616909 -95.111802,40.613317 -95.116557,40.613172 -95.116689,40.613189 -95.117147,40.61321 -95.117915,40.613226 -95.118578,40.613247 -95.118849,40.613251 -95.119009,40.613269 -95.119132,40.613317 -95.119156,40.613333 -95.119841,40.613325 -95.12043,40.61331 -95.121972,40.613307 -95.122805,40.613295 -95.122909,40.613276 -95.123594,40.613272 -95.124367,40.613294 -95.124419,40.613296 -95.124968,40.613312 -95.125277,40.613314 -95.125453,40.61329 -95.125568,40.613263 -95.125594,40.613248 -95.125871,40.613291 -95.126325,40.613312 -95.127595,40.613331 -95.130535,40.613349 -95.130583,40.619429</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

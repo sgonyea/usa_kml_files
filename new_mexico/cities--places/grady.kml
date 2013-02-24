@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>grady</name>
+<Schema name="grady" id="grady">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Grady</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#grady">
+		<SimpleData name="Name">Grady</SimpleData>
+		<SimpleData name="STATEFP">35</SimpleData>
+		<SimpleData name="PLACEFP">30210</SimpleData>
+		<SimpleData name="PLACENS">02413554</SimpleData>
+		<SimpleData name="GEOID">3530210</SimpleData>
+		<SimpleData name="NAMELSAD">Grady village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">643440</SimpleData>
+		<SimpleData name="AWATER">263</SimpleData>
+		<SimpleData name="INTPTLAT">+34.8209923</SimpleData>
+		<SimpleData name="INTPTLON">-103.3149922</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.319946,34.818645 -103.319946,34.819466 -103.319916,34.820503 -103.319885,34.821011 -103.31987,34.821507 -103.31987,34.822079 -103.319862,34.822514 -103.31987,34.823345 -103.319868,34.823562 -103.31986,34.824426 -103.319855,34.824978 -103.319855,34.825145 -103.316163,34.825153 -103.314724,34.825147 -103.311205,34.825163 -103.31118,34.824963 -103.311218,34.824585 -103.311219,34.824538 -103.311226,34.824154 -103.311226,34.823503 -103.311226,34.822498 -103.311234,34.821865 -103.311218,34.821476 -103.311176,34.820395 -103.311154,34.819484 -103.311133,34.818636 -103.311114,34.817868 -103.316256,34.817835 -103.317398,34.817909 -103.319931,34.817863 -103.319946,34.818645</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>geneva</name>
+<Schema name="geneva" id="geneva">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Geneva</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#geneva">
+		<SimpleData name="Name">Geneva</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">30135</SimpleData>
+		<SimpleData name="PLACENS">02394877</SimpleData>
+		<SimpleData name="GEOID">1930135</SimpleData>
+		<SimpleData name="NAMELSAD">Geneva city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1094070</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.6747981</SimpleData>
+		<SimpleData name="INTPTLON">-093.1297657</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.13458,42.672331 -93.134516,42.675929 -93.134506,42.679783 -93.134563,42.682018 -93.13065,42.681999 -93.130599,42.681937 -93.130333,42.681288 -93.130126,42.680717 -93.129821,42.679883 -93.129782,42.679765 -93.129503,42.679764 -93.129326,42.679764 -93.127651,42.679768 -93.12708,42.679769 -93.126578,42.679776 -93.125989,42.679783 -93.125147,42.679785 -93.124354,42.679777 -93.124481,42.679021 -93.124546,42.672362 -93.124569,42.671784 -93.124561,42.668753 -93.125602,42.66876 -93.12964,42.668765 -93.134628,42.668756 -93.13458,42.672331</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dwight</name>
+<Schema name="dwight" id="dwight">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dwight</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dwight">
+		<SimpleData name="Name">Dwight</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">14065</SimpleData>
+		<SimpleData name="PLACENS">02398765</SimpleData>
+		<SimpleData name="GEOID">3114065</SimpleData>
+		<SimpleData name="NAMELSAD">Dwight village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">635526</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0827114</SimpleData>
+		<SimpleData name="INTPTLON">-097.0190730</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.023761,41.079104 -97.023768,41.079525 -97.023785,41.080446 -97.023788,41.080583 -97.023785,41.081117 -97.023788,41.081401 -97.023794,41.081973 -97.0238,41.082476 -97.023796,41.08356 -97.023794,41.083897 -97.023802,41.084535 -97.023802,41.084622 -97.023801,41.085601 -97.023801,41.086175 -97.018111,41.086196 -97.013948,41.08621 -97.013909,41.082459 -97.013942,41.082355 -97.013965,41.08204 -97.013976,41.081379 -97.013969,41.081158 -97.013969,41.080771 -97.013972,41.080427 -97.01397,41.080069 -97.017775,41.080093 -97.017383,41.078804 -97.021988,41.078808 -97.023761,41.07881 -97.023761,41.079104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

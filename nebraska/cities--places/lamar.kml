@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lamar</name>
+<Schema name="lamar" id="lamar">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lamar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lamar">
+		<SimpleData name="Name">Lamar</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">26175</SimpleData>
+		<SimpleData name="PLACENS">02398392</SimpleData>
+		<SimpleData name="GEOID">3126175</SimpleData>
+		<SimpleData name="NAMELSAD">Lamar village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">204597</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5724745</SimpleData>
+		<SimpleData name="INTPTLON">-101.9792835</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.982669,40.574215 -101.982671,40.574289 -101.982578,40.574277 -101.982441,40.57426 -101.981337,40.574167 -101.979144,40.574023 -101.978463,40.574009 -101.978359,40.574007 -101.978218,40.574007 -101.978137,40.574018 -101.977889,40.574054 -101.977631,40.574054 -101.977302,40.574054 -101.976903,40.574007 -101.97655,40.57396 -101.976139,40.573866 -101.975939,40.573784 -101.975869,40.573725 -101.975856,40.57352 -101.975733,40.570993 -101.975728,40.570905 -101.978451,40.570886 -101.981006,40.570868 -101.982588,40.570858 -101.982669,40.574215</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

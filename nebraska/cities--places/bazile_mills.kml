@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bazile_mills</name>
+<Schema name="bazile_mills" id="bazile_mills">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bazile Mills</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bazile_mills">
+		<SimpleData name="Name">Bazile Mills</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">03355</SimpleData>
+		<SimpleData name="PLACENS">02398054</SimpleData>
+		<SimpleData name="GEOID">3103355</SimpleData>
+		<SimpleData name="NAMELSAD">Bazile Mills village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1265027</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5124363</SimpleData>
+		<SimpleData name="INTPTLON">-097.9083289</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.916079,42.512442 -97.91608,42.512621 -97.916083,42.513805 -97.916092,42.514524 -97.91613,42.517445 -97.912619,42.517436 -97.904952,42.517416 -97.903113,42.517411 -97.901777,42.517408 -97.901778,42.515146 -97.901779,42.513476 -97.90178,42.511841 -97.901789,42.51032 -97.901764,42.509479 -97.90173,42.50901 -97.901745,42.508634 -97.901695,42.506506 -97.905091,42.506504 -97.911089,42.506501 -97.911111,42.509906 -97.911112,42.510087 -97.911304,42.510086 -97.911578,42.510083 -97.913332,42.51009 -97.91427,42.510094 -97.915732,42.510087 -97.916048,42.510079 -97.916079,42.512442</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

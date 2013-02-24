@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>byron</name>
+<Schema name="byron" id="byron">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Byron</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#byron">
+		<SimpleData name="Name">Byron</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">10650</SimpleData>
+		<SimpleData name="PLACENS">02413145</SimpleData>
+		<SimpleData name="GEOID">4010650</SimpleData>
+		<SimpleData name="NAMELSAD">Byron town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">621426</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.9014625</SimpleData>
+		<SimpleData name="INTPTLON">-098.2945687</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.298298,36.898565 -98.298125,36.905779 -98.29801,36.905753 -98.297895,36.90572 -98.29766,36.905729 -98.297368,36.905728 -98.297261,36.90572 -98.297125,36.905721 -98.297051,36.905682 -98.296991,36.905629 -98.289408,36.905811 -98.289415,36.904862 -98.289418,36.904753 -98.291441,36.904715 -98.291471,36.902807 -98.291504,36.900661 -98.291509,36.900523 -98.289485,36.900553 -98.289483,36.900492 -98.289482,36.900437 -98.289434,36.898778 -98.292159,36.898676 -98.292141,36.898539 -98.292078,36.89805 -98.292842,36.897446 -98.295649,36.89745 -98.295704,36.896601 -98.298359,36.896559 -98.298298,36.898565</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

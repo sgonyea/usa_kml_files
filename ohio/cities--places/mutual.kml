@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mutual</name>
+<Schema name="mutual" id="mutual">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mutual</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mutual">
+		<SimpleData name="Name">Mutual</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">53480</SimpleData>
+		<SimpleData name="PLACENS">02399433</SimpleData>
+		<SimpleData name="GEOID">3953480</SimpleData>
+		<SimpleData name="NAMELSAD">Mutual village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">344907</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0794473</SimpleData>
+		<SimpleData name="INTPTLON">-083.6370036</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.640781,40.07734 -83.640601,40.078659 -83.640541,40.0791 -83.640434,40.07996 -83.640144,40.082304 -83.639903,40.082293 -83.639037,40.082256 -83.637854,40.082161 -83.634308,40.081877 -83.634189,40.081868 -83.634233,40.080803 -83.634264,40.080242 -83.633788,40.080252 -83.631503,40.080302 -83.631534,40.079475 -83.631573,40.078438 -83.631679,40.078438 -83.632143,40.078433 -83.632529,40.078429 -83.63273,40.078427 -83.633855,40.078412 -83.634426,40.078405 -83.634749,40.078401 -83.635423,40.078393 -83.635718,40.078405 -83.636042,40.078419 -83.636414,40.077364 -83.636933,40.075896 -83.638659,40.076401 -83.639733,40.076716 -83.639823,40.076719 -83.639955,40.076743 -83.640619,40.076864 -83.640729,40.076884 -83.640842,40.0769 -83.640781,40.07734</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

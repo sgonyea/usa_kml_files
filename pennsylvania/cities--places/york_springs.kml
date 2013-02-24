@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>york_springs</name>
+<Schema name="york_springs" id="york_springs">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>York Springs</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#york_springs">
+		<SimpleData name="Name">York Springs</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">87136</SimpleData>
+		<SimpleData name="PLACENS">01214762</SimpleData>
+		<SimpleData name="GEOID">4287136</SimpleData>
+		<SimpleData name="NAMELSAD">York Springs borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">556962</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0093587</SimpleData>
+		<SimpleData name="INTPTLON">-077.1157553</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.123558,40.014622 -77.12113,40.015292 -77.121043,40.015328 -77.120918,40.01538 -77.119822,40.015994 -77.119536,40.016154 -77.119238,40.015815 -77.119173,40.015741 -77.11717,40.013471 -77.116834,40.01311 -77.113527,40.009541 -77.112801,40.00847 -77.112691,40.008314 -77.112329,40.008016 -77.111713,40.007508 -77.111023,40.00694 -77.110956,40.006885 -77.110595,40.006561 -77.110021,40.006025 -77.109988,40.005994 -77.108475,40.004919 -77.10868,40.004639 -77.108813,40.004464 -77.108968,40.004261 -77.109096,40.004094 -77.109167,40.004004 -77.109448,40.003646 -77.109862,40.003175 -77.110403,40.002561 -77.110657,40.002288 -77.110834,40.002437 -77.111173,40.002722 -77.111592,40.003075 -77.112099,40.003463 -77.112589,40.003849 -77.112994,40.004212 -77.113052,40.004258 -77.115447,40.006199 -77.115659,40.006376 -77.116372,40.006971 -77.11702,40.007915 -77.11831,40.009421 -77.119423,40.011003 -77.119436,40.011022 -77.119596,40.011242 -77.120021,40.011829 -77.120581,40.012393 -77.121779,40.013074 -77.122929,40.013683 -77.122974,40.013757 -77.123282,40.014222 -77.123558,40.014622</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

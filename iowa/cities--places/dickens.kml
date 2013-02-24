@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dickens</name>
+<Schema name="dickens" id="dickens">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dickens</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dickens">
+		<SimpleData name="Name">Dickens</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">21360</SimpleData>
+		<SimpleData name="PLACENS">02394533</SimpleData>
+		<SimpleData name="GEOID">1921360</SimpleData>
+		<SimpleData name="NAMELSAD">Dickens city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2185268</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.1338273</SimpleData>
+		<SimpleData name="INTPTLON">-095.0221918</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.033085,43.132774 -95.033085,43.133062 -95.033085,43.134052 -95.033037,43.140171 -95.033028,43.14125 -95.022386,43.141245 -95.022091,43.141239 -95.022078,43.140994 -95.02189,43.137835 -95.01875,43.137871 -95.011772,43.137926 -95.011773,43.137212 -95.011773,43.135785 -95.011773,43.133979 -95.011808,43.130189 -95.011759,43.127664 -95.011735,43.126819 -95.011774,43.126819 -95.013831,43.126808 -95.019167,43.126778 -95.021062,43.126778 -95.023593,43.126791 -95.023995,43.126793 -95.02441,43.126795 -95.027141,43.126809 -95.026973,43.130756 -95.026954,43.131267 -95.033085,43.132774</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

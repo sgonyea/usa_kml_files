@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cosmos</name>
+<Schema name="cosmos" id="cosmos">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cosmos</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cosmos">
+		<SimpleData name="Name">Cosmos</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">13420</SimpleData>
+		<SimpleData name="PLACENS">02393643</SimpleData>
+		<SimpleData name="GEOID">2713420</SimpleData>
+		<SimpleData name="NAMELSAD">Cosmos city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2886754</SimpleData>
+		<SimpleData name="AWATER">62550</SimpleData>
+		<SimpleData name="INTPTLAT">+44.9353094</SimpleData>
+		<SimpleData name="INTPTLON">-094.6950045</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.706945,44.930226 -94.706916,44.936207 -94.706914,44.936755 -94.706881,44.942868 -94.705574,44.942862 -94.704339,44.942853 -94.702823,44.942855 -94.702111,44.942845 -94.699478,44.942842 -94.698041,44.942839 -94.697341,44.942837 -94.696966,44.942836 -94.696565,44.942823 -94.686314,44.942822 -94.686362,44.937193 -94.686366,44.935999 -94.686371,44.935606 -94.685839,44.935575 -94.684522,44.935543 -94.683917,44.935533 -94.68279,44.935514 -94.681777,44.93552 -94.680994,44.935525 -94.680409,44.935529 -94.677896,44.935514 -94.676064,44.935522 -94.676001,44.932265 -94.676027,44.931892 -94.676935,44.931904 -94.686382,44.93191 -94.686325,44.928264 -94.696302,44.928309 -94.696627,44.928306 -94.706937,44.928353 -94.706945,44.930226</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

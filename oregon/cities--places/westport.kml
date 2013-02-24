@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>westport</name>
+<Schema name="westport" id="westport">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Westport</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#westport">
+		<SimpleData name="Name">Westport</SimpleData>
+		<SimpleData name="STATEFP">41</SimpleData>
+		<SimpleData name="PLACEFP">80400</SimpleData>
+		<SimpleData name="PLACENS">02611784</SimpleData>
+		<SimpleData name="GEOID">4180400</SimpleData>
+		<SimpleData name="NAMELSAD">Westport CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1722325</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1303090</SimpleData>
+		<SimpleData name="INTPTLON">-123.3714146</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-123.381611,46.128278 -123.381402,46.12872 -123.380807,46.129216 -123.379953,46.129723 -123.379685,46.129994 -123.377847,46.131341 -123.376871,46.132496 -123.377306,46.132755 -123.377567,46.132904 -123.379688,46.134055 -123.379876,46.134159 -123.379442,46.135153 -123.383546,46.137671 -123.383296,46.137881 -123.383036,46.137972 -123.382776,46.137972 -123.382543,46.137972 -123.382322,46.138024 -123.382231,46.138115 -123.38205,46.138192 -123.381772,46.138365 -123.381063,46.13786 -123.38017,46.137427 -123.37941,46.137201 -123.378582,46.137123 -123.376557,46.136884 -123.376143,46.136909 -123.372861,46.13686 -123.372761,46.136857 -123.372236,46.13671 -123.368512,46.136621 -123.366771,46.136384 -123.364833,46.13596 -123.363868,46.135588 -123.363906,46.133788 -123.364023,46.128389 -123.364062,46.12659 -123.364075,46.126458 -123.3641,46.126232 -123.364099,46.126061 -123.364099,46.125929 -123.364099,46.125895 -123.364099,46.125796 -123.3641,46.125764 -123.36411,46.125285 -123.364111,46.124973 -123.364156,46.123084 -123.364219,46.120514 -123.366227,46.121487 -123.369592,46.122973 -123.373892,46.124888 -123.376375,46.125992 -123.380408,46.127788 -123.381611,46.128278</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

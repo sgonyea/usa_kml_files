@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>eldridge</name>
+<Schema name="eldridge" id="eldridge">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Eldridge</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#eldridge">
+		<SimpleData name="Name">Eldridge</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">23344</SimpleData>
+		<SimpleData name="PLACENS">02406431</SimpleData>
+		<SimpleData name="GEOID">0123344</SimpleData>
+		<SimpleData name="NAMELSAD">Eldridge town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1813734</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+33.9220177</SimpleData>
+		<SimpleData name="INTPTLON">-087.6201082</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.627168,33.926028 -87.623288,33.926021 -87.623219,33.929626 -87.622348,33.929628 -87.618521,33.929624 -87.618534,33.925866 -87.617432,33.925868 -87.616767,33.92597 -87.614329,33.926187 -87.614321,33.929236 -87.609839,33.929237 -87.609867,33.927425 -87.610252,33.923117 -87.61021,33.922195 -87.614467,33.92221 -87.614425,33.921415 -87.614392,33.918568 -87.61593,33.918576 -87.619719,33.918614 -87.620851,33.918638 -87.621801,33.91865 -87.622352,33.91865 -87.622353,33.918293 -87.622418,33.916601 -87.622478,33.915027 -87.622419,33.911432 -87.624132,33.911433 -87.624953,33.911309 -87.625477,33.911317 -87.626941,33.911259 -87.626949,33.912013 -87.627266,33.913526 -87.627264,33.913638 -87.62725,33.914977 -87.627212,33.918528 -87.627211,33.924567 -87.627168,33.926028</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

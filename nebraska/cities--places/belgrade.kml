@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>belgrade</name>
+<Schema name="belgrade" id="belgrade">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Belgrade</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#belgrade">
+		<SimpleData name="Name">Belgrade</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">03810</SimpleData>
+		<SimpleData name="PLACENS">02398071</SimpleData>
+		<SimpleData name="GEOID">3103810</SimpleData>
+		<SimpleData name="NAMELSAD">Belgrade village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">484496</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.4708407</SimpleData>
+		<SimpleData name="INTPTLON">-098.0677309</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.070711,41.470759 -98.070714,41.472084 -98.070635,41.473066 -98.070646,41.473161 -98.070634,41.47397 -98.070382,41.473968 -98.070331,41.475686 -98.070268,41.475689 -98.068421,41.47572 -98.068452,41.476181 -98.067765,41.476219 -98.067166,41.476272 -98.06719,41.474534 -98.065839,41.474607 -98.06598,41.473923 -98.065861,41.473875 -98.065837,41.473793 -98.065849,41.473365 -98.065877,41.472874 -98.06535,41.472861 -98.065065,41.472849 -98.065002,41.472833 -98.064142,41.471807 -98.06365,41.471297 -98.063647,41.471186 -98.063617,41.468738 -98.065159,41.468738 -98.065361,41.468694 -98.065346,41.46688 -98.066121,41.466916 -98.06615,41.466463 -98.066715,41.466462 -98.068109,41.466455 -98.068108,41.466486 -98.069239,41.466478 -98.069603,41.46647 -98.069846,41.466448 -98.070067,41.466386 -98.070235,41.466311 -98.070584,41.466104 -98.070698,41.466057 -98.070711,41.470759</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

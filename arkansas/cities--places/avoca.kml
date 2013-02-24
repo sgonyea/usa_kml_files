@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>avoca</name>
+<Schema name="avoca" id="avoca">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Avoca</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#avoca">
+		<SimpleData name="Name">Avoca</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">03040</SimpleData>
+		<SimpleData name="PLACENS">02405190</SimpleData>
+		<SimpleData name="GEOID">0503040</SimpleData>
+		<SimpleData name="NAMELSAD">Avoca town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4713643</SimpleData>
+		<SimpleData name="AWATER">2267</SimpleData>
+		<SimpleData name="INTPTLAT">+36.3937643</SimpleData>
+		<SimpleData name="INTPTLON">-094.0664382</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.086175,36.393407 -94.084186,36.393385 -94.083836,36.401368 -94.083605,36.407297 -94.083619,36.407556 -94.083393,36.408713 -94.073478,36.408217 -94.071086,36.408301 -94.06987,36.408267 -94.065687,36.408104 -94.063056,36.40804 -94.060542,36.408 -94.060545,36.407351 -94.060548,36.406887 -94.061597,36.406833 -94.061499,36.405562 -94.061839,36.400039 -94.061847,36.39991 -94.061379,36.399711 -94.06087,36.399493 -94.060607,36.399419 -94.060355,36.399432 -94.060333,36.399436 -94.060143,36.399466 -94.060064,36.399532 -94.059925,36.39965 -94.059722,36.399998 -94.059584,36.40029 -94.059525,36.400351 -94.059519,36.399959 -94.059506,36.399148 -94.059452,36.398915 -94.057976,36.398935 -94.058057,36.397209 -94.058102,36.396435 -94.058572,36.38836 -94.058699,36.386118 -94.061423,36.386157 -94.061517,36.384158 -94.064432,36.384214 -94.066381,36.384261 -94.066411,36.384343 -94.066463,36.3844 -94.066458,36.385956 -94.064378,36.385924 -94.064375,36.388061 -94.064378,36.389819 -94.071031,36.389985 -94.071799,36.389963 -94.074188,36.390043 -94.081644,36.390292 -94.084229,36.390448 -94.084251,36.391609 -94.084248,36.391995 -94.084242,36.392129 -94.086067,36.392118 -94.086175,36.393407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>scranton</name>
+<Schema name="scranton" id="scranton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Scranton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#scranton">
+		<SimpleData name="Name">Scranton</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">71500</SimpleData>
+		<SimpleData name="PLACENS">01036256</SimpleData>
+		<SimpleData name="GEOID">3871500</SimpleData>
+		<SimpleData name="NAMELSAD">Scranton city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2322813</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.1466933</SimpleData>
+		<SimpleData name="INTPTLON">-103.1427165</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.15378,46.135181 -103.141255,46.135139 -103.141259,46.137623 -103.141251,46.140627 -103.141247,46.142028 -103.143509,46.142219 -103.14538,46.142385 -103.146032,46.144074 -103.146075,46.144127 -103.151357,46.145593 -103.151451,46.147564 -103.151566,46.148133 -103.151548,46.149073 -103.151503,46.150231 -103.151547,46.154446 -103.151604,46.155686 -103.144303,46.155692 -103.143575,46.155695 -103.143583,46.156217 -103.143628,46.159278 -103.140779,46.15929 -103.14083,46.158538 -103.140859,46.157899 -103.140875,46.157544 -103.140882,46.157318 -103.140892,46.15663 -103.140894,46.156194 -103.140892,46.155707 -103.135869,46.155744 -103.135866,46.147896 -103.135855,46.142362 -103.135855,46.14205 -103.135866,46.141747 -103.135864,46.141096 -103.135786,46.133669 -103.140885,46.133678 -103.153728,46.133682 -103.15378,46.135181</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

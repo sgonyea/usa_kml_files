@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wasco</name>
+<Schema name="wasco" id="wasco">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wasco</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wasco">
+		<SimpleData name="Name">Wasco</SimpleData>
+		<SimpleData name="STATEFP">41</SimpleData>
+		<SimpleData name="PLACEFP">78950</SimpleData>
+		<SimpleData name="PLACENS">02412186</SimpleData>
+		<SimpleData name="GEOID">4178950</SimpleData>
+		<SimpleData name="NAMELSAD">Wasco city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2603416</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.5916658</SimpleData>
+		<SimpleData name="INTPTLON">-120.6974942</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-120.707912,45.584995 -120.707841,45.591763 -120.707699,45.598714 -120.707694,45.598994 -120.707692,45.599022 -120.706653,45.599015 -120.697592,45.598953 -120.697471,45.598952 -120.687185,45.598936 -120.687317,45.59172 -120.687315,45.591632 -120.687309,45.591368 -120.687308,45.59128 -120.687354,45.5876 -120.687361,45.58714 -120.685615,45.587133 -120.685636,45.585593 -120.686826,45.586104 -120.687272,45.586296 -120.687364,45.586336 -120.687362,45.585818 -120.687363,45.584727 -120.687364,45.584439 -120.697694,45.58444 -120.707936,45.584445 -120.707912,45.584995</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

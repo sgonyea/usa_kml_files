@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hilltop</name>
+<Schema name="hilltop" id="hilltop">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hilltop</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hilltop">
+		<SimpleData name="Name">Hilltop</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">29258</SimpleData>
+		<SimpleData name="PLACENS">02394389</SimpleData>
+		<SimpleData name="GEOID">2729258</SimpleData>
+		<SimpleData name="NAMELSAD">Hilltop city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">310174</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.0535636</SimpleData>
+		<SimpleData name="INTPTLON">-093.2501286</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.252569,45.050315 -93.252548,45.051065 -93.252557,45.051759 -93.25266,45.052704 -93.252586,45.053517 -93.252578,45.053602 -93.252581,45.053815 -93.252575,45.05428 -93.252572,45.05449 -93.25256,45.055391 -93.252579,45.057208 -93.250627,45.057202 -93.249321,45.057191 -93.248023,45.057174 -93.247708,45.057171 -93.247705,45.055394 -93.247707,45.054418 -93.247706,45.053827 -93.247706,45.053592 -93.247694,45.052672 -93.247682,45.051855 -93.247677,45.051627 -93.247645,45.051266 -93.247591,45.051005 -93.247553,45.050761 -93.247526,45.049978 -93.248738,45.049974 -93.249974,45.049962 -93.25125,45.049967 -93.252563,45.049974 -93.252569,45.050315</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

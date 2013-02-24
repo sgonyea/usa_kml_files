@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lakota</name>
+<Schema name="lakota" id="lakota">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lakota</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lakota">
+		<SimpleData name="Name">Lakota</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">44300</SimpleData>
+		<SimpleData name="PLACENS">01036113</SimpleData>
+		<SimpleData name="GEOID">3844300</SimpleData>
+		<SimpleData name="NAMELSAD">Lakota city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2673998</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.0426670</SimpleData>
+		<SimpleData name="INTPTLON">-098.3467853</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.357719,48.035637 -98.357743,48.040223 -98.357746,48.040819 -98.357749,48.041431 -98.357566,48.045516 -98.357624,48.050116 -98.357117,48.050116 -98.355149,48.050114 -98.347824,48.050121 -98.346799,48.050121 -98.346342,48.050121 -98.345762,48.050121 -98.344917,48.050121 -98.335982,48.050112 -98.335992,48.046722 -98.335985,48.044895 -98.335984,48.043951 -98.335988,48.043181 -98.335989,48.042842 -98.335992,48.042229 -98.335999,48.041235 -98.33601,48.039908 -98.336014,48.039471 -98.336011,48.039134 -98.336,48.037759 -98.335994,48.037042 -98.335997,48.036418 -98.335999,48.035633 -98.335995,48.035368 -98.335992,48.035133 -98.338426,48.035126 -98.338941,48.035125 -98.3414,48.035128 -98.342734,48.03513 -98.34482,48.035132 -98.345012,48.035136 -98.345936,48.035155 -98.346947,48.035175 -98.34812,48.035199 -98.349788,48.035297 -98.350644,48.035336 -98.350986,48.035352 -98.351559,48.035367 -98.352299,48.035387 -98.352985,48.035405 -98.357718,48.035408 -98.357719,48.035637</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

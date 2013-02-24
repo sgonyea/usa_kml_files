@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>marietta</name>
+<Schema name="marietta" id="marietta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Marietta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#marietta">
+		<SimpleData name="Name">Marietta</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">46825</SimpleData>
+		<SimpleData name="PLACENS">02399255</SimpleData>
+		<SimpleData name="GEOID">1746825</SimpleData>
+		<SimpleData name="NAMELSAD">Marietta village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">708064</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4994497</SimpleData>
+		<SimpleData name="INTPTLON">-090.3930160</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.398047,40.500924 -90.398044,40.501231 -90.397936,40.501233 -90.397944,40.501443 -90.397954,40.50232 -90.39795,40.502534 -90.397954,40.502659 -90.397969,40.502991 -90.397959,40.503275 -90.397959,40.503324 -90.388313,40.503229 -90.388289,40.50251 -90.388234,40.502474 -90.388197,40.502415 -90.388184,40.502344 -90.388172,40.501617 -90.388152,40.501165 -90.388126,40.50043 -90.388125,40.500283 -90.388123,40.499857 -90.388107,40.499056 -90.388113,40.498397 -90.388105,40.498324 -90.388081,40.498257 -90.38804,40.498202 -90.388005,40.498178 -90.388006,40.495804 -90.388007,40.495456 -90.397989,40.495879 -90.397993,40.496893 -90.398002,40.497253 -90.398,40.497977 -90.398008,40.4987 -90.398027,40.499421 -90.398034,40.5005 -90.398047,40.500924</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>freeburg</name>
+<Schema name="freeburg" id="freeburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Freeburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#freeburg">
+		<SimpleData name="Name">Freeburg</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">27696</SimpleData>
+		<SimpleData name="PLACENS">01215575</SimpleData>
+		<SimpleData name="GEOID">4227696</SimpleData>
+		<SimpleData name="NAMELSAD">Freeburg borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">825866</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7624974</SimpleData>
+		<SimpleData name="INTPTLON">-076.9408775</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.948914,40.762988 -76.948433,40.763167 -76.947904,40.763343 -76.947331,40.763548 -76.945847,40.764069 -76.945756,40.764101 -76.945406,40.764218 -76.945422,40.764237 -76.944808,40.764449 -76.944316,40.764602 -76.944276,40.764617 -76.943976,40.764728 -76.943362,40.764943 -76.942831,40.765141 -76.942418,40.765281 -76.942321,40.765323 -76.942266,40.765355 -76.942181,40.765426 -76.942043,40.765356 -76.941855,40.765252 -76.941735,40.765165 -76.941531,40.765267 -76.941063,40.76548 -76.940799,40.765591 -76.940635,40.765666 -76.940495,40.765721 -76.940448,40.765741 -76.939742,40.766045 -76.939218,40.766284 -76.938922,40.766425 -76.938684,40.766525 -76.93819,40.766745 -76.93785,40.766908 -76.937351,40.767127 -76.936957,40.767309 -76.936546,40.767486 -76.936264,40.767613 -76.936051,40.767708 -76.934143,40.765721 -76.933523,40.765075 -76.933313,40.764859 -76.933261,40.764808 -76.932184,40.763677 -76.933182,40.763125 -76.934413,40.762444 -76.93571,40.761724 -76.937832,40.760548 -76.938807,40.760012 -76.939248,40.75977 -76.941218,40.758688 -76.941552,40.758501 -76.943886,40.757194 -76.944026,40.757116 -76.944701,40.756739 -76.945211,40.757438 -76.945602,40.757973 -76.946049,40.758585 -76.946183,40.758769 -76.946372,40.759028 -76.948178,40.761503 -76.949194,40.762898 -76.948914,40.762988</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

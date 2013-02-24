@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>kingston_mines</name>
+<Schema name="kingston_mines" id="kingston_mines">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Kingston Mines</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#kingston_mines">
+		<SimpleData name="Name">Kingston Mines</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">40091</SimpleData>
+		<SimpleData name="PLACENS">02398355</SimpleData>
+		<SimpleData name="GEOID">1740091</SimpleData>
+		<SimpleData name="NAMELSAD">Kingston Mines village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3564235</SimpleData>
+		<SimpleData name="AWATER">382318</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5584307</SimpleData>
+		<SimpleData name="INTPTLON">-089.7706336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.784372,40.555847 -89.784415,40.556436 -89.784472,40.560197 -89.784558,40.565827 -89.778902,40.565837 -89.77514,40.565844 -89.774603,40.565847 -89.772994,40.56586 -89.772458,40.565865 -89.772149,40.56587 -89.771224,40.565888 -89.770916,40.565894 -89.770631,40.565895 -89.769778,40.565902 -89.769494,40.565904 -89.768723,40.565908 -89.76641,40.565924 -89.76564,40.565929 -89.763675,40.565941 -89.75778,40.565979 -89.755816,40.565992 -89.755812,40.565761 -89.755803,40.565071 -89.7558,40.564841 -89.755786,40.56404 -89.755744,40.561637 -89.75573,40.560836 -89.75573,40.560779 -89.755731,40.560609 -89.755732,40.560553 -89.75573,40.560493 -89.755725,40.560313 -89.755724,40.560254 -89.755713,40.560034 -89.755681,40.559377 -89.755671,40.559158 -89.755659,40.557795 -89.755626,40.553707 -89.755615,40.552345 -89.755613,40.552194 -89.75561,40.551741 -89.755609,40.551591 -89.758844,40.551931 -89.76855,40.552952 -89.770412,40.553149 -89.771793,40.553158 -89.77241,40.553162 -89.774402,40.552922 -89.774495,40.552911 -89.776467,40.5524 -89.780238,40.550943 -89.781386,40.550426 -89.781792,40.550254 -89.783077,40.549712 -89.784236,40.5493 -89.78424,40.549483 -89.784254,40.550033 -89.784259,40.550217 -89.78428,40.551285 -89.789288,40.549601 -89.789351,40.55398 -89.784372,40.555847</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

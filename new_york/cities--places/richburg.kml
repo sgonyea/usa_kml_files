@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>richburg</name>
+<Schema name="richburg" id="richburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Richburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#richburg">
+		<SimpleData name="Name">Richburg</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">61434</SimpleData>
+		<SimpleData name="PLACENS">02391093</SimpleData>
+		<SimpleData name="GEOID">3661434</SimpleData>
+		<SimpleData name="NAMELSAD">Richburg village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2331433</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.0887648</SimpleData>
+		<SimpleData name="INTPTLON">-078.1565122</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.167813,42.088949 -78.167107,42.088898 -78.166703,42.088862 -78.166603,42.088853 -78.165448,42.088683 -78.165304,42.088664 -78.1652,42.08865 -78.164661,42.088643 -78.163713,42.088634 -78.163157,42.088627 -78.160158,42.088684 -78.160235,42.096362 -78.16028,42.096868 -78.160289,42.097238 -78.14639,42.097537 -78.146385,42.096074 -78.146384,42.094047 -78.146417,42.09104 -78.146381,42.08952 -78.146414,42.086741 -78.152702,42.086698 -78.153232,42.085576 -78.153131,42.080535 -78.159905,42.080509 -78.160487,42.080495 -78.162395,42.08049 -78.162586,42.08049 -78.165357,42.080501 -78.167802,42.080443 -78.16783,42.086639 -78.167813,42.088949</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>venedocia</name>
+<Schema name="venedocia" id="venedocia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Venedocia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#venedocia">
+		<SimpleData name="Name">Venedocia</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">79632</SimpleData>
+		<SimpleData name="PLACENS">02400052</SimpleData>
+		<SimpleData name="GEOID">3979632</SimpleData>
+		<SimpleData name="NAMELSAD">Venedocia village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">347890</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7852111</SimpleData>
+		<SimpleData name="INTPTLON">-084.4558986</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.458675,40.787473 -84.458651,40.787501 -84.458605,40.788117 -84.458605,40.788235 -84.456433,40.788785 -84.453914,40.789423 -84.453914,40.789335 -84.45392,40.786806 -84.453444,40.786814 -84.453448,40.786157 -84.451912,40.786182 -84.451849,40.786183 -84.451861,40.784824 -84.453999,40.784825 -84.454007,40.781338 -84.45638,40.781301 -84.458282,40.781341 -84.458201,40.783231 -84.458276,40.78416 -84.458646,40.78416 -84.458645,40.786434 -84.458659,40.78677 -84.458674,40.786979 -84.458685,40.787281 -84.458686,40.787393 -84.458684,40.787437 -84.458675,40.787473</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

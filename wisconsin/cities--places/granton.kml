@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>granton</name>
+<Schema name="granton" id="granton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Granton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#granton">
+		<SimpleData name="Name">Granton</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">30425</SimpleData>
+		<SimpleData name="PLACENS">01583304</SimpleData>
+		<SimpleData name="GEOID">5530425</SimpleData>
+		<SimpleData name="NAMELSAD">Granton village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1463063</SimpleData>
+		<SimpleData name="AWATER">10677</SimpleData>
+		<SimpleData name="INTPTLAT">+44.5884928</SimpleData>
+		<SimpleData name="INTPTLON">-090.4619773</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.466834,44.581878 -90.466803,44.58616 -90.466797,44.586979 -90.466795,44.587259 -90.466672,44.596444 -90.465027,44.596437 -90.463345,44.596429 -90.461601,44.596435 -90.459095,44.596444 -90.456504,44.596455 -90.456516,44.595973 -90.456508,44.595797 -90.456505,44.595738 -90.456503,44.595687 -90.456474,44.59492 -90.456463,44.59456 -90.45644,44.593847 -90.456432,44.593595 -90.456433,44.592719 -90.456417,44.592311 -90.45634,44.590412 -90.456327,44.59007 -90.456315,44.589776 -90.456345,44.58744 -90.456348,44.587004 -90.456352,44.586304 -90.45634,44.583389 -90.45313,44.583379 -90.453136,44.583273 -90.45315,44.582696 -90.453206,44.58243 -90.453227,44.582222 -90.453232,44.582005 -90.453402,44.582 -90.455889,44.58198 -90.456301,44.581987 -90.456356,44.58165 -90.45634,44.581562 -90.456348,44.580852 -90.466831,44.580733 -90.466834,44.581878</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

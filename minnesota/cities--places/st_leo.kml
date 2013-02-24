@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>st_leo</name>
+<Schema name="st_leo" id="st_leo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>St. Leo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#st_leo">
+		<SimpleData name="Name">St. Leo</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">57202</SimpleData>
+		<SimpleData name="PLACENS">02396499</SimpleData>
+		<SimpleData name="GEOID">2757202</SimpleData>
+		<SimpleData name="NAMELSAD">St. Leo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">680612</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.7173461</SimpleData>
+		<SimpleData name="INTPTLON">-096.0525386</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.05874,44.718366 -96.057727,44.718366 -96.057692,44.718367 -96.057767,44.720985 -96.054513,44.721031 -96.052544,44.721059 -96.050826,44.720999 -96.047482,44.720885 -96.047293,44.719086 -96.047114,44.717378 -96.047216,44.715597 -96.047228,44.715391 -96.047326,44.7137 -96.047327,44.71368 -96.050757,44.713626 -96.052541,44.713599 -96.054353,44.713659 -96.057467,44.713764 -96.057516,44.716094 -96.057529,44.716689 -96.057998,44.716661 -96.058051,44.7174 -96.05819,44.717401 -96.05861,44.717407 -96.058671,44.717408 -96.05875,44.717409 -96.05874,44.718366</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

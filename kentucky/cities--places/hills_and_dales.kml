@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hills_and_dales</name>
+<Schema name="hills_and_dales" id="hills_and_dales">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hills and Dales</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hills_and_dales">
+		<SimpleData name="Name">Hills and Dales</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">36865</SimpleData>
+		<SimpleData name="PLACENS">02404700</SimpleData>
+		<SimpleData name="GEOID">2136865</SimpleData>
+		<SimpleData name="NAMELSAD">Hills and Dales city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">258325</SimpleData>
+		<SimpleData name="AWATER">402</SimpleData>
+		<SimpleData name="INTPTLAT">+38.3002358</SimpleData>
+		<SimpleData name="INTPTLON">-085.6239784</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.627772,38.301822 -85.62772,38.301848 -85.627456,38.301986 -85.625385,38.303008 -85.625133,38.303131 -85.624933,38.303229 -85.624814,38.303288 -85.624634,38.303376 -85.623957,38.30371 -85.623434,38.30306 -85.62338,38.302993 -85.62338,38.302973 -85.623356,38.302917 -85.623326,38.302881 -85.623286,38.302852 -85.623254,38.302837 -85.623179,38.302744 -85.622753,38.302215 -85.622474,38.301868 -85.6224,38.301777 -85.622311,38.301668 -85.622272,38.30162 -85.622061,38.301358 -85.621819,38.301055 -85.621581,38.300756 -85.621206,38.300293 -85.620849,38.299856 -85.62117,38.299695 -85.621807,38.299372 -85.622196,38.299178 -85.622603,38.298974 -85.622756,38.298898 -85.623169,38.298682 -85.623527,38.298495 -85.624253,38.298116 -85.624931,38.297762 -85.625007,38.297721 -85.625055,38.297697 -85.625615,38.297405 -85.625687,38.297367 -85.625857,38.297575 -85.62592,38.297651 -85.627401,38.299452 -85.627619,38.299722 -85.628481,38.300787 -85.628861,38.301257 -85.627772,38.301822</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

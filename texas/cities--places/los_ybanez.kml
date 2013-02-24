@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>los_ybanez</name>
+<Schema name="los_ybanez" id="los_ybanez">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Los Ybanez</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#los_ybanez">
+		<SimpleData name="Name">Los Ybanez</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">44170</SimpleData>
+		<SimpleData name="PLACENS">02410880</SimpleData>
+		<SimpleData name="GEOID">4844170</SimpleData>
+		<SimpleData name="NAMELSAD">Los Ybanez city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">215759</SimpleData>
+		<SimpleData name="AWATER">2029</SimpleData>
+		<SimpleData name="INTPTLAT">+32.7191949</SimpleData>
+		<SimpleData name="INTPTLON">-101.9175074</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.920884,32.717463 -101.920783,32.717571 -101.920775,32.718916 -101.920134,32.718938 -101.92018,32.719337 -101.919088,32.719662 -101.919168,32.720059 -101.919228,32.720256 -101.919066,32.720309 -101.915554,32.721069 -101.91511,32.721165 -101.914776,32.721238 -101.913891,32.717987 -101.919523,32.71673 -101.920598,32.71649 -101.920884,32.717463</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

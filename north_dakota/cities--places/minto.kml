@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>minto</name>
+<Schema name="minto" id="minto">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Minto</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#minto">
+		<SimpleData name="Name">Minto</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">53540</SimpleData>
+		<SimpleData name="PLACENS">01036166</SimpleData>
+		<SimpleData name="GEOID">3853540</SimpleData>
+		<SimpleData name="NAMELSAD">Minto city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3673000</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.2923924</SimpleData>
+		<SimpleData name="INTPTLON">-097.3730158</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.383301,48.282631 -97.383307,48.286594 -97.383289,48.290698 -97.383278,48.290928 -97.38327,48.2911 -97.38327,48.291253 -97.383269,48.291499 -97.383262,48.293408 -97.383252,48.294491 -97.383247,48.294988 -97.383251,48.29634 -97.383251,48.296559 -97.383251,48.298933 -97.383242,48.302012 -97.383241,48.303048 -97.383253,48.303513 -97.38316,48.303511 -97.375333,48.303385 -97.373571,48.303229 -97.373073,48.303221 -97.362905,48.303059 -97.362862,48.300609 -97.362857,48.300352 -97.362829,48.298899 -97.362777,48.297022 -97.362775,48.296975 -97.362754,48.296466 -97.362745,48.295896 -97.362836,48.294322 -97.36284,48.292845 -97.362699,48.287922 -97.36266,48.286575 -97.362641,48.28138 -97.365781,48.281413 -97.366346,48.281421 -97.36671,48.28143 -97.368004,48.281437 -97.368295,48.281438 -97.369037,48.281442 -97.371869,48.281475 -97.372315,48.281481 -97.375073,48.281581 -97.375752,48.281612 -97.376718,48.28163 -97.376827,48.281632 -97.378025,48.281702 -97.379547,48.281782 -97.381511,48.281847 -97.383108,48.281886 -97.383309,48.281887 -97.383301,48.282631</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

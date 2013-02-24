@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>keystone</name>
+<Schema name="keystone" id="keystone">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Keystone</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#keystone">
+		<SimpleData name="Name">Keystone</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">41115</SimpleData>
+		<SimpleData name="PLACENS">02395524</SimpleData>
+		<SimpleData name="GEOID">1941115</SimpleData>
+		<SimpleData name="NAMELSAD">Keystone city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1169172</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9997178</SimpleData>
+		<SimpleData name="INTPTLON">-092.1982869</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.208357,42.000231 -92.208357,42.000517 -92.207987,42.000471 -92.206478,42.000517 -92.206478,42.000529 -92.206478,42.000971 -92.20419,42.000971 -92.20423,42.00459 -92.202148,42.00462 -92.196652,42.004585 -92.192382,42.004374 -92.192257,42.004084 -92.192377,42.001983 -92.192382,42.000347 -92.191679,42.00033 -92.191669,41.998502 -92.190812,41.998502 -92.190799,41.99779 -92.190573,41.997725 -92.190364,41.997636 -92.190195,41.997517 -92.190121,41.997421 -92.189956,41.997088 -92.189939,41.997014 -92.189952,41.994782 -92.192164,41.994785 -92.19216,41.9948 -92.192169,41.994986 -92.19219,41.995241 -92.192396,41.995247 -92.196906,41.995357 -92.200378,41.995412 -92.202094,41.99546 -92.204274,41.995513 -92.204243,41.997242 -92.204218,41.997857 -92.204214,41.997978 -92.204681,41.99801 -92.205589,41.998081 -92.206608,41.998161 -92.206674,41.998169 -92.206673,41.998795 -92.206728,41.998897 -92.20682,41.999067 -92.207064,41.999321 -92.207381,41.999502 -92.207674,41.999629 -92.207991,41.99972 -92.208357,41.999792 -92.208357,42.000231</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

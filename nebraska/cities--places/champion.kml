@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>champion</name>
+<Schema name="champion" id="champion">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Champion</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#champion">
+		<SimpleData name="Name">Champion</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">08745</SimpleData>
+		<SimpleData name="PLACENS">02583878</SimpleData>
+		<SimpleData name="GEOID">3108745</SimpleData>
+		<SimpleData name="NAMELSAD">Champion CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">619617</SimpleData>
+		<SimpleData name="AWATER">18812</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4708537</SimpleData>
+		<SimpleData name="INTPTLON">-101.7448947</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.754019,40.471715 -101.753688,40.471883 -101.753569,40.471945 -101.752728,40.472377 -101.751588,40.472963 -101.747263,40.473072 -101.746256,40.474427 -101.746138,40.474416 -101.745981,40.474434 -101.745865,40.474463 -101.745779,40.474497 -101.745697,40.47453 -101.745581,40.474553 -101.745286,40.474537 -101.745217,40.474532 -101.745012,40.474542 -101.744785,40.474561 -101.744511,40.474607 -101.744359,40.474624 -101.74392,40.474617 -101.743239,40.474588 -101.742429,40.474567 -101.742171,40.474556 -101.742082,40.474535 -101.742056,40.474464 -101.742018,40.474242 -101.741981,40.473916 -101.741971,40.473674 -101.741919,40.473541 -101.741879,40.473413 -101.741833,40.473306 -101.741799,40.473195 -101.741791,40.473003 -101.741813,40.472806 -101.74184,40.472617 -101.741838,40.472425 -101.741845,40.472299 -101.741865,40.472224 -101.741738,40.472132 -101.741661,40.472091 -101.741739,40.471917 -101.741804,40.47166 -101.74186,40.47122 -101.741863,40.471112 -101.741873,40.470762 -101.741886,40.470285 -101.741884,40.470137 -101.74188,40.469703 -101.741893,40.469101 -101.741894,40.469055 -101.741912,40.467275 -101.747622,40.467285 -101.751309,40.467291 -101.751556,40.467983 -101.75227,40.469983 -101.752431,40.469991 -101.752481,40.470013 -101.75251,40.470025 -101.75257,40.47009 -101.752619,40.470279 -101.752651,40.470432 -101.752681,40.47055 -101.752727,40.47064 -101.752786,40.470705 -101.752925,40.470817 -101.753391,40.471209 -101.753814,40.471546 -101.754019,40.471715</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

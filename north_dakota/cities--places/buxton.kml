@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>buxton</name>
+<Schema name="buxton" id="buxton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Buxton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buxton">
+		<SimpleData name="Name">Buxton</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">11340</SimpleData>
+		<SimpleData name="PLACENS">01035949</SimpleData>
+		<SimpleData name="GEOID">3811340</SimpleData>
+		<SimpleData name="NAMELSAD">Buxton city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">510982</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.6023841</SimpleData>
+		<SimpleData name="INTPTLON">-097.1000947</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.104339,47.605932 -97.103048,47.605956 -97.103003,47.606868 -97.102365,47.606865 -97.102274,47.606876 -97.102225,47.606876 -97.10134,47.606885 -97.099904,47.606889 -97.099131,47.606893 -97.098366,47.606897 -97.097696,47.606919 -97.097356,47.60692 -97.097082,47.605113 -97.096751,47.603461 -97.096561,47.602527 -97.096276,47.602517 -97.096153,47.602514 -97.096094,47.602324 -97.096046,47.602124 -97.096165,47.602079 -97.09641,47.602013 -97.095916,47.59969 -97.096185,47.599695 -97.096428,47.5997 -97.097018,47.599705 -97.097309,47.59971 -97.097237,47.59869 -97.097132,47.59766 -97.098414,47.597579 -97.102715,47.597691 -97.102772,47.599681 -97.103191,47.599688 -97.103095,47.603289 -97.104379,47.603345 -97.104339,47.605932</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

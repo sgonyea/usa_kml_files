@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bruning</name>
+<Schema name="bruning" id="bruning">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bruning</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bruning">
+		<SimpleData name="Name">Bruning</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">06820</SimpleData>
+		<SimpleData name="PLACENS">02397476</SimpleData>
+		<SimpleData name="GEOID">3106820</SimpleData>
+		<SimpleData name="NAMELSAD">Bruning village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">737659</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3357479</SimpleData>
+		<SimpleData name="INTPTLON">-097.5647384</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.572102,40.335187 -97.572101,40.336197 -97.572118,40.337947 -97.567681,40.337975 -97.567692,40.339719 -97.567313,40.33972 -97.565675,40.339718 -97.562679,40.339733 -97.56264,40.338616 -97.561183,40.3386 -97.561149,40.338459 -97.561133,40.338045 -97.561123,40.33736 -97.561131,40.337181 -97.55805,40.337251 -97.558025,40.336747 -97.558041,40.336689 -97.558036,40.336181 -97.558,40.334338 -97.557988,40.333785 -97.55801,40.333486 -97.557981,40.332583 -97.565636,40.332249 -97.567211,40.332526 -97.567966,40.332534 -97.567966,40.33351 -97.567985,40.334229 -97.569416,40.334219 -97.571049,40.334209 -97.572104,40.334203 -97.572102,40.335187</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

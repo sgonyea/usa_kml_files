@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>eros</name>
+<Schema name="eros" id="eros">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Eros</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#eros">
+		<SimpleData name="Name">Eros</SimpleData>
+		<SimpleData name="STATEFP">22</SimpleData>
+		<SimpleData name="PLACEFP">24215</SimpleData>
+		<SimpleData name="PLACENS">02406458</SimpleData>
+		<SimpleData name="GEOID">2224215</SimpleData>
+		<SimpleData name="NAMELSAD">Eros town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2579144</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.3925577</SimpleData>
+		<SimpleData name="INTPTLON">-092.4239334</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.43195,32.385091 -92.431818,32.393932 -92.43181,32.395939 -92.431774,32.397737 -92.431722,32.400359 -92.428973,32.400401 -92.423914,32.400478 -92.419027,32.40054 -92.415873,32.400596 -92.415875,32.399006 -92.415863,32.393427 -92.415865,32.393407 -92.41583,32.383938 -92.421151,32.383994 -92.421035,32.387756 -92.420686,32.388171 -92.420531,32.388336 -92.420338,32.388587 -92.420243,32.389055 -92.420288,32.389631 -92.420379,32.390037 -92.420493,32.39038 -92.420686,32.390358 -92.423766,32.388699 -92.423872,32.384208 -92.423924,32.383936 -92.43156,32.384064 -92.431964,32.384071 -92.43195,32.385091</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

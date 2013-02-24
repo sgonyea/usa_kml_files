@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_chapel_hill</name>
+<Schema name="new_chapel_hill" id="new_chapel_hill">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Chapel Hill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_chapel_hill">
+		<SimpleData name="Name">New Chapel Hill</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">50876</SimpleData>
+		<SimpleData name="PLACENS">02411229</SimpleData>
+		<SimpleData name="GEOID">4850876</SimpleData>
+		<SimpleData name="NAMELSAD">New Chapel Hill city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">6197687</SimpleData>
+		<SimpleData name="AWATER">68397</SimpleData>
+		<SimpleData name="INTPTLAT">+32.2991648</SimpleData>
+		<SimpleData name="INTPTLON">-095.1686265</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.188534,32.299563 -95.187266,32.301347 -95.187035,32.301691 -95.185058,32.304636 -95.185034,32.304671 -95.183279,32.307285 -95.183118,32.307525 -95.182773,32.308039 -95.18189,32.309314 -95.181828,32.309407 -95.181681,32.309714 -95.179815,32.312613 -95.179649,32.312832 -95.179489,32.313074 -95.17894,32.313926 -95.178877,32.314025 -95.178789,32.314144 -95.178382,32.314788 -95.176122,32.314017 -95.174695,32.313421 -95.17449,32.313335 -95.168551,32.310848 -95.167308,32.310391 -95.166704,32.310169 -95.161051,32.308086 -95.156739,32.306497 -95.156598,32.306444 -95.156457,32.306393 -95.156374,32.306362 -95.153223,32.305227 -95.153053,32.305166 -95.152742,32.305053 -95.149188,32.303772 -95.147284,32.302999 -95.148205,32.300846 -95.148761,32.299704 -95.150441,32.296577 -95.151007,32.295611 -95.151049,32.295118 -95.151511,32.294694 -95.155346,32.287547 -95.166728,32.291669 -95.175644,32.294897 -95.176237,32.295112 -95.179762,32.296388 -95.188534,32.299563</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

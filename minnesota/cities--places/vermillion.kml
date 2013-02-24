@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vermillion</name>
+<Schema name="vermillion" id="vermillion">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vermillion</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vermillion">
+		<SimpleData name="Name">Vermillion</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">66802</SimpleData>
+		<SimpleData name="PLACENS">02397127</SimpleData>
+		<SimpleData name="GEOID">2766802</SimpleData>
+		<SimpleData name="NAMELSAD">Vermillion city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2485964</SimpleData>
+		<SimpleData name="AWATER">22423</SimpleData>
+		<SimpleData name="INTPTLAT">+44.6697747</SimpleData>
+		<SimpleData name="INTPTLON">-092.9634322</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.974369,44.668461 -92.974306,44.668663 -92.974155,44.669014 -92.973982,44.669339 -92.973713,44.669703 -92.973126,44.670383 -92.97288,44.67067 -92.97449,44.670744 -92.974483,44.671 -92.974482,44.671099 -92.974478,44.673579 -92.974456,44.680563 -92.961534,44.680634 -92.961334,44.680635 -92.960137,44.680642 -92.954209,44.680665 -92.954212,44.680279 -92.95424,44.673568 -92.954244,44.666467 -92.974479,44.66646 -92.974369,44.668461</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rush_center</name>
+<Schema name="rush_center" id="rush_center">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rush Center</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rush_center">
+		<SimpleData name="Name">Rush Center</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">61775</SimpleData>
+		<SimpleData name="PLACENS">02396448</SimpleData>
+		<SimpleData name="GEOID">2061775</SimpleData>
+		<SimpleData name="NAMELSAD">Rush Center city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1003764</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.4648213</SimpleData>
+		<SimpleData name="INTPTLON">-099.3107878</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.321008,38.466117 -99.321063,38.467132 -99.32106,38.467554 -99.317792,38.467533 -99.317312,38.467509 -99.315522,38.467512 -99.314115,38.467533 -99.314119,38.468861 -99.314123,38.470388 -99.313589,38.470384 -99.310252,38.470291 -99.308836,38.470249 -99.308831,38.469454 -99.30883,38.469217 -99.308849,38.468091 -99.308847,38.467202 -99.304528,38.467138 -99.304235,38.467137 -99.304219,38.467078 -99.304227,38.465801 -99.304168,38.465691 -99.304248,38.46222 -99.303282,38.462197 -99.303279,38.462088 -99.303236,38.46084 -99.305779,38.4608 -99.307404,38.460774 -99.308524,38.460751 -99.30853,38.460532 -99.308488,38.458483 -99.308871,38.458483 -99.310482,38.458559 -99.310506,38.460232 -99.312678,38.460208 -99.314052,38.460167 -99.314051,38.460292 -99.314053,38.460403 -99.314052,38.4605 -99.314049,38.462109 -99.314077,38.463695 -99.314112,38.464779 -99.316983,38.464762 -99.318242,38.464759 -99.318242,38.465837 -99.318826,38.465845 -99.320995,38.465869 -99.321008,38.466117</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

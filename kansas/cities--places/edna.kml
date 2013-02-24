@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>edna</name>
+<Schema name="edna" id="edna">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Edna</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edna">
+		<SimpleData name="Name">Edna</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">19900</SimpleData>
+		<SimpleData name="PLACENS">02394625</SimpleData>
+		<SimpleData name="GEOID">2019900</SimpleData>
+		<SimpleData name="NAMELSAD">Edna city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">945258</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0587169</SimpleData>
+		<SimpleData name="INTPTLON">-095.3588687</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.35723,37.049483 -95.356622,37.049466 -95.356651,37.048418 -95.357286,37.048413 -95.35723,37.049483</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.35931,37.068672 -95.35932,37.0692 -95.359335,37.069867 -95.357733,37.069868 -95.357734,37.06851 -95.359309,37.068515 -95.35931,37.068672</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.35786,37.04841 -95.357286,37.048413 -95.357336,37.047485 -95.357889,37.047508 -95.35786,37.04841</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-95.364814,37.059476 -95.363572,37.059445 -95.363534,37.062673 -95.362817,37.062674 -95.361658,37.062681 -95.361622,37.064394 -95.361602,37.065227 -95.359275,37.065236 -95.359258,37.063816 -95.359258,37.063661 -95.35819,37.063655 -95.357176,37.063673 -95.356658,37.063682 -95.356074,37.063674 -95.356076,37.062707 -95.354392,37.062707 -95.354416,37.056104 -95.354417,37.05586 -95.354425,37.053254 -95.357801,37.053288 -95.357808,37.052888 -95.357824,37.051982 -95.358425,37.051982 -95.358453,37.05041 -95.358441,37.048407 -95.359189,37.048404 -95.359211,37.049123 -95.359219,37.049368 -95.359215,37.049858 -95.359213,37.050243 -95.35921,37.050752 -95.359208,37.051092 -95.359204,37.051849 -95.359199,37.052712 -95.359217,37.054133 -95.359218,37.054201 -95.359223,37.05538 -95.359573,37.055568 -95.360515,37.055543 -95.361797,37.055537 -95.363068,37.055537 -95.36365,37.055513 -95.363655,37.055675 -95.3637,37.056892 -95.363732,37.057739 -95.364814,37.057744 -95.364814,37.059476</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

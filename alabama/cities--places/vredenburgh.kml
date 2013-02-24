@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vredenburgh</name>
+<Schema name="vredenburgh" id="vredenburgh">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vredenburgh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vredenburgh">
+		<SimpleData name="Name">Vredenburgh</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">79272</SimpleData>
+		<SimpleData name="PLACENS">02406808</SimpleData>
+		<SimpleData name="GEOID">0179272</SimpleData>
+		<SimpleData name="NAMELSAD">Vredenburgh town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3893265</SimpleData>
+		<SimpleData name="AWATER">35373</SimpleData>
+		<SimpleData name="INTPTLAT">+31.8232411</SimpleData>
+		<SimpleData name="INTPTLON">-087.3180586</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.329277,31.830901 -87.321839,31.831047 -87.321164,31.831053 -87.321055,31.831053 -87.318636,31.831092 -87.318331,31.831094 -87.316715,31.831107 -87.31381,31.831131 -87.312516,31.831115 -87.30519,31.831165 -87.305132,31.829047 -87.305114,31.826323 -87.305051,31.822207 -87.305033,31.821035 -87.304974,31.816373 -87.3161,31.816372 -87.325375,31.816351 -87.327969,31.816347 -87.330503,31.816347 -87.33051,31.818009 -87.330521,31.821 -87.330535,31.824937 -87.33054,31.826134 -87.330559,31.830882 -87.329277,31.830901</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

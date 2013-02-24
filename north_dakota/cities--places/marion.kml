@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>marion</name>
+<Schema name="marion" id="marion">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Marion</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#marion">
+		<SimpleData name="Name">Marion</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">50780</SimpleData>
+		<SimpleData name="PLACENS">01036150</SimpleData>
+		<SimpleData name="GEOID">3850780</SimpleData>
+		<SimpleData name="NAMELSAD">Marion city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2167538</SimpleData>
+		<SimpleData name="AWATER">432542</SimpleData>
+		<SimpleData name="INTPTLAT">+46.6087115</SimpleData>
+		<SimpleData name="INTPTLON">-098.3443163</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.348102,46.602921 -98.348092,46.605019 -98.348041,46.610985 -98.348021,46.613501 -98.348005,46.614427 -98.347984,46.616252 -98.343222,46.616346 -98.338497,46.616366 -98.326917,46.616378 -98.326965,46.612921 -98.326976,46.610591 -98.326977,46.610337 -98.326986,46.607496 -98.326994,46.607153 -98.327007,46.606608 -98.327017,46.605054 -98.327029,46.604464 -98.327055,46.601859 -98.343385,46.601861 -98.346553,46.601854 -98.348098,46.601863 -98.348102,46.602921</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

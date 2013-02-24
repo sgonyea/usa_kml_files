@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>faxon</name>
+<Schema name="faxon" id="faxon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Faxon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#faxon">
+		<SimpleData name="Name">Faxon</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">25650</SimpleData>
+		<SimpleData name="PLACENS">02412623</SimpleData>
+		<SimpleData name="GEOID">4025650</SimpleData>
+		<SimpleData name="NAMELSAD">Faxon town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">661662</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.4602809</SimpleData>
+		<SimpleData name="INTPTLON">-098.5793621</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.583724,34.456069 -98.583597,34.456021 -98.583599,34.456094 -98.583585,34.456874 -98.583552,34.457885 -98.583546,34.458092 -98.583551,34.458707 -98.58354,34.458892 -98.58354,34.459451 -98.583555,34.460776 -98.583545,34.462919 -98.583584,34.464052 -98.582315,34.464058 -98.580685,34.464063 -98.576737,34.46402 -98.57488,34.464026 -98.57487,34.463016 -98.574897,34.462045 -98.574883,34.460762 -98.574916,34.459666 -98.574911,34.459502 -98.574889,34.458801 -98.574879,34.458493 -98.574882,34.457843 -98.574908,34.456839 -98.575531,34.456851 -98.578341,34.456851 -98.578628,34.456843 -98.579127,34.456848 -98.579732,34.456869 -98.580151,34.456867 -98.580497,34.456846 -98.580695,34.456794 -98.5808,34.456742 -98.580876,34.456693 -98.58222,34.455923 -98.58356,34.455175 -98.583608,34.455502 -98.583602,34.45561 -98.583724,34.455616 -98.583724,34.456069</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

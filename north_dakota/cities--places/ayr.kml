@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ayr</name>
+<Schema name="ayr" id="ayr">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ayr</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ayr">
+		<SimpleData name="Name">Ayr</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">04020</SimpleData>
+		<SimpleData name="PLACENS">01035918</SimpleData>
+		<SimpleData name="GEOID">3804020</SimpleData>
+		<SimpleData name="NAMELSAD">Ayr city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">217229</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.0411840</SimpleData>
+		<SimpleData name="INTPTLON">-097.4909661</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.493999,47.0407 -97.494009,47.041152 -97.493998,47.04323 -97.493869,47.043222 -97.493428,47.043175 -97.493415,47.043225 -97.493387,47.043301 -97.493374,47.043564 -97.492597,47.043591 -97.492579,47.043256 -97.4921,47.043257 -97.491031,47.04325 -97.490783,47.043221 -97.488684,47.043198 -97.487788,47.043217 -97.487763,47.042819 -97.487828,47.042515 -97.487919,47.039925 -97.487926,47.039527 -97.487894,47.039272 -97.487877,47.039131 -97.489574,47.039067 -97.492351,47.039088 -97.494009,47.039042 -97.493999,47.0407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

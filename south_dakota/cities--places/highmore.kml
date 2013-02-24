@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>highmore</name>
+<Schema name="highmore" id="highmore">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Highmore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#highmore">
+		<SimpleData name="Name">Highmore</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">28980</SimpleData>
+		<SimpleData name="PLACENS">01267422</SimpleData>
+		<SimpleData name="GEOID">4628980</SimpleData>
+		<SimpleData name="NAMELSAD">Highmore city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4881063</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.5213696</SimpleData>
+		<SimpleData name="INTPTLON">-099.4393322</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.461849,44.521388 -99.461849,44.521728 -99.461859,44.527312 -99.455428,44.527393 -99.445019,44.527511 -99.444093,44.527518 -99.443309,44.527523 -99.441586,44.527523 -99.441581,44.532519 -99.434324,44.532548 -99.434349,44.52761 -99.431478,44.52764 -99.43,44.527656 -99.427476,44.527685 -99.421338,44.527755 -99.421341,44.525146 -99.421346,44.521241 -99.421348,44.519348 -99.421357,44.513239 -99.427977,44.513163 -99.429883,44.513146 -99.43536,44.513098 -99.437373,44.513071 -99.438716,44.51306 -99.440118,44.513047 -99.441577,44.513029 -99.450524,44.512956 -99.45268,44.51294 -99.453006,44.519239 -99.452987,44.520301 -99.453007,44.520765 -99.45338,44.520765 -99.461847,44.520778 -99.461849,44.521388</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

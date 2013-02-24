@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>storden</name>
+<Schema name="storden" id="storden">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Storden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#storden">
+		<SimpleData name="Name">Storden</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">63022</SimpleData>
+		<SimpleData name="PLACENS">02395975</SimpleData>
+		<SimpleData name="GEOID">2763022</SimpleData>
+		<SimpleData name="NAMELSAD">Storden city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">574186</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.0395749</SimpleData>
+		<SimpleData name="INTPTLON">-095.3192933</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.323615,44.036078 -95.323621,44.036624 -95.323623,44.036806 -95.32362,44.038632 -95.323619,44.03975 -95.323616,44.042172 -95.323616,44.042368 -95.323615,44.042565 -95.323614,44.043284 -95.322787,44.043291 -95.320962,44.043309 -95.318478,44.043312 -95.315037,44.043318 -95.314953,44.03978 -95.314947,44.039311 -95.314916,44.036828 -95.314914,44.036649 -95.314909,44.036112 -95.314908,44.035934 -95.315503,44.035919 -95.317291,44.035877 -95.317887,44.035863 -95.318508,44.035848 -95.319121,44.035835 -95.320372,44.035821 -95.320994,44.035815 -95.321261,44.035822 -95.322066,44.035845 -95.322334,44.035853 -95.32259,44.03586 -95.323205,44.03588 -95.323358,44.035886 -95.323614,44.035897 -95.323615,44.036078</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

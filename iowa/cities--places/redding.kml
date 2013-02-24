@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>redding</name>
+<Schema name="redding" id="redding">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Redding</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#redding">
+		<SimpleData name="Name">Redding</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">66000</SimpleData>
+		<SimpleData name="PLACENS">02396339</SimpleData>
+		<SimpleData name="GEOID">1966000</SimpleData>
+		<SimpleData name="NAMELSAD">Redding city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2576395</SimpleData>
+		<SimpleData name="AWATER">23764</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6075202</SimpleData>
+		<SimpleData name="INTPTLON">-094.3871020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.39585,40.602455 -94.395828,40.602582 -94.395852,40.603099 -94.395834,40.605687 -94.395815,40.608274 -94.395802,40.610097 -94.395816,40.614154 -94.390733,40.614091 -94.390619,40.614092 -94.390503,40.61409 -94.38833,40.614064 -94.387667,40.614056 -94.387116,40.614049 -94.386208,40.614048 -94.382282,40.614041 -94.37665,40.614035 -94.376691,40.610241 -94.376742,40.606211 -94.376794,40.603729 -94.376797,40.603092 -94.376813,40.601355 -94.376839,40.599545 -94.38635,40.599561 -94.395841,40.599623 -94.39585,40.602455</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

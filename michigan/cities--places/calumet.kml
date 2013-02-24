@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>calumet</name>
+<Schema name="calumet" id="calumet">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Calumet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#calumet">
+		<SimpleData name="Name">Calumet</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">12580</SimpleData>
+		<SimpleData name="PLACENS">02397533</SimpleData>
+		<SimpleData name="GEOID">2612580</SimpleData>
+		<SimpleData name="NAMELSAD">Calumet village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">509353</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.2477312</SimpleData>
+		<SimpleData name="INTPTLON">-088.4534825</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.457796,47.250053 -88.457858,47.25158 -88.453775,47.251608 -88.449883,47.251628 -88.449891,47.251403 -88.449829,47.250085 -88.449814,47.24963 -88.449997,47.249629 -88.451,47.249618 -88.452105,47.249613 -88.45209,47.249318 -88.452079,47.248099 -88.45209,47.248006 -88.451816,47.248002 -88.447464,47.248036 -88.447458,47.247604 -88.447257,47.247509 -88.448974,47.245764 -88.449505,47.244964 -88.449458,47.244938 -88.449929,47.244158 -88.449894,47.244147 -88.450008,47.243951 -88.450695,47.243273 -88.450782,47.243301 -88.450863,47.243205 -88.451653,47.243458 -88.451763,47.243508 -88.452142,47.243676 -88.452615,47.243952 -88.452639,47.24429 -88.452637,47.24436 -88.452634,47.244467 -88.453731,47.24445 -88.455036,47.244436 -88.455397,47.244434 -88.45548,47.244433 -88.456362,47.244433 -88.457714,47.24444 -88.457729,47.245287 -88.457709,47.246271 -88.457683,47.248074 -88.457823,47.248254 -88.457909,47.248748 -88.457917,47.248926 -88.457917,47.249189 -88.457924,47.249463 -88.457796,47.250053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hunts_point</name>
+<Schema name="hunts_point" id="hunts_point">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hunts Point</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hunts_point">
+		<SimpleData name="Name">Hunts Point</SimpleData>
+		<SimpleData name="STATEFP">53</SimpleData>
+		<SimpleData name="PLACEFP">32755</SimpleData>
+		<SimpleData name="PLACENS">02412782</SimpleData>
+		<SimpleData name="GEOID">5332755</SimpleData>
+		<SimpleData name="NAMELSAD">Hunts Point town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">756863</SimpleData>
+		<SimpleData name="AWATER">19436</SimpleData>
+		<SimpleData name="INTPTLAT">+47.6424284</SimpleData>
+		<SimpleData name="INTPTLON">-122.2274307</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-122.233287,47.63617 -122.233273,47.63639 -122.233272,47.63647 -122.233266,47.636827 -122.233263,47.636851 -122.233262,47.637014 -122.23323,47.638111 -122.233239,47.638219 -122.233262,47.638279 -122.233313,47.638325 -122.233218,47.638381 -122.233153,47.638451 -122.233136,47.638553 -122.233137,47.638692 -122.233055,47.638811 -122.232635,47.639421 -122.231835,47.639921 -122.231535,47.640221 -122.232035,47.64972 -122.230235,47.65192 -122.228878,47.651649 -122.228735,47.65162 -122.228135,47.64892 -122.226935,47.640921 -122.223334,47.640821 -122.223298,47.637528 -122.223297,47.637413 -122.223225,47.637066 -122.223269,47.636766 -122.223238,47.636488 -122.223246,47.636062 -122.223259,47.635881 -122.223256,47.635739 -122.223708,47.635681 -122.224311,47.635604 -122.225077,47.635563 -122.225875,47.635554 -122.227371,47.635542 -122.227871,47.635534 -122.229477,47.63562 -122.230732,47.635687 -122.230792,47.63564 -122.230903,47.635595 -122.231018,47.635575 -122.231897,47.635576 -122.233276,47.635589 -122.233287,47.63617</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

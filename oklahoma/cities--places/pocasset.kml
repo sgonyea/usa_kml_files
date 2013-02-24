@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pocasset</name>
+<Schema name="pocasset" id="pocasset">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pocasset</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pocasset">
+		<SimpleData name="Name">Pocasset</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">59700</SimpleData>
+		<SimpleData name="PLACENS">02412493</SimpleData>
+		<SimpleData name="GEOID">4059700</SimpleData>
+		<SimpleData name="NAMELSAD">Pocasset town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1239844</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.1951525</SimpleData>
+		<SimpleData name="INTPTLON">-097.9545893</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.961062,35.196413 -97.957577,35.196464 -97.957738,35.203679 -97.956038,35.203679 -97.953656,35.203655 -97.952171,35.203632 -97.951258,35.20363 -97.951335,35.202074 -97.95144,35.199994 -97.951364,35.19653 -97.9513,35.195561 -97.951297,35.195502 -97.951171,35.192997 -97.951029,35.191076 -97.950925,35.191069 -97.946149,35.191086 -97.946116,35.19088 -97.946073,35.189316 -97.947313,35.189324 -97.949206,35.189325 -97.950203,35.189339 -97.950747,35.189342 -97.950898,35.189343 -97.951676,35.189324 -97.952454,35.189325 -97.952453,35.189293 -97.952446,35.188311 -97.952451,35.187199 -97.957453,35.187213 -97.95746,35.189299 -97.956313,35.189288 -97.956363,35.19095 -97.958526,35.191026 -97.958651,35.192754 -97.961047,35.192792 -97.961062,35.196413</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

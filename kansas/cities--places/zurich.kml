@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>zurich</name>
+<Schema name="zurich" id="zurich">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Zurich</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#zurich">
+		<SimpleData name="Name">Zurich</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">81025</SimpleData>
+		<SimpleData name="PLACENS">02397404</SimpleData>
+		<SimpleData name="GEOID">2081025</SimpleData>
+		<SimpleData name="NAMELSAD">Zurich city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">450991</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2321390</SimpleData>
+		<SimpleData name="INTPTLON">-099.4346853</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.439015,39.235208 -99.439019,39.235391 -99.438018,39.235409 -99.438019,39.235243 -99.43802,39.235034 -99.428795,39.235179 -99.428784,39.234278 -99.429384,39.234276 -99.430736,39.234271 -99.431051,39.23427 -99.43133,39.234269 -99.431324,39.233192 -99.431262,39.232387 -99.431268,39.232224 -99.431327,39.232153 -99.431446,39.232114 -99.431386,39.230435 -99.432046,39.230425 -99.431966,39.230169 -99.431354,39.230195 -99.431336,39.229597 -99.431319,39.228914 -99.437288,39.22854 -99.438026,39.228492 -99.438017,39.22911 -99.438017,39.229164 -99.438017,39.229619 -99.438021,39.232037 -99.438677,39.232059 -99.438708,39.232993 -99.438472,39.232997 -99.438523,39.234243 -99.438994,39.234241 -99.439015,39.235208</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

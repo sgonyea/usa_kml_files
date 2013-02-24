@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hartford</name>
+<Schema name="hartford" id="hartford">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hartford</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hartford">
+		<SimpleData name="Name">Hartford</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">30490</SimpleData>
+		<SimpleData name="PLACENS">02403809</SimpleData>
+		<SimpleData name="GEOID">0530490</SimpleData>
+		<SimpleData name="NAMELSAD">Hartford city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4639712</SimpleData>
+		<SimpleData name="AWATER">18965</SimpleData>
+		<SimpleData name="INTPTLAT">+35.0234332</SimpleData>
+		<SimpleData name="INTPTLON">-094.3794065</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.394082,35.023617 -94.392826,35.02364 -94.392251,35.023628 -94.392251,35.025157 -94.392194,35.032319 -94.382585,35.032304 -94.382022,35.032291 -94.381808,35.032286 -94.37924,35.032228 -94.374982,35.032133 -94.373597,35.032119 -94.365589,35.032118 -94.36559,35.03124 -94.365591,35.029998 -94.365634,35.027133 -94.365644,35.026203 -94.365647,35.025999 -94.368684,35.026094 -94.369324,35.024917 -94.368311,35.024888 -94.368333,35.024523 -94.368282,35.024519 -94.367977,35.024499 -94.367805,35.024487 -94.367631,35.024481 -94.367594,35.024481 -94.36747,35.025668 -94.365757,35.025665 -94.365757,35.025376 -94.366339,35.025368 -94.366348,35.024938 -94.365624,35.024938 -94.365631,35.024723 -94.365684,35.023904 -94.365766,35.02156 -94.365891,35.017636 -94.370268,35.017753 -94.370258,35.014759 -94.370287,35.014267 -94.374203,35.014543 -94.374569,35.014598 -94.375158,35.014566 -94.375553,35.014591 -94.375897,35.014665 -94.375865,35.01411 -94.377695,35.014107 -94.385634,35.014185 -94.385697,35.014235 -94.386379,35.014248 -94.389561,35.014306 -94.391835,35.014348 -94.392204,35.014392 -94.392593,35.014356 -94.392773,35.014384 -94.392628,35.016148 -94.392614,35.016656 -94.392595,35.017317 -94.392231,35.022217 -94.393267,35.022248 -94.394026,35.022268 -94.394093,35.02227 -94.394082,35.023617</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-94.369875,35.026916 -94.369865,35.026774 -94.368708,35.02684 -94.368545,35.026714 -94.368418,35.026915 -94.368153,35.027349 -94.367935,35.027697 -94.367908,35.027735 -94.367844,35.027827 -94.367752,35.027945 -94.367673,35.028037 -94.36985,35.028053 -94.369868,35.027733 -94.369875,35.027588 -94.369875,35.026916</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

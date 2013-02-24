@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sawyer</name>
+<Schema name="sawyer" id="sawyer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sawyer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sawyer">
+		<SimpleData name="Name">Sawyer</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">63275</SimpleData>
+		<SimpleData name="PLACENS">02396547</SimpleData>
+		<SimpleData name="GEOID">2063275</SimpleData>
+		<SimpleData name="NAMELSAD">Sawyer city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">370172</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.4979452</SimpleData>
+		<SimpleData name="INTPTLON">-098.6822540</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-98.686513,37.498339 -98.686511,37.498826 -98.686117,37.498843 -98.686124,37.499855 -98.686127,37.500191 -98.685145,37.500187 -98.68383,37.500194 -98.681164,37.500209 -98.679907,37.500216 -98.679347,37.50022 -98.679348,37.500111 -98.679347,37.499915 -98.678132,37.499968 -98.677539,37.499994 -98.67755,37.499782 -98.677543,37.499138 -98.677543,37.499077 -98.677549,37.497206 -98.677552,37.496563 -98.677557,37.496507 -98.677573,37.496339 -98.677579,37.496284 -98.677561,37.495861 -98.677608,37.495875 -98.678965,37.496285 -98.679418,37.496422 -98.679925,37.496525 -98.681448,37.496834 -98.681956,37.496938 -98.681941,37.496746 -98.681927,37.496547 -98.682301,37.496551 -98.682493,37.496554 -98.68249,37.496481 -98.682482,37.496262 -98.68248,37.49619 -98.68248,37.495995 -98.68248,37.495414 -98.682481,37.49522 -98.682481,37.494993 -98.682483,37.494375 -98.682505,37.49432 -98.682544,37.494226 -98.682658,37.494176 -98.682884,37.494181 -98.683564,37.494199 -98.683791,37.494205 -98.684918,37.494211 -98.684919,37.494337 -98.684954,37.497069 -98.685543,37.497253 -98.686527,37.497518 -98.686513,37.498339</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-98.689857,37.500395 -98.689858,37.500534 -98.688503,37.500538 -98.688494,37.500396 -98.688464,37.499852 -98.688742,37.499851 -98.68909,37.499851 -98.689576,37.49985 -98.689855,37.49985 -98.689857,37.500395</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

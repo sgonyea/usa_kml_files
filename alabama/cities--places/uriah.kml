@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>uriah</name>
+<Schema name="uriah" id="uriah">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Uriah</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#uriah">
+		<SimpleData name="Name">Uriah</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">78120</SimpleData>
+		<SimpleData name="PLACENS">02628607</SimpleData>
+		<SimpleData name="GEOID">0178120</SimpleData>
+		<SimpleData name="NAMELSAD">Uriah CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">4159909</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+31.3073653</SimpleData>
+		<SimpleData name="INTPTLON">-087.4992133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.505646,31.311424 -87.505273,31.312899 -87.50519,31.313125 -87.505165,31.313236 -87.504811,31.313356 -87.503484,31.313773 -87.503178,31.313849 -87.503007,31.313866 -87.503091,31.314441 -87.503163,31.315035 -87.503235,31.315452 -87.503129,31.315534 -87.502781,31.315903 -87.502346,31.316482 -87.502151,31.316785 -87.501718,31.317364 -87.501052,31.318227 -87.500957,31.318338 -87.500845,31.318429 -87.50071,31.318481 -87.500562,31.318494 -87.497865,31.318474 -87.496772,31.318486 -87.496406,31.31848 -87.495679,31.318485 -87.494956,31.318503 -87.494228,31.318512 -87.493135,31.318512 -87.492916,31.318501 -87.492772,31.318467 -87.492642,31.318395 -87.492489,31.318238 -87.492058,31.317663 -87.491103,31.316459 -87.491063,31.316424 -87.48958,31.314327 -87.486881,31.31051 -87.484838,31.305945 -87.496888,31.298967 -87.496691,31.298634 -87.496737,31.29834 -87.497032,31.298139 -87.497388,31.297473 -87.503983,31.297543 -87.504241,31.296492 -87.504386,31.296506 -87.507945,31.296481 -87.508087,31.29649 -87.508158,31.296515 -87.508214,31.296563 -87.508248,31.296627 -87.508389,31.296966 -87.509363,31.299053 -87.509661,31.299626 -87.510422,31.301263 -87.51058,31.301508 -87.513503,31.308919 -87.505646,31.311424</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>peck</name>
+<Schema name="peck" id="peck">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Peck</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#peck">
+		<SimpleData name="Name">Peck</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">61840</SimpleData>
+		<SimpleData name="PLACENS">02411396</SimpleData>
+		<SimpleData name="GEOID">1661840</SimpleData>
+		<SimpleData name="NAMELSAD">Peck city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">695490</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.4744283</SimpleData>
+		<SimpleData name="INTPTLON">-116.4258196</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-116.431288,46.471271 -116.431291,46.471919 -116.431289,46.472957 -116.431295,46.474506 -116.431297,46.475269 -116.431299,46.476193 -116.431299,46.476891 -116.431325,46.478161 -116.426222,46.478152 -116.425773,46.478156 -116.425476,46.478161 -116.424863,46.478172 -116.423943,46.47816 -116.423616,46.478148 -116.422314,46.478107 -116.420263,46.478055 -116.420383,46.474326 -116.420382,46.47377 -116.42038,46.472661 -116.420345,46.47165 -116.42005,46.470901 -116.419981,46.470724 -116.420554,46.470722 -116.421329,46.470718 -116.424154,46.470721 -116.428845,46.470715 -116.431288,46.470712 -116.431288,46.471271</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

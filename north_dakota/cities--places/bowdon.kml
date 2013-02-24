@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bowdon</name>
+<Schema name="bowdon" id="bowdon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bowdon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bowdon">
+		<SimpleData name="Name">Bowdon</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">08580</SimpleData>
+		<SimpleData name="PLACENS">01035938</SimpleData>
+		<SimpleData name="GEOID">3808580</SimpleData>
+		<SimpleData name="NAMELSAD">Bowdon city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">646483</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.4685618</SimpleData>
+		<SimpleData name="INTPTLON">-099.7088190</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.714175,47.465777 -99.714175,47.466124 -99.714175,47.466245 -99.714174,47.466481 -99.714171,47.466985 -99.714163,47.468465 -99.714166,47.469164 -99.714168,47.469832 -99.714168,47.469935 -99.714171,47.470666 -99.714166,47.472149 -99.710731,47.472166 -99.709224,47.472173 -99.707204,47.47218 -99.706185,47.472187 -99.704959,47.472194 -99.704726,47.472196 -99.703625,47.472201 -99.70345,47.472202 -99.703471,47.471752 -99.703504,47.470783 -99.703505,47.469814 -99.703506,47.46953 -99.703507,47.468678 -99.703507,47.468618 -99.703476,47.464889 -99.707694,47.464974 -99.714174,47.46495 -99.714175,47.465777</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>angola</name>
+<Schema name="angola" id="angola">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Angola</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#angola">
+		<SimpleData name="Name">Angola</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">02198</SimpleData>
+		<SimpleData name="PLACENS">02391517</SimpleData>
+		<SimpleData name="GEOID">3602198</SimpleData>
+		<SimpleData name="NAMELSAD">Angola village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3669096</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.6378853</SimpleData>
+		<SimpleData name="INTPTLON">-079.0295159</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.039956,42.647558 -79.032432,42.647558 -79.031661,42.647558 -79.025703,42.647739 -79.025277,42.647742 -79.023333,42.647759 -79.01926,42.647675 -79.019322,42.646198 -79.019321,42.646109 -79.019304,42.644968 -79.019327,42.641553 -79.019317,42.641469 -79.01928,42.641142 -79.019,42.62825 -79.021816,42.628216 -79.025395,42.628173 -79.026962,42.628155 -79.031731,42.628154 -79.033069,42.627973 -79.039567,42.62807 -79.039567,42.628765 -79.039601,42.629606 -79.039661,42.631112 -79.039864,42.635613 -79.039865,42.638477 -79.039961,42.643219 -79.039956,42.647558</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wadena</name>
+<Schema name="wadena" id="wadena">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wadena</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wadena">
+		<SimpleData name="Name">Wadena</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">81570</SimpleData>
+		<SimpleData name="PLACENS">02397161</SimpleData>
+		<SimpleData name="GEOID">1981570</SimpleData>
+		<SimpleData name="NAMELSAD">Wadena city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1913455</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8397807</SimpleData>
+		<SimpleData name="INTPTLON">-091.6594005</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.666989,42.834158 -91.666612,42.843373 -91.666585,42.844027 -91.666564,42.844541 -91.666482,42.846573 -91.651908,42.847463 -91.651927,42.84681 -91.651957,42.845451 -91.651989,42.844632 -91.652015,42.84434 -91.652076,42.843085 -91.652096,42.84267 -91.652113,42.842332 -91.652338,42.837762 -91.652339,42.837004 -91.652245,42.832577 -91.654626,42.832539 -91.654996,42.832558 -91.655994,42.832527 -91.656321,42.832507 -91.656493,42.832519 -91.656684,42.832549 -91.657136,42.832672 -91.667058,42.832474 -91.666989,42.834158</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

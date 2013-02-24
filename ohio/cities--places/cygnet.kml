@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cygnet</name>
+<Schema name="cygnet" id="cygnet">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cygnet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cygnet">
+		<SimpleData name="Name">Cygnet</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">19820</SimpleData>
+		<SimpleData name="PLACENS">02398665</SimpleData>
+		<SimpleData name="GEOID">3919820</SimpleData>
+		<SimpleData name="NAMELSAD">Cygnet village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">857586</SimpleData>
+		<SimpleData name="AWATER">3649</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2411416</SimpleData>
+		<SimpleData name="INTPTLON">-083.6435319</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.64981,41.243915 -83.648386,41.24393 -83.646817,41.243935 -83.645208,41.243948 -83.64439,41.243944 -83.640408,41.243962 -83.640408,41.24415 -83.640419,41.245118 -83.636501,41.245103 -83.63654,41.240025 -83.637576,41.240027 -83.638186,41.240028 -83.63888,41.240029 -83.639569,41.240028 -83.640372,41.240027 -83.640359,41.239211 -83.640354,41.238929 -83.640326,41.236358 -83.645159,41.236376 -83.649912,41.236396 -83.649933,41.239448 -83.649933,41.239566 -83.649987,41.240283 -83.650138,41.243914 -83.64981,41.243915</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

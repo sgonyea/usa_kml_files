@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>browning</name>
+<Schema name="browning" id="browning">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Browning</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#browning">
+		<SimpleData name="Name">Browning</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">08884</SimpleData>
+		<SimpleData name="PLACENS">02393438</SimpleData>
+		<SimpleData name="GEOID">2908884</SimpleData>
+		<SimpleData name="NAMELSAD">Browning city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1354601</SimpleData>
+		<SimpleData name="AWATER">4333</SimpleData>
+		<SimpleData name="INTPTLAT">+40.0349461</SimpleData>
+		<SimpleData name="INTPTLON">-093.1603466</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.168788,40.038535 -93.16882,40.038712 -93.168363,40.038719 -93.16014,40.038885 -93.159779,40.038886 -93.15968,40.038888 -93.151911,40.038928 -93.151301,40.038916 -93.151015,40.038912 -93.151109,40.036545 -93.151105,40.036386 -93.15111,40.03612 -93.151117,40.035107 -93.151135,40.034618 -93.151118,40.034093 -93.151132,40.033896 -93.151154,40.033267 -93.151153,40.032695 -93.151175,40.031091 -93.151175,40.030926 -93.151778,40.030914 -93.157045,40.030792 -93.159616,40.030727 -93.164315,40.030611 -93.168663,40.030531 -93.168685,40.035293 -93.168812,40.035701 -93.168934,40.036246 -93.168945,40.036332 -93.168788,40.038535</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

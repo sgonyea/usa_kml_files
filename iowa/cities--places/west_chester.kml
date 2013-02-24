@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>west_chester</name>
+<Schema name="west_chester" id="west_chester">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>West Chester</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#west_chester">
+		<SimpleData name="Name">West Chester</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">83775</SimpleData>
+		<SimpleData name="PLACENS">02397263</SimpleData>
+		<SimpleData name="GEOID">1983775</SimpleData>
+		<SimpleData name="NAMELSAD">West Chester city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">655956</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.3400387</SimpleData>
+		<SimpleData name="INTPTLON">-091.8169476</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.821902,41.343669 -91.817057,41.343688 -91.815644,41.343693 -91.815325,41.343694 -91.812233,41.343706 -91.812008,41.336383 -91.812204,41.336382 -91.812279,41.336382 -91.812973,41.33638 -91.813947,41.336378 -91.815055,41.336383 -91.815749,41.336389 -91.816206,41.336391 -91.817162,41.336397 -91.817583,41.336394 -91.818042,41.336393 -91.818162,41.336392 -91.818522,41.336391 -91.818643,41.336391 -91.819246,41.336388 -91.821054,41.33638 -91.821658,41.336378 -91.821666,41.336766 -91.821694,41.33793 -91.821704,41.338318 -91.821749,41.338555 -91.821754,41.338702 -91.821758,41.338847 -91.821758,41.338863 -91.821776,41.339461 -91.821786,41.339779 -91.821811,41.340632 -91.821837,41.341512 -91.821857,41.342159 -91.821871,41.34264 -91.821902,41.343669</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

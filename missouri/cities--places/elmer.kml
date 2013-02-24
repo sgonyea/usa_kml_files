@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elmer</name>
+<Schema name="elmer" id="elmer">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elmer</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elmer">
+		<SimpleData name="Name">Elmer</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">21988</SimpleData>
+		<SimpleData name="PLACENS">02394672</SimpleData>
+		<SimpleData name="GEOID">2921988</SimpleData>
+		<SimpleData name="NAMELSAD">Elmer city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">655915</SimpleData>
+		<SimpleData name="AWATER">2281</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9579045</SimpleData>
+		<SimpleData name="INTPTLON">-092.6488036</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.654135,39.952953 -92.654121,39.953373 -92.654096,39.954 -92.654066,39.954905 -92.654023,39.955941 -92.653501,39.955925 -92.653497,39.956061 -92.653569,39.956103 -92.653495,39.95616 -92.653466,39.957319 -92.653454,39.957838 -92.65344,39.958711 -92.653407,39.959795 -92.652301,39.959771 -92.652288,39.963141 -92.64877,39.963033 -92.648326,39.963012 -92.647414,39.962979 -92.64555,39.962935 -92.645193,39.962918 -92.644952,39.96289 -92.645083,39.962732 -92.646248,39.961573 -92.646723,39.961089 -92.648332,39.959507 -92.648438,39.959406 -92.648101,39.959459 -92.648074,39.959352 -92.648128,39.956787 -92.648052,39.955547 -92.647244,39.955053 -92.647007,39.954917 -92.645883,39.954206 -92.6458,39.954129 -92.645764,39.954027 -92.645745,39.953714 -92.645386,39.953709 -92.645053,39.953705 -92.64459,39.953693 -92.644627,39.952109 -92.64827,39.952059 -92.650501,39.952046 -92.650458,39.952578 -92.652127,39.952563 -92.653967,39.952553 -92.654136,39.952552 -92.654135,39.952953</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

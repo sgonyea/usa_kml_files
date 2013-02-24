@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sussex</name>
+<Schema name="sussex" id="sussex">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sussex</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sussex">
+		<SimpleData name="Name">Sussex</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">71670</SimpleData>
+		<SimpleData name="PLACENS">00885414</SimpleData>
+		<SimpleData name="GEOID">3471670</SimpleData>
+		<SimpleData name="NAMELSAD">Sussex borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1525663</SimpleData>
+		<SimpleData name="AWATER">77980</SimpleData>
+		<SimpleData name="INTPTLAT">+41.2098590</SimpleData>
+		<SimpleData name="INTPTLON">-074.6065350</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.615472,41.212149 -74.615305,41.212399 -74.614014,41.214454 -74.613443,41.21462 -74.611277,41.215232 -74.611028,41.215302 -74.61078,41.215373 -74.609979,41.215606 -74.607511,41.216327 -74.601085,41.214178 -74.600811,41.213771 -74.600576,41.213322 -74.600468,41.213115 -74.598566,41.209474 -74.599666,41.207558 -74.600655,41.205796 -74.601238,41.204817 -74.601282,41.204802 -74.602206,41.204523 -74.602765,41.204356 -74.605828,41.203437 -74.607763,41.202844 -74.608195,41.202985 -74.614107,41.204984 -74.614796,41.206276 -74.616217,41.209466 -74.616546,41.210191 -74.615472,41.212149</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

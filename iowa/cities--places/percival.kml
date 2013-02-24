@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>percival</name>
+<Schema name="percival" id="percival">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Percival</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#percival">
+		<SimpleData name="Name">Percival</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">62175</SimpleData>
+		<SimpleData name="PLACENS">02583492</SimpleData>
+		<SimpleData name="GEOID">1962175</SimpleData>
+		<SimpleData name="NAMELSAD">Percival CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1139554</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7512687</SimpleData>
+		<SimpleData name="INTPTLON">-095.8132664</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.817479,40.744975 -95.817486,40.747748 -95.817503,40.750001 -95.817505,40.752144 -95.817492,40.752695 -95.817504,40.752951 -95.817526,40.754183 -95.817521,40.755573 -95.817448,40.756611 -95.817313,40.75758 -95.81728,40.757729 -95.817183,40.758168 -95.817141,40.758317 -95.81498,40.758335 -95.81337,40.758351 -95.813103,40.758354 -95.812727,40.758354 -95.810375,40.758352 -95.809249,40.758362 -95.808566,40.758369 -95.809054,40.752077 -95.809081,40.751718 -95.809351,40.751455 -95.809398,40.75101 -95.809368,40.750882 -95.808242,40.751028 -95.808264,40.749063 -95.809507,40.749074 -95.809772,40.747048 -95.809675,40.746054 -95.809616,40.745933 -95.809873,40.74387 -95.810153,40.74387 -95.813417,40.743858 -95.814255,40.743858 -95.814536,40.743854 -95.816543,40.743821 -95.817148,40.743803 -95.817473,40.743909 -95.817479,40.744975</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

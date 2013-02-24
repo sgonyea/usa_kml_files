@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>kimball</name>
+<Schema name="kimball" id="kimball">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Kimball</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#kimball">
+		<SimpleData name="Name">Kimball</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">33980</SimpleData>
+		<SimpleData name="PLACENS">01267445</SimpleData>
+		<SimpleData name="GEOID">4633980</SimpleData>
+		<SimpleData name="NAMELSAD">Kimball city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">7997845</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7468642</SimpleData>
+		<SimpleData name="INTPTLON">-098.9569224</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.977176,43.75395 -98.977065,43.759205 -98.973455,43.759192 -98.968439,43.759158 -98.963517,43.759134 -98.95601,43.759104 -98.953549,43.759116 -98.952607,43.759112 -98.939011,43.759052 -98.939015,43.749999 -98.938997,43.748506 -98.938948,43.745204 -98.93889,43.738166 -98.93887,43.737855 -98.938823,43.734137 -98.9541,43.734221 -98.957916,43.73425 -98.9739,43.734089 -98.973948,43.737862 -98.973951,43.738131 -98.973891,43.743425 -98.973816,43.744845 -98.973776,43.747693 -98.973747,43.749768 -98.973741,43.750197 -98.973685,43.751969 -98.977187,43.752129 -98.977176,43.75395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

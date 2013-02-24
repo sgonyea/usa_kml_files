@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>watkins</name>
+<Schema name="watkins" id="watkins">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Watkins</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#watkins">
+		<SimpleData name="Name">Watkins</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">82515</SimpleData>
+		<SimpleData name="PLACENS">02629975</SimpleData>
+		<SimpleData name="GEOID">1982515</SimpleData>
+		<SimpleData name="NAMELSAD">Watkins CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1072248</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8931016</SimpleData>
+		<SimpleData name="INTPTLON">-091.9849930</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.991857,41.898586 -91.987781,41.898571 -91.98778,41.898515 -91.98494,41.898503 -91.982133,41.898482 -91.980027,41.898491 -91.979897,41.891121 -91.979822,41.886855 -91.98213,41.886796 -91.986783,41.886748 -91.987545,41.886818 -91.988099,41.886862 -91.988132,41.88995 -91.988307,41.890212 -91.98853,41.890545 -91.988898,41.890888 -91.989143,41.891162 -91.989235,41.891391 -91.989542,41.89178 -91.989511,41.891871 -91.989603,41.891917 -91.989634,41.892077 -91.989726,41.892123 -91.989726,41.892214 -91.990002,41.89258 -91.990155,41.892969 -91.990278,41.893129 -91.990953,41.895004 -91.991045,41.895256 -91.991106,41.895302 -91.991137,41.895553 -91.991259,41.895828 -91.991382,41.896262 -91.991536,41.896743 -91.991751,41.898092 -91.991857,41.898586</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

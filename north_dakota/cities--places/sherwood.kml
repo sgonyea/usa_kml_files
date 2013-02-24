@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sherwood</name>
+<Schema name="sherwood" id="sherwood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sherwood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sherwood">
+		<SimpleData name="Name">Sherwood</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">72540</SimpleData>
+		<SimpleData name="PLACENS">01036261</SimpleData>
+		<SimpleData name="GEOID">3872540</SimpleData>
+		<SimpleData name="NAMELSAD">Sherwood city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">814118</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.9618568</SimpleData>
+		<SimpleData name="INTPTLON">-101.6328848</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.639342,48.958371 -101.63931,48.958599 -101.639113,48.96098 -101.639116,48.961983 -101.639116,48.963052 -101.639118,48.96406 -101.639119,48.964851 -101.6391,48.966012 -101.638091,48.966009 -101.634304,48.965997 -101.632571,48.965992 -101.631614,48.965989 -101.631055,48.965987 -101.629841,48.965984 -101.628645,48.96598 -101.628477,48.96598 -101.627725,48.965984 -101.62772,48.964094 -101.62772,48.964001 -101.62772,48.963834 -101.62772,48.963014 -101.626412,48.963056 -101.626087,48.963051 -101.626009,48.958504 -101.626008,48.958462 -101.625995,48.957999 -101.627746,48.957974 -101.629285,48.95798 -101.630041,48.957983 -101.631515,48.957993 -101.632143,48.957998 -101.632752,48.958003 -101.635077,48.958007 -101.636519,48.958003 -101.637246,48.958 -101.638109,48.958007 -101.639008,48.958014 -101.639374,48.957996 -101.639342,48.958371</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

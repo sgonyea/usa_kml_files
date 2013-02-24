@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bardolph</name>
+<Schema name="bardolph" id="bardolph">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bardolph</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bardolph">
+		<SimpleData name="Name">Bardolph</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">03675</SimpleData>
+		<SimpleData name="PLACENS">02398032</SimpleData>
+		<SimpleData name="GEOID">1703675</SimpleData>
+		<SimpleData name="NAMELSAD">Bardolph village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1539723</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4962740</SimpleData>
+		<SimpleData name="INTPTLON">-090.5633914</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.572204,40.500041 -90.572159,40.500393 -90.570418,40.500393 -90.560984,40.500238 -90.560813,40.500237 -90.560602,40.502927 -90.553286,40.502975 -90.55303,40.502972 -90.553006,40.502194 -90.553116,40.50038 -90.553079,40.500264 -90.553082,40.50004 -90.557211,40.500029 -90.557247,40.492125 -90.557275,40.491724 -90.557065,40.491724 -90.557117,40.489772 -90.561071,40.489777 -90.561076,40.49087 -90.569161,40.491017 -90.570559,40.491056 -90.571844,40.491068 -90.571894,40.49814 -90.572204,40.500041</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

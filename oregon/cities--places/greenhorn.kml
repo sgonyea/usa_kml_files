@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>greenhorn</name>
+<Schema name="greenhorn" id="greenhorn">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Greenhorn</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#greenhorn">
+		<SimpleData name="Name">Greenhorn</SimpleData>
+		<SimpleData name="STATEFP">41</SimpleData>
+		<SimpleData name="PLACEFP">31050</SimpleData>
+		<SimpleData name="PLACENS">02410658</SimpleData>
+		<SimpleData name="GEOID">4131050</SimpleData>
+		<SimpleData name="NAMELSAD">Greenhorn city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C9</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">I</SimpleData>
+		<SimpleData name="ALAND">222800</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.7087160</SimpleData>
+		<SimpleData name="INTPTLON">-118.4967416</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.499273,44.706369 -118.499274,44.706475 -118.498779,44.706716 -118.498772,44.706801 -118.498764,44.706894 -118.49875,44.707054 -118.498731,44.707296 -118.498699,44.70775 -118.498667,44.708077 -118.498634,44.708469 -118.49862,44.70868 -118.498598,44.708913 -118.498518,44.709882 -118.498453,44.710691 -118.499402,44.711193 -118.499399,44.711477 -118.499386,44.712823 -118.497764,44.712811 -118.498147,44.712711 -118.497789,44.712042 -118.497408,44.711312 -118.497165,44.710763 -118.496829,44.709977 -118.496699,44.709696 -118.496592,44.709425 -118.496575,44.709385 -118.496523,44.70929 -118.496495,44.709239 -118.496336,44.709284 -118.496119,44.709361 -118.495826,44.709459 -118.495522,44.709589 -118.495162,44.709762 -118.494885,44.709895 -118.494611,44.710061 -118.494535,44.710118 -118.494561,44.710169 -118.495277,44.711551 -118.495549,44.712076 -118.495623,44.712222 -118.495748,44.712463 -118.495804,44.712574 -118.495952,44.712871 -118.495368,44.712866 -118.495218,44.712865 -118.495021,44.712861 -118.494399,44.712848 -118.494389,44.711196 -118.494386,44.710843 -118.494379,44.710274 -118.494377,44.70928 -118.494364,44.707119 -118.494361,44.706595 -118.494355,44.705556 -118.495572,44.705593 -118.49567,44.705599 -118.495959,44.705608 -118.496096,44.705614 -118.497184,44.705648 -118.49927,44.705716 -118.499273,44.706369</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

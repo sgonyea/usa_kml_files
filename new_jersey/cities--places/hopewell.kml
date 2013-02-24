@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hopewell</name>
+<Schema name="hopewell" id="hopewell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hopewell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hopewell">
+		<SimpleData name="Name">Hopewell</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">33150</SimpleData>
+		<SimpleData name="PLACENS">00885260</SimpleData>
+		<SimpleData name="GEOID">3433150</SimpleData>
+		<SimpleData name="NAMELSAD">Hopewell borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1819911</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3890089</SimpleData>
+		<SimpleData name="INTPTLON">-074.7638615</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.777416,40.386884 -74.776569,40.387205 -74.775883,40.387464 -74.773669,40.388428 -74.773536,40.388485 -74.773007,40.388716 -74.773205,40.389116 -74.773274,40.389257 -74.771768,40.38987 -74.765277,40.392494 -74.766214,40.393772 -74.765742,40.393992 -74.762838,40.395351 -74.762168,40.395603 -74.758853,40.396856 -74.756358,40.39509 -74.755821,40.394464 -74.755224,40.393899 -74.75343,40.392204 -74.752832,40.391638 -74.752056,40.38954 -74.751405,40.387605 -74.754639,40.386675 -74.756133,40.386229 -74.756531,40.386127 -74.756728,40.386525 -74.757042,40.386995 -74.760175,40.38612 -74.760454,40.386041 -74.764159,40.385123 -74.764871,40.384998 -74.767964,40.383607 -74.773351,40.381124 -74.774446,40.382729 -74.775909,40.38474 -74.776267,40.385218 -74.777416,40.386884</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

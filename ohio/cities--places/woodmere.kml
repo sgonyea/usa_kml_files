@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>woodmere</name>
+<Schema name="woodmere" id="woodmere">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Woodmere</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#woodmere">
+		<SimpleData name="Name">Woodmere</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">86394</SimpleData>
+		<SimpleData name="PLACENS">01086008</SimpleData>
+		<SimpleData name="GEOID">3986394</SimpleData>
+		<SimpleData name="NAMELSAD">Woodmere village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">865604</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.4599707</SimpleData>
+		<SimpleData name="INTPTLON">-081.4798564</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.488458,41.462452 -81.488242,41.464053 -81.483788,41.463898 -81.482509,41.463885 -81.481795,41.463874 -81.480819,41.463859 -81.479832,41.463844 -81.47886,41.46383 -81.478432,41.463823 -81.475379,41.463778 -81.473568,41.463855 -81.473559,41.462354 -81.474227,41.462354 -81.474227,41.456385 -81.474227,41.455556 -81.474984,41.455555 -81.475127,41.455555 -81.476772,41.455575 -81.478417,41.455575 -81.48019,41.455575 -81.482015,41.455594 -81.483891,41.455613 -81.484687,41.4556 -81.484635,41.462335 -81.485767,41.462335 -81.485922,41.462335 -81.488003,41.462335 -81.488458,41.462452</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

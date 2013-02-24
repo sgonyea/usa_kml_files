@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>east_randolph</name>
+<Schema name="east_randolph" id="east_randolph">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>East Randolph</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#east_randolph">
+		<SimpleData name="Name">East Randolph</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">22843</SimpleData>
+		<SimpleData name="PLACENS">02391653</SimpleData>
+		<SimpleData name="GEOID">3622843</SimpleData>
+		<SimpleData name="NAMELSAD">East Randolph village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2818954</SimpleData>
+		<SimpleData name="AWATER">1775</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1680672</SimpleData>
+		<SimpleData name="INTPTLON">-078.9571841</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.956464,42.172628 -78.955177,42.173825 -78.955199,42.178779 -78.948696,42.178768 -78.945401,42.178734 -78.944877,42.178757 -78.944902,42.176472 -78.944319,42.176474 -78.942845,42.176458 -78.942819,42.172536 -78.942765,42.171616 -78.942728,42.16834 -78.942648,42.161247 -78.942642,42.160766 -78.949227,42.160915 -78.956435,42.161169 -78.962201,42.164687 -78.963704,42.165609 -78.963724,42.165621 -78.96381,42.165692 -78.964953,42.16753 -78.964891,42.172752 -78.956464,42.172628</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

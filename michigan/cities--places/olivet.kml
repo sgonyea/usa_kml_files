@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>olivet</name>
+<Schema name="olivet" id="olivet">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Olivet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#olivet">
+		<SimpleData name="Name">Olivet</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">60580</SimpleData>
+		<SimpleData name="PLACENS">01626844</SimpleData>
+		<SimpleData name="GEOID">2660580</SimpleData>
+		<SimpleData name="NAMELSAD">Olivet city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2641980</SimpleData>
+		<SimpleData name="AWATER">3267</SimpleData>
+		<SimpleData name="INTPTLAT">+42.4430155</SimpleData>
+		<SimpleData name="INTPTLON">-084.9301365</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.934255,42.451285 -84.934074,42.451261 -84.92494,42.451338 -84.923089,42.451328 -84.916527,42.451282 -84.914751,42.451267 -84.914727,42.443901 -84.914696,42.44096 -84.914682,42.440382 -84.914685,42.436669 -84.917918,42.436676 -84.919699,42.436676 -84.921049,42.436681 -84.923064,42.436687 -84.923316,42.436692 -84.926424,42.436675 -84.928354,42.436679 -84.934424,42.436693 -84.934574,42.448508 -84.934585,42.449415 -84.934575,42.451286 -84.934255,42.451285</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

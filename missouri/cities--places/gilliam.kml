@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gilliam</name>
+<Schema name="gilliam" id="gilliam">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gilliam</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gilliam">
+		<SimpleData name="Name">Gilliam</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">27028</SimpleData>
+		<SimpleData name="PLACENS">02396960</SimpleData>
+		<SimpleData name="GEOID">2927028</SimpleData>
+		<SimpleData name="NAMELSAD">Gilliam city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">643396</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2327383</SimpleData>
+		<SimpleData name="INTPTLON">-093.0041266</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.009002,39.229782 -93.00896,39.232399 -93.008956,39.232704 -93.008727,39.235252 -93.00861,39.236553 -93.008525,39.236487 -93.00844,39.236449 -93.008285,39.236481 -93.008007,39.236487 -93.007911,39.236464 -93.007871,39.236392 -93.007868,39.236304 -93.005454,39.23629 -93.005145,39.236267 -93.004775,39.236238 -93.004677,39.236238 -93.000192,39.236263 -92.999251,39.236016 -92.999254,39.23593 -92.999352,39.23315 -92.999397,39.231866 -92.999439,39.230713 -92.999475,39.229573 -92.999494,39.229107 -93.000189,39.229134 -93.00288,39.229194 -93.00901,39.229323 -93.009002,39.229782</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>redwater</name>
+<Schema name="redwater" id="redwater">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Redwater</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#redwater">
+		<SimpleData name="Name">Redwater</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">61340</SimpleData>
+		<SimpleData name="PLACENS">02410918</SimpleData>
+		<SimpleData name="GEOID">4861340</SimpleData>
+		<SimpleData name="NAMELSAD">Redwater city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5154850</SimpleData>
+		<SimpleData name="AWATER">4671</SimpleData>
+		<SimpleData name="INTPTLAT">+33.3583425</SimpleData>
+		<SimpleData name="INTPTLON">-094.2561652</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.271571,33.365159 -94.270187,33.365814 -94.269136,33.366225 -94.267649,33.366587 -94.266416,33.366742 -94.261761,33.3675 -94.256432,33.368398 -94.252633,33.369028 -94.251752,33.369175 -94.251578,33.369204 -94.248404,33.369754 -94.245055,33.37028 -94.244259,33.366835 -94.243948,33.365467 -94.243131,33.361925 -94.243107,33.361761 -94.242546,33.358682 -94.240763,33.350847 -94.245529,33.349791 -94.249355,33.348875 -94.250193,33.348695 -94.253616,33.348153 -94.263929,33.346507 -94.264536,33.348793 -94.265606,33.352831 -94.266299,33.355438 -94.26636,33.35564 -94.266445,33.355995 -94.266545,33.356346 -94.266805,33.357327 -94.268873,33.360818 -94.269152,33.361255 -94.270149,33.362868 -94.270735,33.363835 -94.271571,33.365159</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>northboro</name>
+<Schema name="northboro" id="northboro">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Northboro</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#northboro">
+		<SimpleData name="Name">Northboro</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">57045</SimpleData>
+		<SimpleData name="PLACENS">02395264</SimpleData>
+		<SimpleData name="GEOID">1957045</SimpleData>
+		<SimpleData name="NAMELSAD">Northboro city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">661699</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6080172</SimpleData>
+		<SimpleData name="INTPTLON">-095.2936381</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.299583,40.611034 -95.299109,40.61103 -95.298029,40.610993 -95.297586,40.610985 -95.297317,40.610988 -95.297227,40.610989 -95.296898,40.610993 -95.296574,40.610997 -95.29634,40.610995 -95.294846,40.610965 -95.294183,40.610961 -95.293969,40.61094 -95.29387,40.610911 -95.29329,40.610926 -95.292985,40.610933 -95.292036,40.610884 -95.292002,40.610924 -95.291938,40.610975 -95.291818,40.610998 -95.290274,40.610974 -95.289427,40.610979 -95.289146,40.61098 -95.288084,40.610964 -95.287722,40.610963 -95.287686,40.610179 -95.287679,40.609841 -95.287696,40.608739 -95.287672,40.608126 -95.28766,40.607985 -95.287633,40.606875 -95.287637,40.606356 -95.287742,40.605056 -95.290885,40.605058 -95.292124,40.605059 -95.294465,40.605067 -95.295806,40.605068 -95.297256,40.605071 -95.2996,40.605076 -95.299583,40.611034</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

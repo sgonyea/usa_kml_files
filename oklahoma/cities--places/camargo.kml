@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>camargo</name>
+<Schema name="camargo" id="camargo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Camargo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#camargo">
+		<SimpleData name="Name">Camargo</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">11150</SimpleData>
+		<SimpleData name="PLACENS">02413152</SimpleData>
+		<SimpleData name="GEOID">4011150</SimpleData>
+		<SimpleData name="NAMELSAD">Camargo town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">667040</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.0178969</SimpleData>
+		<SimpleData name="INTPTLON">-099.2882921</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-99.292888,36.014388 -99.292898,36.015328 -99.292901,36.015618 -99.292909,36.016235 -99.292908,36.016725 -99.292897,36.017034 -99.292884,36.017131 -99.292868,36.01727 -99.292853,36.017694 -99.292885,36.018357 -99.292897,36.018596 -99.292893,36.018747 -99.292871,36.019565 -99.292873,36.020828 -99.292865,36.021569 -99.288449,36.021535 -99.288054,36.02153 -99.286799,36.021517 -99.285622,36.021509 -99.28502,36.021504 -99.283741,36.021494 -99.283697,36.019404 -99.283713,36.018399 -99.2837,36.017432 -99.283584,36.014299 -99.283977,36.014298 -99.284308,36.014297 -99.284897,36.014296 -99.285542,36.014287 -99.286131,36.01428 -99.286598,36.014273 -99.286727,36.014274 -99.288012,36.014283 -99.288555,36.014287 -99.289319,36.014285 -99.291203,36.014276 -99.291611,36.014277 -99.292896,36.014296 -99.292888,36.014388</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>westphalia</name>
+<Schema name="westphalia" id="westphalia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Westphalia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#westphalia">
+		<SimpleData name="Name">Westphalia</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">77250</SimpleData>
+		<SimpleData name="PLACENS">02397285</SimpleData>
+		<SimpleData name="GEOID">2077250</SimpleData>
+		<SimpleData name="NAMELSAD">Westphalia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">483747</SimpleData>
+		<SimpleData name="AWATER">2111</SimpleData>
+		<SimpleData name="INTPTLAT">+38.1819854</SimpleData>
+		<SimpleData name="INTPTLON">-095.4909825</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.496227,38.184397 -95.494051,38.184398 -95.49407,38.184222 -95.49155,38.1842 -95.491558,38.183777 -95.491335,38.183778 -95.49094,38.183779 -95.490845,38.183779 -95.490558,38.183768 -95.49016,38.183752 -95.489969,38.183762 -95.489971,38.184706 -95.489969,38.185159 -95.489965,38.186302 -95.489961,38.186825 -95.487313,38.186856 -95.487293,38.185345 -95.487341,38.183804 -95.487332,38.183541 -95.487313,38.183312 -95.487328,38.182943 -95.487343,38.182652 -95.487357,38.182376 -95.487401,38.181572 -95.487441,38.180844 -95.487371,38.179819 -95.487367,38.179145 -95.486577,38.17911 -95.486564,38.177996 -95.487049,38.177999 -95.48719,38.17799 -95.487212,38.178001 -95.488977,38.177978 -95.490071,38.177965 -95.490069,38.178089 -95.490068,38.178155 -95.490051,38.178672 -95.490028,38.179243 -95.490011,38.17967 -95.490003,38.179881 -95.490002,38.179927 -95.490048,38.179914 -95.491781,38.179459 -95.49512,38.178556 -95.495119,38.178765 -95.495118,38.178958 -95.4951,38.180757 -95.495137,38.180841 -95.495116,38.181502 -95.49512,38.181695 -95.495122,38.181759 -95.495129,38.182113 -95.495141,38.182665 -95.495139,38.182766 -95.495125,38.183389 -95.495132,38.183788 -95.495674,38.18378 -95.495746,38.183779 -95.496,38.183777 -95.496234,38.183778 -95.496227,38.184397</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

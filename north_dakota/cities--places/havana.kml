@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>havana</name>
+<Schema name="havana" id="havana">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Havana</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#havana">
+		<SimpleData name="Name">Havana</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">36140</SimpleData>
+		<SimpleData name="PLACENS">01036086</SimpleData>
+		<SimpleData name="GEOID">3836140</SimpleData>
+		<SimpleData name="NAMELSAD">Havana city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">970534</SimpleData>
+		<SimpleData name="AWATER">3495</SimpleData>
+		<SimpleData name="INTPTLAT">+45.9542099</SimpleData>
+		<SimpleData name="INTPTLON">-097.6184916</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.623722,45.946886 -97.623759,45.947348 -97.623837,45.947691 -97.623913,45.947994 -97.623724,45.949862 -97.623705,45.950873 -97.623694,45.951502 -97.623671,45.951622 -97.623593,45.951695 -97.623505,45.951754 -97.623623,45.952666 -97.623615,45.953798 -97.623581,45.957095 -97.621309,45.957099 -97.616584,45.957108 -97.613482,45.957115 -97.613268,45.957117 -97.613273,45.955413 -97.613292,45.954281 -97.613288,45.953993 -97.613285,45.953692 -97.613296,45.951795 -97.613299,45.951557 -97.613301,45.950867 -97.613299,45.950693 -97.61329,45.94987 -97.612596,45.949866 -97.611814,45.949865 -97.611773,45.948408 -97.613301,45.948439 -97.613307,45.947693 -97.613305,45.947495 -97.613296,45.946611 -97.613294,45.946446 -97.623307,45.946422 -97.623713,45.946429 -97.623722,45.946886</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rillito</name>
+<Schema name="rillito" id="rillito">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rillito</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rillito">
+		<SimpleData name="Name">Rillito</SimpleData>
+		<SimpleData name="STATEFP">04</SimpleData>
+		<SimpleData name="PLACEFP">59900</SimpleData>
+		<SimpleData name="PLACENS">02582851</SimpleData>
+		<SimpleData name="GEOID">0459900</SimpleData>
+		<SimpleData name="NAMELSAD">Rillito CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">209155</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.4156874</SimpleData>
+		<SimpleData name="INTPTLON">-111.1549370</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-111.157327,32.414164 -111.157331,32.414737 -111.157334,32.415311 -111.157336,32.415598 -111.157338,32.415885 -111.157294,32.417237 -111.157294,32.417302 -111.157298,32.41923 -111.157298,32.419403 -111.157181,32.41931 -111.156977,32.419148 -111.15689,32.419081 -111.156417,32.418716 -111.154998,32.417623 -111.154526,32.417259 -111.15425,32.41704 -111.153424,32.416387 -111.153149,32.416171 -111.152553,32.415709 -111.15171,32.415056 -111.15076,32.414333 -111.150161,32.413879 -111.151507,32.413862 -111.155549,32.413811 -111.156896,32.413795 -111.157325,32.413796 -111.157327,32.414164</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

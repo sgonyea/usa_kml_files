@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>milnor</name>
+<Schema name="milnor" id="milnor">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Milnor</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#milnor">
+		<SimpleData name="Name">Milnor</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">52940</SimpleData>
+		<SimpleData name="PLACENS">01036162</SimpleData>
+		<SimpleData name="GEOID">3852940</SimpleData>
+		<SimpleData name="NAMELSAD">Milnor city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2434157</SimpleData>
+		<SimpleData name="AWATER">173490</SimpleData>
+		<SimpleData name="INTPTLAT">+46.2614802</SimpleData>
+		<SimpleData name="INTPTLON">-097.4569216</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.467809,46.258121 -97.467801,46.261082 -97.467821,46.263754 -97.467785,46.264442 -97.46762,46.267458 -97.467709,46.267618 -97.467734,46.267824 -97.467742,46.268344 -97.465338,46.268307 -97.464108,46.268286 -97.463326,46.268282 -97.462176,46.268278 -97.460247,46.268252 -97.45831,46.268241 -97.457196,46.268226 -97.45251,46.268171 -97.450567,46.268155 -97.448635,46.26813 -97.446859,46.268113 -97.446874,46.267185 -97.446876,46.265951 -97.446872,46.26528 -97.446866,46.263611 -97.446866,46.263502 -97.446879,46.261602 -97.446875,46.260384 -97.446873,46.260241 -97.44686,46.259077 -97.446846,46.25766 -97.44685,46.256363 -97.446849,46.254908 -97.44688,46.253696 -97.448116,46.253693 -97.448441,46.253693 -97.448771,46.253694 -97.449208,46.253694 -97.449467,46.253694 -97.449927,46.253694 -97.450205,46.253698 -97.450475,46.253701 -97.451193,46.253684 -97.45255,46.253627 -97.453849,46.253634 -97.45563,46.25366 -97.45623,46.253687 -97.456626,46.253318 -97.456593,46.253077 -97.456778,46.252999 -97.457496,46.252992 -97.45747,46.253528 -97.45744,46.253576 -97.457454,46.253659 -97.466226,46.253807 -97.466968,46.25382 -97.467442,46.253829 -97.467811,46.253836 -97.467809,46.258121</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

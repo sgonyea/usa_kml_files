@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>papineau</name>
+<Schema name="papineau" id="papineau">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Papineau</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#papineau">
+		<SimpleData name="Name">Papineau</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">57576</SimpleData>
+		<SimpleData name="PLACENS">02399621</SimpleData>
+		<SimpleData name="GEOID">1757576</SimpleData>
+		<SimpleData name="NAMELSAD">Papineau village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">584802</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9673452</SimpleData>
+		<SimpleData name="INTPTLON">-087.7160880</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.719968,40.970582 -87.720014,40.973175 -87.717333,40.973206 -87.71728,40.97096 -87.716904,40.970961 -87.714296,40.970974 -87.712756,40.970976 -87.71275,40.97026 -87.712733,40.968831 -87.712521,40.967677 -87.712422,40.964274 -87.712421,40.964189 -87.712407,40.963655 -87.712391,40.963113 -87.712362,40.962148 -87.712667,40.962145 -87.717735,40.962088 -87.717984,40.962086 -87.718109,40.962085 -87.718009,40.962985 -87.717974,40.963299 -87.717957,40.963447 -87.717636,40.966126 -87.717794,40.966166 -87.719828,40.966681 -87.71979,40.968367 -87.72006,40.968247 -87.720114,40.968356 -87.720147,40.968724 -87.719888,40.968732 -87.719918,40.970136 -87.720344,40.970129 -87.720371,40.970579 -87.719968,40.970582</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

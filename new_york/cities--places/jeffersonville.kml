@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>jeffersonville</name>
+<Schema name="jeffersonville" id="jeffersonville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Jeffersonville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jeffersonville">
+		<SimpleData name="Name">Jeffersonville</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">38506</SimpleData>
+		<SimpleData name="PLACENS">02390914</SimpleData>
+		<SimpleData name="GEOID">3638506</SimpleData>
+		<SimpleData name="NAMELSAD">Jeffersonville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1050190</SimpleData>
+		<SimpleData name="AWATER">84180</SimpleData>
+		<SimpleData name="INTPTLAT">+41.7775212</SimpleData>
+		<SimpleData name="INTPTLON">-074.9258534</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.940687,41.7805 -74.940496,41.781241 -74.938981,41.782973 -74.933546,41.785574 -74.932927,41.785401 -74.932766,41.78593 -74.932243,41.78719 -74.932015,41.786647 -74.931179,41.785262 -74.931603,41.783781 -74.9311,41.783668 -74.931253,41.783165 -74.921918,41.780092 -74.92152,41.779951 -74.918195,41.778877 -74.918841,41.776977 -74.919093,41.776104 -74.919519,41.774836 -74.921903,41.77528 -74.922202,41.775354 -74.923606,41.775631 -74.933872,41.777799 -74.934606,41.777842 -74.935497,41.77793 -74.936689,41.778174 -74.9388,41.778574 -74.940058,41.778813 -74.940447,41.778875 -74.941071,41.778994 -74.940687,41.7805</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

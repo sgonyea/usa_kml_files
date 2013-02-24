@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>coaldale</name>
+<Schema name="coaldale" id="coaldale">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Coaldale</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#coaldale">
+		<SimpleData name="Name">Coaldale</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">14600</SimpleData>
+		<SimpleData name="PLACENS">01215545</SimpleData>
+		<SimpleData name="GEOID">4214600</SimpleData>
+		<SimpleData name="NAMELSAD">Coaldale borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5634249</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8197400</SimpleData>
+		<SimpleData name="INTPTLON">-075.9161016</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.930582,40.821589 -75.928746,40.822502 -75.928408,40.82267 -75.928177,40.822785 -75.926652,40.823545 -75.92586,40.823939 -75.925187,40.824274 -75.921279,40.82622 -75.921149,40.826285 -75.918591,40.827557 -75.918109,40.827798 -75.913751,40.829968 -75.910095,40.831788 -75.906242,40.833736 -75.905813,40.833363 -75.903518,40.831371 -75.902401,40.8304 -75.901978,40.830033 -75.90071,40.828932 -75.900403,40.828665 -75.900288,40.828565 -75.900271,40.82855 -75.90019,40.82848 -75.89995,40.828272 -75.89987,40.828203 -75.899019,40.827466 -75.897901,40.826497 -75.897433,40.826091 -75.895591,40.824489 -75.893655,40.822806 -75.891771,40.821168 -75.891751,40.82115 -75.891691,40.821099 -75.891671,40.821083 -75.894696,40.819946 -75.897994,40.818708 -75.90187,40.817352 -75.90518,40.816113 -75.912654,40.813315 -75.913746,40.812879 -75.913962,40.812801 -75.91476,40.812514 -75.91535,40.812301 -75.917123,40.811664 -75.91718,40.811644 -75.926783,40.808036 -75.927301,40.807857 -75.927764,40.80768 -75.930767,40.806537 -75.931768,40.806157 -75.934361,40.805188 -75.934424,40.805681 -75.934644,40.807319 -75.934873,40.809072 -75.935105,40.810825 -75.935185,40.811448 -75.935345,40.812655 -75.935953,40.817259 -75.936157,40.818812 -75.930582,40.821589</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

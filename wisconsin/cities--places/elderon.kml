@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elderon</name>
+<Schema name="elderon" id="elderon">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elderon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elderon">
+		<SimpleData name="Name">Elderon</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">23075</SimpleData>
+		<SimpleData name="PLACENS">01583143</SimpleData>
+		<SimpleData name="GEOID">5523075</SimpleData>
+		<SimpleData name="NAMELSAD">Elderon village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2858019</SimpleData>
+		<SimpleData name="AWATER">148295</SimpleData>
+		<SimpleData name="INTPTLAT">+44.7873372</SimpleData>
+		<SimpleData name="INTPTLON">-089.2520842</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.25012,44.790845 -89.244552,44.790803 -89.239361,44.790752 -89.234555,44.790753 -89.23468,44.783696 -89.234742,44.780317 -89.238302,44.780294 -89.239488,44.780279 -89.23954,44.77667 -89.24255,44.776657 -89.244037,44.77665 -89.245305,44.776643 -89.250114,44.776444 -89.251214,44.776289 -89.251328,44.776272 -89.259711,44.776283 -89.259734,44.781429 -89.259734,44.781532 -89.259744,44.783764 -89.259779,44.784641 -89.259835,44.790847 -89.25012,44.790845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

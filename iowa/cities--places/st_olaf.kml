@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>st_olaf</name>
+<Schema name="st_olaf" id="st_olaf">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>St. Olaf</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#st_olaf">
+		<SimpleData name="Name">St. Olaf</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">70140</SimpleData>
+		<SimpleData name="PLACENS">02396510</SimpleData>
+		<SimpleData name="GEOID">1970140</SimpleData>
+		<SimpleData name="NAMELSAD">St. Olaf city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">632230</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9269017</SimpleData>
+		<SimpleData name="INTPTLON">-091.3878895</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.392053,42.926447 -91.392018,42.928458 -91.391982,42.930104 -91.391947,42.93178 -91.388684,42.931691 -91.387038,42.931647 -91.3869,42.931645 -91.386489,42.931641 -91.386352,42.93164 -91.386153,42.931635 -91.385557,42.931622 -91.385359,42.931618 -91.384872,42.931609 -91.384257,42.931599 -91.384348,42.930758 -91.384401,42.930274 -91.384402,42.930181 -91.384407,42.929903 -91.384409,42.929811 -91.384418,42.929529 -91.384447,42.928685 -91.384457,42.928404 -91.384462,42.927946 -91.384477,42.926575 -91.384483,42.926119 -91.384492,42.925508 -91.384521,42.923678 -91.384532,42.923068 -91.384536,42.922816 -91.384547,42.92206 -91.384552,42.921809 -91.384561,42.921227 -91.384565,42.921023 -91.386105,42.921019 -91.386687,42.921018 -91.386702,42.921053 -91.38675,42.921159 -91.386766,42.921195 -91.387128,42.921146 -91.387287,42.921141 -91.387502,42.921135 -91.388246,42.921152 -91.388862,42.921135 -91.389387,42.921122 -91.389374,42.923132 -91.389364,42.924969 -91.392079,42.924969 -91.392053,42.926447</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

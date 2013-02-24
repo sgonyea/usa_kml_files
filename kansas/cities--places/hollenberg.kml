@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hollenberg</name>
+<Schema name="hollenberg" id="hollenberg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hollenberg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hollenberg">
+		<SimpleData name="Name">Hollenberg</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">32650</SimpleData>
+		<SimpleData name="PLACENS">02394403</SimpleData>
+		<SimpleData name="GEOID">2032650</SimpleData>
+		<SimpleData name="NAMELSAD">Hollenberg city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">213014</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9809193</SimpleData>
+		<SimpleData name="INTPTLON">-096.9918603</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.995408,39.981913 -96.993664,39.981916 -96.993679,39.982047 -96.993692,39.98248 -96.993667,39.983718 -96.992327,39.98366 -96.992264,39.983665 -96.991391,39.983671 -96.991064,39.983666 -96.990947,39.983612 -96.990708,39.983608 -96.990194,39.983617 -96.990194,39.981746 -96.990193,39.98125 -96.990172,39.980935 -96.990199,39.980869 -96.990246,39.980834 -96.988776,39.980844 -96.988785,39.980394 -96.989956,39.980402 -96.989952,39.980079 -96.989366,39.980066 -96.988008,39.980038 -96.988024,39.979567 -96.989988,39.979566 -96.989987,39.978632 -96.990006,39.978139 -96.992201,39.978136 -96.992546,39.978136 -96.994542,39.98077 -96.995408,39.981913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

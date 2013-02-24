@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rothsay</name>
+<Schema name="rothsay" id="rothsay">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rothsay</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rothsay">
+		<SimpleData name="Name">Rothsay</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">56014</SimpleData>
+		<SimpleData name="PLACENS">02396439</SimpleData>
+		<SimpleData name="GEOID">2756014</SimpleData>
+		<SimpleData name="NAMELSAD">Rothsay city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2284041</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.4736748</SimpleData>
+		<SimpleData name="INTPTLON">-096.2837932</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.293116,46.47767 -96.293124,46.478486 -96.293116,46.481447 -96.293116,46.481768 -96.293116,46.482095 -96.293116,46.482425 -96.293116,46.482453 -96.293116,46.483223 -96.292161,46.483217 -96.28638,46.48318 -96.282793,46.483157 -96.281794,46.483149 -96.281667,46.483149 -96.28121,46.483146 -96.28077,46.483144 -96.280765,46.482926 -96.280763,46.482656 -96.28075,46.48169 -96.28075,46.481671 -96.28075,46.481284 -96.28065,46.481283 -96.279106,46.481271 -96.279159,46.479423 -96.279088,46.478357 -96.279098,46.47806 -96.272841,46.477958 -96.272539,46.475177 -96.27236,46.473764 -96.272231,46.47281 -96.272141,46.472081 -96.272112,46.471623 -96.272599,46.471623 -96.273354,46.471623 -96.275511,46.471685 -96.276271,46.47168 -96.277814,46.471686 -96.27888,46.471696 -96.279213,46.4717 -96.280674,46.471695 -96.28071,46.4717 -96.280678,46.471251 -96.280751,46.470552 -96.280753,46.470168 -96.280758,46.469996 -96.280712,46.458991 -96.280711,46.458633 -96.28068,46.45711 -96.283999,46.457082 -96.28436,46.45708 -96.285275,46.457076 -96.285239,46.457748 -96.285489,46.471206 -96.285479,46.471468 -96.285439,46.471678 -96.285718,46.471673 -96.28595,46.47167 -96.288105,46.471664 -96.293064,46.471651 -96.293116,46.47767</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

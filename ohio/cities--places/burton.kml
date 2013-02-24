@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>burton</name>
+<Schema name="burton" id="burton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Burton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#burton">
+		<SimpleData name="Name">Burton</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">10436</SimpleData>
+		<SimpleData name="PLACENS">02397507</SimpleData>
+		<SimpleData name="GEOID">3910436</SimpleData>
+		<SimpleData name="NAMELSAD">Burton village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2712754</SimpleData>
+		<SimpleData name="AWATER">5661</SimpleData>
+		<SimpleData name="INTPTLAT">+41.4706232</SimpleData>
+		<SimpleData name="INTPTLON">-081.1450944</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.157612,41.467948 -81.155972,41.467937 -81.155927,41.470831 -81.154491,41.470832 -81.154472,41.473038 -81.154455,41.474943 -81.154426,41.478391 -81.145156,41.478453 -81.136313,41.478455 -81.135936,41.47845 -81.135888,41.476869 -81.135746,41.470699 -81.135849,41.463452 -81.136221,41.463449 -81.142028,41.463398 -81.145087,41.463371 -81.154472,41.463322 -81.154469,41.464089 -81.154478,41.465288 -81.156474,41.465311 -81.157643,41.466008 -81.157612,41.467948</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

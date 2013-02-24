@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>carthage</name>
+<Schema name="carthage" id="carthage">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Carthage</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#carthage">
+		<SimpleData name="Name">Carthage</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">10220</SimpleData>
+		<SimpleData name="PLACENS">01267311</SimpleData>
+		<SimpleData name="GEOID">4610220</SimpleData>
+		<SimpleData name="NAMELSAD">Carthage city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3781326</SimpleData>
+		<SimpleData name="AWATER">80136</SimpleData>
+		<SimpleData name="INTPTLAT">+44.1647337</SimpleData>
+		<SimpleData name="INTPTLON">-097.7203852</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.730085,44.164685 -97.730033,44.167149 -97.730005,44.168639 -97.72998,44.169296 -97.729965,44.171185 -97.72997,44.171339 -97.729962,44.172963 -97.72994,44.175807 -97.716605,44.175766 -97.714047,44.175788 -97.713549,44.175772 -97.711016,44.175782 -97.705657,44.175847 -97.704932,44.175855 -97.699816,44.175921 -97.699813,44.170131 -97.699866,44.168537 -97.700118,44.161415 -97.709132,44.161394 -97.710218,44.161392 -97.720164,44.161369 -97.730156,44.161347 -97.730085,44.164685</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

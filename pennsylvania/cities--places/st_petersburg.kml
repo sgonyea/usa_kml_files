@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>st_petersburg</name>
+<Schema name="st_petersburg" id="st_petersburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>St. Petersburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#st_petersburg">
+		<SimpleData name="Name">St. Petersburg</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">67384</SimpleData>
+		<SimpleData name="PLACENS">01215089</SimpleData>
+		<SimpleData name="GEOID">4267384</SimpleData>
+		<SimpleData name="NAMELSAD">St. Petersburg borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">826204</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1609736</SimpleData>
+		<SimpleData name="INTPTLON">-079.6545152</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.654984,41.164285 -79.653404,41.164343 -79.650713,41.164439 -79.649239,41.164493 -79.648575,41.164516 -79.648445,41.164521 -79.648358,41.164151 -79.648094,41.163042 -79.647613,41.161016 -79.647394,41.16006 -79.647082,41.158736 -79.646975,41.158284 -79.647094,41.158274 -79.64819,41.158191 -79.649536,41.158087 -79.651852,41.157917 -79.653961,41.157751 -79.656315,41.157551 -79.656667,41.157527 -79.657033,41.15749 -79.659821,41.157302 -79.660852,41.157226 -79.660886,41.157606 -79.66127,41.162084 -79.66144,41.164053 -79.654984,41.164285</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sugden</name>
+<Schema name="sugden" id="sugden">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sugden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sugden">
+		<SimpleData name="Name">Sugden</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">71250</SimpleData>
+		<SimpleData name="PLACENS">02413347</SimpleData>
+		<SimpleData name="GEOID">4071250</SimpleData>
+		<SimpleData name="NAMELSAD">Sugden town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">562090</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.0824840</SimpleData>
+		<SimpleData name="INTPTLON">-097.9788176</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.982273,34.078371 -97.982248,34.082096 -97.9822,34.082207 -97.982227,34.08533 -97.982111,34.085277 -97.981905,34.08518 -97.981951,34.08635 -97.973943,34.086328 -97.974198,34.085264 -97.974588,34.085244 -97.974574,34.084983 -97.974805,34.084421 -97.975078,34.083712 -97.975341,34.083064 -97.975395,34.083013 -97.975451,34.082995 -97.975499,34.082993 -97.975608,34.082672 -97.97596,34.08112 -97.976258,34.080855 -97.976217,34.080249 -97.976357,34.079849 -97.976626,34.078109 -97.977967,34.078105 -97.982275,34.078102 -97.982273,34.078371</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

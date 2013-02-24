@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>loma_linda_west</name>
+<Schema name="loma_linda_west" id="loma_linda_west">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Loma Linda West</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#loma_linda_west">
+		<SimpleData name="Name">Loma Linda West</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">43465</SimpleData>
+		<SimpleData name="PLACENS">02584675</SimpleData>
+		<SimpleData name="GEOID">4843465</SimpleData>
+		<SimpleData name="NAMELSAD">Loma Linda West CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">316565</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.4204706</SimpleData>
+		<SimpleData name="INTPTLON">-098.9303722</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.933431,26.418007 -98.93318,26.418879 -98.932938,26.419669 -98.93287,26.419903 -98.932723,26.420415 -98.932643,26.420749 -98.932614,26.420835 -98.932529,26.421096 -98.932501,26.421183 -98.93243,26.421417 -98.932218,26.422122 -98.932148,26.422358 -98.931704,26.423839 -98.927035,26.423194 -98.927067,26.423105 -98.927274,26.422723 -98.927391,26.422489 -98.927601,26.422052 -98.927758,26.421772 -98.927864,26.421572 -98.927888,26.421482 -98.928331,26.419179 -98.928361,26.418861 -98.928376,26.418767 -98.928425,26.418616 -98.928434,26.418576 -98.928537,26.418149 -98.928725,26.41719 -98.932349,26.417778 -98.932573,26.417309 -98.933632,26.41739 -98.933431,26.418007</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

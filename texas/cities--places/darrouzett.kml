@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>darrouzett</name>
+<Schema name="darrouzett" id="darrouzett">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Darrouzett</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#darrouzett">
+		<SimpleData name="Name">Darrouzett</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">19288</SimpleData>
+		<SimpleData name="PLACENS">02412406</SimpleData>
+		<SimpleData name="GEOID">4819288</SimpleData>
+		<SimpleData name="NAMELSAD">Darrouzett town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">971040</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.4448858</SimpleData>
+		<SimpleData name="INTPTLON">-100.3257925</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.332276,36.441395 -100.332276,36.441925 -100.332247,36.442453 -100.332276,36.443752 -100.332289,36.44512 -100.332283,36.445856 -100.332277,36.448517 -100.332267,36.448624 -100.331701,36.448598 -100.3307,36.448599 -100.330485,36.448596 -100.329263,36.448577 -100.32819,36.44856 -100.327595,36.4486 -100.32695,36.448601 -100.324641,36.448598 -100.320565,36.448595 -100.319099,36.448605 -100.319099,36.448566 -100.319088,36.447578 -100.319096,36.446943 -100.319098,36.444618 -100.319099,36.443456 -100.319099,36.442962 -100.319099,36.442639 -100.3191,36.441422 -100.319101,36.441338 -100.32116,36.441336 -100.32225,36.441335 -100.324096,36.441334 -100.327537,36.441332 -100.329984,36.441324 -100.329988,36.440489 -100.332202,36.440482 -100.332276,36.441395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

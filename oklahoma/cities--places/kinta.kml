@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>kinta</name>
+<Schema name="kinta" id="kinta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Kinta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#kinta">
+		<SimpleData name="Name">Kinta</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">39950</SimpleData>
+		<SimpleData name="PLACENS">02412837</SimpleData>
+		<SimpleData name="GEOID">4039950</SimpleData>
+		<SimpleData name="NAMELSAD">Kinta town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1634134</SimpleData>
+		<SimpleData name="AWATER">26475</SimpleData>
+		<SimpleData name="INTPTLAT">+35.1197594</SimpleData>
+		<SimpleData name="INTPTLON">-095.2382378</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.24844,35.119423 -95.247096,35.119431 -95.24686,35.119432 -95.24657,35.119433 -95.243743,35.119441 -95.243752,35.119852 -95.243752,35.119958 -95.243761,35.120423 -95.243789,35.121962 -95.243784,35.123107 -95.239886,35.123115 -95.239874,35.123973 -95.239866,35.125005 -95.239896,35.126341 -95.239898,35.126426 -95.239872,35.126543 -95.239801,35.126606 -95.239314,35.12662 -95.238153,35.126652 -95.235576,35.126553 -95.235126,35.126508 -95.235036,35.124754 -95.235039,35.123119 -95.234554,35.123119 -95.23413,35.123119 -95.232737,35.123129 -95.230472,35.123144 -95.229065,35.123136 -95.228714,35.12314 -95.228664,35.118271 -95.22865,35.115823 -95.228651,35.115577 -95.231718,35.115577 -95.235159,35.115578 -95.235156,35.11509 -95.235149,35.114068 -95.235591,35.114066 -95.235749,35.114065 -95.243671,35.114022 -95.243818,35.114005 -95.243826,35.114886 -95.24396,35.114924 -95.243964,35.115101 -95.245211,35.115097 -95.248424,35.115078 -95.24844,35.119423</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

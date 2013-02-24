@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>jeddo</name>
+<Schema name="jeddo" id="jeddo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Jeddo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jeddo">
+		<SimpleData name="Name">Jeddo</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">37792</SimpleData>
+		<SimpleData name="PLACENS">01215394</SimpleData>
+		<SimpleData name="GEOID">4237792</SimpleData>
+		<SimpleData name="NAMELSAD">Jeddo borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">731074</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.9903610</SimpleData>
+		<SimpleData name="INTPTLON">-075.8960719</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.900994,40.995254 -75.900919,40.995271 -75.900857,40.995285 -75.900352,40.995401 -75.895442,40.996537 -75.895317,40.99656 -75.894728,40.996669 -75.894624,40.996688 -75.89449,40.996284 -75.894315,40.995754 -75.893967,40.994693 -75.893883,40.994421 -75.893528,40.99335 -75.89129,40.986513 -75.890987,40.985584 -75.891035,40.985575 -75.897755,40.984102 -75.898377,40.986242 -75.898622,40.987084 -75.899789,40.991106 -75.900529,40.993654 -75.900649,40.994059 -75.900994,40.995254</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

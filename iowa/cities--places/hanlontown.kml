@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hanlontown</name>
+<Schema name="hanlontown" id="hanlontown">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hanlontown</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hanlontown">
+		<SimpleData name="Name">Hanlontown</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">34185</SimpleData>
+		<SimpleData name="PLACENS">02394286</SimpleData>
+		<SimpleData name="GEOID">1934185</SimpleData>
+		<SimpleData name="NAMELSAD">Hanlontown city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2517563</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.2809011</SimpleData>
+		<SimpleData name="INTPTLON">-093.3788839</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.38856,43.274506 -93.388563,43.275611 -93.388559,43.275985 -93.38855,43.276706 -93.388559,43.277321 -93.388551,43.284576 -93.38855,43.285024 -93.388551,43.287387 -93.388544,43.288136 -93.378699,43.288129 -93.373615,43.288175 -93.371339,43.288104 -93.369242,43.288133 -93.369251,43.287738 -93.369303,43.285499 -93.369313,43.284534 -93.369192,43.278188 -93.369183,43.277388 -93.369128,43.27364 -93.371831,43.273624 -93.375206,43.273707 -93.378714,43.273709 -93.384763,43.273706 -93.388572,43.273703 -93.38856,43.274506</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

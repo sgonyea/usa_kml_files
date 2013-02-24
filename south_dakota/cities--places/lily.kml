@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lily</name>
+<Schema name="lily" id="lily">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lily</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lily">
+		<SimpleData name="Name">Lily</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">37140</SimpleData>
+		<SimpleData name="PLACENS">01267463</SimpleData>
+		<SimpleData name="GEOID">4637140</SimpleData>
+		<SimpleData name="NAMELSAD">Lily town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">781308</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.1817491</SimpleData>
+		<SimpleData name="INTPTLON">-097.6834796</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.688787,45.181191 -97.688949,45.185959 -97.683203,45.185896 -97.678425,45.185862 -97.678423,45.184742 -97.678422,45.184101 -97.678409,45.183443 -97.677522,45.183449 -97.677535,45.1829 -97.677264,45.1829 -97.677301,45.182026 -97.677379,45.182028 -97.677597,45.182038 -97.677576,45.181034 -97.677746,45.181035 -97.678385,45.181037 -97.678385,45.180873 -97.678396,45.179036 -97.67838,45.178243 -97.678378,45.177865 -97.678368,45.177525 -97.680096,45.177523 -97.682039,45.177539 -97.682764,45.177551 -97.684043,45.17756 -97.68883,45.177593 -97.688787,45.181191</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

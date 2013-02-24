@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lowell</name>
+<Schema name="lowell" id="lowell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lowell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lowell">
+		<SimpleData name="Name">Lowell</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">45950</SimpleData>
+		<SimpleData name="PLACENS">01583600</SimpleData>
+		<SimpleData name="GEOID">5545950</SimpleData>
+		<SimpleData name="NAMELSAD">Lowell village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2577509</SimpleData>
+		<SimpleData name="AWATER">121084</SimpleData>
+		<SimpleData name="INTPTLAT">+43.3335557</SimpleData>
+		<SimpleData name="INTPTLON">-088.8136789</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.82869,43.340157 -88.828388,43.34211 -88.827998,43.343315 -88.827602,43.343378 -88.827644,43.341918 -88.826688,43.341424 -88.826602,43.341466 -88.826418,43.341537 -88.825937,43.341844 -88.825502,43.342351 -88.825102,43.342891 -88.824298,43.3436 -88.823538,43.343841 -88.822779,43.344413 -88.822428,43.344206 -88.821538,43.345107 -88.821044,43.345637 -88.820686,43.345987 -88.820193,43.346365 -88.819724,43.346706 -88.819231,43.346778 -88.818763,43.346436 -88.818726,43.346202 -88.81885,43.345824 -88.818863,43.345509 -88.818556,43.344772 -88.818404,43.344295 -88.818117,43.344326 -88.818003,43.34327 -88.817509,43.343259 -88.815046,43.343183 -88.810628,43.343177 -88.808042,43.343169 -88.808252,43.335572 -88.808253,43.335448 -88.808294,43.328909 -88.808334,43.32891 -88.810333,43.328921 -88.811508,43.328927 -88.813335,43.328935 -88.81843,43.328958 -88.820587,43.328966 -88.821002,43.328967 -88.822727,43.328973 -88.826312,43.328995 -88.827007,43.328993 -88.828478,43.329003 -88.828497,43.329341 -88.828731,43.332849 -88.82869,43.340157</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

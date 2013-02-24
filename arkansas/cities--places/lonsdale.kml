@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lonsdale</name>
+<Schema name="lonsdale" id="lonsdale">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lonsdale</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lonsdale">
+		<SimpleData name="Name">Lonsdale</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">41450</SimpleData>
+		<SimpleData name="PLACENS">02406042</SimpleData>
+		<SimpleData name="GEOID">0541450</SimpleData>
+		<SimpleData name="NAMELSAD">Lonsdale town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1114549</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.5448111</SimpleData>
+		<SimpleData name="INTPTLON">-092.8104278</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.818231,34.544804 -92.818202,34.546222 -92.818181,34.547262 -92.814963,34.547241 -92.814321,34.547237 -92.813972,34.547235 -92.813959,34.547662 -92.813931,34.548475 -92.813921,34.548986 -92.813902,34.550051 -92.810992,34.550017 -92.809668,34.550002 -92.808185,34.549973 -92.806581,34.549942 -92.804979,34.549911 -92.805015,34.548669 -92.805025,34.548331 -92.805053,34.547187 -92.805049,34.545826 -92.805045,34.544281 -92.805034,34.539487 -92.806827,34.539445 -92.80694,34.539444 -92.80728,34.539442 -92.807394,34.539442 -92.80749,34.539437 -92.80778,34.539423 -92.807877,34.539419 -92.810346,34.539411 -92.811663,34.539407 -92.813953,34.5394 -92.813962,34.540018 -92.813898,34.543619 -92.816976,34.543652 -92.818258,34.543667 -92.818231,34.544804</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

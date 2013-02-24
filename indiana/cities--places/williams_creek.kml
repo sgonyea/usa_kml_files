@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>williams_creek</name>
+<Schema name="williams_creek" id="williams_creek">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Williams Creek</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#williams_creek">
+		<SimpleData name="Name">Williams Creek</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">84374</SimpleData>
+		<SimpleData name="PLACENS">02397745</SimpleData>
+		<SimpleData name="GEOID">1884374</SimpleData>
+		<SimpleData name="NAMELSAD">Williams Creek town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">865886</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.9001245</SimpleData>
+		<SimpleData name="INTPTLON">-086.1502418</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.15548,39.904875 -86.153188,39.904901 -86.153094,39.904919 -86.15076,39.904957 -86.150643,39.904938 -86.147941,39.904966 -86.147584,39.904955 -86.147517,39.904999 -86.145808,39.905239 -86.14581,39.90523 -86.145824,39.905194 -86.145831,39.905172 -86.145839,39.905131 -86.145841,39.905104 -86.145842,39.904654 -86.145848,39.904465 -86.145846,39.904023 -86.145841,39.902924 -86.145842,39.902883 -86.145842,39.902834 -86.145844,39.902789 -86.145848,39.900753 -86.145841,39.897905 -86.145841,39.89668 -86.145832,39.893752 -86.146635,39.893861 -86.147619,39.894134 -86.147739,39.894167 -86.148943,39.89368 -86.149748,39.894691 -86.150584,39.895723 -86.151057,39.896308 -86.153064,39.896323 -86.153466,39.896628 -86.154571,39.89764 -86.155474,39.897944 -86.155475,39.898737 -86.155477,39.901413 -86.155476,39.90144 -86.155477,39.902346 -86.155476,39.903458 -86.15548,39.904875</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

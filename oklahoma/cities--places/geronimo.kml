@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>geronimo</name>
+<Schema name="geronimo" id="geronimo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Geronimo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#geronimo">
+		<SimpleData name="Name">Geronimo</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">29100</SimpleData>
+		<SimpleData name="PLACENS">02412679</SimpleData>
+		<SimpleData name="GEOID">4029100</SimpleData>
+		<SimpleData name="NAMELSAD">Geronimo town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3931699</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.4851241</SimpleData>
+		<SimpleData name="INTPTLON">-098.3891725</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.400419,34.480141 -98.400416,34.481702 -98.400434,34.485082 -98.400433,34.486677 -98.40047,34.488694 -98.400465,34.490512 -98.400474,34.492371 -98.400477,34.49322 -98.400473,34.4951 -98.400485,34.496206 -98.399802,34.49623 -98.398912,34.496222 -98.388177,34.496249 -98.388146,34.492403 -98.387325,34.492406 -98.385795,34.492416 -98.384671,34.492425 -98.384238,34.492424 -98.383279,34.492423 -98.383277,34.491663 -98.383249,34.490564 -98.383274,34.488992 -98.383263,34.487846 -98.383255,34.487648 -98.383265,34.487303 -98.383268,34.487216 -98.383259,34.486499 -98.383259,34.486091 -98.383258,34.485593 -98.383259,34.485259 -98.375328,34.485265 -98.374509,34.485607 -98.374517,34.477925 -98.374519,34.47515 -98.383218,34.475095 -98.38322,34.475875 -98.383242,34.477905 -98.384033,34.477901 -98.385221,34.477892 -98.386453,34.47788 -98.387641,34.477869 -98.389001,34.477861 -98.391688,34.477858 -98.392716,34.477857 -98.393844,34.477856 -98.396853,34.477818 -98.400407,34.477819 -98.400419,34.480141</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

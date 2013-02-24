@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>scammon_bay</name>
+<Schema name="scammon_bay" id="scammon_bay">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Scammon Bay</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#scammon_bay">
+		<SimpleData name="Name">Scammon Bay</SimpleData>
+		<SimpleData name="STATEFP">02</SimpleData>
+		<SimpleData name="PLACEFP">67680</SimpleData>
+		<SimpleData name="PLACENS">02419465</SimpleData>
+		<SimpleData name="GEOID">0267680</SimpleData>
+		<SimpleData name="NAMELSAD">Scammon Bay city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1617260</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+61.8426245</SimpleData>
+		<SimpleData name="INTPTLON">-165.5832658</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-165.590258,61.836236 -165.590321,61.836269 -165.590513,61.836369 -165.590577,61.836403 -165.593478,61.838013 -165.602184,61.842843 -165.605086,61.844454 -165.603866,61.844472 -165.601416,61.844682 -165.595093,61.845225 -165.590423,61.845654 -165.589897,61.845703 -165.58846,61.845949 -165.588063,61.845949 -165.58739,61.846065 -165.586779,61.846093 -165.585831,61.846137 -165.585312,61.846238 -165.584853,61.846354 -165.584028,61.846441 -165.5836,61.846557 -165.582958,61.846672 -165.581888,61.846961 -165.581032,61.847135 -165.580176,61.847352 -165.579809,61.847438 -165.579534,61.847539 -165.579168,61.847655 -165.578831,61.847713 -165.578556,61.847785 -165.5777,61.848132 -165.574521,61.849201 -165.573882,61.849455 -165.570058,61.847292 -165.569977,61.847246 -165.569896,61.8472 -165.569294,61.846859 -165.567416,61.845518 -165.567136,61.845318 -165.566098,61.844577 -165.564013,61.843088 -165.56789,61.841714 -165.570389,61.84083 -165.571172,61.840558 -165.573523,61.839744 -165.574307,61.839473 -165.574377,61.839492 -165.577513,61.838722 -165.587134,61.836363 -165.589442,61.835798 -165.590258,61.836236</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

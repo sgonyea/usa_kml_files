@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rantoul</name>
+<Schema name="rantoul" id="rantoul">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rantoul</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rantoul">
+		<SimpleData name="Name">Rantoul</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">58525</SimpleData>
+		<SimpleData name="PLACENS">02396322</SimpleData>
+		<SimpleData name="GEOID">2058525</SimpleData>
+		<SimpleData name="NAMELSAD">Rantoul city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">381923</SimpleData>
+		<SimpleData name="AWATER">995</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5483942</SimpleData>
+		<SimpleData name="INTPTLON">-095.1008975</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.104245,38.549977 -95.104284,38.552297 -95.103574,38.552285 -95.102714,38.55224 -95.102493,38.552042 -95.100168,38.549967 -95.098579,38.549968 -95.09784,38.549966 -95.097895,38.547935 -95.097625,38.547666 -95.095377,38.545587 -95.096125,38.545519 -95.099831,38.545458 -95.09983,38.54438 -95.101378,38.544401 -95.101395,38.545114 -95.102434,38.545112 -95.102455,38.545785 -95.104211,38.54582 -95.104245,38.549977</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

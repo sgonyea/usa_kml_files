@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tower_city</name>
+<Schema name="tower_city" id="tower_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tower City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tower_city">
+		<SimpleData name="Name">Tower City</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">79340</SimpleData>
+		<SimpleData name="PLACENS">01036298</SimpleData>
+		<SimpleData name="GEOID">3879340</SimpleData>
+		<SimpleData name="NAMELSAD">Tower City city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5379675</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.9262585</SimpleData>
+		<SimpleData name="INTPTLON">-097.6759618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.692232,46.919407 -97.692209,46.919867 -97.692198,46.920101 -97.692057,46.920216 -97.686973,46.920284 -97.687041,46.926184 -97.687044,46.926434 -97.687053,46.926838 -97.687061,46.927299 -97.692416,46.927282 -97.692368,46.934527 -97.689813,46.934542 -97.6872,46.934547 -97.685572,46.934557 -97.683894,46.934569 -97.683329,46.934571 -97.68203,46.934577 -97.681505,46.934571 -97.681514,46.936941 -97.681503,46.937545 -97.681518,46.938025 -97.68152,46.938387 -97.671842,46.938234 -97.661273,46.93808 -97.661313,46.934445 -97.661368,46.930031 -97.661506,46.927291 -97.661476,46.926547 -97.661438,46.925656 -97.661444,46.925222 -97.661513,46.920559 -97.661517,46.919962 -97.661541,46.916076 -97.66644,46.916077 -97.672094,46.916075 -97.677843,46.916072 -97.67837,46.916072 -97.679393,46.916075 -97.681799,46.916083 -97.681768,46.913891 -97.681772,46.913647 -97.68198,46.913563 -97.683606,46.913553 -97.692389,46.913308 -97.692232,46.919407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

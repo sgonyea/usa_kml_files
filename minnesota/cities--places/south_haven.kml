@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>south_haven</name>
+<Schema name="south_haven" id="south_haven">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>South Haven</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#south_haven">
+		<SimpleData name="Name">South Haven</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">61402</SimpleData>
+		<SimpleData name="PLACENS">02395915</SimpleData>
+		<SimpleData name="GEOID">2761402</SimpleData>
+		<SimpleData name="NAMELSAD">South Haven city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1628346</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.2927599</SimpleData>
+		<SimpleData name="INTPTLON">-094.2174104</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.227682,45.290367 -94.227696,45.292184 -94.227696,45.292289 -94.227698,45.292604 -94.227699,45.29271 -94.227699,45.292775 -94.227702,45.292974 -94.227703,45.29304 -94.227638,45.294792 -94.227549,45.297231 -94.224728,45.297298 -94.222975,45.29734 -94.212296,45.297289 -94.20704,45.297277 -94.207074,45.293574 -94.20711,45.288891 -94.20711,45.288807 -94.20711,45.288556 -94.20711,45.288473 -94.207112,45.28833 -94.208023,45.28832 -94.211187,45.288287 -94.212242,45.288277 -94.214323,45.288255 -94.220566,45.288189 -94.222648,45.288168 -94.224464,45.28815 -94.227666,45.288119 -94.227682,45.290367</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

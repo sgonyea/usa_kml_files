@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>parkersburg</name>
+<Schema name="parkersburg" id="parkersburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Parkersburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parkersburg">
+		<SimpleData name="Name">Parkersburg</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">57693</SimpleData>
+		<SimpleData name="PLACENS">02399624</SimpleData>
+		<SimpleData name="GEOID">1757693</SimpleData>
+		<SimpleData name="NAMELSAD">Parkersburg village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1945501</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5893069</SimpleData>
+		<SimpleData name="INTPTLON">-088.0565538</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.063214,38.594121 -88.063184,38.59583 -88.056512,38.595976 -88.056545,38.596199 -88.056566,38.596305 -88.056588,38.596418 -88.056664,38.596632 -88.056775,38.59691 -88.05684,38.597122 -88.056856,38.597197 -88.056876,38.597347 -88.05689,38.597501 -88.056895,38.597877 -88.056887,38.598684 -88.056883,38.599162 -88.053583,38.599141 -88.052707,38.599124 -88.053395,38.596055 -88.050325,38.596132 -88.05013,38.59204 -88.049994,38.588574 -88.049951,38.587248 -88.049722,38.581913 -88.053334,38.5818 -88.0571,38.581676 -88.060572,38.58158 -88.063222,38.581501 -88.063218,38.583958 -88.063368,38.589726 -88.063367,38.5898 -88.063367,38.591008 -88.06335,38.591643 -88.063333,38.591891 -88.063324,38.592186 -88.063324,38.592413 -88.06334,38.592484 -88.063214,38.594121</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

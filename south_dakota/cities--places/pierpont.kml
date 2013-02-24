@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pierpont</name>
+<Schema name="pierpont" id="pierpont">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pierpont</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pierpont">
+		<SimpleData name="Name">Pierpont</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">49540</SimpleData>
+		<SimpleData name="PLACENS">01267532</SimpleData>
+		<SimpleData name="GEOID">4649540</SimpleData>
+		<SimpleData name="NAMELSAD">Pierpont town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">386068</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.4953306</SimpleData>
+		<SimpleData name="INTPTLON">-097.8320865</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.837325,45.493821 -97.837317,45.494356 -97.837309,45.494871 -97.837301,45.495399 -97.837299,45.496476 -97.837288,45.497412 -97.837287,45.497481 -97.834868,45.497488 -97.833425,45.497491 -97.832278,45.497496 -97.831229,45.497497 -97.830129,45.497495 -97.828599,45.497485 -97.827964,45.497479 -97.82702,45.497471 -97.826953,45.493347 -97.826947,45.493154 -97.826946,45.493108 -97.828673,45.493104 -97.828811,45.493104 -97.829044,45.493114 -97.829366,45.493113 -97.833594,45.493101 -97.833775,45.493098 -97.833756,45.493334 -97.834957,45.493325 -97.835243,45.493326 -97.837017,45.493331 -97.837333,45.493335 -97.837325,45.493821</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

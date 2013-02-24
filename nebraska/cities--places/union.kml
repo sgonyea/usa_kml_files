@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>union</name>
+<Schema name="union" id="union">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Union</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#union">
+		<SimpleData name="Name">Union</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">49635</SimpleData>
+		<SimpleData name="PLACENS">02400021</SimpleData>
+		<SimpleData name="GEOID">3149635</SimpleData>
+		<SimpleData name="NAMELSAD">Union village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">537922</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8143621</SimpleData>
+		<SimpleData name="INTPTLON">-095.9214570</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.925947,40.816443 -95.926115,40.817779 -95.925783,40.81784 -95.925235,40.817837 -95.9234,40.817817 -95.919119,40.817772 -95.919134,40.816974 -95.91815,40.81694 -95.918138,40.816145 -95.918136,40.816013 -95.915671,40.815971 -95.915675,40.815386 -95.915659,40.814285 -95.915655,40.813671 -95.915652,40.813242 -95.916276,40.813239 -95.916945,40.813237 -95.917516,40.813236 -95.917821,40.813235 -95.917824,40.813146 -95.91831,40.813151 -95.918333,40.811877 -95.920301,40.811841 -95.920308,40.81139 -95.921176,40.811375 -95.921175,40.809666 -95.922707,40.809654 -95.923013,40.809678 -95.923734,40.809694 -95.925269,40.81325 -95.925825,40.814402 -95.925947,40.816443</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

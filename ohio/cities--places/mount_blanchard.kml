@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mount_blanchard</name>
+<Schema name="mount_blanchard" id="mount_blanchard">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mount Blanchard</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mount_blanchard">
+		<SimpleData name="Name">Mount Blanchard</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">52598</SimpleData>
+		<SimpleData name="PLACENS">02399407</SimpleData>
+		<SimpleData name="GEOID">3952598</SimpleData>
+		<SimpleData name="NAMELSAD">Mount Blanchard village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1392617</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8985201</SimpleData>
+		<SimpleData name="INTPTLON">-083.5568447</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.556547,40.905987 -83.551747,40.905771 -83.551752,40.905593 -83.551758,40.904866 -83.551779,40.90325 -83.551798,40.899581 -83.551802,40.899001 -83.551802,40.898241 -83.551845,40.898178 -83.552011,40.891005 -83.552365,40.891004 -83.556769,40.891015 -83.55761,40.891025 -83.561774,40.891121 -83.561759,40.891349 -83.561959,40.891354 -83.561814,40.89684 -83.561779,40.898169 -83.561781,40.898449 -83.561781,40.899323 -83.56177,40.899996 -83.561749,40.90171 -83.561748,40.902737 -83.56169,40.905274 -83.561677,40.90622 -83.556547,40.905987</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>rendville</name>
+<Schema name="rendville" id="rendville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Rendville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#rendville">
+		<SimpleData name="Name">Rendville</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">66222</SimpleData>
+		<SimpleData name="PLACENS">02399056</SimpleData>
+		<SimpleData name="GEOID">3966222</SimpleData>
+		<SimpleData name="NAMELSAD">Rendville village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">807468</SimpleData>
+		<SimpleData name="AWATER">3830</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6231983</SimpleData>
+		<SimpleData name="INTPTLON">-082.0892633</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.09429,39.623587 -82.092958,39.624197 -82.092689,39.624312 -82.092433,39.624421 -82.090756,39.625093 -82.085979,39.625042 -82.085497,39.623607 -82.085651,39.62327 -82.085665,39.622711 -82.08572,39.620459 -82.085774,39.618668 -82.085357,39.618669 -82.085352,39.618578 -82.085339,39.618343 -82.0856,39.616153 -82.085614,39.616037 -82.086159,39.615846 -82.087615,39.61525 -82.087792,39.615178 -82.08811,39.615045 -82.088324,39.614946 -82.088511,39.61487 -82.088575,39.614844 -82.089733,39.61438 -82.09073,39.613991 -82.094877,39.617286 -82.094429,39.622098 -82.09429,39.623587</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>monetta</name>
+<Schema name="monetta" id="monetta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Monetta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#monetta">
+		<SimpleData name="Name">Monetta</SimpleData>
+		<SimpleData name="STATEFP">45</SimpleData>
+		<SimpleData name="PLACEFP">47320</SimpleData>
+		<SimpleData name="PLACENS">02406177</SimpleData>
+		<SimpleData name="GEOID">4547320</SimpleData>
+		<SimpleData name="NAMELSAD">Monetta town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1908288</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+33.8497232</SimpleData>
+		<SimpleData name="INTPTLON">-081.6096357</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.618424,33.850369 -81.61836,33.850457 -81.618171,33.85072 -81.618108,33.850809 -81.618062,33.850872 -81.617926,33.851061 -81.617881,33.851125 -81.617841,33.851186 -81.617723,33.851372 -81.617684,33.851434 -81.617469,33.851743 -81.617409,33.851856 -81.617076,33.852481 -81.615524,33.8554 -81.6152,33.855483 -81.614025,33.855785 -81.612649,33.856177 -81.609872,33.85697 -81.608529,33.856563 -81.60716,33.856149 -81.606465,33.855915 -81.604383,33.855214 -81.603689,33.854981 -81.60366,33.854971 -81.603574,33.854941 -81.603546,33.854931 -81.603429,33.854894 -81.602413,33.853032 -81.601099,33.850754 -81.600657,33.849988 -81.60088,33.849356 -81.602735,33.84544 -81.603162,33.844498 -81.603206,33.844403 -81.603974,33.844197 -81.606337,33.843523 -81.607585,33.843097 -81.608137,33.84292 -81.60935,33.842628 -81.609719,33.842526 -81.613897,33.843889 -81.614475,33.844104 -81.616209,33.844749 -81.616347,33.844801 -81.616534,33.845233 -81.616981,33.846267 -81.618325,33.849371 -81.618632,33.850079 -81.618424,33.850369</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lake_lindsey</name>
+<Schema name="lake_lindsey" id="lake_lindsey">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lake Lindsey</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lake_lindsey">
+		<SimpleData name="Name">Lake Lindsey</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">38275</SimpleData>
+		<SimpleData name="PLACENS">02403195</SimpleData>
+		<SimpleData name="GEOID">1238275</SimpleData>
+		<SimpleData name="NAMELSAD">Lake Lindsey CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">234150</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+28.6322626</SimpleData>
+		<SimpleData name="INTPTLON">-082.3616934</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.364001,28.633576 -82.363428,28.633596 -82.363411,28.633892 -82.363419,28.63404 -82.363456,28.634586 -82.363458,28.634942 -82.360768,28.634947 -82.35966,28.634948 -82.359669,28.634058 -82.359668,28.633881 -82.359677,28.633666 -82.359692,28.633331 -82.359698,28.633094 -82.359702,28.632984 -82.359751,28.632466 -82.359758,28.631806 -82.359751,28.631361 -82.359705,28.630458 -82.35967,28.629891 -82.35963,28.629469 -82.362434,28.629366 -82.362431,28.629416 -82.362506,28.629625 -82.362612,28.62984 -82.3629,28.630208 -82.363074,28.630357 -82.363349,28.630533 -82.363517,28.630654 -82.363729,28.630775 -82.363932,28.630876 -82.363947,28.630884 -82.364096,28.630985 -82.364001,28.633576</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

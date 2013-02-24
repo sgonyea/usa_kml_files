@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>stanwood</name>
+<Schema name="stanwood" id="stanwood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Stanwood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#stanwood">
+		<SimpleData name="Name">Stanwood</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">75045</SimpleData>
+		<SimpleData name="PLACENS">02395954</SimpleData>
+		<SimpleData name="GEOID">1975045</SimpleData>
+		<SimpleData name="NAMELSAD">Stanwood city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1851628</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8930402</SimpleData>
+		<SimpleData name="INTPTLON">-091.1487705</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.161938,41.88844 -91.161094,41.888438 -91.158672,41.888451 -91.157938,41.888451 -91.156966,41.888461 -91.156829,41.888462 -91.156846,41.888677 -91.156808,41.892298 -91.15681,41.893522 -91.156874,41.893519 -91.157257,41.893562 -91.157967,41.893577 -91.159327,41.893569 -91.159331,41.894362 -91.159313,41.895869 -91.156669,41.89588 -91.156688,41.896697 -91.156751,41.899327 -91.151943,41.899327 -91.142301,41.899287 -91.142379,41.893106 -91.142375,41.89218 -91.142382,41.891985 -91.139831,41.891936 -91.135497,41.891853 -91.135501,41.888456 -91.136237,41.88846 -91.137737,41.888449 -91.139155,41.888467 -91.139755,41.888461 -91.140291,41.888455 -91.141961,41.888455 -91.141963,41.890358 -91.142216,41.889885 -91.14241,41.88952 -91.142405,41.888455 -91.142399,41.887614 -91.147039,41.887656 -91.148877,41.887678 -91.151991,41.887669 -91.15199,41.887931 -91.152403,41.887932 -91.152408,41.88765 -91.161925,41.887709 -91.161938,41.88844</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

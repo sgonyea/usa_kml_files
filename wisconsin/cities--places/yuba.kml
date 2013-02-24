@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>yuba</name>
+<Schema name="yuba" id="yuba">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Yuba</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#yuba">
+		<SimpleData name="Name">Yuba</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">89625</SimpleData>
+		<SimpleData name="PLACENS">01584496</SimpleData>
+		<SimpleData name="GEOID">5589625</SimpleData>
+		<SimpleData name="NAMELSAD">Yuba village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">786131</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.5364553</SimpleData>
+		<SimpleData name="INTPTLON">-090.4267722</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.431143,43.537396 -90.431134,43.538178 -90.431131,43.538396 -90.431124,43.539048 -90.431122,43.539188 -90.431085,43.542341 -90.431086,43.542742 -90.42918,43.542757 -90.425987,43.542795 -90.425918,43.539181 -90.425913,43.538997 -90.422884,43.539014 -90.42283,43.535498 -90.420336,43.535479 -90.420332,43.533874 -90.420331,43.533434 -90.420365,43.533026 -90.420476,43.532272 -90.420414,43.531977 -90.420392,43.531874 -90.424777,43.531856 -90.43102,43.531794 -90.431127,43.535894 -90.431158,43.536194 -90.431143,43.537396</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

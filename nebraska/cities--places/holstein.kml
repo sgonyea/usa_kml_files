@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>holstein</name>
+<Schema name="holstein" id="holstein">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Holstein</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#holstein">
+		<SimpleData name="Name">Holstein</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">22815</SimpleData>
+		<SimpleData name="PLACENS">02398531</SimpleData>
+		<SimpleData name="GEOID">3122815</SimpleData>
+		<SimpleData name="NAMELSAD">Holstein village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">582627</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4647517</SimpleData>
+		<SimpleData name="INTPTLON">-098.6508125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.657315,40.465255 -98.657333,40.465272 -98.6573,40.466255 -98.657306,40.467328 -98.656564,40.467337 -98.656588,40.467175 -98.656018,40.467175 -98.654665,40.467174 -98.653404,40.467176 -98.652117,40.467176 -98.652,40.467176 -98.651396,40.467165 -98.650612,40.467178 -98.650633,40.468178 -98.649266,40.468182 -98.648119,40.468186 -98.648121,40.468071 -98.648141,40.466913 -98.648142,40.466799 -98.646968,40.466812 -98.646949,40.466279 -98.646885,40.466278 -98.646209,40.466276 -98.645546,40.466275 -98.644248,40.466271 -98.643848,40.46627 -98.643672,40.466273 -98.64368,40.465305 -98.643677,40.463118 -98.645586,40.463331 -98.648154,40.463617 -98.648145,40.46321 -98.648141,40.462745 -98.648131,40.461648 -98.648151,40.459844 -98.648149,40.459614 -98.648146,40.459367 -98.64953,40.459351 -98.649548,40.461485 -98.649557,40.462743 -98.650659,40.462733 -98.652062,40.46272 -98.653069,40.46271 -98.654656,40.462704 -98.655458,40.462702 -98.655641,40.462708 -98.657326,40.462687 -98.657315,40.465255</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

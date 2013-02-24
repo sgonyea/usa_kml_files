@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>onaway</name>
+<Schema name="onaway" id="onaway">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Onaway</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#onaway">
+		<SimpleData name="Name">Onaway</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">58870</SimpleData>
+		<SimpleData name="PLACENS">02411322</SimpleData>
+		<SimpleData name="GEOID">1658870</SimpleData>
+		<SimpleData name="NAMELSAD">Onaway city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">394733</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.9282160</SimpleData>
+		<SimpleData name="INTPTLON">-116.8894612</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-116.894455,46.929703 -116.891956,46.929753 -116.892038,46.931938 -116.886578,46.932058 -116.886463,46.930446 -116.886379,46.929217 -116.886343,46.928683 -116.886155,46.926139 -116.886113,46.925119 -116.886099,46.924781 -116.886069,46.924345 -116.886873,46.924377 -116.887817,46.924415 -116.890767,46.924535 -116.890833,46.924439 -116.891286,46.923945 -116.891599,46.923589 -116.891628,46.923477 -116.891641,46.923088 -116.891834,46.924566 -116.891691,46.928076 -116.89179,46.928076 -116.893837,46.928079 -116.8944,46.928085 -116.894455,46.929703</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

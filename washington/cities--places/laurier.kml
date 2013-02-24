@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>laurier</name>
+<Schema name="laurier" id="laurier">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Laurier</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#laurier">
+		<SimpleData name="Name">Laurier</SimpleData>
+		<SimpleData name="STATEFP">53</SimpleData>
+		<SimpleData name="PLACEFP">38705</SimpleData>
+		<SimpleData name="PLACENS">02631350</SimpleData>
+		<SimpleData name="GEOID">5338705</SimpleData>
+		<SimpleData name="NAMELSAD">Laurier CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">159136</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.9973485</SimpleData>
+		<SimpleData name="INTPTLON">-118.2246478</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-118.225855,48.99867 -118.224623,48.999904 -118.224574,49.000352 -118.224436,49.000351 -118.224025,49.000349 -118.223888,49.000349 -118.223795,49.000349 -118.223629,49.000348 -118.222854,49.000345 -118.222596,49.000344 -118.222533,48.999675 -118.222564,48.999363 -118.222859,48.996423 -118.222958,48.995443 -118.222654,48.995451 -118.223372,48.994531 -118.22534,48.994577 -118.225298,48.994749 -118.225111,48.995464 -118.225071,48.995621 -118.225052,48.995697 -118.225217,48.995715 -118.227851,48.996003 -118.228454,48.996069 -118.225855,48.99867</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

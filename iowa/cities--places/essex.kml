@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>essex</name>
+<Schema name="essex" id="essex">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Essex</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#essex">
+		<SimpleData name="Name">Essex</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">25815</SimpleData>
+		<SimpleData name="PLACENS">02394702</SimpleData>
+		<SimpleData name="GEOID">1925815</SimpleData>
+		<SimpleData name="NAMELSAD">Essex city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3897439</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8326791</SimpleData>
+		<SimpleData name="INTPTLON">-095.3038068</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.31813,40.832534 -95.318131,40.832653 -95.318163,40.836373 -95.318166,40.836794 -95.318191,40.839956 -95.312334,40.839928 -95.3091,40.839913 -95.308629,40.839911 -95.302448,40.839956 -95.301829,40.839956 -95.294188,40.839956 -95.289504,40.839956 -95.289513,40.837817 -95.289508,40.837179 -95.289514,40.836265 -95.289524,40.834904 -95.289524,40.834633 -95.28952,40.83206 -95.289501,40.828991 -95.289505,40.826442 -95.289498,40.82535 -95.308543,40.825449 -95.316489,40.825394 -95.317184,40.825396 -95.318074,40.825397 -95.31813,40.832534</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

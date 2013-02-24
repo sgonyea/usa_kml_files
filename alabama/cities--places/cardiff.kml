@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cardiff</name>
+<Schema name="cardiff" id="cardiff">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cardiff</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cardiff">
+		<SimpleData name="Name">Cardiff</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">12040</SimpleData>
+		<SimpleData name="PLACENS">02405377</SimpleData>
+		<SimpleData name="GEOID">0112040</SimpleData>
+		<SimpleData name="NAMELSAD">Cardiff town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">649165</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+33.6471883</SimpleData>
+		<SimpleData name="INTPTLON">-086.9305569</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.934336,33.646841 -86.934176,33.649756 -86.934166,33.651317 -86.931699,33.651221 -86.93083,33.651196 -86.92903,33.651147 -86.926483,33.651077 -86.926475,33.647123 -86.926477,33.646945 -86.926634,33.64276 -86.926842,33.642952 -86.927098,33.643112 -86.927418,33.643224 -86.927914,33.64332 -86.928522,33.64332 -86.929274,33.6434 -86.93049,33.64348 -86.931466,33.643576 -86.931674,33.64356 -86.932051,33.64355 -86.93257,33.643543 -86.933357,33.643455 -86.93425,33.64324 -86.935018,33.643128 -86.935035,33.644532 -86.935036,33.646791 -86.934336,33.646841</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wausau</name>
+<Schema name="wausau" id="wausau">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wausau</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wausau">
+		<SimpleData name="Name">Wausau</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">75450</SimpleData>
+		<SimpleData name="PLACENS">02406841</SimpleData>
+		<SimpleData name="GEOID">1275450</SimpleData>
+		<SimpleData name="NAMELSAD">Wausau town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3010255</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+30.6335414</SimpleData>
+		<SimpleData name="INTPTLON">-085.5872318</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.594991,30.632655 -85.594549,30.632739 -85.594446,30.640177 -85.590712,30.640222 -85.590708,30.640404 -85.590686,30.641357 -85.589923,30.641295 -85.588842,30.64132 -85.587308,30.641311 -85.586263,30.641272 -85.586132,30.641267 -85.585264,30.641229 -85.585266,30.641629 -85.585244,30.641774 -85.585178,30.64222 -85.585072,30.642622 -85.584945,30.642971 -85.585316,30.643219 -85.585142,30.645225 -85.584092,30.64523 -85.583747,30.645191 -85.581229,30.645102 -85.579273,30.645039 -85.577466,30.644931 -85.577443,30.644761 -85.577486,30.640103 -85.578666,30.64011 -85.57871,30.637024 -85.581624,30.637041 -85.581675,30.63392 -85.581348,30.62664 -85.581441,30.62639 -85.581633,30.625964 -85.581652,30.625862 -85.581674,30.625337 -85.581696,30.624573 -85.581728,30.624202 -85.581725,30.623477 -85.590216,30.623539 -85.59017,30.622917 -85.594411,30.622925 -85.594526,30.62437 -85.59453,30.626899 -85.596532,30.626901 -85.59653,30.630539 -85.596795,30.632333 -85.594991,30.632655</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

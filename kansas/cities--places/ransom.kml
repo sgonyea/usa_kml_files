@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ransom</name>
+<Schema name="ransom" id="ransom">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ransom</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ransom">
+		<SimpleData name="Name">Ransom</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">58500</SimpleData>
+		<SimpleData name="PLACENS">02396321</SimpleData>
+		<SimpleData name="GEOID">2058500</SimpleData>
+		<SimpleData name="NAMELSAD">Ransom city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">832895</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.6361775</SimpleData>
+		<SimpleData name="INTPTLON">-099.9327270</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.927403,38.639262 -99.926758,38.63927 -99.926761,38.638833 -99.927423,38.638823 -99.927403,38.639262</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-99.937577,38.63499 -99.937547,38.638719 -99.937334,38.638721 -99.937319,38.640086 -99.93671,38.640079 -99.936288,38.640084 -99.936326,38.641409 -99.930631,38.6414 -99.930704,38.638793 -99.930155,38.6388 -99.929565,38.638802 -99.928914,38.638803 -99.927938,38.638816 -99.927423,38.638823 -99.927536,38.636378 -99.927666,38.633916 -99.927684,38.633578 -99.9277,38.633299 -99.927731,38.632424 -99.927687,38.631987 -99.929206,38.631851 -99.930294,38.631734 -99.931587,38.631597 -99.93219,38.631526 -99.932278,38.631522 -99.932925,38.631491 -99.933129,38.631485 -99.934118,38.631442 -99.934446,38.631428 -99.93682,38.631329 -99.936817,38.631449 -99.9368,38.63211 -99.936784,38.632736 -99.936783,38.63278 -99.936761,38.63411 -99.937577,38.634109 -99.937577,38.63499</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

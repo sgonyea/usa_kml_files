@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bertrand</name>
+<Schema name="bertrand" id="bertrand">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bertrand</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bertrand">
+		<SimpleData name="Name">Bertrand</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">04996</SimpleData>
+		<SimpleData name="PLACENS">02394153</SimpleData>
+		<SimpleData name="GEOID">2904996</SimpleData>
+		<SimpleData name="NAMELSAD">Bertrand city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2025608</SimpleData>
+		<SimpleData name="AWATER">3149</SimpleData>
+		<SimpleData name="INTPTLAT">+36.9077264</SimpleData>
+		<SimpleData name="INTPTLON">-089.4526485</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.464213,36.906229 -89.464024,36.909369 -89.464004,36.909702 -89.453421,36.910907 -89.453528,36.913624 -89.45355,36.914188 -89.4516,36.914175 -89.447196,36.914147 -89.447058,36.914146 -89.445646,36.914138 -89.445517,36.911904 -89.435928,36.913273 -89.435838,36.913281 -89.435803,36.912789 -89.435757,36.911554 -89.435783,36.909848 -89.435788,36.909184 -89.435796,36.908887 -89.435804,36.908421 -89.435796,36.908107 -89.435814,36.908022 -89.435752,36.907155 -89.435841,36.906636 -89.436225,36.906638 -89.437142,36.906616 -89.437678,36.906593 -89.438116,36.906561 -89.438618,36.906515 -89.439684,36.906376 -89.448774,36.906346 -89.448404,36.903993 -89.448386,36.903881 -89.4526,36.902489 -89.456018,36.901647 -89.456022,36.901838 -89.456073,36.905089 -89.456076,36.905251 -89.456097,36.906235 -89.456163,36.906234 -89.456154,36.90525 -89.456224,36.905249 -89.456171,36.9016 -89.457296,36.901013 -89.457373,36.905243 -89.464275,36.905209 -89.464213,36.906229</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

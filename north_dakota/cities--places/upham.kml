@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>upham</name>
+<Schema name="upham" id="upham">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Upham</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#upham">
+		<SimpleData name="Name">Upham</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">80860</SimpleData>
+		<SimpleData name="PLACENS">01036305</SimpleData>
+		<SimpleData name="GEOID">3880860</SimpleData>
+		<SimpleData name="NAMELSAD">Upham city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">841953</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.5812770</SimpleData>
+		<SimpleData name="INTPTLON">-100.7286345</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.734685,48.583186 -100.734714,48.585478 -100.734457,48.585478 -100.733482,48.585476 -100.732494,48.58551 -100.732174,48.58551 -100.730403,48.58555 -100.722593,48.585545 -100.722595,48.58547 -100.722654,48.581932 -100.722605,48.580531 -100.722598,48.579281 -100.722598,48.578968 -100.722646,48.578347 -100.722681,48.577638 -100.722684,48.577386 -100.722643,48.577358 -100.722582,48.577295 -100.722563,48.577207 -100.72257,48.577003 -100.726308,48.577011 -100.733516,48.577005 -100.734607,48.577004 -100.734685,48.583186</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

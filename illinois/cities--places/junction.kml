@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>junction</name>
+<Schema name="junction" id="junction">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Junction</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#junction">
+		<SimpleData name="Name">Junction</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">38778</SimpleData>
+		<SimpleData name="PLACENS">02398314</SimpleData>
+		<SimpleData name="GEOID">1738778</SimpleData>
+		<SimpleData name="NAMELSAD">Junction village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2273727</SimpleData>
+		<SimpleData name="AWATER">7922</SimpleData>
+		<SimpleData name="INTPTLAT">+37.7220009</SimpleData>
+		<SimpleData name="INTPTLON">-088.2423872</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.2486,37.728234 -88.248562,37.72851 -88.247906,37.728511 -88.245694,37.728511 -88.243562,37.728497 -88.243248,37.728502 -88.238966,37.728466 -88.23896,37.728521 -88.238091,37.728587 -88.237978,37.728507 -88.235452,37.728601 -88.235353,37.728535 -88.233623,37.728609 -88.233643,37.731894 -88.229115,37.731906 -88.229121,37.731307 -88.229153,37.729951 -88.229225,37.728376 -88.229282,37.727013 -88.229311,37.726079 -88.229366,37.724963 -88.229706,37.724599 -88.229767,37.724553 -88.230237,37.724095 -88.230295,37.724024 -88.230358,37.723963 -88.229941,37.72356 -88.229497,37.723218 -88.229436,37.723166 -88.229401,37.723101 -88.229376,37.723018 -88.229368,37.722949 -88.229367,37.722877 -88.229374,37.722786 -88.229379,37.722726 -88.229391,37.72243 -88.229394,37.722358 -88.229395,37.722277 -88.229398,37.722163 -88.229435,37.720101 -88.229441,37.719759 -88.229448,37.718754 -88.229469,37.717742 -88.229479,37.717252 -88.229478,37.717109 -88.229871,37.717117 -88.229902,37.717071 -88.242192,37.717153 -88.242755,37.717189 -88.242823,37.717136 -88.2429,37.717113 -88.242977,37.717102 -88.243199,37.717089 -88.243674,37.717065 -88.24502,37.717026 -88.245554,37.716999 -88.247633,37.716958 -88.248244,37.716955 -88.248531,37.716952 -88.248533,37.720658 -88.248498,37.72587 -88.248531,37.725872 -88.248559,37.727094 -88.248486,37.727231 -88.248443,37.727305 -88.248561,37.728209 -88.2486,37.728234</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

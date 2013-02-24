@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ohio_city</name>
+<Schema name="ohio_city" id="ohio_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ohio City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ohio_city">
+		<SimpleData name="Name">Ohio City</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">58002</SimpleData>
+		<SimpleData name="PLACENS">02399563</SimpleData>
+		<SimpleData name="GEOID">3958002</SimpleData>
+		<SimpleData name="NAMELSAD">Ohio City village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1376152</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7702953</SimpleData>
+		<SimpleData name="INTPTLON">-084.6162310</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.624189,40.775004 -84.620968,40.775103 -84.619241,40.775121 -84.619188,40.77462 -84.617005,40.774697 -84.616433,40.774664 -84.616257,40.774655 -84.615551,40.77466 -84.615554,40.774718 -84.615573,40.77511 -84.614883,40.77511 -84.61488,40.774616 -84.614878,40.774373 -84.614875,40.773918 -84.614742,40.773991 -84.61299,40.77402 -84.609864,40.773911 -84.609839,40.773358 -84.60985,40.772547 -84.609855,40.772384 -84.60986,40.772214 -84.609475,40.772223 -84.608656,40.772217 -84.608658,40.771611 -84.605139,40.771594 -84.605129,40.771478 -84.605121,40.771391 -84.605119,40.771047 -84.605113,40.768775 -84.605105,40.768362 -84.60508,40.768323 -84.605056,40.768298 -84.604989,40.768244 -84.604905,40.76818 -84.605082,40.76793 -84.607843,40.768023 -84.609858,40.767862 -84.609832,40.765867 -84.616358,40.765916 -84.619092,40.76595 -84.619165,40.765548 -84.623704,40.765548 -84.62359,40.765946 -84.62345,40.766436 -84.623387,40.766654 -84.623276,40.767044 -84.623123,40.767659 -84.624099,40.767603 -84.624308,40.770277 -84.624204,40.77131 -84.624194,40.771416 -84.624156,40.771657 -84.624137,40.772136 -84.624113,40.77282 -84.624363,40.772842 -84.625131,40.772957 -84.625812,40.773034 -84.626124,40.773084 -84.626217,40.773097 -84.626212,40.773259 -84.62621,40.773287 -84.626201,40.773473 -84.626168,40.773583 -84.62613,40.773742 -84.626102,40.773929 -84.62607,40.774137 -84.626097,40.774356 -84.626113,40.774532 -84.626152,40.774642 -84.62619,40.774834 -84.626218,40.775024 -84.624189,40.775004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

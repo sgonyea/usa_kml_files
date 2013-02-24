@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>camp_hill</name>
+<Schema name="camp_hill" id="camp_hill">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Camp Hill</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#camp_hill">
+		<SimpleData name="Name">Camp Hill</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">11680</SimpleData>
+		<SimpleData name="PLACENS">02405370</SimpleData>
+		<SimpleData name="GEOID">0111680</SimpleData>
+		<SimpleData name="NAMELSAD">Camp Hill town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">23283459</SimpleData>
+		<SimpleData name="AWATER">256575</SimpleData>
+		<SimpleData name="INTPTLAT">+32.7978364</SimpleData>
+		<SimpleData name="INTPTLON">-085.6559842</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.677838,32.822015 -85.675657,32.822037 -85.671997,32.822063 -85.66421,32.821711 -85.655004,32.822011 -85.654184,32.822038 -85.647989,32.82224 -85.635474,32.822269 -85.629583,32.822282 -85.627966,32.822331 -85.627967,32.820979 -85.62797,32.814684 -85.627831,32.811923 -85.627799,32.811287 -85.627781,32.800716 -85.627607,32.790158 -85.627574,32.78694 -85.627502,32.779839 -85.627496,32.778602 -85.635931,32.778657 -85.640117,32.778301 -85.645034,32.778146 -85.653352,32.778481 -85.654036,32.778492 -85.658353,32.778405 -85.663188,32.778377 -85.670753,32.778326 -85.672761,32.778328 -85.676388,32.77827 -85.677698,32.77825 -85.679337,32.778239 -85.679373,32.782992 -85.679364,32.784064 -85.679408,32.784716 -85.679487,32.786239 -85.679501,32.786507 -85.679538,32.787209 -85.679795,32.792148 -85.679834,32.792879 -85.679573,32.799514 -85.679642,32.802566 -85.679642,32.803161 -85.679533,32.804248 -85.679676,32.80453 -85.679649,32.81683 -85.679637,32.822003 -85.677838,32.822015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

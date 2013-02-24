@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fultonham</name>
+<Schema name="fultonham" id="fultonham">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fultonham</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fultonham">
+		<SimpleData name="Name">Fultonham</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">29064</SimpleData>
+		<SimpleData name="PLACENS">02398931</SimpleData>
+		<SimpleData name="GEOID">3929064</SimpleData>
+		<SimpleData name="NAMELSAD">Fultonham village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">404225</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8557513</SimpleData>
+		<SimpleData name="INTPTLON">-082.1424097</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.149313,39.857659 -82.141397,39.857194 -82.141075,39.857178 -82.140111,39.857131 -82.13979,39.857116 -82.139506,39.857099 -82.138654,39.857049 -82.13837,39.857033 -82.13787,39.857002 -82.136373,39.856909 -82.135874,39.856878 -82.135493,39.856861 -82.135141,39.856846 -82.135177,39.856058 -82.135195,39.855678 -82.13524,39.854703 -82.135245,39.854556 -82.135265,39.854015 -82.138091,39.854105 -82.139214,39.854142 -82.140276,39.854175 -82.140694,39.854189 -82.145136,39.854331 -82.146617,39.854379 -82.147243,39.854401 -82.149123,39.854467 -82.149404,39.854477 -82.149389,39.854823 -82.149374,39.855157 -82.149372,39.855222 -82.149369,39.855287 -82.149281,39.857272 -82.149313,39.857659</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

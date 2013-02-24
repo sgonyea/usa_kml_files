@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>veblen</name>
+<Schema name="veblen" id="veblen">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Veblen</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#veblen">
+		<SimpleData name="Name">Veblen</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">66540</SimpleData>
+		<SimpleData name="PLACENS">01267611</SimpleData>
+		<SimpleData name="GEOID">4666540</SimpleData>
+		<SimpleData name="NAMELSAD">Veblen city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">813816</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.8619894</SimpleData>
+		<SimpleData name="INTPTLON">-097.2869102</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.293349,45.863083 -97.293341,45.863255 -97.293337,45.863364 -97.293346,45.8637 -97.293393,45.864701 -97.293366,45.867224 -97.292189,45.867194 -97.290837,45.867159 -97.286921,45.86706 -97.286253,45.867081 -97.285404,45.86709 -97.285378,45.866265 -97.28537,45.865883 -97.285339,45.864216 -97.285369,45.863319 -97.283665,45.863316 -97.280369,45.863241 -97.280199,45.863242 -97.280203,45.86317 -97.280333,45.860286 -97.280461,45.85752 -97.280457,45.857269 -97.280747,45.85726 -97.285518,45.857372 -97.289271,45.857414 -97.290576,45.857423 -97.290598,45.858061 -97.290604,45.858292 -97.290642,45.859361 -97.290652,45.85969 -97.290727,45.861296 -97.290726,45.861733 -97.290726,45.861892 -97.290726,45.862007 -97.290726,45.862113 -97.290726,45.862247 -97.290726,45.862321 -97.290728,45.862481 -97.293347,45.862433 -97.293349,45.863083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

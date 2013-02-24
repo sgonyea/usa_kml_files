@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cement_city</name>
+<Schema name="cement_city" id="cement_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cement City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cement_city">
+		<SimpleData name="Name">Cement City</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">14260</SimpleData>
+		<SimpleData name="PLACENS">02397586</SimpleData>
+		<SimpleData name="GEOID">2614260</SimpleData>
+		<SimpleData name="NAMELSAD">Cement City village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2343575</SimpleData>
+		<SimpleData name="AWATER">89838</SimpleData>
+		<SimpleData name="INTPTLAT">+42.0683954</SimpleData>
+		<SimpleData name="INTPTLON">-084.3276191</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.328342,42.077054 -84.325295,42.077099 -84.320371,42.077061 -84.3203,42.073392 -84.320346,42.061717 -84.32035,42.059378 -84.325211,42.059469 -84.328018,42.05945 -84.328899,42.059439 -84.329313,42.059434 -84.329462,42.059432 -84.333748,42.059378 -84.335622,42.059356 -84.335624,42.059901 -84.335628,42.060954 -84.335397,42.066907 -84.335041,42.073421 -84.335162,42.077051 -84.328342,42.077054</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>littlejohn_island</name>
+<Schema name="littlejohn_island" id="littlejohn_island">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Littlejohn Island</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#littlejohn_island">
+		<SimpleData name="Name">Littlejohn Island</SimpleData>
+		<SimpleData name="STATEFP">23</SimpleData>
+		<SimpleData name="PLACEFP">40470</SimpleData>
+		<SimpleData name="PLACENS">02583560</SimpleData>
+		<SimpleData name="GEOID">2340470</SimpleData>
+		<SimpleData name="NAMELSAD">Littlejohn Island CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">884607</SimpleData>
+		<SimpleData name="AWATER">1007425</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7614443</SimpleData>
+		<SimpleData name="INTPTLON">-070.1266936</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.137518,43.756665 -70.136471,43.758178 -70.135483,43.759807 -70.13455,43.761348 -70.133241,43.76353 -70.132246,43.76473 -70.128907,43.765916 -70.124369,43.766817 -70.119714,43.767283 -70.116456,43.767108 -70.115263,43.767021 -70.114245,43.766323 -70.114012,43.765421 -70.114187,43.764665 -70.115118,43.763617 -70.121692,43.758003 -70.124281,43.756141 -70.124492,43.756013 -70.126347,43.75489 -70.128238,43.754163 -70.130216,43.753581 -70.132776,43.75233 -70.133881,43.751777 -70.135161,43.751457 -70.136645,43.751661 -70.138041,43.752796 -70.137925,43.754483 -70.137851,43.755401 -70.137809,43.755937 -70.137518,43.756665</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

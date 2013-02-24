@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>magnolia</name>
+<Schema name="magnolia" id="magnolia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Magnolia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#magnolia">
+		<SimpleData name="Name">Magnolia</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">48495</SimpleData>
+		<SimpleData name="PLACENS">02395814</SimpleData>
+		<SimpleData name="GEOID">1948495</SimpleData>
+		<SimpleData name="NAMELSAD">Magnolia city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1471707</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.6921842</SimpleData>
+		<SimpleData name="INTPTLON">-095.8741284</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.881872,41.695645 -95.881901,41.696554 -95.881854,41.697577 -95.876908,41.697577 -95.871492,41.697675 -95.867169,41.697758 -95.867169,41.697632 -95.867168,41.697306 -95.867165,41.696749 -95.867137,41.695804 -95.867133,41.695206 -95.867159,41.686883 -95.867093,41.686451 -95.867068,41.686289 -95.867061,41.685974 -95.86763,41.685985 -95.874324,41.686057 -95.874912,41.686097 -95.876003,41.686118 -95.876762,41.686133 -95.87701,41.68614 -95.876923,41.688493 -95.879539,41.688533 -95.881878,41.6885 -95.882017,41.689956 -95.881872,41.695645</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

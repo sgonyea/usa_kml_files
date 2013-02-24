@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tupelo</name>
+<Schema name="tupelo" id="tupelo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tupelo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tupelo">
+		<SimpleData name="Name">Tupelo</SimpleData>
+		<SimpleData name="STATEFP">05</SimpleData>
+		<SimpleData name="PLACEFP">70340</SimpleData>
+		<SimpleData name="PLACENS">02406765</SimpleData>
+		<SimpleData name="GEOID">0570340</SimpleData>
+		<SimpleData name="NAMELSAD">Tupelo town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">798492</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.3909906</SimpleData>
+		<SimpleData name="INTPTLON">-091.2299302</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.2345,35.387888 -91.234488,35.39212 -91.234484,35.393531 -91.234484,35.393816 -91.234486,35.39432 -91.234135,35.394355 -91.233852,35.394385 -91.233181,35.394372 -91.23117,35.394333 -91.2305,35.39432 -91.230509,35.394885 -91.23052,35.39548 -91.230526,35.396583 -91.23053,35.39715 -91.230396,35.397152 -91.229994,35.397158 -91.22986,35.39716 -91.229637,35.397163 -91.228972,35.397175 -91.22875,35.39718 -91.228498,35.397177 -91.227742,35.397171 -91.22752,35.39717 -91.22749,35.39717 -91.227453,35.395579 -91.22743,35.394554 -91.225576,35.394527 -91.225613,35.392633 -91.225645,35.391043 -91.225647,35.390764 -91.225652,35.389928 -91.225655,35.38965 -91.225659,35.389444 -91.225672,35.388829 -91.225677,35.388624 -91.225708,35.387631 -91.225748,35.386358 -91.227451,35.38637 -91.228444,35.386377 -91.228816,35.386381 -91.229932,35.386394 -91.230304,35.386399 -91.230989,35.386411 -91.233046,35.38645 -91.233732,35.386464 -91.233886,35.386466 -91.23435,35.386475 -91.234505,35.386478 -91.2345,35.387888</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

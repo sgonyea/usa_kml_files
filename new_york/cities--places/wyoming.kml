@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wyoming</name>
+<Schema name="wyoming" id="wyoming">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wyoming</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wyoming">
+		<SimpleData name="Name">Wyoming</SimpleData>
+		<SimpleData name="STATEFP">36</SimpleData>
+		<SimpleData name="PLACEFP">83371</SimpleData>
+		<SimpleData name="PLACENS">02391228</SimpleData>
+		<SimpleData name="GEOID">3683371</SimpleData>
+		<SimpleData name="NAMELSAD">Wyoming village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1732336</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8240645</SimpleData>
+		<SimpleData name="INTPTLON">-078.0841284</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.092786,42.825551 -78.091937,42.8265 -78.091856,42.826593 -78.091615,42.826875 -78.091535,42.826969 -78.089899,42.82888 -78.089857,42.828927 -78.089733,42.829072 -78.089692,42.82912 -78.089559,42.82927 -78.089163,42.829723 -78.089031,42.829874 -78.088235,42.830791 -78.086195,42.833144 -78.085754,42.83285 -78.084744,42.832178 -78.083758,42.831465 -78.080802,42.829326 -78.079817,42.828614 -78.079042,42.828053 -78.07672,42.82637 -78.075946,42.825809 -78.075733,42.825641 -78.075094,42.825137 -78.074882,42.82497 -78.074342,42.82456 -78.07405,42.824338 -78.074002,42.824302 -78.074007,42.824235 -78.07401,42.824198 -78.074019,42.824003 -78.074037,42.82367 -78.074063,42.823185 -78.074437,42.822833 -78.075562,42.82178 -78.075938,42.821429 -78.07644,42.82094 -78.077947,42.819476 -78.07845,42.818988 -78.079373,42.818018 -78.081858,42.815413 -78.082275,42.815418 -78.083614,42.815435 -78.084016,42.815437 -78.084068,42.815964 -78.0842,42.81729 -78.085492,42.817976 -78.086316,42.818413 -78.086759,42.818655 -78.088089,42.819384 -78.088533,42.819627 -78.08852,42.819646 -78.088483,42.819706 -78.088472,42.819726 -78.089354,42.82019 -78.092001,42.821582 -78.092884,42.822046 -78.092963,42.822089 -78.0932,42.82222 -78.093279,42.822264 -78.0944,42.822868 -78.094933,42.823156 -78.092786,42.825551</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

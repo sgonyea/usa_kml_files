@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cabot</name>
+<Schema name="cabot" id="cabot">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cabot</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cabot">
+		<SimpleData name="Name">Cabot</SimpleData>
+		<SimpleData name="STATEFP">50</SimpleData>
+		<SimpleData name="PLACEFP">11050</SimpleData>
+		<SimpleData name="PLACENS">02378301</SimpleData>
+		<SimpleData name="GEOID">5011050</SimpleData>
+		<SimpleData name="NAMELSAD">Cabot village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2926458</SimpleData>
+		<SimpleData name="AWATER">473</SimpleData>
+		<SimpleData name="INTPTLAT">+44.4065767</SimpleData>
+		<SimpleData name="INTPTLON">-072.3162321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-72.324964,44.404845 -72.317808,44.411513 -72.317128,44.412166 -72.313368,44.412297 -72.312053,44.412361 -72.305889,44.412563 -72.302559,44.412679 -72.29696,44.412877 -72.298902,44.408701 -72.299104,44.408268 -72.300192,44.405928 -72.302258,44.402068 -72.303637,44.399244 -72.303752,44.399008 -72.30538,44.395673 -72.305556,44.395775 -72.312654,44.399149 -72.312984,44.398735 -72.313204,44.398442 -72.31365,44.397869 -72.313797,44.397664 -72.31386,44.397575 -72.313931,44.397446 -72.31398,44.397308 -72.313991,44.397164 -72.314408,44.396966 -72.315839,44.395328 -72.320693,44.398351 -72.321048,44.398577 -72.321246,44.398556 -72.321615,44.398543 -72.322347,44.398558 -72.324181,44.398634 -72.324271,44.398636 -72.324408,44.398638 -72.324631,44.398619 -72.32485,44.398556 -72.32505,44.398451 -72.324896,44.398804 -72.324366,44.399396 -72.324403,44.39982 -72.324537,44.400246 -72.324578,44.400976 -72.324171,44.401284 -72.323858,44.401453 -72.323703,44.401619 -72.322917,44.402144 -72.322759,44.402176 -72.326125,44.403759 -72.324964,44.404845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

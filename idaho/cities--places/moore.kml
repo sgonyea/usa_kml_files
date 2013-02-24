@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>moore</name>
+<Schema name="moore" id="moore">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Moore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#moore">
+		<SimpleData name="Name">Moore</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">54100</SimpleData>
+		<SimpleData name="PLACENS">02411154</SimpleData>
+		<SimpleData name="GEOID">1654100</SimpleData>
+		<SimpleData name="NAMELSAD">Moore city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">743685</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7344040</SimpleData>
+		<SimpleData name="INTPTLON">-113.3672336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-113.371105,43.729714 -113.371108,43.730063 -113.371105,43.732545 -113.371397,43.73934 -113.371417,43.739813 -113.371035,43.739815 -113.369749,43.739819 -113.369278,43.739821 -113.368655,43.739809 -113.368168,43.739797 -113.367884,43.739803 -113.367495,43.739802 -113.36714,43.739802 -113.366738,43.739805 -113.366341,43.739808 -113.366191,43.739818 -113.366175,43.739474 -113.366181,43.73897 -113.366187,43.738168 -113.362301,43.738157 -113.361366,43.738156 -113.361366,43.73684 -113.361377,43.735992 -113.363145,43.736025 -113.36273,43.735201 -113.362386,43.734574 -113.362365,43.734556 -113.363878,43.734563 -113.363863,43.734527 -113.363632,43.734047 -113.364078,43.73404 -113.364169,43.734038 -113.363278,43.732476 -113.363889,43.732454 -113.363887,43.731672 -113.363656,43.729022 -113.364055,43.729018 -113.364656,43.729011 -113.365263,43.729013 -113.365929,43.729015 -113.36614,43.729012 -113.367222,43.729001 -113.368118,43.728997 -113.370184,43.728973 -113.370775,43.728965 -113.371084,43.728966 -113.371105,43.729714</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

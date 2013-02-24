@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>chain_o_lakes</name>
+<Schema name="chain_o_lakes" id="chain_o_lakes">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Chain-O-Lakes</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#chain_o_lakes">
+		<SimpleData name="Name">Chain-O-Lakes</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">13015</SimpleData>
+		<SimpleData name="PLACENS">02397597</SimpleData>
+		<SimpleData name="GEOID">2913015</SimpleData>
+		<SimpleData name="NAMELSAD">Chain-O-Lakes village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">216695</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.5341970</SimpleData>
+		<SimpleData name="INTPTLON">-093.7241788</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.726462,36.531318 -93.726462,36.531462 -93.726443,36.531826 -93.72644,36.532063 -93.726428,36.53215 -93.726353,36.532379 -93.726342,36.532481 -93.726385,36.532772 -93.726396,36.532981 -93.726364,36.533418 -93.726358,36.533608 -93.726351,36.533953 -93.726311,36.534838 -93.726308,36.535572 -93.726294,36.53599 -93.726277,36.536051 -93.726286,36.536513 -93.723372,36.536199 -93.722671,36.536578 -93.722059,36.536858 -93.721957,36.536937 -93.720286,36.536903 -93.719754,36.53687 -93.723197,36.533244 -93.723346,36.532288 -93.724365,36.532144 -93.725491,36.532604 -93.725512,36.531715 -93.72541,36.53135 -93.725291,36.531245 -93.72485,36.53086 -93.725448,36.529809 -93.726604,36.529773 -93.726421,36.530127 -93.72641,36.530286 -93.726452,36.53093 -93.726459,36.531126 -93.72752,36.530584 -93.727607,36.530656 -93.727652,36.530693 -93.726462,36.531318</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

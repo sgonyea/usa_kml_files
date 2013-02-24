@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lithium</name>
+<Schema name="lithium" id="lithium">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lithium</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lithium">
+		<SimpleData name="Name">Lithium</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">43346</SimpleData>
+		<SimpleData name="PLACENS">02398452</SimpleData>
+		<SimpleData name="GEOID">2943346</SimpleData>
+		<SimpleData name="NAMELSAD">Lithium village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C9</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">I</SimpleData>
+		<SimpleData name="ALAND">166080</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.8328497</SimpleData>
+		<SimpleData name="INTPTLON">-089.8847451</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.887008,37.834976 -89.886821,37.834967 -89.885874,37.83519 -89.885308,37.835438 -89.884433,37.83499 -89.884434,37.834354 -89.88422,37.834345 -89.884174,37.834344 -89.884009,37.834457 -89.882843,37.832306 -89.882093,37.832418 -89.881453,37.832521 -89.881449,37.832495 -89.881074,37.832554 -89.880343,37.832687 -89.880208,37.831917 -89.88066,37.831772 -89.88072,37.831764 -89.880762,37.831721 -89.880796,37.831722 -89.881162,37.831667 -89.881316,37.831644 -89.881726,37.831583 -89.881913,37.831557 -89.882274,37.831507 -89.882351,37.831482 -89.882436,37.831488 -89.883056,37.831393 -89.8831,37.831386 -89.884292,37.831224 -89.884859,37.830926 -89.886372,37.830561 -89.886615,37.831589 -89.886701,37.831599 -89.886911,37.83225 -89.886929,37.832333 -89.886991,37.832632 -89.887089,37.833106 -89.887138,37.8343 -89.887258,37.83441 -89.887338,37.834567 -89.887353,37.834693 -89.887423,37.83488 -89.887008,37.834976</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

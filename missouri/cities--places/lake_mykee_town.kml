@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lake_mykee_town</name>
+<Schema name="lake_mykee_town" id="lake_mykee_town">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lake Mykee Town</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lake_mykee_town">
+		<SimpleData name="Name">Lake Mykee Town</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">39990</SimpleData>
+		<SimpleData name="PLACENS">02398382</SimpleData>
+		<SimpleData name="GEOID">2939990</SimpleData>
+		<SimpleData name="NAMELSAD">Lake Mykee Town village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">479310</SimpleData>
+		<SimpleData name="AWATER">151130</SimpleData>
+		<SimpleData name="INTPTLAT">+38.6779560</SimpleData>
+		<SimpleData name="INTPTLON">-092.1012458</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.106979,38.674771 -92.106859,38.676301 -92.106807,38.676945 -92.105118,38.676952 -92.104,38.67812 -92.102331,38.680575 -92.096859,38.680383 -92.096726,38.680375 -92.096732,38.678292 -92.096799,38.674594 -92.097455,38.672939 -92.097576,38.672736 -92.098667,38.672774 -92.10447,38.672948 -92.107164,38.673021 -92.106979,38.674771</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

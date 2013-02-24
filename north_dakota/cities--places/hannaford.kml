@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hannaford</name>
+<Schema name="hannaford" id="hannaford">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hannaford</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hannaford">
+		<SimpleData name="Name">Hannaford</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">35020</SimpleData>
+		<SimpleData name="PLACENS">01036079</SimpleData>
+		<SimpleData name="GEOID">3835020</SimpleData>
+		<SimpleData name="NAMELSAD">Hannaford city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">567332</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.3141807</SimpleData>
+		<SimpleData name="INTPTLON">-098.1889406</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.194154,47.311137 -98.194143,47.311437 -98.194141,47.311801 -98.194141,47.311936 -98.194122,47.312372 -98.194132,47.312497 -98.194115,47.312923 -98.194104,47.313395 -98.194081,47.314426 -98.194069,47.315482 -98.194066,47.315778 -98.194013,47.31784 -98.188557,47.317888 -98.18861,47.316847 -98.186546,47.31682 -98.186244,47.316816 -98.185855,47.316805 -98.184492,47.316767 -98.18352,47.316741 -98.183504,47.315662 -98.183469,47.313324 -98.183437,47.311149 -98.183466,47.310785 -98.184135,47.310797 -98.184429,47.310775 -98.184659,47.310769 -98.184794,47.310778 -98.184906,47.310819 -98.186465,47.31074 -98.187222,47.310747 -98.187186,47.311105 -98.189225,47.311102 -98.194153,47.311116 -98.194154,47.311137</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

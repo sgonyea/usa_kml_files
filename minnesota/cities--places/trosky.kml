@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>trosky</name>
+<Schema name="trosky" id="trosky">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Trosky</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#trosky">
+		<SimpleData name="Name">Trosky</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">65542</SimpleData>
+		<SimpleData name="PLACENS">02397058</SimpleData>
+		<SimpleData name="GEOID">2765542</SimpleData>
+		<SimpleData name="NAMELSAD">Trosky city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4275205</SimpleData>
+		<SimpleData name="AWATER">2509</SimpleData>
+		<SimpleData name="INTPTLAT">+43.8880844</SimpleData>
+		<SimpleData name="INTPTLON">-096.2526298</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.245077,43.870809 -96.245205,43.8749 -96.245158,43.875928 -96.245109,43.87697 -96.245077,43.877663 -96.244992,43.879462 -96.244731,43.884983 -96.244657,43.884984 -96.239918,43.885001 -96.235005,43.885018 -96.234945,43.877558 -96.235808,43.877562 -96.237893,43.877576 -96.238815,43.877578 -96.239314,43.877579 -96.239306,43.876676 -96.239303,43.875024 -96.2392,43.870474 -96.245066,43.87044 -96.245077,43.870809</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-96.274839,43.888871 -96.274797,43.892335 -96.265247,43.892301 -96.264748,43.892298 -96.264744,43.893062 -96.264747,43.893293 -96.264751,43.894207 -96.264777,43.899516 -96.256849,43.899488 -96.255548,43.899484 -96.250234,43.899468 -96.249943,43.899417 -96.249038,43.899434 -96.24666,43.899444 -96.245211,43.899448 -96.244708,43.89945 -96.244707,43.89938 -96.244719,43.898205 -96.244721,43.898017 -96.244767,43.896613 -96.2448,43.893746 -96.24481,43.892348 -96.244816,43.892133 -96.244765,43.890341 -96.24475,43.889313 -96.244748,43.889099 -96.244736,43.887706 -96.244671,43.887268 -96.244709,43.887094 -96.244718,43.886964 -96.244672,43.886907 -96.244641,43.886903 -96.244657,43.886126 -96.244647,43.886041 -96.244614,43.885989 -96.244731,43.884983 -96.247955,43.884973 -96.250764,43.884972 -96.2513,43.884973 -96.254873,43.884939 -96.259253,43.884956 -96.25972,43.884957 -96.264844,43.884979 -96.27489,43.885146 -96.274839,43.888871</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

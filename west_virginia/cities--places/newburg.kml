@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>newburg</name>
+<Schema name="newburg" id="newburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Newburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#newburg">
+		<SimpleData name="Name">Newburg</SimpleData>
+		<SimpleData name="STATEFP">54</SimpleData>
+		<SimpleData name="PLACEFP">58300</SimpleData>
+		<SimpleData name="PLACENS">02391328</SimpleData>
+		<SimpleData name="GEOID">5458300</SimpleData>
+		<SimpleData name="NAMELSAD">Newburg town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2033170</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.3888520</SimpleData>
+		<SimpleData name="INTPTLON">-079.8536007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.865604,39.389008 -79.865524,39.389042 -79.865427,39.389084 -79.865205,39.389191 -79.86454,39.389513 -79.864319,39.389621 -79.861429,39.39111 -79.852761,39.395577 -79.849872,39.397067 -79.849829,39.397088 -79.849702,39.397153 -79.84966,39.397175 -79.849295,39.39732 -79.848368,39.396393 -79.844754,39.39278 -79.84355,39.391576 -79.843374,39.391401 -79.84291,39.390939 -79.842938,39.390858 -79.84302,39.390625 -79.843091,39.390498 -79.843307,39.390117 -79.843379,39.389991 -79.843894,39.389075 -79.845442,39.386329 -79.845959,39.385414 -79.846001,39.385341 -79.846128,39.385125 -79.846171,39.385054 -79.846196,39.38501 -79.846274,39.384878 -79.8463,39.384835 -79.846441,39.384592 -79.846866,39.383865 -79.847008,39.383623 -79.847203,39.383281 -79.847787,39.382258 -79.847983,39.381917 -79.849743,39.382218 -79.855027,39.383122 -79.856788,39.383424 -79.859261,39.383862 -79.865846,39.38503 -79.865793,39.385878 -79.865679,39.387755 -79.865638,39.388386 -79.865635,39.388442 -79.865625,39.388613 -79.865623,39.38867 -79.865617,39.388776 -79.865604,39.389008</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

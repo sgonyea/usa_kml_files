@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arnot</name>
+<Schema name="arnot" id="arnot">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arnot</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arnot">
+		<SimpleData name="Name">Arnot</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">03104</SimpleData>
+		<SimpleData name="PLACENS">02634204</SimpleData>
+		<SimpleData name="GEOID">4203104</SimpleData>
+		<SimpleData name="NAMELSAD">Arnot CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2658370</SimpleData>
+		<SimpleData name="AWATER">29442</SimpleData>
+		<SimpleData name="INTPTLAT">+41.6615728</SimpleData>
+		<SimpleData name="INTPTLON">-077.1221602</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.133452,41.66826 -77.130965,41.668306 -77.129204,41.668338 -77.128416,41.668353 -77.124478,41.668426 -77.12327,41.668449 -77.115429,41.668565 -77.112536,41.668609 -77.109008,41.668638 -77.109104,41.662174 -77.109135,41.660048 -77.109139,41.659824 -77.119088,41.656987 -77.119516,41.656866 -77.128021,41.654482 -77.129122,41.654173 -77.132856,41.653126 -77.133394,41.664885 -77.133452,41.66826</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

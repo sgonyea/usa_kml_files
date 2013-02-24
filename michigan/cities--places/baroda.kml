@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>baroda</name>
+<Schema name="baroda" id="baroda">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Baroda</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#baroda">
+		<SimpleData name="Name">Baroda</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">05500</SimpleData>
+		<SimpleData name="PLACENS">02398036</SimpleData>
+		<SimpleData name="GEOID">2605500</SimpleData>
+		<SimpleData name="NAMELSAD">Baroda village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1859288</SimpleData>
+		<SimpleData name="AWATER">2521</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9546526</SimpleData>
+		<SimpleData name="INTPTLON">-086.4875824</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.490436,41.961204 -86.490787,41.962089 -86.486591,41.962211 -86.486576,41.962184 -86.486489,41.961734 -86.486373,41.961077 -86.484893,41.961078 -86.484752,41.961072 -86.484719,41.961498 -86.480093,41.961529 -86.480124,41.957339 -86.480107,41.954979 -86.480099,41.953736 -86.483215,41.953721 -86.48431,41.953749 -86.484293,41.952421 -86.481904,41.952429 -86.481178,41.951714 -86.480426,41.951013 -86.484272,41.950812 -86.484225,41.947101 -86.484612,41.947024 -86.484572,41.946875 -86.48457,41.946648 -86.484848,41.946623 -86.484963,41.946614 -86.484983,41.944812 -86.484977,41.944237 -86.484963,41.94287 -86.485067,41.942873 -86.488267,41.942865 -86.488246,41.944032 -86.488126,41.946524 -86.487566,41.946905 -86.487896,41.946894 -86.493908,41.946868 -86.494602,41.946866 -86.494612,41.947842 -86.494611,41.95011 -86.494616,41.952629 -86.494619,41.953738 -86.494648,41.955948 -86.494647,41.957371 -86.494647,41.958443 -86.494649,41.959809 -86.49464,41.960797 -86.494631,41.961145 -86.490436,41.961204</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

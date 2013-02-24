@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>birdseye</name>
+<Schema name="birdseye" id="birdseye">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Birdseye</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#birdseye">
+		<SimpleData name="Name">Birdseye</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">05374</SimpleData>
+		<SimpleData name="PLACENS">02396591</SimpleData>
+		<SimpleData name="GEOID">1805374</SimpleData>
+		<SimpleData name="NAMELSAD">Birdseye town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1650817</SimpleData>
+		<SimpleData name="AWATER">584</SimpleData>
+		<SimpleData name="INTPTLAT">+38.3110050</SimpleData>
+		<SimpleData name="INTPTLON">-086.6971184</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.703723,38.321364 -86.698332,38.321489 -86.697912,38.321483 -86.696052,38.321416 -86.694784,38.321438 -86.694061,38.321446 -86.690145,38.321532 -86.690149,38.321379 -86.690132,38.318231 -86.69011,38.318025 -86.690096,38.317871 -86.690028,38.315293 -86.689919,38.312768 -86.689929,38.310303 -86.689849,38.310178 -86.689828,38.310108 -86.689812,38.309961 -86.689816,38.309887 -86.689824,38.309168 -86.689819,38.307747 -86.689829,38.307272 -86.689826,38.307139 -86.692754,38.30714 -86.694538,38.307187 -86.699295,38.307168 -86.699479,38.313696 -86.70393,38.313728 -86.703978,38.314495 -86.704038,38.317342 -86.704039,38.318413 -86.704048,38.318622 -86.704052,38.318745 -86.704053,38.318847 -86.704045,38.321358 -86.703723,38.321364</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lignite</name>
+<Schema name="lignite" id="lignite">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lignite</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lignite">
+		<SimpleData name="Name">Lignite</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">46540</SimpleData>
+		<SimpleData name="PLACENS">01036130</SimpleData>
+		<SimpleData name="GEOID">3846540</SimpleData>
+		<SimpleData name="NAMELSAD">Lignite city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">366431</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.8774629</SimpleData>
+		<SimpleData name="INTPTLON">-102.5643028</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-102.569229,48.875034 -102.569264,48.879542 -102.568101,48.879322 -102.5681,48.87954 -102.568099,48.879809 -102.566916,48.879809 -102.563376,48.879801 -102.561338,48.879793 -102.560881,48.879793 -102.560576,48.879792 -102.560474,48.879792 -102.560043,48.879792 -102.559996,48.879201 -102.559982,48.878655 -102.56002,48.878527 -102.560032,48.878451 -102.560024,48.878249 -102.560008,48.878016 -102.559358,48.877941 -102.558682,48.877817 -102.558221,48.877725 -102.558066,48.877653 -102.557621,48.877484 -102.557418,48.877251 -102.557554,48.87646 -102.558712,48.87647 -102.558996,48.876468 -102.559459,48.876465 -102.560153,48.876369 -102.560202,48.875501 -102.560351,48.875395 -102.562676,48.875407 -102.562701,48.875276 -102.563122,48.875276 -102.563128,48.875431 -102.564198,48.875395 -102.565289,48.875394 -102.565583,48.875394 -102.56791,48.875407 -102.567984,48.8754 -102.568035,48.87501 -102.56804,48.874204 -102.568098,48.874205 -102.568428,48.874202 -102.569227,48.874195 -102.569229,48.875034</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

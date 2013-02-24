@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hastings</name>
+<Schema name="hastings" id="hastings">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hastings</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hastings">
+		<SimpleData name="Name">Hastings</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">34995</SimpleData>
+		<SimpleData name="PLACENS">02394321</SimpleData>
+		<SimpleData name="GEOID">1934995</SimpleData>
+		<SimpleData name="NAMELSAD">Hastings city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1053495</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0250884</SimpleData>
+		<SimpleData name="INTPTLON">-095.4948278</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.501053,41.024711 -95.501051,41.024839 -95.500276,41.024956 -95.499201,41.025109 -95.499209,41.025379 -95.499219,41.026383 -95.499222,41.027303 -95.499217,41.027997 -95.499229,41.028628 -95.499235,41.028909 -95.499191,41.029772 -95.499182,41.029938 -95.499181,41.030664 -95.49867,41.030675 -95.49618,41.03069 -95.495489,41.030702 -95.494747,41.030725 -95.491855,41.030849 -95.490647,41.030861 -95.489606,41.030855 -95.489637,41.028101 -95.489661,41.025741 -95.489663,41.025569 -95.489665,41.025351 -95.489748,41.019769 -95.497926,41.019815 -95.499197,41.019821 -95.500288,41.01989 -95.500733,41.019877 -95.500699,41.023408 -95.50109,41.023523 -95.501053,41.024711</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

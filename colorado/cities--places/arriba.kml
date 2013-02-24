@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>arriba</name>
+<Schema name="arriba" id="arriba">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Arriba</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#arriba">
+		<SimpleData name="Name">Arriba</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">03235</SimpleData>
+		<SimpleData name="PLACENS">02411647</SimpleData>
+		<SimpleData name="GEOID">0803235</SimpleData>
+		<SimpleData name="NAMELSAD">Arriba town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1139808</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2840581</SimpleData>
+		<SimpleData name="INTPTLON">-103.2739025</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-103.281183,39.282431 -103.281189,39.282686 -103.281197,39.28304 -103.281205,39.283415 -103.281206,39.283583 -103.281208,39.283836 -103.281214,39.284007 -103.281248,39.288148 -103.281248,39.28845 -103.267487,39.288457 -103.267489,39.288062 -103.267483,39.287088 -103.267475,39.286858 -103.267475,39.285751 -103.26748,39.28438 -103.267481,39.284079 -103.267483,39.283421 -103.26749,39.282851 -103.26749,39.282468 -103.267494,39.281851 -103.267478,39.281357 -103.267469,39.279894 -103.267462,39.278628 -103.276493,39.279425 -103.276502,39.279945 -103.276504,39.280649 -103.276506,39.281023 -103.276507,39.281219 -103.281176,39.281288 -103.281183,39.282431</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

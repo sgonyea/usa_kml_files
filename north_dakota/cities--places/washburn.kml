@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>washburn</name>
+<Schema name="washburn" id="washburn">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Washburn</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#washburn">
+		<SimpleData name="Name">Washburn</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">83700</SimpleData>
+		<SimpleData name="PLACENS">01036316</SimpleData>
+		<SimpleData name="GEOID">3883700</SimpleData>
+		<SimpleData name="NAMELSAD">Washburn city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4647848</SimpleData>
+		<SimpleData name="AWATER">244076</SimpleData>
+		<SimpleData name="INTPTLAT">+47.2940451</SimpleData>
+		<SimpleData name="INTPTLON">-101.0277962</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.04373,47.290299 -101.043714,47.290757 -101.043727,47.292412 -101.043732,47.292944 -101.043726,47.293432 -101.043706,47.29506 -101.041596,47.295004 -101.040759,47.294999 -101.040748,47.301563 -101.040747,47.302022 -101.040617,47.303345 -101.040623,47.303642 -101.040649,47.305047 -101.040697,47.306601 -101.035952,47.306534 -101.035734,47.306521 -101.02657,47.306541 -101.026549,47.305127 -101.026582,47.302011 -101.025223,47.302018 -101.024125,47.302011 -101.022499,47.301996 -101.02083,47.301993 -101.018614,47.30198 -101.018647,47.294348 -101.013569,47.294326 -101.013022,47.294328 -101.01285,47.289316 -101.012941,47.287493 -101.012986,47.286591 -101.013146,47.283411 -101.013168,47.282962 -101.013209,47.282154 -101.013277,47.280797 -101.013306,47.280347 -101.01346,47.277136 -101.013521,47.275933 -101.014622,47.276392 -101.016222,47.276792 -101.017317,47.277183 -101.017622,47.277292 -101.019322,47.278192 -101.022123,47.279992 -101.024723,47.281793 -101.024889,47.281891 -101.026423,47.282793 -101.028544,47.283702 -101.029223,47.283993 -101.031823,47.285193 -101.034623,47.286393 -101.037224,47.287325 -101.039924,47.288058 -101.042398,47.288563 -101.043322,47.288724 -101.043785,47.28882 -101.04373,47.290299</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

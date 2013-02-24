@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sparta</name>
+<Schema name="sparta" id="sparta">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sparta</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sparta">
+		<SimpleData name="Name">Sparta</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">73950</SimpleData>
+		<SimpleData name="PLACENS">02399867</SimpleData>
+		<SimpleData name="GEOID">3973950</SimpleData>
+		<SimpleData name="NAMELSAD">Sparta village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">224887</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.3944332</SimpleData>
+		<SimpleData name="INTPTLON">-082.6996475</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.704235,40.394183 -82.702906,40.394914 -82.702434,40.394409 -82.701457,40.394933 -82.701738,40.395228 -82.702092,40.395546 -82.702299,40.395401 -82.702946,40.396068 -82.702264,40.396493 -82.701751,40.396727 -82.700326,40.395599 -82.700259,40.395544 -82.699687,40.395889 -82.698531,40.396637 -82.698494,40.396576 -82.697346,40.397323 -82.697062,40.397049 -82.696861,40.396865 -82.697016,40.396737 -82.696508,40.396318 -82.696673,40.396166 -82.695842,40.395377 -82.697727,40.394298 -82.696939,40.393525 -82.697557,40.393112 -82.696868,40.392516 -82.697538,40.392091 -82.6973,40.39181 -82.698167,40.391291 -82.700298,40.393116 -82.700697,40.392889 -82.701286,40.393452 -82.702754,40.392612 -82.703312,40.393191 -82.704235,40.394183</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

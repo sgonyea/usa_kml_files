@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>yettem</name>
+<Schema name="yettem" id="yettem">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Yettem</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#yettem">
+		<SimpleData name="Name">Yettem</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">86734</SimpleData>
+		<SimpleData name="PLACENS">02585465</SimpleData>
+		<SimpleData name="GEOID">0686734</SimpleData>
+		<SimpleData name="NAMELSAD">Yettem CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">397545</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+36.4865330</SimpleData>
+		<SimpleData name="INTPTLON">-119.2548850</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-119.261232,36.484164 -119.261214,36.485871 -119.261209,36.486359 -119.259503,36.486335 -119.259507,36.486869 -119.25723,36.486821 -119.25721,36.487198 -119.25499,36.487181 -119.25501,36.489948 -119.250767,36.489938 -119.250474,36.489937 -119.250476,36.48933 -119.250461,36.487718 -119.250452,36.486779 -119.249554,36.486764 -119.249534,36.486274 -119.2498,36.486278 -119.250096,36.486274 -119.250078,36.485789 -119.250085,36.484943 -119.25008,36.484407 -119.250083,36.484261 -119.252417,36.484342 -119.252407,36.485239 -119.256701,36.485327 -119.256701,36.484933 -119.259046,36.484959 -119.259046,36.484908 -119.259038,36.484845 -119.25908,36.48343 -119.25909,36.483103 -119.25912,36.482815 -119.259531,36.482805 -119.260759,36.482824 -119.261204,36.482822 -119.261232,36.484164</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>fontanelle</name>
+<Schema name="fontanelle" id="fontanelle">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Fontanelle</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fontanelle">
+		<SimpleData name="Name">Fontanelle</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">17040</SimpleData>
+		<SimpleData name="PLACENS">02583880</SimpleData>
+		<SimpleData name="GEOID">3117040</SimpleData>
+		<SimpleData name="NAMELSAD">Fontanelle CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">653795</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.5382550</SimpleData>
+		<SimpleData name="INTPTLON">-096.4271871</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.433236,41.540517 -96.433049,41.540509 -96.432225,41.540488 -96.431113,41.540526 -96.430034,41.540612 -96.428776,41.540702 -96.427995,41.540735 -96.428008,41.541439 -96.428007,41.541766 -96.422443,41.54174 -96.422427,41.540758 -96.420832,41.540759 -96.420794,41.537877 -96.420977,41.537879 -96.422399,41.537881 -96.422318,41.535123 -96.424036,41.535145 -96.427933,41.535151 -96.428665,41.535135 -96.429767,41.535136 -96.432156,41.535139 -96.433371,41.535152 -96.433236,41.540517</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

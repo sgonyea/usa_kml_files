@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>irena</name>
+<Schema name="irena" id="irena">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Irena</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#irena">
+		<SimpleData name="Name">Irena</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">35324</SimpleData>
+		<SimpleData name="PLACENS">02398273</SimpleData>
+		<SimpleData name="GEOID">2935324</SimpleData>
+		<SimpleData name="NAMELSAD">Irena village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2282075</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.5402552</SimpleData>
+		<SimpleData name="INTPTLON">-094.3898747</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.397292,40.536094 -94.396726,40.539056 -94.396606,40.539698 -94.396481,40.540368 -94.396165,40.542065 -94.395965,40.543111 -94.39518,40.547259 -94.395178,40.547286 -94.394636,40.550187 -94.39444,40.551207 -94.394159,40.552715 -94.394027,40.553394 -94.393991,40.553585 -94.392212,40.553543 -94.389071,40.553491 -94.389009,40.552169 -94.388984,40.550053 -94.38879,40.545011 -94.383721,40.544856 -94.38382,40.53931 -94.380475,40.539078 -94.380479,40.538485 -94.380479,40.538211 -94.380502,40.538193 -94.380502,40.535539 -94.380798,40.532088 -94.380813,40.531902 -94.381288,40.531965 -94.384859,40.532018 -94.385181,40.531964 -94.385616,40.531972 -94.386358,40.531977 -94.387312,40.531974 -94.389541,40.531995 -94.392807,40.532033 -94.393112,40.532026 -94.393232,40.532009 -94.393362,40.531995 -94.394103,40.532001 -94.394717,40.532016 -94.395314,40.532022 -94.396292,40.532021 -94.397499,40.532029 -94.397905,40.532044 -94.398048,40.532061 -94.397292,40.536094</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

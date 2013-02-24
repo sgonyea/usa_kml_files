@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sligo</name>
+<Schema name="sligo" id="sligo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sligo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sligo">
+		<SimpleData name="Name">Sligo</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">71176</SimpleData>
+		<SimpleData name="PLACENS">01215091</SimpleData>
+		<SimpleData name="GEOID">4271176</SimpleData>
+		<SimpleData name="NAMELSAD">Sligo borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3644002</SimpleData>
+		<SimpleData name="AWATER">8299</SimpleData>
+		<SimpleData name="INTPTLAT">+41.1096080</SimpleData>
+		<SimpleData name="INTPTLON">-079.5003696</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.508141,41.118747 -79.507537,41.118622 -79.504659,41.117959 -79.502996,41.117973 -79.502524,41.117961 -79.500579,41.117076 -79.499664,41.116866 -79.497455,41.116426 -79.496234,41.116119 -79.490336,41.114834 -79.486754,41.114052 -79.48687,41.110574 -79.484841,41.109801 -79.484714,41.109527 -79.484329,41.108663 -79.483917,41.107747 -79.480868,41.100967 -79.480919,41.100957 -79.481745,41.100804 -79.483973,41.100388 -79.484672,41.100259 -79.485103,41.100174 -79.485141,41.10017 -79.485175,41.099855 -79.487695,41.099435 -79.494499,41.098316 -79.494748,41.098445 -79.494844,41.098478 -79.495397,41.098672 -79.496179,41.098943 -79.496888,41.099196 -79.49972,41.100167 -79.50066,41.100493 -79.50302,41.101336 -79.504775,41.103147 -79.507858,41.10611 -79.51001,41.108233 -79.510622,41.108806 -79.508336,41.11081 -79.508085,41.111635 -79.507784,41.112266 -79.506686,41.114393 -79.510038,41.115249 -79.510335,41.115324 -79.510361,41.115394 -79.510312,41.116361 -79.510307,41.116469 -79.510304,41.116793 -79.510271,41.119153 -79.508141,41.118747</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

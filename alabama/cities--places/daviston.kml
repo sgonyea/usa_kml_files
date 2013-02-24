@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>daviston</name>
+<Schema name="daviston" id="daviston">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Daviston</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#daviston">
+		<SimpleData name="Name">Daviston</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">19816</SimpleData>
+		<SimpleData name="PLACENS">02406360</SimpleData>
+		<SimpleData name="GEOID">0119816</SimpleData>
+		<SimpleData name="NAMELSAD">Daviston town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">23658278</SimpleData>
+		<SimpleData name="AWATER">77680</SimpleData>
+		<SimpleData name="INTPTLAT">+33.0568385</SimpleData>
+		<SimpleData name="INTPTLON">-085.6343285</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.663287,33.077511 -85.658305,33.07754 -85.651103,33.077534 -85.646839,33.077527 -85.643815,33.077522 -85.643498,33.077531 -85.635675,33.077634 -85.628303,33.077682 -85.62525,33.077702 -85.623752,33.077648 -85.619175,33.077678 -85.611289,33.077728 -85.61103,33.077723 -85.611003,33.075623 -85.610941,33.066564 -85.611008,33.060493 -85.610948,33.058053 -85.610871,33.050145 -85.610872,33.049824 -85.610897,33.04166 -85.610952,33.033911 -85.61143,33.033911 -85.627045,33.033923 -85.633075,33.033876 -85.636194,33.033853 -85.643597,33.033797 -85.657728,33.03354 -85.658578,33.033524 -85.663234,33.03351 -85.663209,33.035148 -85.663207,33.035618 -85.663181,33.04227 -85.663166,33.044855 -85.663196,33.048139 -85.663229,33.051752 -85.663264,33.053151 -85.663259,33.068106 -85.663274,33.0719 -85.66325,33.075577 -85.663287,33.077511</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

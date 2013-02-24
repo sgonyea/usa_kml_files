@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>leighton</name>
+<Schema name="leighton" id="leighton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Leighton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#leighton">
+		<SimpleData name="Name">Leighton</SimpleData>
+		<SimpleData name="STATEFP">01</SimpleData>
+		<SimpleData name="PLACEFP">42160</SimpleData>
+		<SimpleData name="PLACENS">02406001</SimpleData>
+		<SimpleData name="GEOID">0142160</SimpleData>
+		<SimpleData name="NAMELSAD">Leighton town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2550152</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.6986249</SimpleData>
+		<SimpleData name="INTPTLON">-087.5291155</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.537919,34.701781 -87.537904,34.702147 -87.537852,34.702359 -87.537815,34.702426 -87.537785,34.702469 -87.537826,34.702889 -87.537726,34.705889 -87.531059,34.705813 -87.529042,34.705783 -87.527822,34.705775 -87.526331,34.705758 -87.520226,34.705689 -87.520226,34.701389 -87.520317,34.69832 -87.520508,34.697241 -87.520463,34.691519 -87.528884,34.691392 -87.53771,34.691307 -87.537836,34.698522 -87.537834,34.698655 -87.537826,34.699491 -87.537817,34.700392 -87.537763,34.700948 -87.537818,34.701073 -87.537868,34.701209 -87.537904,34.701412 -87.537905,34.701482 -87.537919,34.701781</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

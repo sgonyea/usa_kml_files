@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>blodgett</name>
+<Schema name="blodgett" id="blodgett">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Blodgett</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#blodgett">
+		<SimpleData name="Name">Blodgett</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">06346</SimpleData>
+		<SimpleData name="PLACENS">02398134</SimpleData>
+		<SimpleData name="GEOID">2906346</SimpleData>
+		<SimpleData name="NAMELSAD">Blodgett village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">340523</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0047458</SimpleData>
+		<SimpleData name="INTPTLON">-089.5263518</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.530032,37.003499 -89.530028,37.003585 -89.53005,37.003685 -89.529966,37.003783 -89.529947,37.004262 -89.529026,37.005079 -89.528778,37.005302 -89.528549,37.005515 -89.528055,37.006387 -89.526585,37.008457 -89.526032,37.008464 -89.523887,37.00855 -89.523193,37.00855 -89.523204,37.008465 -89.523667,37.007802 -89.52272,37.007156 -89.522956,37.00667 -89.52358,37.00537 -89.524252,37.004549 -89.524874,37.003791 -89.525054,37.003361 -89.525136,37.003122 -89.524299,37.002779 -89.524212,37.002744 -89.523922,37.002613 -89.524616,37.001701 -89.524924,37.001301 -89.52515,37.001283 -89.527735,37.001145 -89.529,37.001128 -89.529612,37.00112 -89.52954,37.001236 -89.529514,37.001265 -89.529343,37.001452 -89.529119,37.001627 -89.528688,37.002128 -89.528488,37.002359 -89.528451,37.002412 -89.529338,37.002813 -89.529561,37.002914 -89.529719,37.003025 -89.529851,37.00304 -89.530067,37.00339 -89.530032,37.003499</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>avoca</name>
+<Schema name="avoca" id="avoca">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Avoca</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#avoca">
+		<SimpleData name="Name">Avoca</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">02795</SimpleData>
+		<SimpleData name="PLACENS">02398012</SimpleData>
+		<SimpleData name="GEOID">3102795</SimpleData>
+		<SimpleData name="NAMELSAD">Avoca village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">338772</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.7965050</SimpleData>
+		<SimpleData name="INTPTLON">-096.1191609</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.123977,40.795974 -96.123971,40.797667 -96.12396,40.798581 -96.123574,40.798579 -96.1225,40.798587 -96.121776,40.798612 -96.12121,40.798608 -96.121139,40.798608 -96.120482,40.798612 -96.119733,40.798596 -96.118789,40.798597 -96.117584,40.798585 -96.11639,40.798576 -96.116124,40.798575 -96.115236,40.79858 -96.115056,40.798578 -96.115055,40.796001 -96.115055,40.794066 -96.116427,40.794044 -96.117614,40.794087 -96.118773,40.794072 -96.119741,40.794085 -96.119933,40.794088 -96.121167,40.794059 -96.121165,40.794301 -96.121174,40.794982 -96.121173,40.795059 -96.121169,40.795554 -96.122103,40.795575 -96.122112,40.795376 -96.122372,40.795383 -96.122453,40.795394 -96.122448,40.795582 -96.123976,40.795599 -96.123977,40.795974</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

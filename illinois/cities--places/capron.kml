@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>capron</name>
+<Schema name="capron" id="capron">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Capron</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#capron">
+		<SimpleData name="Name">Capron</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">11124</SimpleData>
+		<SimpleData name="PLACENS">02397549</SimpleData>
+		<SimpleData name="GEOID">1711124</SimpleData>
+		<SimpleData name="NAMELSAD">Capron village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2006818</SimpleData>
+		<SimpleData name="AWATER">1372</SimpleData>
+		<SimpleData name="INTPTLAT">+42.3987767</SimpleData>
+		<SimpleData name="INTPTLON">-088.7386557</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.74974,42.394678 -88.749727,42.396004 -88.749724,42.396846 -88.749707,42.397043 -88.749649,42.397346 -88.749552,42.397601 -88.749407,42.397847 -88.749442,42.399512 -88.749526,42.404206 -88.744959,42.404225 -88.735209,42.404136 -88.735206,42.402205 -88.735205,42.401425 -88.735204,42.401007 -88.73393,42.401767 -88.730313,42.403927 -88.730312,42.403746 -88.730293,42.400186 -88.729858,42.400279 -88.729057,42.400391 -88.728131,42.400467 -88.727275,42.400499 -88.725353,42.400504 -88.725371,42.396855 -88.729288,42.396875 -88.729296,42.394272 -88.735125,42.394303 -88.735123,42.393553 -88.735119,42.393411 -88.735098,42.393324 -88.73503,42.393273 -88.734931,42.393231 -88.734866,42.393219 -88.734584,42.393221 -88.740022,42.393096 -88.741387,42.393096 -88.744899,42.393097 -88.749285,42.393074 -88.749649,42.393214 -88.749787,42.394371 -88.74974,42.394678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

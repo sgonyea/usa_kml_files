@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ortley</name>
+<Schema name="ortley" id="ortley">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ortley</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ortley">
+		<SimpleData name="Name">Ortley</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">47660</SimpleData>
+		<SimpleData name="PLACENS">01267526</SimpleData>
+		<SimpleData name="GEOID">4647660</SimpleData>
+		<SimpleData name="NAMELSAD">Ortley town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">5811857</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.3349464</SimpleData>
+		<SimpleData name="INTPTLON">-097.2049461</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.22615,45.334905 -97.22615,45.33492 -97.22616,45.335502 -97.22616,45.33552 -97.226221,45.339153 -97.226221,45.339182 -97.226256,45.341271 -97.21634,45.341303 -97.206346,45.341267 -97.206288,45.344959 -97.185873,45.344832 -97.185888,45.341067 -97.18585,45.334418 -97.185852,45.334333 -97.185842,45.333424 -97.185829,45.332411 -97.185739,45.328395 -97.185688,45.326946 -97.185692,45.326545 -97.185814,45.326546 -97.194371,45.326605 -97.195836,45.326613 -97.198536,45.326632 -97.205093,45.32668 -97.205914,45.326686 -97.206207,45.32669 -97.210796,45.326651 -97.216044,45.326575 -97.226307,45.326461 -97.22615,45.334905</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

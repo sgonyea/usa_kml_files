@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>brooklyn_heights</name>
+<Schema name="brooklyn_heights" id="brooklyn_heights">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Brooklyn Heights</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#brooklyn_heights">
+		<SimpleData name="Name">Brooklyn Heights</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">08776</SimpleData>
+		<SimpleData name="PLACENS">02396606</SimpleData>
+		<SimpleData name="GEOID">2908776</SimpleData>
+		<SimpleData name="NAMELSAD">Brooklyn Heights town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">296660</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.1694115</SimpleData>
+		<SimpleData name="INTPTLON">-094.3855351</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.387947,37.166556 -94.387888,37.167768 -94.387848,37.168626 -94.387799,37.16964 -94.387724,37.171376 -94.387851,37.171706 -94.387616,37.171864 -94.386334,37.172635 -94.386274,37.172664 -94.385718,37.172929 -94.384997,37.173134 -94.384274,37.173234 -94.383286,37.173238 -94.383348,37.17132 -94.383404,37.169612 -94.383435,37.16861 -94.383465,37.167693 -94.38347,37.167518 -94.383503,37.166458 -94.383514,37.166154 -94.383522,37.165972 -94.387972,37.166015 -94.387947,37.166556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

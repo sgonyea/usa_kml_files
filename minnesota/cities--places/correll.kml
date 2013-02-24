@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>correll</name>
+<Schema name="correll" id="correll">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Correll</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#correll">
+		<SimpleData name="Name">Correll</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">13384</SimpleData>
+		<SimpleData name="PLACENS">02393639</SimpleData>
+		<SimpleData name="GEOID">2713384</SimpleData>
+		<SimpleData name="NAMELSAD">Correll city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">938830</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.2320181</SimpleData>
+		<SimpleData name="INTPTLON">-096.1626339</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.170413,45.230507 -96.170349,45.231599 -96.170346,45.231759 -96.170338,45.232242 -96.170336,45.232403 -96.170339,45.232442 -96.170351,45.232561 -96.170355,45.232601 -96.170301,45.235346 -96.1703,45.235425 -96.162143,45.235546 -96.159398,45.235587 -96.159279,45.235585 -96.157339,45.235562 -96.154966,45.235534 -96.154951,45.23346 -96.154939,45.231733 -96.154938,45.231568 -96.154925,45.229675 -96.154924,45.229644 -96.154922,45.229552 -96.154922,45.229522 -96.154913,45.228735 -96.155249,45.228732 -96.158618,45.228707 -96.159742,45.2287 -96.159744,45.228418 -96.159763,45.227623 -96.159762,45.22758 -96.159761,45.2273 -96.160893,45.22722 -96.160883,45.227453 -96.160834,45.228704 -96.163689,45.228641 -96.165058,45.228611 -96.165675,45.22861 -96.167529,45.22861 -96.168148,45.22861 -96.16924,45.228569 -96.170532,45.228522 -96.170413,45.230507</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

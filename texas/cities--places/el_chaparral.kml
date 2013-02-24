@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>el_chaparral</name>
+<Schema name="el_chaparral" id="el_chaparral">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>El Chaparral</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#el_chaparral">
+		<SimpleData name="Name">El Chaparral</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">22920</SimpleData>
+		<SimpleData name="PLACENS">02584629</SimpleData>
+		<SimpleData name="GEOID">4822920</SimpleData>
+		<SimpleData name="NAMELSAD">El Chaparral CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U2</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">253706</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.3487951</SimpleData>
+		<SimpleData name="INTPTLON">-098.7673386</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.769595,26.345761 -98.769368,26.347519 -98.769331,26.347574 -98.769257,26.347705 -98.768957,26.349102 -98.768729,26.34977 -98.768461,26.3508 -98.768324,26.351435 -98.768133,26.352035 -98.767389,26.351996 -98.76728,26.352545 -98.767273,26.352584 -98.767261,26.352661 -98.767216,26.352775 -98.766746,26.352576 -98.765339,26.351981 -98.76487,26.351783 -98.764982,26.351616 -98.765047,26.351441 -98.765102,26.351166 -98.765115,26.351116 -98.765199,26.3508 -98.765244,26.350596 -98.765521,26.348999 -98.765644,26.348291 -98.765651,26.348211 -98.765681,26.347987 -98.765806,26.347353 -98.765965,26.346444 -98.766006,26.346163 -98.767395,26.346349 -98.767622,26.345335 -98.767702,26.344868 -98.769315,26.345106 -98.769508,26.345135 -98.769673,26.345161 -98.769595,26.345761</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

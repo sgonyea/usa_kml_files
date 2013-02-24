@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>livonia</name>
+<Schema name="livonia" id="livonia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Livonia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#livonia">
+		<SimpleData name="Name">Livonia</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">43454</SimpleData>
+		<SimpleData name="PLACENS">02398458</SimpleData>
+		<SimpleData name="GEOID">2943454</SimpleData>
+		<SimpleData name="NAMELSAD">Livonia village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">689185</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.4920339</SimpleData>
+		<SimpleData name="INTPTLON">-092.7004843</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.705362,40.489752 -92.705282,40.493012 -92.705303,40.493083 -92.705288,40.493401 -92.705253,40.493778 -92.705243,40.49465 -92.705282,40.494831 -92.705323,40.494909 -92.705416,40.495703 -92.704307,40.495796 -92.701244,40.495846 -92.699623,40.495825 -92.695678,40.495902 -92.695678,40.494925 -92.695689,40.494062 -92.695693,40.493709 -92.695662,40.492214 -92.695675,40.491204 -92.695667,40.491127 -92.695676,40.490765 -92.695651,40.489854 -92.695633,40.489553 -92.695631,40.489007 -92.695641,40.488614 -92.695629,40.488398 -92.695607,40.488283 -92.700562,40.488235 -92.702079,40.488228 -92.702908,40.48825 -92.705342,40.488239 -92.705362,40.489752</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

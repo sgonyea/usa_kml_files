@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lowry</name>
+<Schema name="lowry" id="lowry">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lowry</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lowry">
+		<SimpleData name="Name">Lowry</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">38366</SimpleData>
+		<SimpleData name="PLACENS">02395778</SimpleData>
+		<SimpleData name="GEOID">2738366</SimpleData>
+		<SimpleData name="NAMELSAD">Lowry city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1057667</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.7046679</SimpleData>
+		<SimpleData name="INTPTLON">-095.5180158</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.525029,45.701397 -95.525026,45.703331 -95.525021,45.708757 -95.524643,45.708764 -95.52271,45.7088 -95.52258,45.708799 -95.52219,45.708798 -95.522061,45.708798 -95.521896,45.708798 -95.521403,45.708802 -95.521239,45.708803 -95.518988,45.708814 -95.512236,45.708851 -95.509986,45.708863 -95.509986,45.708843 -95.509988,45.708785 -95.509989,45.708766 -95.509996,45.708487 -95.509993,45.708366 -95.509986,45.70801 -95.509993,45.707169 -95.509998,45.70677 -95.510016,45.706546 -95.510072,45.705874 -95.510091,45.705651 -95.510085,45.705078 -95.510069,45.703362 -95.510064,45.70279 -95.510061,45.702207 -95.510076,45.701732 -95.510086,45.701486 -95.511039,45.701466 -95.512159,45.701471 -95.512227,45.701472 -95.513277,45.701448 -95.515521,45.701428 -95.516642,45.701419 -95.516937,45.701418 -95.517821,45.701416 -95.518117,45.701416 -95.518469,45.701413 -95.519525,45.701407 -95.519574,45.701407 -95.519877,45.701422 -95.52007,45.700953 -95.520226,45.700612 -95.520348,45.70035 -95.520436,45.700021 -95.520477,45.699811 -95.520517,45.699523 -95.520527,45.699155 -95.520517,45.69902 -95.525011,45.698922 -95.525029,45.701397</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

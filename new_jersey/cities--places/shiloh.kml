@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>shiloh</name>
+<Schema name="shiloh" id="shiloh">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Shiloh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#shiloh">
+		<SimpleData name="Name">Shiloh</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">67020</SimpleData>
+		<SimpleData name="PLACENS">00885393</SimpleData>
+		<SimpleData name="GEOID">3467020</SimpleData>
+		<SimpleData name="NAMELSAD">Shiloh borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3127889</SimpleData>
+		<SimpleData name="AWATER">1564</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4623029</SimpleData>
+		<SimpleData name="INTPTLON">-075.2924080</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.311288,39.464167 -75.311246,39.464272 -75.311199,39.464373 -75.311152,39.464458 -75.311028,39.46463 -75.31096,39.464711 -75.310862,39.464863 -75.310743,39.46513 -75.310692,39.465224 -75.310654,39.465282 -75.31062,39.465312 -75.310564,39.46535 -75.310481,39.465367 -75.310325,39.465389 -75.310185,39.465395 -75.31003,39.465401 -75.300774,39.466035 -75.3004,39.466057 -75.299241,39.465642 -75.298018,39.465451 -75.294041,39.465117 -75.289234,39.464614 -75.285304,39.464293 -75.283776,39.464255 -75.283116,39.461789 -75.282706,39.460222 -75.282678,39.460113 -75.282655,39.460052 -75.281842,39.458401 -75.281602,39.457913 -75.281351,39.45741 -75.281087,39.456859 -75.280106,39.454856 -75.279931,39.454493 -75.290679,39.454005 -75.292438,39.453854 -75.293136,39.453816 -75.299247,39.453469 -75.306561,39.452975 -75.309239,39.452826 -75.309311,39.45328 -75.309583,39.455089 -75.31049,39.458345 -75.311036,39.461141 -75.311124,39.461625 -75.311216,39.462099 -75.311226,39.462193 -75.311245,39.462489 -75.311326,39.463713 -75.311333,39.463952 -75.311317,39.464063 -75.311288,39.464167</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

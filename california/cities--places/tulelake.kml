@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tulelake</name>
+<Schema name="tulelake" id="tulelake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tulelake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tulelake">
+		<SimpleData name="Name">Tulelake</SimpleData>
+		<SimpleData name="STATEFP">06</SimpleData>
+		<SimpleData name="PLACEFP">80686</SimpleData>
+		<SimpleData name="PLACENS">02412108</SimpleData>
+		<SimpleData name="GEOID">0680686</SimpleData>
+		<SimpleData name="NAMELSAD">Tulelake city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1061321</SimpleData>
+		<SimpleData name="AWATER">6167</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9534596</SimpleData>
+		<SimpleData name="INTPTLON">-121.4748966</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-121.481431,41.953645 -121.48093,41.953639 -121.481391,41.957257 -121.481401,41.957334 -121.481444,41.958491 -121.481358,41.96067 -121.481342,41.96103 -121.481332,41.961269 -121.4792,41.961305 -121.478695,41.961305 -121.478372,41.961011 -121.47793,41.960608 -121.476907,41.959676 -121.475285,41.958137 -121.472347,41.955378 -121.472324,41.955087 -121.472323,41.954965 -121.472321,41.953959 -121.472318,41.953649 -121.472129,41.95365 -121.472045,41.953651 -121.471855,41.953652 -121.4711,41.953659 -121.471082,41.95366 -121.47028,41.952961 -121.467173,41.950039 -121.466358,41.949292 -121.464661,41.947643 -121.471655,41.947541 -121.471875,41.947542 -121.476531,41.947566 -121.47653,41.948084 -121.476649,41.951025 -121.477964,41.951012 -121.479148,41.951006 -121.480891,41.950991 -121.481431,41.951135 -121.481431,41.953645</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

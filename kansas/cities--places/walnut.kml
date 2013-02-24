@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>walnut</name>
+<Schema name="walnut" id="walnut">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Walnut</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#walnut">
+		<SimpleData name="Name">Walnut</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">74950</SimpleData>
+		<SimpleData name="PLACENS">02397181</SimpleData>
+		<SimpleData name="GEOID">2074950</SimpleData>
+		<SimpleData name="NAMELSAD">Walnut city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2554904</SimpleData>
+		<SimpleData name="AWATER">32232</SimpleData>
+		<SimpleData name="INTPTLAT">+37.6003701</SimpleData>
+		<SimpleData name="INTPTLON">-095.0750902</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.087792,37.596728 -95.087896,37.600831 -95.087921,37.601794 -95.087899,37.605339 -95.085306,37.605279 -95.08204,37.605259 -95.079089,37.60524 -95.078899,37.605239 -95.069772,37.605127 -95.06933,37.605126 -95.065722,37.605102 -95.063615,37.60509 -95.062709,37.605078 -95.061526,37.605214 -95.061588,37.601704 -95.061636,37.598397 -95.061656,37.595175 -95.066421,37.595191 -95.069591,37.595162 -95.07053,37.595157 -95.070927,37.595155 -95.071051,37.595154 -95.072619,37.595146 -95.075346,37.595132 -95.078656,37.595122 -95.081883,37.595109 -95.083268,37.595103 -95.083827,37.595101 -95.084212,37.595099 -95.087768,37.59508 -95.087792,37.596728</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

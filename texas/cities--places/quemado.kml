@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>quemado</name>
+<Schema name="quemado" id="quemado">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Quemado</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#quemado">
+		<SimpleData name="Name">Quemado</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">60092</SimpleData>
+		<SimpleData name="PLACENS">02409116</SimpleData>
+		<SimpleData name="GEOID">4860092</SimpleData>
+		<SimpleData name="NAMELSAD">Quemado CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">285877</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+28.9472200</SimpleData>
+		<SimpleData name="INTPTLON">-100.6238188</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.626593,28.949405 -100.626465,28.949437 -100.625489,28.949685 -100.625709,28.950332 -100.625854,28.950863 -100.625849,28.950969 -100.62578,28.951046 -100.625734,28.951059 -100.625657,28.951081 -100.625054,28.951211 -100.624887,28.951261 -100.624478,28.949943 -100.624021,28.950048 -100.623465,28.95019 -100.623127,28.950273 -100.622856,28.950335 -100.622724,28.950361 -100.622593,28.950365 -100.622477,28.950317 -100.622405,28.95023 -100.622315,28.949996 -100.622281,28.949881 -100.622174,28.949477 -100.622166,28.949435 -100.621849,28.9484 -100.62157,28.947499 -100.621554,28.947458 -100.621407,28.946965 -100.621321,28.946694 -100.621271,28.94646 -100.621491,28.944892 -100.622797,28.944542 -100.62273,28.944321 -100.622462,28.943495 -100.622584,28.943495 -100.622718,28.943489 -100.623767,28.94349 -100.624635,28.94348 -100.624719,28.943479 -100.624749,28.943589 -100.624816,28.9438 -100.62485,28.943922 -100.625016,28.944439 -100.625141,28.944827 -100.625509,28.945996 -100.62565,28.946456 -100.62557,28.946606 -100.625665,28.946552 -100.625676,28.94654 -100.625955,28.94745 -100.626043,28.947706 -100.626065,28.94778 -100.626091,28.947861 -100.626121,28.947946 -100.626281,28.948418 -100.626593,28.949405</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

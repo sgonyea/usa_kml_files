@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>williston</name>
+<Schema name="williston" id="williston">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Williston</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#williston">
+		<SimpleData name="Name">Williston</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">85442</SimpleData>
+		<SimpleData name="PLACENS">02628987</SimpleData>
+		<SimpleData name="GEOID">3985442</SimpleData>
+		<SimpleData name="NAMELSAD">Williston CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1583478</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.6026136</SimpleData>
+		<SimpleData name="INTPTLON">-083.3419090</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.349652,41.60921 -83.349313,41.609248 -83.349136,41.609276 -83.348934,41.609269 -83.34863,41.60923 -83.34842,41.609243 -83.34825,41.609255 -83.348121,41.609295 -83.348009,41.609309 -83.344969,41.607994 -83.341037,41.606294 -83.33806,41.605 -83.338059,41.605314 -83.338062,41.605589 -83.338065,41.606032 -83.338061,41.606611 -83.338052,41.607652 -83.338053,41.608507 -83.337164,41.608499 -83.333433,41.607202 -83.333375,41.604947 -83.333108,41.603457 -83.334485,41.603455 -83.332026,41.602367 -83.332018,41.598298 -83.33901,41.598445 -83.340986,41.598446 -83.341046,41.598453 -83.341086,41.598474 -83.341051,41.597593 -83.342382,41.597597 -83.342382,41.596807 -83.343393,41.596807 -83.347064,41.596922 -83.349911,41.597012 -83.34994,41.603404 -83.349968,41.60916 -83.349652,41.60921</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

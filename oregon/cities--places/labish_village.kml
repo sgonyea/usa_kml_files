@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>labish_village</name>
+<Schema name="labish_village" id="labish_village">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Labish Village</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#labish_village">
+		<SimpleData name="Name">Labish Village</SimpleData>
+		<SimpleData name="STATEFP">41</SimpleData>
+		<SimpleData name="PLACEFP">40050</SimpleData>
+		<SimpleData name="PLACENS">02408519</SimpleData>
+		<SimpleData name="GEOID">4140050</SimpleData>
+		<SimpleData name="NAMELSAD">Labish Village CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">139997</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.0190950</SimpleData>
+		<SimpleData name="INTPTLON">-122.9735695</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-122.976259,45.017795 -122.976214,45.018256 -122.976199,45.01841 -122.97617,45.018732 -122.976082,45.019698 -122.976053,45.02002 -122.976036,45.020194 -122.975986,45.020716 -122.975969,45.02089 -122.975314,45.020886 -122.974093,45.02088 -122.973353,45.020869 -122.9727,45.02086 -122.972706,45.020694 -122.972724,45.020195 -122.97273,45.02003 -122.972354,45.02003 -122.971226,45.02003 -122.97085,45.02003 -122.970843,45.019868 -122.970823,45.019382 -122.970817,45.01922 -122.97073,45.01922 -122.970705,45.019122 -122.97057,45.01858 -122.97055,45.01839 -122.970525,45.018232 -122.970453,45.017758 -122.97043,45.0176 -122.970891,45.01761 -122.972278,45.01764 -122.97274,45.01765 -122.973447,45.017642 -122.974527,45.01763 -122.975569,45.017655 -122.976274,45.017641 -122.976259,45.017795</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

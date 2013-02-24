@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>morning_sun</name>
+<Schema name="morning_sun" id="morning_sun">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Morning Sun</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#morning_sun">
+		<SimpleData name="Name">Morning Sun</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">54120</SimpleData>
+		<SimpleData name="PLACENS">02395405</SimpleData>
+		<SimpleData name="GEOID">1954120</SimpleData>
+		<SimpleData name="NAMELSAD">Morning Sun city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2016232</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0941736</SimpleData>
+		<SimpleData name="INTPTLON">-091.2505611</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.260232,41.092153 -91.260234,41.09234 -91.260251,41.094867 -91.260252,41.096893 -91.260252,41.098264 -91.26024,41.099641 -91.260237,41.09995 -91.259329,41.099939 -91.255429,41.099984 -91.255428,41.099822 -91.25543,41.099614 -91.250169,41.099692 -91.248743,41.099671 -91.242458,41.099592 -91.240689,41.099585 -91.240773,41.095883 -91.240861,41.088572 -91.241,41.088573 -91.24253,41.088581 -91.243211,41.088581 -91.244477,41.088582 -91.247233,41.088603 -91.249642,41.088607 -91.25002,41.088599 -91.250643,41.088604 -91.251465,41.088607 -91.252602,41.088599 -91.252897,41.088603 -91.253017,41.088604 -91.253317,41.088643 -91.2535,41.088674 -91.253769,41.088668 -91.254184,41.088658 -91.256521,41.088619 -91.260209,41.088625 -91.260232,41.092153</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

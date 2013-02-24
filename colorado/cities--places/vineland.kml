@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>vineland</name>
+<Schema name="vineland" id="vineland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Vineland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#vineland">
+		<SimpleData name="Name">Vineland</SimpleData>
+		<SimpleData name="STATEFP">08</SimpleData>
+		<SimpleData name="PLACEFP">81305</SimpleData>
+		<SimpleData name="PLACENS">02583313</SimpleData>
+		<SimpleData name="GEOID">0881305</SimpleData>
+		<SimpleData name="NAMELSAD">Vineland CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1467021</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.2447376</SimpleData>
+		<SimpleData name="INTPTLON">-104.4598659</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-104.468639,38.242802 -104.468618,38.243531 -104.468591,38.244814 -104.468573,38.245329 -104.468543,38.245925 -104.468546,38.247077 -104.468572,38.247125 -104.46859,38.247211 -104.468552,38.248965 -104.466513,38.248932 -104.462299,38.248884 -104.460836,38.248862 -104.459705,38.248846 -104.45923,38.248852 -104.450019,38.248799 -104.450114,38.245128 -104.450139,38.244185 -104.450129,38.243565 -104.450154,38.243331 -104.450149,38.243128 -104.450166,38.242574 -104.450152,38.242393 -104.450176,38.242043 -104.450184,38.241576 -104.459374,38.24153 -104.459404,38.239792 -104.462044,38.239827 -104.46546,38.239858 -104.46769,38.239886 -104.46867,38.239908 -104.468639,38.242802</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

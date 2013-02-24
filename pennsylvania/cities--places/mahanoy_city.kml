@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mahanoy_city</name>
+<Schema name="mahanoy_city" id="mahanoy_city">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mahanoy City</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mahanoy_city">
+		<SimpleData name="Name">Mahanoy City</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">46592</SimpleData>
+		<SimpleData name="PLACENS">01215554</SimpleData>
+		<SimpleData name="GEOID">4246592</SimpleData>
+		<SimpleData name="NAMELSAD">Mahanoy City borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1320118</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.8126270</SimpleData>
+		<SimpleData name="INTPTLON">-076.1381843</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.147641,40.813863 -76.144642,40.814429 -76.143317,40.81468 -76.142496,40.814833 -76.1424,40.814851 -76.141879,40.814952 -76.140996,40.815119 -76.140832,40.815151 -76.140723,40.815172 -76.137211,40.81584 -76.133395,40.816554 -76.13291,40.816647 -76.127426,40.817683 -76.127331,40.817701 -76.126903,40.816174 -76.126809,40.815841 -76.126744,40.815607 -76.12673,40.815558 -76.126592,40.815065 -76.126442,40.814525 -76.126278,40.813942 -76.126187,40.813618 -76.125732,40.811991 -76.126136,40.811913 -76.130316,40.811107 -76.131392,40.8109 -76.13418,40.810362 -76.134464,40.810307 -76.135212,40.810163 -76.140591,40.809126 -76.143639,40.808538 -76.144524,40.808367 -76.144938,40.808287 -76.14575,40.808131 -76.148859,40.807531 -76.149264,40.808804 -76.149405,40.809249 -76.149503,40.809558 -76.149543,40.809682 -76.14967,40.810079 -76.149851,40.810646 -76.149876,40.810723 -76.150013,40.811151 -76.150168,40.811633 -76.150189,40.811697 -76.150267,40.811946 -76.150432,40.812455 -76.150706,40.813284 -76.147641,40.813863</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

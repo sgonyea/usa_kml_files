@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>livermore</name>
+<Schema name="livermore" id="livermore">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Livermore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#livermore">
+		<SimpleData name="Name">Livermore</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">45975</SimpleData>
+		<SimpleData name="PLACENS">02395739</SimpleData>
+		<SimpleData name="GEOID">1945975</SimpleData>
+		<SimpleData name="NAMELSAD">Livermore city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1813123</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.8680308</SimpleData>
+		<SimpleData name="INTPTLON">-094.1840415</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.194603,42.869163 -94.194139,42.869293 -94.193272,42.869538 -94.193205,42.869556 -94.193264,42.872246 -94.193362,42.8737 -94.190781,42.873739 -94.189476,42.87372 -94.185994,42.87374 -94.185248,42.873745 -94.180631,42.873772 -94.178445,42.873789 -94.178467,42.872298 -94.178473,42.872082 -94.178524,42.870282 -94.177594,42.870294 -94.17529,42.870307 -94.173256,42.870328 -94.173189,42.863022 -94.173424,42.863019 -94.178584,42.863004 -94.182796,42.863031 -94.183348,42.863034 -94.183582,42.863033 -94.184291,42.863019 -94.184628,42.863031 -94.184777,42.863028 -94.188059,42.862963 -94.193254,42.862811 -94.193287,42.864193 -94.193297,42.864852 -94.19337,42.86809 -94.194456,42.867765 -94.194603,42.869163</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

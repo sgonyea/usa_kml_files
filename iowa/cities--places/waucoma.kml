@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>waucoma</name>
+<Schema name="waucoma" id="waucoma">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Waucoma</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#waucoma">
+		<SimpleData name="Name">Waucoma</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">82650</SimpleData>
+		<SimpleData name="PLACENS">02397220</SimpleData>
+		<SimpleData name="GEOID">1982650</SimpleData>
+		<SimpleData name="NAMELSAD">Waucoma city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1120835</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0559987</SimpleData>
+		<SimpleData name="INTPTLON">-092.0344889</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.042216,43.059543 -92.042202,43.060821 -92.042194,43.061534 -92.037604,43.061497 -92.037613,43.060408 -92.037251,43.060381 -92.037059,43.059678 -92.034305,43.05966 -92.029996,43.059631 -92.029823,43.059634 -92.029223,43.05963 -92.027372,43.059619 -92.027359,43.058995 -92.027352,43.058673 -92.02735,43.05857 -92.027342,43.058204 -92.027307,43.056492 -92.027297,43.056033 -92.027266,43.053501 -92.027202,43.050905 -92.028808,43.050909 -92.031766,43.050896 -92.03717,43.050912 -92.037382,43.050915 -92.037379,43.054131 -92.042154,43.054208 -92.042293,43.054208 -92.042216,43.059543</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

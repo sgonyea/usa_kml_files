@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gillett_grove</name>
+<Schema name="gillett_grove" id="gillett_grove">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gillett Grove</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gillett_grove">
+		<SimpleData name="Name">Gillett Grove</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">30810</SimpleData>
+		<SimpleData name="PLACENS">02394897</SimpleData>
+		<SimpleData name="GEOID">1930810</SimpleData>
+		<SimpleData name="NAMELSAD">Gillett Grove city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">496245</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.0157049</SimpleData>
+		<SimpleData name="INTPTLON">-095.0362820</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.042036,43.01851 -95.042003,43.019614 -95.040738,43.019634 -95.037946,43.019573 -95.03333,43.01956 -95.033347,43.017628 -95.033346,43.016837 -95.033346,43.015789 -95.033345,43.01403 -95.033347,43.013147 -95.030963,43.013187 -95.031029,43.012494 -95.030984,43.011974 -95.032355,43.011952 -95.033346,43.012028 -95.033344,43.011534 -95.033343,43.010632 -95.033343,43.010267 -95.035786,43.010366 -95.035989,43.01034 -95.03611,43.010611 -95.040214,43.017525 -95.042061,43.017544 -95.042036,43.01851</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

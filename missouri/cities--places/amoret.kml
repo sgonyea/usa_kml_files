@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>amoret</name>
+<Schema name="amoret" id="amoret">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Amoret</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amoret">
+		<SimpleData name="Name">Amoret</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">01072</SimpleData>
+		<SimpleData name="PLACENS">02393948</SimpleData>
+		<SimpleData name="GEOID">2901072</SimpleData>
+		<SimpleData name="NAMELSAD">Amoret city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">553725</SimpleData>
+		<SimpleData name="AWATER">577</SimpleData>
+		<SimpleData name="INTPTLAT">+38.2547955</SimpleData>
+		<SimpleData name="INTPTLON">-094.5872905</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.591454,38.252553 -94.591307,38.255159 -94.591101,38.258588 -94.591094,38.25872 -94.587836,38.258571 -94.583253,38.258388 -94.583337,38.257727 -94.583354,38.257141 -94.583422,38.254936 -94.583441,38.253545 -94.583378,38.251346 -94.58587,38.251348 -94.586176,38.251348 -94.586481,38.251347 -94.586814,38.251351 -94.588088,38.251353 -94.59075,38.251359 -94.591522,38.251364 -94.591454,38.252553</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

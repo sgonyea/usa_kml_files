@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>strasburg</name>
+<Schema name="strasburg" id="strasburg">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Strasburg</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#strasburg">
+		<SimpleData name="Name">Strasburg</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">71098</SimpleData>
+		<SimpleData name="PLACENS">02395983</SimpleData>
+		<SimpleData name="GEOID">2971098</SimpleData>
+		<SimpleData name="NAMELSAD">Strasburg city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">503033</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.7598882</SimpleData>
+		<SimpleData name="INTPTLON">-094.1648372</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.168842,38.76001 -94.168741,38.760743 -94.168584,38.762677 -94.168704,38.763644 -94.161912,38.763589 -94.161892,38.763564 -94.161812,38.76333 -94.16202,38.762977 -94.162251,38.762805 -94.162767,38.762501 -94.163092,38.762347 -94.163099,38.762308 -94.16312,38.762194 -94.163045,38.76203 -94.163006,38.761998 -94.162711,38.761813 -94.162107,38.761359 -94.161812,38.761111 -94.161483,38.760894 -94.161003,38.760658 -94.160951,38.760528 -94.161002,38.760471 -94.1612,38.760295 -94.161263,38.760227 -94.161268,38.760163 -94.161278,38.760113 -94.161283,38.760042 -94.16127,38.759976 -94.161235,38.759794 -94.161207,38.759729 -94.161158,38.759685 -94.161099,38.759584 -94.160906,38.759352 -94.160862,38.759263 -94.160798,38.759134 -94.160726,38.75895 -94.160667,38.758871 -94.160643,38.758855 -94.160547,38.758717 -94.160334,38.758466 -94.159999,38.758136 -94.159518,38.757599 -94.159227,38.757324 -94.158677,38.756745 -94.16071,38.75666 -94.16525,38.756826 -94.166202,38.756842 -94.168887,38.756868 -94.168842,38.76001</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

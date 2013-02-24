@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dryden</name>
+<Schema name="dryden" id="dryden">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dryden</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dryden">
+		<SimpleData name="Name">Dryden</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">23140</SimpleData>
+		<SimpleData name="PLACENS">02398749</SimpleData>
+		<SimpleData name="GEOID">2623140</SimpleData>
+		<SimpleData name="NAMELSAD">Dryden village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2847728</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9455725</SimpleData>
+		<SimpleData name="INTPTLON">-083.1239965</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.129313,42.953042 -83.125533,42.953123 -83.125466,42.953171 -83.124335,42.95321 -83.124277,42.952431 -83.125506,42.952424 -83.125491,42.952039 -83.12422,42.952065 -83.124228,42.951677 -83.121724,42.951762 -83.121723,42.953249 -83.115337,42.953377 -83.115178,42.950563 -83.115005,42.946283 -83.114878,42.946281 -83.114519,42.946277 -83.112872,42.946304 -83.111088,42.946354 -83.110983,42.942434 -83.110895,42.939073 -83.113033,42.939028 -83.114557,42.938994 -83.119257,42.93889 -83.122084,42.938788 -83.124912,42.938687 -83.134567,42.938431 -83.135056,42.94575 -83.135521,42.949796 -83.135428,42.952896 -83.129313,42.953042</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

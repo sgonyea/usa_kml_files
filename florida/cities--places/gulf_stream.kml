@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gulf_stream</name>
+<Schema name="gulf_stream" id="gulf_stream">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gulf Stream</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gulf_stream">
+		<SimpleData name="Name">Gulf Stream</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">28275</SimpleData>
+		<SimpleData name="PLACENS">02406627</SimpleData>
+		<SimpleData name="GEOID">1228275</SimpleData>
+		<SimpleData name="NAMELSAD">Gulf Stream town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1917238</SimpleData>
+		<SimpleData name="AWATER">221157</SimpleData>
+		<SimpleData name="INTPTLAT">+26.4859185</SimpleData>
+		<SimpleData name="INTPTLON">-080.0574508</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.063108,26.491469 -80.063087,26.491527 -80.063017,26.491732 -80.062966,26.491881 -80.062853,26.492405 -80.062777,26.492654 -80.062701,26.492654 -80.061345,26.492669 -80.061335,26.49215 -80.059763,26.492142 -80.059494,26.492141 -80.059281,26.492481 -80.058504,26.497669 -80.058497,26.497718 -80.058383,26.498353 -80.058339,26.4986 -80.058221,26.499199 -80.058189,26.49936 -80.058135,26.499639 -80.058119,26.499724 -80.057477,26.503892 -80.057284,26.503903 -80.057009,26.503915 -80.056715,26.503915 -80.055961,26.503926 -80.053952,26.503954 -80.053962,26.503656 -80.053863,26.503381 -80.05373,26.503368 -80.053731,26.503324 -80.053733,26.503291 -80.053619,26.503298 -80.053607,26.501843 -80.053794,26.501853 -80.05383,26.500992 -80.053837,26.500642 -80.053839,26.500523 -80.053842,26.500399 -80.053836,26.50033 -80.052939,26.50036 -80.051911,26.50035 -80.055152,26.479934 -80.055666,26.475752 -80.055698,26.475545 -80.056765,26.475677 -80.05875,26.475665 -80.058749,26.47537 -80.061118,26.475386 -80.061212,26.475387 -80.061303,26.475389 -80.061945,26.475397 -80.062234,26.475399 -80.062167,26.475636 -80.060849,26.483943 -80.061151,26.483947 -80.061364,26.48395 -80.062886,26.483955 -80.062874,26.487887 -80.062901,26.488784 -80.062952,26.488977 -80.06298,26.489941 -80.063015,26.490459 -80.06302,26.490678 -80.063031,26.490862 -80.063063,26.491255 -80.063046,26.491349 -80.063138,26.491379 -80.063108,26.491469</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

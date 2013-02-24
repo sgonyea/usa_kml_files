@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>virginia</name>
+<Schema name="virginia" id="virginia">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Virginia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#virginia">
+		<SimpleData name="Name">Virginia</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">50790</SimpleData>
+		<SimpleData name="PLACENS">02400075</SimpleData>
+		<SimpleData name="GEOID">3150790</SimpleData>
+		<SimpleData name="NAMELSAD">Virginia village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">256506</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2458595</SimpleData>
+		<SimpleData name="INTPTLON">-096.4988244</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.501644,40.244824 -96.501645,40.245808 -96.50165,40.246795 -96.501662,40.247171 -96.501673,40.247776 -96.501679,40.248672 -96.501676,40.248851 -96.500594,40.24862 -96.498682,40.248176 -96.498481,40.248133 -96.497962,40.24802 -96.497533,40.247938 -96.49741,40.247915 -96.497246,40.247892 -96.496791,40.247831 -96.496608,40.247818 -96.496438,40.2478 -96.495875,40.247776 -96.495877,40.247351 -96.495943,40.246648 -96.495956,40.245881 -96.495973,40.244873 -96.495975,40.244624 -96.495996,40.243839 -96.496047,40.243073 -96.496035,40.242814 -96.497402,40.242831 -96.497374,40.243833 -96.498767,40.243811 -96.498771,40.243432 -96.498846,40.243204 -96.499701,40.243216 -96.499643,40.243808 -96.499728,40.243808 -96.500159,40.243802 -96.501644,40.243785 -96.501644,40.244824</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

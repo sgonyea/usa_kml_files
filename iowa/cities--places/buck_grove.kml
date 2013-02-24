@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>buck_grove</name>
+<Schema name="buck_grove" id="buck_grove">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Buck Grove</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buck_grove">
+		<SimpleData name="Name">Buck Grove</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">09145</SimpleData>
+		<SimpleData name="PLACENS">02393446</SimpleData>
+		<SimpleData name="GEOID">1909145</SimpleData>
+		<SimpleData name="NAMELSAD">Buck Grove city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">940958</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.9178252</SimpleData>
+		<SimpleData name="INTPTLON">-095.3951051</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.402417,41.915325 -95.402418,41.915395 -95.402421,41.916122 -95.402434,41.916754 -95.402452,41.918134 -95.40244,41.918995 -95.40245,41.919552 -95.402463,41.920532 -95.402468,41.920898 -95.402471,41.921239 -95.402353,41.921238 -95.401057,41.921264 -95.400276,41.921265 -95.399513,41.921266 -95.39739,41.921297 -95.396155,41.921315 -95.39491,41.921302 -95.394021,41.921325 -95.39189,41.92133 -95.389354,41.921371 -95.387843,41.921379 -95.387748,41.915591 -95.387739,41.915439 -95.387713,41.914392 -95.392922,41.914358 -95.402346,41.914296 -95.402407,41.914295 -95.402417,41.915325</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

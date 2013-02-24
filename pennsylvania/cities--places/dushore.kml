@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dushore</name>
+<Schema name="dushore" id="dushore">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dushore</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dushore">
+		<SimpleData name="Name">Dushore</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">20528</SimpleData>
+		<SimpleData name="PLACENS">01215603</SimpleData>
+		<SimpleData name="GEOID">4220528</SimpleData>
+		<SimpleData name="NAMELSAD">Dushore borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2041392</SimpleData>
+		<SimpleData name="AWATER">42117</SimpleData>
+		<SimpleData name="INTPTLAT">+41.5260023</SimpleData>
+		<SimpleData name="INTPTLON">-076.3985119</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.408731,41.527788 -76.408296,41.528513 -76.402372,41.529654 -76.401272,41.529866 -76.398633,41.531917 -76.398034,41.531832 -76.397186,41.531709 -76.396364,41.531588 -76.385743,41.530049 -76.385729,41.530085 -76.385527,41.53042 -76.385309,41.53087 -76.385211,41.531071 -76.385128,41.531233 -76.383843,41.53078 -76.384282,41.530332 -76.384499,41.53011 -76.3849,41.529746 -76.385733,41.528976 -76.387922,41.526964 -76.393145,41.522161 -76.393168,41.522136 -76.394115,41.520621 -76.396057,41.517512 -76.396069,41.5175 -76.396151,41.517361 -76.398035,41.517125 -76.398396,41.517077 -76.400602,41.516797 -76.403473,41.517939 -76.404736,41.51844 -76.405141,41.518603 -76.406657,41.519205 -76.40976,41.525553 -76.409876,41.525789 -76.409899,41.525839 -76.408731,41.527788</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

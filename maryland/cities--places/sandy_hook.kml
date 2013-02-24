@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>sandy_hook</name>
+<Schema name="sandy_hook" id="sandy_hook">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Sandy Hook</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sandy_hook">
+		<SimpleData name="Name">Sandy Hook</SimpleData>
+		<SimpleData name="STATEFP">24</SimpleData>
+		<SimpleData name="PLACEFP">70175</SimpleData>
+		<SimpleData name="PLACENS">02583684</SimpleData>
+		<SimpleData name="GEOID">2470175</SimpleData>
+		<SimpleData name="NAMELSAD">Sandy Hook CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">558432</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.3285084</SimpleData>
+		<SimpleData name="INTPTLON">-077.7051443</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.712685,39.327154 -77.706943,39.328023 -77.70571,39.3327 -77.70564,39.33273 -77.70556,39.33273 -77.70542,39.33272 -77.705345,39.332691 -77.70526,39.33266 -77.70511,39.33259 -77.70503,39.33256 -77.704945,39.332549 -77.70473,39.33252 -77.70455,39.33249 -77.70451,39.33278 -77.70446,39.33304 -77.70441,39.33316 -77.70434,39.33325 -77.704282,39.333307 -77.70418,39.33341 -77.70415,39.33343 -77.70404,39.33354 -77.703718,39.333827 -77.70358,39.33395 -77.700601,39.331853 -77.700499,39.33174 -77.700496,39.329765 -77.700085,39.327012 -77.70008,39.326976 -77.6993,39.32512 -77.69986,39.32525 -77.700201,39.325317 -77.70042,39.32536 -77.70108,39.32552 -77.70158,39.32562 -77.70201,39.3257 -77.70262,39.32576 -77.70334,39.32582 -77.703617,39.325836 -77.70451,39.32589 -77.70534,39.32595 -77.705619,39.325958 -77.705773,39.325962 -77.70606,39.32597 -77.706236,39.325986 -77.70639,39.326 -77.70656,39.326011 -77.70683,39.32603 -77.707073,39.326041 -77.707244,39.32605 -77.70745,39.32606 -77.70844,39.32606 -77.70908,39.32602 -77.70981,39.32594 -77.71029,39.32588 -77.71066,39.32581 -77.71154,39.32568 -77.7121,39.32558 -77.71264,39.3255 -77.71379,39.32529 -77.715564,39.324881 -77.715611,39.324959 -77.715764,39.325767 -77.712685,39.327154</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

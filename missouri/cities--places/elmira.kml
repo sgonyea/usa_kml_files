@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>elmira</name>
+<Schema name="elmira" id="elmira">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Elmira</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#elmira">
+		<SimpleData name="Name">Elmira</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">22006</SimpleData>
+		<SimpleData name="PLACENS">02398814</SimpleData>
+		<SimpleData name="GEOID">2922006</SimpleData>
+		<SimpleData name="NAMELSAD">Elmira village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">188210</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.5086355</SimpleData>
+		<SimpleData name="INTPTLON">-094.1546441</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.156139,39.506784 -94.156186,39.508263 -94.156195,39.508682 -94.156219,39.509811 -94.156224,39.51102 -94.156248,39.512235 -94.155101,39.512206 -94.153941,39.512222 -94.153922,39.511043 -94.153901,39.509799 -94.153887,39.509103 -94.152513,39.509103 -94.152429,39.509103 -94.152364,39.509103 -94.151855,39.509124 -94.151854,39.508914 -94.151851,39.508383 -94.15185,39.507919 -94.152967,39.507111 -94.153417,39.507112 -94.153753,39.507114 -94.15373,39.506127 -94.153793,39.505399 -94.153935,39.505266 -94.15609,39.505278 -94.156139,39.506784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

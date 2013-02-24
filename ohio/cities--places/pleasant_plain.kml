@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>pleasant_plain</name>
+<Schema name="pleasant_plain" id="pleasant_plain">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Pleasant Plain</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pleasant_plain">
+		<SimpleData name="Name">Pleasant Plain</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">63576</SimpleData>
+		<SimpleData name="PLACENS">02399693</SimpleData>
+		<SimpleData name="GEOID">3963576</SimpleData>
+		<SimpleData name="NAMELSAD">Pleasant Plain village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">419506</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2784334</SimpleData>
+		<SimpleData name="INTPTLON">-084.1121149</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.117794,39.279619 -84.117348,39.280009 -84.114435,39.280498 -84.113303,39.281413 -84.112139,39.280763 -84.11161,39.281618 -84.111115,39.282562 -84.110777,39.282371 -84.110924,39.282125 -84.111692,39.280873 -84.11116,39.28059 -84.109505,39.280642 -84.109291,39.280528 -84.108504,39.280591 -84.107246,39.280414 -84.107109,39.278623 -84.106936,39.278107 -84.107068,39.277402 -84.107562,39.276946 -84.106387,39.275482 -84.106749,39.275342 -84.108138,39.27642 -84.109225,39.276765 -84.109975,39.276778 -84.111097,39.27694 -84.112686,39.276634 -84.11274,39.275772 -84.113617,39.275905 -84.113667,39.275887 -84.114705,39.274146 -84.115461,39.274557 -84.115692,39.274695 -84.115094,39.275688 -84.115641,39.276537 -84.117794,39.279619</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

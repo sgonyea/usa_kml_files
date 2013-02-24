@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dane</name>
+<Schema name="dane" id="dane">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dane</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dane">
+		<SimpleData name="Name">Dane</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">18700</SimpleData>
+		<SimpleData name="PLACENS">01583047</SimpleData>
+		<SimpleData name="GEOID">5518700</SimpleData>
+		<SimpleData name="NAMELSAD">Dane village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2917115</SimpleData>
+		<SimpleData name="AWATER">20674</SimpleData>
+		<SimpleData name="INTPTLAT">+43.2460996</SimpleData>
+		<SimpleData name="INTPTLON">-089.4995771</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.508931,43.257672 -89.507849,43.257681 -89.500223,43.25776 -89.495226,43.257859 -89.491306,43.257894 -89.491283,43.257614 -89.49114,43.250505 -89.490668,43.250516 -89.490496,43.250514 -89.489922,43.250509 -89.489147,43.250518 -89.488681,43.250509 -89.48705,43.250503 -89.485746,43.25049 -89.485586,43.250487 -89.485482,43.243417 -89.485565,43.243416 -89.486653,43.24341 -89.489155,43.243396 -89.491266,43.243384 -89.491458,43.243385 -89.500163,43.243391 -89.506228,43.243335 -89.511047,43.243281 -89.510995,43.248013 -89.510959,43.250115 -89.510961,43.250455 -89.51109,43.257674 -89.508931,43.257672</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

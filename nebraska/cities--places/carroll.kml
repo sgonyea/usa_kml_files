@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>carroll</name>
+<Schema name="carroll" id="carroll">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Carroll</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#carroll">
+		<SimpleData name="Name">Carroll</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">08010</SimpleData>
+		<SimpleData name="PLACENS">02397563</SimpleData>
+		<SimpleData name="GEOID">3108010</SimpleData>
+		<SimpleData name="NAMELSAD">Carroll village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">394842</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.2757769</SimpleData>
+		<SimpleData name="INTPTLON">-097.1909024</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-97.192958,42.279584 -97.192201,42.279578 -97.19222,42.279184 -97.192593,42.279177 -97.192923,42.279173 -97.192958,42.279584</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-97.19447,42.277877 -97.194459,42.278938 -97.193419,42.278939 -97.192776,42.278946 -97.192607,42.278945 -97.192153,42.278945 -97.190532,42.278947 -97.189386,42.27895 -97.189161,42.278949 -97.189175,42.278013 -97.189174,42.277989 -97.188861,42.277893 -97.188806,42.277869 -97.188749,42.277859 -97.188394,42.277752 -97.187905,42.277602 -97.187857,42.277596 -97.187754,42.277557 -97.186956,42.277313 -97.186921,42.272882 -97.187845,42.272871 -97.188982,42.272865 -97.189283,42.272876 -97.18964,42.272866 -97.18994,42.272863 -97.190477,42.272857 -97.190577,42.272865 -97.190627,42.272885 -97.19066,42.272923 -97.190667,42.272941 -97.192061,42.272888 -97.192258,42.272927 -97.193453,42.272887 -97.194499,42.272889 -97.19447,42.277877</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

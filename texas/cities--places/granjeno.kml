@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>granjeno</name>
+<Schema name="granjeno" id="granjeno">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Granjeno</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#granjeno">
+		<SimpleData name="Name">Granjeno</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">30608</SimpleData>
+		<SimpleData name="PLACENS">02410645</SimpleData>
+		<SimpleData name="GEOID">4830608</SimpleData>
+		<SimpleData name="NAMELSAD">Granjeno city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">896916</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.1373956</SimpleData>
+		<SimpleData name="INTPTLON">-098.3031249</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.309504,26.137163 -98.309501,26.137227 -98.309454,26.138255 -98.309432,26.138743 -98.3094,26.139461 -98.309393,26.140099 -98.309386,26.140851 -98.309338,26.14136 -98.307423,26.141078 -98.305921,26.140858 -98.304822,26.140717 -98.301526,26.140297 -98.300428,26.140158 -98.299919,26.140088 -98.298392,26.139881 -98.297884,26.139812 -98.296393,26.139608 -98.29527,26.139455 -98.295379,26.13864 -98.29673,26.137488 -98.296847,26.136717 -98.296917,26.13626 -98.296972,26.135903 -98.29748,26.135451 -98.29758,26.135348 -98.29788,26.135042 -98.297981,26.13494 -98.299393,26.133625 -98.300233,26.133597 -98.303083,26.133503 -98.306647,26.13444 -98.308325,26.135014 -98.309023,26.135254 -98.309168,26.135827 -98.309504,26.137163</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

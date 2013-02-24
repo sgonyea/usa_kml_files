@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hartly</name>
+<Schema name="hartly" id="hartly">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hartly</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hartly">
+		<SimpleData name="Name">Hartly</SimpleData>
+		<SimpleData name="STATEFP">10</SimpleData>
+		<SimpleData name="PLACEFP">33250</SimpleData>
+		<SimpleData name="PLACENS">02390235</SimpleData>
+		<SimpleData name="GEOID">1033250</SimpleData>
+		<SimpleData name="NAMELSAD">Hartly town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">153003</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.1683756</SimpleData>
+		<SimpleData name="INTPTLON">-075.7123461</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-75.715503,39.167137 -75.715457,39.167198 -75.714494,39.168508 -75.714173,39.168945 -75.714133,39.169152 -75.714038,39.169647 -75.71365,39.17169 -75.713629,39.171755 -75.71354,39.172032 -75.713354,39.172414 -75.71326,39.172357 -75.712978,39.172188 -75.712884,39.172132 -75.712833,39.172101 -75.712747,39.172043 -75.712342,39.171772 -75.712207,39.171682 -75.712209,39.17052 -75.712214,39.1688 -75.71139,39.1683 -75.710811,39.167749 -75.710221,39.167187 -75.709955,39.16707 -75.7099,39.167064 -75.709624,39.167035 -75.709461,39.167041 -75.708852,39.167068 -75.708451,39.167145 -75.708167,39.167248 -75.707987,39.167315 -75.707961,39.167068 -75.707927,39.166981 -75.707825,39.166722 -75.707791,39.166636 -75.708321,39.166396 -75.709118,39.166037 -75.709562,39.165875 -75.709889,39.165837 -75.709957,39.165837 -75.710205,39.16584 -75.710537,39.165874 -75.710604,39.165912 -75.710807,39.166028 -75.710875,39.166067 -75.710994,39.166117 -75.711742,39.166816 -75.712838,39.167839 -75.714268,39.166496 -75.714355,39.166415 -75.714481,39.166297 -75.714602,39.166383 -75.715183,39.166798 -75.715503,39.167137</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

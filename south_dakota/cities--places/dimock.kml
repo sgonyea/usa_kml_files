@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dimock</name>
+<Schema name="dimock" id="dimock">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Dimock</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dimock">
+		<SimpleData name="Name">Dimock</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">16620</SimpleData>
+		<SimpleData name="PLACENS">01267354</SimpleData>
+		<SimpleData name="GEOID">4616620</SimpleData>
+		<SimpleData name="NAMELSAD">Dimock town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">410542</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+43.4760054</SimpleData>
+		<SimpleData name="INTPTLON">-097.9879254</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.997411,43.478213 -97.997414,43.478939 -97.995175,43.478915 -97.994903,43.478895 -97.989945,43.478793 -97.987536,43.478798 -97.986774,43.4788 -97.986843,43.479141 -97.986955,43.47955 -97.985595,43.479545 -97.985533,43.478302 -97.985049,43.478305 -97.984767,43.478307 -97.984167,43.478311 -97.983947,43.478309 -97.984025,43.474266 -97.983207,43.474244 -97.983107,43.472484 -97.983436,43.472477 -97.98338,43.471126 -97.983644,43.471126 -97.985174,43.471122 -97.985678,43.471121 -97.986498,43.471118 -97.986538,43.473213 -97.988414,43.473203 -97.988407,43.474318 -97.988402,43.475403 -97.988418,43.476319 -97.988402,43.477794 -97.991224,43.477773 -97.991224,43.476447 -97.993841,43.476418 -97.993801,43.477754 -97.997409,43.477793 -97.997411,43.478213</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

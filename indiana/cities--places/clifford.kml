@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>clifford</name>
+<Schema name="clifford" id="clifford">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Clifford</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#clifford">
+		<SimpleData name="Name">Clifford</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">13582</SimpleData>
+		<SimpleData name="PLACENS">02396655</SimpleData>
+		<SimpleData name="GEOID">1813582</SimpleData>
+		<SimpleData name="NAMELSAD">Clifford town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">321004</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.2822305</SimpleData>
+		<SimpleData name="INTPTLON">-085.8695888</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.87312,39.284502 -85.869352,39.284523 -85.869273,39.28465 -85.869193,39.284778 -85.868749,39.284796 -85.866142,39.284787 -85.866141,39.284712 -85.86614,39.284489 -85.86614,39.284415 -85.866137,39.284029 -85.866134,39.283453 -85.866137,39.282873 -85.86614,39.282488 -85.866142,39.282226 -85.866139,39.28198 -85.866135,39.281479 -85.866133,39.280458 -85.866133,39.279951 -85.866818,39.279921 -85.868875,39.279832 -85.869561,39.279803 -85.869699,39.279798 -85.870114,39.279787 -85.870253,39.279784 -85.873055,39.279697 -85.873065,39.281459 -85.873082,39.282343 -85.87312,39.284502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

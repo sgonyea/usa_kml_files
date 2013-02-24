@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>brunswick</name>
+<Schema name="brunswick" id="brunswick">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Brunswick</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#brunswick">
+		<SimpleData name="Name">Brunswick</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">06890</SimpleData>
+		<SimpleData name="PLACENS">02397478</SimpleData>
+		<SimpleData name="GEOID">3106890</SimpleData>
+		<SimpleData name="NAMELSAD">Brunswick village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1539365</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.3377045</SimpleData>
+		<SimpleData name="INTPTLON">-097.9717560</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.980424,42.335266 -97.98036,42.338613 -97.980355,42.339989 -97.980363,42.342516 -97.970608,42.342565 -97.960854,42.342627 -97.960869,42.338719 -97.962387,42.338907 -97.964723,42.339177 -97.965799,42.339249 -97.965798,42.339029 -97.965713,42.335318 -97.965674,42.335121 -97.965653,42.334873 -97.965691,42.334406 -97.965651,42.331786 -97.970598,42.331714 -97.975271,42.331706 -97.977309,42.331706 -97.977278,42.333638 -97.977301,42.335283 -97.978879,42.33527 -97.978881,42.334682 -97.978882,42.33342 -97.980436,42.333408 -97.980424,42.335266</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

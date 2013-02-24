@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>hartwell</name>
+<Schema name="hartwell" id="hartwell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Hartwell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hartwell">
+		<SimpleData name="Name">Hartwell</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">30772</SimpleData>
+		<SimpleData name="PLACENS">02587077</SimpleData>
+		<SimpleData name="GEOID">2930772</SimpleData>
+		<SimpleData name="NAMELSAD">Hartwell CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">1229967</SimpleData>
+		<SimpleData name="AWATER">2945</SimpleData>
+		<SimpleData name="INTPTLAT">+38.4314806</SimpleData>
+		<SimpleData name="INTPTLON">-093.9339182</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.941407,38.437331 -93.941394,38.437592 -93.937111,38.437604 -93.932053,38.437524 -93.926945,38.437374 -93.927067,38.433629 -93.927063,38.431568 -93.927069,38.431274 -93.927123,38.428531 -93.927883,38.428549 -93.931287,38.428663 -93.936523,38.428814 -93.936771,38.428793 -93.937026,38.428795 -93.939967,38.428909 -93.941344,38.428925 -93.941656,38.432823 -93.941407,38.437331</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

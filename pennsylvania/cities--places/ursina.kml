@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ursina</name>
+<Schema name="ursina" id="ursina">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ursina</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ursina">
+		<SimpleData name="Name">Ursina</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">79424</SimpleData>
+		<SimpleData name="PLACENS">01215600</SimpleData>
+		<SimpleData name="GEOID">4279424</SimpleData>
+		<SimpleData name="NAMELSAD">Ursina borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2329923</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.8152951</SimpleData>
+		<SimpleData name="INTPTLON">-079.3324836</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.339634,39.820091 -79.338529,39.820282 -79.33804,39.820368 -79.327475,39.822202 -79.324327,39.822749 -79.323912,39.822818 -79.323815,39.82273 -79.323781,39.822736 -79.32293,39.821955 -79.322009,39.82111 -79.321949,39.821055 -79.32105,39.820229 -79.321136,39.820013 -79.321707,39.818583 -79.32446,39.811702 -79.330548,39.807318 -79.330584,39.807323 -79.330635,39.807331 -79.331782,39.807492 -79.340041,39.808657 -79.342435,39.813348 -79.342574,39.813621 -79.343331,39.815107 -79.343581,39.815594 -79.343566,39.815836 -79.343401,39.817363 -79.343311,39.818161 -79.343169,39.819477 -79.339634,39.820091</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

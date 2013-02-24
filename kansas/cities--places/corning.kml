@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>corning</name>
+<Schema name="corning" id="corning">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Corning</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#corning">
+		<SimpleData name="Name">Corning</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">15725</SimpleData>
+		<SimpleData name="PLACENS">02393637</SimpleData>
+		<SimpleData name="GEOID">2015725</SimpleData>
+		<SimpleData name="NAMELSAD">Corning city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">689864</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6565935</SimpleData>
+		<SimpleData name="INTPTLON">-096.0287479</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.034297,39.656529 -96.034298,39.656942 -96.034318,39.658622 -96.033122,39.658624 -96.033148,39.659221 -96.033176,39.659792 -96.033186,39.660068 -96.03319,39.660186 -96.03084,39.660172 -96.02814,39.660096 -96.02652,39.660085 -96.026497,39.660151 -96.026363,39.660234 -96.026188,39.660266 -96.02584,39.660271 -96.025168,39.660271 -96.024349,39.660271 -96.023718,39.660278 -96.023718,39.658782 -96.02367,39.657385 -96.023714,39.652995 -96.02469,39.652997 -96.025188,39.652998 -96.025887,39.653001 -96.027051,39.653006 -96.02796,39.653001 -96.028697,39.652998 -96.029909,39.652992 -96.030835,39.652995 -96.031544,39.652997 -96.032247,39.652995 -96.033077,39.652986 -96.033084,39.653412 -96.033069,39.654164 -96.033075,39.654608 -96.034328,39.654618 -96.034297,39.656529</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

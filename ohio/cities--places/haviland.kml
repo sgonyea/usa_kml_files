@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>haviland</name>
+<Schema name="haviland" id="haviland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Haviland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#haviland">
+		<SimpleData name="Name">Haviland</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">34552</SimpleData>
+		<SimpleData name="PLACENS">02398266</SimpleData>
+		<SimpleData name="GEOID">3934552</SimpleData>
+		<SimpleData name="NAMELSAD">Haviland village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1018463</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0177887</SimpleData>
+		<SimpleData name="INTPTLON">-084.5852943</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-84.592093,41.019021 -84.591423,41.01903 -84.58692,41.019046 -84.586946,41.022632 -84.581741,41.022637 -84.581638,41.022637 -84.580548,41.02264 -84.579434,41.02264 -84.578192,41.022639 -84.577011,41.022638 -84.577014,41.0217 -84.577017,41.020836 -84.57702,41.019966 -84.577023,41.019074 -84.576867,41.015373 -84.580478,41.015366 -84.581676,41.015364 -84.586886,41.015354 -84.590338,41.015363 -84.592035,41.015369 -84.592035,41.015397 -84.592045,41.015841 -84.592052,41.016141 -84.592056,41.016699 -84.59207,41.017401 -84.592073,41.017532 -84.592093,41.019021</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-84.596848,41.015336 -84.592035,41.015369 -84.591983,41.011663 -84.596848,41.011695 -84.596848,41.015336</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

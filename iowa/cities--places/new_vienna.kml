@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>new_vienna</name>
+<Schema name="new_vienna" id="new_vienna">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>New Vienna</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#new_vienna">
+		<SimpleData name="Name">New Vienna</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">56550</SimpleData>
+		<SimpleData name="PLACENS">02395218</SimpleData>
+		<SimpleData name="GEOID">1956550</SimpleData>
+		<SimpleData name="NAMELSAD">New Vienna city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1139635</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.5476759</SimpleData>
+		<SimpleData name="INTPTLON">-091.1140094</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.119117,42.541228 -91.119091,42.542613 -91.119057,42.544522 -91.119109,42.544523 -91.119098,42.54672 -91.119092,42.548106 -91.118999,42.549304 -91.118931,42.550188 -91.118925,42.550278 -91.118873,42.552906 -91.118858,42.553719 -91.118469,42.553716 -91.117589,42.553719 -91.11495,42.553729 -91.114071,42.553733 -91.112437,42.55373 -91.108618,42.553723 -91.108612,42.551439 -91.108609,42.55024 -91.108606,42.549366 -91.108264,42.548127 -91.108603,42.548129 -91.108599,42.546309 -91.108105,42.546311 -91.107342,42.546325 -91.107336,42.545372 -91.107331,42.544529 -91.107401,42.544528 -91.107598,42.544525 -91.107665,42.544524 -91.107964,42.544519 -91.108865,42.544504 -91.109165,42.5445 -91.109578,42.544493 -91.109882,42.544489 -91.110819,42.544468 -91.111062,42.544463 -91.111218,42.544394 -91.11126,42.544415 -91.111199,42.543809 -91.111172,42.54353 -91.111734,42.543516 -91.111711,42.542532 -91.111698,42.541924 -91.111705,42.541621 -91.111724,42.540907 -91.111918,42.540925 -91.11222,42.540953 -91.113649,42.540971 -91.114362,42.54098 -91.117936,42.540983 -91.119122,42.540984 -91.119117,42.541228</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

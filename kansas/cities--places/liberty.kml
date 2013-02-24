@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>liberty</name>
+<Schema name="liberty" id="liberty">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Liberty</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#liberty">
+		<SimpleData name="Name">Liberty</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">40250</SimpleData>
+		<SimpleData name="PLACENS">02395701</SimpleData>
+		<SimpleData name="GEOID">2040250</SimpleData>
+		<SimpleData name="NAMELSAD">Liberty city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">667864</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.1565249</SimpleData>
+		<SimpleData name="INTPTLON">-095.5978917</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.602023,37.152583 -95.602048,37.154019 -95.602028,37.155076 -95.60203,37.155519 -95.60204,37.156837 -95.602054,37.158202 -95.602046,37.158984 -95.602045,37.159223 -95.601115,37.159158 -95.600071,37.159085 -95.599955,37.159077 -95.599924,37.160511 -95.597363,37.160475 -95.597359,37.160662 -95.597355,37.160834 -95.597362,37.161208 -95.597376,37.162305 -95.597409,37.162612 -95.594631,37.162535 -95.594663,37.160663 -95.594683,37.159453 -95.594739,37.158129 -95.594754,37.157592 -95.59476,37.157188 -95.594764,37.156832 -95.593468,37.156947 -95.593134,37.156924 -95.593125,37.155384 -95.5944,37.155352 -95.594595,37.155344 -95.594616,37.154935 -95.594842,37.1518 -95.595774,37.151841 -95.596129,37.151877 -95.59667,37.151897 -95.597705,37.151954 -95.598722,37.151983 -95.600002,37.152029 -95.601337,37.152075 -95.602024,37.152105 -95.602023,37.152583</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

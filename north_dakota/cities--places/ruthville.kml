@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ruthville</name>
+<Schema name="ruthville" id="ruthville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ruthville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ruthville">
+		<SimpleData name="Name">Ruthville</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">69300</SimpleData>
+		<SimpleData name="PLACENS">02584355</SimpleData>
+		<SimpleData name="GEOID">3869300</SimpleData>
+		<SimpleData name="NAMELSAD">Ruthville CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">395144</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.3708133</SimpleData>
+		<SimpleData name="INTPTLON">-101.3002350</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.304439,48.371757 -101.303224,48.371757 -101.303224,48.37339 -101.303224,48.37471 -101.299207,48.374707 -101.299141,48.374467 -101.299015,48.374198 -101.298929,48.374014 -101.298712,48.373684 -101.298529,48.373405 -101.298012,48.372724 -101.297864,48.372529 -101.297313,48.371744 -101.29641,48.371753 -101.296043,48.371755 -101.295932,48.371469 -101.295659,48.370284 -101.295603,48.370041 -101.29552,48.36953 -101.295489,48.369122 -101.295487,48.36905 -101.295452,48.367902 -101.295814,48.367904 -101.296871,48.36791 -101.299511,48.367924 -101.304378,48.367949 -101.304439,48.371757</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

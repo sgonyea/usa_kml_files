@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>burnt_prairie</name>
+<Schema name="burnt_prairie" id="burnt_prairie">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Burnt Prairie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#burnt_prairie">
+		<SimpleData name="Name">Burnt Prairie</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">09889</SimpleData>
+		<SimpleData name="PLACENS">02397503</SimpleData>
+		<SimpleData name="GEOID">1709889</SimpleData>
+		<SimpleData name="NAMELSAD">Burnt Prairie village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">201760</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.2508764</SimpleData>
+		<SimpleData name="INTPTLON">-088.2583308</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-88.254242,38.251181 -88.254239,38.2512 -88.254204,38.251313 -88.254106,38.251362 -88.253955,38.25137 -88.253826,38.251359 -88.25366,38.251325 -88.253553,38.251261 -88.253506,38.251178 -88.253515,38.251129 -88.253624,38.25055 -88.254339,38.250626 -88.254242,38.251181</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-88.261251,38.250562 -88.261244,38.250779 -88.261221,38.251445 -88.26125,38.252233 -88.261231,38.252811 -88.258481,38.252548 -88.257089,38.252411 -88.2563,38.252337 -88.256268,38.252523 -88.256153,38.25255 -88.255986,38.25254 -88.255273,38.25246 -88.254527,38.252376 -88.25456,38.251902 -88.255375,38.251972 -88.255426,38.251606 -88.255545,38.250753 -88.255644,38.250047 -88.255647,38.249937 -88.255321,38.249906 -88.254973,38.249886 -88.254345,38.249881 -88.254363,38.249584 -88.255689,38.249651 -88.255732,38.24943 -88.258897,38.249516 -88.259042,38.248688 -88.261319,38.248818 -88.261318,38.248963 -88.261314,38.249764 -88.261314,38.249805 -88.261251,38.250562</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder></Document></kml>

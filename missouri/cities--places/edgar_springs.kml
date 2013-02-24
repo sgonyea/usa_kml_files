@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>edgar_springs</name>
+<Schema name="edgar_springs" id="edgar_springs">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Edgar Springs</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edgar_springs">
+		<SimpleData name="Name">Edgar Springs</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">21214</SimpleData>
+		<SimpleData name="PLACENS">02394617</SimpleData>
+		<SimpleData name="GEOID">2921214</SimpleData>
+		<SimpleData name="NAMELSAD">Edgar Springs city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1694206</SimpleData>
+		<SimpleData name="AWATER">2291</SimpleData>
+		<SimpleData name="INTPTLAT">+37.7050049</SimpleData>
+		<SimpleData name="INTPTLON">-091.8678832</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.875111,37.697327 -91.875149,37.700366 -91.875162,37.702086 -91.875179,37.704119 -91.875183,37.704664 -91.874791,37.704688 -91.874834,37.708328 -91.873065,37.70832 -91.869166,37.708282 -91.868913,37.708248 -91.868538,37.708234 -91.868249,37.708158 -91.868006,37.708055 -91.867925,37.708136 -91.867843,37.708255 -91.867796,37.708367 -91.867793,37.708874 -91.867792,37.708973 -91.867785,37.710166 -91.866003,37.71018 -91.86603,37.712011 -91.863978,37.712027 -91.863934,37.708325 -91.863903,37.706195 -91.861522,37.706207 -91.861038,37.706209 -91.861014,37.704625 -91.86098,37.702308 -91.860911,37.697598 -91.860895,37.696438 -91.861979,37.696428 -91.864002,37.696411 -91.867054,37.696281 -91.867138,37.696281 -91.868363,37.69626 -91.875123,37.696299 -91.875111,37.697327</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

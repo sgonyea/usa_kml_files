@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lake_aluma</name>
+<Schema name="lake_aluma" id="lake_aluma">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lake Aluma</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lake_aluma">
+		<SimpleData name="Name">Lake Aluma</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">40800</SimpleData>
+		<SimpleData name="PLACENS">02412861</SimpleData>
+		<SimpleData name="GEOID">4040800</SimpleData>
+		<SimpleData name="NAMELSAD">Lake Aluma town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">673373</SimpleData>
+		<SimpleData name="AWATER">54943</SimpleData>
+		<SimpleData name="INTPTLAT">+35.5323033</SimpleData>
+		<SimpleData name="INTPTLON">-097.4513418</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.453415,35.53101 -97.453415,35.535363 -97.453415,35.536814 -97.452969,35.536817 -97.452858,35.536817 -97.45119,35.536827 -97.450634,35.536831 -97.449274,35.536839 -97.445197,35.536862 -97.443838,35.536871 -97.443836,35.536196 -97.443836,35.535558 -97.442452,35.535564 -97.441778,35.535568 -97.441777,35.535466 -97.441776,35.535162 -97.441776,35.535061 -97.441774,35.534661 -97.44177,35.533461 -97.441769,35.533062 -97.442358,35.533021 -97.444125,35.532899 -97.444715,35.532859 -97.444675,35.532219 -97.444555,35.530299 -97.444515,35.529659 -97.445413,35.529648 -97.44557,35.529647 -97.44811,35.529618 -97.449009,35.529608 -97.448991,35.52932 -97.449052,35.52932 -97.449208,35.529322 -97.4501,35.529313 -97.450167,35.529313 -97.450194,35.529595 -97.45028,35.529593 -97.450539,35.529591 -97.450626,35.52959 -97.451183,35.529583 -97.452857,35.529565 -97.453415,35.529559 -97.453415,35.53101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

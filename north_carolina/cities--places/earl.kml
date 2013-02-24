@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>earl</name>
+<Schema name="earl" id="earl">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Earl</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#earl">
+		<SimpleData name="Name">Earl</SimpleData>
+		<SimpleData name="STATEFP">37</SimpleData>
+		<SimpleData name="PLACEFP">19140</SimpleData>
+		<SimpleData name="PLACENS">02406410</SimpleData>
+		<SimpleData name="GEOID">3719140</SimpleData>
+		<SimpleData name="NAMELSAD">Earl town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2230767</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+35.1954241</SimpleData>
+		<SimpleData name="INTPTLON">-081.5340098</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-81.543002,35.197374 -81.542608,35.198616 -81.542066,35.199857 -81.541382,35.200774 -81.541333,35.200815 -81.540605,35.201444 -81.539396,35.202142 -81.537915,35.20262 -81.536975,35.202743 -81.535966,35.202875 -81.53453,35.202973 -81.533195,35.202895 -81.532213,35.202714 -81.532054,35.202684 -81.531976,35.20267 -81.531753,35.202631 -81.53086,35.202374 -81.529658,35.201702 -81.527368,35.200198 -81.526279,35.198952 -81.525699,35.198016 -81.525392,35.19658 -81.525328,35.194588 -81.525664,35.193654 -81.523096,35.192832 -81.524482,35.189789 -81.524809,35.189904 -81.525478,35.190052 -81.527932,35.190365 -81.527997,35.190373 -81.528223,35.190402 -81.529289,35.189453 -81.529631,35.189169 -81.530152,35.188922 -81.53186,35.188424 -81.533057,35.188331 -81.533546,35.188292 -81.534512,35.188216 -81.534972,35.188232 -81.536399,35.188285 -81.537238,35.18852 -81.538627,35.188909 -81.538956,35.18911 -81.54105,35.190393 -81.542305,35.192065 -81.542804,35.193031 -81.543224,35.194406 -81.543307,35.196121 -81.543002,35.197374</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

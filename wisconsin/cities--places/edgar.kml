@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>edgar</name>
+<Schema name="edgar" id="edgar">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Edgar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edgar">
+		<SimpleData name="Name">Edgar</SimpleData>
+		<SimpleData name="STATEFP">55</SimpleData>
+		<SimpleData name="PLACEFP">22550</SimpleData>
+		<SimpleData name="PLACENS">01583132</SimpleData>
+		<SimpleData name="GEOID">5522550</SimpleData>
+		<SimpleData name="NAMELSAD">Edgar village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4693370</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+44.9227444</SimpleData>
+		<SimpleData name="INTPTLON">-089.9627722</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.974379,44.919745 -89.974379,44.919841 -89.974396,44.930652 -89.974281,44.930651 -89.972992,44.930649 -89.972338,44.930651 -89.970168,44.930642 -89.966736,44.930641 -89.965354,44.930636 -89.964472,44.930645 -89.963952,44.930636 -89.963937,44.930874 -89.963947,44.931106 -89.963956,44.93254 -89.963948,44.93331 -89.963974,44.935265 -89.963976,44.936186 -89.96397,44.937155 -89.963976,44.93777 -89.956611,44.937749 -89.956615,44.936235 -89.956601,44.934559 -89.956604,44.934251 -89.956605,44.934193 -89.955212,44.934194 -89.951323,44.934198 -89.946641,44.934267 -89.946459,44.93427 -89.946312,44.934281 -89.946375,44.932533 -89.946568,44.930865 -89.946737,44.93086 -89.946777,44.930859 -89.9479,44.930847 -89.9486,44.930849 -89.949296,44.930832 -89.950116,44.930823 -89.950858,44.93082 -89.951906,44.930802 -89.951888,44.929538 -89.951858,44.927241 -89.946867,44.927202 -89.946994,44.926041 -89.947114,44.924899 -89.947117,44.924708 -89.950474,44.923604 -89.955657,44.921932 -89.955711,44.920844 -89.955865,44.919888 -89.955651,44.919895 -89.95493,44.919898 -89.954883,44.918283 -89.955738,44.918283 -89.955706,44.916842 -89.956741,44.916837 -89.95674,44.916185 -89.956741,44.916103 -89.956839,44.912596 -89.956835,44.909835 -89.956862,44.908958 -89.96176,44.909047 -89.964041,44.909074 -89.974025,44.909054 -89.974411,44.909052 -89.974331,44.914263 -89.974318,44.914481 -89.9743,44.916152 -89.975518,44.916165 -89.975498,44.916861 -89.975499,44.919263 -89.976188,44.919252 -89.976194,44.919502 -89.976197,44.919754 -89.974379,44.919745</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

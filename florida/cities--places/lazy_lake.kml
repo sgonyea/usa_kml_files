@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>lazy_lake</name>
+<Schema name="lazy_lake" id="lazy_lake">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Lazy Lake</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lazy_lake">
+		<SimpleData name="Name">Lazy Lake</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">39750</SimpleData>
+		<SimpleData name="PLACENS">02407489</SimpleData>
+		<SimpleData name="GEOID">1239750</SimpleData>
+		<SimpleData name="NAMELSAD">Lazy Lake village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">60227</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+26.1563321</SimpleData>
+		<SimpleData name="INTPTLON">-080.1452095</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.146367,26.157524 -80.145918,26.157532 -80.144572,26.157556 -80.144124,26.157565 -80.144121,26.157398 -80.144113,26.156899 -80.144111,26.156733 -80.144109,26.156569 -80.144105,26.156078 -80.144104,26.155915 -80.144105,26.155368 -80.144105,26.155341 -80.144096,26.155085 -80.144932,26.155065 -80.14498,26.155064 -80.145107,26.155061 -80.145496,26.155059 -80.145626,26.155059 -80.145913,26.155172 -80.146086,26.155306 -80.146329,26.155437 -80.14635,26.155765 -80.146364,26.157014 -80.146364,26.157116 -80.146366,26.157422 -80.146367,26.157524</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

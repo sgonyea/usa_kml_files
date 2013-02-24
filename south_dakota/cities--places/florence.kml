@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>florence</name>
+<Schema name="florence" id="florence">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Florence</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#florence">
+		<SimpleData name="Name">Florence</SimpleData>
+		<SimpleData name="STATEFP">46</SimpleData>
+		<SimpleData name="PLACEFP">21820</SimpleData>
+		<SimpleData name="PLACENS">01267392</SimpleData>
+		<SimpleData name="GEOID">4621820</SimpleData>
+		<SimpleData name="NAMELSAD">Florence town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1794900</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+45.0547894</SimpleData>
+		<SimpleData name="INTPTLON">-097.3263125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.336171,45.050337 -97.33617,45.050465 -97.336,45.063046 -97.335975,45.064927 -97.330843,45.064896 -97.330813,45.064191 -97.330896,45.059739 -97.328874,45.058434 -97.326748,45.058423 -97.326752,45.058076 -97.324111,45.058066 -97.324084,45.057552 -97.320641,45.057506 -97.320686,45.054315 -97.319637,45.053877 -97.319197,45.053874 -97.311634,45.053832 -97.310567,45.053826 -97.310596,45.052525 -97.310646,45.050225 -97.3105,45.046498 -97.316247,45.05026 -97.319794,45.05028 -97.321143,45.050287 -97.323028,45.050297 -97.324274,45.050304 -97.326801,45.05033 -97.32895,45.05036 -97.331078,45.050362 -97.332088,45.050377 -97.332087,45.049588 -97.334168,45.049589 -97.336171,45.050337</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

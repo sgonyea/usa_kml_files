@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mason</name>
+<Schema name="mason" id="mason">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mason</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mason">
+		<SimpleData name="Name">Mason</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">47449</SimpleData>
+		<SimpleData name="PLACENS">02396740</SimpleData>
+		<SimpleData name="GEOID">1747449</SimpleData>
+		<SimpleData name="NAMELSAD">Mason town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3334448</SimpleData>
+		<SimpleData name="AWATER">12819</SimpleData>
+		<SimpleData name="INTPTLAT">+38.9543278</SimpleData>
+		<SimpleData name="INTPTLON">-088.6270677</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.635304,38.960853 -88.63522,38.962769 -88.631923,38.962794 -88.631508,38.962801 -88.625732,38.962897 -88.616129,38.962851 -88.616208,38.960662 -88.616245,38.959977 -88.61627,38.959383 -88.61651,38.953261 -88.616531,38.951815 -88.61658,38.949062 -88.616652,38.945678 -88.616655,38.945593 -88.616686,38.944752 -88.61669,38.944656 -88.616687,38.944524 -88.616762,38.944527 -88.622134,38.944453 -88.624778,38.944495 -88.625001,38.944498 -88.630116,38.944413 -88.633543,38.944437 -88.634735,38.94442 -88.635434,38.944423 -88.635416,38.944516 -88.635398,38.951019 -88.635388,38.951699 -88.635378,38.952781 -88.635376,38.953127 -88.635345,38.957967 -88.635344,38.958445 -88.635343,38.958913 -88.635342,38.959082 -88.635311,38.9607 -88.635304,38.960853</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

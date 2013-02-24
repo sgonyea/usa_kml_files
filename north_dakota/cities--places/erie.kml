@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>erie</name>
+<Schema name="erie" id="erie">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Erie</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#erie">
+		<SimpleData name="Name">Erie</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">24620</SimpleData>
+		<SimpleData name="PLACENS">02392991</SimpleData>
+		<SimpleData name="GEOID">3824620</SimpleData>
+		<SimpleData name="NAMELSAD">Erie CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">5193697</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+47.1153464</SimpleData>
+		<SimpleData name="INTPTLON">-097.3879176</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.409138,47.1083 -97.409121,47.114048 -97.409088,47.115387 -97.409079,47.11719 -97.409052,47.122673 -97.40722,47.122657 -97.403906,47.122657 -97.401421,47.122652 -97.400727,47.122649 -97.398601,47.122638 -97.398253,47.122637 -97.395882,47.122625 -97.391518,47.12261 -97.389958,47.122613 -97.389163,47.122602 -97.38771,47.1226 -97.384825,47.122596 -97.378812,47.122557 -97.378368,47.122571 -97.374352,47.122564 -97.368827,47.122561 -97.366645,47.122576 -97.366676,47.118493 -97.366692,47.115335 -97.36669,47.11502 -97.366715,47.111563 -97.366722,47.108086 -97.374997,47.108084 -97.384384,47.108103 -97.38787,47.108116 -97.389941,47.10799 -97.391541,47.108024 -97.393818,47.108078 -97.398603,47.108087 -97.402756,47.108094 -97.409139,47.108156 -97.409138,47.1083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

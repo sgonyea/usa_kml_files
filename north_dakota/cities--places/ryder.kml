@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ryder</name>
+<Schema name="ryder" id="ryder">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ryder</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ryder">
+		<SimpleData name="Name">Ryder</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">69460</SimpleData>
+		<SimpleData name="PLACENS">01036250</SimpleData>
+		<SimpleData name="GEOID">3869460</SimpleData>
+		<SimpleData name="NAMELSAD">Ryder city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">860179</SimpleData>
+		<SimpleData name="AWATER">13061</SimpleData>
+		<SimpleData name="INTPTLAT">+47.9181323</SimpleData>
+		<SimpleData name="INTPTLON">-101.6729058</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-101.679112,47.914473 -101.679107,47.91507 -101.679112,47.916299 -101.67911,47.916887 -101.679108,47.917638 -101.679105,47.919092 -101.679108,47.919481 -101.679114,47.920225 -101.679117,47.920714 -101.679121,47.92124 -101.679116,47.921628 -101.679117,47.921851 -101.679118,47.922503 -101.675201,47.922493 -101.672172,47.922476 -101.66947,47.922452 -101.668128,47.922437 -101.668143,47.921437 -101.668166,47.920237 -101.66822,47.916842 -101.668257,47.913342 -101.668273,47.913206 -101.668399,47.912807 -101.675172,47.912842 -101.676932,47.912889 -101.676984,47.912897 -101.679109,47.91289 -101.679112,47.914473</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

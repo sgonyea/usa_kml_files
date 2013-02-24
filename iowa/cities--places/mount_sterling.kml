@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mount_sterling</name>
+<Schema name="mount_sterling" id="mount_sterling">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mount Sterling</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mount_sterling">
+		<SimpleData name="Name">Mount Sterling</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">54750</SimpleData>
+		<SimpleData name="PLACENS">02395126</SimpleData>
+		<SimpleData name="GEOID">1954750</SimpleData>
+		<SimpleData name="NAMELSAD">Mount Sterling city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1031379</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.6181042</SimpleData>
+		<SimpleData name="INTPTLON">-091.9367380</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.944492,40.614813 -91.944502,40.616181 -91.944497,40.616782 -91.944485,40.618587 -91.944482,40.619115 -91.944482,40.619189 -91.944483,40.619268 -91.944499,40.620177 -91.94453,40.621801 -91.943188,40.621748 -91.942201,40.62171 -91.941707,40.621694 -91.940228,40.621646 -91.939735,40.62163 -91.936987,40.621535 -91.928744,40.621251 -91.92765,40.621214 -91.928195,40.619652 -91.928295,40.619315 -91.928616,40.618222 -91.928691,40.617897 -91.928884,40.617213 -91.929699,40.61688 -91.9297,40.616516 -91.929708,40.615218 -91.929712,40.614471 -91.933531,40.614485 -91.935355,40.614493 -91.935486,40.614494 -91.935616,40.614495 -91.936242,40.6145 -91.938512,40.614522 -91.939269,40.61453 -91.940637,40.614538 -91.944491,40.614563 -91.944492,40.614813</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

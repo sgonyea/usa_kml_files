@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>humboldt</name>
+<Schema name="humboldt" id="humboldt">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Humboldt</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#humboldt">
+		<SimpleData name="Name">Humboldt</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">36542</SimpleData>
+		<SimpleData name="PLACENS">02398559</SimpleData>
+		<SimpleData name="GEOID">1736542</SimpleData>
+		<SimpleData name="NAMELSAD">Humboldt village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">902365</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.6047208</SimpleData>
+		<SimpleData name="INTPTLON">-088.3199742</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.326751,39.608104 -88.323282,39.608088 -88.322423,39.608282 -88.321925,39.608396 -88.320193,39.608375 -88.319781,39.608298 -88.319276,39.6083 -88.317941,39.608307 -88.316878,39.608313 -88.312679,39.608334 -88.312231,39.608337 -88.312244,39.605057 -88.317184,39.60503 -88.317184,39.603097 -88.312503,39.60307 -88.312502,39.601061 -88.313015,39.60106 -88.313073,39.601059 -88.314458,39.601053 -88.316393,39.601043 -88.317201,39.60104 -88.317937,39.601037 -88.318567,39.601033 -88.319206,39.60103 -88.32083,39.601022 -88.320902,39.601021 -88.321334,39.601019 -88.321687,39.601018 -88.321981,39.601016 -88.321983,39.600992 -88.322005,39.601016 -88.323216,39.600994 -88.32438,39.60097 -88.326655,39.600923 -88.326751,39.608104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

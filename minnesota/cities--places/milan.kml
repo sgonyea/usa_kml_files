@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>milan</name>
+<Schema name="milan" id="milan">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Milan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#milan">
+		<SimpleData name="Name">Milan</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">42146</SimpleData>
+		<SimpleData name="PLACENS">02395319</SimpleData>
+		<SimpleData name="GEOID">2742146</SimpleData>
+		<SimpleData name="NAMELSAD">Milan city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3153152</SimpleData>
+		<SimpleData name="AWATER">35059</SimpleData>
+		<SimpleData name="INTPTLAT">+45.1138152</SimpleData>
+		<SimpleData name="INTPTLON">-095.9200135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.924758,45.108338 -95.92476,45.108631 -95.924768,45.120165 -95.921825,45.120145 -95.918695,45.120118 -95.918456,45.120116 -95.917866,45.120112 -95.915245,45.120094 -95.915174,45.120093 -95.903293,45.120007 -95.903035,45.108666 -95.903004,45.104872 -95.902997,45.104122 -95.902995,45.103864 -95.902986,45.102913 -95.905183,45.105241 -95.908468,45.105213 -95.913984,45.105174 -95.913987,45.1019 -95.91398,45.10141 -95.92471,45.101501 -95.924758,45.108338</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

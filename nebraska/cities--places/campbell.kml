@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>campbell</name>
+<Schema name="campbell" id="campbell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Campbell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#campbell">
+		<SimpleData name="Name">Campbell</SimpleData>
+		<SimpleData name="STATEFP">31</SimpleData>
+		<SimpleData name="PLACEFP">07870</SimpleData>
+		<SimpleData name="PLACENS">02397543</SimpleData>
+		<SimpleData name="GEOID">3107870</SimpleData>
+		<SimpleData name="NAMELSAD">Campbell village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1070451</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2963391</SimpleData>
+		<SimpleData name="INTPTLON">-098.7315221</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.73644,40.298273 -98.73648,40.299066 -98.736473,40.299205 -98.736471,40.299252 -98.736355,40.301625 -98.736362,40.302153 -98.73535,40.302161 -98.733345,40.302179 -98.732696,40.302184 -98.731966,40.302189 -98.728617,40.302221 -98.726983,40.302236 -98.726749,40.302238 -98.726757,40.301895 -98.726758,40.301763 -98.726758,40.301753 -98.726758,40.30171 -98.726757,40.301568 -98.726754,40.300852 -98.726774,40.300804 -98.726767,40.300759 -98.726766,40.300745 -98.726733,40.300528 -98.72673,40.3005 -98.726706,40.299491 -98.726671,40.298234 -98.72667,40.298218 -98.726667,40.297869 -98.726647,40.296264 -98.726652,40.295752 -98.726657,40.295246 -98.726662,40.294734 -98.726646,40.294141 -98.726646,40.294125 -98.726638,40.29382 -98.726627,40.29228 -98.726624,40.29186 -98.726815,40.291202 -98.726888,40.290955 -98.726908,40.290717 -98.735059,40.290041 -98.735079,40.290518 -98.735675,40.290518 -98.735695,40.290896 -98.736094,40.291747 -98.736213,40.291746 -98.73644,40.298273</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

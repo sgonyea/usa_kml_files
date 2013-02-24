@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>berlin</name>
+<Schema name="berlin" id="berlin">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Berlin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#berlin">
+		<SimpleData name="Name">Berlin</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">05443</SimpleData>
+		<SimpleData name="PLACENS">02398103</SimpleData>
+		<SimpleData name="GEOID">1705443</SimpleData>
+		<SimpleData name="NAMELSAD">Berlin village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2588579</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.7576486</SimpleData>
+		<SimpleData name="INTPTLON">-089.9026638</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-89.912101,39.759277 -89.912092,39.761508 -89.912079,39.764829 -89.908705,39.764874 -89.906474,39.764904 -89.90604,39.764899 -89.904738,39.764886 -89.904305,39.764882 -89.901382,39.764894 -89.899793,39.764902 -89.893262,39.764932 -89.89328,39.764286 -89.893364,39.761366 -89.893295,39.757629 -89.893165,39.750438 -89.897183,39.750427 -89.900921,39.750417 -89.900985,39.750407 -89.90118,39.75038 -89.901245,39.750371 -89.903395,39.750384 -89.909847,39.750423 -89.911998,39.750436 -89.912018,39.752204 -89.91208,39.757508 -89.912101,39.759277</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>cromwell</name>
+<Schema name="cromwell" id="cromwell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Cromwell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#cromwell">
+		<SimpleData name="Name">Cromwell</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">17490</SimpleData>
+		<SimpleData name="PLACENS">02393677</SimpleData>
+		<SimpleData name="GEOID">1917490</SimpleData>
+		<SimpleData name="NAMELSAD">Cromwell city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">751181</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.0403126</SimpleData>
+		<SimpleData name="INTPTLON">-094.4617367</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.466504,41.043439 -94.466501,41.044073 -94.466451,41.044102 -94.466219,41.044215 -94.465996,41.044305 -94.465683,41.044392 -94.465212,41.044542 -94.465034,41.044594 -94.464904,41.044631 -94.464749,41.044447 -94.464171,41.043759 -94.464094,41.043661 -94.464036,41.043601 -94.464118,41.044722 -94.464117,41.045058 -94.463931,41.04507 -94.461887,41.045233 -94.461906,41.045642 -94.461772,41.045657 -94.461675,41.045671 -94.461552,41.045688 -94.461551,41.044862 -94.461559,41.043883 -94.456924,41.04454 -94.456891,41.043367 -94.457,41.036059 -94.46172,41.036059 -94.462588,41.036068 -94.466478,41.036142 -94.466504,41.043439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

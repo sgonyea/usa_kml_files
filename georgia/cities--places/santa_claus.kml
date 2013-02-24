@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>santa_claus</name>
+<Schema name="santa_claus" id="santa_claus">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Santa Claus</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#santa_claus">
+		<SimpleData name="Name">Santa Claus</SimpleData>
+		<SimpleData name="STATEFP">13</SimpleData>
+		<SimpleData name="PLACEFP">68600</SimpleData>
+		<SimpleData name="PLACENS">02405421</SimpleData>
+		<SimpleData name="GEOID">1368600</SimpleData>
+		<SimpleData name="NAMELSAD">Santa Claus city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">477498</SimpleData>
+		<SimpleData name="AWATER">2216</SimpleData>
+		<SimpleData name="INTPTLAT">+32.1706531</SimpleData>
+		<SimpleData name="INTPTLON">-082.3295942</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-82.334398,32.170611 -82.334225,32.171776 -82.334149,32.172263 -82.334044,32.173011 -82.333992,32.17347 -82.333969,32.173627 -82.328601,32.173205 -82.328297,32.174785 -82.32809,32.175562 -82.327489,32.175266 -82.326291,32.174649 -82.325381,32.174255 -82.32652,32.167812 -82.327582,32.167977 -82.328613,32.168177 -82.328862,32.168253 -82.328995,32.168273 -82.329621,32.168369 -82.330747,32.168543 -82.332092,32.16874 -82.333454,32.168937 -82.334733,32.16912 -82.334398,32.170611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

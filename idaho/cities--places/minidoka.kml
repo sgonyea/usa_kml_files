@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>minidoka</name>
+<Schema name="minidoka" id="minidoka">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Minidoka</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#minidoka">
+		<SimpleData name="Name">Minidoka</SimpleData>
+		<SimpleData name="STATEFP">16</SimpleData>
+		<SimpleData name="PLACEFP">53110</SimpleData>
+		<SimpleData name="PLACENS">02411121</SimpleData>
+		<SimpleData name="GEOID">1653110</SimpleData>
+		<SimpleData name="NAMELSAD">Minidoka city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">272053</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.7539702</SimpleData>
+		<SimpleData name="INTPTLON">-113.4899550</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-113.493753,42.753267 -113.493728,42.754014 -113.493707,42.75448 -113.493662,42.755522 -113.493659,42.755598 -113.493639,42.755841 -113.493612,42.756184 -113.493604,42.756287 -113.492079,42.756241 -113.491979,42.756246 -113.491834,42.756204 -113.491754,42.756194 -113.491649,42.756188 -113.49139,42.756194 -113.490941,42.756183 -113.490875,42.756177 -113.490747,42.756157 -113.489077,42.756167 -113.487323,42.756177 -113.486834,42.75618 -113.486783,42.755237 -113.48676,42.754799 -113.486749,42.754593 -113.48674,42.754434 -113.486733,42.7543 -113.486723,42.754108 -113.48672,42.754063 -113.48666,42.752895 -113.486624,42.752197 -113.487071,42.75201 -113.487265,42.751261 -113.491192,42.751266 -113.490726,42.752274 -113.490886,42.752273 -113.4918,42.752271 -113.491805,42.752392 -113.491803,42.752567 -113.491787,42.752783 -113.491894,42.752964 -113.492836,42.752991 -113.493285,42.753004 -113.493747,42.75299 -113.493753,42.753267</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

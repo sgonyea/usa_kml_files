@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gunnison</name>
+<Schema name="gunnison" id="gunnison">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gunnison</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gunnison">
+		<SimpleData name="Name">Gunnison</SimpleData>
+		<SimpleData name="STATEFP">28</SimpleData>
+		<SimpleData name="PLACEFP">29900</SimpleData>
+		<SimpleData name="PLACENS">02406629</SimpleData>
+		<SimpleData name="GEOID">2829900</SimpleData>
+		<SimpleData name="NAMELSAD">Gunnison town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2539394</SimpleData>
+		<SimpleData name="AWATER">47543</SimpleData>
+		<SimpleData name="INTPTLAT">+33.9431139</SimpleData>
+		<SimpleData name="INTPTLON">-090.9466440</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-90.955474,33.940986 -90.955472,33.941209 -90.955463,33.942456 -90.955463,33.942517 -90.955464,33.942579 -90.955449,33.94372 -90.955453,33.945147 -90.955434,33.950348 -90.955433,33.950963 -90.950085,33.95093 -90.946334,33.950907 -90.944751,33.950898 -90.943483,33.95089 -90.942634,33.9509 -90.938245,33.95083 -90.937993,33.950826 -90.937969,33.948041 -90.938045,33.942523 -90.938043,33.942141 -90.938073,33.937272 -90.938078,33.936417 -90.946672,33.936432 -90.94853,33.936425 -90.949012,33.936455 -90.951972,33.936462 -90.955518,33.936498 -90.955474,33.940986</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

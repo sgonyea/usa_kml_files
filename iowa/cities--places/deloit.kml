@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>deloit</name>
+<Schema name="deloit" id="deloit">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Deloit</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#deloit">
+		<SimpleData name="Name">Deloit</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">19765</SimpleData>
+		<SimpleData name="PLACENS">02394506</SimpleData>
+		<SimpleData name="GEOID">1919765</SimpleData>
+		<SimpleData name="NAMELSAD">Deloit city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1080212</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.0971421</SimpleData>
+		<SimpleData name="INTPTLON">-095.3174644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.323897,42.091799 -95.323972,42.096652 -95.323948,42.096704 -95.323672,42.09768 -95.323629,42.098086 -95.323624,42.098492 -95.323609,42.098625 -95.323625,42.099581 -95.323633,42.10087 -95.323644,42.101511 -95.322765,42.101515 -95.322276,42.101521 -95.315603,42.101426 -95.315584,42.101449 -95.315506,42.101479 -95.315337,42.101512 -95.313811,42.101494 -95.311618,42.101519 -95.311483,42.101521 -95.311264,42.101489 -95.309581,42.101501 -95.309013,42.101504 -95.309122,42.100646 -95.310166,42.099365 -95.310319,42.098999 -95.310565,42.098268 -95.310663,42.097858 -95.309046,42.097807 -95.309076,42.097102 -95.309966,42.095914 -95.310179,42.095426 -95.310327,42.09485 -95.310333,42.09436 -95.310801,42.094348 -95.311018,42.09431 -95.311294,42.094293 -95.311463,42.094301 -95.311541,42.094323 -95.31257,42.094352 -95.317057,42.094331 -95.317625,42.09387 -95.317837,42.093894 -95.319866,42.092089 -95.319893,42.090699 -95.321431,42.090697 -95.323063,42.090695 -95.323895,42.090695 -95.323897,42.091799</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

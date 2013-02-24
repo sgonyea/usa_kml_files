@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>brocket</name>
+<Schema name="brocket" id="brocket">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Brocket</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#brocket">
+		<SimpleData name="Name">Brocket</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">09700</SimpleData>
+		<SimpleData name="PLACENS">01035943</SimpleData>
+		<SimpleData name="GEOID">3809700</SimpleData>
+		<SimpleData name="NAMELSAD">Brocket city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2006506</SimpleData>
+		<SimpleData name="AWATER">8094</SimpleData>
+		<SimpleData name="INTPTLAT">+48.2108126</SimpleData>
+		<SimpleData name="INTPTLON">-098.3554054</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.368594,48.21694 -98.357856,48.216824 -98.357198,48.216799 -98.35655,48.216792 -98.346466,48.216748 -98.346524,48.209528 -98.346463,48.201882 -98.357079,48.201816 -98.357479,48.201813 -98.357509,48.206776 -98.357466,48.208481 -98.357498,48.209484 -98.363469,48.209472 -98.367694,48.209453 -98.368189,48.21214 -98.368242,48.212245 -98.368594,48.21694</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

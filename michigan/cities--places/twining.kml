@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>twining</name>
+<Schema name="twining" id="twining">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Twining</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#twining">
+		<SimpleData name="Name">Twining</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">81020</SimpleData>
+		<SimpleData name="PLACENS">02400013</SimpleData>
+		<SimpleData name="GEOID">2681020</SimpleData>
+		<SimpleData name="NAMELSAD">Twining village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2515172</SimpleData>
+		<SimpleData name="AWATER">799</SimpleData>
+		<SimpleData name="INTPTLAT">+44.1151928</SimpleData>
+		<SimpleData name="INTPTLON">-083.8122285</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.807277,44.12029 -83.800746,44.120248 -83.797625,44.120229 -83.797718,44.116594 -83.797798,44.112918 -83.797773,44.111257 -83.797714,44.109496 -83.797676,44.107673 -83.797781,44.105761 -83.807033,44.105821 -83.810722,44.105833 -83.813842,44.105856 -83.817351,44.105876 -83.81733,44.108199 -83.817327,44.109872 -83.817268,44.112906 -83.817216,44.117409 -83.817179,44.120353 -83.807277,44.12029</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

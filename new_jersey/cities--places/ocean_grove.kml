@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ocean_grove</name>
+<Schema name="ocean_grove" id="ocean_grove">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ocean Grove</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ocean_grove">
+		<SimpleData name="Name">Ocean Grove</SimpleData>
+		<SimpleData name="STATEFP">34</SimpleData>
+		<SimpleData name="PLACEFP">54480</SimpleData>
+		<SimpleData name="PLACENS">02389609</SimpleData>
+		<SimpleData name="GEOID">3454480</SimpleData>
+		<SimpleData name="NAMELSAD">Ocean Grove CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">963901</SimpleData>
+		<SimpleData name="AWATER">144698</SimpleData>
+		<SimpleData name="INTPTLAT">+40.2118195</SimpleData>
+		<SimpleData name="INTPTLON">-074.0069439</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-74.015933,40.20871 -74.015888,40.208832 -74.015754,40.209199 -74.015705,40.20933 -74.01559,40.209667 -74.01529,40.21051 -74.015256,40.210622 -74.015159,40.210907 -74.015023,40.211283 -74.014985,40.211424 -74.014947,40.211506 -74.014302,40.213349 -74.014192,40.213656 -74.013947,40.214341 -74.013884,40.214355 -74.013369,40.214537 -74.012902,40.214601 -74.012759,40.214625 -74.012722,40.214625 -74.009946,40.214982 -74.009857,40.214991 -74.00968,40.215047 -74.007891,40.215701 -74.005947,40.21636 -74.005675,40.216382 -74.005464,40.21643 -74.002556,40.21709 -74.001279,40.216902 -74.001202,40.216907 -74.001185,40.216973 -74.000895,40.217172 -73.999581,40.217012 -73.998681,40.216812 -73.998481,40.216812 -73.998681,40.216312 -74.001581,40.208713 -74.003181,40.208513 -74.004229,40.208387 -74.004631,40.208436 -74.005873,40.208677 -74.007277,40.207871 -74.008624,40.207152 -74.009331,40.206832 -74.009639,40.206787 -74.009915,40.206904 -74.010564,40.206986 -74.011081,40.207056 -74.011166,40.207091 -74.011341,40.207234 -74.011401,40.207265 -74.011433,40.207267 -74.011478,40.207101 -74.011546,40.207129 -74.01225,40.207479 -74.012686,40.207715 -74.013026,40.207798 -74.01336,40.20788 -74.013876,40.207973 -74.014185,40.208056 -74.014399,40.208133 -74.015187,40.208287 -74.016023,40.208452 -74.015933,40.20871</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

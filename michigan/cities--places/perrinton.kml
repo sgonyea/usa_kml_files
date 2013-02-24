@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>perrinton</name>
+<Schema name="perrinton" id="perrinton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Perrinton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#perrinton">
+		<SimpleData name="Name">Perrinton</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">63660</SimpleData>
+		<SimpleData name="PLACENS">02399655</SimpleData>
+		<SimpleData name="GEOID">2663660</SimpleData>
+		<SimpleData name="NAMELSAD">Perrinton village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1638021</SimpleData>
+		<SimpleData name="AWATER">21844</SimpleData>
+		<SimpleData name="INTPTLAT">+43.1808336</SimpleData>
+		<SimpleData name="INTPTLON">-084.6799000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.689218,43.185364 -84.686749,43.185365 -84.686623,43.185385 -84.679222,43.185331 -84.670846,43.185317 -84.670498,43.185304 -84.6704,43.1853 -84.670311,43.185297 -84.669374,43.185309 -84.669383,43.184898 -84.669369,43.184676 -84.66939,43.184126 -84.669377,43.183399 -84.669377,43.183143 -84.669375,43.182984 -84.669373,43.182794 -84.669372,43.181202 -84.669383,43.181087 -84.669359,43.181003 -84.669344,43.177313 -84.66933,43.176077 -84.672923,43.176093 -84.672996,43.176095 -84.676533,43.176089 -84.679295,43.176092 -84.684272,43.176106 -84.689301,43.176129 -84.689239,43.179865 -84.689221,43.183396 -84.689222,43.183637 -84.689235,43.184746 -84.689218,43.185364</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

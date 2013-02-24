@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wyndmere</name>
+<Schema name="wyndmere" id="wyndmere">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wyndmere</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wyndmere">
+		<SimpleData name="Name">Wyndmere</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">87740</SimpleData>
+		<SimpleData name="PLACENS">01036343</SimpleData>
+		<SimpleData name="GEOID">3887740</SimpleData>
+		<SimpleData name="NAMELSAD">Wyndmere city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2285286</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.2639978</SimpleData>
+		<SimpleData name="INTPTLON">-097.1309577</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.142378,46.266037 -97.140314,46.266001 -97.140306,46.267693 -97.140307,46.267904 -97.140309,46.271336 -97.134983,46.271373 -97.133768,46.271368 -97.126018,46.271355 -97.125367,46.271354 -97.120793,46.27131 -97.120816,46.268231 -97.120788,46.267844 -97.12079,46.267641 -97.122619,46.267643 -97.125389,46.267659 -97.127507,46.267661 -97.127733,46.267664 -97.127621,46.267577 -97.125227,46.265817 -97.120194,46.262041 -97.120196,46.261591 -97.120144,46.261033 -97.120097,46.260566 -97.120087,46.260351 -97.120455,46.256884 -97.133222,46.257017 -97.135092,46.257024 -97.138393,46.257005 -97.140325,46.257005 -97.140339,46.265686 -97.142404,46.265698 -97.142378,46.266037</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

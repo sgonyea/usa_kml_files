@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mapleton</name>
+<Schema name="mapleton" id="mapleton">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Mapleton</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#mapleton">
+		<SimpleData name="Name">Mapleton</SimpleData>
+		<SimpleData name="STATEFP">27</SimpleData>
+		<SimpleData name="PLACEFP">40310</SimpleData>
+		<SimpleData name="PLACENS">02395842</SimpleData>
+		<SimpleData name="GEOID">2740310</SimpleData>
+		<SimpleData name="NAMELSAD">Mapleton city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">3780758</SimpleData>
+		<SimpleData name="AWATER">6354</SimpleData>
+		<SimpleData name="INTPTLAT">+43.9259517</SimpleData>
+		<SimpleData name="INTPTLON">-093.9540404</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.968649,43.925671 -93.968597,43.927744 -93.968595,43.927936 -93.968558,43.934822 -93.965624,43.934837 -93.964039,43.934897 -93.960479,43.935029 -93.95819,43.935114 -93.951167,43.934936 -93.949832,43.934905 -93.948816,43.934993 -93.946005,43.934838 -93.945967,43.930682 -93.944174,43.93069 -93.944175,43.927808 -93.940699,43.927815 -93.938531,43.927846 -93.938563,43.921463 -93.938568,43.920679 -93.93844,43.916138 -93.938525,43.916034 -93.944017,43.920531 -93.944136,43.920635 -93.944464,43.920925 -93.944809,43.921353 -93.945026,43.921627 -93.945092,43.921788 -93.945793,43.921793 -93.945974,43.921793 -93.945973,43.920647 -93.946119,43.920648 -93.948524,43.920636 -93.950615,43.920614 -93.950872,43.920615 -93.950951,43.914785 -93.953264,43.914771 -93.953322,43.917617 -93.958519,43.917588 -93.958519,43.91919 -93.958473,43.920609 -93.960166,43.920621 -93.961843,43.920643 -93.963485,43.920613 -93.965268,43.920626 -93.965661,43.920629 -93.968604,43.92062 -93.968779,43.920619 -93.968649,43.925671</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

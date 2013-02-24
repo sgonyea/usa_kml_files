@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>holyrood</name>
+<Schema name="holyrood" id="holyrood">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Holyrood</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#holyrood">
+		<SimpleData name="Name">Holyrood</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">32850</SimpleData>
+		<SimpleData name="PLACENS">02394411</SimpleData>
+		<SimpleData name="GEOID">2032850</SimpleData>
+		<SimpleData name="NAMELSAD">Holyrood city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1093358</SimpleData>
+		<SimpleData name="AWATER">17701</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5872338</SimpleData>
+		<SimpleData name="INTPTLON">-098.4118038</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-98.42134,38.587293 -98.419978,38.588163 -98.415558,38.591028 -98.415567,38.591507 -98.415575,38.592392 -98.415577,38.592682 -98.415581,38.593121 -98.415609,38.59441 -98.414391,38.594411 -98.413784,38.594406 -98.413079,38.5944 -98.412302,38.594399 -98.412276,38.594206 -98.412249,38.594021 -98.412151,38.59322 -98.411005,38.593288 -98.41081,38.591128 -98.411861,38.591035 -98.41179,38.590583 -98.411705,38.590045 -98.411629,38.589555 -98.410691,38.589627 -98.410652,38.58945 -98.410053,38.589483 -98.409305,38.589563 -98.409308,38.589201 -98.409359,38.588623 -98.408489,38.588707 -98.408028,38.588747 -98.406355,38.588894 -98.406359,38.589032 -98.406382,38.589976 -98.406384,38.590785 -98.406384,38.591005 -98.402974,38.590997 -98.402968,38.590789 -98.402981,38.590682 -98.402999,38.589079 -98.403005,38.588572 -98.403007,38.588409 -98.404237,38.588402 -98.404946,38.588399 -98.404957,38.588313 -98.404964,38.588092 -98.404953,38.587271 -98.405346,38.587202 -98.405698,38.587224 -98.405689,38.58567 -98.40568,38.58417 -98.405649,38.582757 -98.406361,38.582773 -98.407196,38.582735 -98.410739,38.582667 -98.4155,38.582569 -98.415744,38.582566 -98.41588,38.584064 -98.415875,38.584147 -98.416126,38.584145 -98.416136,38.5847 -98.416134,38.584727 -98.416175,38.584727 -98.416831,38.584702 -98.417473,38.58469 -98.418163,38.584679 -98.419,38.584668 -98.419,38.585474 -98.419004,38.58712 -98.419005,38.587241 -98.42141,38.587245 -98.42134,38.587293</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

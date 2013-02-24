@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>high_amana</name>
+<Schema name="high_amana" id="high_amana">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>High Amana</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#high_amana">
+		<SimpleData name="Name">High Amana</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">36030</SimpleData>
+		<SimpleData name="PLACENS">02629967</SimpleData>
+		<SimpleData name="GEOID">1936030</SimpleData>
+		<SimpleData name="NAMELSAD">High Amana CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">996792</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.8011093</SimpleData>
+		<SimpleData name="INTPTLON">-091.9419059</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-91.948837,41.797607 -91.948654,41.798453 -91.948581,41.798842 -91.948191,41.80092 -91.94782,41.802744 -91.94772,41.802959 -91.947301,41.803864 -91.947117,41.804365 -91.946934,41.804434 -91.946507,41.804456 -91.945712,41.804248 -91.945163,41.804155 -91.944643,41.804154 -91.944368,41.804632 -91.944369,41.805179 -91.944277,41.805431 -91.944247,41.805863 -91.944003,41.806114 -91.940179,41.805822 -91.934686,41.805404 -91.932984,41.805275 -91.933044,41.80505 -91.933165,41.804823 -91.933408,41.804551 -91.933559,41.804326 -91.933619,41.804054 -91.933676,41.803398 -91.933825,41.802741 -91.933945,41.802447 -91.934734,41.801474 -91.934732,41.801188 -91.934826,41.801226 -91.935094,41.801318 -91.935506,41.801451 -91.935833,41.801541 -91.936201,41.801632 -91.936396,41.801674 -91.936894,41.801761 -91.937495,41.801841 -91.938224,41.801917 -91.939365,41.794906 -91.944773,41.79627 -91.945994,41.796578 -91.946667,41.796647 -91.948566,41.796497 -91.94899,41.796464 -91.948837,41.797607</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

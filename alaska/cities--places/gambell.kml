@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>gambell</name>
+<Schema name="gambell" id="gambell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Gambell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#gambell">
+		<SimpleData name="Name">Gambell</SimpleData>
+		<SimpleData name="STATEFP">02</SimpleData>
+		<SimpleData name="PLACEFP">27640</SimpleData>
+		<SimpleData name="PLACENS">02419389</SimpleData>
+		<SimpleData name="GEOID">0227640</SimpleData>
+		<SimpleData name="NAMELSAD">Gambell city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">28230077</SimpleData>
+		<SimpleData name="AWATER">50385894</SimpleData>
+		<SimpleData name="INTPTLAT">+63.7772011</SimpleData>
+		<SimpleData name="INTPTLON">-171.7257101</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-171.733603,63.715731 -171.734054,63.715808 -171.737933,63.716472 -171.739226,63.716694 -171.750241,63.718351 -171.771006,63.723393 -171.80099,63.734098 -171.810391,63.740808 -171.810934,63.741196 -171.815907,63.750661 -171.815907,63.760125 -171.805963,63.779054 -171.796019,63.790884 -171.775347,63.800735 -171.7595,63.80413 -171.727492,63.807398 -171.693163,63.805279 -171.665884,63.800543 -171.646295,63.792626 -171.633195,63.78427 -171.627654,63.780736 -171.618326,63.767916 -171.61803,63.755334 -171.622914,63.743297 -171.636856,63.732655 -171.646692,63.729425 -171.654586,63.725651 -171.662477,63.722921 -171.662968,63.722811 -171.690607,63.716669 -171.715089,63.715893 -171.727506,63.7155 -171.732682,63.715696 -171.732697,63.715674 -171.732745,63.715608 -171.732761,63.715587 -171.733603,63.715731</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

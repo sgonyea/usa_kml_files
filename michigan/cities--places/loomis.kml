@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>loomis</name>
+<Schema name="loomis" id="loomis">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Loomis</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#loomis">
+		<SimpleData name="Name">Loomis</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">49400</SimpleData>
+		<SimpleData name="PLACENS">02628827</SimpleData>
+		<SimpleData name="GEOID">2649400</SimpleData>
+		<SimpleData name="NAMELSAD">Loomis CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">7253765</SimpleData>
+		<SimpleData name="AWATER">46782</SimpleData>
+		<SimpleData name="INTPTLAT">+43.7849297</SimpleData>
+		<SimpleData name="INTPTLON">-084.6562095</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-84.685438,43.806366 -84.672404,43.801243 -84.671586,43.800911 -84.670729,43.800612 -84.667748,43.79942 -84.666829,43.799052 -84.665951,43.79871 -84.663114,43.797605 -84.646493,43.791068 -84.646637,43.789721 -84.646779,43.784373 -84.646808,43.783998 -84.646796,43.779002 -84.646831,43.771604 -84.656944,43.771583 -84.657101,43.771584 -84.666995,43.771566 -84.666976,43.778076 -84.666974,43.778836 -84.666932,43.786084 -84.669594,43.786065 -84.672739,43.786082 -84.674911,43.786093 -84.687084,43.786063 -84.687084,43.787711 -84.687065,43.789649 -84.687052,43.793296 -84.686994,43.798384 -84.686998,43.798539 -84.686983,43.798732 -84.687008,43.80053 -84.686945,43.806159 -84.686938,43.806479 -84.68698,43.806855 -84.685438,43.806366</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

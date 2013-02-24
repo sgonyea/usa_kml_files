@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ventana</name>
+<Schema name="ventana" id="ventana">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ventana</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ventana">
+		<SimpleData name="Name">Ventana</SimpleData>
+		<SimpleData name="STATEFP">04</SimpleData>
+		<SimpleData name="PLACEFP">79590</SimpleData>
+		<SimpleData name="PLACENS">02582890</SimpleData>
+		<SimpleData name="GEOID">0479590</SimpleData>
+		<SimpleData name="NAMELSAD">Ventana CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">2685234</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.4680478</SimpleData>
+		<SimpleData name="INTPTLON">-112.2434466</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-112.254252,32.46709 -112.25425,32.467186 -112.249809,32.477247 -112.237816,32.476638 -112.23604,32.470357 -112.236123,32.464764 -112.236826,32.456497 -112.244066,32.456744 -112.24394,32.457926 -112.243463,32.462402 -112.243453,32.462506 -112.243705,32.462553 -112.24375,32.462569 -112.244133,32.462597 -112.244904,32.462558 -112.245015,32.462536 -112.245066,32.462514 -112.245378,32.462459 -112.245799,32.462486 -112.245994,32.46253 -112.246091,32.462568 -112.246655,32.462733 -112.247226,32.462815 -112.247382,32.462826 -112.247603,32.46287 -112.247771,32.462925 -112.247907,32.462991 -112.248319,32.46359 -112.248524,32.463887 -112.248654,32.463997 -112.248804,32.464104 -112.248914,32.464183 -112.249024,32.464244 -112.249491,32.464409 -112.249999,32.464636 -112.250135,32.464729 -112.250426,32.464977 -112.250705,32.465406 -112.250737,32.465527 -112.250763,32.46556 -112.250834,32.465796 -112.25086,32.465818 -112.25086,32.465851 -112.25088,32.465901 -112.251022,32.466055 -112.251029,32.466099 -112.251055,32.466121 -112.251107,32.466236 -112.251184,32.466313 -112.251223,32.466374 -112.251411,32.466539 -112.251541,32.466616 -112.251748,32.46666 -112.25217,32.466682 -112.252481,32.46671 -112.252721,32.466699 -112.252825,32.466704 -112.253046,32.46665 -112.253363,32.466644 -112.253662,32.466677 -112.253876,32.466727 -112.253895,32.466743 -112.25396,32.46676 -112.254103,32.466837 -112.254219,32.466958 -112.254239,32.466991 -112.254252,32.46709</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

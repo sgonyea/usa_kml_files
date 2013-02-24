@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>center_point</name>
+<Schema name="center_point" id="center_point">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Center Point</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#center_point">
+		<SimpleData name="Name">Center Point</SimpleData>
+		<SimpleData name="STATEFP">18</SimpleData>
+		<SimpleData name="PLACEFP">11746</SimpleData>
+		<SimpleData name="PLACENS">02396635</SimpleData>
+		<SimpleData name="GEOID">1811746</SimpleData>
+		<SimpleData name="NAMELSAD">Center Point town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1917126</SimpleData>
+		<SimpleData name="AWATER">57801</SimpleData>
+		<SimpleData name="INTPTLAT">+39.4157658</SimpleData>
+		<SimpleData name="INTPTLON">-087.0755738</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-87.082143,39.422707 -87.072772,39.422661 -87.067991,39.422627 -87.068108,39.417355 -87.068142,39.408065 -87.070521,39.408024 -87.070569,39.40801 -87.070784,39.408027 -87.071382,39.408042 -87.072884,39.408044 -87.082322,39.408134 -87.082327,39.409001 -87.082329,39.409244 -87.082322,39.409821 -87.082264,39.413253 -87.082256,39.415113 -87.082255,39.415374 -87.082235,39.416852 -87.082189,39.420307 -87.082189,39.420378 -87.082175,39.421074 -87.082163,39.421826 -87.082143,39.422707</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

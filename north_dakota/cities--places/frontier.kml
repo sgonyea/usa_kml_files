@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>frontier</name>
+<Schema name="frontier" id="frontier">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Frontier</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#frontier">
+		<SimpleData name="Name">Frontier</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">28720</SimpleData>
+		<SimpleData name="PLACENS">01036046</SimpleData>
+		<SimpleData name="GEOID">3828720</SimpleData>
+		<SimpleData name="NAMELSAD">Frontier city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">482424</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.8004416</SimpleData>
+		<SimpleData name="INTPTLON">-096.8331785</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.838054,46.797698 -96.838022,46.79913 -96.838003,46.801094 -96.837968,46.801374 -96.837897,46.801632 -96.83774,46.801892 -96.837566,46.80212 -96.837198,46.80247 -96.836851,46.802723 -96.836513,46.802915 -96.836046,46.803093 -96.835793,46.803221 -96.835384,46.803384 -96.835058,46.80348 -96.83489,46.803519 -96.834604,46.80357 -96.834326,46.803603 -96.834254,46.803609 -96.834049,46.80362 -96.834047,46.803838 -96.83398,46.803958 -96.833897,46.804023 -96.833791,46.804069 -96.833423,46.804063 -96.832897,46.804055 -96.832133,46.804036 -96.831415,46.804003 -96.830162,46.803906 -96.829168,46.803812 -96.828879,46.803793 -96.828879,46.803224 -96.828904,46.801491 -96.828994,46.797041 -96.829389,46.79706 -96.830375,46.79711 -96.832334,46.797131 -96.83429,46.797153 -96.834784,46.797159 -96.834782,46.797561 -96.838056,46.797581 -96.838054,46.797698</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

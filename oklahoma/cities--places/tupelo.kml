@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tupelo</name>
+<Schema name="tupelo" id="tupelo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tupelo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tupelo">
+		<SimpleData name="Name">Tupelo</SimpleData>
+		<SimpleData name="STATEFP">40</SimpleData>
+		<SimpleData name="PLACEFP">75050</SimpleData>
+		<SimpleData name="PLACENS">02412112</SimpleData>
+		<SimpleData name="GEOID">4075050</SimpleData>
+		<SimpleData name="NAMELSAD">Tupelo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1083364</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+34.6024444</SimpleData>
+		<SimpleData name="INTPTLON">-096.4203954</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.426621,34.604614 -96.42661,34.605111 -96.42618,34.605166 -96.424399,34.605394 -96.424386,34.605972 -96.424396,34.606721 -96.424401,34.607232 -96.424402,34.6073 -96.419562,34.607357 -96.415813,34.607558 -96.415623,34.607449 -96.415429,34.606695 -96.415262,34.606049 -96.415095,34.605547 -96.414975,34.604687 -96.414967,34.604522 -96.414895,34.602619 -96.414875,34.602067 -96.414709,34.602078 -96.414722,34.60172 -96.41486,34.601695 -96.414866,34.600313 -96.414426,34.600319 -96.414149,34.600281 -96.413385,34.600187 -96.41339,34.599975 -96.413428,34.598103 -96.414816,34.598105 -96.4157,34.598111 -96.424425,34.598141 -96.426714,34.598081 -96.426621,34.604614</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

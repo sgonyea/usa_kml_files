@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>tampa</name>
+<Schema name="tampa" id="tampa">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Tampa</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tampa">
+		<SimpleData name="Name">Tampa</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">70000</SimpleData>
+		<SimpleData name="PLACENS">02396029</SimpleData>
+		<SimpleData name="GEOID">2070000</SimpleData>
+		<SimpleData name="NAMELSAD">Tampa city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">459729</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.5480697</SimpleData>
+		<SimpleData name="INTPTLON">-097.1540639</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-97.159005,38.549347 -97.158181,38.54932 -97.158194,38.549386 -97.15822,38.549477 -97.158247,38.54954 -97.158243,38.549585 -97.158224,38.549607 -97.158177,38.549632 -97.158086,38.549642 -97.158003,38.549643 -97.158041,38.551489 -97.156176,38.551485 -97.154843,38.551484 -97.153569,38.551484 -97.15225,38.551484 -97.151007,38.551477 -97.150839,38.551483 -97.150821,38.550208 -97.150822,38.549959 -97.150822,38.549243 -97.150841,38.54788 -97.150848,38.547517 -97.150862,38.546719 -97.15086,38.546251 -97.150859,38.546135 -97.150854,38.545122 -97.150868,38.543642 -97.15087,38.543288 -97.152462,38.543181 -97.152474,38.544272 -97.155159,38.544234 -97.155206,38.54485 -97.155221,38.545263 -97.155246,38.545449 -97.155284,38.546263 -97.155276,38.546422 -97.157692,38.546435 -97.157774,38.546465 -97.157785,38.546899 -97.157747,38.547627 -97.158043,38.54762 -97.158055,38.549094 -97.159018,38.549104 -97.159005,38.549347</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

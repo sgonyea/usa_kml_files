@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>saranac</name>
+<Schema name="saranac" id="saranac">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Saranac</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#saranac">
+		<SimpleData name="Name">Saranac</SimpleData>
+		<SimpleData name="STATEFP">26</SimpleData>
+		<SimpleData name="PLACEFP">71660</SimpleData>
+		<SimpleData name="PLACENS">02399184</SimpleData>
+		<SimpleData name="GEOID">2671660</SimpleData>
+		<SimpleData name="NAMELSAD">Saranac village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2980902</SimpleData>
+		<SimpleData name="AWATER">130937</SimpleData>
+		<SimpleData name="INTPTLAT">+42.9273150</SimpleData>
+		<SimpleData name="INTPTLON">-085.2095437</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-85.222037,42.935228 -85.22158,42.935371 -85.22087,42.935475 -85.220399,42.935458 -85.219136,42.935171 -85.218143,42.934838 -85.218126,42.935168 -85.218109,42.935514 -85.218133,42.936644 -85.213454,42.936649 -85.209746,42.936639 -85.209262,42.93665 -85.20902,42.936655 -85.198483,42.9367 -85.198457,42.935298 -85.198467,42.935074 -85.198004,42.935191 -85.197968,42.933986 -85.198439,42.933825 -85.198433,42.933212 -85.198399,42.93167 -85.198372,42.929817 -85.198352,42.929691 -85.19837,42.92956 -85.198417,42.928021 -85.198344,42.922595 -85.198336,42.922498 -85.205341,42.922494 -85.205624,42.922494 -85.21326,42.92238 -85.215743,42.922358 -85.218206,42.922379 -85.223069,42.922403 -85.223001,42.926673 -85.222972,42.928476 -85.222851,42.93489 -85.222037,42.935228</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>bardwell</name>
+<Schema name="bardwell" id="bardwell">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Bardwell</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bardwell">
+		<SimpleData name="Name">Bardwell</SimpleData>
+		<SimpleData name="STATEFP">48</SimpleData>
+		<SimpleData name="PLACEFP">05612</SimpleData>
+		<SimpleData name="PLACENS">02409786</SimpleData>
+		<SimpleData name="GEOID">4805612</SimpleData>
+		<SimpleData name="NAMELSAD">Bardwell city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">789263</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+32.2670760</SimpleData>
+		<SimpleData name="INTPTLON">-096.6955387</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.701401,32.269908 -96.700108,32.2704 -96.699761,32.270547 -96.699005,32.270912 -96.698472,32.271168 -96.695111,32.272769 -96.694845,32.272897 -96.694694,32.272673 -96.694519,32.272415 -96.693947,32.272674 -96.691957,32.26869 -96.69153,32.268003 -96.692142,32.267709 -96.690685,32.265101 -96.691392,32.264775 -96.691163,32.264412 -96.690714,32.26372 -96.690435,32.263292 -96.690352,32.263187 -96.690276,32.263131 -96.690202,32.263114 -96.690073,32.263121 -96.69106,32.262648 -96.692912,32.26173 -96.693562,32.261404 -96.693605,32.261428 -96.693716,32.261502 -96.693889,32.261629 -96.69398,32.261716 -96.694153,32.26191 -96.694437,32.26232 -96.694757,32.262811 -96.696895,32.261999 -96.698741,32.264525 -96.699498,32.265804 -96.699125,32.265924 -96.699434,32.266469 -96.70004,32.26737 -96.700214,32.267632 -96.701401,32.269908</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

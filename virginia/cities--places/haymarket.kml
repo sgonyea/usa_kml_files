@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>haymarket</name>
+<Schema name="haymarket" id="haymarket">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Haymarket</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#haymarket">
+		<SimpleData name="Name">Haymarket</SimpleData>
+		<SimpleData name="STATEFP">51</SimpleData>
+		<SimpleData name="PLACEFP">35976</SimpleData>
+		<SimpleData name="PLACENS">02390236</SimpleData>
+		<SimpleData name="GEOID">5135976</SimpleData>
+		<SimpleData name="NAMELSAD">Haymarket town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1455040</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.8122993</SimpleData>
+		<SimpleData name="INTPTLON">-077.6363979</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.646406,38.813065 -77.646057,38.813326 -77.645923,38.813426 -77.64585,38.813481 -77.643996,38.814767 -77.643394,38.815185 -77.643167,38.815189 -77.642976,38.81539 -77.642886,38.815486 -77.642768,38.815606 -77.642142,38.816249 -77.641985,38.816356 -77.641748,38.816656 -77.641492,38.81692 -77.641197,38.817239 -77.640554,38.817888 -77.640441,38.818012 -77.640236,38.818238 -77.639473,38.819031 -77.639301,38.819202 -77.639105,38.819398 -77.639029,38.819473 -77.638671,38.819267 -77.638312,38.819084 -77.638124,38.818983 -77.637944,38.818885 -77.637596,38.8187 -77.637219,38.818514 -77.636853,38.818306 -77.636446,38.818075 -77.636262,38.818187 -77.635155,38.817554 -77.634841,38.817374 -77.633607,38.816691 -77.633662,38.816588 -77.633619,38.816588 -77.630863,38.815117 -77.630618,38.814986 -77.6296,38.814442 -77.627673,38.813414 -77.626617,38.81285 -77.626124,38.812587 -77.62628,38.812402 -77.626663,38.811981 -77.626825,38.811805 -77.627031,38.81158 -77.629565,38.808935 -77.630163,38.808332 -77.631061,38.807449 -77.633442,38.805352 -77.633513,38.80529 -77.634108,38.805604 -77.636574,38.806749 -77.637458,38.807188 -77.637989,38.807453 -77.638346,38.807602 -77.638648,38.80776 -77.638725,38.807874 -77.643232,38.810054 -77.646137,38.811492 -77.645636,38.812041 -77.645984,38.812262 -77.646793,38.812778 -77.646406,38.813065</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

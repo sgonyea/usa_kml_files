@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>forksville</name>
+<Schema name="forksville" id="forksville">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Forksville</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#forksville">
+		<SimpleData name="Name">Forksville</SimpleData>
+		<SimpleData name="STATEFP">42</SimpleData>
+		<SimpleData name="PLACEFP">26760</SimpleData>
+		<SimpleData name="PLACENS">01215605</SimpleData>
+		<SimpleData name="GEOID">4226760</SimpleData>
+		<SimpleData name="NAMELSAD">Forksville borough</SimpleData>
+		<SimpleData name="LSAD">21</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">4075270</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+41.4896126</SimpleData>
+		<SimpleData name="INTPTLON">-076.6028409</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-76.619991,41.492918 -76.614266,41.495195 -76.606654,41.498237 -76.602729,41.499761 -76.596914,41.497203 -76.596521,41.497025 -76.580773,41.490087 -76.587479,41.487353 -76.587936,41.487166 -76.588099,41.487104 -76.588493,41.48694 -76.597246,41.483369 -76.597516,41.483262 -76.610575,41.477937 -76.615946,41.486467 -76.616389,41.487171 -76.616489,41.487331 -76.616667,41.487613 -76.617681,41.489223 -76.617997,41.489734 -76.618601,41.49069 -76.61925,41.491734 -76.619641,41.492358 -76.619991,41.492918</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

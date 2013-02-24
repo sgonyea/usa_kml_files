@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>ekron</name>
+<Schema name="ekron" id="ekron">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Ekron</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ekron">
+		<SimpleData name="Name">Ekron</SimpleData>
+		<SimpleData name="STATEFP">21</SimpleData>
+		<SimpleData name="PLACEFP">24094</SimpleData>
+		<SimpleData name="PLACENS">02403546</SimpleData>
+		<SimpleData name="GEOID">2124094</SimpleData>
+		<SimpleData name="NAMELSAD">Ekron city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">420301</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+37.9302489</SimpleData>
+		<SimpleData name="INTPTLON">-086.1763961</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-86.181622,37.929265 -86.18144,37.929615 -86.179131,37.934035 -86.178761,37.933872 -86.178053,37.933565 -86.177497,37.93333 -86.177364,37.933276 -86.1772,37.933209 -86.176409,37.932875 -86.175802,37.932515 -86.175205,37.932284 -86.174758,37.932925 -86.173858,37.932536 -86.173965,37.93234 -86.174297,37.931953 -86.174308,37.931937 -86.173021,37.93151 -86.173095,37.931394 -86.171012,37.930461 -86.171206,37.929705 -86.171212,37.929683 -86.172067,37.928882 -86.172412,37.928492 -86.172729,37.927882 -86.173667,37.927125 -86.173711,37.927091 -86.173933,37.926818 -86.174707,37.927064 -86.175748,37.927396 -86.179795,37.928683 -86.181622,37.929265</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

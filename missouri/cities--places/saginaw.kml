@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>saginaw</name>
+<Schema name="saginaw" id="saginaw">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Saginaw</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#saginaw">
+		<SimpleData name="Name">Saginaw</SimpleData>
+		<SimpleData name="STATEFP">29</SimpleData>
+		<SimpleData name="PLACEFP">63902</SimpleData>
+		<SimpleData name="PLACENS">02399155</SimpleData>
+		<SimpleData name="GEOID">2963902</SimpleData>
+		<SimpleData name="NAMELSAD">Saginaw village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">2135988</SimpleData>
+		<SimpleData name="AWATER">5253</SimpleData>
+		<SimpleData name="INTPTLAT">+37.0278576</SimpleData>
+		<SimpleData name="INTPTLON">-094.4747205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.479509,37.017675 -94.479472,37.019034 -94.479439,37.020224 -94.479431,37.020532 -94.479382,37.022551 -94.47938,37.02265 -94.479331,37.024469 -94.479316,37.024912 -94.479256,37.026645 -94.479232,37.02799 -94.479196,37.029069 -94.479156,37.030113 -94.479132,37.030833 -94.479124,37.031046 -94.479122,37.031119 -94.479112,37.031389 -94.479097,37.03184 -94.479078,37.03238 -94.479052,37.033145 -94.479038,37.033555 -94.476845,37.033462 -94.476671,37.033461 -94.475619,37.033461 -94.474886,37.033463 -94.474623,37.033461 -94.471619,37.033326 -94.470332,37.033269 -94.469339,37.033262 -94.46583,37.033214 -94.463983,37.033179 -94.462314,37.033148 -94.461934,37.033157 -94.461501,37.033164 -94.460781,37.033174 -94.46074,37.033173 -94.460223,37.033161 -94.460858,37.032513 -94.460981,37.032403 -94.463184,37.030505 -94.463219,37.030472 -94.463311,37.030386 -94.464066,37.029613 -94.465826,37.02776 -94.466329,37.025977 -94.467263,37.022679 -94.467922,37.020362 -94.46879,37.016921 -94.469108,37.016938 -94.470679,37.017004 -94.471546,37.017022 -94.47936,37.017526 -94.479513,37.017535 -94.479509,37.017675</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

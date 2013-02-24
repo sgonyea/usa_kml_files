@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>zearing</name>
+<Schema name="zearing" id="zearing">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Zearing</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#zearing">
+		<SimpleData name="Name">Zearing</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">87555</SimpleData>
+		<SimpleData name="PLACENS">02397397</SimpleData>
+		<SimpleData name="GEOID">1987555</SimpleData>
+		<SimpleData name="NAMELSAD">Zearing city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1938971</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.1589252</SimpleData>
+		<SimpleData name="INTPTLON">-093.2971817</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.304453,42.159988 -93.304476,42.161831 -93.30446,42.166187 -93.302535,42.166196 -93.301715,42.166196 -93.301055,42.166195 -93.300335,42.166193 -93.297281,42.166184 -93.296163,42.166181 -93.295921,42.166179 -93.295286,42.166169 -93.294608,42.166159 -93.293444,42.166143 -93.293053,42.166137 -93.292903,42.166136 -93.290339,42.166121 -93.289893,42.166113 -93.289884,42.164096 -93.289898,42.162882 -93.289887,42.162043 -93.289885,42.16191 -93.28988,42.161093 -93.289879,42.16004 -93.289886,42.158929 -93.289892,42.157973 -93.289885,42.153844 -93.289893,42.152669 -93.2899,42.151668 -93.291682,42.151663 -93.292982,42.15166 -93.297383,42.151702 -93.298578,42.151685 -93.304308,42.151695 -93.304482,42.151697 -93.304453,42.159988</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

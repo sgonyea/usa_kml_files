@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>menlo</name>
+<Schema name="menlo" id="menlo">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Menlo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#menlo">
+		<SimpleData name="Name">Menlo</SimpleData>
+		<SimpleData name="STATEFP">20</SimpleData>
+		<SimpleData name="PLACEFP">45750</SimpleData>
+		<SimpleData name="PLACENS">02395099</SimpleData>
+		<SimpleData name="GEOID">2045750</SimpleData>
+		<SimpleData name="NAMELSAD">Menlo city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">304617</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+39.3561123</SimpleData>
+		<SimpleData name="INTPTLON">-100.7242773</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.728097,39.354287 -100.728075,39.354615 -100.728066,39.354718 -100.728024,39.355178 -100.72799,39.355507 -100.727843,39.356176 -100.727783,39.356645 -100.727667,39.357212 -100.72763,39.357297 -100.727757,39.358002 -100.727411,39.35842 -100.720935,39.358484 -100.720943,39.357863 -100.720943,39.357733 -100.720945,39.35705 -100.720944,39.356589 -100.720933,39.356358 -100.720926,39.356203 -100.720919,39.356041 -100.72093,39.355859 -100.720934,39.355797 -100.720933,39.355713 -100.720932,39.355277 -100.720932,39.355175 -100.720932,39.35506 -100.720932,39.35501 -100.720932,39.354995 -100.720931,39.35498 -100.720931,39.354952 -100.720931,39.354867 -100.720931,39.354696 -100.72093,39.354458 -100.72093,39.354447 -100.720941,39.353888 -100.720938,39.353777 -100.720944,39.353409 -100.722846,39.353657 -100.728097,39.354287</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

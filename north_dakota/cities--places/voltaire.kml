@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>voltaire</name>
+<Schema name="voltaire" id="voltaire">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Voltaire</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#voltaire">
+		<SimpleData name="Name">Voltaire</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">82380</SimpleData>
+		<SimpleData name="PLACENS">01036310</SimpleData>
+		<SimpleData name="GEOID">3882380</SimpleData>
+		<SimpleData name="NAMELSAD">Voltaire city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1042002</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.0192848</SimpleData>
+		<SimpleData name="INTPTLON">-100.8448799</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.853994,48.015343 -100.854018,48.016336 -100.854052,48.017713 -100.854083,48.019505 -100.854111,48.020197 -100.854116,48.020312 -100.854121,48.020487 -100.85417,48.022427 -100.851618,48.022446 -100.844224,48.022502 -100.844105,48.022529 -100.844043,48.022538 -100.843694,48.022549 -100.843503,48.022542 -100.843409,48.022532 -100.843223,48.022503 -100.843084,48.022469 -100.843015,48.022493 -100.842938,48.022506 -100.842212,48.022511 -100.841722,48.022513 -100.838811,48.022531 -100.837555,48.022532 -100.83341,48.022529 -100.833385,48.018138 -100.833383,48.017848 -100.833326,48.017472 -100.835233,48.017662 -100.838535,48.017973 -100.839325,48.018053 -100.841199,48.018242 -100.841724,48.018296 -100.843266,48.018447 -100.843265,48.018234 -100.843243,48.014964 -100.853173,48.015069 -100.853988,48.015076 -100.853994,48.015343</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

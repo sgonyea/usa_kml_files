@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>golden_gate</name>
+<Schema name="golden_gate" id="golden_gate">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Golden Gate</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#golden_gate">
+		<SimpleData name="Name">Golden Gate</SimpleData>
+		<SimpleData name="STATEFP">17</SimpleData>
+		<SimpleData name="PLACEFP">30250</SimpleData>
+		<SimpleData name="PLACENS">02398173</SimpleData>
+		<SimpleData name="GEOID">1730250</SimpleData>
+		<SimpleData name="NAMELSAD">Golden Gate village</SimpleData>
+		<SimpleData name="LSAD">47</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">196656</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+38.3588856</SimpleData>
+		<SimpleData name="INTPTLON">-088.2048047</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-88.207402,38.360699 -88.207178,38.360701 -88.206061,38.360706 -88.204949,38.360712 -88.204952,38.360864 -88.20379,38.360841 -88.203792,38.360717 -88.202808,38.360555 -88.202798,38.35974 -88.201793,38.359725 -88.201793,38.359448 -88.201793,38.359039 -88.201784,38.358158 -88.201719,38.357305 -88.20174,38.35704 -88.202726,38.357044 -88.203316,38.357045 -88.203678,38.357052 -88.20385,38.35705 -88.205019,38.357044 -88.206161,38.357046 -88.206517,38.35704 -88.207283,38.357048 -88.207249,38.358236 -88.207209,38.359333 -88.207242,38.359546 -88.20725,38.359604 -88.208293,38.359613 -88.208293,38.359726 -88.208304,38.360665 -88.207402,38.360699</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

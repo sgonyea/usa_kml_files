@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>oxbow</name>
+<Schema name="oxbow" id="oxbow">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Oxbow</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#oxbow">
+		<SimpleData name="Name">Oxbow</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">60480</SimpleData>
+		<SimpleData name="PLACENS">01033709</SimpleData>
+		<SimpleData name="GEOID">3860480</SimpleData>
+		<SimpleData name="NAMELSAD">Oxbow city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1090861</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+46.6720263</SimpleData>
+		<SimpleData name="INTPTLON">-096.8018350</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-96.809227,46.667177 -96.809022,46.669502 -96.809013,46.669598 -96.809007,46.670155 -96.809007,46.670679 -96.809016,46.671364 -96.809785,46.67136 -96.80982,46.673011 -96.808903,46.673635 -96.808135,46.674159 -96.808002,46.674249 -96.805688,46.675839 -96.80347,46.677355 -96.802438,46.678075 -96.802098,46.678326 -96.801795,46.678567 -96.801193,46.679114 -96.800789,46.67957 -96.800471,46.679959 -96.800105,46.680498 -96.799888,46.680873 -96.799714,46.681248 -96.799445,46.679514 -96.79925,46.678248 -96.79936,46.676571 -96.799487,46.676012 -96.79951,46.675245 -96.79937,46.674875 -96.798957,46.67437 -96.798853,46.674163 -96.798272,46.673659 -96.797694,46.673435 -96.796681,46.67331 -96.795701,46.673301 -96.794054,46.673836 -96.793177,46.673988 -96.792771,46.673901 -96.792057,46.67347 -96.791679,46.673057 -96.791539,46.67278 -96.791469,46.672525 -96.791633,46.672198 -96.791932,46.671892 -96.792268,46.671771 -96.792302,46.671701 -96.792475,46.671789 -96.793368,46.671641 -96.794172,46.671575 -96.794637,46.671415 -96.794604,46.670843 -96.793973,46.670203 -96.79394,46.670135 -96.79384,46.669975 -96.793708,46.669678 -96.793675,46.669289 -96.793907,46.668558 -96.79424,46.668033 -96.79441,46.667916 -96.794704,46.667713 -96.795136,46.667507 -96.795866,46.667439 -96.796132,46.66753 -96.796763,46.667987 -96.797194,46.66849 -96.797825,46.668764 -96.79912,46.668902 -96.800215,46.668788 -96.801344,46.668514 -96.801908,46.668057 -96.802041,46.667851 -96.802074,46.667508 -96.801809,46.667234 -96.801383,46.66699 -96.80301,46.666959 -96.809258,46.666838 -96.809227,46.667177</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>manalapan</name>
+<Schema name="manalapan" id="manalapan">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Manalapan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#manalapan">
+		<SimpleData name="Name">Manalapan</SimpleData>
+		<SimpleData name="STATEFP">12</SimpleData>
+		<SimpleData name="PLACEFP">42700</SimpleData>
+		<SimpleData name="PLACENS">02406086</SimpleData>
+		<SimpleData name="GEOID">1242700</SimpleData>
+		<SimpleData name="NAMELSAD">Manalapan town</SimpleData>
+		<SimpleData name="LSAD">43</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">1159438</SimpleData>
+		<SimpleData name="AWATER">26078809</SimpleData>
+		<SimpleData name="INTPTLAT">+26.5666400</SimpleData>
+		<SimpleData name="INTPTLON">-080.0401857</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.048994,26.553843 -80.048978,26.553958 -80.048953,26.554135 -80.048884,26.554609 -80.048863,26.554748 -80.048108,26.562821 -80.047431,26.570071 -80.047395,26.570457 -80.047163,26.572947 -80.047147,26.573193 -80.047135,26.573374 -80.044836,26.573379 -80.044847,26.573203 -80.044863,26.572947 -80.044963,26.572347 -80.044647,26.572422 -80.044362,26.572424 -80.04296,26.572412 -80.04257,26.572414 -80.042387,26.572403 -80.04129,26.572393 -80.041106,26.573238 -80.040163,26.577547 -80.039993,26.581117 -80.041732,26.583251 -80.041963,26.583447 -80.042054,26.584107 -80.039079,26.58401 -80.037455,26.583994 -80.035416,26.58401 -80.033071,26.58403 -79.999762,26.584038 -79.981681,26.584028 -79.98209,26.57961 -79.982476,26.569247 -79.984119,26.560926 -79.98511,26.553786 -79.985875,26.550887 -79.985513,26.549384 -79.985275,26.544973 -80.030356,26.543891 -80.037645,26.544876 -80.04042,26.545235 -80.041176,26.545333 -80.042063,26.545448 -80.043318,26.545647 -80.050063,26.546548 -80.048994,26.553843</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

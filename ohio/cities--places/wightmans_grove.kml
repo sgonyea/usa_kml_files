@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>wightmans_grove</name>
+<Schema name="wightmans_grove" id="wightmans_grove">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Wightmans Grove</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#wightmans_grove">
+		<SimpleData name="Name">Wightmans Grove</SimpleData>
+		<SimpleData name="STATEFP">39</SimpleData>
+		<SimpleData name="PLACEFP">85085</SimpleData>
+		<SimpleData name="PLACENS">02584371</SimpleData>
+		<SimpleData name="GEOID">3985085</SimpleData>
+		<SimpleData name="NAMELSAD">Wightmans Grove CDP</SimpleData>
+		<SimpleData name="LSAD">57</SimpleData>
+		<SimpleData name="CLASSFP">U1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4210</SimpleData>
+		<SimpleData name="FUNCSTAT">S</SimpleData>
+		<SimpleData name="ALAND">366423</SimpleData>
+		<SimpleData name="AWATER">36899</SimpleData>
+		<SimpleData name="INTPTLAT">+41.4236212</SimpleData>
+		<SimpleData name="INTPTLON">-083.0457580</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-83.053184,41.421732 -83.052439,41.423636 -83.052295,41.424062 -83.051963,41.423914 -83.051908,41.423939 -83.051266,41.423971 -83.049446,41.424559 -83.048343,41.425172 -83.04775,41.426236 -83.047237,41.427383 -83.047194,41.428174 -83.046909,41.428523 -83.046501,41.429024 -83.045319,41.427714 -83.04453,41.42684 -83.040182,41.421998 -83.044182,41.421931 -83.045916,41.421911 -83.047677,41.421853 -83.050781,41.421772 -83.051337,41.421761 -83.051766,41.421754 -83.052498,41.421742 -83.052679,41.421739 -83.053184,41.421732</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

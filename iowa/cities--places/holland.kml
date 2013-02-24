@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>holland</name>
+<Schema name="holland" id="holland">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Holland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#holland">
+		<SimpleData name="Name">Holland</SimpleData>
+		<SimpleData name="STATEFP">19</SimpleData>
+		<SimpleData name="PLACEFP">36705</SimpleData>
+		<SimpleData name="PLACENS">02394401</SimpleData>
+		<SimpleData name="GEOID">1936705</SimpleData>
+		<SimpleData name="NAMELSAD">Holland city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C1</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">644794</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+42.3999554</SimpleData>
+		<SimpleData name="INTPTLON">-092.7988148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-92.803465,42.399674 -92.803497,42.400358 -92.803506,42.40054 -92.803483,42.402197 -92.803467,42.403768 -92.801739,42.403769 -92.800075,42.403774 -92.798439,42.403778 -92.796807,42.40378 -92.794215,42.403823 -92.794226,42.401935 -92.794228,42.401669 -92.794231,42.401492 -92.79425,42.401393 -92.79428,42.400554 -92.794327,42.400036 -92.794327,42.399331 -92.794327,42.398813 -92.794298,42.397544 -92.794314,42.396658 -92.794322,42.396239 -92.794301,42.39596 -92.796805,42.395983 -92.801412,42.396028 -92.801471,42.396576 -92.802301,42.396565 -92.803499,42.396549 -92.803465,42.399674</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>

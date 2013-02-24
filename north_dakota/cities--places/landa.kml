@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>landa</name>
+<Schema name="landa" id="landa">
+	<SimpleField name="Name" type="string"/>
+	<SimpleField name="Description" type="string"/>
+	<SimpleField name="STATEFP" type="string"/>
+	<SimpleField name="PLACEFP" type="string"/>
+	<SimpleField name="PLACENS" type="string"/>
+	<SimpleField name="GEOID" type="string"/>
+	<SimpleField name="NAMELSAD" type="string"/>
+	<SimpleField name="LSAD" type="string"/>
+	<SimpleField name="CLASSFP" type="string"/>
+	<SimpleField name="PCICBSA" type="string"/>
+	<SimpleField name="PCINECTA" type="string"/>
+	<SimpleField name="MTFCC" type="string"/>
+	<SimpleField name="FUNCSTAT" type="string"/>
+	<SimpleField name="ALAND" type="float"/>
+	<SimpleField name="AWATER" type="float"/>
+	<SimpleField name="INTPTLAT" type="string"/>
+	<SimpleField name="INTPTLON" type="string"/>
+</Schema><Placemark>
+	<name>Landa</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landa">
+		<SimpleData name="Name">Landa</SimpleData>
+		<SimpleData name="STATEFP">38</SimpleData>
+		<SimpleData name="PLACEFP">44700</SimpleData>
+		<SimpleData name="PLACENS">01036116</SimpleData>
+		<SimpleData name="GEOID">3844700</SimpleData>
+		<SimpleData name="NAMELSAD">Landa city</SimpleData>
+		<SimpleData name="LSAD">25</SimpleData>
+		<SimpleData name="CLASSFP">C5</SimpleData>
+		<SimpleData name="PCICBSA">N</SimpleData>
+		<SimpleData name="PCINECTA">N</SimpleData>
+		<SimpleData name="MTFCC">G4110</SimpleData>
+		<SimpleData name="FUNCSTAT">A</SimpleData>
+		<SimpleData name="ALAND">196794</SimpleData>
+		<SimpleData name="AWATER">0</SimpleData>
+		<SimpleData name="INTPTLAT">+48.8958458</SimpleData>
+		<SimpleData name="INTPTLON">-100.9119715</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-100.914968,48.896865 -100.915172,48.897307 -100.914691,48.897191 -100.913829,48.89764 -100.913099,48.897848 -100.912794,48.897915 -100.91256,48.89791 -100.912208,48.8978 -100.911856,48.897901 -100.911235,48.898087 -100.910767,48.898211 -100.910729,48.898252 -100.909266,48.898401 -100.909239,48.896892 -100.909096,48.8947 -100.909119,48.894409 -100.909135,48.893772 -100.909737,48.893776 -100.912089,48.893791 -100.913,48.893798 -100.91375,48.8938 -100.914931,48.8938 -100.915119,48.893801 -100.914968,48.896865</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder></Document></kml>
